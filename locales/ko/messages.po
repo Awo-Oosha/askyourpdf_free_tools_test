@@ -1,0 +1,3554 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-18 00:16+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.4\n"
+
+#~ msgid "  Streamline research, generate structured summaries, and createcohesive and comprehensive <br /> reviews that elevate your academic"
+#~ msgstr " 연구를 간소화하고 구조화된 요약을 생성하며 학문적인 업적을 높이는 일관된 종합 리뷰를 작성하십시오."
+
+#: components/PdfToChat/Discover.tsx:177
+#: components/PdfToChat/Discover.tsx:180
+msgid "{0}"
+msgstr ""
+
+#: components/Api/Pricing.tsx:291
+#: components/Api/Pricing.tsx:355
+#: pages/billing/index.tsx:852
+#: pages/billing/upgrade.tsx:720
+#: pages/billing/upgrade.tsx:821
+msgid "{0} document pages <0>monthly</0>"
+msgstr "{0} 문서 페이지 <0>월간</0>"
+
+#: pages/billing/index.tsx:934
+#: pages/settings/index.tsx:946
+msgid "{0} ending in <0>*{1}</0>"
+msgstr "{0} <0>*{1}</0>로 끝나는"
+
+#: components/DocumentUpload.tsx:330
+#: components/literature-review/LiteratureUpload.tsx:401
+#: components/Summarisation/SummariseUpload.tsx:409
+msgid "{0} file upload failed"
+msgstr "{0} 파일 업로드 실패"
+
+#: components/Api/Pricing.tsx:284
+#: components/Api/Pricing.tsx:348
+#: pages/billing/index.tsx:846
+#: pages/billing/upgrade.tsx:713
+#: pages/billing/upgrade.tsx:814
+msgid "{0} messages <0>monthly</0>"
+msgstr "{0} 메시지 <0>월간</0>"
+
+#~ msgid "{0} Plan"
+#~ msgstr "{0} 플랜"
+
+#: pages/settings/index.tsx:1075
+#: pages/settings/index.tsx:1110
+#: pages/settings/index.tsx:1155
+#: pages/settings/index.tsx:1192
+msgid "{0} Quota Used"
+msgstr "{0} 사용량"
+
+#~ msgid "{0} Used"
+#~ msgstr "{0} 사용됨"
+
+#: pages/knowledge-base/[[...params]].tsx:1463
+msgid "{errorMessage}"
+msgstr "{errorMessage}"
+
+#: pages/privacy/index.tsx:66
+msgid "<0>1. Account Information:</0> When you create an account with us, we collect basic information such as your name, email address, and password. This information is used to identify you and provide personalized services."
+msgstr "<0>1. 계정 정보:</0> 당사와 계정을 생성할 때, 이름, 이메일 주소, 비밀번호와 같은 기본 정보를 수집합니다. 이 정보는 본인 확인과 개인화된 서비스 제공을 위해 사용됩니다."
+
+#: pages/privacy/index.tsx:75
+msgid "<0>2. Uploaded documents:</0> When you upload a document to our platform, we temporarily store the file to provide you with our conversational document service. We do not use your documents for any other purposes."
+msgstr "<0>2. 업로드된 문서:</0> 플랫폼에 문서를 업로드하면 해당 파일을 일시적으로 저장하여 대화형 문서 서비스를 제공합니다. 문서는 다른 용도로 사용하지 않습니다."
+
+#: pages/privacy/index.tsx:84
+msgid "<0>3. User Interactions:</0> We collect data about how you interact with our services. This includes data such as the time, frequency, and duration of your interactions. This helps us understand usage patterns, improve our services, and provide you with a more personalized experience."
+msgstr "<0>3. 사용자 인터랙션:</0> 서비스 사용 방식에 대한 데이터를 수집합니다. 이는 서비스 사용 시간, 빈도, 기간 등의 데이터가 포함됩니다. 이를 통해 사용 패턴을 이해하고 서비스를 개선하며 개인화된 경험을 제공할 수 있습니다."
+
+#: components/DocumentUpload.tsx:441
+#: components/Summarisation/SummariseUpload.tsx:529
+#: components/tools/DocUploadNoFunc.tsx:384
+msgid "<0>Click to upload</0> or drag and drop"
+msgstr "<0>클릭하여 업로드</0> 또는 드래그 앤 드롭"
+
+#~ msgid "<0>Keep this document public.</0> (That means this document can be shared)"
+#~ msgstr "<0>이 문서를 공개로 유지하세요.</0> (문서를 공유할 수 있음)"
+
+#: components/Modals/OldDocumentDeleteModal.tsx:132
+msgid "<0>Warning: </0>"
+msgstr "경고:"
+
+#: pages/upload/index.tsx:252
+msgid "<0>We'll assign an ID to your document.</0> You'll be able to start a conversation in ChatGPT based on the document uploaded. You can upgrade your account to increase your limits."
+msgstr "<0>문서에 ID를 할당할 것입니다.</0> 업로드한 문서를 기반으로 ChatGPT에서 대화를 시작할 수 있습니다. 계정을 업그레이드하여 제한을 늘릴 수 있습니다."
+
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:462
+#: components/Modals/CreateAPIKeyDesktop.tsx:478
+msgid "<0>You'll only see your API key once</0> after it's generated. Please make sure to save it securely."
+msgstr "<0>API 키는 생성 후 한 번만 볼 수 있습니다.</0> 반드시 안전하게 저장하세요."
+
+#~ msgid ">If you have any questions or problems while using AskYourPDF, you can contact our support team, who will be happy to help you."
+#~ msgstr ">AskYourPDF 사용 중 문의사항이나 문제가 있다면, 친절히 도와드리는 지원팀에 문의하세요."
+
+#: pages/billing/index.tsx:842
+#: pages/billing/upgrade.tsx:707
+#: pages/billing/upgrade.tsx:799
+msgid "${0}/month"
+msgstr "월 ${0}"
+
+#: components/Api/Pricing.tsx:277
+#: components/Api/Pricing.tsx:333
+msgid "${0}<0>/month</0>"
+msgstr "${0}<0>/月</0>"
+
+#: pages/settings/index.tsx:646
+msgid "1200 questions / day"
+msgstr "하루 1200개 질문"
+
+#: pages/settings/index.tsx:760
+msgid "150 documents per day"
+msgstr "하루 150개 문서"
+
+#: pages/settings/index.tsx:643
+msgid "50 documents per day"
+msgstr "하루 50개 문서"
+
+#: components/PdfToChat/ApiBanner.tsx:82
+msgid "A seamless integration that takes your conversations to the next level. With this powerful plugin, ChatGPT gains the ability to access and provide insights from your documents hosted on AskYourPDF."
+msgstr "대화를 더 높은 수준으로 끌어올리는 원활한 통합. 이 강력한 플러그인을 통해 ChatGPT는 AskYourPDF에서 호스팅된 문서에 접근하고 그로부터 통찰력을 제공할 수 있습니다."
+
+#: pages/knowledge-base/intro.tsx:293
+msgid "Absolutely! Click on the menu icon by the Knowledge Base and click on Copy ID in the dropdown. You can then paste this ID in the ChatGPT UI to have a conversation with the Knowledge Base"
+msgstr "당연히 가능합니다! 지식 베이스 옆에 있는 메뉴 아이콘을 클릭하고 드롭다운에서 \"ID 복사\"를 클릭하세요. 그런 다음 ChatGPT UI에 이 ID를 붙여넣어 지식 베이스와 대화를 나눌 수 있습니다."
+
+#: utils/faqData.tsx:97
+msgid "Absolutely. Data privacy is our top priority. The application employs industry-standard SSL encryption to ensure the protection of your information."
+msgstr "물론입니다. 데이터 개인 정보 보호는 우리의 최우선 과제입니다. 이 응용 프로그램은 산업 표준 SSL 암호화를 사용하여 정보를 보호합니다."
+
+#: components/PdfToChat/Discover.tsx:32
+msgid "Academic Excellence"
+msgstr "학문적 우수성 "
+
+#: utils/termsData.ts:11
+msgid "Acceptance of Terms"
+msgstr "약관 동의"
+
+#: pages/settings/index.tsx:504
+msgid "Account plans"
+msgstr "계정 플랜"
+
+#: components/Modals/PaymentBottomSheet.tsx:150
+#: components/Modals/PaymentModalDesktop.tsx:153
+msgid "Account Upgraded"
+msgstr "업그레이드된 계정"
+
+#: components/Settings/AccountLinkedSuccessModal.tsx:66
+msgid "Accounts Linked Successfully"
+msgstr "계정이 성공적으로 연결되었습니다"
+
+#: components/Extension/Download.tsx:169
+msgid "Add Our Chrome Extension"
+msgstr "우리 크롬 확장 프로그램에 추가"
+
+#: components/Extension/ExtensionHero.tsx:244
+#: components/Landing/ExtensionAnnouncement.tsx:129
+#: components/PdfToChat/ExtensionAnnouncement.tsx:129
+msgid "Add the AskyourPDF extension to your Chrome browser to start chatting effortlessly with any PDF. It saves you hours and boosts your productivity!"
+msgstr "Chrome 브라우저에 AskyourPDF 확장 프로그램을 추가하면 모든 PDF와 손쉽게 채팅을 시작할 수 있습니다. 수시간을 절약하고 생산성을 높일 수 있습니다!"
+
+#: components/literature-review/LiteratureSideBar.tsx:306
+#: components/Summarisation/SummariseSideBar.tsx:359
+msgid "Advanced Parameters"
+msgstr "고급 매개변수"
+
+#: components/Footer.tsx:363
+msgid "Affiliate Program"
+msgstr "제휴 프로그램"
+
+#: components/PdfToChat/SummarizeGuide.tsx:177
+msgid "After the document has been processed, you can customize the summary based on your preferences. <0/>Set settings such as the desired length of the summary to make it as brief or as informative as you want. Set text formatting choices to ensure that the summary follows your desired style. You can include a prompt to instruct AskYourPDF on how to summarise the document. However, if you prefer not to provide a prompt, you can skip this step."
+msgstr "문서가 처리된 후에는 선호에 따라 요약을 사용자 정의할 수 있습니다. <0/> 원하는 길이와 같은 설정을 설정하여 원하는대로 간결하거나 정보를 풍부하게 만들 수 있습니다. 텍스트 형식 설정 옵션을 설정하여 요약이 원하는 스타일을 따르도록 할 수 있습니다. 문서를 어떻게 요약할지에 대한 지시를 포함하여 AskYourPDF에 지시할 수도 있습니다. 그러나 지시를 제공하지 않으려면 이 단계를 건너뛸 수 있습니다."
+
+#: components/Footer.tsx:307
+msgid "AI Literature Review Writer"
+msgstr ""
+
+#: pages/tools/literature-review-writer/index.tsx:354
+msgid "AI Literature Review Writer Tool"
+msgstr ""
+
+#: components/Landing/Features.tsx:227
+#: components/PdfToChat/Features.tsx:233
+msgid "All on Your Terms"
+msgstr "모든 것을 당신의 조건으로"
+
+#: pages/documents/[[...id]]/index.tsx:969
+msgid "Allow your conversation with this document to be shareable."
+msgstr "이 문서와의 대화를 공유할 수 있도록 허용하십시오."
+
+#: pages/billing/index.tsx:1069
+#: pages/settings/index.tsx:170
+msgid "Amount"
+msgstr "금액"
+
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:316
+#: components/Modals/CreateAPIKeyDesktop.tsx:331
+msgid "An error has occured"
+msgstr "오류가 발생했습니다"
+
+#: pages/conversations/[[...params]].tsx:971
+#: pages/knowledge-base/[[...params]].tsx:1543
+#: pages/summarise/index.tsx:245
+#: pages/tools/literature-review-writer/index.tsx:299
+msgid "An error occurred"
+msgstr "오류가 발생했습니다"
+
+#: components/Modals/DocumentSelectModal.tsx:393
+msgid "An error occurred while creating the knowledge base. Please try again."
+msgstr "ナレッジベースの作成中にエラーが発生しました。もう一度お試しください."
+
+#: components/Modals/DocumentSelectModal.tsx:434
+msgid "An error occurred while deleting the conversation. However, the associated knowledge base has been deleted. Please delete the conversation manually."
+msgstr "会話の削除中にエラーが発生しましたが、関連するナレッジベースは削除されました。会話を手動で削除してください."
+
+#: components/Modals/DocumentSelectModal.tsx:450
+msgid "An error occurred while deleting the knowledge base. Please try again."
+msgstr "ナレッジベースの削除中にエラーが発生しました。もう一度お試しください。"
+
+#: components/Settings/LinkAccountCall.tsx:86
+msgid "An error occurred while linking your mobile device. Please try again"
+msgstr "모바일 기기를 연결하는 중 오류가 발생했습니다. 다시 시도해주세요"
+
+#: pages/documents/[[...id]]/index.tsx:699
+msgid "An error occurred while loading the document. Please try again"
+msgstr "문서 로드 중 오류가 발생했습니다. 다시 시도해 주세요"
+
+#: pages/billing/index.tsx:690
+#: pages/settings/index.tsx:309
+msgid "An error occurred while loading your subscription. Please try again"
+msgstr "구독 로드 중 오류가 발생했습니다. 다시 시도해 주세요"
+
+#: components/SearchResults.tsx:371
+msgid "An error occurred while searching for <0>\"{debouncedSearchTerm}\"</0>. Please try again."
+msgstr "<0>\"{debouncedSearchTerm}\"</0> 검색 중 오류가 발생했습니다. 다시 시도해 주세요."
+
+#: components/Modals/DocumentSelectModal.tsx:414
+msgid "An error occurred while updating the knowledge base. Please try again."
+msgstr "ナレッジベースの更新中にエラーが発生しました。もう一度お試しください。"
+
+#: pages/billing/index.tsx:713
+#: pages/settings/index.tsx:331
+msgid "An error occurred. Please try again"
+msgstr "오류가 발생했습니다. 다시 시도해 주세요"
+
+#: components/DocumentUpload.tsx:482
+#: components/literature-review/LiteratureUpload.tsx:577
+#: components/Summarisation/SummariseUpload.tsx:599
+msgid "Analysing Document"
+msgstr "문서 분석 중"
+
+#: components/APIKeysList.tsx:591
+#: components/APIKeysList.tsx:754
+msgid "Analytics for Default Key"
+msgstr "기본 키 분석"
+
+#~ msgid "Analyzing Document"
+#~ msgstr "문서 분석 중"
+
+#: components/Footer.tsx:282
+msgid "Android App"
+msgstr "안드로이드 앱"
+
+#: components/Landing/Plans.tsx:432
+#: components/PdfToChat/Plans.tsx:432
+msgid "Annual"
+msgstr "연간"
+
+#: components/Modals/ShareModal.tsx:201
+msgid "Anyone with this link can start a new conversation with this document. Chats are not shared."
+msgstr "이 링크가 있는 사람은 누구나 이 문서와 새로운 대화를 시작할 수 있습니다. 채팅은 공유되지 않습니다."
+
+#: components/Footer.tsx:264
+#: components/Navbar.tsx:332
+#: components/Navbar.tsx:389
+#: components/tools/ToolBarExt.tsx:273
+#: components/tools/ToolBarExt.tsx:307
+msgid "API"
+msgstr "API"
+
+#: components/Modals/PaymentModalContent.tsx:387
+msgid "API Access"
+msgstr "API 접근"
+
+#~ msgid "API Access (Test Keys)"
+#~ msgstr "API 액세스 (테스트 키)"
+
+#: components/APIKeysList.tsx:560
+#: components/APIKeysList.tsx:724
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:384
+msgid "API Key"
+msgstr "API 키"
+
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:393
+#: components/Modals/CreateAPIKeyDesktop.tsx:406
+msgid "API Key copied"
+msgstr "API 키 복사됨"
+
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:364
+#: components/Modals/CreateAPIKeyDesktop.tsx:375
+msgid "API Key Generated"
+msgstr "생성된 API 키"
+
+#: components/DeveloperSidebar.tsx:137
+#: pages/apikeys/index.tsx:349
+#: pages/apikeys/index.tsx:368
+#: pages/apikeys/index.tsx:386
+#: pages/billing/index.tsx:806
+#: pages/billing/upgrade.tsx:624
+msgid "API Keys"
+msgstr "API 키"
+
+#: pages/apikeys/index.tsx:394
+msgid "API keys let you connect seamlessly with our APIs"
+msgstr "API 키를 사용하면 API와 원활하게 연결할 수 있습니다"
+
+#: pages/apikeys/index.tsx:391
+msgid "API Management"
+msgstr "API 관리"
+
+#: components/Modals/Profile.tsx:345
+msgid "API Plan"
+msgstr "API 플랜"
+
+#: components/Landing/Products.tsx:157
+#: components/PdfToChat/Products.tsx:157
+msgid "API Service for Developers"
+msgstr "개발자를 위한 API 서비스"
+
+#: utils/termsData.ts:36
+msgid "App Permissions"
+msgstr "앱 권한"
+
+#: components/Modals/ConversationHistoryDeleteModal.tsx:111
+msgid "Are you sure you want to clear your conversation history?"
+msgstr "대화 기록을 정말 지우시겠습니까?"
+
+#: components/Modals/ConversationDeleteModal.tsx:111
+msgid "Are you sure you want to delete this conversation?"
+msgstr "이 대화를 정말 삭제하시겠습니까?"
+
+#: components/Modals/OldDocumentDeleteModal.tsx:127
+msgid "Are you sure you want to delete this document?"
+msgstr "이 문서를 삭제하시겠습니까?"
+
+#: components/Modals/DocumentDeleteModal.tsx:110
+msgid "Are you sure you want to delete this document? The associated conversation will be deleted from our servers as well."
+msgstr "이 문서를 정말 삭제하시겠습니까? 연관된 대화도 서버에서 삭제됩니다."
+
+#: components/Modals/DocumentSelectModal.tsx:758
+msgid "Are you sure you want to delete this knowledge base?"
+msgstr "このナレッジベースを削除してもよろしいですか？"
+
+#: components/Modals/Profile.tsx:248
+msgid "Are you sure you want to delete your account? Deleting your account will result in the permanent loss of all your data."
+msgstr "계정을 삭제하시겠습니까? 계정 삭제는 모든 데이터의 영구적인 손실을 야기합니다."
+
+#: pages/billing/upgrade.tsx:908
+msgid "Are you sure you want to downgrade to a free plan? You'll have access to your pro features until the end of your billing period on {0}"
+msgstr "무료 플랜으로 다운그레이드하시겠습니까? {0}까지 프로 기능을 사용할 수 있습니다"
+
+#: pages/settings/index.tsx:440
+msgid "Are you sure you want to downgrade your account? You'll have access to your {userRole} features until the end of your billing period on {0}"
+msgstr "{0}까지 {userRole} 기능을 사용할 수 있습니다. 계정을 다운그레이드 하시겠습니까?"
+
+#: components/PdfToChat/Guide.tsx:152
+msgid "Ask"
+msgstr "묻다"
+
+#: pages/conversations/[[...params]].tsx:1279
+msgid "Ask any question about your document"
+msgstr "문서에 대한 질문을 해보세요"
+
+#: pages/knowledge-base/[[...params]].tsx:1923
+msgid "Ask any question about your knowledge base"
+msgstr "あなたのナレッジベースに関する質問は何でもどうぞ"
+
+#: pages/conversations/[[...params]].tsx:1133
+#: pages/knowledge-base/[[...params]].tsx:1719
+msgid "Ask me about {0}."
+msgstr "{0}에 대해 물어보세요."
+
+#~ msgid "AskYourPDF"
+#~ msgstr "AskYourPDF"
+
+#: utils/termsData.ts:32
+msgid "AskYourPDF allows you to import and view documents. You retain     full ownership and control over the content you import into the app. We do not claim ownership of your content, nor do we monitor or access it unless required by  applicable laws."
+msgstr "AskYourPDF를 통해 문서를 가져오고 볼 수 있습니다. 앱에 가져온 콘텐츠의 모든 소유권과 제어권은 보유합니다. 해당 법률에서 요구하지 않는 한, 귀하의 콘텐츠 소유권을 주장하거나 모니터링/접근하지 않습니다."
+
+#: components/Api/Pricing.tsx:265
+msgid "AskYourPDF API Pricing"
+msgstr "AskYourPDF API 가격"
+
+#: components/Landing/Features.tsx:290
+#: components/PdfToChat/Features.tsx:315
+msgid "AskYourPDF brings the magic of AI to your fingertips! Dive into smart navigation, no more endless scrolling or page skimming."
+msgstr "AskYourPDF가 AI의 마법을 손끝에 가져옵니다! 스마트 탐색으로 뛰어들어 무한 스크롤이나 페이지 스키밍 없이."
+
+#: components/Extension/Methods.tsx:143
+msgid "AskYourPDF Chrome extension lets you seamlessly have intelligent conversations with your PDF documents. Whether you're working together with others or making notes for yourself, the extension makes it quick and straightforward to extract valuable information, all without leaving the comfort of your browser."
+msgstr "AskYourPDF 크롬 확장 프로그램을 사용하면 PDF 문서와 스마트 대화를 원활하게 할 수 있습니다. 다른 사람과 협업하거나 자신을 위한 메모를 작성하더라도 이 확장 프로그램을 통해 손쉽게 가치 있는 정보를 추출할 수 있으며, 브라우저를 떠나지 않고 모두 처리할 수 있습니다."
+
+#: components/PdfToChat/Discover.tsx:38
+msgid "AskYourPDF gives researchers and academics the ability to speed up their work by quickly extracting data and insights from large PDF documents."
+msgstr "AskYourPDF는 연구자와 학자들이 대용량 PDF 문서에서 데이터와 인사이트를 신속하게 추출하여 작업 속도를 높일 수 있는 기능을 제공합니다."
+
+#: utils/termsData.ts:62
+msgid "AskYourPDF is provided on an \"as is\" and \"as available\" basis. We do not warrant that AskYourPDF will be uninterrupted, error-free, or free from downtime."
+msgstr "AskYourPDF는 \"있는 그대로\" 및 \"사용 가능한 대로\" 제공됩니다. 중단/오류/다운타임 없이 제공한다고 보증하지 않습니다."
+
+#: utils/faqData.tsx:31
+msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See <0>here</0> for details]."
+msgstr "AskYourPDF는 Premium, Pro 및 Enterprise의 세 가지 계획을 제공합니다. [자세한 내용은 <0>여기</0>를 참조하세요]."
+
+#: utils/faqData.tsx:29
+msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See here (https://askyourpdf.com/settings) for details]."
+msgstr "AskYourPDF는 프리미엄, 프로 및 엔터프라이즈 세 가지 플랜을 제공합니다. [세부 정보는 여기(https://askyourpdf.com/settings)를 참조하십시오]."
+
+#: components/PdfToChat/ApiBanner.tsx:79
+msgid "AskYourPDF Plugin for ChatGPT"
+msgstr "ChatGPT용 AskYourPDF 플러그인"
+
+#: pages/knowledge-base/intro.tsx:260
+msgid "AskYourPDF uses AI to scan all the documents within the knowledge base to provide answers based on the collective information they contain."
+msgstr "AskYourPDF는 지식 베이스 내의 모든 문서를 스캔하여 그들이 포함하고 있는 집단 정보를 기반으로 답변을 제공하기 위해 인공 지능을 사용합니다."
+
+#: pages/knowledge-base/intro.tsx:262
+msgid "AskYourPDF uses AI to scan all the documents within the knowledge base to provide answers based on the collective information they contain. <0>Learn more</0>"
+msgstr "AskYourPDF는 지식 베이스 내의 모든 문서를 스캔하여 그들이 포함하고 있는 집단 정보를 기반으로 답변을 제공하기 위해 인공 지능을 사용합니다. <0>더 알아보기</0>"
+
+#: pages/knowledge-base/intro.tsx:283
+msgid "AskYourPDF will produce a consolidated answer based on the contents of both documents. What's even better is, you can prompt it to give you answers from on a specific document in your knowledge base."
+msgstr "AskYourPDF는 두 문서의 내용을 기반으로 통합된 답변을 제공할 것입니다. 더 좋은 것은 지식 베이스 내의 특정 문서에서 답변을 받도록 지시할 수 있다는 것입니다."
+
+#: components/Affiliate/Header.tsx:198
+msgid "At AskYourPDF we cherish our community and think you should be rewarded for spreading the word about our platform's advantages. To earn 30% commission on all payments made by users you refer within the first 12 months, Join our affiliate program."
+msgstr "AskYourPDF에서는 커뮤니티를 소중히 여기고 플랫폼의 장점에 대해언급함으로써 보상받아야 한다고 생각합니다.첫 12개월 동안 참조하는 사용자가 지불하는 모든 지불에 대해 30%의 커미션을"
+
+#: pages/privacy/index.tsx:98
+msgid "At AskYourPDF, we value and respect your control over your data. You can delete your uploaded document files from our service at any time, completely erasing them from our servers. To ensure the privacy of our free users, we go one step further by automatically deleting uploaded files a few hours after use. This helps us ensure that no residual data remains on our servers longer than necessary."
+msgstr "AskYourPDF에서는 데이터에 대한 통제권을 존중합니다. 서비스에서 업로드된 파일을 언제든지 삭제하여 서버에서 완전히 지울 수 있습니다. 무료 사용자의 프라이버시 보호를 위해 사용 후 몇 시간 뒤 자동으로 업로드된 파일을 삭제합니다. 필요 이상으로 데이터가 서버에 남아있지 않도록 보장하는 데 도움이 됩니다."
+
+#: pages/privacy/index.tsx:43
+msgid "At AskYourPDF, your privacy isn't just our responsibility – it's the foundation of the trust we hope to build with you. We are deeply committed to creating a platform where you can interact with your documents without compromising on your privacy. This Privacy Policy explains our practices in detail, outlining what data we collect, how we collect it, why we collect it, and how we ensure that your data is handled with the highest level of care."
+msgstr "AskYourPDF에서는 귀하의 프라이버시가 단순히 책임 이상으로, 귀하와의 신뢰 구축의 토대입니다. 문서와 상호작용하면서 프라이버시를 침해하지 않는 플랫폼 구축을 위해 노력합니다. 이 개인정보처리방침에서는 수집하는 데이터, 수집 방법과 이유, 데이터 보호를 위한 노력 등을 자세히 설명합니다."
+
+#: utils/termsData.ts:41
+msgid "Automatically Collected Information"
+msgstr "자동 수집 정보"
+
+#: components/Modals/Profile.tsx:292
+msgid "Back to Homepage"
+msgstr "홈페이지로 돌아가기"
+
+#: pages/tools/literature-review-writer/index.tsx:350
+#: pages/tools/merge/index.tsx:689
+#: pages/tools/ocr/index.tsx:307
+#: pages/tools/split/index.tsx:816
+msgid "Back to tools"
+msgstr "도구로 돌아가기"
+
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:449
+#: components/Modals/CreateAPIKeyDesktop.tsx:465
+msgid "Before generating your API Key"
+msgstr "API 키 생성 전 확인하세요"
+
+#: pages/chat/[[...docID]]/index.tsx:316
+msgid "Begin a conversation with me by uploading a document. I'll respond with anything you need based on the document"
+msgstr "문서 업로드를 통해 나와 대화를 시작하세요. 문서 기반으로 필요한 모든 응답을 드리겠습니다"
+
+#: components/PdfToChat/Guide.tsx:139
+msgid "Begin by effortlessly uploading your PDF documents to our platform."
+msgstr "PDF 문서를 손쉽게 저희 플랫폼에 업로드하여 시작하세요."
+
+#: components/DeveloperSidebar.tsx:155
+#: pages/apikeys/index.tsx:376
+#: pages/apikeys/index.tsx:386
+#: pages/billing/index.tsx:787
+#: pages/billing/index.tsx:814
+#: pages/billing/upgrade.tsx:605
+#: pages/billing/upgrade.tsx:632
+msgid "Billing"
+msgstr "청구"
+
+#~ msgid "BlockTechnology OÜ. All rights reserved. © {year}"
+#~ msgstr "BlockTechnology OÜ. All rights reserved. © {year}"
+
+#: components/Footer.tsx:417
+msgid "BlockTechnology OÜ. All rights reserved. ©{year}"
+msgstr "BlockTechnology OÜ. 모든 권리 보유. ©{year}"
+
+#: components/Footer.tsx:358
+msgid "Blog"
+msgstr "블로그"
+
+#: components/Landing/Products.tsx:150
+#: components/PdfToChat/Products.tsx:150
+msgid "Browser Extension"
+msgstr "브라우저 확장 프로그램"
+
+#: components/Modals/ConversationFeedback.tsx:368
+#: components/Modals/ConversationFeedback.tsx:478
+msgid "Bug"
+msgstr "버그"
+
+#: components/Api/Header.tsx:157
+msgid "Build Better With The"
+msgstr "API로 더 나은 것을 만들다"
+
+#: components/PdfToChat/Discover.tsx:48
+msgid "Business analysts and professionals can extract valuable market insights and competitive intelligence from industry reports."
+msgstr "비즈니스 분석가와 전문가들은 산업 보고서에서 가치 있는 시장 인사이트와 경쟁 정보를 추출할 수 있습니다."
+
+#: components/PdfToChat/Discover.tsx:47
+msgid "Business Intelligence"
+msgstr "비즈니스 인텔리전스 "
+
+#: components/BuyCredits.tsx:111
+msgid "Buy Credit"
+msgstr "크레딧 구매"
+
+#: components/Modals/UnitsExceededModal.tsx:119
+msgid "Buy Credits"
+msgstr ""
+
+#: components/Conversations/CreditBalance.tsx:131
+msgid "Buy More Credit"
+msgstr "크레딧 추가 구매"
+
+#~ msgid "Buy Plan"
+#~ msgstr "플랜 구매"
+
+#: utils/termsData.ts:12
+msgid "By accessing or using AskYourPDF, you agree to be bound by these terms andconditions. If you do not agree with these terms and conditions, you must not use AskYourPDF."
+msgstr "AskYourPDF에 접속하거나 사용함으로써 이 약관에 구속됨에 동의하는 것입니다. 이 약관에 동의하지 않는 경우 AskYourPDF를 사용해서는 안 됩니다."
+
+#: pages/file-upload/index.tsx:390
+msgid "By starting a conversation you agree with our data privacy policy and terms"
+msgstr "대화 시작 시 데이터 프라이버시 정책 및 약관에 동의하는 것입니다"
+
+#: components/PdfToChat/Discover.tsx:43
+msgid "By streamlining case analysis and research, professionals can make legal documents more accessible and understandable using AskYourPDF."
+msgstr " 사건 분석과 연구를 간소화함으로써 전문가들은 AskYourPDF를 사용하여 법적 문서를 더 쉽게 접근하고 이해할 수 있습니다."
+
+#: components/PdfToChat/Discover.tsx:33
+msgid "By using AskYouPDF to swiftly access information within textbooks, research papers, and study materials, students may acquire a competitive advantage."
+msgstr "학생들은 AskYourPDF를 사용하여 교과서, 연구 논문 및 학습 자료 내의 정보에 신속하게 접근함으로써 경쟁 우위를 확보할 수 있습니다."
+
+#: pages/privacy/index.tsx:167
+msgid "By using AskYourPDF, you acknowledge that you have read, understood, and agreed to the practices as described in this Privacy Policy."
+msgstr "AskYourPDF를 사용함으로써 본 개인정보처리방침에 설명된 내용을 읽고 이해하며 동의했음을 인정합니다."
+
+#~ msgid "By using AskYourPDF, you agree to receive periodic emails related to product updates, including but not limited to new features, enhancements, and changes to existing functionality. These emails aim to keep you informed about improvements and updates to the app that may affect your user experience. You have the option to unsubscribe from these emails at any time through the unsubscribe link provided in the email."
+#~ msgstr "AskYourPDF를 사용함으로써 제품 업데이트와 관련된 주기적인 이메일을 수신하는 데 동의합니다. 새로운 기능, 향상 및 기존 기능 변경뿐만 아니라 포함됩니다. 이러한 이메일은 사용자 경험에 영향을 줄 수 있는 앱의 개선 사항 및 업데이트에 대한 정보를 유지하려는 목적으로 제공됩니다. 당신은 이러한 이메일을 언제든지 이메일에 제공된 구독 해제 링크를 통해 구독 취소할 수 있는 옵션을 가지고 있습니다."
+
+#: utils/faqData.tsx:81
+msgid "Can I chat in any language?"
+msgstr "다른 언어로 채팅이 가능한가요?"
+
+#: pages/chat/[[...docID]]/index.tsx:255
+#: utils/faqData.tsx:59
+msgid "Can I chat with other users of the application?"
+msgstr "앱의 다른 사용자들과 채팅이 가능한가요?"
+
+#: utils/faqData.tsx:86
+msgid "Can I download the chat history?"
+msgstr "채팅 기록을 다운로드할 수 있나요?"
+
+#: utils/faqData.tsx:101
+msgid "Can I edit the document while using AskYourPDF?"
+msgstr "AskYourPDF 사용 중 문서를 편집할 수 있나요?"
+
+#: pages/knowledge-base/intro.tsx:287
+msgid "Can I modify my Knowledge Base?"
+msgstr "내 지식 베이스를 수정할 수 있을까요?"
+
+#: pages/chat/[[...docID]]/index.tsx:245
+#: pages/knowledge-base/intro.tsx:277
+#: utils/faqData.tsx:23
+msgid "Can I upload any document?"
+msgstr "모든 종류의 문서를 업로드할 수 있나요?"
+
+#: utils/faqData.tsx:117
+msgid "Can I upload multiple documents at once?"
+msgstr "한번에 여러 문서를 업로드할 수 있나요?"
+
+#~ msgid "Can I upload password-protected documents to AskYourPDF"
+#~ msgstr "AskYourPDF에 비밀번호 보호 문서를 업로드할 수 있나요?"
+
+#: utils/faqData.tsx:123
+msgid "Can I upload password-protected documents to AskYourPDF?"
+msgstr "암호로 보호된 문서를 AskYourPDF에 업로드할 수 있나요?"
+
+#: utils/faqData.tsx:107
+msgid "Can I use AskYourPDF on any device?"
+msgstr "AskYourPDF를 모든 기기에서 사용할 수 있나요?"
+
+#: pages/knowledge-base/intro.tsx:292
+msgid "Can I use the Knowledge Base with the AskYourPDF Plugin?"
+msgstr "AskYourPDF 플러그인을 사용하여 지식 베이스를 사용할 수 있을까요?"
+
+#: components/Modals/ConversationFeedback.tsx:409
+#: components/Modals/ConversationFeedback.tsx:518
+msgid "Cancel"
+msgstr "취소"
+
+#: pages/settings/index.tsx:577
+msgid "Cancel Current Subscription"
+msgstr "현재 구독 취소"
+
+#: pages/billing/upgrade.tsx:761
+msgid "Cancel Plan"
+msgstr "플랜 취소"
+
+#: pages/billing/index.tsx:905
+msgid "Cancel Subscription"
+msgstr "구독 취소"
+
+#: pages/billing/index.tsx:837
+#: pages/billing/upgrade.tsx:669
+#: pages/settings/index.tsx:632
+#: pages/settings/index.tsx:749
+#: pages/settings/index.tsx:841
+msgid "Canceled"
+msgstr "취소됨"
+
+#: components/Modals/UpdatePaymentMethodBottomSheet.tsx:176
+#: components/Modals/UpdatePaymentMethodDesktop.tsx:172
+msgid "Card Number"
+msgstr "카드 번호"
+
+#: pages/knowledge-base/intro.tsx:288
+msgid "Certainly, you have the flexibility to adjust your Knowledge Base as needed. You can add or remove documents at your convenience."
+msgstr "물론 필요에 따라 지식 베이스를 조정할 수 있습니다. 편리하게 문서를 추가하거나 제거할 수 있습니다."
+
+#: components/Modals/Profile.tsx:146
+msgid "Change Password"
+msgstr "비밀번호 변경"
+
+#: pages/privacy/index.tsx:137
+msgid "Changes to the Privacy Policy"
+msgstr "개인정보처리방침 변경"
+
+#: utils/termsData.ts:76
+msgid "Changes to these Terms and Conditions"
+msgstr "이 약관의 변경"
+
+#: components/Footer.tsx:292
+#: components/KnowledgeBaseSidebar.tsx:481
+#: components/MainSidebar.tsx:441
+#: components/Modals/SearchBottomSheet.tsx:152
+#: pages/knowledge-base/[[...params]].tsx:964
+msgid "Chat"
+msgstr "채팅"
+
+#: components/Modals/PaymentModalContent.tsx:285
+msgid "Chat longer with your documents"
+msgstr "문서와 더 오래 채팅하세요"
+
+#: utils/faqData.tsx:130
+msgid "Chat sessions remain available as long as the browser tab is open."
+msgstr "브라우저 탭이 열려 있는 한 채팅 세션이 계속 사용 가능합니다."
+
+#: components/Extension/ExtensionHero.tsx:239
+msgid "Chat with any PDF via our  <0>Chrome Extension</0>"
+msgstr "저희 크롬 확장 프로그램을 통해 어떤 PDF 문서와도 채팅하세요"
+
+#: components/Landing/ExtensionAnnouncement.tsx:124
+#: components/PdfToChat/ExtensionAnnouncement.tsx:124
+msgid "Chat with any PDF via our <0/> <1>Chrome Extension</1>"
+msgstr "우리의 <0/> <1>크롬 확장 프로그램</1>으로 모든 PDF와 채팅하세요"
+
+#: components/Landing/Products.tsx:143
+#: components/PdfToChat/Products.tsx:143
+msgid "ChatGPT Plugin"
+msgstr "ChatGPT 플러그인"
+
+#~ msgid "check your payment method"
+#~ msgstr "확인하세요"
+
+#: components/MainSidebar.tsx:611
+msgid "check your payment method."
+msgstr "お支払い方法を確認してください。"
+
+#: pages/billing/upgrade.tsx:695
+msgid "Choose the preferred plan that suits your application"
+msgstr "앱에 맞는 원하는 플랜을 선택하세요"
+
+#: components/Footer.tsx:273
+msgid "Chrome Extension"
+msgstr "크롬 확장 프로그램"
+
+#: components/Landing/Plans.tsx:592
+#: components/Landing/Plans.tsx:682
+#: components/Modals/PaymentModalContent.tsx:333
+#: components/Modals/PaymentModalContent.tsx:375
+#: components/PdfToChat/Plans.tsx:592
+#: components/PdfToChat/Plans.tsx:682
+#: pages/settings/index.tsx:655
+msgid "Chrome Extension Access"
+msgstr "크롬 익스텐션 접근권한"
+
+#: components/Modals/ConversationHistoryDeleteModal.tsx:123
+msgid "Clear"
+msgstr "지우기"
+
+#: components/Modals/ConversationHistoryDeleteModal.tsx:108
+msgid "Clear Conversation History"
+msgstr "대화 기록 지우기"
+
+#: components/APIKeysList.tsx:671
+msgid "Click the button below to get started"
+msgstr "시작하려면 아래 버튼을 클릭하세요"
+
+#: components/Modals/ConversationFeedback.tsx:351
+#: components/Modals/ConversationFeedback.tsx:461
+msgid "Close"
+msgstr "닫기"
+
+#: components/ToolsFooter.tsx:115
+msgid "Coming Soon"
+msgstr "곧 출시"
+
+#: components/Modals/PaymentSuccessModal.tsx:163
+#~ msgid "Communicating with documents has never felt this easy using AskYourPDF."
+#~ msgstr "AskYourPDF를 사용하여 문서와 소통하는 것이 이렇게 쉬웠던 적이 없습니다."
+
+#: components/Modals/PaymentBottomSheet.tsx:153
+#: components/Modals/PaymentModalDesktop.tsx:156
+msgid "Communicating with documents has never felt this easy using ChatGPT"
+msgstr "ChatGPT를 사용하여 문서와 소통하는 것이 이렇게 쉬웠던 적이 없습니다"
+
+#: components/Modals/PaymentSuccessModal.tsx:208
+#~ msgid "Communicating with documents has never felt this easy using ChatGPT."
+#~ msgstr "ChatGPT를 사용하여 문서와 소통하는 것이 이렇게 쉬웠던 적이 없습니다."
+
+#: components/Footer.tsx:333
+msgid "Company"
+msgstr "회사"
+
+#: components/PdfToChat/MoreTools.tsx:39
+msgid "Compress PDF Tool"
+msgstr "PDF 압축 도구"
+
+#: components/Modals/Profile.tsx:226
+msgid "confirm password"
+msgstr "비밀번호 확인"
+
+#: components/Modals/Profile.tsx:221
+msgid "Confirm Password"
+msgstr "비밀번호 확인"
+
+#: components/Modals/Profile.tsx:187
+msgid "confirm password and new password don' match"
+msgstr "비밀번호 확인과 새 비밀번호가 일치하지 않습니다"
+
+#~ msgid "confirm password and new password don't match"
+#~ msgstr "새 비밀번호와 비밀번호 확인이 일치하지 않습니다"
+
+#~ msgid "Contact us"
+#~ msgstr "문의하기"
+
+#: components/Api/Pricing.tsx:402
+#: components/Footer.tsx:353
+#: components/Landing/Plans.tsx:732
+#: components/PdfToChat/Plans.tsx:732
+#: pages/billing/upgrade.tsx:882
+#: pages/privacy/index.tsx:156
+#: pages/settings/index.tsx:873
+#: pages/settings/index.tsx:881
+msgid "Contact Us"
+msgstr "문의하기"
+
+#: components/Modals/PaymentModalContent.tsx:435
+msgid "Contact Us For Enterprise Plan"
+msgstr "기업 플랜은 문의바랍니다"
+
+#: pages/privacy/index.tsx:94
+msgid "Control Over Your Data"
+msgstr "데이터 통제권"
+
+#: pages/conversations/[[...params]].tsx:906
+#: pages/knowledge-base/[[...params]].tsx:1419
+msgid "Conversation deleted successfully"
+msgstr "대화가 성공적으로 삭제되었습니다"
+
+#: pages/conversations/[[...params]].tsx:936
+#: pages/knowledge-base/[[...params]].tsx:1508
+msgid "Conversation history cleared successfully"
+msgstr "대화 기록이 성공적으로 지워졌습니다"
+
+#: components/Modals/PaymentModalContent.tsx:327
+msgid "Conversation Per Day"
+msgstr "하루 대화 수"
+
+#: components/Landing/Plans.tsx:768
+#: components/PdfToChat/Plans.tsx:768
+msgid "conversations"
+msgstr "대화"
+
+#: components/AppSidebar.tsx:175
+#: components/MainSidebar.tsx:346
+#: components/Navbar.tsx:290
+#: components/Navbar.tsx:347
+#: components/tools/ToolBarExt.tsx:253
+#: components/tools/ToolBarExt.tsx:287
+#: pages/settings/index.tsx:1089
+msgid "Conversations"
+msgstr "대화"
+
+#: components/Landing/Plans.tsx:501
+#: components/Landing/Plans.tsx:583
+#: components/Landing/Plans.tsx:673
+#: components/PdfToChat/Plans.tsx:501
+#: components/PdfToChat/Plans.tsx:583
+#: components/PdfToChat/Plans.tsx:673
+msgid "conversations per day"
+msgstr "하루 대화 수"
+
+#: components/Landing/Features.tsx:224
+#: components/PdfToChat/Features.tsx:230
+msgid "Converse, Learn, Track"
+msgstr "대화하고, 배우고, 기록하세요"
+
+#: components/literature-review/LiteratureMainBar.tsx:302
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:393
+#: components/Modals/CreateAPIKeyDesktop.tsx:406
+#: components/Modals/ShareModal.tsx:189
+#: components/Summarisation/SummariseMainBar.tsx:413
+#: pages/conversations/[[...params]].tsx:1084
+#: pages/documents/[[...id]]/index.tsx:573
+#: pages/documents/[[...id]]/index.tsx:876
+#: pages/knowledge-base/[[...params]].tsx:970
+#: pages/knowledge-base/[[...params]].tsx:1665
+#: pages/upload/index.tsx:303
+msgid "Copied"
+msgstr "복사됨"
+
+#: pages/conversations/[[...params]].tsx:1091
+#: pages/documents/[[...id]]/index.tsx:584
+#: pages/documents/[[...id]]/index.tsx:883
+#: pages/knowledge-base/[[...params]].tsx:981
+#: pages/knowledge-base/[[...params]].tsx:1675
+msgid "Copy ID"
+msgstr "ID 복사"
+
+#: components/SubscriptionGuard.tsx:29
+msgid "Couldn't get your plan"
+msgstr "귀하의 요금제 정보를 가져올 수 없습니다"
+
+#: pages/knowledge-base/intro.tsx:347
+msgid "Create a knowledge base by uploading a document. I'll respond with anything you need based on the document"
+msgstr "문서를 업로드하여 지식 베이스를 만들어보세요. 저는 문서를 기반으로 필요한 정보를 제공할 것입니다"
+
+#: components/KnowledgeBaseSidebar.tsx:552
+#: components/KnowledgeBaseSidebar.tsx:588
+#: components/MainSidebar.tsx:497
+#: components/MainSidebar.tsx:533
+msgid "Create Account"
+msgstr "계정 만들기"
+
+#: pages/documents/[[...id]]/index.tsx:596
+#: pages/knowledge-base/intro.tsx:383
+msgid "Create Knowledge Base"
+msgstr "ナレッジベースを作成する"
+
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:364
+#: components/Modals/CreateAPIKeyDesktop.tsx:375
+msgid "Create New API Key"
+msgstr "새 API 키 생성"
+
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:477
+#: components/Modals/CreateAPIKeyDesktop.tsx:493
+msgid "Create New Key"
+msgstr "새 키 생성"
+
+#: components/KnowledgeBaseSidebar.tsx:738
+#: components/Modals/DocumentSelectModal.tsx:616
+msgid "Create New Knowledge Base"
+msgstr "新しいナレッジベースを作成する"
+
+#: components/BuyCredits.tsx:107
+msgid "credit"
+msgstr "크레딧"
+
+#: components/BuyCredits.tsx:40
+msgid "Credit Purchase Unavailable for Free Users"
+msgstr ""
+
+#: pages/settings/index.tsx:896
+#: pages/settings/index.tsx:904
+msgid "Credits"
+msgstr ""
+
+#: pages/settings/index.tsx:514
+msgid "Current plan"
+msgstr "현재 플랜"
+
+#: pages/billing/upgrade.tsx:649
+msgid "Current Plan"
+msgstr "현재 플랜"
+
+#: components/Api/Pricing.tsx:393
+#: pages/billing/upgrade.tsx:871
+msgid "Custom and flexible pricing for high volume processing"
+msgstr "고용량 처리를 위한 맞춤형 유연한 가격 책정"
+
+#: components/Landing/Plans.tsx:753
+#: components/PdfToChat/Plans.tsx:753
+msgid "Custom Max upload size"
+msgstr "맞춤 최대 업로드 크기"
+
+#: components/PdfToChat/SummarizeGuide.tsx:174
+msgid "Customise Your Summary"
+msgstr "요약 내용을 사용자 정의하세요"
+
+#: components/Landing/Plans.tsx:776
+#: components/PdfToChat/Plans.tsx:776
+msgid "Customizable Link"
+msgstr "맞춤 링크"
+
+#: components/Modals/UpdatePaymentMethodBottomSheet.tsx:189
+#: components/Modals/UpdatePaymentMethodDesktop.tsx:185
+msgid "CVV"
+msgstr "이력서 코드"
+
+#: components/literature-review/LiteratureSideBar.tsx:255
+msgid "Date Range"
+msgstr "날짜 범위"
+
+#: components/Landing/Plans.tsx:780
+#: components/PdfToChat/Plans.tsx:780
+#: pages/settings/index.tsx:862
+msgid "Dedicated 24/7 Support"
+msgstr "24/7 전용 지원"
+
+#: components/Modals/PaymentModalContent.tsx:429
+msgid "Dedicated Support"
+msgstr "전담 지원"
+
+#: components/DocumentUpload.tsx:265
+#: components/literature-review/LiteratureUpload.tsx:335
+#: components/Modals/ConversationDeleteModal.tsx:123
+#: components/Modals/DocumentDeleteModal.tsx:125
+#: components/Modals/OldDocumentDeleteModal.tsx:147
+#: components/Summarisation/SummariseUpload.tsx:343
+#: components/tools/DocUploadNoFunc.tsx:260
+#: pages/conversations/[[...params]].tsx:1106
+#: pages/delete/index.tsx:297
+#: pages/documents/[[...id]]/index.tsx:606
+#: pages/knowledge-base/[[...params]].tsx:1692
+msgid "Delete"
+msgstr "삭제"
+
+#: components/Modals/Profile.tsx:245
+#: components/Modals/Profile.tsx:267
+#: components/Modals/Profile.tsx:366
+msgid "Delete Account"
+msgstr "계정 삭제"
+
+#: components/Modals/ConversationDeleteModal.tsx:108
+msgid "Delete Conversation"
+msgstr "대화 삭제"
+
+#: components/AppSidebar.tsx:318
+msgid "Delete Doc"
+msgstr "문서 삭제"
+
+#: pages/delete/index.tsx:271
+msgid "Delete document"
+msgstr "문서 삭제"
+
+#: components/Modals/DocumentDeleteModal.tsx:107
+#: components/Modals/OldDocumentDeleteModal.tsx:124
+#: pages/documents/[[...id]]/index.tsx:994
+msgid "Delete Document"
+msgstr "문서 삭제"
+
+#: pages/delete/index.tsx:238
+#: pages/delete/index.tsx:245
+#: pages/documents/[[...id]]/index.tsx:794
+#: pages/knowledge-base/[[...params]].tsx:1430
+msgid "Delete Failed"
+msgstr "삭제 실패"
+
+#: components/APIKeysList.tsx:542
+#: components/APIKeysList.tsx:706
+msgid "Delete Key"
+msgstr "키 삭제"
+
+#: components/Modals/DocumentSelectModal.tsx:717
+#: components/Modals/DocumentSelectModal.tsx:755
+#: components/Modals/DocumentSelectModal.tsx:779
+msgid "Delete Knowledge Base"
+msgstr "ナレッジベースを削除する"
+
+#: components/Modals/DocumentSelectModal.tsx:424
+#: pages/knowledge-base/[[...params]].tsx:1419
+msgid "Delete Success"
+msgstr "削除が成功しました"
+
+#: components/Modals/Profile.tsx:125
+msgid "Deletion Failed"
+msgstr "삭제 실패"
+
+#: components/literature-review/LiteratureSideBar.tsx:310
+msgid "Description"
+msgstr "설명"
+
+#: components/Footer.tsx:320
+msgid "Developer Docs"
+msgstr "개발자 문서"
+
+#: components/AppSidebar.tsx:246
+#: components/DeveloperSidebar.tsx:126
+#: components/Footer.tsx:315
+#: components/MobileHeader.tsx:115
+#: pages/apikeys/index.tsx:335
+#: pages/billing/index.tsx:773
+#: pages/billing/upgrade.tsx:591
+msgid "Developers"
+msgstr "개발자"
+
+#: utils/termsData.ts:61
+msgid "Disclaimer of Warranties"
+msgstr "보증의 부인"
+
+#: components/Landing/Features.tsx:232
+#: components/PdfToChat/Features.tsx:238
+msgid "Discover a brand new way to interact with your documents on AskYourPDF."
+msgstr "AskYourPDF에서 문서 상호작용의 새로운 방식을 발견하세요."
+
+#: components/PdfToChat/Discover.tsx:164
+msgid "Discover how AskYouPDF can be applied to various scenarios"
+msgstr "AskYourPDF가 다양한 시나리오에 적용될 수 있는 방법을 발견하세요."
+
+#: components/PdfToChat/MoreTools.tsx:134
+msgid "Discover More <0> Tools </0>"
+msgstr "더 많은 도구를 발견하세요"
+
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:457
+#: components/Modals/CreateAPIKeyDesktop.tsx:473
+msgid "Do not share the generated key with anyone."
+msgstr "생성된 키를 다른 사람과 공유하지 마세요."
+
+#: components/APIKeysList.tsx:681
+msgid "Do not use test keys on production server"
+msgstr "프로덕션 서버에서는 테스트 키를 사용하지 마세요"
+
+#: pages/upload/index.tsx:315
+msgid "Doc ID Successfully Generated"
+msgstr "문서 ID가 성공적으로 생성됨"
+
+#: components/KnowledgeBaseSidebar.tsx:495
+#: components/MainSidebar.tsx:455
+#: components/Modals/SearchBottomSheet.tsx:166
+#: components/Navbar.tsx:310
+#: components/Navbar.tsx:367
+msgid "Docs"
+msgstr "문서"
+
+#: pages/delete/index.tsx:223
+#: pages/documents/[[...id]]/index.tsx:778
+msgid "Document Deleted"
+msgstr "문서 삭제됨"
+
+#: pages/delete/index.tsx:223
+#: pages/documents/[[...id]]/index.tsx:778
+msgid "Document deleted successfully"
+msgstr "문서가 성공적으로 삭제되었습니다"
+
+#: pages/upload/index.tsx:296
+msgid "Document Id"
+msgstr "문서 ID"
+
+#: pages/conversations/[[...params]].tsx:1085
+#: pages/documents/[[...id]]/index.tsx:574
+#: pages/documents/[[...id]]/index.tsx:877
+msgid "Document ID Copied. You can use this ID with our ChatGPT Plugin"
+msgstr ""
+
+#: components/Summarisation/SummariseUpload.tsx:556
+msgid "Document Length Exceeds Limit"
+msgstr "문서 길이가 제한을 초과했습니다"
+
+#: pages/delete/index.tsx:233
+msgid "Document Not Found"
+msgstr "문서를 찾을 수 없습니다"
+
+#: components/Landing/Plans.tsx:506
+#: components/PdfToChat/Plans.tsx:506
+msgid "document per day"
+msgstr "하루 문서 수"
+
+#: components/AppSidebar.tsx:339
+msgid "Documentation"
+msgstr "문서"
+
+#: components/MainSidebar.tsx:356
+msgid "Documents"
+msgstr "문서"
+
+#: pages/knowledge-base/intro.tsx:278
+msgid "Documents natively supported by AskYourPDF can be seamlessly uploaded to the knowledge base."
+msgstr "AskYourPDF에서 기본 지원하는 문서는 지식 베이스에 원활하게 업로드할 수 있습니다."
+
+#: components/Landing/Plans.tsx:588
+#: components/Landing/Plans.tsx:678
+#: components/PdfToChat/Plans.tsx:588
+#: components/PdfToChat/Plans.tsx:678
+msgid "documents per day"
+msgstr "하루 문서 수"
+
+#: components/Modals/PaymentModalContent.tsx:324
+#: components/Modals/PaymentModalContent.tsx:366
+msgid "Documents Upload/day"
+msgstr "하루 문서 업로드 수"
+
+#~ msgid "Does AskYourPDF have any limitations on the number of documents that can be uploaded per day?"
+#~ msgstr "AskYourPDF에서 하루에 업로드할 수 있는 문서 수에 제한이 있나요?"
+
+#: pages/tools/merge/index.tsx:791
+#: pages/tools/split/index.tsx:919
+msgid "Done"
+msgstr "완료"
+
+#: pages/billing/index.tsx:1141
+#: pages/billing/upgrade.tsx:936
+#: pages/settings/index.tsx:468
+msgid "Downgrade"
+msgstr "다운그레이드"
+
+#: pages/billing/index.tsx:1112
+#: pages/billing/upgrade.tsx:905
+#: pages/settings/index.tsx:437
+msgid "Downgrade Account"
+msgstr "계정 다운그레이드"
+
+#: components/Announcements.tsx:31
+#: components/Navbar.tsx:324
+#: components/Navbar.tsx:381
+#: components/tools/ToolBarExt.tsx:268
+#: components/tools/ToolBarExt.tsx:302
+msgid "Download"
+msgstr "다운로드"
+
+#: components/Extension/Download.tsx:182
+#: components/Extension/ExtensionHero.tsx:256
+#: components/Landing/ExtensionAnnouncement.tsx:141
+#: components/PdfToChat/ExtensionAnnouncement.tsx:141
+msgid "Download Extension"
+msgstr "확장프로그램 다운로드"
+
+#: components/PdfToChat/AppSection.tsx:147
+msgid "Download Our <0>App</0>"
+msgstr "우리 앱을 다운로드하세요"
+
+#: components/Extension/Methods.tsx:170
+msgid "Dropbox links"
+msgstr "드롭박스 링크"
+
+#: components/Modals/DocumentSelectModal.tsx:593
+msgid "e.g Exploring the Effects of Climate Change"
+msgstr "例:気候変動の影響を探る"
+
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:388
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:436
+#: components/Modals/CreateAPIKeyDesktop.tsx:401
+#: components/Modals/CreateAPIKeyDesktop.tsx:451
+msgid "e.g My Website API Key"
+msgstr "예: 내 웹사이트 API 키"
+
+#: components/Affiliate/Header.tsx:194
+msgid "Earn 30% Commission"
+msgstr "수수료 30% 획득"
+
+#: components/Settings/LinkAccountCall.tsx:107
+msgid "Easily access your subscription benefits on both mobile and web by linking your accounts. Click the link account button to unify your experience and enjoy AskYourPDF across all platforms."
+msgstr ""
+
+#: pages/knowledge-base/[[...params]].tsx:1066
+#: pages/knowledge-base/[[...params]].tsx:1659
+msgid "Edit Knowledge Base"
+msgstr "ナレッジベースを編集する"
+
+#: components/PdfToChat/Discover.tsx:37
+msgid "Effortless Research"
+msgstr "노력 없는 연구"
+
+#: pages/tools/compress/index.tsx:506
+#~ msgid "Effortlessly compress PDF files while retaining their quality. Reduce file sizes for easier sharing, faster downloads, and efficient storage. The PDF Compression tool ensures that your documents remain clear and accessible, even after compression."
+#~ msgstr "품질을 유지하면서 PDF 파일을 쉽게 압축하세요. 더 쉬운 공유, 더 빠른 다운로드 및 효율적인 저장을 위해 파일 크기를 줄입니다. PDF 압축 도구를 사용하면 압축 후에도 문서가 명확하고 접근 가능한 상태로 유지됩니다."
+
+#: components/Landing/Plans.tsx:528
+#: components/Landing/Plans.tsx:616
+#: components/PdfToChat/Plans.tsx:528
+#: components/PdfToChat/Plans.tsx:616
+msgid "Elevate your document interaction with unlimited chats, full conversation history, and priority support."
+msgstr "무제한 대화, 전체 대화 기록, 우선 지원을 통해 문서 상호작용을 높이세요."
+
+#: components/Modals/Profile.tsx:307
+msgid "Email Address"
+msgstr "이메일 주소"
+
+#: components/Settings/LinkAccountModal.tsx:146
+msgid "Enter Mobile User ID"
+msgstr "모바일 사용자 ID 입력"
+
+#: components/KnowledgeBaseSidebar.tsx:366
+#: components/MainSidebar.tsx:330
+#: components/Modals/DocumentSelectModal.tsx:603
+#: components/Modals/SearchBottomSheet.tsx:116
+msgid "Enter three or more characters"
+msgstr "3자 이상 입력하세요"
+
+#: components/Settings/LinkAccountModal.tsx:138
+msgid "Enter your mobile account ID to link your mobile account to your web account"
+msgstr ""
+
+#: components/Api/Pricing.tsx:389
+#: pages/billing/upgrade.tsx:867
+#: pages/settings/index.tsx:837
+msgid "Enterprise plan"
+msgstr "기업 플랜"
+
+#: components/PdfToChat/Discover.tsx:58
+msgid "Enthusiasts and curious minds can use AskYouPDF to explore topics of interest within digital books and resources."
+msgstr "열렬한 사람들과 호기심 많은 사고들은 디지털 도서와 자료 내에서 관심 주제를 탐색하기 위해 AskYouPDF를 사용할 수 있습니다."
+
+#: components/DocumentUpload.tsx:358
+#: components/tools/DocUploadNoFunc.tsx:322
+#: pages/billing/index.tsx:713
+#: pages/documents/[[...id]]/index.tsx:772
+#: pages/settings/index.tsx:331
+msgid "Error"
+msgstr "오류"
+
+#: components/Modals/Profile.tsx:126
+msgid "Error deleting your account: {errorMessage}"
+msgstr "계정을 삭제하는 중 오류 발생: {errorMessage}"
+
+#: components/Modals/ConversationFeedback.tsx:267
+msgid "Error submitting your issue: {errorMessage}"
+msgstr "문제 제출 중 오류가 발생했습니다: {errorMessage}"
+
+#: components/PdfToChat/Features.tsx:205
+msgid "Ever wished your documents could talk? With AskYourPDF, they can! Powered by ChatGPT we breathe life into your documents, making them interactive and engaging. No more endless scrolling or skimming - just upload, ask and uncover insights directly from your document"
+msgstr "문서가 말을 할 수 있었으면 좋겠다고 바란 적이 있나요? AskYourPDF로 가능합니다! ChatGPT로 문서에 생동감을 불어넣어 대화형으로 만듭니다. 무한 스크롤이나 휙휙 넘기기는 그만 - 문서 업로드, 질문하고 문서로부터 직접 통찰력을 얻으세요"
+
+#: components/Landing/Features.tsx:199
+msgid "Ever wished your documents could talk? With AskYourPDF, they can! Powered by ChatGPT we breathe life into your documents, making them interactive and engaging. No more endless scrolling or skimming – just upload, ask and uncover insights directly from your document"
+msgstr "문서가 말을 할 수 있었으면 좋겠다고 바란 적이 있나요? AskYourPDF로 가능합니다! ChatGPT로 문서에 생동감을 불어넣어 대화형으로 만듭니다. 무한 스크롤이나 휙휙 넘기기는 그만 - 문서 업로드, 질문하고 문서로부터 직접 통찰력을 얻으세요"
+
+#: components/PdfToChat/MoreTools.tsx:139
+msgid "Expanding Possibilities with Additional Resources"
+msgstr "추가 자원으로 가능성 확장하기 "
+
+#: components/Extension/Methods.tsx:127
+msgid "Experience a new way to engage with your <0/> <1>documents </1>"
+msgstr "문서와 상호 작용하는 새로운 방법을 경험해보세요"
+
+#: components/Extension/Download.tsx:172
+msgid "Experience a new way to interact with your PDFs with our Chrome Extension"
+msgstr "저희 크롬 확장 프로그램을 사용하여 PDF와 상호 작용하는 새로운 방법을 경험하세요"
+
+#: components/Api/Header.tsx:163
+msgid "Experience Seamless Integration and Unparalleled PDF Processing Capabilities with AskYourPDF API"
+msgstr "AskYourPDF API를 사용하여 원활한 통합 및 비교할 수 없는 PDF 처리 능력을 경험해보세요"
+
+#: components/Landing/Plans.tsx:403
+#: components/PdfToChat/Plans.tsx:403
+msgid "Experience the future of document interaction with AskYourPDF. Choose the plan that fits your needs and start engaging with your documents like never before:"
+msgstr "AskYourPDF로 문서 상호작용의 미래를 경험하세요. 필요에 맞는 플랜을 선택하고 문서를 새로운 방식으로 활용하세요:"
+
+#: components/Modals/UpdatePaymentMethodBottomSheet.tsx:183
+#: components/Modals/UpdatePaymentMethodDesktop.tsx:179
+msgid "Expiry Date"
+msgstr "만료일"
+
+#: components/Summarisation/SummariseMainBar.tsx:399
+#: components/Summarisation/SummariseSideBar.tsx:281
+msgid "Explore Other Tools"
+msgstr "다른 도구 탐색"
+
+#: components/Landing/Products.tsx:173
+#: components/PdfToChat/Products.tsx:173
+msgid "Explore our <0>products</0>"
+msgstr "우리의 <0>제품</0>을 탐색하세요"
+
+#: pages/tools/index.tsx:302
+msgid "Explore our Free Tools"
+msgstr "무료 도구 살펴보기"
+
+#: components/PdfToChat/MoreTools.tsx:157
+msgid "Explore Tools"
+msgstr "도구 탐색하기"
+
+#: pages/conversations/[[...params]].tsx:1099
+#: pages/knowledge-base/[[...params]].tsx:1684
+msgid "Export Chat as PDF"
+msgstr "채팅 내보내기 (PDF)"
+
+#: components/Navbar.tsx:317
+#: components/Navbar.tsx:374
+#: components/tools/ToolBarExt.tsx:263
+#: components/tools/ToolBarExt.tsx:297
+msgid "Extension"
+msgstr "확장"
+
+#: components/Modals/PaymentModalContent.tsx:290
+msgid "Extensive Access"
+msgstr "광범위한 접근"
+
+#~ msgid "Extract key insights and create concise summaries using our AI Document Summarisation Tool."
+#~ msgstr "핵심 통찰력을 추출하고 AI 문서 요약 도구를 사용하여 간결한 요약을 생성합니다."
+
+#: components/Summarisation/SummariseMainBar.tsx:392
+msgid "Extract key insights and create concise summaries using our AI Document Summarisation Tool. (200 pages max)"
+msgstr ""
+
+#: components/Modals/DocumentSelectModal.tsx:392
+#: components/Modals/DocumentSelectModal.tsx:413
+#: components/Modals/DocumentSelectModal.tsx:449
+msgid "Failed"
+msgstr "失敗しました"
+
+#: pages/conversations/[[...params]].tsx:951
+#: pages/knowledge-base/[[...params]].tsx:1523
+msgid "Failed to clear conversation history"
+msgstr "대화 기록 지우기를 실패했습니다"
+
+#: components/Modals/DocumentSelectModal.tsx:433
+msgid "Failed to delete conversation"
+msgstr "会話の削除に失敗しました"
+
+#: pages/conversations/[[...params]].tsx:914
+#: pages/knowledge-base/[[...params]].tsx:1431
+msgid "Failed to delete conversation. Please try again"
+msgstr "대화 삭제에 실패했습니다. 다시 시도하세요"
+
+#: pages/documents/[[...id]]/index.tsx:795
+msgid "Failed to delete document. Please try again"
+msgstr "문서 삭제에 실패했습니다. 다시 시도하세요"
+
+#~ msgid "Failed to delete document. Please try again."
+#~ msgstr "문서 삭제에 실패했습니다. 다시 시도하세요"
+
+#: pages/conversations/[[...params]].tsx:971
+#: pages/knowledge-base/[[...params]].tsx:1543
+#: pages/summarise/index.tsx:245
+#: pages/tools/literature-review-writer/index.tsx:299
+msgid "Failed to export PDF"
+msgstr "PDF 내보내기를 실패했습니다"
+
+#: pages/billing/index.tsx:1086
+#: pages/settings/index.tsx:1032
+msgid "Failed to fetch billing history. Please try again."
+msgstr "결제 내역을 가져오는 데 실패했습니다. 다시 시도하세요."
+
+#: components/Settings/LinkAccountCall.tsx:88
+msgid "Failed to link mobile account"
+msgstr ""
+
+#: pages/billing/index.tsx:684
+#: pages/billing/index.tsx:689
+#: pages/settings/index.tsx:303
+#: pages/settings/index.tsx:308
+msgid "Failed to load subscriptions"
+msgstr "구독 로드에 실패했습니다"
+
+#: pages/tools/literature-review-writer/index.tsx:284
+msgid "Failed to review text. Please try again"
+msgstr ""
+
+#: pages/summarise/index.tsx:168
+msgid "Failed to summarise document. Please try again"
+msgstr "문서 요약에 실패했습니다. 다시 시도해주세요"
+
+#: pages/summarise/index.tsx:228
+msgid "Failed to summarise text. Please try again"
+msgstr "텍스트 요약에 실패했습니다. 다시 시도해주세요"
+
+#: components/tools/DocUploadNoFunc.tsx:334
+msgid "Failed to upload file"
+msgstr "파일 업로드에 실패했습니다"
+
+#: components/DocumentUpload.tsx:389
+msgid "Failed to upload file. Try downloading the file and upload it manually."
+msgstr "파일 업로드 실패. 파일을 다운로드하고 수동으로 업로드해 보십시오."
+
+#~ msgid "FAQ"
+#~ msgstr "FAQ"
+
+#: components/Footer.tsx:348
+msgid "FAQs"
+msgstr "자주 묻는 질문"
+
+#: components/DocumentUpload.tsx:475
+#: components/tools/DocUploadNoFunc.tsx:417
+msgid "Fetch document"
+msgstr "문서 가져오기"
+
+#~ msgid "Fetching Conversations"
+#~ msgstr "대화 가져오는 중"
+
+#: components/DocumentUpload.tsx:472
+#: components/tools/DocUploadNoFunc.tsx:414
+msgid "Fetching document"
+msgstr "문서 가져오는 중"
+
+#: pages/knowledge-base/intro.tsx:379
+msgid "Fetching documents"
+msgstr "문서 가져오는 중"
+
+#: components/literature-review/LiteratureSideBar.tsx:241
+msgid "Field of Study"
+msgstr "연구 분야"
+
+#: components/Footer.tsx:297
+msgid "File Upload"
+msgstr "파일 업로드"
+
+#: components/DocumentUpload.tsx:379
+#: pages/upload/index.tsx:290
+msgid "File upload failed"
+msgstr "파일 업로드 실패"
+
+#: components/DocumentUpload.tsx:329
+#: components/DocumentUpload.tsx:333
+#: components/DocumentUpload.tsx:387
+#: components/literature-review/LiteratureUpload.tsx:400
+#: components/literature-review/LiteratureUpload.tsx:404
+#: components/Summarisation/SummariseUpload.tsx:408
+#: components/Summarisation/SummariseUpload.tsx:412
+#: components/tools/DocUploadNoFunc.tsx:332
+msgid "File Upload Failed"
+msgstr "파일 업로드 실패"
+
+#: components/DocumentUpload.tsx:370
+msgid "File uploaded successfully"
+msgstr "파일 업로드 성공"
+
+#: components/PdfToChat/SummarizeGuide.tsx:198
+msgid "Finally, click the 'Summarise' button, and within moments, AskYourPDF will provide you with a customized summary of your document based on your settings and, if provided, your prompt."
+msgstr "마지막으로 '요약' 버튼을 클릭하면 AskYourPDF가 설정 및 제공된 경우 지시에 따라 문서를 기반으로 한 사용자 정의 요약을 제공합니다."
+
+#: components/Extension/Methods.tsx:173
+msgid "For those who rely on Dropbox for their document storage, the AskYourPDF Chrome extension is a really helpful addition. Open any PDF link from Dropbox in Chrome, and the extension starts up, ready to help. With its intuitive interface, you can now work with your Dropbox documents more easily, making it a must-have tool for professionals and students alike."
+msgstr "문서 저장을 위해 Dropbox를 사용하는 사람들에게는 AskYourPDF 크롬 확장 프로그램이 정말 유용한 도구입니다. Chrome에서 Dropbox의 PDF 링크를 열면 확장 프로그램이 시작되어 도움을 제공합니다. 직관적인 인터페이스로 이제 Dropbox 문서를 더 쉽게 작업할 수 있어서 전문가와 학생들에게 필수 도구입니다."
+
+#: components/Summarisation/SummariseSideBar.tsx:325
+msgid "Format"
+msgstr "형식"
+
+#: components/PdfToChat/Guide.tsx:155
+msgid "Formulate your questions naturally, just as you would in a conversation."
+msgstr ""
+
+#: components/Landing/MobileAppBanner.tsx:89
+msgid "Free"
+msgstr "무료"
+
+#: components/Api/Pricing.tsx:274
+msgid "Free Plan"
+msgstr "무료 플랜"
+
+#: pages/settings/index.tsx:549
+msgid "Free Plan <0>$0/month</0>"
+msgstr "무료 플랜 <0>$0/월</0>"
+
+#: pages/settings/index.tsx:554
+msgid "Free tier usage applicable - 100 page per document & 50 questions daily"
+msgstr "무료 요금제 사용 적용 - 문서당 100 페이지, 일 50개 질문"
+
+#: utils/faqData.tsx:65
+msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
+msgstr "무료 사용자는 하루에 한 문서를 업로드할 수 있습니다. 프리미엄 및 프로 사용자는 각각 하루에 50개 및 150개의 문서를 업로드할 수 있습니다. 더 많은 업로드를 원하는 사용자는 엔터프라이즈 플랜에 대한 문의가 필요합니다."
+
+#: components/PdfToChat/LandingFaq.tsx:85
+#: pages/faq/index.tsx:66
+msgid "Frequently Asked Questions"
+msgstr "자주 묻는 질문"
+
+#: components/literature-review/LiteratureUpload.tsx:501
+#: components/Summarisation/SummariseUpload.tsx:515
+msgid "From Your Documents"
+msgstr "문서에서"
+
+#: components/APIKeysList.tsx:674
+msgid "Generate API Key"
+msgstr "API 키 생성"
+
+#: components/APIKeysList.tsx:575
+#: components/APIKeysList.tsx:739
+msgid "Generated on"
+msgstr "생성일"
+
+#~ msgid "Generated on {0}"
+#~ msgstr "{0}에 생성됨"
+
+#: components/Landing/Hero.tsx:253
+msgid "Get Our Plugin"
+msgstr "우리 플러그인 받기"
+
+#: components/Affiliate/Features.tsx:153
+msgid "Get Paid Commission"
+msgstr "커미션 받기"
+
+#: components/Landing/Features.tsx:252
+#: components/Landing/Plans.tsx:468
+#: components/Landing/Plans.tsx:547
+#: components/Landing/Plans.tsx:637
+#: components/Navbar.tsx:421
+#: components/PdfToChat/Features.tsx:258
+#: components/PdfToChat/Plans.tsx:468
+#: components/PdfToChat/Plans.tsx:547
+#: components/PdfToChat/Plans.tsx:637
+msgid "Get Started"
+msgstr "시작하기"
+
+#: components/Footer.tsx:325
+#: pages/chat/[[...docID]]/index.tsx:334
+#: pages/knowledge-base/intro.tsx:389
+msgid "Getting Started"
+msgstr "시작하기"
+
+#: components/Landing/Plans.tsx:717
+#: components/PdfToChat/Plans.tsx:717
+msgid "Go all out on features! Get everything in the Pro Plan, plus priority document processing and access to new features."
+msgstr "기능을 무제한 활용하세요! 프로 플랜의 모든 것과 더불어 문서 처리 우선순위 및 새로운 기능 접근이 가능합니다."
+
+#: components/Modals/PaymentModalContent.tsx:557
+#: components/Modals/UnitsExceededModal.tsx:124
+msgid "Go back"
+msgstr "돌아가기"
+
+#: components/Modals/ConversationDeleteModal.tsx:120
+#: components/Modals/ConversationHistoryDeleteModal.tsx:120
+#: components/Modals/DocumentDeleteModal.tsx:122
+#: components/Modals/DocumentSelectModal.tsx:768
+#: components/Modals/OldDocumentDeleteModal.tsx:144
+#: components/Modals/Profile.tsx:258
+#: pages/billing/index.tsx:1133
+#: pages/billing/upgrade.tsx:928
+#: pages/documents/[[...id]]/index.tsx:1013
+#: pages/settings/index.tsx:460
+msgid "Go Back"
+msgstr "돌아가기"
+
+#: components/Extension/Methods.tsx:154
+msgid "Google Drive Links"
+msgstr "구글 드라이브 링크"
+
+#: utils/termsData.ts:71
+msgid "Governing Law"
+msgstr "準拠法"
+
+#: pages/settings/index.tsx:892
+#: pages/settings/index.tsx:900
+#~ msgid "GPT-4 Credit"
+#~ msgstr "GPT-4 크레딧"
+
+#: components/Modals/ConversationFeedback.tsx:369
+#: components/Modals/ConversationFeedback.tsx:479
+msgid "Harmful Content"
+msgstr "해로운 콘텐츠"
+
+#: components/Landing/Features.tsx:238
+#: components/PdfToChat/Features.tsx:244
+msgid "Here, you give voice to your documents, turning them into engaging chat partners. What's more? You can effortlessly track and revisit all your conversations. Take control, ask questions, get answers, and never lose track of your learning. Ready to make your documents work for you?"
+msgstr "여기에서 문서에 목소리를 부여하여 매력적인 채팅 파트너로 만드십시오. 더 나은 점은 무엇일까요? 모든 대화를 손쉽게 추적하고 다시 방문할 수 있습니다. 통제하고, 질문하고, 답을 얻고, 배움을 절대 잃어버리지 마십시오. 문서를 위해 일하도록 만드십시오?"
+
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:403
+#: components/Modals/CreateAPIKeyDesktop.tsx:416
+msgid "Hey there, Just a quick reminder"
+msgstr "요기요, 간단한 안내입니다"
+
+#: components/Navbar.tsx:285
+#: components/Navbar.tsx:342
+#: components/tools/ToolBarExt.tsx:248
+#: components/tools/ToolBarExt.tsx:282
+msgid "Home"
+msgstr "홈"
+
+#: utils/faqData.tsx:28
+msgid "How does billing work?"
+msgstr "청구는 어떻게 작동하나요?"
+
+#: pages/chat/[[...docID]]/index.tsx:240
+#: pages/knowledge-base/intro.tsx:259
+#: utils/faqData.tsx:18
+msgid "How does it work?"
+msgstr "작동 방식이 어떻게 되나요?"
+
+#: components/Affiliate/Features.tsx:112
+msgid "How it Works"
+msgstr "작동 방식"
+
+#: utils/faqData.tsx:129
+msgid "How long are the chat sessions saved on AskYourPDF?"
+msgstr "AskYourPDF에 채팅 세션이 얼마나 오래 저장되나요?"
+
+#~ msgid "How to <0> summarize</0> a PDF File with  AI"
+#~ msgstr "AI를 사용하여 PDF 파일을 요약하는 방법"
+
+#: components/PdfToChat/SummarizeGuide.tsx:135
+msgid "How to <0> Summarize</0> a PDF File with  AI"
+msgstr ""
+
+#: pages/knowledge-base/intro.tsx:282
+msgid "How will AskYourPDF respond if I have two documents with similar contents in my knowledge base?"
+msgstr "내 지식 베이스에 비슷한 내용의 두 개의 문서가 있다면 AskYourPDF는 어떻게 응답할까요?"
+
+#: components/SearchResults.tsx:347
+msgid "I could not find any results related to <0>\"{debouncedSearchTerm}\"</0>. Try searching for something else"
+msgstr "<0>\"{debouncedSearchTerm}\"</0>와 관련된 결과를 찾을 수 없습니다. 다른 것을 검색해 보세요"
+
+#: pages/upload/index.tsx:303
+msgid "ID Copied"
+msgstr "ID 복사됨"
+
+#: components/MobileHeader.tsx:123
+msgid "ID Generator"
+msgstr "ID 생성기"
+
+#: pages/documents/[[...id]]/index.tsx:921
+msgid "ID:"
+msgstr "ID:"
+
+#: utils/faqData.tsx:74
+msgid "If I cancel my subscription, will I get a refund?"
+msgstr "구독을 취소하면 환불을 받을 수 있나요?"
+
+#: utils/faqData.tsx:92
+msgid "If the answer is in the uploaded document, there's a high likelihood the AI will provide it. The AI is constantly learning, so if it doesn't have an answer, you can always rephrase or ask a different question."
+msgstr "업로드된 문서에 답이 있는 경우 AI가 제공할 가능성이 높습니다. AI는 계속 학습 중이므로 답이 없으면 항상 다르게 표현하거나 다른 질문을 할 수 있습니다."
+
+#~ msgid "If the answer lies in the uploaded document, then there’s high likelihood the AI will answer it correctly.Note that the AI is constantly learning, so if it cannot answer your question,you can always ask a different question."
+#~ msgstr "답이 업로드한 문서에 있다면 AI가 정확하게 답할 가능성이 높습니다. AI는 계속 학습 중이므로 질문에 답할 수 없다면 다른 질문을 할 수 있습니다."
+
+#: pages/settings/index.tsx:517
+msgid "If you choose to downgrade at any point. Your subscription will be active until the end of your next billing cycle."
+msgstr "다운그레이드를 선택하면 구독 기간 종료 시까지 유효합니다."
+
+#: utils/faqData.tsx:135
+msgid "If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help!"
+msgstr "AskYourPDF를 사용하는 동안 문제가 발생하거나 질문이 있으면 지원팀에 문의하십시오: support@askyourpdf.com. 그들은 도움을 드릴 준비가 되어 있습니다!"
+
+#: pages/privacy/index.tsx:159
+msgid "If you have any questions or concerns about our privacy practices or this Privacy Policy, please don't hesitate to contact us. We value your opinions and look forward to hearing from you."
+msgstr "개인정보 처리 방침이나 정책에 대한 문의나 우려사항이 있다면 주저하지 말고 연락하세요. 의견을 소중히 여기며 연락하기를 기대합니다."
+
+#: components/Extension/Methods.tsx:159
+msgid "If you use Google Drive, the AskYourPDF Chrome extension is perfect for you. Just open a PDF from your Google Drive in Chrome, and the extension starts up on its own. It gives you the flexibility to engage with the document, get summaries, ask questions and receive answers in a flash."
+msgstr "Google Drive를 사용하는 경우 AskYourPDF 크롬 확장 프로그램이 딱입니다. Chrome에서 Google Drive에서 PDF를 열면 확장 프로그램이 자동으로 실행됩니다. 문서와 상호 작용하고 요약을 받고 질문을 하며 빠른 답변을 받을 수 있는 유연성을 제공합니다."
+
+#: components/APIKeysList.tsx:609
+msgid "If you wish to increase your monthly limits you can upgrade to a higher subscription plan"
+msgstr "월간 제한을 늘리려면 구독 플랜을 업그레이드하세요"
+
+#: utils/termsData.ts:37
+msgid "In order to provide the intended functionality of our app, we may request certain permissions from you, such as access to your device's storage or file system. These permissions are solely for the purpose of allowing you to import and view documents stored on your device."
+msgstr "앱의 기능을 제공하기 위해 기기 저장소 또는 파일 시스템 접근 등 특정 권한을 요청할 수 있습니다. 이 권한은 기기에 저장된 문서를 가져오고 볼 수 있도록 하기 위한 것입니다."
+
+#: components/Landing/Plans.tsx:473
+#: components/Landing/Plans.tsx:555
+#: components/Landing/Plans.tsx:645
+#: components/Landing/Plans.tsx:738
+#: components/PdfToChat/Plans.tsx:473
+#: components/PdfToChat/Plans.tsx:555
+#: components/PdfToChat/Plans.tsx:645
+#: components/PdfToChat/Plans.tsx:738
+msgid "Includes"
+msgstr "포함"
+
+#: pages/settings/index.tsx:638
+msgid "Includes up to 2,500 pages per doc (max 30mb)"
+msgstr "문서당 최대 2,500페이지 (최대 30mb) 포함"
+
+#: pages/settings/index.tsx:755
+msgid "Includes up to 6,000 pages per doc (max 90mb)"
+msgstr "문서당 최대 6,000페이지 (최대 90mb) 포함"
+
+#: components/Modals/ConversationFeedback.tsx:370
+msgid "Incorrect Response"
+msgstr ""
+
+#: components/Summarisation/SummariseMainBar.tsx:457
+msgid "Input some text here OR upload a document in the pane below to summarise"
+msgstr "여기에 텍스트를 입력하거나 아래 패널에 문서를 업로드하여 요약하세요"
+
+#: components/Summarisation/SummariseMainBar.tsx:456
+msgid "Input some text here OR upload a document in the right pane to summarise"
+msgstr "여기에 텍스트를 입력하거나 오른쪽 패널에 문서를 업로드하여 요약하세요"
+
+#: components/Landing/Features.tsx:265
+#: components/PdfToChat/Features.tsx:290
+msgid "Insightful Conversations"
+msgstr "통찰력 있는 대화"
+
+#: components/Landing/Hero.tsx:257
+msgid "Install directly on ChatGPT"
+msgstr "ChatGPT에 직접 설치"
+
+#~ msgid "Instantly generate brief summaries that deliver crucial information, changing your document interaction into a streamlined efficient process."
+#~ msgstr "중요한 정보를 제공하는 간결한 요약문을 즉시 생성하여 문서 상호작용을 효율적이고 간소화된 프로세스로 변화시킵니다."
+
+#: components/Modals/DocumentSelectModal.tsx:458
+#: components/Modals/DocumentSelectModal.tsx:466
+#: components/Modals/DocumentSelectModal.tsx:482
+#: components/Modals/DocumentSelectModal.tsx:490
+#: components/Settings/LinkAccountCall.tsx:96
+msgid "Invalid Entry"
+msgstr "無効なエントリ"
+
+#: components/DocumentUpload.tsx:358
+#: components/tools/DocUploadNoFunc.tsx:322
+msgid "Invalid Entry. Please try again"
+msgstr "잘못 입력하였습니다. 다시 시도하세요"
+
+#: pages/billing/index.tsx:1020
+#: pages/settings/index.tsx:130
+msgid "Invoice"
+msgstr "청구서"
+
+#: pages/billing/index.tsx:988
+#: pages/settings/index.tsx:997
+msgid "Invoice History"
+msgstr "청구서 내역"
+
+#: components/Footer.tsx:287
+msgid "iOS App"
+msgstr "iOS 앱"
+
+#: pages/chat/[[...docID]]/index.tsx:250
+#: utils/faqData.tsx:39
+msgid "Is it necessary to create an account to use the application?"
+msgstr "앱을 사용하려면 계정 생성이 필요한가요?"
+
+#: utils/faqData.tsx:96
+msgid "Is my data secure?"
+msgstr "내 데이터가 안전한가요?"
+
+#: utils/faqData.tsx:69
+msgid "Is the application free to use?"
+msgstr "앱 사용이 무료인가요?"
+
+#: pages/knowledge-base/intro.tsx:297
+msgid "Is the Knowledge Base service free or is there a separate charge?"
+msgstr "지식 베이스 서비스는 무료인가요, 아니면 별도의 요금이 있나요?"
+
+#: utils/faqData.tsx:44
+msgid "Is there a discount for students?"
+msgstr "학생 할인이 있나요?"
+
+#: utils/faqData.tsx:64
+msgid "Is there a limit to the number of documents I can upload?"
+msgstr "업로드할 수 있는 문서 수에 제한이 있나요?"
+
+#: utils/faqData.tsx:112
+msgid "Is there a limit to the size of the document that can be uploaded?"
+msgstr "업로드할 수 있는 문서 크기 제한이 있나요?"
+
+#: components/Announcements.tsx:30
+msgid "it to access AskYourPDF from anywhere."
+msgstr ""
+
+#: components/Landing/Hero.tsx:267
+msgid "it's a <0>conversation</0>"
+msgstr "<0>대화</0>란 것이죠"
+
+#: utils/faqData.tsx:14
+msgid "It's an application that lets you chat with any document you upload"
+msgstr "이것은 업로드한 모든 문서와 채팅할 수 있는 응용 프로그램입니다"
+
+#: components/Affiliate/Features.tsx:127
+msgid "It's easy to get started. Sign up for our Affiliate Programme to receive your unique referral link."
+msgstr "시작하기 쉽습니다. 우리의 제휴 프로그램에 가입하여"
+
+#: components/Landing/Hero.tsx:264
+msgid "It's not just reading anymore"
+msgstr "이제 단순히 읽기만 하는 것이 아닙니다"
+
+#: components/Affiliate/Header.tsx:209
+msgid "Join Now"
+msgstr "지금 참여하세요"
+
+#: components/Affiliate/Header.tsx:190
+msgid "Join Our Affiliate Program and"
+msgstr "우리의 제휴 프로그램에 참여하고"
+
+#: components/Affiliate/Join.tsx:94
+msgid "Join our Affiliate Programme today and start earning for your referrals while sharing the benefits of AskYourPDF. As an AskYourPDF Affiliate, you can help your audience realize the full potential of their documents."
+msgstr "오늘 우리의 제휴 프로그램에 가입하여 보상을 받고AskYourPDF의 혜택을 공유하면서 귀하의 추천에 대한수입을 시작하십시오. AskYourPDF 제휴사로서 귀하의 관객이"
+
+#: components/Affiliate/Join.tsx:91
+msgid "Join us Today"
+msgstr "오늘 참여하세요"
+
+#: components/Landing/Features.tsx:275
+#: components/PdfToChat/Features.tsx:300
+msgid "Just upload and voila, your documents aren't just smart, they're your new best friends. Dive in, engage, and enjoy your most interactive reading experience yet!"
+msgstr "업로드만 하면 문서는 단순히 스마트한 것 이상, 새로운 친구가 됩니다. 몰두하고 참여하며 가장 대화형 독서 경험을 즐기세요!"
+
+#: components/APIKeysList.tsx:471
+msgid "Key Deleted"
+msgstr "키 삭제됨"
+
+#: components/AppSidebar.tsx:217
+#: components/KnowledgeBaseSidebar.tsx:379
+#: components/MobileHeader.tsx:99
+msgid "Knowledge Base"
+msgstr "ナレッジベース"
+
+#: components/Modals/PaymentModalContent.tsx:339
+#: components/Modals/PaymentModalContent.tsx:378
+#: pages/settings/index.tsx:658
+#: pages/settings/index.tsx:781
+msgid "Knowledge Base Access"
+msgstr "지식 베이스 접근"
+
+#: components/KnowledgeBaseSidebar.tsx:509
+#: components/Modals/SearchBottomSheet.tsx:180
+msgid "Knowledge Base Conversations"
+msgstr "ナレッジベースの会話"
+
+#~ msgid "Knowledge Base ID Copied"
+#~ msgstr "지식 베이스 ID가 복사되었습니다"
+
+#: pages/knowledge-base/[[...params]].tsx:971
+#: pages/knowledge-base/[[...params]].tsx:1666
+msgid "Knowledge Base ID Copied. You can use this ID with our ChatGPT Plugin"
+msgstr "지식 베이스 ID가 복사되었습니다. 이 ID를 ChatGPT 플러그인과 함께 사용할 수 있습니다"
+
+#: components/PdfToChat/KnowledgeBaseServiceBanner.tsx:82
+msgid "Knowledge Base Service"
+msgstr "지식 베이스 서비스"
+
+#~ msgid "Leading Universities"
+#~ msgstr "선도 대학교"
+
+#: components/PdfToChat/ApiBanner.tsx:87
+msgid "Learn More"
+msgstr "자세히 알아보기"
+
+#: components/Landing/Features.tsx:307
+#: components/PdfToChat/Features.tsx:332
+msgid "Learn Playfully"
+msgstr "재미있게 배우기"
+
+#: components/PdfToChat/Discover.tsx:42
+msgid "Legal Clarity"
+msgstr "법적 명확성"
+
+#: components/Summarisation/SummariseSideBar.tsx:296
+msgid "Length"
+msgstr "길이"
+
+#: pages/tools/index.tsx:277
+msgid "Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
+msgstr "인공 지능이 PDF 문서를 별도의 파일로 나누어 작업을 수행하도록 하여 시간을 절약하고 문서 관리 작업을 간소화합니다."
+
+#: pages/tools/split/index.tsx:813
+msgid "Let artificial intelligence do the work as it swiftly divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
+msgstr "인공 지능이 작업을 수행하도록 하여 PDF 문서를 별도의 파일로 신속하게 나누어 시간을 절약하고 문서 관리 작업을 간소화합니다."
+
+#: components/Modals/PaymentBottomSheet.tsx:164
+#: components/Modals/PaymentModalDesktop.tsx:167
+#: components/Modals/PaymentSuccessModal.tsx:173
+#: components/Modals/PaymentSuccessModal.tsx:211
+msgid "Let's Go"
+msgstr "시작하기"
+
+#: utils/termsData.ts:66
+msgid "Limitation of Liability"
+msgstr "책임의 제한"
+
+#: components/Settings/LinkAccountCall.tsx:120
+#: components/Settings/LinkAccountModal.tsx:135
+#: components/Settings/LinkAccountModal.tsx:161
+msgid "Link Account"
+msgstr "계정 연결"
+
+#: components/Modals/ShareModal.tsx:189
+msgid "Link copied"
+msgstr "링크 복사됨"
+
+#: components/Settings/LinkAccountCall.tsx:104
+msgid "Link Your Mobile Account"
+msgstr "모바일 계정 연결"
+
+#: components/literature-review/LiteratureMainBar.tsx:302
+msgid "Literature Review copied"
+msgstr ""
+
+#: components/tools/ToolCommon.tsx:207
+#: components/ToolsFooter.tsx:78
+#: pages/tools/index.tsx:269
+msgid "Literature Review Tool"
+msgstr "문헌 고찰 도구"
+
+#~ msgid "Literature Review Writer Tool"
+#~ msgstr "문헌 고찰 작성 도구 "
+
+#: components/KnowledgeBaseSidebar.tsx:565
+#: components/KnowledgeBaseSidebar.tsx:600
+#: components/MainSidebar.tsx:510
+#: components/MainSidebar.tsx:545
+msgid "Log In"
+msgstr "로그인"
+
+#: components/KnowledgeBaseSidebar.tsx:573
+#: components/MainSidebar.tsx:518
+msgid "Login or create an account to have multiple conversations, access your chat history and manage your documents seamlessly"
+msgstr "로그인하거나 계정을 만들어 여러 대화를 하고, 대화 기록을 확인하며 문서를 원활히 관리하세요"
+
+#: components/AppSidebar.tsx:386
+#: components/MobileHeader.tsx:131
+msgid "Logout"
+msgstr "로그아웃"
+
+#: components/Landing/Plans.tsx:694
+#: components/Modals/PaymentModalContent.tsx:393
+#: components/PdfToChat/Plans.tsx:694
+#: pages/settings/index.tsx:775
+msgid "Longer Reply Length"
+msgstr "더 긴 답변 길이"
+
+#: components/Modals/Profile.tsx:335
+msgid "Manage"
+msgstr "관리"
+
+#: components/DeveloperSidebar.tsx:140
+msgid "Manage & Create API Keys to connect your applications"
+msgstr "애플리케이션 연결을 위한 API 키 관리 및 생성"
+
+#: pages/billing/index.tsx:970
+#: pages/settings/index.tsx:985
+msgid "Manage Payment Method"
+msgstr "결제 수단 관리"
+
+#: components/DeveloperSidebar.tsx:158
+msgid "Manage payments for your developer account"
+msgstr "개발자 계정의 결제 관리"
+
+#: components/KnowledgeBaseSidebar.tsx:668
+#: components/MainSidebar.tsx:623
+msgid "Manage Subscription"
+msgstr "구독 관리"
+
+#: pages/settings/index.tsx:917
+msgid "Manage your payment method and billing history"
+msgstr "결제 수단과 청구 내역 관리"
+
+#: components/Landing/Plans.tsx:479
+#: components/Landing/Plans.tsx:561
+#: components/Landing/Plans.tsx:651
+#: components/Modals/PaymentModalContent.tsx:417
+#: components/PdfToChat/Plans.tsx:479
+#: components/PdfToChat/Plans.tsx:561
+#: components/PdfToChat/Plans.tsx:651
+msgid "max"
+msgstr "최대"
+
+#: components/Landing/Plans.tsx:487
+#: components/Landing/Plans.tsx:569
+#: components/Landing/Plans.tsx:659
+#: components/PdfToChat/Plans.tsx:487
+#: components/PdfToChat/Plans.tsx:569
+#: components/PdfToChat/Plans.tsx:659
+msgid "Max upload size"
+msgstr "최대 업로드 크기"
+
+#: pages/billing/upgrade.tsx:727
+#: pages/billing/upgrade.tsx:828
+msgid "Maximum {0} documents per <0>month</0>"
+msgstr "월 최대 {0}개 문서"
+
+#: components/Modals/DocumentSelectModal.tsx:631
+msgid "Maximum of 5 documents"
+msgstr "최대 5개의 문서"
+
+#: components/Modals/PaymentModalContent.tsx:321
+#: components/Modals/PaymentModalContent.tsx:363
+msgid "MB/Document"
+msgstr "MB/문서"
+
+#: pages/tools/merge/index.tsx:825
+msgid "Merge Another"
+msgstr "다른 병합"
+
+#: pages/tools/merge/index.tsx:691
+#~ msgid "Merge PDF"
+#~ msgstr "PDF 병합"
+
+#: components/PdfToChat/MoreTools.tsx:35
+msgid "Merge PDF Tool"
+msgstr "PDF 병합 도구"
+
+#: pages/conversations/[[...params]].tsx:1218
+#: pages/knowledge-base/[[...params]].tsx:1797
+msgid "Message Copied"
+msgstr "메시지 복사됨"
+
+#: components/Landing/Products.tsx:136
+#: components/PdfToChat/Products.tsx:136
+msgid "Mobile App"
+msgstr "모바일 앱"
+
+#: components/Landing/Plans.tsx:422
+#: components/Modals/PaymentModalContent.tsx:497
+#: components/PdfToChat/Plans.tsx:422
+msgid "Monthly"
+msgstr "월간"
+
+#~ msgid "Most Popular"
+#~ msgstr "가장 인기있는"
+
+#: components/Landing/Plans.tsx:604
+#: components/PdfToChat/Plans.tsx:604
+msgid "Most popular and Efficient"
+msgstr "가장 인기 있고 효율적입니다"
+
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:431
+#: components/Modals/CreateAPIKeyDesktop.tsx:445
+msgid "Name of API Key"
+msgstr "API 키 이름"
+
+#: components/Modals/DocumentSelectModal.tsx:586
+msgid "Name of Knowledge Base"
+msgstr "ナレッジベースの名前"
+
+#: components/Modals/DocumentSelectModal.tsx:580
+msgid "Name your Knowledge Base"
+msgstr "ナレッジベースに名前を付ける"
+
+#: components/PdfToChat/LandingFaq.tsx:90
+#: pages/faq/index.tsx:67
+msgid "Need help? Look through our FAQs for quick answers!"
+msgstr "도움이 필요하세요? 빠른 답변을 위해 FAQ를 참조하세요!"
+
+#: components/APIKeysList.tsx:605
+msgid "Need to increase your monthly limits?"
+msgstr "월간 제한을 늘려야 하나요?"
+
+#: components/Landing/Products.tsx:191
+#: components/Landing/Products.tsx:207
+#: components/PdfToChat/Products.tsx:191
+#: components/PdfToChat/Products.tsx:207
+msgid "New"
+msgstr "신규"
+
+#: pages/apikeys/index.tsx:445
+msgid "New API Key"
+msgstr "새 API 키"
+
+#: pages/documents/[[...id]]/index.tsx:567
+msgid "New Chat"
+msgstr "새로운 채팅"
+
+#: components/MainSidebar.tsx:691
+#: pages/documents/[[...id]]/index.tsx:985
+msgid "New Conversation"
+msgstr "새 대화"
+
+#: components/Modals/Profile.tsx:212
+msgid "new password"
+msgstr "새 비밀번호"
+
+#: components/Modals/Profile.tsx:207
+msgid "New Password"
+msgstr "새 비밀번호"
+
+#: components/Modals/DocumentSelectModal.tsx:698
+msgid "Next"
+msgstr "次へ"
+
+#: components/SearchResults.tsx:344
+msgid "No results found"
+msgstr "결과 없음"
+
+#: utils/faqData.tsx:102
+msgid "No, documents cannot be edited within AskYourPDF. But this will be possible in the future."
+msgstr "문서는 AskYourPDF 내에서 편집할 수 없습니다. 그러나 이 기능은 미래에 가능할 것입니다."
+
+#: utils/faqData.tsx:118
+msgid "No, only one document can be uploaded at a time. But this will be possible in the future."
+msgstr "아니요, 한 번에 하나의 문서만 업로드할 수 있습니다. 그러나 미래에는 가능할 것입니다."
+
+#: utils/faqData.tsx:124
+msgid "No, password-protected documents cannot be uploaded to AskYourPDF."
+msgstr "아니요, 암호로 보호된 문서는 AskYourPDF에 업로드할 수 없습니다."
+
+#: pages/chat/[[...docID]]/index.tsx:256
+msgid "No, the chat interface is only for interacting with the content of the document"
+msgstr "아니요, 채팅 인터페이스는 문서 내용과 상호작용을 위한 것입니다"
+
+#: utils/faqData.tsx:60
+msgid "No, the chat interface is solely for interacting with the content of the document."
+msgstr "아니요, 채팅 인터페이스는 문서의 내용과 상호 작용하기 위한 것입니다."
+
+#~ msgid "No, there are no limitations on the number of documents that can be uploaded per day"
+#~ msgstr "아니요, 하루에 업로드할 수 있는 문서 수에 제한이 없습니다."
+
+#~ msgid "No, there is no limit to the number of documents you can upload. However, for now, the application only accepts one document upload per time."
+#~ msgstr "아니요, 업로드 가능한 문서 수에 제한이 없습니다. 다만 현재 앱에서는 한 번에 문서 하나만 업로드할 수 있습니다."
+
+#~ msgid "No, you can only upload one document at a time."
+#~ msgstr "아니요, 한 번에 문서 하나만 업로드할 수 있습니다."
+
+#~ msgid "No, you cannot edit the document itself while using AskYourPDF."
+#~ msgstr "아니요, AskYourPDF 사용 중에는 문서 자체를 편집할 수 없습니다."
+
+#~ msgid "No, you cannot upload password-protected documents to AskYourPDF."
+#~ msgstr "아니요, AskYourPDF에 비밀번호 보호 문서를 업로드할 수 없습니다."
+
+#: pages/chat/[[...docID]]/index.tsx:251
+msgid "No, you do not need to create an account to use the application, but there are restrictions."
+msgstr "아니요, 앱을 사용하려면 계정 생성이 필요하지 않지만 제한사항이 있습니다."
+
+#: utils/faqData.tsx:40
+msgid "No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."
+msgstr "아니요, 이 응용 프로그램을 사용하려면 계정을 만들 필요가 없습니다. 그러나 일부 제한 사항이 있습니다. AskYourPDF의 다양한 기능을 탐색하려면 업그레이드된 플랜이 필요합니다."
+
+#: components/Landing/AppSection.tsx:147
+msgid "Now <0>Live</0>"
+msgstr "지금 <0>라이브</0> "
+
+#~ msgid "Number of Docs"
+#~ msgstr "문서 수"
+
+#: components/APIKeysList.tsx:649
+#: components/APIKeysList.tsx:804
+msgid "Number of Pages"
+msgstr "페이지 수"
+
+#: components/APIKeysList.tsx:635
+#: components/APIKeysList.tsx:790
+msgid "Number of Questions"
+msgstr "질문 수"
+
+#: components/tools/ToolCommon.tsx:219
+#: components/ToolsFooter.tsx:94
+#: pages/tools/index.tsx:290
+#: pages/tools/ocr/index.tsx:304
+msgid "OCR PDF Reader"
+msgstr "OCR PDF 리더"
+
+#: pages/settings/index.tsx:652
+#: pages/settings/index.tsx:772
+msgid "OCR support"
+msgstr "OCR 지원"
+
+#: components/Landing/Plans.tsx:690
+#: components/Modals/PaymentModalContent.tsx:336
+#: components/Modals/PaymentModalContent.tsx:390
+#: components/PdfToChat/Plans.tsx:690
+msgid "OCR Support"
+msgstr "OCR 지원"
+
+#~ msgid "OCR Support - Coming Soon"
+#~ msgstr "OCR 지원 - 곧 출시"
+
+#~ msgid "OCR support (Coming Soon)"
+#~ msgstr "OCR 지원 (곧 출시)"
+
+#: components/PdfToChat/MoreTools.tsx:27
+msgid "OCR Tool"
+msgstr ""
+
+#: components/Modals/Profile.tsx:197
+msgid "old password"
+msgstr "이전 비밀번호"
+
+#: components/Modals/Profile.tsx:192
+msgid "Old Password"
+msgstr "기존 비밀번호"
+
+#: components/APIKeysList.tsx:762
+msgid "Once you exhaust your quota you will have to upgrade to a production account to keep using your service"
+msgstr "할당량을 소진하면 서비스 사용을 계속하려면 프로덕션 계정으로 업그레이드해야 합니다"
+
+#: components/Affiliate/Features.tsx:141
+msgid "Once you've signed up, begin sharing your referral link with your audience. Spread the word about AskYourPDF's strong document tools,  whether on a blog, a social media, or a professional network."
+msgstr "가입 한 후에는 귀하의 관객과 추천 링크를 공유하기 시작하십시오.AskYourPDF의 강력한 문서 도구에 대한 말을 퍼 뜨리세요."
+
+#: components/SearchResults.tsx:268
+msgid "or document"
+msgstr "또는 문서"
+
+#: components/Modals/ConversationFeedback.tsx:371
+#: components/Modals/ConversationFeedback.tsx:480
+msgid "Other"
+msgstr "기타"
+
+#: components/Landing/Features.tsx:311
+#: components/PdfToChat/Features.tsx:336
+msgid "Our AI-powered chat system not only provides you with accurate information but also fosters an enjoyable learning environment that keeps you coming back for more."
+msgstr "우리의 AI 기반 채팅 시스템은 정확한 정보를 제공할 뿐만 아니라 즐겁게 배울 수 있는 환경을 조성하여 계속 돌아오게 합니다."
+
+#: components/Waitlist.tsx:141
+msgid "Our API is Now Live"
+msgstr "API 서비스 시작"
+
+#: components/tools/ToolsWaitlist.tsx:141
+msgid "Our Knowledge Base is Now Live"
+msgstr ""
+
+#: pages/privacy/index.tsx:129
+msgid "Our Privacy Policy does not apply to services offered by other companies or individuals, including third-party services used in conjunction with AskYourPDF. We recommend that you review the privacy policies of any third-party services you may use."
+msgstr "타사나 개인이 제공하는 서비스에는 개인정보처리방침이 적용되지 않습니다. AskYourPDF와 함께 사용되는 타사 서비스 포함입니다. 사용 중인 타사 서비스의 개인정보처리방침을 검토하시기 바랍니다."
+
+#: components/literature-review/LiteratureMainBar.tsx:294
+msgid "Output"
+msgstr "출력"
+
+#: components/Landing/Plans.tsx:479
+#: components/Landing/Plans.tsx:561
+#: components/Landing/Plans.tsx:651
+#: components/PdfToChat/Plans.tsx:479
+#: components/PdfToChat/Plans.tsx:561
+#: components/PdfToChat/Plans.tsx:651
+msgid "pages per document"
+msgstr "문서 당 페이지"
+
+#: pages/documents/[[...id]]/index.tsx:950
+msgid "Pages:"
+msgstr "페이지:"
+
+#: components/Modals/PaymentModalContent.tsx:318
+#: components/Modals/PaymentModalContent.tsx:360
+msgid "pages/Document"
+msgstr "페이지/문서"
+
+#: pages/billing/index.tsx:1054
+#: pages/settings/index.tsx:98
+#: pages/settings/index.tsx:113
+msgid "Paid"
+msgstr "지불됨"
+
+#: pages/billing/index.tsx:925
+#: pages/settings/index.tsx:929
+msgid "Payment Method"
+msgstr "결제 수단"
+
+#: pages/settings/index.tsx:914
+msgid "Payment Method, Billing History & Usage"
+msgstr "결제수단, 청구 내역 및 사용량"
+
+#: components/Extension/Methods.tsx:140
+msgid "PDF and Other Document Formats"
+msgstr "PDF 및 다른 문서 형식"
+
+#: components/tools/ToolCommon.tsx:223
+#: components/ToolsFooter.tsx:86
+msgid "PDF Compressor"
+msgstr "PDF 압축 도구"
+
+#: components/tools/ToolCommon.tsx:215
+#: components/ToolsFooter.tsx:90
+#: pages/tools/index.tsx:283
+#: pages/tools/merge/index.tsx:685
+msgid "PDF Merger"
+msgstr "PDF 병합 도구"
+
+#: components/tools/ToolCommon.tsx:211
+#: components/ToolsFooter.tsx:82
+#: pages/tools/index.tsx:276
+#: pages/tools/split/index.tsx:812
+msgid "PDF Splitter"
+msgstr "PDF 분리 도구"
+
+#: components/Footer.tsx:302
+msgid "PDF To Chat"
+msgstr ""
+
+#: components/Landing/Plans.tsx:455
+#: components/PdfToChat/Plans.tsx:455
+msgid "Perfect for getting started! Experience the magic of AI-enhanced documents at no cost. Includes 100 chats per month."
+msgstr "시작하기 완벽합니다! 비용 없이 AI 문서 마법을 경험하세요. 월 100회 대화 포함."
+
+#: components/PdfToChat/Discover.tsx:57
+msgid "Personal Knowledge"
+msgstr "개인 지식"
+
+#: pages/settings/index.tsx:507
+msgid "Pick an account plan that fits your workflow."
+msgstr "워크플로에 맞는 계정 플랜을 선택하세요."
+
+#: components/Modals/Profile.tsx:320
+#: components/Modals/Profile.tsx:323
+#: pages/billing/index.tsx:833
+#: pages/billing/index.tsx:1075
+#: pages/billing/upgrade.tsx:665
+#: pages/settings/index.tsx:186
+msgid "Plan"
+msgstr "플랜"
+
+#: components/Landing/Plans.tsx:398
+#: components/PdfToChat/Plans.tsx:398
+msgid "Plans for <0>everyone</0>"
+msgstr "<0>모두</0>를 위한 플랜"
+
+#: components/Modals/DocumentSelectModal.tsx:483
+msgid "Please confirm if you have selected any documents"
+msgstr "ドキュメントを選択したかどうか確認してください"
+
+#: components/Modals/DocumentSelectModal.tsx:459
+msgid "Please confirm if you have selected any documents or given the knowledge base a name"
+msgstr "ドキュメントを選択したか、ナレッジベースに名前を付けたかどうか確認してください"
+
+#: pages/upload/index.tsx:317
+msgid "Please copy the document ID above and paste it into the <0>ChatGPT UI</0> to have a conversation about this document."
+msgstr "위의 문서 ID를 복사하여 <0>ChatGPT UI</0>에 붙여넣으면 이 문서에 대한 대화를 할 수 있습니다."
+
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:300
+msgid "Please enter a API name"
+msgstr "API 이름을 입력하세요"
+
+#: components/Settings/LinkAccountCall.tsx:96
+msgid "Please enter a valid device ID"
+msgstr ""
+
+#: components/Modals/CreateAPIKeyDesktop.tsx:315
+msgid "Please enter an API name"
+msgstr "API 이름을 입력하세요"
+
+#: components/literature-review/LiteratureSideBar.tsx:245
+#: components/literature-review/LiteratureSideBar.tsx:313
+msgid "Please enter instructions on how to review your text input OR document"
+msgstr "텍스트 입력 또는 문서를 검토하는 방법에 대한 지침을 입력하세요"
+
+#: components/Summarisation/SummariseSideBar.tsx:366
+msgid "Please enter instructions on how to summarise your text input OR document"
+msgstr "텍스트 입력 또는 문서를 요약하는 방법에 대한 지침을 입력하십시오"
+
+#: pages/delete/index.tsx:284
+msgid "Please Enter Your Document ID"
+msgstr "문서 ID를 입력하세요"
+
+#: pages/delete/index.tsx:234
+msgid "Please make sure you're deleting a document you uploaded anonymously"
+msgstr "익명으로 업로드한 문서를 삭제하는 것인지 확인하십시오."
+
+#: components/Modals/ConversationFeedback.tsx:388
+#: components/Modals/ConversationFeedback.tsx:497
+msgid "Please provide details: (Optional)"
+msgstr "세부 정보 제공: (선택 사항)"
+
+#: pages/billing/index.tsx:991
+msgid "Please reach out to our team via <0>billing@askyourpdf.com</0> if you have any concerns about billing"
+msgstr "청구 관련 문의사항이 있다면 <0>billing@askyourpdf.com</0>으로 문의하세요"
+
+#: pages/settings/index.tsx:1000
+msgid "Please reach out to our team via billing@askyourpdf.com if you have any concerns about billing"
+msgstr "청구 관련 문의사항이 있다면 billing@askyourpdf.com으로 문의하세요"
+
+#: pages/conversations/[[...params]].tsx:952
+#: pages/knowledge-base/[[...params]].tsx:1524
+msgid "Please try again"
+msgstr "다시 시도하세요"
+
+#: pages/billing/index.tsx:960
+#: pages/settings/index.tsx:976
+msgid "Please Wait"
+msgstr "잠시만 기다려주세요"
+
+#~ msgid "Premium Plan <0>$4.99/month or $3.99/month (Billed Annually)</0>"
+#~ msgstr "프리미엄 플랜 <0>월 $4.99 또는 연간 $3.99</0>"
+
+#: pages/settings/index.tsx:625
+msgid "Premium Plan <0>$9.99/month or $6.99/month (Billed Annually)</0>"
+msgstr "프리미엄 플랜 <0>월 9.99달러 또는 월 6.99달러 (매년 청구)</0>"
+
+#: components/Navbar.tsx:304
+#: components/Navbar.tsx:361
+#: components/tools/ToolBarExt.tsx:258
+#: components/tools/ToolBarExt.tsx:292
+msgid "Pricing"
+msgstr "요금"
+
+#: components/Landing/Plans.tsx:702
+#: components/Modals/PaymentModalContent.tsx:399
+#: components/PdfToChat/Plans.tsx:702
+#: pages/settings/index.tsx:778
+msgid "Priority access to new features"
+msgstr "신규 기능 우선 접근"
+
+#: components/Landing/Plans.tsx:698
+#: components/Modals/PaymentModalContent.tsx:396
+#: components/PdfToChat/Plans.tsx:698
+#: pages/settings/index.tsx:769
+msgid "Priority support"
+msgstr "우선 지원"
+
+#: utils/termsData.ts:46
+msgid "Privacy"
+msgstr "개인정보"
+
+#: components/Footer.tsx:343
+#: pages/privacy/index.tsx:35
+msgid "Privacy Policy"
+msgstr "개인정보처리방침"
+
+#: components/Api/Pricing.tsx:303
+msgid "Pro Plan"
+msgstr "프로 플랜"
+
+#~ msgid "Pro Plan <0>$12.99/month or $7.99/month (Billed Annually)</0>"
+#~ msgstr "프로 플랜 <0>월 $12.99 또는 연간 $7.99</0>"
+
+#: pages/settings/index.tsx:743
+msgid "Pro Plan <0>$14.99/month or $9.99/month (Billed Annually)</0>"
+msgstr "프로 플랜 <0>월 14.99달러 또는 월 9.99달러 (매년 청구)</0>"
+
+#~ msgid "Product Update Emails"
+#~ msgstr "제품 업데이트 이메일"
+
+#: components/APIKeysList.tsx:482
+msgid "production"
+msgstr "프로덕션"
+
+#: pages/apikeys/index.tsx:413
+msgid "Production Keys"
+msgstr "프로덕션 키"
+
+#: components/Footer.tsx:259
+msgid "Products"
+msgstr "제품"
+
+#: components/AppSidebar.tsx:370
+#: components/MobileHeader.tsx:91
+msgid "Profile"
+msgstr "프로필"
+
+#: components/Summarisation/SummariseSideBar.tsx:363
+msgid "Prompt"
+msgstr "프롬프트"
+
+#: pages/settings/index.tsx:1136
+msgid "Questions"
+msgstr "질문"
+
+#: pages/settings/index.tsx:1171
+msgid "Questions (Plugin)"
+msgstr "질문 (플러그인)"
+
+#: components/Landing/Plans.tsx:496
+#: components/Landing/Plans.tsx:578
+#: components/Landing/Plans.tsx:668
+#: components/Landing/Plans.tsx:763
+#: components/PdfToChat/Plans.tsx:496
+#: components/PdfToChat/Plans.tsx:578
+#: components/PdfToChat/Plans.tsx:668
+#: components/PdfToChat/Plans.tsx:763
+msgid "questions per day"
+msgstr "하루 질문 수"
+
+#: components/Modals/PaymentModalContent.tsx:330
+msgid "questions/day"
+msgstr "질문/일"
+
+#: pages/knowledge-base/[[...params]].tsx:1463
+msgid "Reaction Failed to submit"
+msgstr "반응 제출 실패"
+
+#: components/Api/Header.tsx:171
+#: components/APIKeysList.tsx:770
+msgid "Read Documentation"
+msgstr "문서 읽기"
+
+#: pages/tools/ocr/index.tsx:339
+msgid "Read OCR PDF"
+msgstr "OCR PDF 읽기"
+
+#: components/PdfToChat/Guide.tsx:125
+#: components/PdfToChat/SummarizeGuide.tsx:141
+msgid "Ready to harness the future of document interaction? Let's dive into how you can make the most of AskYouPDF's incredible features."
+msgstr "문서 상호작용의 미래를 활용할 준비가 되셨나요? AskYouPDF의 놀라운 기능을 최대한 활용하는 방법을 알아보겠습니다."
+
+#: components/PdfToChat/Guide.tsx:168
+msgid "Receive Answers"
+msgstr "답변 받기 "
+
+#: components/PdfToChat/SummarizeGuide.tsx:195
+msgid "Receive Your Summary"
+msgstr "요약본 받기"
+
+#: components/AppHeader.tsx:116
+msgid "Renew"
+msgstr "갱신"
+
+#: pages/billing/upgrade.tsx:744
+#: pages/settings/index.tsx:567
+msgid "Renew Canceled Plan"
+msgstr "취소된 플랜 갱신"
+
+#: pages/billing/index.tsx:883
+msgid "Renew Plan"
+msgstr "플랜 갱신"
+
+#: components/Modals/ConversationFeedback.tsx:358
+#: components/Modals/ConversationFeedback.tsx:468
+msgid "Report an Issue"
+msgstr "문제 신고"
+
+#: pages/summarise/index.tsx:171
+#: pages/summarise/index.tsx:231
+#: pages/tools/literature-review-writer/index.tsx:287
+msgid "Request timed out. Please try again"
+msgstr "요청 시간이 초과되었습니다. 다시 시도해주세요"
+
+#: pages/privacy/index.tsx:38
+msgid "Respecting Your Privacy: Our Commitment and Assurance"
+msgstr "개인정보 존중: 약속과 보장"
+
+#: pages/tools/literature-review-writer/index.tsx:369
+msgid "Results for"
+msgstr " 결과물"
+
+#~ msgid "Resume Chat"
+#~ msgstr "대화 이어하기"
+
+#~ msgid "Resume Conversation"
+#~ msgstr "대화 이어하기"
+
+#: pages/tools/literature-review-writer/index.tsx:279
+#: pages/tools/literature-review-writer/index.tsx:289
+msgid "Review Failed"
+msgstr ""
+
+#: components/literature-review/LiteratureMainBar.tsx:333
+msgid "Review will be displayed here"
+msgstr "리뷰가 여기에 표시됩니다"
+
+#~ msgid "save 25%"
+#~ msgstr "25% 절약"
+
+#: components/Modals/UpdatePaymentMethodBottomSheet.tsx:195
+#: components/Modals/UpdatePaymentMethodDesktop.tsx:191
+msgid "Save Details"
+msgstr "세부정보 저장"
+
+#: components/Landing/Features.tsx:286
+#: components/PdfToChat/Features.tsx:311
+msgid "Save Time"
+msgstr "시간 절약"
+
+#: pages/tools/literature-review-writer/index.tsx:357
+msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
+msgstr ""
+
+#: components/Footer.tsx:207
+#: components/Landing/Hero.tsx:275
+msgid "Say hello to documents that respond to you! With AskYourPDF, your reading isn't just simple, it's fun!"
+msgstr "당신에게 응답하는 문서와 안녕! AskYourPDF로 읽기는 간편할 뿐만 아니라 재미있습니다!"
+
+#: pages/tools/index.tsx:303
+msgid "Seamlessly edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
+msgstr "PDF에서 텍스트를 원활하게 편집, 분할, 병합, 압축 및 추출합니다. AI의 강력한 기능을 활용하여 무료로 PDF 상호 작용을 단순화하세요"
+
+#: components/Modals/SearchBottomSheet.tsx:131
+msgid "Search"
+msgstr "검색"
+
+#: components/SearchResults.tsx:368
+msgid "Search Failed"
+msgstr "검색 실패"
+
+#: components/SearchResults.tsx:261
+msgid "Search for any conversation"
+msgstr "모든 대화 검색"
+
+#: pages/privacy/index.tsx:110
+msgid "Security of Your Information"
+msgstr "정보 보안"
+
+#: components/Api/Pricing.tsx:268
+msgid "Select a preferred pricing plan to get started"
+msgstr "시작하려면 선호하는 가격 요금제를 선택하세요"
+
+#: components/Modals/ConversationFeedback.tsx:363
+#: components/Modals/ConversationFeedback.tsx:473
+msgid "Select an option"
+msgstr "옵션 선택"
+
+#: components/Modals/DocumentSelectModal.tsx:628
+msgid "Select Documents"
+msgstr "ドキュメントを選択する"
+
+#: components/AppSidebar.tsx:354
+#: pages/settings/index.tsx:483
+msgid "Settings"
+msgstr "설정"
+
+#: pages/conversations/[[...params]].tsx:1078
+msgid "Share"
+msgstr "공유"
+
+#: components/Modals/PaymentModalContent.tsx:426
+#: pages/settings/index.tsx:649
+#: pages/settings/index.tsx:766
+#: pages/settings/index.tsx:859
+msgid "Share Customizable link"
+msgstr "맞춤 링크 공유"
+
+#: components/Modals/ShareModal.tsx:180
+msgid "Share this conversation"
+msgstr "이 대화 공유하기"
+
+#: components/Modals/ShareModal.tsx:209
+msgid "Share Via:"
+msgstr "공유:"
+
+#: components/Affiliate/Features.tsx:137
+msgid "Share Your Referral Link with Your Audience"
+msgstr "귀하의 관객과 추천 링크 공유"
+
+#: pages/chat/[[...docID]]/index.tsx:337
+#: pages/knowledge-base/intro.tsx:392
+msgid "Short guides to get you started"
+msgstr "시작하는 데 도움이 되는 짧은 가이드"
+
+#: components/Affiliate/Features.tsx:123
+msgid "Sign Up for the Affiliate Program"
+msgstr "제휴 프로그램에 가입"
+
+#: components/Affiliate/Join.tsx:103
+msgid "Sign Up Now"
+msgstr "지금 가입하세요"
+
+#: components/Modals/PaymentModal.tsx:49
+#: pages/documents/[[...id]]/index.tsx:772
+msgid "Something went wrong. Please try again"
+msgstr "문제가 발생했습니다. 다시 시도하세요"
+
+#: components/Summarisation/SummariseUpload.tsx:557
+msgid "Sorry, but this document has over {SUMMARY_MAX_PAGES} pages. Please select a document with fewer pages to continue."
+msgstr "죄송합니다, 이 문서는 {SUMMARY_MAX_PAGES} 페이지를 초과합니다. 계속하려면 페이지 수가 적은 문서를 선택하십시오."
+
+#: components/Summarisation/SummariseUpload.tsx:543
+#~ msgid "Sorry, but this document has over 200 pages. Please select a document with fewer pages to continue."
+#~ msgstr ""
+
+#: components/BuyCredits.tsx:41
+msgid "Sorry, you can't buy credits as a free user. Upgrade your account to access this feature"
+msgstr ""
+
+#: pages/tools/split/index.tsx:933
+msgid "Split Another"
+msgstr "또 다른 분할"
+
+#: pages/tools/split/index.tsx:850
+msgid "Split PDF"
+msgstr "PDF 분할"
+
+#: components/PdfToChat/MoreTools.tsx:31
+msgid "Split PDF Tool"
+msgstr "PDF 분할 도구"
+
+#: pages/chat/[[...docID]]/index.tsx:329
+#: pages/file-upload/index.tsx:407
+msgid "Start Conversation"
+msgstr "대화 시작"
+
+#: components/Navbar.tsx:422
+#: components/PdfToChat/Discover.tsx:185
+#: components/PdfToChat/Features.tsx:346
+#: components/PdfToChat/SummarizeGuide.tsx:211
+#: components/tools/ToolBarExt.tsx:338
+msgid "Start For Free"
+msgstr "무료로 시작하기"
+
+#: pages/chat/[[...docID]]/index.tsx:313
+msgid "Start your first conversation"
+msgstr "첫 대화 시작하기"
+
+#: pages/knowledge-base/intro.tsx:344
+msgid "Start your first knowledge base"
+msgstr "첫 번째 지식 베이스를 시작하세요"
+
+#: pages/billing/index.tsx:1043
+#: pages/settings/index.tsx:155
+msgid "Status"
+msgstr "상태"
+
+#: pages/tools/index.tsx:270
+msgid "Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work."
+msgstr ""
+
+#: components/Modals/ConversationFeedback.tsx:266
+msgid "Submission Failed"
+msgstr "제출 실패"
+
+#: components/Modals/ConversationFeedback.tsx:419
+#: components/Modals/ConversationFeedback.tsx:528
+msgid "Submit"
+msgstr "제출"
+
+#~ msgid "Submitting this report will send the current conversation to Anthropic and store with your feedback for future improvements to our models."
+#~ msgstr "이 보고서를 제출하면 현재 대화가 Anthropi로 전송되고 피드백을 향후 모델 개선을 위해 저장합니다."
+
+#: components/Modals/ConversationFeedback.tsx:400
+#: components/Modals/ConversationFeedback.tsx:509
+msgid "Submitting this report will send the current conversation to AskYourPDF and store with your feedback for future improvements to our models."
+msgstr ""
+
+#: components/Modals/PaymentModalContent.tsx:536
+msgid "Subscribe for"
+msgstr "가입"
+
+#: components/Modals/PaymentModalContent.tsx:352
+#: components/Modals/PaymentModalContent.tsx:409
+msgid "Subscribe To"
+msgstr "가입"
+
+#: utils/faqData.tsx:75
+msgid "Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."
+msgstr "구독자는 언제든지 구독을 취소할 수 있습니다. 그러나 구독 기간의 사용되지 않은 부분에 대한 환불은 제공되지 않습니다."
+
+#: utils/termsData.ts:57
+msgid "Subscribers can cancel their subscriptions at any time, but no refunds will be provided for any unused portion of the subscription period."
+msgstr "구독자는 언제든지 구독을 취소할 수 있지만 구독 기간의 미사용 부분에 대한 환불은 제공되지 않습니다."
+
+#: components/Modals/PaymentModal.tsx:48
+msgid "Subscription Failed"
+msgstr "구독 실패"
+
+#: utils/termsData.ts:56
+msgid "Subscriptions and cancellations"
+msgstr "구독과 취소"
+
+#: pages/conversations/[[...params]].tsx:935
+#: pages/documents/[[...id]]/index.tsx:764
+#: pages/knowledge-base/[[...params]].tsx:1507
+msgid "Success"
+msgstr "성공"
+
+#~ msgid "Sumarisation"
+#~ msgstr "요약"
+
+#: components/AppSidebar.tsx:296
+#: components/MobileHeader.tsx:107
+msgid "Summarisation"
+msgstr "요약"
+
+#: pages/settings/index.tsx:909
+#: pages/settings/index.tsx:917
+#~ msgid "Summarisation Credit"
+#~ msgstr "요약 크레딧"
+
+#: components/Summarisation/SummariseMainBar.tsx:389
+msgid "Summarise Documents"
+msgstr "문서 요약"
+
+#: components/Modals/PaymentModalContent.tsx:342
+#: components/Modals/PaymentModalContent.tsx:381
+#: pages/settings/index.tsx:661
+#: pages/settings/index.tsx:784
+msgid "Summarization Access"
+msgstr "요약 접근"
+
+#: components/Summarisation/SummariseMainBar.tsx:406
+msgid "Summary"
+msgstr "요약"
+
+#: components/Summarisation/SummariseMainBar.tsx:413
+msgid "Summary copied"
+msgstr "요약 복사됨"
+
+#: pages/summarise/index.tsx:163
+#: pages/summarise/index.tsx:175
+#: pages/summarise/index.tsx:223
+#: pages/summarise/index.tsx:235
+msgid "Summary Failed"
+msgstr "요약 실패"
+
+#: components/Summarisation/SummariseMainBar.tsx:445
+msgid "Summary will be displayed here"
+msgstr "여기에 요약이 표시됩니다"
+
+#: components/Landing/Features.tsx:194
+#: components/PdfToChat/Features.tsx:200
+msgid "Supercharge Document <0/> <1>Interactions</1>"
+msgstr "문서 <0/> <1>상호작용</1> 가속화"
+
+#: components/Landing/Hero.tsx:298
+msgid "Supported formats"
+msgstr "지원 형식"
+
+#: components/tools/DocUploadNoFunc.tsx:389
+msgid "Supported formats: .pdf"
+msgstr ""
+
+#: components/DocumentUpload.tsx:446
+msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf'"
+msgstr "지원 형식: .pdf, .txt, .ppt, .pptx, .csv, .epub, .rtf"
+
+#: components/Summarisation/SummariseUpload.tsx:534
+msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf' (max 200 pages)"
+msgstr "지원되는 형식: .pdf, .txt, .ppt, .pptx, .csv, .epub, .rtf (최대 200 페이지)"
+
+#: pages/billing/index.tsx:866
+msgid "Switch Plan"
+msgstr "플랜 변경"
+
+#: pages/settings/index.tsx:676
+msgid "Switch To Premium"
+msgstr "프리미엄으로 전환"
+
+#: pages/settings/index.tsx:798
+msgid "Switch To Pro"
+msgstr "프로로 전환"
+
+#: components/Landing/AppSection.tsx:152
+#: components/PdfToChat/AppSection.tsx:152
+msgid "Take your document chats on the go with AskYourPDF app! Chat, track, learn - anytime, anywhere. Available on iOS and Android."
+msgstr "AskYourPDF 앱으로 문서 채팅을 모바일로! 언제 어디서든 채팅, 추적, 학습. iOS와 Android에서 사용 가능."
+
+#: components/PdfToChat/Discover.tsx:52
+msgid "Technical Mastery"
+msgstr "기술적 숙련"
+
+#: utils/termsData.ts:51
+msgid "Termination"
+msgstr "종료"
+
+#: components/Footer.tsx:338
+#: pages/terms/index.tsx:44
+msgid "Terms & Conditions"
+msgstr "이용약관"
+
+#: components/APIKeysList.tsx:482
+msgid "test"
+msgstr "테스트"
+
+#: components/APIKeysList.tsx:682
+msgid "Test API keys should only be used on staging or during development. Switch to production keys when you wish to go live"
+msgstr "테스트 API 키는 스테이징 또는 개발 중에만 사용하세요. 라이브로 전환할 시에는 프로덕션 키로 전환하세요"
+
+#: pages/apikeys/index.tsx:405
+msgid "Test Keys"
+msgstr "테스트 키"
+
+#: components/Modals/ConversationFeedback.tsx:333
+#: components/Modals/ConversationFeedback.tsx:443
+msgid "Thank You"
+msgstr "감사합니다"
+
+#: pages/chat/[[...docID]]/index.tsx:241
+#: utils/faqData.tsx:19
+msgid "The application uses artificial intelligence to analyze the content of the document and provide a chat interface for users to ask questions get answers."
+msgstr "이 애플리케이션은 문서의 내용을 인공 지능으로 분석하고 사용자가 질문하고 답을 얻을 수 있는 채팅 인터페이스를 제공합니다."
+
+#: pages/knowledge-base/intro.tsx:255
+msgid "The AskYourPDF Knowledge Base is a service that allows users to create a list or library of documents which then serves as a knowledge base. Users can then chat this knowledge base as if it were a single document and receive answers based on the information contained within those documents."
+msgstr "AskYourPDF 지식 베이스는 사용자가 문서의 목록이나 라이브러리를 만들 수 있게 해주는 서비스로, 이후 지식 베이스로 작용합니다. 사용자는 이 지식 베이스를 마치 단일 문서인 것처럼 채팅할 수 있으며, 이러한 문서에 포함된 정보를 기반으로 답변을 받을 수 있습니다."
+
+#: components/PdfToChat/KnowledgeBaseServiceBanner.tsx:85
+msgid "The AskYourPDF Knowledge Base service provides a platform for users to upload documents into one folder 📂 (knowledge base) from which they can ask questions and get answers based on those documents."
+msgstr " AskYourPDF 지식 베이스 서비스는 사용자가 문서를 하나의 폴더 📂(지식 베이스)에 업로드할 수 있는 플랫폼을 제공하여 해당 문서를 기반으로 질문을 하고 답변을 받을 수 있게 합니다."
+
+#~ msgid "The chat session is available as long as the tab is open."
+#~ msgstr "탭이 열려있는 한 채팅 세션을 사용할 수 있습니다."
+
+#: pages/privacy/index.tsx:55
+msgid "The Information We Collect and Its Use"
+msgstr "수집하는 정보 및 사용"
+
+#: pages/knowledge-base/intro.tsx:298
+msgid "The Knowledge Base service is included at no additional cost for our Premium, Pro, and Enterprise plans."
+msgstr "지식 베이스 서비스는 저희 프리미엄, 프로, 엔터프라이즈 플랜에 별도의 비용 없이 포함되어 있습니다."
+
+#: utils/termsData.ts:72
+msgid "These terms and conditions shall be governed by and construed in accordance with the laws of the country or state where it is used."
+msgstr "이 약관은 서비스가 사용되는 국가 또는 지역의 법률에 따라 관리/해석됩니다."
+
+#: pages/privacy/index.tsx:125
+msgid "Third-Party Services"
+msgstr "타사 서비스"
+
+#: pages/chat/[[...docID]]/index.tsx:236
+msgid "This application lets you chat with any document you upload."
+msgstr "이 애플리케이션을 통해 업로드한 문서와 채팅할 수 있습니다."
+
+#: pages/subscription-error/index.tsx:163
+msgid "This feature requires an active subscription. Click the button below to upgrade your account and access more features"
+msgstr "이 기능을 사용하려면 활성 구독이 필요합니다. 귀하의 계정을 업그레이드하고 더 많은 기능에 액세스하려면 아래 버튼을 클릭하십시오"
+
+#: pages/billing/upgrade.tsx:674
+msgid "This plan limits your quota to the maximum available for the {0} Plan. <0>Learn More</0>"
+msgstr "이 플랜은 {0} 플랜에서 사용 가능한 최대 한도로 할당량을 제한합니다. <0>더 알아보기</0>"
+
+#: components/APIKeysList.tsx:501
+msgid "This quota sets the maximum number of API calls or actions you can perform within a given period. If you find your needs exceeding this limit, consider upgrading to one of our premium plans for additional quota and features."
+msgstr "이 할당량은 주어진 기간 내에 수행할 수 있는 최대 API 호출 또는 동작 수를 설정합니다. 한도를 초과하는 경우, 추가 할당량과 기능을 위해 프리미엄 플랜으로 업그레이드하는 것을 고려하세요."
+
+#: components/PdfToChat/SummarizeGuide.tsx:155
+msgid "To begin, upload the document to be summarised. This can be a PDF, text file, or any of the various document formats that are supported. <0/>After you've submitted the document, you'll have to wait a few moments while AskYourPDF processes it. Our AI system will analyze the material in order to extract important information."
+msgstr "시작하려면 요약할 문서를 업로드하십시오. 이것은 PDF, 텍스트 파일 또는 지원되는 다양한 문서 형식 중 하나일 수 있습니다. 문서를 제출한 후 AskYourPDF가 처리하는 동안 잠시 기다려야 합니다. 저희 AI 시스템은 중요한 정보를 추출하기 위해 자료를 분석할 것입니다."
+
+#: pages/privacy/index.tsx:59
+msgid "To provide the best possible experience on AskYourPDF, we collect certain types of data from our users:"
+msgstr "AskYourPDF에서 최적의 경험을 제공하기 위해 사용자로부터 특정 유형의 데이터를 수집합니다:"
+
+#: utils/termsData.ts:67
+msgid "To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of AskYourPDF."
+msgstr "법률이 허용하는 최대 한도 내에서, AskYourPDF 사용과 관련한 직접적, 간접적, 부수적, 특수 또는 결과적 손해에 대해 책임을 지지 않습니다."
+
+#: components/Navbar.tsx:296
+#: components/Navbar.tsx:353
+#: pages/tools/index.tsx:305
+msgid "Tools"
+msgstr "도구"
+
+#: components/Landing/Products.tsx:178
+#: components/PdfToChat/Products.tsx:178
+msgid "Tools we’ve built to improve your document experience"
+msgstr "문서 경험 향상을 위해 만든 도구들"
+
+#: pages/settings/index.tsx:1051
+msgid "Track your Usage"
+msgstr "사용량 추적"
+
+#: pages/tools/index.tsx:291
+#: pages/tools/ocr/index.tsx:305
+msgid "Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader."
+msgstr "AI 기반 OCR PDF 리더를 사용하여 스캔 또는 이미지 기반 PDF를 편집 및 검색 가능한 텍스트로 변환하세요."
+
+#~ msgid "Trusted By"
+#~ msgstr "신뢰하는"
+
+#: components/PdfToChat/Universities.tsx:92
+msgid "Trusted By <0> Leading Universities </0>"
+msgstr "선도 대학교에 신뢰받는"
+
+#: components/PdfToChat/KnowledgeBaseServiceBanner.tsx:93
+#: components/tools/ToolsWaitlist.tsx:150
+#: components/Waitlist.tsx:151
+msgid "Try it Now"
+msgstr "지금 시도하기"
+
+#: components/Announcements.tsx:19
+#: components/Announcements.tsx:25
+msgid "Try it out now"
+msgstr "지금 바로 시도해 보세요"
+
+#: components/SearchResults.tsx:264
+msgid "Type what you want to search for in the search box, you can filter by conversation"
+msgstr "검색창에 검색할 내용을 입력하세요. 대화로 필터링할 수 있습니다"
+
+#: pages/conversations/[[...params]].tsx:1057
+#: pages/knowledge-base/[[...params]].tsx:1635
+msgid "Typing..."
+msgstr "입력 중..."
+
+#: pages/delete/index.tsx:239
+#: pages/delete/index.tsx:246
+msgid "Unable to Delete document, please make sure you're deleting a document you uploaded anonymously"
+msgstr "문서를 삭제할 수 없습니다. 익명으로 업로드한 문서를 삭제하고 있는지 확인하십시오."
+
+#: components/Modals/UnitsExceededModal.tsx:105
+msgid "Units Exceeded"
+msgstr ""
+
+#: components/Landing/Features.tsx:269
+#: components/PdfToChat/Features.tsx:294
+msgid "Unleash the chat power in your documents! Turn them into friendly Chatbot's,ready to share knowledge and insights."
+msgstr "문서의 채팅 가능성을 발휘하세요! 지식과 통찰력을 공유할 준비가 된 친근한 챗봇으로 만드세요."
+
+#: components/Landing/Plans.tsx:686
+#: components/Modals/PaymentModalContent.tsx:384
+#: components/PdfToChat/Plans.tsx:686
+msgid "Unlimited ChatGPT Plugin Question"
+msgstr "무제한 ChatGPT 플러그인 질문"
+
+#: components/Modals/PaymentModalContent.tsx:369
+msgid "Unlimited Conversation Per Day"
+msgstr "하루 무제한 대화"
+
+#: components/Modals/PaymentModalContent.tsx:420
+#: pages/settings/index.tsx:853
+msgid "Unlimited doc uploads a day"
+msgstr "하루 무제한 문서 업로드"
+
+#: components/Landing/Plans.tsx:772
+#: components/PdfToChat/Plans.tsx:772
+msgid "Unlimited documents per day"
+msgstr "하루 무제한 문서"
+
+#: pages/settings/index.tsx:850
+msgid "Unlimited file size"
+msgstr "무제한 파일 크기"
+
+#: components/Modals/PaymentModalContent.tsx:417
+#: pages/settings/index.tsx:847
+msgid "Unlimited pages"
+msgstr "무제한 페이지"
+
+#: components/Landing/Plans.tsx:744
+#: components/PdfToChat/Plans.tsx:744
+msgid "Unlimited pages per document"
+msgstr "문서 당 무제한 페이지"
+
+#: components/Modals/PaymentModalContent.tsx:423
+#: pages/settings/index.tsx:763
+#: pages/settings/index.tsx:856
+msgid "Unlimited questions / day"
+msgstr "하루 무제한 질문"
+
+#: components/Modals/PaymentModalContent.tsx:372
+msgid "Unlimited questions/day"
+msgstr "하루 무제한 질문"
+
+#~ msgid "Unlock the Possibilities of <0> AskYouPDF </0>"
+#~ msgstr "<0>AskYourPDF</0>의 가능성을 높이다 (<0>AskYourPDF</0> ui ganeungseong eul nopida) "
+
+#: components/PdfToChat/Discover.tsx:159
+msgid "Unlock the Possibilities of <0> AskYourPDF </0>"
+msgstr "<0>AskYourPDF</0>의 가능성을 높이다 (<0>AskYourPDF</0> ui ganeungseong eul nopida)"
+
+#: pages/billing/index.tsx:1061
+#: pages/settings/index.tsx:83
+msgid "Unpaid"
+msgstr "미납"
+
+#: components/Modals/Profile.tsx:235
+msgid "Update"
+msgstr "업데이트"
+
+#: components/Modals/DocumentSelectModal.tsx:721
+msgid "Update Knowledge Base"
+msgstr "ナレッジベースを更新する"
+
+#: components/Modals/UpdatePaymentMethodBottomSheet.tsx:162
+#: components/Modals/UpdatePaymentMethodDesktop.tsx:158
+msgid "Update Payment Method"
+msgstr "결제 수단 업데이트"
+
+#: components/Modals/DocumentSelectModal.tsx:402
+msgid "Update Success"
+msgstr "更新が成功しました"
+
+#: pages/billing/index.tsx:976
+msgid "Update your payment method"
+msgstr "결제 수단 업데이트"
+
+#: components/AppHeader.tsx:105
+#: components/KnowledgeBaseSidebar.tsx:630
+#: components/KnowledgeBaseSidebar.tsx:647
+#: components/MainSidebar.tsx:575
+#: components/MainSidebar.tsx:592
+#: pages/file-upload/index.tsx:353
+#: pages/subscription-error/index.tsx:176
+msgid "Upgrade"
+msgstr "업그레이드"
+
+#: components/APIKeysList.tsx:618
+#: components/APIKeysList.tsx:775
+#: pages/billing/upgrade.tsx:691
+msgid "Upgrade Account"
+msgstr "계정 업그레이드"
+
+#: components/APIKeysList.tsx:511
+msgid "Upgrade Developer Account"
+msgstr "개발자 계정 업그레이드"
+
+#: components/Modals/PaymentModalContent.tsx:587
+#: components/Modals/PaymentModalContent.tsx:601
+msgid "Upgrade now for increased upload limits and enhanced ChatGPT conversations"
+msgstr "업로드 제한 확대와 ChatGPT 대화 개선을 위해 지금 업그레이드하세요"
+
+#: components/Api/Pricing.tsx:319
+#: components/Api/Pricing.tsx:374
+#: pages/billing/index.tsx:867
+#: pages/billing/upgrade.tsx:785
+#: pages/billing/upgrade.tsx:851
+msgid "Upgrade Plan"
+msgstr "플랜 업그레이드"
+
+#: components/KnowledgeBaseSidebar.tsx:638
+#: components/MainSidebar.tsx:583
+#: pages/file-upload/index.tsx:335
+msgid "Upgrade to access more features"
+msgstr "더 많은 기능을 사용하려면 업그레이드하세요"
+
+#: pages/settings/index.tsx:688
+#: pages/settings/index.tsx:699
+msgid "Upgrade To Premium"
+msgstr "프리미엄으로 업그레이드"
+
+#: pages/settings/index.tsx:810
+#: pages/settings/index.tsx:821
+msgid "Upgrade To Pro"
+msgstr "프로로 업그레이드"
+
+#: components/Modals/PaymentModalContent.tsx:584
+#: components/Modals/PaymentModalContent.tsx:598
+msgid "Upgrade your content"
+msgstr "콘텐츠 업그레이드"
+
+#: components/PdfToChat/Guide.tsx:136
+#: components/PdfToChat/SummarizeGuide.tsx:152
+msgid "Upload"
+msgstr "업로드"
+
+#: components/AppSidebar.tsx:266
+msgid "Upload Doc"
+msgstr "문서 업로드"
+
+#: pages/upload/index.tsx:250
+msgid "Upload document"
+msgstr "문서 업로드"
+
+#: components/DocumentUpload.tsx:413
+#: components/Landing/Hero.tsx:289
+#: components/tools/DocUploadNoFunc.tsx:356
+msgid "Upload Document"
+msgstr "문서 업로드"
+
+#: components/DocumentUpload.tsx:389
+#: components/tools/DocUploadNoFunc.tsx:334
+msgid "Upload failed"
+msgstr "업로드 실패"
+
+#: components/DocumentUpload.tsx:427
+#: components/tools/DocUploadNoFunc.tsx:370
+msgid "Upload From URL"
+msgstr "URL에서 업로드"
+
+#: components/Modals/PaymentModalContent.tsx:280
+msgid "Upload larger documents"
+msgstr "더 큰 문서 업로드"
+
+#: components/literature-review/LiteratureUpload.tsx:487
+#: components/Modals/DocumentSelectModal.tsx:640
+#: components/Summarisation/SummariseUpload.tsx:501
+msgid "Upload New Document"
+msgstr "新しいドキュメントをアップロードする"
+
+#: components/DocumentUpload.tsx:370
+msgid "Upload Success"
+msgstr "업로드 성공"
+
+#: pages/file-upload/index.tsx:360
+msgid "Upload your document"
+msgstr "문서 업로드하기"
+
+#: pages/documents/[[...id]]/index.tsx:533
+#: pages/knowledge-base/[[...params]].tsx:1032
+msgid "Uploaded"
+msgstr "업로드됨"
+
+#: pages/settings/index.tsx:1058
+msgid "Uploaded Docs"
+msgstr "업로드된 문서"
+
+#: pages/documents/[[...id]]/index.tsx:938
+msgid "Uploaded:"
+msgstr "업로드:"
+
+#: utils/termsData.ts:21
+msgid "Uploading documents"
+msgstr "문서 업로드"
+
+#: pages/settings/index.tsx:1048
+msgid "Usage"
+msgstr "사용량"
+
+#: utils/termsData.ts:16
+msgid "Use of AskYourPDF"
+msgstr "AskYourPDF 사용"
+
+#: components/Modals/OldDocumentDeleteModal.tsx:132
+msgid "Use this method only to delete anonymous uploads or files from our old plugin, not personal account documents."
+msgstr "이 방법은 익명 업로드나 예전 플러그인에서 파일을 삭제하는 데만 사용하십시오. 개인 계정 문서는 아닙니다."
+
+#: components/APIKeysList.tsx:642
+#: components/APIKeysList.tsx:656
+#: components/APIKeysList.tsx:797
+#: components/APIKeysList.tsx:809
+msgid "Used"
+msgstr "사용된"
+
+#: utils/termsData.ts:26
+msgid "User Conduct"
+msgstr "사용자 행동규칙"
+
+#: utils/termsData.ts:31
+msgid "User Content"
+msgstr "사용자 콘텐츠"
+
+#: components/Landing/MobileAppBanner.tsx:94
+msgid "View App"
+msgstr "앱 보기"
+
+#: pages/conversations/[[...params]].tsx:1142
+msgid "View Doc"
+msgstr "문서 보기"
+
+#: pages/apikeys/index.tsx:342
+#: pages/billing/index.tsx:780
+#: pages/billing/upgrade.tsx:598
+msgid "View Docs"
+msgstr "문서 보기"
+
+#: pages/apikeys/index.tsx:356
+#: pages/billing/index.tsx:794
+#: pages/billing/upgrade.tsx:612
+msgid "View Documentation"
+msgstr "문서 보기"
+
+#: pages/tools/literature-review-writer/index.tsx:234
+msgid "Warning"
+msgstr ""
+
+#~ msgid "Warning:"
+#~ msgstr "경고:"
+
+#: components/Waitlist.tsx:144
+msgid "We are making AskYourPDF API open for developers to build applications and services."
+msgstr "AskYourPDF API를 개발자가 애플리케이션과 서비스를 구축할 수 있도록 오픈하고 있습니다."
+
+#: components/Announcements.tsx:29
+msgid "We just launched our Browser extension."
+msgstr "우리는 방금 브라우저 확장 프로그램을 출시했습니다."
+
+#: utils/termsData.ts:52
+msgid "We may terminate your use of AskYourPDF at any time for any reason, including if we believe that you have violated these terms and conditions."
+msgstr "이용약관 위반 등의 이유로 AskYourPDF 사용을 언제든지 중단할 수 있습니다."
+
+#: utils/termsData.ts:77
+msgid "We reserve the right to modify these terms and conditions at any time without prior notice. Your continued use of AskYourPDF after any changes to these terms and conditions constitutes your acceptance of the revised terms and conditions."
+msgstr "사전 통지 없이 언제든 이 약관을 변경할 권리를 보유합니다. 약관 변경 후에도 AskYourPDF를 계속 사용할 경우 변경된 약관에 동의한 것으로 간주됩니다."
+
+#: pages/privacy/index.tsx:140
+msgid "We reserve the right to update or amend this Privacy Policy at any time to reflect changes in our practices or services, or changes in the law. We will notify you of any significant changes and encourage you to review this policy periodically to stay informed."
+msgstr "업무 변경 또는 법률 변경을 반영하기 위해 이 개인정보처리방침을 수시로 업데이트할 권리를 보유합니다. 중대한 변경 시 안내하며 정기적 검토를 권장합니다."
+
+#: pages/chat/[[...docID]]/index.tsx:246
+msgid "We support multiple document formats ('.pdf', '.txt', '.ppt', '.pptx', '.csv','.epub', '.rtf')"
+msgstr "여러 문서 형식('.pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf')을 지원합니다."
+
+#: utils/faqData.tsx:24
+msgid "We support multiple document formats: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", and \".rtf\"."
+msgstr "우리는 다양한 문서 형식을 지원합니다: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", 및 \".rtf\"."
+
+#: pages/billing/index.tsx:977
+msgid "We tried to renew your subscription but we couldn't because of a payment issue, please check your payment method to avoid service disruption"
+msgstr "결제 문제로 구독 갱신에 실패했습니다. 서비스 중단을 피하려면 결제 수단을 확인하세요"
+
+#: pages/privacy/index.tsx:114
+msgid "We understand the sensitivity of your personal information and implement strict security measures to safeguard it. We store your information on secure servers, and access is strictly limited to a small number of authorized personnel who are required to keep the information confidential. Furthermore, we review and update our security measures on a regular basis."
+msgstr "개인정보의 중요성을 이해하며 엄격한 보안 조치를 취하고 있습니다. 정보는 안전한 서버에 저장되며 소수의 인가된 직원만 열람 가능합니다. 또한 정기적으로 보안 조치를 검토 및 업데이트합니다."
+
+#: components/PdfToChat/Features.tsx:276
+msgid "We're committed to enhancing your PDF interaction experience and providing you with powerful tools that simplify the way you work with documents."
+msgstr "우리는 PDF 상호작용 경험을 향상시키고 문서 작업 방식을 간소화하는 강력한 도구를 제공하기 위해 헌신하고 있습니다."
+
+#: components/Landing/Products.tsx:129
+#: components/PdfToChat/Products.tsx:129
+msgid "Website"
+msgstr "웹사이트"
+
+#: pages/terms/index.tsx:47
+msgid "Welcome to AskYourPDF, Please read these terms and conditions carefully as they govern your use of the product"
+msgstr "AskYourPDF에 오신 것을 환영합니다. 제품 사용과 관련된 약관을 주의 깊게 읽어주세요"
+
+#: utils/faqData.tsx:134
+msgid "What if I have a question or a problem while using AskYourPDF?"
+msgstr "AskYourPDF 사용 중 문의사항이나 문제가 있다면 어떻게 하나요?"
+
+#: utils/faqData.tsx:91
+msgid "What if I have a question that the AI can't answer?"
+msgstr "AI가 답변하지 못하는 질문이 있다면 어떻게 하나요?"
+
+#: pages/knowledge-base/intro.tsx:254
+msgid "What is AskYourPDF Knowledge Base about?"
+msgstr "AskYourPDF 지식 베이스는 무엇에 관한 것인가요?"
+
+#: utils/faqData.tsx:13
+msgid "What is AskYourPDF?"
+msgstr "AskYourPDF는 무엇인가요?"
+
+#: pages/chat/[[...docID]]/index.tsx:235
+msgid "What is this application about?"
+msgstr "이 애플리케이션은 무엇인가요?"
+
+#: components/Landing/Testimonial.tsx:139
+#: components/PdfToChat/Testimonial.tsx:139
+msgid "What people say <0>about us</0>"
+msgstr "사람들이 <0>우리에 대해</0> 말하는 것"
+
+#: components/Modals/ConversationFeedback.tsx:393
+#: components/Modals/ConversationFeedback.tsx:502
+msgid "What was unsatisfying about this response?"
+msgstr "이 응답에 불만족한 점은 무엇인가요?"
+
+#: utils/termsData.ts:42
+msgid "When you use our app, we may collect certain information automatically, such as technical information about your device, app usage statistics, and crash reports. This information is collected in an anonymized and aggregated form and is used to improve our app's performance, user experience, and overall quality."
+msgstr "앱 사용 시 기기 정보, 사용 통계, 크래시 리포트 등 일부 정보를 자동 수집합니다. 이 정보는 익명화/집계화되어 앱 성능, 사용자 경험, 전체 품질 향상에 사용됩니다."
+
+#: components/PdfToChat/Features.tsx:271
+msgid "Why Choose <0>Us</0>"
+msgstr "왜 우리를 선택해야 하나요"
+
+#: components/PdfToChat/Discover.tsx:53
+msgid "With AskYourPDF technical specialists and engineers are able to quickly retrieve crucial knowledge from technical manuals and paperwork."
+msgstr "AskYourPDF를 사용하면 기술 전문가와 엔지니어들은 기술 매뉴얼 및 문서에서 중요한 지식을 신속하게 검색할 수 있습니다."
+
+#: pages/tools/index.tsx:284
+#: pages/tools/merge/index.tsx:686
+msgid "With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
+msgstr "스마트하고 자동화된 병합을 통해 PDF는 품질과 서식을 유지하면서 하나의 응집력 있는 문서로 원활하게 통합됩니다."
+
+#: components/PdfToChat/Guide.tsx:171
+msgid "Witness AI-driven comprehension as AskYouPDF analyzes your PDF and provides instant, insightful answers."
+msgstr "AskYouPDF가 PDF를 분석하고 즉각적이고 통찰력 있는 답변을 제공하는 AI 기반 이해를 목격하세요."
+
+#: components/Modals/PaymentModalContent.tsx:516
+msgid "Yearly"
+msgstr "연간"
+
+#~ msgid "Yes, AskYourPDF is accessible from any device with an internet connection."
+#~ msgstr "네, 인터넷에 연결된 모든 기기에서 AskYourPDF를 사용할 수 있습니다."
+
+#: utils/faqData.tsx:108
+msgid "Yes, AskYourPDF is accessible from any device with standard browsers and an internet connection."
+msgstr "네, AskYourPDF는 표준 브라우저와 인터넷 연결이 있는 모든 기기에서 접근할 수 있습니다."
+
+#~ msgid "Yes, AskYourPDF is multilingual and lets you chat in any language of your choice."
+#~ msgstr "네, AskYourPDF는 다국어를 지원하며 원하는 언어로 채팅할 수 있습니다."
+
+#: utils/faqData.tsx:82
+msgid "Yes, AskYourPDF is multilingual and supports chatting in any language of your choice."
+msgstr "네, AskYourPDF는 다국어 지원되며 원하는 어떤 언어로든 채팅을 지원합니다."
+
+#: utils/faqData.tsx:87
+msgid "Yes, chat history can be downloaded."
+msgstr "네, 채팅 기록을 다운로드할 수 있습니다."
+
+#: utils/faqData.tsx:47
+msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at <0>billing@askyourpdf.com</0> with details of your educational institution and enrolment."
+msgstr "예, 하지만 현재 자동화된 신청 절차는 없습니다. 교육 기관 및 등록에 대한 세부 정보를 <0>billing@askyourpdf.com</0>으로 문의하시면 할인 쿠폰을 제공해 드립니다."
+
+#: utils/faqData.tsx:45
+msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at billing@askyourpdf.com with details of your educational institution and enrolment."
+msgstr "네, 그러나 현재 자동화된 신청 프로세스는 없습니다. 교육 기관 및 등록 세부 정보를 billing@askyourpdf.com 으로 연락주시면 할인 쿠폰을 제공해드리겠습니다."
+
+#~ msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF."
+#~ msgstr "네, 이 응용 프로그램은 무료로 사용할 수 있지만 일부 제한 사항이 있습니다. AskYourPDF의 다양한 기능을 탐색하려면 업그레이드된 플랜이 필요합니다."
+
+#: utils/faqData.tsx:70
+msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF. Documents uploaded by Free users remain in our database for a maximum of 90 days before removal."
+msgstr "네, 이 애플리케이션은 무료로 사용할 수 있지만 일부 제한 사항이 있습니다. AskYourPDF의 다양한 기능을 탐구하려면 업그레이드된 요금제가 필요합니다. 무료 사용자가 업로드한 문서는 삭제되기 전 최대 90일 동안 데이터베이스에 유지됩니다."
+
+#~ msgid "Yes, the application is free to use."
+#~ msgstr "네, 앱 사용은 무료입니다."
+
+#: utils/faqData.tsx:113
+msgid "Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."
+msgstr "네, 무료 사용자의 문서 업로드 최대 파일 크기는 15MB입니다. 그러나 프리미엄 및 프로 사용자는 각각 30MB와 90MB까지 업로드할 수 있습니다. 더 큰 파일 크기의 경우 사용자는 엔터프라이즈 플랜에 대한 문의가 필요합니다."
+
+#~ msgid "Yes, the maximum limit of the document that can be uploaded is 20mb."
+#~ msgstr "네, 업로드 가능한 문서의 최대 용량은 20MB입니다."
+
+#~ msgid "Yes, you can download the chat history."
+#~ msgstr "네, 대화 기록을 다운로드할 수 있습니다."
+
+#~ msgid "Yes, your data is secure and the application uses industry-standard (SSL encryption) security measures to protect your information."
+#~ msgstr "네, 데이터는 안전하며 애플리케이션은 업계 표준 SSL 암호화 등의 보안을 사용하여 정보를 보호합니다."
+
+#: utils/termsData.ts:27
+msgid "You are solely responsible for your conduct on AskYourPDF. You must not engage in any conduct that is illegal, defamatory, threatening, or abusive. You must not upload any documents that infringe the intellectual property rights of  others."
+msgstr "AskYourPDF에서의 모든 행동에 대한 책임은 전적으로 본인에게 있습니다. 불법, 폄훼, 협박, 학대 등의 행위는 금지됩니다. 타인의 지적재산권을 침해하는 문서 업로드도 금지됩니다."
+
+#: pages/documents/[[...id]]/index.tsx:757
+msgid "You can no longer share your chat with this document"
+msgstr "더 이상 이 문서로 채팅을 공유할 수 없습니다"
+
+#: components/tools/ToolsWaitlist.tsx:144
+msgid "You can now chat with multiple documents at once using our knowledge base"
+msgstr ""
+
+#: components/Announcements.tsx:17
+msgid "You can now chat with multiple documents at once. Using our knowledge Base."
+msgstr "이제 여러 문서와 동시에 채팅할 수 있습니다. 저희 지식 베이스를 사용하고 있습니다."
+
+#: components/Announcements.tsx:23
+msgid "You can now generate detailed summaries of your documents."
+msgstr "이제 문서의 자세한 요약을 생성할 수 있습니다."
+
+#: pages/documents/[[...id]]/index.tsx:756
+msgid "You can now share your chat with this document"
+msgstr "이제 이 문서를 사용하여 채팅을 공유할 수 있습니다"
+
+#: components/KnowledgeBaseSidebar.tsx:680
+#: components/KnowledgeBaseSidebar.tsx:696
+#: components/KnowledgeBaseSidebar.tsx:713
+#: components/MainSidebar.tsx:635
+#: components/MainSidebar.tsx:651
+#: components/MainSidebar.tsx:668
+msgid "You have exceeded the conversation limits for your account. Please try again tomorrow."
+msgstr "계정의 대화 제한을 초과했습니다. 내일 다시 시도해 주세요."
+
+#: components/KnowledgeBaseSidebar.tsx:613
+#: components/MainSidebar.tsx:558
+msgid "You have exceeded the conversation limits of a free account. Please try again tomorrow."
+msgstr "무료 계정의 대화 제한을 초과했습니다. 내일 다시 시도해 주세요."
+
+#: components/KnowledgeBaseSidebar.tsx:536
+#: components/MainSidebar.tsx:481
+msgid "You have exceeded your conversation limit. Login or create an account to create more conversations."
+msgstr "대화 제한을 초과했습니다. 로그인하거나 계정을 만들어 더 많은 대화를 생성하세요."
+
+#: components/Modals/UnitsExceededModal.tsx:108
+msgid "You have have used up your available {product} units. Please purchase more units."
+msgstr ""
+
+#: components/Modals/DocumentSelectModal.tsx:467
+#: components/Modals/DocumentSelectModal.tsx:491
+msgid "You have selected more than 5 documents"
+msgstr "5개 이상의 문서를 선택하셨습니다"
+
+#: utils/termsData.ts:22
+msgid "You may upload documents to AskYourPDF for the purpose of discussing them with other users. You must not upload any documents that are illegal, defamatory, obscene, or otherwise objectionable."
+msgstr "다른 사용자와 논의를 위해 문서를 업로드할 수 있습니다. 불법, 폄훼, 음란, 문제가 있는 문서는 업로드할 수 없습니다."
+
+#: utils/termsData.ts:17
+msgid "You may use AskYourPDF for personal or non-commercial purposes only. You must not use AskYourPDF for any illegal or unauthorized purpose."
+msgstr "AskYourPDF는 개인 또는 비영리 목적으로만 사용할 수 있습니다. 불법이나 무단 목적으로 사용할 수 없습니다."
+
+#~ msgid "You need to upgrade your account to create {0} keys"
+#~ msgstr "{0}개의 키를 생성하려면 계정을 업그레이드해야 합니다"
+
+#: components/SubscriptionGuard.tsx:30
+msgid "You tried accessing a premium feature, however an error occurred while fetching your plan. Please try again"
+msgstr "프리미엄 기능에 액세스하려고 시도했지만 요금제를 가져오는 중에 오류가 발생했습니다. 다시 시도해주세요"
+
+#: pages/delete/index.tsx:275
+msgid "You'll be able to delete any document you no longer want on this dashboard. Just input the <0>Doc ID</0> and delete the document."
+msgstr "이 대시보드에서는 더 이상 필요하지 않은 모든 문서를 삭제할 수 있습니다. 문서 ID를 입력하고 문서를 삭제하세요"
+
+#: pages/file-upload/index.tsx:363
+msgid "You'll be able to start a conversation based on the document uploaded. You can upgrade your account to increase your limits"
+msgstr "업로드한 문서를 기반으로 대화를 시작할 수 있습니다. 계정 업그레이드로 제한을 늘릴 수 있습니다"
+
+#: components/Affiliate/Features.tsx:157
+msgid "You'll get  30% commission on every paying client who signs up through your referral link for the first 12 months. You will be able to withdraw your money once you have earned a minimum of $100 in commission. We want to make certain that your contributions are properly recognized."
+msgstr "   처음 12 개월 동안 귀하의 추천 링크를 통해 등록 한 모든 지불 클라이언트에 대해 30 %의 커미션을 받게됩니다.귀하가 최소 $100의 커미션을 획득 한 후에 자금을 인출 할 수 있습니다. 우리는 확실하게하려고합니다"
+
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:404
+#: components/Modals/CreateAPIKeyDesktop.tsx:417
+msgid "You'll only see this key once, so please make sure to copy it and keep it safe"
+msgstr "이 키는 한 번만 볼 수 있으므로 복사해서 안전하게 보관하세요"
+
+#: pages/subscription-error/index.tsx:160
+msgid "You're not subscribed"
+msgstr "귀하는 구독 중이 아닙니다"
+
+#: components/APIKeysList.tsx:497
+msgid "You're on the Free Plan. Your quota will be limited to the free plan quota"
+msgstr "무료 플랜을 사용 중입니다. 할당량이 무료 플랜 제한으로 설정됩니다"
+
+#: components/Modals/Profile.tsx:277
+msgid "Your Account has been Deleted"
+msgstr "회원 계정이 삭제되었습니다"
+
+#: components/Modals/Profile.tsx:280
+msgid "Your account has been successfully deleted. We're sorry to see you go, but if you ever change your mind, we'll be here to welcome you back. Thank you for being a part of our community."
+msgstr "회원 계정이 성공적으로 삭제되었습니다. 떠나시는 것을 안타깝게 생각하지만, 언제든지 바꾸실 생각이 생기면 다시 환영해 드리겠습니다. 저희 커뮤니티의 일원이 되어 주셔서 감사합니다."
+
+#: components/Modals/CreateAPIKeyDesktop.tsx:387
+msgid "Your API Key has been generated successfully"
+msgstr "API 키가 성공적으로 생성되었습니다"
+
+#: pages/privacy/index.tsx:149
+msgid "Your continued use of AskYourPDF services after any changes to this Privacy Policy signifies your acceptance of our practices as set out in the revised policy."
+msgstr "개인정보처리방침 변경 후에도 AskYourPDF 서비스를 계속 사용할 경우 수정된 정책에 동의한 것으로 간주됩니다."
+
+#: pages/tools/ocr/index.tsx:520
+#~ msgid "Your converted file is ready"
+#~ msgstr "변환된 파일이 준비되었습니다"
+
+#~ msgid "Your document is private"
+#~ msgstr "개인 문서입니다"
+
+#~ msgid "Your document is public"
+#~ msgstr "공개 문서입니다"
+
+#: components/Landing/Features.tsx:297
+#: components/PdfToChat/Features.tsx:322
+msgid "Your documents transform into interactive buddies, ready to help you understand and engage in an instant!"
+msgstr "문서가 대화형 친구로 변신하여 순식간에 이해하고 참여할 준비가 됩니다!"
+
+#: components/Modals/ConversationFeedback.tsx:343
+#: components/Modals/ConversationFeedback.tsx:453
+msgid "Your feedback is crucial for improving our user experience and our team is actively working to resolve the issue. We truly appreciate your contribution to improving our platform."
+msgstr "귀하의 피드백은 사용자 경험을 개선하는 데 중요하며 저희 팀은 문제를 해결하기 위해 노력하고 있습니다. 플랫폼을 개선하는 데 기여해 주셔서 진심으로 감사드립니다."
+
+#: components/PdfToChat/Guide.tsx:120
+msgid "Your Guide to Effortless PDF <0> Interaction </0>"
+msgstr "PDF 상호작용을 위한 가이드"
+
+#: components/Modals/DocumentSelectModal.tsx:425
+msgid "Your knowledge base has been deleted"
+msgstr "あなたのナレッジベースは削除されました"
+
+#: components/Modals/DocumentSelectModal.tsx:403
+msgid "Your knowledge base has been updated"
+msgstr "あなたのナレッジベースは更新されました"
+
+#: components/Settings/AccountLinkedSuccessModal.tsx:69
+msgid "Your mobile and web accounts are now linked, giving you access to your subscription benefits on both platforms. Enjoy the unified AskYourPDF experience across all your devices."
+msgstr "이제 모바일 및 웹 계정이 연결되어 모든 플랫폼에서 구독 혜택에 액세스할 수 있습니다. 모든 장치에서 통합 AskYourPDF 경험을 즐기세요."
+
+#: pages/tools/merge/index.tsx:792
+msgid "Your PDF is ready"
+msgstr "PDF가 준비되었습니다"
+
+#: pages/tools/split/index.tsx:920
+msgid "Your PDFs are ready"
+msgstr "PDF가 준비되었습니다"
+
+#: utils/termsData.ts:47
+msgid "Your privacy is important to us. Please see our privacy policy for information on how we collect, use, and protect your personal information."
+msgstr "개인정보보호는 중요합니다. 수집, 사용, 보호 방식은 개인정보처리방침을 참고하세요."
+
+#: components/literature-review/LiteratureMainBar.tsx:327
+msgid "Your Review is being generated"
+msgstr "귀하의 리뷰가 생성 중입니다"
+
+#: components/MainSidebar.tsx:606
+msgid "Your subscription could not be renewed because billing failed. Please"
+msgstr "결제 실패로 구독을 갱신할 수 없습니다. 결제수단을"
+
+#: components/KnowledgeBaseSidebar.tsx:659
+msgid "Your subscription could not be renewed because billing failed. Please check your payment method"
+msgstr "お支払いが失敗したため、サブスクリプションを更新できませんでした。お支払い方法を確認してください"
+
+#: components/Summarisation/SummariseMainBar.tsx:307
+#: components/Summarisation/SummariseMainBar.tsx:439
+msgid "Your summary is being generated"
+msgstr "요약이 생성 중입니다"
