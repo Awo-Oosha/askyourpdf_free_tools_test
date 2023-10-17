@@ -24,10 +24,12 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ToolsFooter from "@/components/ToolsFooter";
+import { BottomNavigation } from "@/components/tools/ToolCommon";
 import { useMedia } from "react-use";
 import HeroImage from "@/img/Mask.svg?url";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
+import Link from "next/link";
 
 const MyLayout = styled(Layout)`
   background: #f6f6f8 !important;
@@ -91,7 +93,7 @@ const LiteratureHeader = styled(Layout)`
     }
   }
 `;
-const BackToTools = styled.div`
+const BackToTools = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -344,7 +346,7 @@ const Literature = () => {
             <Image src={HeroImage} alt="Hero" priority={true} sizes="100vw" />
           )}
         </div>
-        <BackToTools>
+        <BackToTools href="./">
           <Image src={ArrowLeft} alt="" />
           <p>
             <Trans>Back to tools</Trans>
@@ -391,7 +393,7 @@ const Literature = () => {
           />
         </Content>
       </LiteratureLayout>
-      <ToolsFooter />
+      <BottomNavigation/>
       <Footer />
     </MyLayout>
   );

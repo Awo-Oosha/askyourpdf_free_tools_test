@@ -264,7 +264,7 @@ const ToolsSection = ()=>{
   return (
  <ToolsList>
   <ToolsListInner>
-<ToolComp href="">
+<ToolComp href="literature-review-writer">
   <Image src={EyeIcon} alt=""/>
   <div className="thead"><Trans>Literature Review Tool</Trans></div>
   <div className="tdesc"><Trans>Streamline research, generate structured summaries, 
