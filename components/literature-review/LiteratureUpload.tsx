@@ -503,7 +503,7 @@ export default function DocumentUpload({
             </Tab>
           </TabContainer>
         )}
-        {/* {activeTab === 0 ? (
+         {activeTab === 0 ? (
           <Dragger
             {...draggerProps}
             itemRender={(originNode, file, fileList, actions) => (
@@ -572,7 +572,7 @@ export default function DocumentUpload({
               </DocumentListStatus>
             )}
           </UploadDocumentContainer>
-        )} */}
+        )} 
       </DocumentUploadContainer>
       <ProgressModal message={t`Analysing Document`} open={showProgressModal} />
     </>
