@@ -236,7 +236,7 @@ export default function LiteratureSideBar({
             }}
             docID={docID}
           />
-          <ActionCon>
+          {/*<ActionCon>
             <div className="title">
               <Trans>Field of Study</Trans>
             </div>
@@ -249,7 +249,7 @@ export default function LiteratureSideBar({
                 }}
               />
             </div>
-          </ActionCon>
+              </ActionCon>*/}
           <ActionCon>
             <div className="title">
               <Trans>Date Range</Trans>
