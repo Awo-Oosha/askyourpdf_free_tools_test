@@ -472,3 +472,62 @@ export function isMobileDevice() {
 export function covertToItalics(sentence: any) {
   return sentence.replace(/<i>(.*?)<\/i>/g, "*$1*");
 }
+
+export const referenceBibTeXData = (bibTeXData: any) => {
+  bibTeXData = bibTeXData.replace("booktitle", "book");
+  // Define regular expressions to extract BibTeX fields
+  const authorRegex = /author = {(.*?)},/;
+  const journalRegex = /journal = {(.*?)},/;
+  const volumeRegex = /volume = {(.*?)},/;
+  const yearRegex = /year = {(.*?)}/;
+  const bookTitleRegex = /book = {(.*?)}/;
+  const pagesRegex = /pages = {(.*?)},/;
+  const titleRegex = /title\s*=\s*{([^}]+)}/;
+
+  // Extract relevant fields from BibTeX data
+  const authorMatch = authorRegex.exec(bibTeXData);
+  const titleMatch = titleRegex.exec(bibTeXData);
+  const journalMatch = journalRegex.exec(bibTeXData);
+  const volumeMatch = volumeRegex.exec(bibTeXData);
+  const yearMatch = yearRegex.exec(bibTeXData);
+  const pagesMatch = pagesRegex.exec(bibTeXData);
+  const bookTitleMatch = bookTitleRegex.exec(bibTeXData);
+
+  // Format the details into a complete sentence
+  const author = authorMatch ? authorMatch[1] : "";
+  const title = titleMatch ? titleMatch[1] : "";
+  const journal = journalMatch ? journalMatch[1] : "";
+  const volume = volumeMatch ? volumeMatch[1] : "";
+  const year = yearMatch ? yearMatch[1] : "";
+  const bookTitle = bookTitleMatch ? bookTitleMatch[1] : "";
+  const pages = pagesMatch ? pagesMatch[1] : "";
+  // const citation = `${title}," authored by ${author}, was published in ${year}. The work is part of the ${bookTitle} book, featured in the ${journal} journal, and falls under volume ${volume} and can be found in page ${pages}".`;
+  let sentence = `${title},`;
+  if (author) {
+    sentence += ` authored by ${author},`;
+  } else {
+    sentence += ` author information is not available,`;
+  }
+
+  if (year) {
+    sentence += ` was published in ${year}.`;
+  } else {
+    sentence += ` publication year is not available.`;
+  }
+
+  if (bookTitle) {
+    sentence += ` The work is part of the ${bookTitle} book.`;
+  }
+
+  if (journal) {
+    sentence += ` featured in the ${journal} journal.`;
+  }
+
+  if (volume) {
+    sentence += ` falls under volume ${volume}.`;
+  }
+  if (pages) {
+    sentence += ` It can be found on pages ${pages}.`;
+  }
+  return sentence;
+};

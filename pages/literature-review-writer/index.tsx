@@ -4,7 +4,7 @@ import { Content } from "antd/lib/layout/layout";
 import LiteratureMainBar from "@/components/literature-review/LiteratureMainBar";
 import LiteratureSideBar from "@/components/literature-review/LiteratureSideBar";
 import styled from "styled-components";
-import { literatureReviewText } from "@/services/literature";
+import { literatureReviewText } from "@/services/tools";
 import ArrowLeft from "@/img/arrowLeft.svg?url";
 import {
   covertToItalics,
@@ -27,8 +27,8 @@ import ToolsFooter from "@/components/ToolsFooter";
 import { BottomNavigation } from "@/components/tools/ToolCommon";
 import { useMedia } from "react-use";
 import HeroImage from "@/img/Mask.svg?url";
-import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
-import {MAIN_APP_URL} from "@/config/config";
+import { PAGE_DESCRIPTION, PAGE_TITLE, path } from "@/routes";
+import { MAIN_APP_URL } from "@/config/config";
 import Link from "next/link";
 
 const MyLayout = styled(Layout)`
@@ -156,7 +156,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
       translation,
       description: PAGE_DESCRIPTION[path.literatureReview],
       canonicalUrl: `${MAIN_APP_URL}${path.literatureReview}`,
-      title : PAGE_TITLE[path.literatureReview]
+      title: PAGE_TITLE[path.literatureReview],
     },
   };
 };
@@ -359,7 +359,8 @@ const Literature = () => {
           <Trans>
             Save Time and Effort with an AI-Powered Literature Review Writer.
             Streamline research, generate structured summaries, and create
-            cohesive and comprehensive reviews that elevate your academic work. Powered by AI.
+            cohesive and comprehensive reviews that elevate your academic work.
+            Powered by AI.
           </Trans>
         </p>
       </LiteratureHeader>
@@ -393,7 +394,7 @@ const Literature = () => {
           />
         </Content>
       </LiteratureLayout>
-      <BottomNavigation/>
+      <BottomNavigation />
       <Footer />
     </MyLayout>
   );
