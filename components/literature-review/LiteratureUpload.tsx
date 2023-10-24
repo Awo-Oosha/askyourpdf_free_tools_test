@@ -14,7 +14,6 @@ import FileUploadIcon from "@/img/FileUpload.svg";
 import FileIcon from "@/img/FileIcon.svg?url";
 import { DOCUMENT_MANAGEMENT_SERVER_URL } from "@/config/config";
 import { validateURL } from "@/utils/utils";
-import { sendUrl } from "@/services/documents";
 import { useAuth } from "@/providers/AuthProvider";
 import Spinner from "@/components/Spinner";
 import { ActivityLabels, trackButtonClick } from "@/utils/analytics";
