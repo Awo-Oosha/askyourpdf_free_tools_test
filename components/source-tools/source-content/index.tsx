@@ -169,7 +169,7 @@ const ConfigurationButton = styled.div`
   }
 `;
 
-const TEXT_MAX_LENGTH = 300;
+const TEXT_MAX_LENGTH = 10000;
 type props = {
   sourceInput: string;
   setSourceInput: any;
@@ -245,7 +245,7 @@ export const SourceContent = ({
             />
             <div className="buttom-button">
               <span>
-                <Trans>Maximum of 300 characters</Trans>
+                <Trans>Maximum of 10000 characters</Trans>
               </span>
             </div>
             <ConfigurationSection>

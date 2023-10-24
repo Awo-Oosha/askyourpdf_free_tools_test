@@ -4,7 +4,7 @@ import { Modal, Row, Col, Input, Space } from "antd";
 import styled from "styled-components";
 import { Trans, t } from "@lingui/macro";
 import { Dropdown, Button, Checkbox } from "antd";
-import { DownOutlined, CheckOutlined } from "@ant-design/icons";
+import {  CheckOutlined } from "@ant-design/icons";
 import CalendarIcon from "@/img/CalendarDate.svg?url";
 import Image from "next/image";
 import TagsInput from "../keywordInput";
@@ -12,8 +12,11 @@ import type { CheckboxChangeEvent } from "antd/es/checkbox";
 const CustomModal = styled(Modal)`
   .ant-modal-content {
     background: #fff;
-    min-height: 393px;
+    min-height: 734px;
     padding: 0 !important;
+  }
+  .ant-btn {
+    height: 40px !important;
   }
   .ant-checkbox-checked .ant-checkbox-inner {
     background-color: #344054 !important;
@@ -37,6 +40,9 @@ const CustomModal = styled(Modal)`
     }
   }
 
+  .ant-input {
+    color: #667085 !important;
+  }
   .ant-modal-header {
     display: flex;
     align-items: center;
@@ -162,6 +168,7 @@ const ModalContent = styled.div`
     font-weight: 500;
     line-height: 20px;
     margin-bottom: 6px;
+    padding-top: 6px;
   }
   .body {
     display: flex;
@@ -186,8 +193,9 @@ const ModalContent = styled.div`
       font-style: normal;
       font-weight: 500;
       line-height: 20px;
-      padding: 8px 0px;
       width: 48%;
+      padding-top: 8px;
+      padding-bottom: 4px;
     }
   }
 `;

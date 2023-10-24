@@ -93,7 +93,7 @@ const LiteratureHeader = styled(Layout)`
     }
   }
 `;
-const BackToTools = styled(Link)`
+export const BackToTools = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -108,7 +108,7 @@ const BackToTools = styled(Link)`
     width: 150px;
   }
   p {
-    color: #edb01a;
+    color: #edb01a !important;
     font-family: var(--font-inter);
     font-size: 16px;
     font-style: normal;

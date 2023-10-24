@@ -42,9 +42,11 @@ const ProgressContent = styled.div`
 export default function ProgressModal({
   open,
   message,
+  type,
 }: {
   open: boolean;
   message?: string;
+  type?: string;
 }) {
   return (
     <ProgressModalStyles
@@ -59,8 +61,7 @@ export default function ProgressModal({
       width={700}
     >
       <ProgressContent>
-        <Spinner />
-        {/* <Image src={Spinner} alt="" /> */}
+        <Spinner type={type === "tool" ? "tool" : "primary"} />
         <h1>{message}</h1>
       </ProgressContent>
     </ProgressModalStyles>

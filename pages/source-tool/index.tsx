@@ -118,9 +118,9 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   return {
     props: {
       translation,
-      // description: PAGE_DESCRIPTION[path.sourceTool],
-      // canonicalUrl: `${MAIN_APP_URL}${path.sourceTool}`,
-      // title: PAGE_TITLE[path.sourceTool],
+      description: PAGE_DESCRIPTION[path.sourceTool],
+      canonicalUrl: `${MAIN_APP_URL}${path.sourceTool}`,
+      title: PAGE_TITLE[path.sourceTool],
     },
   };
 };
@@ -196,9 +196,9 @@ const SourceTools = () => {
         </div>
         <BackToTools href="/tools">
           <Image src={ArrowLeft} alt="" />
-          <span>
+          <p>
             <Trans>Back to tools</Trans>
-          </span>
+          </p>
         </BackToTools>
         <h1>
           <Trans>Source Tool</Trans>
@@ -236,6 +236,7 @@ const SourceTools = () => {
       <ProgressModal
         message={t`Hang on! We’re looking for sources`}
         open={showProgressModal}
+        type="tool"
       />
     </MyLayout>
   );
