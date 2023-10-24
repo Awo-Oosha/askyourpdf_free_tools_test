@@ -22,6 +22,7 @@ import { useMutation } from "react-query";
 import { Filter, getSourceInformation, getSources } from "@/services/tools";
 import { useRouter } from "next/router";
 import ProgressModal from "@/components/Modals/ProgressModal";
+import { BottomNavigation } from "@/components/tools/ToolCommon";
 
 const MyLayout = styled(Layout)`
   background: #f6f6f8 !important;
@@ -231,7 +232,7 @@ const SourceTools = () => {
           )}
         </Content>
       </SourceLayout>
-      <ToolsFooter />
+      <BottomNavigation />
       <Footer />
       <ProgressModal
         message={t`Hang on! We’re looking for sources`}

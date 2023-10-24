@@ -3637,6 +3637,7 @@ msgstr "결과에 만족하지 못하셨나요?"
 msgid "Begin new search"
 msgstr "새로운 검색 시작"
 
+#: components/tools/ToolCommon.tsx:258
 #: pages/index.tsx:320
 msgid "Source Tool"
 msgstr "소스 도구"

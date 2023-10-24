@@ -3849,6 +3849,7 @@ msgstr "Not satisfied with your results?"
 msgid "Begin new search"
 msgstr "Begin new search"
 
+#: components/tools/ToolCommon.tsx:258
 #: pages/index.tsx:320
 msgid "Source Tool"
 msgstr "Source Tool"

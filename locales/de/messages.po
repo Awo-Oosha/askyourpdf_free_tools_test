@@ -3655,6 +3655,7 @@ msgstr "Nicht zufrieden mit Ihren Ergebnissen?"
 msgid "Begin new search"
 msgstr "Neue Suche beginnen"
 
+#: components/tools/ToolCommon.tsx:258
 #: pages/index.tsx:320
 msgid "Source Tool"
 msgstr "Quellwerkzeug"

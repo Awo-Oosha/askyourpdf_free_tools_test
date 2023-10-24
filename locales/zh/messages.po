@@ -3657,6 +3657,7 @@ msgstr "对结果不满意？"
 msgid "Begin new search"
 msgstr "开始新搜索"
 
+#: components/tools/ToolCommon.tsx:258
 #: pages/index.tsx:320
 msgid "Source Tool"
 msgstr "源工具"

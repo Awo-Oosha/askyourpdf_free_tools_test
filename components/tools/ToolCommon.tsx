@@ -253,6 +253,12 @@ export const BottomNavigation = () => {
           </div>
           <ArrowRight style={{ height: "20px" }} />
         </NavButtons>
+        <NavButtons href="source-tool">
+          <div>
+            <Trans>Source Tool</Trans>
+          </div>
+          <ArrowRight style={{ height: "20px" }} />
+        </NavButtons>
       </BottomNav>
     </div>
   );
