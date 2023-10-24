@@ -3570,3 +3570,95 @@ msgstr "Ihr Abonnement konnte nicht erneuert werden, da die Abrechnung fehlgesch
 #: components/Summarisation/SummariseMainBar.tsx:439
 msgid "Your summary is being generated"
 msgstr "Ihre Zusammenfassung wird erstellt"
+
+#: components/Footer.tsx:363
+msgid "Affiliate Program"
+msgstr "Partnerprogramm"
+
+#: pages/source-tool/index.tsx:202
+msgid "Source Tool"
+msgstr "Quellwerkzeug"
+
+#: pages/source-tool/index.tsx:198
+msgid "Back to tools"
+msgstr "Zurück zu den Tools"
+
+#: pages/source-tool/index.tsx:205
+msgid "Simplify your search, guaranteeing precision and trustworthiness with each query."
+msgstr "Vereinfachen Sie Ihre Suche und garantieren Sie Präzision und Verlässlichkeit bei jeder Anfrage."
+
+#: pages/source-tool/index.tsx:235
+msgid "Hang on! We’re looking for sources"
+msgstr "Warten Sie! Wir suchen nach Quellen"
+
+#: components/source-tools/source-content/index,tsx.tsx:216
+msgid "Upload text file"
+msgstr "Textdatei hochladen"
+
+#: components/source-tools/source-content/index,tsx.tsx:229
+msgid "Description"
+msgstr "Beschreibung"
+
+#: components/source-tools/source-content/index,tsx.tsx:248
+msgid "Maximum of 300 characters"
+msgstr "Maximal 300 Zeichen"
+
+#: components/source-tools/source-content/index,tsx.tsx:259
+msgid "Configure search"
+msgstr "Suche konfigurieren"
+
+#: components/source-tools/source-content/index,tsx.tsx:266
+msgid "Find sources"
+msgstr "Quellen finden"
+
+#: components/source-tools/source-result/index,tsx.tsx:412
+msgid "Content"
+msgstr "Inhalt"
+
+#: components/source-tools/source-result/index,tsx.tsx:422
+msgid "Sources found"
+msgstr "Quellen gefunden"
+
+#: components/source-tools/source-result/index,tsx.tsx:433
+msgid "Export all"
+msgstr "Alles exportieren"
+
+#: components/source-tools/source-result/index,tsx.tsx:442
+msgid "Select all"
+msgstr "Alles auswählen"
+
+#: components/source-tools/source-result/index,tsx.tsx:466
+msgid "Cited by:"
+msgstr "Zitiert von:"
+
+#: components/source-tools/source-result/index,tsx.tsx:473
+msgid "Authors:"
+msgstr "Autoren:"
+
+#: components/source-tools/source-result/index,tsx.tsx:480
+msgid "Publication Year:"
+msgstr "Erscheinungsjahr:"
+
+#: components/source-tools/source-result/index,tsx.tsx:510
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: components/source-tools/source-result/index,tsx.tsx:521
+msgid "Export As"
+msgstr "Exportieren als"
+
+#: components/source-tools/source-result/index,tsx.tsx:540
+msgid "Not satisfied with your results?"
+msgstr "Nicht zufrieden mit Ihren Ergebnissen?"
+
+#: components/source-tools/source-result/index,tsx.tsx:548
+msgid "Begin new search"
+msgstr "Neue Suche beginnen"
+
+#: pages/index.tsx:320
+msgid "Source Tool"
+msgstr "Quellwerkzeug"
+
+#: pages.index.tsx:323
+msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources relevant to your needs."
+msgstr "Nutzen Sie die Kraft der künstlichen Intelligenz, um Quellen zu entdecken, zu analysieren und zu empfehlen, die Ihren Bedürfnissen entsprechen."

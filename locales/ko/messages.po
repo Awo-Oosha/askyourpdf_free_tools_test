@@ -3552,3 +3552,95 @@ msgstr "お支払いが失敗したため、サブスクリプションを更新
 #: components/Summarisation/SummariseMainBar.tsx:439
 msgid "Your summary is being generated"
 msgstr "요약이 생성 중입니다"
+
+#: components/Footer.tsx:363
+msgid "Affiliate Program"
+msgstr "제휴 프로그램"
+
+#: pages/source-tool/index.tsx:202
+msgid "Source Tool"
+msgstr "소스 도구"
+
+#: pages/source-tool/index.tsx:198
+msgid "Back to tools"
+msgstr "도구로 돌아가기"
+
+#: pages/source-tool/index.tsx:205
+msgid "Simplify your search, guaranteeing precision and trustworthiness with each query."
+msgstr "각 쿼리마다 정확도와 신뢰성을 보장하면서 검색을 간소화합니다."
+
+#: pages/source-tool/index.tsx:235
+msgid "Hang on! We’re looking for sources"
+msgstr "기다려주세요! 소스를 찾고 있습니다"
+
+#: components/source-tools/source-content/index,tsx.tsx:216
+msgid "Upload text file"
+msgstr "텍스트 파일 업로드"
+
+#: components/source-tools/source-content/index,tsx.tsx:229
+msgid "Description"
+msgstr "설명"
+
+#: components/source-tools/source-content/index,tsx.tsx:248
+msgid "Maximum of 300 characters"
+msgstr "최대 300자"
+
+#: components/source-tools/source-content/index,tsx.tsx:259
+msgid "Configure search"
+msgstr "검색 구성"
+
+#: components/source-tools/source-content/index,tsx.tsx:266
+msgid "Find sources"
+msgstr "소스 찾기"
+
+#: components/source-tools/source-result/index,tsx.tsx:412
+msgid "Content"
+msgstr "콘텐츠"
+
+#: components/source-tools/source-result/index,tsx.tsx:422
+msgid "Sources found"
+msgstr "찾은 소스"
+
+#: components/source-tools/source-result/index,tsx.tsx:433
+msgid "Export all"
+msgstr "모두 내보내기"
+
+#: components/source-tools/source-result/index,tsx.tsx:442
+msgid "Select all"
+msgstr "모두 선택"
+
+#: components/source-tools/source-result/index,tsx.tsx:466
+msgid "Cited by:"
+msgstr "인용자:"
+
+#: components/source-tools/source-result/index,tsx.tsx:473
+msgid "Authors:"
+msgstr "저자:"
+
+#: components/source-tools/source-result/index,tsx.tsx:480
+msgid "Publication Year:"
+msgstr "발행 연도:"
+
+#: components/source-tools/source-result/index,tsx.tsx:510
+msgid "Cancel"
+msgstr "취소"
+
+#: components/source-tools/source-result/index,tsx.tsx:521
+msgid "Export As"
+msgstr "내보내기 형식"
+
+#: components/source-tools/source-result/index,tsx.tsx:540
+msgid "Not satisfied with your results?"
+msgstr "결과에 만족하지 못하셨나요?"
+
+#: components/source-tools/source-result/index,tsx.tsx:548
+msgid "Begin new search"
+msgstr "새로운 검색 시작"
+
+#: pages/index.tsx:320
+msgid "Source Tool"
+msgstr "소스 도구"
+
+#: pages.index.tsx:323
+msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources relevant to your needs."
+msgstr "인공 지능의 힘을 활용하여 필요에 맞는 소스를 발견하고 분석하며 권장합니다."

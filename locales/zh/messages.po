@@ -3572,3 +3572,95 @@ msgstr "由于计费失败，您的订阅无法续订。请检查您的付款方
 #: components/Summarisation/SummariseMainBar.tsx:439
 msgid "Your summary is being generated"
 msgstr "您的摘要正在生成"
+
+#: components/Footer.tsx:363
+msgid "Affiliate Program"
+msgstr "联盟计划"
+
+#: pages/source-tool/index.tsx:202
+msgid "Source Tool"
+msgstr "来源工具"
+
+#: pages/source-tool/index.tsx:198
+msgid "Back to tools"
+msgstr "返回工具"
+
+#: pages/source-tool/index.tsx:205
+msgid "Simplify your search, guaranteeing precision and trustworthiness with each query."
+msgstr "简化您的搜索，确保每次查询都精确可靠。"
+
+#: pages/source-tool/index.tsx:235
+msgid "Hang on! We’re looking for sources"
+msgstr "稍等！我们正在查找资源"
+
+#: components/source-tools/source-content/index,tsx.tsx:216
+msgid "Upload text file"
+msgstr "上传文本文件"
+
+#: components/source-tools/source-content/index,tsx.tsx:229
+msgid "Description"
+msgstr "描述"
+
+#: components/source-tools/source-content/index,tsx.tsx:248
+msgid "Maximum of 300 characters"
+msgstr "最多300个字符"
+
+#: components/source-tools/source-content/index,tsx.tsx:259
+msgid "Configure search"
+msgstr "配置搜索"
+
+#: components/source-tools/source-content/index,tsx.tsx:266
+msgid "Find sources"
+msgstr "查找资源"
+
+#: components/source-tools/source-result/index,tsx.tsx:412
+msgid "Content"
+msgstr "内容"
+
+#: components/source-tools/source-result/index,tsx.tsx:422
+msgid "Sources found"
+msgstr "找到的资源"
+
+#: components/source-tools/source-result/index,tsx.tsx:433
+msgid "Export all"
+msgstr "全部导出"
+
+#: components/source-tools/source-result/index,tsx.tsx:442
+msgid "Select all"
+msgstr "全选"
+
+#: components/source-tools/source-result/index,tsx.tsx:466
+msgid "Cited by:"
+msgstr "引用者："
+
+#: components/source-tools/source-result/index,tsx.tsx:473
+msgid "Authors:"
+msgstr "作者："
+
+#: components/source-tools/source-result/index,tsx.tsx:480
+msgid "Publication Year:"
+msgstr "出版年份："
+
+#: components/source-tools/source-result/index,tsx.tsx:510
+msgid "Cancel"
+msgstr "取消"
+
+#: components/source-tools/source-result/index,tsx.tsx:521
+msgid "Export As"
+msgstr "导出为"
+
+#: components/source-tools/source-result/index,tsx.tsx:540
+msgid "Not satisfied with your results?"
+msgstr "对结果不满意？"
+
+#: components/source-tools/source-result/index,tsx.tsx:548
+msgid "Begin new search"
+msgstr "开始新搜索"
+
+#: pages/index.tsx:320
+msgid "Source Tool"
+msgstr "源工具"
+
+#: pages.index.tsx:323
+msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources relevant to your needs."
+msgstr "利用人工智能的力量发现、分析和推荐与您的需求相关的源。"

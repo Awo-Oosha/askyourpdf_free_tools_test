@@ -3555,3 +3555,95 @@ msgstr "لم يتمكن تجديد اشتراكك بسبب فشل الفوترة
 #: components/Summarisation/SummariseMainBar.tsx:439
 msgid "Your summary is being generated"
 msgstr "يتم إنشاء ملخصك الآن"
+
+#: components/Footer.tsx:363
+msgid "Affiliate Program"
+msgstr "برنامج الشراكة التابعة"
+
+#: pages/source-tool/index.tsx:202
+msgid "Source Tool"
+msgstr "أداة المصدر"
+
+#: pages/source-tool/index.tsx:198
+msgid "Back to tools"
+msgstr "العودة إلى الأدوات"
+
+#: pages/source-tool/index.tsx:205
+msgid "Simplify your search, guaranteeing precision and trustworthiness with each query."
+msgstr "بسط بحثك، مضمون الدقة والموثوقية مع كل استعلام."
+
+#: pages/source-tool/index.tsx:235
+msgid "Hang on! We’re looking for sources"
+msgstr "انتظر! نبحث عن المصادر"
+
+#: components/source-tools/source-content/index,tsx.tsx:216
+msgid "Upload text file"
+msgstr "تحميل ملف نصي"
+
+#: components/source-tools/source-content/index,tsx.tsx:229
+msgid "Description"
+msgstr "الوصف"
+
+#: components/source-tools/source-content/index,tsx.tsx:248
+msgid "Maximum of 300 characters"
+msgstr "حد أقصى من 300 حرف"
+
+#: components/source-tools/source-content/index,tsx.tsx:259
+msgid "Configure search"
+msgstr "تكوين البحث"
+
+#: components/source-tools/source-content/index,tsx.tsx:266
+msgid "Find sources"
+msgstr "العثور على المصادر"
+
+#: components/source-tools/source-result/index,tsx.tsx:412
+msgid "Content"
+msgstr "المحتوى"
+
+#: components/source-tools/source-result/index,tsx.tsx:422
+msgid "Sources found"
+msgstr "المصادر المُوجَدَة"
+
+#: components/source-tools/source-result/index,tsx.tsx:433
+msgid "Export all"
+msgstr "تصدير الكل"
+
+#: components/source-tools/source-result/index,tsx.tsx:442
+msgid "Select all"
+msgstr "تحديد الكل"
+
+#: components/source-tools/source-result/index,tsx.tsx:466
+msgid "Cited by:"
+msgstr "مُستَنَد إلى:"
+
+#: components/source-tools/source-result/index,tsx.tsx:473
+msgid "Authors:"
+msgstr "المؤلفون:"
+
+#: components/source-tools/source-result/index,tsx.tsx:480
+msgid "Publication Year:"
+msgstr "سنة النشر:"
+
+#: components/source-tools/source-result/index,tsx.tsx:510
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: components/source-tools/source-result/index,tsx.tsx:521
+msgid "Export As"
+msgstr "تصدير كـ"
+
+#: components/source-tools/source-result/index,tsx.tsx:540
+msgid "Not satisfied with your results?"
+msgstr "غير راضٍ عن نتائجك؟"
+
+#: components/source-tools/source-result/index,tsx.tsx:548
+msgid "Begin new search"
+msgstr "ابدأ ببحث جديد"
+
+#: pages/index.tsx:320
+msgid "Source Tool"
+msgstr "أداة المصدر"
+
+#: pages/index.tsx:323
+msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources relevant to your needs."
+msgstr "استفد من قوة الذكاء الصناعي لاكتشاف وتحليل وتوصية مصادر ذات صلة بحاجتك."
