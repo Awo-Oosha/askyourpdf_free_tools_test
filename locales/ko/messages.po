@@ -34,7 +34,7 @@ msgstr ""
 #~ msgid "{0} ending in <0>*{1}</0>"
 #~ msgstr "{0} <0>*{1}</0>로 끝나는"
 
-#: components/literature-review/LiteratureUpload.tsx:400
+#: components/literature-review/LiteratureUpload.tsx:399
 msgid "{0} file upload failed"
 msgstr "{0} 파일 업로드 실패"
 
@@ -75,7 +75,7 @@ msgstr "{0} 파일 업로드 실패"
 #~ msgid "<0>3. User Interactions:</0> We collect data about how you interact with our services. This includes data such as the time, frequency, and duration of your interactions. This helps us understand usage patterns, improve our services, and provide you with a more personalized experience."
 #~ msgstr "<0>3. 사용자 인터랙션:</0> 서비스 사용 방식에 대한 데이터를 수집합니다. 이는 서비스 사용 시간, 빈도, 기간 등의 데이터가 포함됩니다. 이를 통해 사용 패턴을 이해하고 서비스를 개선하며 개인화된 경험을 제공할 수 있습니다."
 
-#: components/literature-review/LiteratureUpload.tsx:514
+#: components/literature-review/LiteratureUpload.tsx:513
 #: components/tools/DocUploadNoFunc.tsx:385
 msgid "<0>Click to upload</0> or drag and drop"
 msgstr "<0>클릭하여 업로드</0> 또는 드래그 앤 드롭"
@@ -181,7 +181,7 @@ msgstr "제휴 프로그램"
 msgid "AI Literature Review Writer"
 msgstr ""
 
-#: pages/literature-review-writer/index.tsx:356
+#: components/literature-review/MainContent.tsx:356
 msgid "AI Literature Review Writer Tool"
 msgstr ""
 
@@ -204,7 +204,7 @@ msgstr ""
 #~ msgid "An error has occured"
 #~ msgstr "오류가 발생했습니다"
 
-#: pages/literature-review-writer/index.tsx:301
+#: components/literature-review/MainContent.tsx:301
 msgid "An error occurred"
 msgstr "오류가 발생했습니다"
 
@@ -246,7 +246,7 @@ msgstr "오류가 발생했습니다"
 #~ msgid "An error occurred. Please try again"
 #~ msgstr "오류가 발생했습니다. 다시 시도해 주세요"
 
-#: components/literature-review/LiteratureUpload.tsx:576
+#: components/literature-review/LiteratureUpload.tsx:575
 msgid "Analysing Document"
 msgstr "문서 분석 중"
 
@@ -272,10 +272,10 @@ msgstr "안드로이드 앱"
 #~ msgstr "이 링크가 있는 사람은 누구나 이 문서와 새로운 대화를 시작할 수 있습니다. 채팅은 공유되지 않습니다."
 
 #: components/Footer.tsx:264
-#: components/Navbar.tsx:332
-#: components/Navbar.tsx:389
-#: components/tools/ToolBarExt.tsx:273
-#: components/tools/ToolBarExt.tsx:307
+#: components/Navbar.tsx:324
+#: components/Navbar.tsx:381
+#: components/tools/ToolBarExt.tsx:265
+#: components/tools/ToolBarExt.tsx:299
 msgid "API"
 msgstr "API"
 
@@ -453,7 +453,7 @@ msgstr "API"
 #~ msgid "Back to Homepage"
 #~ msgstr "홈페이지로 돌아가기"
 
-#: pages/literature-review-writer/index.tsx:352
+#: components/literature-review/MainContent.tsx:352
 #: pages/merge/index.tsx:702
 #: pages/ocr/index.tsx:321
 #: pages/split/index.tsx:829
@@ -788,10 +788,10 @@ msgstr "문의하기"
 #~ msgid "conversations"
 #~ msgstr "대화"
 
-#: components/Navbar.tsx:290
-#: components/Navbar.tsx:347
-#: components/tools/ToolBarExt.tsx:253
-#: components/tools/ToolBarExt.tsx:287
+#: components/Navbar.tsx:282
+#: components/Navbar.tsx:339
+#: components/tools/ToolBarExt.tsx:245
+#: components/tools/ToolBarExt.tsx:279
 msgid "Conversations"
 msgstr "대화"
 
@@ -914,7 +914,7 @@ msgstr "날짜 범위"
 #~ msgid "Dedicated Support"
 #~ msgstr "전담 지원"
 
-#: components/literature-review/LiteratureUpload.tsx:334
+#: components/literature-review/LiteratureUpload.tsx:333
 #: components/tools/DocUploadNoFunc.tsx:260
 msgid "Delete"
 msgstr "삭제"
@@ -1009,8 +1009,8 @@ msgstr "개발자"
 #~ msgid "Doc ID Successfully Generated"
 #~ msgstr "문서 ID가 성공적으로 생성됨"
 
-#: components/Navbar.tsx:310
-#: components/Navbar.tsx:367
+#: components/Navbar.tsx:302
+#: components/Navbar.tsx:359
 msgid "Docs"
 msgstr "문서"
 
@@ -1091,10 +1091,10 @@ msgstr "완료"
 #~ msgid "Downgrade Account"
 #~ msgstr "계정 다운그레이드"
 
-#: components/Navbar.tsx:324
-#: components/Navbar.tsx:381
-#: components/tools/ToolBarExt.tsx:268
-#: components/tools/ToolBarExt.tsx:302
+#: components/Navbar.tsx:316
+#: components/Navbar.tsx:373
+#: components/tools/ToolBarExt.tsx:260
+#: components/tools/ToolBarExt.tsx:294
 msgid "Download"
 msgstr "다운로드"
 
@@ -1247,10 +1247,10 @@ msgstr "무료 도구 살펴보기"
 #~ msgid "Export Chat as PDF"
 #~ msgstr "채팅 내보내기 (PDF)"
 
-#: components/Navbar.tsx:317
-#: components/Navbar.tsx:374
-#: components/tools/ToolBarExt.tsx:263
-#: components/tools/ToolBarExt.tsx:297
+#: components/Navbar.tsx:309
+#: components/Navbar.tsx:366
+#: components/tools/ToolBarExt.tsx:255
+#: components/tools/ToolBarExt.tsx:289
 msgid "Extension"
 msgstr "확장"
 
@@ -1292,7 +1292,7 @@ msgstr "확장"
 #~ msgid "Failed to delete document. Please try again."
 #~ msgstr "문서 삭제에 실패했습니다. 다시 시도하세요"
 
-#: pages/literature-review-writer/index.tsx:301
+#: components/literature-review/MainContent.tsx:301
 msgid "Failed to export PDF"
 msgstr "PDF 내보내기를 실패했습니다"
 
@@ -1312,7 +1312,7 @@ msgstr "PDF 내보내기를 실패했습니다"
 #~ msgid "Failed to load subscriptions"
 #~ msgstr "구독 로드에 실패했습니다"
 
-#: pages/literature-review-writer/index.tsx:286
+#: components/literature-review/MainContent.tsx:286
 msgid "Failed to review text. Please try again"
 msgstr ""
 
@@ -1367,8 +1367,8 @@ msgstr "파일 업로드"
 #~ msgid "File upload failed"
 #~ msgstr "파일 업로드 실패"
 
-#: components/literature-review/LiteratureUpload.tsx:399
-#: components/literature-review/LiteratureUpload.tsx:403
+#: components/literature-review/LiteratureUpload.tsx:398
+#: components/literature-review/LiteratureUpload.tsx:402
 #: components/tools/DocUploadNoFunc.tsx:333
 msgid "File Upload Failed"
 msgstr "파일 업로드 실패"
@@ -1418,7 +1418,7 @@ msgstr "파일 업로드 실패"
 #~ msgid "Frequently Asked Questions"
 #~ msgstr "자주 묻는 질문"
 
-#: components/literature-review/LiteratureUpload.tsx:500
+#: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
 msgstr "문서에서"
 
@@ -1442,7 +1442,7 @@ msgstr "문서에서"
 #~ msgid "Get Paid Commission"
 #~ msgstr "커미션 받기"
 
-#: components/Navbar.tsx:421
+#: components/Navbar.tsx:413
 msgid "Get Started"
 msgstr "시작하기"
 
@@ -1492,10 +1492,10 @@ msgstr "시작하기"
 #~ msgid "Hey there, Just a quick reminder"
 #~ msgstr "요기요, 간단한 안내입니다"
 
-#: components/Navbar.tsx:285
-#: components/Navbar.tsx:342
-#: components/tools/ToolBarExt.tsx:248
-#: components/tools/ToolBarExt.tsx:282
+#: components/Navbar.tsx:277
+#: components/Navbar.tsx:334
+#: components/tools/ToolBarExt.tsx:240
+#: components/tools/ToolBarExt.tsx:274
 msgid "Home"
 msgstr "홈"
 
@@ -2286,10 +2286,10 @@ msgstr "텍스트 입력 또는 문서를 검토하는 방법에 대한 지침�
 #~ msgid "Premium Plan <0>$9.99/month or $6.99/month (Billed Annually)</0>"
 #~ msgstr "프리미엄 플랜 <0>월 9.99달러 또는 월 6.99달러 (매년 청구)</0>"
 
-#: components/Navbar.tsx:304
-#: components/Navbar.tsx:361
-#: components/tools/ToolBarExt.tsx:258
-#: components/tools/ToolBarExt.tsx:292
+#: components/Navbar.tsx:296
+#: components/Navbar.tsx:353
+#: components/tools/ToolBarExt.tsx:250
+#: components/tools/ToolBarExt.tsx:284
 msgid "Pricing"
 msgstr "요금"
 
@@ -2417,7 +2417,7 @@ msgstr "OCR PDF 읽기"
 #~ msgid "Report an Issue"
 #~ msgstr "문제 신고"
 
-#: pages/literature-review-writer/index.tsx:289
+#: components/literature-review/MainContent.tsx:289
 msgid "Request timed out. Please try again"
 msgstr "요청 시간이 초과되었습니다. 다시 시도해주세요"
 
@@ -2425,7 +2425,7 @@ msgstr "요청 시간이 초과되었습니다. 다시 시도해주세요"
 #~ msgid "Respecting Your Privacy: Our Commitment and Assurance"
 #~ msgstr "개인정보 존중: 약속과 보장"
 
-#: pages/literature-review-writer/index.tsx:371
+#: components/literature-review/MainContent.tsx:371
 msgid "Results for"
 msgstr " 결과물"
 
@@ -2435,8 +2435,8 @@ msgstr " 결과물"
 #~ msgid "Resume Conversation"
 #~ msgstr "대화 이어하기"
 
-#: pages/literature-review-writer/index.tsx:281
-#: pages/literature-review-writer/index.tsx:291
+#: components/literature-review/MainContent.tsx:281
+#: components/literature-review/MainContent.tsx:291
 msgid "Review Failed"
 msgstr ""
 
@@ -2457,7 +2457,7 @@ msgstr "리뷰가 여기에 표시됩니다"
 #~ msgid "Save Time"
 #~ msgstr "시간 절약"
 
-#: pages/literature-review-writer/index.tsx:359
+#: components/literature-review/MainContent.tsx:359
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr ""
 
@@ -2573,8 +2573,8 @@ msgstr "PDF 분할"
 #~ msgid "Start Conversation"
 #~ msgstr "대화 시작"
 
-#: components/Navbar.tsx:422
-#: components/tools/ToolBarExt.tsx:338
+#: components/Navbar.tsx:414
+#: components/tools/ToolBarExt.tsx:330
 msgid "Start For Free"
 msgstr "무료로 시작하기"
 
@@ -2703,7 +2703,7 @@ msgstr ""
 #~ msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf'"
 #~ msgstr "지원 형식: .pdf, .txt, .ppt, .pptx, .csv, .epub, .rtf"
 
-#: components/literature-review/LiteratureUpload.tsx:519
+#: components/literature-review/LiteratureUpload.tsx:518
 msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf' (max 200 pages)"
 msgstr "지원되는 형식: .pdf, .txt, .ppt, .pptx, .csv, .epub, .rtf (최대 200 페이지)"
 
@@ -2813,8 +2813,8 @@ msgstr "이용약관"
 #~ msgid "To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of AskYourPDF."
 #~ msgstr "법률이 허용하는 최대 한도 내에서, AskYourPDF 사용과 관련한 직접적, 간접적, 부수적, 특수 또는 결과적 손해에 대해 책임을 지지 않습니다."
 
-#: components/Navbar.tsx:296
-#: components/Navbar.tsx:353
+#: components/Navbar.tsx:288
+#: components/Navbar.tsx:345
 #: pages/index.tsx:305
 msgid "Tools"
 msgstr "도구"
@@ -3033,7 +3033,7 @@ msgstr "URL에서 업로드"
 #~ msgid "Upload larger documents"
 #~ msgstr "더 큰 문서 업로드"
 
-#: components/literature-review/LiteratureUpload.tsx:486
+#: components/literature-review/LiteratureUpload.tsx:485
 msgid "Upload New Document"
 msgstr "新しいドキュメントをアップロードする"
 
@@ -3109,7 +3109,7 @@ msgstr "新しいドキュメントをアップロードする"
 #~ msgid "View Documentation"
 #~ msgstr "문서 보기"
 
-#: pages/literature-review-writer/index.tsx:236
+#: components/literature-review/MainContent.tsx:236
 msgid "Warning"
 msgstr ""
 

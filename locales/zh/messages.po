@@ -34,7 +34,7 @@ msgstr ""
 #~ msgid "{0} ending in <0>*{1}</0>"
 #~ msgstr "以 <0>*{1}</0> 结尾的 {0}"
 
-#: components/literature-review/LiteratureUpload.tsx:400
+#: components/literature-review/LiteratureUpload.tsx:399
 msgid "{0} file upload failed"
 msgstr "{0} 文件上传失败"
 
@@ -75,7 +75,7 @@ msgstr "{0} 文件上传失败"
 #~ msgid "<0>3. User Interactions:</0> We collect data about how you interact with our services. This includes data such as the time, frequency, and duration of your interactions. This helps us understand usage patterns, improve our services, and provide you with a more personalized experience."
 #~ msgstr "<0>3. 用户交互:</0>我们会收集您与我们服务互动的相关数据。这包括您的交互时间、频率和时长等数据。这有助于我们了解使用模式,改进我们的服务,并为您提供更加个性化的体验。"
 
-#: components/literature-review/LiteratureUpload.tsx:514
+#: components/literature-review/LiteratureUpload.tsx:513
 #: components/tools/DocUploadNoFunc.tsx:385
 msgid "<0>Click to upload</0> or drag and drop"
 msgstr "<0>点击上传</0>或拖放"
@@ -181,7 +181,7 @@ msgstr "Programa de afiliados"
 msgid "AI Literature Review Writer"
 msgstr ""
 
-#: pages/literature-review-writer/index.tsx:356
+#: components/literature-review/MainContent.tsx:356
 msgid "AI Literature Review Writer Tool"
 msgstr ""
 
@@ -204,7 +204,7 @@ msgstr ""
 #~ msgid "An error has occured"
 #~ msgstr "发生错误"
 
-#: pages/literature-review-writer/index.tsx:301
+#: components/literature-review/MainContent.tsx:301
 msgid "An error occurred"
 msgstr "发生错误"
 
@@ -246,7 +246,7 @@ msgstr "发生错误"
 #~ msgid "An error occurred. Please try again"
 #~ msgstr "发生错误。请重试"
 
-#: components/literature-review/LiteratureUpload.tsx:576
+#: components/literature-review/LiteratureUpload.tsx:575
 msgid "Analysing Document"
 msgstr "分析文档"
 
@@ -272,10 +272,10 @@ msgstr "安卓应用"
 #~ msgstr "拥有此链接的任何人都可以使用此文档开始新的对话。聊天不共享。"
 
 #: components/Footer.tsx:264
-#: components/Navbar.tsx:332
-#: components/Navbar.tsx:389
-#: components/tools/ToolBarExt.tsx:273
-#: components/tools/ToolBarExt.tsx:307
+#: components/Navbar.tsx:324
+#: components/Navbar.tsx:381
+#: components/tools/ToolBarExt.tsx:265
+#: components/tools/ToolBarExt.tsx:299
 msgid "API"
 msgstr "API"
 
@@ -453,7 +453,7 @@ msgstr "API"
 #~ msgid "Back to Homepage"
 #~ msgstr "返回首页"
 
-#: pages/literature-review-writer/index.tsx:352
+#: components/literature-review/MainContent.tsx:352
 #: pages/merge/index.tsx:702
 #: pages/ocr/index.tsx:321
 #: pages/split/index.tsx:829
@@ -788,10 +788,10 @@ msgstr "联系我们"
 #~ msgid "conversations"
 #~ msgstr "对话"
 
-#: components/Navbar.tsx:290
-#: components/Navbar.tsx:347
-#: components/tools/ToolBarExt.tsx:253
-#: components/tools/ToolBarExt.tsx:287
+#: components/Navbar.tsx:282
+#: components/Navbar.tsx:339
+#: components/tools/ToolBarExt.tsx:245
+#: components/tools/ToolBarExt.tsx:279
 msgid "Conversations"
 msgstr "对话"
 
@@ -914,7 +914,7 @@ msgstr "日期范围"
 #~ msgid "Dedicated Support"
 #~ msgstr "专属支持"
 
-#: components/literature-review/LiteratureUpload.tsx:334
+#: components/literature-review/LiteratureUpload.tsx:333
 #: components/tools/DocUploadNoFunc.tsx:260
 msgid "Delete"
 msgstr "删除"
@@ -1009,8 +1009,8 @@ msgstr "开发者"
 #~ msgid "Doc ID Successfully Generated"
 #~ msgstr "文档ID生成成功"
 
-#: components/Navbar.tsx:310
-#: components/Navbar.tsx:367
+#: components/Navbar.tsx:302
+#: components/Navbar.tsx:359
 msgid "Docs"
 msgstr "文档"
 
@@ -1091,10 +1091,10 @@ msgstr ""
 #~ msgid "Downgrade Account"
 #~ msgstr "账户降级"
 
-#: components/Navbar.tsx:324
-#: components/Navbar.tsx:381
-#: components/tools/ToolBarExt.tsx:268
-#: components/tools/ToolBarExt.tsx:302
+#: components/Navbar.tsx:316
+#: components/Navbar.tsx:373
+#: components/tools/ToolBarExt.tsx:260
+#: components/tools/ToolBarExt.tsx:294
 msgid "Download"
 msgstr "下载"
 
@@ -1243,10 +1243,10 @@ msgstr "探索我们的免费工具。"
 #~ msgid "Export Chat as PDF"
 #~ msgstr "将聊天导出为 PDF"
 
-#: components/Navbar.tsx:317
-#: components/Navbar.tsx:374
-#: components/tools/ToolBarExt.tsx:263
-#: components/tools/ToolBarExt.tsx:297
+#: components/Navbar.tsx:309
+#: components/Navbar.tsx:366
+#: components/tools/ToolBarExt.tsx:255
+#: components/tools/ToolBarExt.tsx:289
 msgid "Extension"
 msgstr "扩展"
 
@@ -1288,7 +1288,7 @@ msgstr "扩展"
 #~ msgid "Failed to delete document. Please try again."
 #~ msgstr "删除文档失败。请重试"
 
-#: pages/literature-review-writer/index.tsx:301
+#: components/literature-review/MainContent.tsx:301
 msgid "Failed to export PDF"
 msgstr "导出 PDF 失败"
 
@@ -1308,7 +1308,7 @@ msgstr "导出 PDF 失败"
 #~ msgid "Failed to load subscriptions"
 #~ msgstr "加载订阅失败"
 
-#: pages/literature-review-writer/index.tsx:286
+#: components/literature-review/MainContent.tsx:286
 msgid "Failed to review text. Please try again"
 msgstr ""
 
@@ -1363,8 +1363,8 @@ msgstr "上传文件"
 #~ msgid "File upload failed"
 #~ msgstr "文件上传失败"
 
-#: components/literature-review/LiteratureUpload.tsx:399
-#: components/literature-review/LiteratureUpload.tsx:403
+#: components/literature-review/LiteratureUpload.tsx:398
+#: components/literature-review/LiteratureUpload.tsx:402
 #: components/tools/DocUploadNoFunc.tsx:333
 msgid "File Upload Failed"
 msgstr "文件上传失败"
@@ -1414,7 +1414,7 @@ msgstr "文件上传失败"
 #~ msgid "Frequently Asked Questions"
 #~ msgstr "常见问题"
 
-#: components/literature-review/LiteratureUpload.tsx:500
+#: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
 msgstr "来自您的文件"
 
@@ -1438,7 +1438,7 @@ msgstr "来自您的文件"
 #~ msgid "Get Paid Commission"
 #~ msgstr "获得佣金"
 
-#: components/Navbar.tsx:421
+#: components/Navbar.tsx:413
 msgid "Get Started"
 msgstr "开始使用"
 
@@ -1488,10 +1488,10 @@ msgstr "开始使用"
 #~ msgid "Hey there, Just a quick reminder"
 #~ msgstr "嘿,只是一个快速提醒"
 
-#: components/Navbar.tsx:285
-#: components/Navbar.tsx:342
-#: components/tools/ToolBarExt.tsx:248
-#: components/tools/ToolBarExt.tsx:282
+#: components/Navbar.tsx:277
+#: components/Navbar.tsx:334
+#: components/tools/ToolBarExt.tsx:240
+#: components/tools/ToolBarExt.tsx:274
 msgid "Home"
 msgstr "首页"
 
@@ -2288,10 +2288,10 @@ msgstr "请提供有关如何审查文本输入或文档的说明"
 #~ msgid "Premium Plan <0>$9.99/month or $6.99/month (Billed Annually)</0>"
 #~ msgstr "高级计划 <0>$9.99/月 或 $6.99/月（按年度结算）</0>"
 
-#: components/Navbar.tsx:304
-#: components/Navbar.tsx:361
-#: components/tools/ToolBarExt.tsx:258
-#: components/tools/ToolBarExt.tsx:292
+#: components/Navbar.tsx:296
+#: components/Navbar.tsx:353
+#: components/tools/ToolBarExt.tsx:250
+#: components/tools/ToolBarExt.tsx:284
 msgid "Pricing"
 msgstr "价格"
 
@@ -2419,7 +2419,7 @@ msgstr "阅读OCR PDF"
 #~ msgid "Report an Issue"
 #~ msgstr "报告问题"
 
-#: pages/literature-review-writer/index.tsx:289
+#: components/literature-review/MainContent.tsx:289
 msgid "Request timed out. Please try again"
 msgstr "请求超时。请重试"
 
@@ -2427,7 +2427,7 @@ msgstr "请求超时。请重试"
 #~ msgid "Respecting Your Privacy: Our Commitment and Assurance"
 #~ msgstr "尊重您的隐私:我们的承诺和保证"
 
-#: pages/literature-review-writer/index.tsx:371
+#: components/literature-review/MainContent.tsx:371
 msgid "Results for"
 msgstr " 结果为"
 
@@ -2437,8 +2437,8 @@ msgstr " 结果为"
 #~ msgid "Resume Conversation"
 #~ msgstr "继续对话"
 
-#: pages/literature-review-writer/index.tsx:281
-#: pages/literature-review-writer/index.tsx:291
+#: components/literature-review/MainContent.tsx:281
+#: components/literature-review/MainContent.tsx:291
 msgid "Review Failed"
 msgstr ""
 
@@ -2459,7 +2459,7 @@ msgstr "评论将显示在这里"
 #~ msgid "Save Time"
 #~ msgstr "节省时间"
 
-#: pages/literature-review-writer/index.tsx:359
+#: components/literature-review/MainContent.tsx:359
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr ""
 
@@ -2581,8 +2581,8 @@ msgstr "拆分PDF"
 #~ msgid "Start Conversation"
 #~ msgstr "开始对话"
 
-#: components/Navbar.tsx:422
-#: components/tools/ToolBarExt.tsx:338
+#: components/Navbar.tsx:414
+#: components/tools/ToolBarExt.tsx:330
 msgid "Start For Free"
 msgstr "免费开始"
 
@@ -2711,7 +2711,7 @@ msgstr ""
 #~ msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf'"
 #~ msgstr "支持的格式:.pdf、.txt、.ppt、.pptx、.csv、.epub、.rtf"
 
-#: components/literature-review/LiteratureUpload.tsx:519
+#: components/literature-review/LiteratureUpload.tsx:518
 msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf' (max 200 pages)"
 msgstr "支持的格式：.pdf、.txt、.ppt、.pptx、.csv、.epub、.rtf（最多200页）"
 
@@ -2821,8 +2821,8 @@ msgstr "条款和条件"
 #~ msgid "To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of AskYourPDF."
 #~ msgstr "在法律允许的最大范围内,我们对任何因使用AskYourPDF而产生的任何直接、间接、附带、特殊或后果性损害概不负责。"
 
-#: components/Navbar.tsx:296
-#: components/Navbar.tsx:353
+#: components/Navbar.tsx:288
+#: components/Navbar.tsx:345
 #: pages/index.tsx:305
 msgid "Tools"
 msgstr "工具"
@@ -3047,7 +3047,7 @@ msgstr "从URL上传"
 #~ msgid "Upload larger documents"
 #~ msgstr "上传更大的文档"
 
-#: components/literature-review/LiteratureUpload.tsx:486
+#: components/literature-review/LiteratureUpload.tsx:485
 msgid "Upload New Document"
 msgstr "上传新文档"
 
@@ -3123,7 +3123,7 @@ msgstr "上传新文档"
 #~ msgid "View Documentation"
 #~ msgstr "查看文档"
 
-#: pages/literature-review-writer/index.tsx:236
+#: components/literature-review/MainContent.tsx:236
 msgid "Warning"
 msgstr ""
 

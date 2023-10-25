@@ -34,7 +34,7 @@ msgstr ""
 #~ msgid "{0} ending in <0>*{1}</0>"
 #~ msgstr "{0} ينتهي بـ <0>*{1}</0>"
 
-#: components/literature-review/LiteratureUpload.tsx:400
+#: components/literature-review/LiteratureUpload.tsx:399
 msgid "{0} file upload failed"
 msgstr "فشل تحميل ملف {0}"
 
@@ -78,7 +78,7 @@ msgstr "فشل تحميل ملف {0}"
 #~ msgid "<0>Back to Homepage</0>"
 #~ msgstr "<0>العودة إلى الصفحة الرئيسية</0>"
 
-#: components/literature-review/LiteratureUpload.tsx:514
+#: components/literature-review/LiteratureUpload.tsx:513
 #: components/tools/DocUploadNoFunc.tsx:385
 msgid "<0>Click to upload</0> or drag and drop"
 msgstr "<0>اضغط للتحميل</0> أو اسحب وأفلت"
@@ -184,7 +184,7 @@ msgstr "برنامج الشراكة التابعة"
 msgid "AI Literature Review Writer"
 msgstr ""
 
-#: pages/literature-review-writer/index.tsx:356
+#: components/literature-review/MainContent.tsx:356
 msgid "AI Literature Review Writer Tool"
 msgstr ""
 
@@ -207,7 +207,7 @@ msgstr ""
 #~ msgid "An error has occured"
 #~ msgstr "حدث خطأ"
 
-#: pages/literature-review-writer/index.tsx:301
+#: components/literature-review/MainContent.tsx:301
 msgid "An error occurred"
 msgstr "حدث خطأ"
 
@@ -249,7 +249,7 @@ msgstr "حدث خطأ"
 #~ msgid "An error occurred. Please try again"
 #~ msgstr "حدث خطأ. يرجى إعادة المحاولة"
 
-#: components/literature-review/LiteratureUpload.tsx:576
+#: components/literature-review/LiteratureUpload.tsx:575
 msgid "Analysing Document"
 msgstr "تحليل المستند"
 
@@ -275,10 +275,10 @@ msgstr "تطبيق أندرويد"
 #~ msgstr "يمكن لأي شخص لديه هذا الرابط بدء محادثة جديدة مع هذا المستند. المحادثات غير مشتركة."
 
 #: components/Footer.tsx:264
-#: components/Navbar.tsx:332
-#: components/Navbar.tsx:389
-#: components/tools/ToolBarExt.tsx:273
-#: components/tools/ToolBarExt.tsx:307
+#: components/Navbar.tsx:324
+#: components/Navbar.tsx:381
+#: components/tools/ToolBarExt.tsx:265
+#: components/tools/ToolBarExt.tsx:299
 msgid "API"
 msgstr "API"
 
@@ -456,7 +456,7 @@ msgstr "API"
 #~ msgid "Back to Homepage"
 #~ msgstr "العودة إلى الصفحة الرئيسية"
 
-#: pages/literature-review-writer/index.tsx:352
+#: components/literature-review/MainContent.tsx:352
 #: pages/merge/index.tsx:702
 #: pages/ocr/index.tsx:321
 #: pages/split/index.tsx:829
@@ -788,10 +788,10 @@ msgstr "اتصل بنا"
 #~ msgid "conversations"
 #~ msgstr "محادثات"
 
-#: components/Navbar.tsx:290
-#: components/Navbar.tsx:347
-#: components/tools/ToolBarExt.tsx:253
-#: components/tools/ToolBarExt.tsx:287
+#: components/Navbar.tsx:282
+#: components/Navbar.tsx:339
+#: components/tools/ToolBarExt.tsx:245
+#: components/tools/ToolBarExt.tsx:279
 msgid "Conversations"
 msgstr "المحادثات"
 
@@ -914,7 +914,7 @@ msgstr "نطاق التاريخ"
 #~ msgid "Dedicated Support"
 #~ msgstr "دعم مخصص"
 
-#: components/literature-review/LiteratureUpload.tsx:334
+#: components/literature-review/LiteratureUpload.tsx:333
 #: components/tools/DocUploadNoFunc.tsx:260
 msgid "Delete"
 msgstr "حذف"
@@ -1012,8 +1012,8 @@ msgstr "المطورين"
 #~ msgid "Doc ID Successfully Generated"
 #~ msgstr "تم إنشاء معرف المستند بنجاح"
 
-#: components/Navbar.tsx:310
-#: components/Navbar.tsx:367
+#: components/Navbar.tsx:302
+#: components/Navbar.tsx:359
 msgid "Docs"
 msgstr "المستندات"
 
@@ -1094,10 +1094,10 @@ msgstr "منتهي"
 #~ msgid "Downgrade Account"
 #~ msgstr "تخفيض مستوى الحساب"
 
-#: components/Navbar.tsx:324
-#: components/Navbar.tsx:381
-#: components/tools/ToolBarExt.tsx:268
-#: components/tools/ToolBarExt.tsx:302
+#: components/Navbar.tsx:316
+#: components/Navbar.tsx:373
+#: components/tools/ToolBarExt.tsx:260
+#: components/tools/ToolBarExt.tsx:294
 msgid "Download"
 msgstr "تحميل"
 
@@ -1250,10 +1250,10 @@ msgstr "استكشف أدواتنا المجانية"
 #~ msgid "Export Chat as PDF"
 #~ msgstr "تصدير المحادثة كملف PDF"
 
-#: components/Navbar.tsx:317
-#: components/Navbar.tsx:374
-#: components/tools/ToolBarExt.tsx:263
-#: components/tools/ToolBarExt.tsx:297
+#: components/Navbar.tsx:309
+#: components/Navbar.tsx:366
+#: components/tools/ToolBarExt.tsx:255
+#: components/tools/ToolBarExt.tsx:289
 msgid "Extension"
 msgstr "امتداد"
 
@@ -1295,7 +1295,7 @@ msgstr "امتداد"
 #~ msgid "Failed to delete document. Please try again."
 #~ msgstr "فشل في حذف المستند. يرجى إعادة المحاولة"
 
-#: pages/literature-review-writer/index.tsx:301
+#: components/literature-review/MainContent.tsx:301
 msgid "Failed to export PDF"
 msgstr "فشل في تصدير PDF"
 
@@ -1315,7 +1315,7 @@ msgstr "فشل في تصدير PDF"
 #~ msgid "Failed to load subscriptions"
 #~ msgstr "فشل في تحميل الاشتراكات"
 
-#: pages/literature-review-writer/index.tsx:286
+#: components/literature-review/MainContent.tsx:286
 msgid "Failed to review text. Please try again"
 msgstr ""
 
@@ -1370,8 +1370,8 @@ msgstr "رفع الملف"
 #~ msgid "File upload failed"
 #~ msgstr "فشل تحميل الملف"
 
-#: components/literature-review/LiteratureUpload.tsx:399
-#: components/literature-review/LiteratureUpload.tsx:403
+#: components/literature-review/LiteratureUpload.tsx:398
+#: components/literature-review/LiteratureUpload.tsx:402
 #: components/tools/DocUploadNoFunc.tsx:333
 msgid "File Upload Failed"
 msgstr "فشل تحميل الملف"
@@ -1421,7 +1421,7 @@ msgstr "فشل تحميل الملف"
 #~ msgid "Frequently Asked Questions"
 #~ msgstr "الأسئلة المتكررة"
 
-#: components/literature-review/LiteratureUpload.tsx:500
+#: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
 msgstr "من مستنداتك"
 
@@ -1445,7 +1445,7 @@ msgstr "من مستنداتك"
 #~ msgid "Get Paid Commission"
 #~ msgstr "احصل على عمولتك"
 
-#: components/Navbar.tsx:421
+#: components/Navbar.tsx:413
 msgid "Get Started"
 msgstr "ابدأ"
 
@@ -1495,10 +1495,10 @@ msgstr "البدء"
 #~ msgid "Hey there, Just a quick reminder"
 #~ msgstr "مرحبًا، مجرد تذكير سريع"
 
-#: components/Navbar.tsx:285
-#: components/Navbar.tsx:342
-#: components/tools/ToolBarExt.tsx:248
-#: components/tools/ToolBarExt.tsx:282
+#: components/Navbar.tsx:277
+#: components/Navbar.tsx:334
+#: components/tools/ToolBarExt.tsx:240
+#: components/tools/ToolBarExt.tsx:274
 msgid "Home"
 msgstr "الرئيسية"
 
@@ -2289,10 +2289,10 @@ msgstr "الرجاء إدخال تعليمات حول كيفية مراجعة م
 #~ msgid "Premium Plan <0>$9.99/month or $6.99/month (Billed Annually)</0>"
 #~ msgstr "خطة بريميوم $9.99 شهريًا أو $6.99 شهريًا (تم فرض الفواتير سنويًا)"
 
-#: components/Navbar.tsx:304
-#: components/Navbar.tsx:361
-#: components/tools/ToolBarExt.tsx:258
-#: components/tools/ToolBarExt.tsx:292
+#: components/Navbar.tsx:296
+#: components/Navbar.tsx:353
+#: components/tools/ToolBarExt.tsx:250
+#: components/tools/ToolBarExt.tsx:284
 msgid "Pricing"
 msgstr "التسعير"
 
@@ -2420,7 +2420,7 @@ msgstr "قراءة التعرف الضوئي على الحروف PDF"
 #~ msgid "Report an Issue"
 #~ msgstr "الإبلاغ عن مشكلة"
 
-#: pages/literature-review-writer/index.tsx:289
+#: components/literature-review/MainContent.tsx:289
 msgid "Request timed out. Please try again"
 msgstr "انتهت صلاحية الطلب. الرجاء المحاولة مرة أخرى"
 
@@ -2428,7 +2428,7 @@ msgstr "انتهت صلاحية الطلب. الرجاء المحاولة مرة
 #~ msgid "Respecting Your Privacy: Our Commitment and Assurance"
 #~ msgstr "احترام خصوصيتك: التزامنا وضماننا"
 
-#: pages/literature-review-writer/index.tsx:371
+#: components/literature-review/MainContent.tsx:371
 msgid "Results for"
 msgstr "نتائج لـ"
 
@@ -2438,8 +2438,8 @@ msgstr "نتائج لـ"
 #~ msgid "Resume Conversation"
 #~ msgstr "استئناف المحادثة"
 
-#: pages/literature-review-writer/index.tsx:281
-#: pages/literature-review-writer/index.tsx:291
+#: components/literature-review/MainContent.tsx:281
+#: components/literature-review/MainContent.tsx:291
 msgid "Review Failed"
 msgstr ""
 
@@ -2460,7 +2460,7 @@ msgstr "ستظهر المراجعة هنا"
 #~ msgid "Save Time"
 #~ msgstr "وفّر الوقت"
 
-#: pages/literature-review-writer/index.tsx:359
+#: components/literature-review/MainContent.tsx:359
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr ""
 
@@ -2576,8 +2576,8 @@ msgstr "تقسيم قوات الدفاع الشعبي"
 #~ msgid "Start Conversation"
 #~ msgstr "بدء المحادثة"
 
-#: components/Navbar.tsx:422
-#: components/tools/ToolBarExt.tsx:338
+#: components/Navbar.tsx:414
+#: components/tools/ToolBarExt.tsx:330
 msgid "Start For Free"
 msgstr "ابدأ مجاناً"
 
@@ -2706,7 +2706,7 @@ msgstr "التنسيقات المدعومة: .pdf"
 #~ msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf'"
 #~ msgstr "التنسيقات المدعومة: .pdf ، .txt ، .ppt ، .pptx ، .csv ، .epub ، .rtf"
 
-#: components/literature-review/LiteratureUpload.tsx:519
+#: components/literature-review/LiteratureUpload.tsx:518
 msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf' (max 200 pages)"
 msgstr "التنسيقات المدعومة: .pdf، .txt، .ppt، .pptx، .csv، .epub، .rtf (حد أقصى 200 صفحة)"
 
@@ -2816,8 +2816,8 @@ msgstr "الشروط والأحكام"
 #~ msgid "To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of AskYourPDF."
 #~ msgstr "إلى الحد الأقصى المسموح به قانونًا، لا نتحمل أية مسؤولية عن أية أضرار مباشرة أو غير مباشرة أو عرضية أو خاصة أو لاحقة ناتجة عن استخدامك AskYourPDF أو ذات صلة به."
 
-#: components/Navbar.tsx:296
-#: components/Navbar.tsx:353
+#: components/Navbar.tsx:288
+#: components/Navbar.tsx:345
 #: pages/index.tsx:305
 msgid "Tools"
 msgstr "أدوات"
@@ -3036,7 +3036,7 @@ msgstr "التحميل من رابط"
 #~ msgid "Upload larger documents"
 #~ msgstr "تحميل مستندات أكبر حجمًا"
 
-#: components/literature-review/LiteratureUpload.tsx:486
+#: components/literature-review/LiteratureUpload.tsx:485
 msgid "Upload New Document"
 msgstr "تحميل وثيقة جديدة"
 
@@ -3112,7 +3112,7 @@ msgstr "تحميل وثيقة جديدة"
 #~ msgid "View Documentation"
 #~ msgstr "عرض التوثيق"
 
-#: pages/literature-review-writer/index.tsx:236
+#: components/literature-review/MainContent.tsx:236
 msgid "Warning"
 msgstr ""
 

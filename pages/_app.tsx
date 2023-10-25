@@ -6,7 +6,7 @@ import { defaultTheme } from "../components/themes/defaultTheme";
 import { GlobalStyle } from "../components/themes/GlobalStyle";
 import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
-import { AuthProvider } from "../providers/AuthProvider";
+//import { AuthProvider } from "../providers/AuthProvider";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { useLinguiInit } from "../utils/i18n";
 import CustomScripts from "@/components/CustomScripts";
@@ -55,7 +55,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           description={pageProps.description}
           canonicalUrl={pageProps?.canonicalUrl}
         />
-        <AuthProvider>
         <ThemeProvider theme={theme}>
                     <GlobalStyle />
                     <Component {...pageProps} />
@@ -73,7 +72,6 @@ function MyApp({ Component, pageProps }: AppProps) {
                       theme="light"
                     />
                   </ThemeProvider>
-        </AuthProvider>
         <ReactQueryDevtools />
       </QueryClientProvider>
     </I18nProvider>

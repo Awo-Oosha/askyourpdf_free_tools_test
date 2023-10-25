@@ -34,7 +34,7 @@ msgstr ""
 #~ msgid "{0} ending in <0>*{1}</0>"
 #~ msgstr "{0} termina en <0>*{1}</0>"
 
-#: components/literature-review/LiteratureUpload.tsx:400
+#: components/literature-review/LiteratureUpload.tsx:399
 msgid "{0} file upload failed"
 msgstr "la carga del archivo {0} falló"
 
@@ -78,7 +78,7 @@ msgstr "la carga del archivo {0} falló"
 #~ msgid "<0>Back to Homepage</0>"
 #~ msgstr "<0>Volver a la página de inicio</0>"
 
-#: components/literature-review/LiteratureUpload.tsx:514
+#: components/literature-review/LiteratureUpload.tsx:513
 #: components/tools/DocUploadNoFunc.tsx:385
 msgid "<0>Click to upload</0> or drag and drop"
 msgstr "<0>Haga clic para cargar</0> o arrastre y suelte"
@@ -184,7 +184,7 @@ msgstr "Programa de afiliados"
 msgid "AI Literature Review Writer"
 msgstr ""
 
-#: pages/literature-review-writer/index.tsx:356
+#: components/literature-review/MainContent.tsx:356
 msgid "AI Literature Review Writer Tool"
 msgstr ""
 
@@ -207,7 +207,7 @@ msgstr ""
 #~ msgid "An error has occured"
 #~ msgstr "Ha ocurrido un error"
 
-#: pages/literature-review-writer/index.tsx:301
+#: components/literature-review/MainContent.tsx:301
 msgid "An error occurred"
 msgstr "Ha ocurrido un error"
 
@@ -249,7 +249,7 @@ msgstr "Ha ocurrido un error"
 #~ msgid "An error occurred. Please try again"
 #~ msgstr "Ha ocurrido un error. Inténtalo de nuevo"
 
-#: components/literature-review/LiteratureUpload.tsx:576
+#: components/literature-review/LiteratureUpload.tsx:575
 msgid "Analysing Document"
 msgstr "Analizando Documento"
 
@@ -275,10 +275,10 @@ msgstr "Aplicación de Android"
 #~ msgstr "Cualquiera con este enlace puede iniciar una nueva conversación con este documento. Los chats no se comparten."
 
 #: components/Footer.tsx:264
-#: components/Navbar.tsx:332
-#: components/Navbar.tsx:389
-#: components/tools/ToolBarExt.tsx:273
-#: components/tools/ToolBarExt.tsx:307
+#: components/Navbar.tsx:324
+#: components/Navbar.tsx:381
+#: components/tools/ToolBarExt.tsx:265
+#: components/tools/ToolBarExt.tsx:299
 msgid "API"
 msgstr "API"
 
@@ -456,7 +456,7 @@ msgstr "API"
 #~ msgid "Back to Homepage"
 #~ msgstr "Volver a la página de inicio"
 
-#: pages/literature-review-writer/index.tsx:352
+#: components/literature-review/MainContent.tsx:352
 #: pages/merge/index.tsx:702
 #: pages/ocr/index.tsx:321
 #: pages/split/index.tsx:829
@@ -791,10 +791,10 @@ msgstr "Contáctenos"
 #~ msgid "conversations"
 #~ msgstr "conversaciones"
 
-#: components/Navbar.tsx:290
-#: components/Navbar.tsx:347
-#: components/tools/ToolBarExt.tsx:253
-#: components/tools/ToolBarExt.tsx:287
+#: components/Navbar.tsx:282
+#: components/Navbar.tsx:339
+#: components/tools/ToolBarExt.tsx:245
+#: components/tools/ToolBarExt.tsx:279
 msgid "Conversations"
 msgstr "Conversaciones"
 
@@ -917,7 +917,7 @@ msgstr "Rango de fechas"
 #~ msgid "Dedicated Support"
 #~ msgstr "Soporte dedicado"
 
-#: components/literature-review/LiteratureUpload.tsx:334
+#: components/literature-review/LiteratureUpload.tsx:333
 #: components/tools/DocUploadNoFunc.tsx:260
 msgid "Delete"
 msgstr "Eliminar"
@@ -1012,8 +1012,8 @@ msgstr "Desarrolladores"
 #~ msgid "Doc ID Successfully Generated"
 #~ msgstr "ID de documento generado exitosamente"
 
-#: components/Navbar.tsx:310
-#: components/Navbar.tsx:367
+#: components/Navbar.tsx:302
+#: components/Navbar.tsx:359
 msgid "Docs"
 msgstr "Docs"
 
@@ -1094,10 +1094,10 @@ msgstr "Hecho"
 #~ msgid "Downgrade Account"
 #~ msgstr "Cambiar cuenta a plan inferior"
 
-#: components/Navbar.tsx:324
-#: components/Navbar.tsx:381
-#: components/tools/ToolBarExt.tsx:268
-#: components/tools/ToolBarExt.tsx:302
+#: components/Navbar.tsx:316
+#: components/Navbar.tsx:373
+#: components/tools/ToolBarExt.tsx:260
+#: components/tools/ToolBarExt.tsx:294
 msgid "Download"
 msgstr "Descargar"
 
@@ -1250,10 +1250,10 @@ msgstr "Explora nuestras herramientas gratuitas"
 #~ msgid "Export Chat as PDF"
 #~ msgstr "Exportar chat como PDF"
 
-#: components/Navbar.tsx:317
-#: components/Navbar.tsx:374
-#: components/tools/ToolBarExt.tsx:263
-#: components/tools/ToolBarExt.tsx:297
+#: components/Navbar.tsx:309
+#: components/Navbar.tsx:366
+#: components/tools/ToolBarExt.tsx:255
+#: components/tools/ToolBarExt.tsx:289
 msgid "Extension"
 msgstr "Extensión"
 
@@ -1295,7 +1295,7 @@ msgstr "Extensión"
 #~ msgid "Failed to delete document. Please try again."
 #~ msgstr "No se pudo eliminar el documento. Por favor intente de nuevo"
 
-#: pages/literature-review-writer/index.tsx:301
+#: components/literature-review/MainContent.tsx:301
 msgid "Failed to export PDF"
 msgstr "No se pudo exportar el PDF"
 
@@ -1315,7 +1315,7 @@ msgstr "No se pudo exportar el PDF"
 #~ msgid "Failed to load subscriptions"
 #~ msgstr "No se pudieron cargar las suscripciones"
 
-#: pages/literature-review-writer/index.tsx:286
+#: components/literature-review/MainContent.tsx:286
 msgid "Failed to review text. Please try again"
 msgstr ""
 
@@ -1370,8 +1370,8 @@ msgstr "Cargar archivo"
 #~ msgid "File upload failed"
 #~ msgstr "La carga del archivo falló"
 
-#: components/literature-review/LiteratureUpload.tsx:399
-#: components/literature-review/LiteratureUpload.tsx:403
+#: components/literature-review/LiteratureUpload.tsx:398
+#: components/literature-review/LiteratureUpload.tsx:402
 #: components/tools/DocUploadNoFunc.tsx:333
 msgid "File Upload Failed"
 msgstr "Falló la carga del archivo"
@@ -1421,7 +1421,7 @@ msgstr "Falló la carga del archivo"
 #~ msgid "Frequently Asked Questions"
 #~ msgstr "Preguntas frecuentes"
 
-#: components/literature-review/LiteratureUpload.tsx:500
+#: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
 msgstr "Desde sus documentos"
 
@@ -1445,7 +1445,7 @@ msgstr "Desde sus documentos"
 #~ msgid "Get Paid Commission"
 #~ msgstr "Recibe comisión"
 
-#: components/Navbar.tsx:421
+#: components/Navbar.tsx:413
 msgid "Get Started"
 msgstr "Empezar"
 
@@ -1495,10 +1495,10 @@ msgstr "Empezando"
 #~ msgid "Hey there, Just a quick reminder"
 #~ msgstr "Oye, solo un rápido recordatorio"
 
-#: components/Navbar.tsx:285
-#: components/Navbar.tsx:342
-#: components/tools/ToolBarExt.tsx:248
-#: components/tools/ToolBarExt.tsx:282
+#: components/Navbar.tsx:277
+#: components/Navbar.tsx:334
+#: components/tools/ToolBarExt.tsx:240
+#: components/tools/ToolBarExt.tsx:274
 msgid "Home"
 msgstr "Inicio"
 
@@ -2289,10 +2289,10 @@ msgstr "Ingrese instrucciones sobre cómo revisar su entrada de texto O document
 #~ msgid "Premium Plan <0>$9.99/month or $6.99/month (Billed Annually)</0>"
 #~ msgstr "Plan Premium <0>$9.99/mes o $6.99/mes (Facturado anualmente)</0>"
 
-#: components/Navbar.tsx:304
-#: components/Navbar.tsx:361
-#: components/tools/ToolBarExt.tsx:258
-#: components/tools/ToolBarExt.tsx:292
+#: components/Navbar.tsx:296
+#: components/Navbar.tsx:353
+#: components/tools/ToolBarExt.tsx:250
+#: components/tools/ToolBarExt.tsx:284
 msgid "Pricing"
 msgstr "Precios"
 
@@ -2420,7 +2420,7 @@ msgstr "Leer PDF OCR"
 #~ msgid "Report an Issue"
 #~ msgstr "Informar un problema"
 
-#: pages/literature-review-writer/index.tsx:289
+#: components/literature-review/MainContent.tsx:289
 msgid "Request timed out. Please try again"
 msgstr "Solicitud agotada. Por favor, inténtelo de nuevo"
 
@@ -2428,7 +2428,7 @@ msgstr "Solicitud agotada. Por favor, inténtelo de nuevo"
 #~ msgid "Respecting Your Privacy: Our Commitment and Assurance"
 #~ msgstr "Respetando su privacidad: nuestro compromiso y garantía"
 
-#: pages/literature-review-writer/index.tsx:371
+#: components/literature-review/MainContent.tsx:371
 msgid "Results for"
 msgstr "Resultados para"
 
@@ -2438,8 +2438,8 @@ msgstr "Resultados para"
 #~ msgid "Resume Conversation"
 #~ msgstr "Reanudar conversación"
 
-#: pages/literature-review-writer/index.tsx:281
-#: pages/literature-review-writer/index.tsx:291
+#: components/literature-review/MainContent.tsx:281
+#: components/literature-review/MainContent.tsx:291
 msgid "Review Failed"
 msgstr ""
 
@@ -2460,7 +2460,7 @@ msgstr "La revisión se mostrará aquí"
 #~ msgid "Save Time"
 #~ msgstr "Ahorra tiempo"
 
-#: pages/literature-review-writer/index.tsx:359
+#: components/literature-review/MainContent.tsx:359
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr ""
 
@@ -2576,8 +2576,8 @@ msgstr "Dividir PDF"
 #~ msgid "Start Conversation"
 #~ msgstr "Iniciar conversación"
 
-#: components/Navbar.tsx:422
-#: components/tools/ToolBarExt.tsx:338
+#: components/Navbar.tsx:414
+#: components/tools/ToolBarExt.tsx:330
 msgid "Start For Free"
 msgstr "Comenzar Gratis"
 
@@ -2706,7 +2706,7 @@ msgstr ""
 #~ msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf'"
 #~ msgstr "Formatos admitidos: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf'"
 
-#: components/literature-review/LiteratureUpload.tsx:519
+#: components/literature-review/LiteratureUpload.tsx:518
 msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf' (max 200 pages)"
 msgstr "Formatos admitidos: .pdf, .txt, .ppt, .pptx, .csv, .epub, .rtf (máximo 200 páginas)"
 
@@ -2816,8 +2816,8 @@ msgstr "Términos y condiciones"
 #~ msgid "To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of AskYourPDF."
 #~ msgstr "En la máxima medida permitida por la ley, no seremos responsables de ningún daño directo, indirecto, incidental, especial o emergente que surja de o esté relacionado con el uso de AskYourPDF."
 
-#: components/Navbar.tsx:296
-#: components/Navbar.tsx:353
+#: components/Navbar.tsx:288
+#: components/Navbar.tsx:345
 #: pages/index.tsx:305
 msgid "Tools"
 msgstr "Herramientas"
@@ -3036,7 +3036,7 @@ msgstr "Subir desde URL"
 #~ msgid "Upload larger documents"
 #~ msgstr "Sube documentos más grandes"
 
-#: components/literature-review/LiteratureUpload.tsx:486
+#: components/literature-review/LiteratureUpload.tsx:485
 msgid "Upload New Document"
 msgstr "Subir Nuevo Documento"
 
@@ -3112,7 +3112,7 @@ msgstr "Subir Nuevo Documento"
 #~ msgid "View Documentation"
 #~ msgstr "Ver documentación"
 
-#: pages/literature-review-writer/index.tsx:236
+#: components/literature-review/MainContent.tsx:236
 msgid "Warning"
 msgstr ""
 

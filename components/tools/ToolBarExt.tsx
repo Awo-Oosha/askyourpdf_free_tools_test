@@ -6,7 +6,6 @@ import MenuIcon from "../../img/MenuIcon.svg?url";
 import CloseIcon from "../../img/CloseIcon.svg?url";
 import Logo from "../../img/Logo.svg?url";
 import { AUTH_FRONTEND_URL } from "@/config/config";
-import { useAuth } from "@/providers/AuthProvider";
 import { ArrowDown } from "@phosphor-icons/react/dist/ssr";
 import { Dropdown, Radio } from "antd";
 import Link from "next/link";
@@ -188,7 +187,6 @@ const DropdownOverlay = styled.div`
 // million-ignore
 const NavbarExt = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const { userToken, userDetails } = useAuth();
   const router = useRouter();
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -204,13 +202,7 @@ const NavbarExt = () => {
   };
 
   const handleGetStartedClick = () => {
-    if (userDetails && userDetails.email) {
-      router.push("/conversations");
-    } else {
-      const loginUrl = new URL(`${AUTH_FRONTEND_URL}/login`);
-      loginUrl.searchParams.append("next", "/conversations");
-      window.location.href = loginUrl.toString();
-    }
+    router.push("/conversations");
   };
 
   const dropDownMenu = Object.values(locales).map((loc, index) => {

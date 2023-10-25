@@ -14,7 +14,6 @@ import FileUploadIcon from "@/img/FileUpload.svg";
 import FileIcon from "@/img/FileIcon.svg?url";
 import { DOCUMENT_MANAGEMENT_SERVER_URL } from "@/config/config";
 import { validateURL } from "@/utils/utils";
-import { useAuth } from "@/providers/AuthProvider";
 import Spinner from "@/components/Spinner";
 import { ActivityLabels, trackButtonClick } from "@/utils/analytics";
 import { useQueryClient } from "react-query";
@@ -362,7 +361,7 @@ export default function DocumentUpload({
   const urlRef = useRef<InputRef>(null);
   const [fileDropped, setFileDropped] = useState(false);
   const [uploading, setUploading] = useState(false);
-  const { userToken } = useAuth();
+  //const { userToken } = useAuth();
 
   const queryClient = useQueryClient();
 
@@ -372,7 +371,7 @@ export default function DocumentUpload({
     maxCount: 1,
     action: `${DOCUMENT_MANAGEMENT_SERVER_URL}/api/upload`,
     headers: {
-      Authorization: `Bearer ${userToken}`,
+      //Authorization: `Bearer ${userToken}`,
       "Cache-Control": "no-cache",
     },
     withCredentials: true,

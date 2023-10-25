@@ -1,7 +1,6 @@
 import React, { createContext, useState } from "react";
 import { useInfiniteQuery } from "react-query";
 import { getDocuments } from "../services/documents";
-import { useAuth } from "./AuthProvider";
 
 const DocumentsContext = createContext<any>({});
 
@@ -10,7 +9,6 @@ export const DocumentsProvider = ({
 }: {
   children: React.ReactNode;
 }) => {
-  const { userToken } = useAuth();
 
   const [documentCount, setDocumentCount] = useState(-1);
 
@@ -25,7 +23,7 @@ export const DocumentsProvider = ({
     isFetching: isFetchingDocuments
   } = useInfiniteQuery(
     "documents",
-    ({ pageParam = 1 }) => getDocuments(userToken, pageParam, DOCUMENTS_LIMIT),
+    ({ pageParam = 1 }) => getDocuments("", pageParam, DOCUMENTS_LIMIT),
     {
       getNextPageParam: (lastPage: any, allPages: any) => {
         const nextPage =
@@ -42,7 +40,7 @@ export const DocumentsProvider = ({
         setDocumentCount(totalDocuments);
       },
       refetchOnWindowFocus: false,
-      enabled: userToken !== undefined,
+      enabled: "" !== undefined,
     }
   );
 
