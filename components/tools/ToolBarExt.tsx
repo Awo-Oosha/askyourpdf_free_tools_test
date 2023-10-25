@@ -22,7 +22,7 @@ const Header = styled.header`
   z-index: 10;
 
   &.isIntersecting {
-    top: 71px;
+    top: 21px;
     @media (min-width: 769px) {
       top: 51px;
     }
