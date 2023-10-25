@@ -22,7 +22,7 @@ import { alerts } from "@/utils/alerts";
 import { Trans, t } from "@lingui/macro";
 import Image from "next/image";
 import ProgressModal from "@/components/Modals/ProgressModal";
-import Check from "@/img/Check.png";
+import Check from "../../img/Check.png";
 import { useDocuments } from "@/providers/DocumentsProvider";
 
 const DocumentUploadContainer = styled.div<{ $uploaded: boolean }>`
