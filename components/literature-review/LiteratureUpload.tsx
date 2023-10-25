@@ -371,7 +371,7 @@ export default function DocumentUpload({
     maxCount: 1,
     action: `${DOCUMENT_MANAGEMENT_SERVER_URL}/api/upload`,
     headers: {
-      //Authorization: `Bearer ${userToken}`,
+      //Authorization: `Bearer ${userToken}`, 
       "Cache-Control": "no-cache",
     },
     withCredentials: true,
