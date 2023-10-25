@@ -31,6 +31,7 @@ import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
 import Link from "next/link";
 
+
 const MyLayout = styled(Layout)`
   background: #f6f6f8 !important;
   .heroImage {
