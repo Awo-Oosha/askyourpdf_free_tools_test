@@ -1,4 +1,4 @@
-import { Plan, Subscription } from "@/services/payment";
+//import { Plan, Subscription } from "@/services/payment";
 import {ModelName} from '@/types/conversations';
 import Sparkle from "@/img/Sparkle.svg?url";
 import SparkleActive from "@/img/SparkleGold.svg?url";
@@ -209,20 +209,7 @@ export const WEB_PLAN_PRICES: { [key: string]: { [key: string]: string } } = {
   },
 };
 
-export const pricing: any = {
-  [Plan.PREMIUM]: {
-    [Subscription.MONTHLY]: "9.99",
-    [Subscription.YEARLY]: "89.99",
-    slashedMonthly: "12.99",
-    slashedYearly: "119.99",
-  },
-  [Plan.PRO]: {
-    [Subscription.MONTHLY]: "14.99",
-    [Subscription.YEARLY]: "119.99",
-    slashedMonthly: "19.99",
-    slashedYearly: "179.99",
-  },
-};
+
 
 
 export const WEB_PLAN_CONFIG: Plans[] = [

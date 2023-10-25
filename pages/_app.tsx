@@ -7,9 +7,6 @@ import { GlobalStyle } from "../components/themes/GlobalStyle";
 import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
 import { AuthProvider } from "../providers/AuthProvider";
-import { ConversationsProvider } from "../providers/ConversationsProvider";
-import { DocumentsProvider } from "../providers/DocumentsProvider";
-import { SubscriptionProvider } from "../providers/SubscriptionProvider";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { useLinguiInit } from "../utils/i18n";
 import CustomScripts from "@/components/CustomScripts";
@@ -19,7 +16,6 @@ import AppHead from "@/components/AppHead";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import { ReactQueryDevtools } from "react-query/devtools";
-import { SidebarProvider } from "@/providers/SidebarProvider";
 import DynamicDescription from "@/components/DynamicDescription";
 import React from "react";
 import { useEffect } from "react";
@@ -60,11 +56,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           canonicalUrl={pageProps?.canonicalUrl}
         />
         <AuthProvider>
-          <SidebarProvider>
-            <ConversationsProvider>
-              <DocumentsProvider>
-                <SubscriptionProvider>
-                  <ThemeProvider theme={theme}>
+        <ThemeProvider theme={theme}>
                     <GlobalStyle />
                     <Component {...pageProps} />
                     <CustomScripts />
@@ -81,10 +73,6 @@ function MyApp({ Component, pageProps }: AppProps) {
                       theme="light"
                     />
                   </ThemeProvider>
-                </SubscriptionProvider>
-              </DocumentsProvider>
-            </ConversationsProvider>
-          </SidebarProvider>
         </AuthProvider>
         <ReactQueryDevtools />
       </QueryClientProvider>
