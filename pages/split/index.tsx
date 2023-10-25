@@ -153,7 +153,7 @@ const PageTitleContainer = styled.div`
     }
 
     h1 {
-      text-align: flex-start;
+      text-align: flex-start; 
       width: 90%;
       font-size: 18px;
       margin-bottom: 25px;
