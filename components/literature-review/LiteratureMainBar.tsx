@@ -249,14 +249,14 @@ const MessageInput = styled(Input)`
 `;
 
 const ConversationMarkdown = dynamic(
-  () => import("@/components/ConversationMarkdown"),
-  {
-    loading: () => (
-      <SpinnerContainer>
-        <Spinner style={{ width: "64px" }} />
-      </SpinnerContainer>
-    ),
-  }
+    () => import("@/components/ConversationMarkdown"),
+    {
+      loading: () => (
+          <SpinnerContainer>
+            <Spinner style={{ width: "64px" }} />
+          </SpinnerContainer>
+      ),
+    }
 );
 
 type props = {
@@ -266,99 +266,99 @@ type props = {
   isTyping: boolean;
   exportPDF: () => void;
   handleLiteratureText: (
-    literature_text: string,
-    fromYear?: number,
-    toYear?: number
+      literature_text: string,
+      fromYear?: number,
+      toYear?: number
   ) => void;
 };
 
 const LiteratureMainBar = ({
-  literatureText,
-  literatureInput,
-  setLiteratureInput,
-  isTyping,
-  exportPDF,
-  handleLiteratureText,
-}: props) => {
+                             literatureText,
+                             literatureInput,
+                             setLiteratureInput,
+                             isTyping,
+                             exportPDF,
+                             handleLiteratureText,
+                           }: props) => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
     handleLiteratureText(literatureInput);
   };
   return (
-    <LiteratureContainer>
-      <LiteratureReviewContent>
-        <ContentHeader>
-          {literatureText.length < 1 && (
-            <div className="title">
-              <Trans>Output</Trans>
-            </div>
-          )}
-          {literatureText.length > 0 && (
-            <div className="copyAndExport">
-              <CopyToClipboard
-                text={removeMarkdown(literatureText)}
-                onCopy={() => {
-                  alerts.success(t`Copied`, t`Literature Review copied`);
-                }}
-              >
-                <button className="copy">
-                  <Image src={CopyIcon} alt="" />
-                </button>
-              </CopyToClipboard>
-              <button
-                className="export"
-                onClick={() => {
-                  exportPDF();
-                }}
-              >
-                PDF <Image src={Export} alt="" />
-              </button>
-            </div>
-          )}
-        </ContentHeader>
-        <div className="body">
-          <Text>
-            {literatureText ? (
-              <ConversationMarkdown answer={literatureText} />
-            ) : isTyping ? (
-              <SpinnerContainer style={{ gap: "8px" }}>
-                <p>
-                  <Trans>Your Review is being generated</Trans>
-                </p>
-                <Spinner style={{ width: "42px" }} />
-              </SpinnerContainer>
-            ) : (
-              <p className="review__placeholder">
-                <Trans>Review will be displayed here</Trans>
-              </p>
+      <LiteratureContainer>
+        <LiteratureReviewContent>
+          <ContentHeader>
+            {literatureText.length < 1 && (
+                <div className="title">
+                  <Trans>Output</Trans>
+                </div>
             )}
-          </Text>
-        </div>
-        <ChatFooter>
-          <MessageInputContainer>
-            <MessageForm onSubmit={handleSubmit}>
-              <MessageInput
-                placeholder="Enter research topic here"
-                value={literatureInput}
-                onChange={(e) => {
-                  setLiteratureInput(e.target.value);
-                }}
-                onKeyDown={(e) => {
-                  if ((e.ctrlKey || e.metaKey) && e.key === "Enter") {
-                    e.preventDefault();
-                    handleSubmit(e);
-                  }
-                }}
-              />
-              <button type="submit">
-                <Image src={Send} alt="" />
-              </button>
-            </MessageForm>
-          </MessageInputContainer>
-        </ChatFooter>
-      </LiteratureReviewContent>
-    </LiteratureContainer>
+            {literatureText.length > 0 && (
+                <div className="copyAndExport">
+                  <CopyToClipboard
+                      text={removeMarkdown(literatureText)}
+                      onCopy={() => {
+                        alerts.success(t`Copied`, t`Literature Review copied`);
+                      }}
+                  >
+                    <button className="copy">
+                      <Image src={CopyIcon} alt="" />
+                    </button>
+                  </CopyToClipboard>
+                  <button
+                      className="export"
+                      onClick={() => {
+                        exportPDF();
+                      }}
+                  >
+                    PDF <Image src={Export} alt="" />
+                  </button>
+                </div>
+            )}
+          </ContentHeader>
+          <div className="body">
+            <Text>
+              {literatureText ? (
+                  <ConversationMarkdown answer={literatureText} />
+              ) : isTyping ? (
+                  <SpinnerContainer style={{ gap: "8px" }}>
+                    <p>
+                      <Trans>Your Review is being generated</Trans>
+                    </p>
+                    <Spinner style={{ width: "42px" }} />
+                  </SpinnerContainer>
+              ) : (
+                  <p className="review__placeholder">
+                    <Trans>Review will be displayed here</Trans>
+                  </p>
+              )}
+            </Text>
+          </div>
+          <ChatFooter>
+            <MessageInputContainer>
+              <MessageForm onSubmit={handleSubmit}>
+                <MessageInput
+                    placeholder="Enter research topic here"
+                    value={literatureInput}
+                    onChange={(e) => {
+                      setLiteratureInput(e.target.value);
+                    }}
+                    onKeyDown={(e) => {
+                      if ((e.ctrlKey || e.metaKey) && e.key === "Enter") {
+                        e.preventDefault();
+                        handleSubmit(e);
+                      }
+                    }}
+                />
+                <button type="submit">
+                  <Image src={Send} alt="" />
+                </button>
+              </MessageForm>
+            </MessageInputContainer>
+          </ChatFooter>
+        </LiteratureReviewContent>
+      </LiteratureContainer>
   );
 };
 

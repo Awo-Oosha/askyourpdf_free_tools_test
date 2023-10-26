@@ -183,147 +183,147 @@ type Props = {
 };
 
 export default function LiteratureSideBar({
-  docID,
-  setDocID,
-  isTyping,
-  literatureYearTo,
-  setLiteratureYearTo,
-  literatureYearFrom,
-  setLiteratureYearFrom,
-}: Props) {
+                                            docID,
+                                            setDocID,
+                                            isTyping,
+                                            literatureYearTo,
+                                            setLiteratureYearTo,
+                                            literatureYearFrom,
+                                            setLiteratureYearFrom,
+                                          }: Props) {
   const [prompt, setPrompt] = useState("");
   const currentYear = new Date().getFullYear();
   const years = Array.from({ length: 40 }, (_, index) => currentYear - index);
   const formatFromItems = years.map((format) => ({
     key: format,
     label: (
-      <MenuItem>
-        {format}
-        {literatureYearFrom === format && (
-          <CheckOutlined style={{ fontWeight: "700", color: "#7F56D9" }} />
-        )}
-      </MenuItem>
+        <MenuItem>
+          {format}
+          {literatureYearFrom === format && (
+              <CheckOutlined style={{ fontWeight: "700", color: "#7F56D9" }} />
+          )}
+        </MenuItem>
     ),
   }));
   const formatToItems = years.map((format) => ({
     key: format,
     label: (
-      <MenuItem>
-        {format}
-        {literatureYearTo === format && (
-          <CheckOutlined style={{ fontWeight: "700", color: "#7F56D9" }} />
-        )}
-      </MenuItem>
+        <MenuItem>
+          {format}
+          {literatureYearTo === format && (
+              <CheckOutlined style={{ fontWeight: "700", color: "#7F56D9" }} />
+          )}
+        </MenuItem>
     ),
     disabled: format < literatureYearFrom!,
   }));
 
   return (
-    <DeveloperSidebarStyles
-      style={{
-        background: "#F8F8F8",
-        overflow: "auto",
-      }}
-    >
-      <SidebarContent>
-        <SidebarBody>
-          <DocumentUpload
-            onUpload={(id) => {
-              setDocID(id);
-            }}
-            onRemoved={() => {
-              setDocID("");
-            }}
-            docID={docID}
-          />
-          {/*<ActionCon>
-            <div className="title">
-              <Trans>Field of Study</Trans>
-            </div>
-            <div className="body">
-              <TextArea
-                placeholder={t`Please enter instructions on how to review your text input OR document`}
-                value={prompt}
-                onChange={(e) => {
-                  setPrompt(e.target.value);
+      <DeveloperSidebarStyles
+          style={{
+            background: "#F8F8F8",
+            overflow: "auto",
+          }}
+      >
+        <SidebarContent>
+          <SidebarBody>
+            <DocumentUpload
+                onUpload={(id) => {
+                  setDocID(id);
                 }}
-              />
-            </div>
-              </ActionCon>*/}
-          <ActionCon>
-            <div className="title">
-              <Trans>Date Range</Trans>
-            </div>
-            <div className="body">
-              <Dropdown
-                menu={{
-                  items: formatFromItems,
-                  selectable: true,
-                  onSelect: (info) => {
-                    const value = parseInt(info.key) as number;
-                    setLiteratureYearFrom(value);
-                  },
+                onRemoved={() => {
+                  setDocID("");
                 }}
-                trigger={["click"]}
-                overlayClassName="summaryDropdown literatureDropdown"
-              >
-                <LengthButton>
-                  {literatureYearFrom ? literatureYearFrom : "From"}
-                  <span>
+                docID={docID}
+            />
+            <ActionCon>
+              <div className="title">
+                <Trans>Field of Study</Trans>
+              </div>
+              <div className="body">
+                <TextArea
+                    placeholder={t`Please enter instructions on how to review your text input OR document`}
+                    value={prompt}
+                    onChange={(e) => {
+                      setPrompt(e.target.value);
+                    }}
+                />
+              </div>
+            </ActionCon>
+            <ActionCon>
+              <div className="title">
+                <Trans>Date Range</Trans>
+              </div>
+              <div className="body">
+                <Dropdown
+                    menu={{
+                      items: formatFromItems,
+                      selectable: true,
+                      onSelect: (info) => {
+                        const value = parseInt(info.key) as number;
+                        setLiteratureYearFrom(value);
+                      },
+                    }}
+                    trigger={["click"]}
+                    overlayClassName="summaryDropdown literatureDropdown"
+                >
+                  <LengthButton>
+                    {literatureYearFrom ? literatureYearFrom : "From"}
+                    <span>
                     <DownOutlined />
                   </span>
-                </LengthButton>
-              </Dropdown>
-              <Dropdown
-                menu={{
-                  items: formatToItems,
-                  selectable: true,
-                  onSelect: (info) => {
-                    const value = parseInt(info.key) as number;
-                    setLiteratureYearTo(value);
-                  },
-                }}
-                trigger={["click"]}
-                overlayClassName="summaryDropdown literatureDropdown"
-                className="left"
-              >
-                <LengthButton>
-                  {literatureYearTo ? literatureYearTo : "To"}
-                  <span>
+                  </LengthButton>
+                </Dropdown>
+                <Dropdown
+                    menu={{
+                      items: formatToItems,
+                      selectable: true,
+                      onSelect: (info) => {
+                        const value = parseInt(info.key) as number;
+                        setLiteratureYearTo(value);
+                      },
+                    }}
+                    trigger={["click"]}
+                    overlayClassName="summaryDropdown literatureDropdown"
+                    className="left"
+                >
+                  <LengthButton>
+                    {literatureYearTo ? literatureYearTo : "To"}
+                    <span>
                     <DownOutlined />{" "}
                   </span>
-                </LengthButton>
-              </Dropdown>
-            </div>
-          </ActionCon>
-          <ActionCon style={{ marginTop: "34px" }}>
-            <AdvancedParameters
-              ghost
-              expandIconPosition="end"
-              items={[
-                {
-                  key: 1,
-                  label: t`Advanced Parameters`,
-                  children: (
-                    <div className="body advanceParamsBody">
-                      <div className="desc">
-                        <Trans>Description</Trans>
-                      </div>
-                      <TextArea
-                        placeholder={t`Please enter instructions on how to review your text input OR document`}
-                        value={prompt}
-                        onChange={(e) => {
-                          setPrompt(e.target.value);
-                        }}
-                      />
-                    </div>
-                  ),
-                },
-              ]}
-            />
-          </ActionCon>
-        </SidebarBody>
-      </SidebarContent>
-    </DeveloperSidebarStyles>
+                  </LengthButton>
+                </Dropdown>
+              </div>
+            </ActionCon>
+            <ActionCon style={{ marginTop: "34px" }}>
+              <AdvancedParameters
+                  ghost
+                  expandIconPosition="end"
+                  items={[
+                    {
+                      key: 1,
+                      label: t`Advanced Parameters`,
+                      children: (
+                          <div className="body advanceParamsBody">
+                            <div className="desc">
+                              <Trans>Description</Trans>
+                            </div>
+                            <TextArea
+                                placeholder={t`Please enter instructions on how to review your text input OR document`}
+                                value={prompt}
+                                onChange={(e) => {
+                                  setPrompt(e.target.value);
+                                }}
+                            />
+                          </div>
+                      ),
+                    },
+                  ]}
+              />
+            </ActionCon>
+          </SidebarBody>
+        </SidebarContent>
+      </DeveloperSidebarStyles>
   );
 }

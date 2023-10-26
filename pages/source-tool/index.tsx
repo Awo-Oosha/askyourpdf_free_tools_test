@@ -10,12 +10,10 @@ import { loadCatalog } from "@/utils/i18n";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import ToolsFooter from "@/components/ToolsFooter";
 import { useMedia } from "react-use";
 import HeroImage from "@/img/Mask.svg?url";
 import { PAGE_DESCRIPTION, PAGE_TITLE, path } from "@/routes";
 import { MAIN_APP_URL } from "@/config/config";
-import { BackToTools } from "../literature-review-writer";
 import { SourceContent } from "@/components/source-tools/source-content";
 import { SourceResult } from "@/components/source-tools/source-result";
 import { useMutation } from "react-query";
@@ -23,6 +21,7 @@ import { Filter, getSourceInformation, getSources } from "@/services/tools";
 import { useRouter } from "next/router";
 import ProgressModal from "@/components/Modals/ProgressModal";
 import { BottomNavigation } from "@/components/tools/ToolCommon";
+import Link from "next/link";
 
 const MyLayout = styled(Layout)`
   background: #f6f6f8 !important;
@@ -114,6 +113,35 @@ const SourceLayout = styled(Layout)`
     }
   }
 `;
+
+const BackToTools = styled(Link)`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  padding: 8px 16px;
+  width: 166px;
+  border-radius: 24px;
+  background: #fff;
+  backdrop-filter: blur(18px);
+  cursor: pointer;
+  @media (max-width: 768px) {
+    width: 150px;
+  }
+  p {
+    color: #edb01a;
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+`;
+
 export const getStaticProps: GetStaticProps = async (ctx) => {
   const translation = await loadCatalog(ctx.locale!);
   return {
@@ -195,7 +223,7 @@ const SourceTools = () => {
             <Image src={HeroImage} alt="Hero" priority={true} sizes="100vw" />
           )}
         </div>
-        <BackToTools href="/tools">
+        <BackToTools href="/">
           <Image src={ArrowLeft} alt="" />
           <p>
             <Trans>Back to tools</Trans>

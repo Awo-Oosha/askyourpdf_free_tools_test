@@ -14,6 +14,7 @@ import FileUploadIcon from "@/img/FileUpload.svg";
 import FileIcon from "@/img/FileIcon.svg?url";
 import { DOCUMENT_MANAGEMENT_SERVER_URL } from "@/config/config";
 import { validateURL } from "@/utils/utils";
+import { sendUrl } from "@/services/documents";
 import Spinner from "@/components/Spinner";
 import { ActivityLabels, trackButtonClick } from "@/utils/analytics";
 import { useQueryClient } from "react-query";
@@ -21,7 +22,7 @@ import { alerts } from "@/utils/alerts";
 import { Trans, t } from "@lingui/macro";
 import Image from "next/image";
 import ProgressModal from "@/components/Modals/ProgressModal";
-import Check from "@/img/check.png";
+import Check from "@/img/Check.png";
 import { useDocuments } from "@/providers/DocumentsProvider";
 
 const DocumentUploadContainer = styled.div<{ $uploaded: boolean }>`
@@ -94,9 +95,9 @@ const Tab = styled.div<{ $active?: boolean }>`
   background: ${(props) => (props.$active ? "#FFFFFF" : "transparent")};
   padding: 8px 16px;
   box-shadow: ${(props) =>
-    props.$active
-      ? "0px 1px 3px rgba(47, 43, 67, 0.1), inset 0px -1px 0px rgba(47, 43, 67, 0.1)"
-      : "0"};
+      props.$active
+          ? "0px 1px 3px rgba(47, 43, 67, 0.1), inset 0px -1px 0px rgba(47, 43, 67, 0.1)"
+          : "0"};
   border-radius: ${(props) => (props.$active ? "24px" : "0")};
   cursor: pointer;
 
@@ -110,7 +111,7 @@ const Tab = styled.div<{ $active?: boolean }>`
     text-align: center;
     letter-spacing: -0.01em;
     color: ${(props) =>
-      props.$active ? "#2F2B43" : "rgba(47, 43, 67, 0.60)"} !important;
+        props.$active ? "#2F2B43" : "rgba(47, 43, 67, 0.60)"} !important;
   }
 `;
 
@@ -306,48 +307,48 @@ const LoadingContainer = styled.div`
 
 export const UploadItem = ({ file, actions }: any) => {
   return (
-    <UploadItemContainer>
-      <UploadInfoContainer>
-        <Image src={FileIcon} alt="" />
-        <UploadInfo>
-          <div>
-            <p style={{ fontWeight: 700 }}>{file?.name}</p>
-            <p>
-              {file?.size ? (file?.size / 1000000).toFixed(3) : ""}
-              MB
-            </p>
-            <ProgressInfo>
-              <ProgressBar>
-                <div
-                  style={{
-                    // width: `100%`,
-                    width: `${file?.percent}%`,
-                  }}
-                  className={file?.status}
-                ></div>
-              </ProgressBar>
-              <p style={{ fontWeight: 500 }}>{file?.percent?.toFixed(2)}%</p>
-            </ProgressInfo>
-            <UploadActions>
-              <button onClick={actions.remove}>
-                <Trans>Delete</Trans>
-              </button>
-            </UploadActions>
-          </div>
-        </UploadInfo>
-      </UploadInfoContainer>
-    </UploadItemContainer>
+      <UploadItemContainer>
+        <UploadInfoContainer>
+          <Image src={FileIcon} alt="" />
+          <UploadInfo>
+            <div>
+              <p style={{ fontWeight: 700 }}>{file?.name}</p>
+              <p>
+                {file?.size ? (file?.size / 1000000).toFixed(3) : ""}
+                MB
+              </p>
+              <ProgressInfo>
+                <ProgressBar>
+                  <div
+                      style={{
+                        // width: `100%`,
+                        width: `${file?.percent}%`,
+                      }}
+                      className={file?.status}
+                  ></div>
+                </ProgressBar>
+                <p style={{ fontWeight: 500 }}>{file?.percent?.toFixed(2)}%</p>
+              </ProgressInfo>
+              <UploadActions>
+                <button onClick={actions.remove}>
+                  <Trans>Delete</Trans>
+                </button>
+              </UploadActions>
+            </div>
+          </UploadInfo>
+        </UploadInfoContainer>
+      </UploadItemContainer>
   );
 };
 
 export default function DocumentUpload({
-  onUpload,
-  onError,
-  onRemoved,
-  allowUploadModeSwitch = true,
-  defaultUploadMode = 0,
-  docID,
-}: {
+                                         onUpload,
+                                         onError,
+                                         onRemoved,
+                                         allowUploadModeSwitch = true,
+                                         defaultUploadMode = 0,
+                                         docID,
+                                       }: {
   onUpload: (id: string) => void;
   onError?: (error?: any) => void;
   onRemoved?: () => void;
@@ -361,7 +362,6 @@ export default function DocumentUpload({
   const urlRef = useRef<InputRef>(null);
   const [fileDropped, setFileDropped] = useState(false);
   const [uploading, setUploading] = useState(false);
-  //const { userToken } = useAuth();
 
   const queryClient = useQueryClient();
 
@@ -371,7 +371,7 @@ export default function DocumentUpload({
     maxCount: 1,
     action: `${DOCUMENT_MANAGEMENT_SERVER_URL}/api/upload`,
     headers: {
-      //Authorization: `Bearer ${userToken}`, 
+      // Authorization: `Bearer ${userToken}`,
       "Cache-Control": "no-cache",
     },
     withCredentials: true,
@@ -394,15 +394,15 @@ export default function DocumentUpload({
       } else if (status === "error") {
         onError?.(info.file.response);
         info.file.response === undefined
-          ? alerts.error(
-              t`File Upload Failed`,
-              t`${info.file.name} file upload failed`
+            ? alerts.error(
+                t`File Upload Failed`,
+                t`${info.file.name} file upload failed`
             )
-          : alerts.error(
-              t`File Upload Failed`,
-              `${info.file.name} file upload failed ${
-                info.file.response?.detail || ""
-              }.`
+            : alerts.error(
+                t`File Upload Failed`,
+                `${info.file.name} file upload failed ${
+                    info.file.response?.detail || ""
+                }.`
             );
         if (showProgressModal) {
           setShowProgressModal(false);
@@ -433,8 +433,8 @@ export default function DocumentUpload({
   } = useDocuments();
 
   const documentsList = useMemo(
-    () => documents?.pages?.flatMap((document: any) => document?.documents),
-    [documents]
+      () => documents?.pages?.flatMap((document: any) => document?.documents),
+      [documents]
   );
 
   const [documentsListEnd, setDocumentsListEnd] = useState<any>(null);
@@ -445,15 +445,15 @@ export default function DocumentUpload({
 
   useEffect(() => {
     const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          fetchNextDocuments();
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            fetchNextDocuments();
+          }
+        },
+        {
+          root: null,
+          threshold: 0.5,
         }
-      },
-      {
-        root: null,
-        threshold: 0.5,
-      }
     );
     const documentsListEndElement = documentsListEnd;
     if (documentsListEndElement) {
@@ -468,40 +468,40 @@ export default function DocumentUpload({
   }, [documentsListEnd]);
 
   return (
-    <>
-      <DocumentUploadContainer $uploaded={fileDropped}>
-        {allowUploadModeSwitch && (
-          <TabContainer>
-            <Tab
-              $active={activeTab === 0}
-              onClick={() => {
-                if (uploading || !allowUploadModeSwitch) {
-                  return;
-                }
-                setActiveTab(0);
-              }}
-            >
-              <p>
-                <Trans>Upload New Document</Trans>
-              </p>
-            </Tab>
-            <Tab
-              $active={activeTab === 1}
-              onClick={() => {
-                if (uploading || !allowUploadModeSwitch) {
-                  return;
-                }
-                setActiveTab(1);
-                setFileDropped(false);
-              }}
-            >
-              <p>
-                <Trans>From Your Documents</Trans>
-              </p>
-            </Tab>
-          </TabContainer>
-        )}
-         {activeTab === 0 ? (
+      <>
+        <DocumentUploadContainer $uploaded={fileDropped}>
+          {allowUploadModeSwitch && (
+              <TabContainer>
+                <Tab
+                    $active={activeTab === 0}
+                    onClick={() => {
+                      if (uploading || !allowUploadModeSwitch) {
+                        return;
+                      }
+                      setActiveTab(0);
+                    }}
+                >
+                  <p>
+                    <Trans>Upload New Document</Trans>
+                  </p>
+                </Tab>
+                <Tab
+                    $active={activeTab === 1}
+                    onClick={() => {
+                      if (uploading || !allowUploadModeSwitch) {
+                        return;
+                      }
+                      setActiveTab(1);
+                      setFileDropped(false);
+                    }}
+                >
+                  <p>
+                    <Trans>From Your Documents</Trans>
+                  </p>
+                </Tab>
+              </TabContainer>
+          )}
+          {/* {activeTab === 0 ? (
           <Dragger
             {...draggerProps}
             itemRender={(originNode, file, fileList, actions) => (
@@ -570,9 +570,9 @@ export default function DocumentUpload({
               </DocumentListStatus>
             )}
           </UploadDocumentContainer>
-        )} 
-      </DocumentUploadContainer>
-      <ProgressModal message={t`Analysing Document`} open={showProgressModal} />
-    </>
+        )} */}
+        </DocumentUploadContainer>
+        <ProgressModal message={t`Analysing Document`} open={showProgressModal} />
+      </>
   );
 }
