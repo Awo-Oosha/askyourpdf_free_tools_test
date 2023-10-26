@@ -1,43 +1,39 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from "react";
 import Reorder from "react-reorder";
-import {
-    Layout,
-    Row,
-    Col,
-} from "antd";
+import { Layout, Row, Col } from "antd";
 import styled from "styled-components";
 import Spinner from "@/components/Spinner";
 import FileIcon from "@/img/FileIcon.svg";
-import {useRouter} from "next/router";
+import { useRouter } from "next/router";
 import BinIcon from "@/img/tools/binIcon.svg";
 import SortAsc from "@/img/tools/sasc.svg";
 import SortDesc from "@/img/tools/sdesc.svg";
-import {PDFDocument} from 'pdf-lib'
+import { PDFDocument } from "pdf-lib";
 import * as PDFJS from "pdfjs-dist";
 import Image from "next/image";
-import {PageContainer} from "@/styles/styles";
-import {Trans, t} from "@lingui/macro";
+import { PageContainer } from "@/styles/styles";
+import { Trans, t } from "@lingui/macro";
 import dynamic from "next/dynamic";
-import {BottomNavigation, ToolsHero} from "@/components/tools/ToolCommon";
+import { BottomNavigation, ToolsHero } from "@/components/tools/ToolCommon";
 import type { NextPage, GetStaticProps } from "next";
-import { PAGE_DESCRIPTION, path } from '@/routes';
+import { PAGE_DESCRIPTION, path } from "@/routes";
 import { loadCatalog } from "@/utils/i18n";
-import { MAIN_APP_URL } from '@/config/config';
+import { MAIN_APP_URL } from "@/config/config";
 
-const NavbarExt = dynamic(() => import('@/components/tools/ToolBarExt'), {
-    ssr: false,
+const NavbarExt = dynamic(() => import("@/components/tools/ToolBarExt"), {
+  ssr: false,
 });
-const Footer = dynamic(() => import('@/components/Footer'), {
-    ssr: false,
+const Footer = dynamic(() => import("@/components/Footer"), {
+  ssr: false,
 });
-const Waitlist = dynamic(() => import('@/components/tools/ToolsWaitlist'), {
-    ssr: false,
+const Waitlist = dynamic(() => import("@/components/tools/ToolsWaitlist"), {
+  ssr: false,
 });
-const DocUpload = dynamic(() => import('@/components/tools/DocUploadNoFunc'), {
-    ssr: false,
+const DocUpload = dynamic(() => import("@/components/tools/DocUploadNoFunc"), {
+  ssr: false,
 });
-const Modal = dynamic(() => import('@/components/tools/ToolModal'), {
-    ssr: false,
+const Modal = dynamic(() => import("@/components/tools/ToolModal"), {
+  ssr: false,
 });
 
 const ReUpload = styled.div`
@@ -119,7 +115,7 @@ const PageTitleContainer = styled.div`
 
   div {
     color: #475467;
-    font-family: var(--font-satoshi);;
+    font-family: var(--font-satoshi);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -225,14 +221,14 @@ const ToolsRow = styled.div`
 const ToolsCol = styled.div`
   width: calc(33.33% - 24px);
   border-radius: 32px;
-  border: 1px solid rgba(47, 43, 67, 0.10);
-  background: #FFF;
+  border: 1px solid rgba(47, 43, 67, 0.1);
+  background: #fff;
   padding: 48px;
   cursor: pointer;
 
   div {
-    color: #2F2B43;
-    font-family: var(--font-satoshi);;
+    color: #2f2b43;
+    font-family: var(--font-satoshi);
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -240,8 +236,8 @@ const ToolsCol = styled.div`
   }
 
   p:last-child {
-    color: rgba(47, 43, 67, 0.60);
-    font-family: var(--font-satoshi);;
+    color: rgba(47, 43, 67, 0.6);
+    font-family: var(--font-satoshi);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -335,18 +331,17 @@ const Rowx = styled(Row)`
 const DoneText = styled.div`
   margin-bottom: 32px;
 
-
   div:first-child {
     color: #101828;
-    font-family: var(--font-satoshi);;
+    font-family: var(--font-satoshi);
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
   }
 
   div:last-child {
-    color: #027A48;
-    font-family: var(--font-satoshi);;
+    color: #027a48;
+    font-family: var(--font-satoshi);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -389,26 +384,26 @@ const UploadInfo = styled.div`
     color: #344054 !important;
   }
 `;
- const PDFRows = styled(Reorder)`
-   width: 100%;
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   gap: 12px;
+const PDFRows = styled(Reorder)`
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
 
-   .startDrg {
-     border: 1px dashed rgba(237, 176, 26, 0.60);
-     box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.09);
-   }
+  .startDrg {
+    border: 1px dashed rgba(237, 176, 26, 0.6);
+    box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.09);
+  }
 
-   @media screen and (max-width: 900px) {
-     grid-template-columns: repeat(1, 1fr);
-     margin-bottom: 30px;
-   }
- `;
+  @media screen and (max-width: 900px) {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 30px;
+  }
+`;
 const PDFPage = styled.div`
   width: 100%;
   border-radius: 10.488px;
-  background: #F8F8F8;
+  background: #f8f8f8;
   display: flex;
   padding: 20px 0;
 
@@ -422,7 +417,7 @@ const PDFPage = styled.div`
     display: flex;
     justify-content: center;
     text-align: center;
-    background: #F4F4F4;
+    background: #f4f4f4;
 
     svg {
       width: 35px;
@@ -446,7 +441,7 @@ const CounterIcon = styled.div`
   align-items: center;
   border-radius: 7px;
   background: #070707;
-  color: #EDB01A;
+  color: #edb01a;
   text-align: center;
   font-family: var(--font-satoshi);
   font-size: 14px;
@@ -459,7 +454,6 @@ const OptionRows = styled.div`
   justify-content: space-between;
   margin-bottom: 20px;
   @media screen and (max-width: 900px) {
-
   }
 `;
 const OptionRowsx = styled(OptionRows)`
@@ -543,322 +537,379 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   return {
     props: {
       translation,
-      description : PAGE_DESCRIPTION[path.tools],
+      description: PAGE_DESCRIPTION[path.tools],
       canonicalUrl: `${MAIN_APP_URL}/`,
     },
   };
 };
 let resetKey = 1;
 const ToolsMerge = () => {
-    const [mainfileData, setFileData] = useState();
-    const [done, setDone] = useState("");
-    const [processing, setProcessing] = useState(false);
-    const [fileInfo, setFileInfo] = useState({name: "", size: 0, url: ""});
-    const [pdfPages, setPages] = useState<Object[]>([]);
-    const [refreshCount, setRefreshCount] = useState(0);
-    const [isDoneModal, setisDoneModal] = useState(false);
-    const navigate = useRouter();
+  const [mainfileData, setFileData] = useState();
+  const [done, setDone] = useState("");
+  const [processing, setProcessing] = useState(false);
+  const [fileInfo, setFileInfo] = useState({ name: "", size: 0, url: "" });
+  const [pdfPages, setPages] = useState<Object[]>([]);
+  const [refreshCount, setRefreshCount] = useState(0);
+  const [isDoneModal, setisDoneModal] = useState(false);
+  const navigate = useRouter();
 
+  let scale = 1;
+  const docParts = async (file: any) => {
+    if (file) {
+      setProcessing(true);
+      setFileInfo({ name: file.name, size: file.size, url: "" });
+      const reader = new FileReader();
+      reader.onload = async function (event: any) {
+        let fileData = event.target.result;
+        let pages: any = [],
+          heights: any = [],
+          width = 0,
+          height = 0,
+          currentPage = 1;
+        PDFJS.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@3.11.174/legacy/build/pdf.worker.min.js`; // due to CORS
 
-    let scale = 1;
-    const docParts = async (file: any) => {
-        if (file) {
-            setProcessing(true);
-            setFileInfo({name: file.name, size: file.size, url: ""});
-            const reader = new FileReader();
-            reader.onload = async function (event: any) {
-                let fileData = event.target.result;
-                let pages: any = [], heights: any = [], width = 0, height = 0, currentPage = 1;
-                PDFJS.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@3.11.174/legacy/build/pdf.worker.min.js` // due to CORS
+        let createdPage = pdfPages;
 
-                let createdPage = pdfPages;
+        async function draw() {
+          let canvas: any = document.createElement("canvas"),
+            ctx = canvas.getContext("2d");
+          canvas.width = width;
+          canvas.height = height;
+          ctx.putImageData(pages[0], 0, heights[0]);
+          const pageData = {
+            index: createdPage.length,
+            canvas: canvas,
+            data: fileData,
+          };
+          createdPage.push(pageData);
+          setPages(createdPage);
+          setDone("PAGES");
+          setProcessing(false);
+        }
 
-                async function draw() {
-                    let canvas: any = document.createElement('canvas'), ctx = canvas.getContext('2d');
-                    canvas.width = width;
-                    canvas.height = height;
-                    ctx.putImageData(pages[0], 0, heights[0]);
-                    const pageData = {
-                        index: createdPage.length,
-                        canvas: canvas,
-                        data: fileData
-                    }
-                    createdPage.push(pageData);
-                    setPages(createdPage);
-                    setDone("PAGES");
-                    setProcessing(false);
-                }
+        const thisdoc = PDFJS.getDocument({ data: fileData.slice(0) });
+        thisdoc.promise
+          .then(function (pdf: any) {
+            getPage();
 
-                const thisdoc = PDFJS.getDocument({data: fileData.slice(0)});
-                thisdoc.promise.then(function (pdf: any) {
+            function getPage() {
+              pdf.getPage(currentPage).then(function (page: any) {
+                let viewport = page.getViewport({ scale });
+                let canvas: any = document.createElement("canvas"),
+                  ctx = canvas.getContext("2d");
+                let renderContext: any = {
+                  canvasContext: ctx,
+                  viewport: viewport,
+                };
+
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+
+                const mypage = page.render(renderContext);
+                mypage.promise.then(async function () {
+                  pages.push(
+                    ctx.getImageData(0, 0, canvas.width, canvas.height)
+                  );
+                  heights.push(height);
+                  height = canvas.height;
+                  if (width < canvas.width) width = canvas.width;
+
+                  if (currentPage < pdf.numPages) {
+                    currentPage++;
                     getPage();
-
-                    function getPage() {
-                        pdf.getPage(currentPage).then(function (page: any) {
-                            let viewport = page.getViewport({scale});
-                            let canvas: any = document.createElement('canvas'), ctx = canvas.getContext('2d');
-                            let renderContext: any = {canvasContext: ctx, viewport: viewport};
-
-                            canvas.height = viewport.height;
-                            canvas.width = viewport.width;
-
-
-                            const mypage = page.render(renderContext)
-                            mypage.promise.then(async function () {
-                                pages.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
-                                heights.push(height);
-                                height = canvas.height;
-                                if (width < canvas.width) width = canvas.width;
-
-                                if (currentPage < pdf.numPages) {
-                                    currentPage++;
-                                    getPage();
-                                } else {
-                                    draw();
-                                }
-                            });
-                        });
-                    }
-                }).catch((e: any) => {
+                  } else {
+                    draw();
+                  }
                 });
+              });
             }
-            reader.readAsArrayBuffer(file);
-        }
-
-
+          })
+          .catch((e: any) => {});
+      };
+      reader.readAsArrayBuffer(file);
     }
+  };
 
-    const joinParts = async () => {
-        setProcessing(true);
-        const newPDF = await PDFDocument.create();
-        for (const element of pdfPages as any) {
-            const opdf = await PDFDocument.load(element.data);
-            const pages = await newPDF.copyPages(opdf, opdf.getPageIndices());
-            pages.forEach((page) => newPDF.addPage(page));
-        }
-        const pdfBytes = await newPDF.save();
-        const pdfBlob = new Blob([pdfBytes], {type: 'application/pdf'});
-
-        const urlb = URL.createObjectURL(pdfBlob);
-        console.log(urlb);
-        setFileInfo({
-            name: "merged_documents.pdf",
-            size: pdfBlob.size,
-            url: urlb,
-        })
-        setProcessing(false);
-        setisDoneModal(true);
-        //setDone("DONE");
+  const joinParts = async () => {
+    setProcessing(true);
+    const newPDF = await PDFDocument.create();
+    for (const element of pdfPages as any) {
+      const opdf = await PDFDocument.load(element.data);
+      const pages = await newPDF.copyPages(opdf, opdf.getPageIndices());
+      pages.forEach((page) => newPDF.addPage(page));
     }
+    const pdfBytes = await newPDF.save();
+    const pdfBlob = new Blob([pdfBytes], { type: "application/pdf" });
 
+    const urlb = URL.createObjectURL(pdfBlob);
+    console.log(urlb);
+    setFileInfo({
+      name: "merged_documents.pdf",
+      size: pdfBlob.size,
+      url: urlb,
+    });
+    setProcessing(false);
+    setisDoneModal(true);
+    //setDone("DONE");
+  };
 
-    const downloadFile = (url: any, fileName: any) => {
-        setProcessing(true);
-        const aElement = document.createElement('a');
-        aElement.setAttribute('download', fileName);
-        const href = url;
-        aElement.href = href;
-        // aElement.setAttribute('href', href);
-        aElement.setAttribute('target', '_blank');
-        aElement.click();
-        URL.revokeObjectURL(href);
-        setProcessing(false);
-
-    };
-    const getChangedPos = (event: any, currentPos: any, newPos: any, from: any, to: any) => {
-        console.log(currentPos, newPos);
-        const currentData = pdfPages;
-        const movedItem = currentData.splice(currentPos, 1)[0];
-        currentData.splice(newPos, 0, movedItem);
-        setPages(currentData);
-        setRefreshCount(refreshCount + 1);
-    };
-    const viewPages = (pages: any = []) => {
-        let allpages: any = [];
-        pages.forEach((element: any, index: any) => {
-            allpages.push(<PDFPage key={index}><img src={element.canvas.toDataURL()} alt=''/>
-                <div className='space'>
-                    <div className='space-flex'>
-                        <BinIcon onClick={() => {
-                            const updatedPages = pdfPages.slice(0, index).concat(pdfPages.slice(index + 1));
-                            setPages(updatedPages);
-                        }}/>
-                        <CounterIcon>{element.index + 1}</CounterIcon>
-                    </div>
-                </div>
-            </PDFPage>)
-        });
-        return (<div>
-            <PDFRows reorderId="my-list" onReorder={getChangedPos} draggedClassName="startDrg" key={refreshCount}>
-               {allpages}
-            </PDFRows>
-        </div>);
-    }
-
-    const title = <Trans>PDF Merger</Trans>;
-    const desc = <Trans>With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document
-        while
-        maintaining quality and formatting.</Trans>;
-    const tab = <Trans>Back to tools</Trans>;
-    const [isdone, setdone] = useState<true|false>(false);
-useEffect(()=>{
-if(isdone==false){
-  if(mainfileData!=null ){
-    docParts(mainfileData);
-    setdone(true);
-  }
-}
-},[mainfileData,docParts,isdone,setdone])
-
+  const downloadFile = (url: any, fileName: any) => {
+    setProcessing(true);
+    const aElement = document.createElement("a");
+    aElement.setAttribute("download", fileName);
+    const href = url;
+    aElement.href = href;
+    // aElement.setAttribute('href', href);
+    aElement.setAttribute("target", "_blank");
+    aElement.click();
+    URL.revokeObjectURL(href);
+    setProcessing(false);
+  };
+  const getChangedPos = (
+    event: any,
+    currentPos: any,
+    newPos: any,
+    from: any,
+    to: any
+  ) => {
+    console.log(currentPos, newPos);
+    const currentData = pdfPages;
+    const movedItem = currentData.splice(currentPos, 1)[0];
+    currentData.splice(newPos, 0, movedItem);
+    setPages(currentData);
+    setRefreshCount(refreshCount + 1);
+  };
+  const viewPages = (pages: any = []) => {
+    let allpages: any = [];
+    pages.forEach((element: any, index: any) => {
+      allpages.push(
+        <PDFPage key={index}>
+          <img src={element.canvas.toDataURL()} alt="" />
+          <div className="space">
+            <div className="space-flex">
+              <BinIcon
+                onClick={() => {
+                  const updatedPages = pdfPages
+                    .slice(0, index)
+                    .concat(pdfPages.slice(index + 1));
+                  setPages(updatedPages);
+                }}
+              />
+              <CounterIcon>{element.index + 1}</CounterIcon>
+            </div>
+          </div>
+        </PDFPage>
+      );
+    });
     return (
-        <PageContainer style={{background: "#f9f9fa"}}>
-            <NavbarExt/>
-            <ToolsHero title={title} tab={tab} desc={desc}/>
-
-
-            <Padding>
-                <UploadSection>
-
-                    {done === "" ?
-                        (<div>
-                            <DocUpload
-                                allowUploadModeSwitch={false}
-                                onUpload={async (data) => {
-                                    setFileData(data.file.originFileObj);
-                                    //setProcessing(true);
-                                    
-                                }}
-                                onError={(error) => {
-                                 
-                                  
-                                }}
-                                onRemoved={() => {
-                                    setFileData(undefined);
-                                }}
-                            />
-
-                                         <div style={{width:"100%",padding:"30px",display:"flex",justifyContent:"center"}}>
-                                           <Spinner type="primary" style={{
-                                            display: processing ? 'inline' : 'none',
-                                            height: "10px",
-                                            marginLeft: '20px',
-                                            transform: 'scale(2.5)'
-                                        }}/>
-                                        </div>
-
-                            
-                        </div>) : (done === "PAGES" ? (
-                            <div>
-                                <OptionRows>
-                                    <div>
-                                        <OptionRowsx>
-                                            <FeatureButton onClick={() => {
-                                                const clonedPdfPages = [...pdfPages];
-                                                clonedPdfPages.sort((a: any, b: any) => a.index - b.index);
-                                                setPages(clonedPdfPages);
-                                            }}>
-                                                <div><SortAsc/></div>
-                                                <div>Sort Asc</div>
-                                            </FeatureButton>
-                                            <FeatureButton onClick={() => {
-                                                const clonedPdfPages = [...pdfPages];
-                                                clonedPdfPages.sort((a: any, b: any) => b.index - a.index);
-                                                setPages(clonedPdfPages);
-                                            }}>
-                                                <div><SortDesc/></div>
-                                                <div>Sort Desc</div>
-                                            </FeatureButton>
-
-
-                                        </OptionRowsx>
-                                    </div>
-                                    <ButtonRow>
-
-                                        <UpgradeButton onClick={() => {
-                                            joinParts();
-                                        }}>Save</UpgradeButton>
-                                    </ButtonRow>
-                                </OptionRows>
-                                <DocUpload key={resetKey}
-                                           allowUploadModeSwitch={false}
-                                           onUpload={(data) => {
-                                               setFileData(data.file.originFileObj);
-                                               docParts(data.file.originFileObj);
-                                               resetKey += 1;
-                                           }}
-                                           onError={(error) => {
-                                           }}
-                                           onRemoved={() => {
-                                               setFileData(undefined);
-                                           }}
-                                />
-                                <br/>
-
-                                {viewPages(pdfPages)}
-
-                               
-                            </div>
-                        ) : (
-                            <div>
-                                <DoneText>
-                                    <div><Trans>Done</Trans></div>
-                                    <div><Trans>Your PDF is ready</Trans></div>
-
-                                </DoneText>
-                                <UploadItemContainerFile>
-                                    <UploadInfoContainer>
-                                        <Image src={FileIcon} alt=""/>
-                                        <UploadInfo>
-                                            <div>
-                                                <p style={{fontWeight: 700}}>{fileInfo.name}</p>
-                                                <p>
-                                                    {(Number(fileInfo.size) / 1000000).toFixed(3)}
-                                                    MB
-                                                </p>
-
-                                            </div>
-                                        </UploadInfo>
-                                    </UploadInfoContainer>
-                                </UploadItemContainerFile>
-                                <UpgradeButtonx onClick={() => downloadFile(fileInfo.url, fileInfo.name)}>Download
-                                    PDF <Spinner type="primary" style={{
-                                        display: processing ? 'inline' : 'none',
-                                        height: "10px",
-                                        marginLeft: '20px',
-                                        transform: 'scale(2.5)'
-                                    }}/></UpgradeButtonx>
-
-
-                                <UploadButtonSect>
-                                    <Rowx style={{gap: '20px'}}>
-                                        <ReUpload onClick={() => {
-                                            setDone("");
-                                            setFileData(undefined);
-                                            setPages([]);
-                                        }}> <Trans>Merge Another</Trans></ReUpload>
-                                    </Rowx>
-                                </UploadButtonSect>
-                                <br/>
-                            </div>
-                        ))
-                    }
-                </UploadSection>
-
-
-            </Padding>
-            <BottomNavigation/>
-            <Waitlist/>
-            <Footer/>
-            <Modal buttonText={"Download to files"} content={"PDF Successfully Merged!"} click={()=>{
-              
-              downloadFile(fileInfo.url, fileInfo.name);
-              setisDoneModal(false);
-              setDone("");
-              setFileData(undefined);
-              setPages([]);
-              }} show={isDoneModal}  />
-        </PageContainer>
+      <div>
+        <PDFRows
+          reorderId="my-list"
+          onReorder={getChangedPos}
+          draggedClassName="startDrg"
+          key={refreshCount}
+        >
+          {allpages}
+        </PDFRows>
+      </div>
     );
-}
+  };
+
+  const title = <Trans>PDF Merger</Trans>;
+  const desc = (
+    <Trans>
+      With smart, automated merging, your PDFs are unified seamlessly into a
+      single, cohesive document while maintaining quality and formatting.
+    </Trans>
+  );
+  const tab = <Trans>Back to tools</Trans>;
+  const [isdone, setdone] = useState<true | false>(false);
+  useEffect(() => {
+    if (isdone == false) {
+      if (mainfileData != null) {
+        docParts(mainfileData);
+        setdone(true);
+      }
+    }
+  }, [mainfileData, docParts, isdone, setdone]);
+
+  return (
+    <PageContainer style={{ background: "#f9f9fa" }}>
+      <NavbarExt />
+      <ToolsHero title={title} tab={tab} desc={desc} />
+
+      <Padding>
+        <UploadSection>
+          {done === "" ? (
+            <div>
+              <DocUpload
+                allowUploadModeSwitch={false}
+                onUpload={async (data) => {
+                  setFileData(data.file.originFileObj);
+                  //setProcessing(true);
+                }}
+                onError={(error) => {}}
+                onRemoved={() => {
+                  setFileData(undefined);
+                }}
+              />
+
+              <div
+                style={{
+                  width: "100%",
+                  padding: "30px",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
+                <Spinner
+                  type="primary"
+                  style={{
+                    display: processing ? "inline" : "none",
+                    height: "10px",
+                    marginLeft: "20px",
+                    transform: "scale(2.5)",
+                  }}
+                />
+              </div>
+            </div>
+          ) : done === "PAGES" ? (
+            <div>
+              <OptionRows>
+                <div>
+                  <OptionRowsx>
+                    <FeatureButton
+                      onClick={() => {
+                        const clonedPdfPages = [...pdfPages];
+                        clonedPdfPages.sort(
+                          (a: any, b: any) => a.index - b.index
+                        );
+                        setPages(clonedPdfPages);
+                      }}
+                    >
+                      <div>
+                        <SortAsc />
+                      </div>
+                      <div>Sort Asc</div>
+                    </FeatureButton>
+                    <FeatureButton
+                      onClick={() => {
+                        const clonedPdfPages = [...pdfPages];
+                        clonedPdfPages.sort(
+                          (a: any, b: any) => b.index - a.index
+                        );
+                        setPages(clonedPdfPages);
+                      }}
+                    >
+                      <div>
+                        <SortDesc />
+                      </div>
+                      <div>Sort Desc</div>
+                    </FeatureButton>
+                  </OptionRowsx>
+                </div>
+                <ButtonRow>
+                  <UpgradeButton
+                    onClick={() => {
+                      joinParts();
+                    }}
+                  >
+                    Save
+                  </UpgradeButton>
+                </ButtonRow>
+              </OptionRows>
+              <DocUpload
+                key={resetKey}
+                allowUploadModeSwitch={false}
+                onUpload={(data) => {
+                  setFileData(data.file.originFileObj);
+                  docParts(data.file.originFileObj);
+                  resetKey += 1;
+                }}
+                onError={(error) => {}}
+                onRemoved={() => {
+                  setFileData(undefined);
+                }}
+              />
+              <br />
+
+              {viewPages(pdfPages)}
+            </div>
+          ) : (
+            <div>
+              <DoneText>
+                <div>
+                  <Trans>Done</Trans>
+                </div>
+                <div>
+                  <Trans>Your PDF is ready</Trans>
+                </div>
+              </DoneText>
+              <UploadItemContainerFile>
+                <UploadInfoContainer>
+                  <Image src={FileIcon} alt="" />
+                  <UploadInfo>
+                    <div>
+                      <p style={{ fontWeight: 700 }}>{fileInfo.name}</p>
+                      <p>
+                        {(Number(fileInfo.size) / 1000000).toFixed(3)}
+                        MB
+                      </p>
+                    </div>
+                  </UploadInfo>
+                </UploadInfoContainer>
+              </UploadItemContainerFile>
+              <UpgradeButtonx
+                onClick={() => downloadFile(fileInfo.url, fileInfo.name)}
+              >
+                Download PDF{" "}
+                <Spinner
+                  type="primary"
+                  style={{
+                    display: processing ? "inline" : "none",
+                    height: "10px",
+                    marginLeft: "20px",
+                    transform: "scale(2.5)",
+                  }}
+                />
+              </UpgradeButtonx>
+
+              <UploadButtonSect>
+                <Rowx style={{ gap: "20px" }}>
+                  <ReUpload
+                    onClick={() => {
+                      setDone("");
+                      setFileData(undefined);
+                      setPages([]);
+                    }}
+                  >
+                    {" "}
+                    <Trans>Merge Another</Trans>
+                  </ReUpload>
+                </Rowx>
+              </UploadButtonSect>
+              <br />
+            </div>
+          )}
+        </UploadSection>
+      </Padding>
+      <BottomNavigation />
+      <Waitlist />
+      <Footer />
+      <Modal
+        buttonText={"Download to files"}
+        content={"PDF Successfully Merged!"}
+        click={() => {
+          downloadFile(fileInfo.url, fileInfo.name);
+          setisDoneModal(false);
+          setDone("");
+          setFileData(undefined);
+          setPages([]);
+        }}
+        show={isDoneModal}
+      />
+    </PageContainer>
+  );
+};
 
 export default ToolsMerge;

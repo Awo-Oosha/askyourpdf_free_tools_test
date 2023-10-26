@@ -18,23 +18,25 @@ msgstr ""
 
 #: components/PdfToChat/Discover.tsx:177
 #: components/PdfToChat/Discover.tsx:180
-#~ msgid "{0}"
-#~ msgstr ""
+msgid "{0}"
+msgstr ""
 
 #: components/Api/Pricing.tsx:291
 #: components/Api/Pricing.tsx:355
 #: pages/billing/index.tsx:852
 #: pages/billing/upgrade.tsx:720
 #: pages/billing/upgrade.tsx:821
-#~ msgid "{0} document pages <0>monthly</0>"
-#~ msgstr "每月 {0} 份文档页 <0>每月</0>"
+msgid "{0} document pages <0>monthly</0>"
+msgstr "每月 {0} 份文档页 <0>每月</0>"
 
 #: pages/billing/index.tsx:934
 #: pages/settings/index.tsx:946
-#~ msgid "{0} ending in <0>*{1}</0>"
-#~ msgstr "以 <0>*{1}</0> 结尾的 {0}"
+msgid "{0} ending in <0>*{1}</0>"
+msgstr "以 <0>*{1}</0> 结尾的 {0}"
 
-#: components/literature-review/LiteratureUpload.tsx:399
+#: components/DocumentUpload.tsx:330
+#: components/literature-review/LiteratureUpload.tsx:401
+#: components/Summarisation/SummariseUpload.tsx:409
 msgid "{0} file upload failed"
 msgstr "{0} 文件上传失败"
 
@@ -43,8 +45,8 @@ msgstr "{0} 文件上传失败"
 #: pages/billing/index.tsx:846
 #: pages/billing/upgrade.tsx:713
 #: pages/billing/upgrade.tsx:814
-#~ msgid "{0} messages <0>monthly</0>"
-#~ msgstr "每月 {0} 条消息 <0>每月</0>"
+msgid "{0} messages <0>monthly</0>"
+msgstr "每月 {0} 条消息 <0>每月</0>"
 
 #~ msgid "{0} Plan"
 #~ msgstr "{0} 计划"
@@ -53,30 +55,31 @@ msgstr "{0} 文件上传失败"
 #: pages/settings/index.tsx:1110
 #: pages/settings/index.tsx:1155
 #: pages/settings/index.tsx:1192
-#~ msgid "{0} Quota Used"
-#~ msgstr "已使用 {0} 配额"
+msgid "{0} Quota Used"
+msgstr "已使用 {0} 配额"
 
 #~ msgid "{0} Used"
 #~ msgstr "已使用 {0}"
 
 #: pages/knowledge-base/[[...params]].tsx:1463
-#~ msgid "{errorMessage}"
-#~ msgstr ""
+msgid "{errorMessage}"
+msgstr ""
 
 #: pages/privacy/index.tsx:66
-#~ msgid "<0>1. Account Information:</0> When you create an account with us, we collect basic information such as your name, email address, and password. This information is used to identify you and provide personalized services."
-#~ msgstr "<0>1. 帐户信息:</0>当您在我们这里创建帐户时,我们会收集您的姓名、电子邮件地址和密码等基本信息。这些信息将用于识别您的身份并为您提供个性化服务。"
+msgid "<0>1. Account Information:</0> When you create an account with us, we collect basic information such as your name, email address, and password. This information is used to identify you and provide personalized services."
+msgstr "<0>1. 帐户信息:</0>当您在我们这里创建帐户时,我们会收集您的姓名、电子邮件地址和密码等基本信息。这些信息将用于识别您的身份并为您提供个性化服务。"
 
 #: pages/privacy/index.tsx:75
-#~ msgid "<0>2. Uploaded documents:</0> When you upload a document to our platform, we temporarily store the file to provide you with our conversational document service. We do not use your documents for any other purposes."
-#~ msgstr "<0>2. 上传的文档:</0>当您上传文档到我们的平台时,我们会临时存储该文件以向您提供会话式文档服务。我们不会将您的文档用于任何其他用途。"
+msgid "<0>2. Uploaded documents:</0> When you upload a document to our platform, we temporarily store the file to provide you with our conversational document service. We do not use your documents for any other purposes."
+msgstr "<0>2. 上传的文档:</0>当您上传文档到我们的平台时,我们会临时存储该文件以向您提供会话式文档服务。我们不会将您的文档用于任何其他用途。"
 
 #: pages/privacy/index.tsx:84
-#~ msgid "<0>3. User Interactions:</0> We collect data about how you interact with our services. This includes data such as the time, frequency, and duration of your interactions. This helps us understand usage patterns, improve our services, and provide you with a more personalized experience."
-#~ msgstr "<0>3. 用户交互:</0>我们会收集您与我们服务互动的相关数据。这包括您的交互时间、频率和时长等数据。这有助于我们了解使用模式,改进我们的服务,并为您提供更加个性化的体验。"
+msgid "<0>3. User Interactions:</0> We collect data about how you interact with our services. This includes data such as the time, frequency, and duration of your interactions. This helps us understand usage patterns, improve our services, and provide you with a more personalized experience."
+msgstr "<0>3. 用户交互:</0>我们会收集您与我们服务互动的相关数据。这包括您的交互时间、频率和时长等数据。这有助于我们了解使用模式,改进我们的服务,并为您提供更加个性化的体验。"
 
-#: components/literature-review/LiteratureUpload.tsx:513
-#: components/tools/DocUploadNoFunc.tsx:385
+#: components/DocumentUpload.tsx:441
+#: components/Summarisation/SummariseUpload.tsx:529
+#: components/tools/DocUploadNoFunc.tsx:384
 msgid "<0>Click to upload</0> or drag and drop"
 msgstr "<0>点击上传</0>或拖放"
 
@@ -84,17 +87,17 @@ msgstr "<0>点击上传</0>或拖放"
 #~ msgstr "<0>保持此文档为公开状态。</0>(这意味着此文档可以共享)"
 
 #: components/Modals/OldDocumentDeleteModal.tsx:132
-#~ msgid "<0>Warning: </0>"
-#~ msgstr "警告:"
+msgid "<0>Warning: </0>"
+msgstr "警告:"
 
 #: pages/upload/index.tsx:252
-#~ msgid "<0>We'll assign an ID to your document.</0> You'll be able to start a conversation in ChatGPT based on the document uploaded. You can upgrade your account to increase your limits."
-#~ msgstr "<0>我们将为您的文档分配一个ID。</0>您可以根据上传的文档在ChatGPT中开始对话。您可以升级账户以提高限制。"
+msgid "<0>We'll assign an ID to your document.</0> You'll be able to start a conversation in ChatGPT based on the document uploaded. You can upgrade your account to increase your limits."
+msgstr "<0>我们将为您的文档分配一个ID。</0>您可以根据上传的文档在ChatGPT中开始对话。您可以升级账户以提高限制。"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:462
 #: components/Modals/CreateAPIKeyDesktop.tsx:478
-#~ msgid "<0>You'll only see your API key once</0> after it's generated. Please make sure to save it securely."
-#~ msgstr "<0>API密钥生成后您只能看到它一次</0>。请确保将其安全保存。"
+msgid "<0>You'll only see your API key once</0> after it's generated. Please make sure to save it securely."
+msgstr "<0>API密钥生成后您只能看到它一次</0>。请确保将其安全保存。"
 
 #~ msgid ">If you have any questions or problems while using AskYourPDF, you can contact our support team, who will be happy to help you."
 #~ msgstr ">如果您在使用AskYourPDF时遇到任何问题,可以联系我们的支持团队,他们会很乐意为您提供帮助。"
@@ -102,70 +105,71 @@ msgstr "<0>点击上传</0>或拖放"
 #: pages/billing/index.tsx:842
 #: pages/billing/upgrade.tsx:707
 #: pages/billing/upgrade.tsx:799
-#~ msgid "${0}/month"
-#~ msgstr "每月${0}"
+msgid "${0}/month"
+msgstr "每月${0}"
 
 #: components/Api/Pricing.tsx:277
 #: components/Api/Pricing.tsx:333
-#~ msgid "${0}<0>/month</0>"
-#~ msgstr "${0}<0>/月</0>"
+msgid "${0}<0>/month</0>"
+msgstr "${0}<0>/月</0>"
 
 #: pages/settings/index.tsx:646
-#~ msgid "1200 questions / day"
-#~ msgstr "每天1200个问题"
+msgid "1200 questions / day"
+msgstr "每天1200个问题"
 
 #: pages/settings/index.tsx:760
-#~ msgid "150 documents per day"
-#~ msgstr "每天150份文档"
+msgid "150 documents per day"
+msgstr "每天150份文档"
 
 #: pages/settings/index.tsx:643
-#~ msgid "50 documents per day"
-#~ msgstr "每天50份文档"
+msgid "50 documents per day"
+msgstr "每天50份文档"
 
 #: components/PdfToChat/ApiBanner.tsx:82
-#~ msgid "A seamless integration that takes your conversations to the next level. With this powerful plugin, ChatGPT gains the ability to access and provide insights from your documents hosted on AskYourPDF."
-#~ msgstr "一种无缝集成，将您的对话提升到更高的水平。通过这个强大的插件，ChatGPT 获得了访问并提供您在 AskYourPDF 上托管的文档的能力，以提供洞察力。"
+msgid "A seamless integration that takes your conversations to the next level. With this powerful plugin, ChatGPT gains the ability to access and provide insights from your documents hosted on AskYourPDF."
+msgstr "一种无缝集成，将您的对话提升到更高的水平。通过这个强大的插件，ChatGPT 获得了访问并提供您在 AskYourPDF 上托管的文档的能力，以提供洞察力。"
 
 #: pages/knowledge-base/intro.tsx:293
-#~ msgid "Absolutely! Click on the menu icon by the Knowledge Base and click on Copy ID in the dropdown. You can then paste this ID in the ChatGPT UI to have a conversation with the Knowledge Base"
-#~ msgstr "绝对可以！点击知识库旁边的菜单图标，然后在下拉菜单中点击“复制ID”。然后，您可以将此ID粘贴到ChatGPT界面中，与知识库进行对话"
+msgid "Absolutely! Click on the menu icon by the Knowledge Base and click on Copy ID in the dropdown. You can then paste this ID in the ChatGPT UI to have a conversation with the Knowledge Base"
+msgstr "绝对可以！点击知识库旁边的菜单图标，然后在下拉菜单中点击“复制ID”。然后，您可以将此ID粘贴到ChatGPT界面中，与知识库进行对话"
 
 #: utils/faqData.tsx:97
-#~ msgid "Absolutely. Data privacy is our top priority. The application employs industry-standard SSL encryption to ensure the protection of your information."
-#~ msgstr "绝对的。数据隐私是我们的首要任务。该应用程序采用行业标准的SSL加密来确保您信息的保护."
+msgid "Absolutely. Data privacy is our top priority. The application employs industry-standard SSL encryption to ensure the protection of your information."
+msgstr "绝对的。数据隐私是我们的首要任务。该应用程序采用行业标准的SSL加密来确保您信息的保护."
 
 #: components/PdfToChat/Discover.tsx:32
-#~ msgid "Academic Excellence"
-#~ msgstr "学术卓越"
+msgid "Academic Excellence"
+msgstr "学术卓越"
 
 #: utils/termsData.ts:11
-#~ msgid "Acceptance of Terms"
-#~ msgstr "接受条款"
+msgid "Acceptance of Terms"
+msgstr "接受条款"
 
 #: pages/settings/index.tsx:504
-#~ msgid "Account plans"
-#~ msgstr "账户计划"
+msgid "Account plans"
+msgstr "账户计划"
 
 #: components/Modals/PaymentBottomSheet.tsx:150
 #: components/Modals/PaymentModalDesktop.tsx:153
-#~ msgid "Account Upgraded"
-#~ msgstr "账户已升级"
+msgid "Account Upgraded"
+msgstr "账户已升级"
 
 #: components/Settings/AccountLinkedSuccessModal.tsx:66
-#~ msgid "Accounts Linked Successfully"
-#~ msgstr "成功连接账户"
+msgid "Accounts Linked Successfully"
+msgstr "成功连接账户"
 
 #: components/Extension/Download.tsx:169
-#~ msgid "Add Our Chrome Extension"
-#~ msgstr "添加到我们的Chrome扩展"
+msgid "Add Our Chrome Extension"
+msgstr "添加到我们的Chrome扩展"
 
 #: components/Extension/ExtensionHero.tsx:244
 #: components/Landing/ExtensionAnnouncement.tsx:129
 #: components/PdfToChat/ExtensionAnnouncement.tsx:129
-#~ msgid "Add the AskyourPDF extension to your Chrome browser to start chatting effortlessly with any PDF. It saves you hours and boosts your productivity!"
-#~ msgstr "向您的Chrome浏览器添加AskyourPDF扩展,以便轻松地与任何PDF交谈。它为您节省时间并提高工作效率!"
+msgid "Add the AskyourPDF extension to your Chrome browser to start chatting effortlessly with any PDF. It saves you hours and boosts your productivity!"
+msgstr "向您的Chrome浏览器添加AskyourPDF扩展,以便轻松地与任何PDF交谈。它为您节省时间并提高工作效率!"
 
 #: components/literature-review/LiteratureSideBar.tsx:306
+#: components/Summarisation/SummariseSideBar.tsx:359
 msgid "Advanced Parameters"
 msgstr "高级参数"
 
@@ -174,86 +178,91 @@ msgid "Affiliate Program"
 msgstr "Programa de afiliados"
 
 #: components/PdfToChat/SummarizeGuide.tsx:177
-#~ msgid "After the document has been processed, you can customize the summary based on your preferences. <0/>Set settings such as the desired length of the summary to make it as brief or as informative as you want. Set text formatting choices to ensure that the summary follows your desired style. You can include a prompt to instruct AskYourPDF on how to summarise the document. However, if you prefer not to provide a prompt, you can skip this step."
-#~ msgstr "在文档处理完成后，您可以根据自己的偏好定制摘要。 <0/> 设置诸如所需摘要长度等设置，使其既简洁又丰富，符合您的要求。 设置文本格式选项，以确保摘要遵循您期望的样式。 您可以包含一条提示，指示 AskYourPDF 如何摘要文档。但是，如果您不想提供提示，也可以跳过此步骤。"
+msgid "After the document has been processed, you can customize the summary based on your preferences. <0/>Set settings such as the desired length of the summary to make it as brief or as informative as you want. Set text formatting choices to ensure that the summary follows your desired style. You can include a prompt to instruct AskYourPDF on how to summarise the document. However, if you prefer not to provide a prompt, you can skip this step."
+msgstr "在文档处理完成后，您可以根据自己的偏好定制摘要。 <0/> 设置诸如所需摘要长度等设置，使其既简洁又丰富，符合您的要求。 设置文本格式选项，以确保摘要遵循您期望的样式。 您可以包含一条提示，指示 AskYourPDF 如何摘要文档。但是，如果您不想提供提示，也可以跳过此步骤。"
 
 #: components/Footer.tsx:307
 msgid "AI Literature Review Writer"
 msgstr ""
 
-#: components/literature-review/MainContent.tsx:356
+#: pages/tools/literature-review-writer/index.tsx:354
 msgid "AI Literature Review Writer Tool"
 msgstr ""
 
 #: components/Landing/Features.tsx:227
 #: components/PdfToChat/Features.tsx:233
-#~ msgid "All on Your Terms"
-#~ msgstr "一切尽在掌握"
+msgid "All on Your Terms"
+msgstr "一切尽在掌握"
 
 #: pages/documents/[[...id]]/index.tsx:969
-#~ msgid "Allow your conversation with this document to be shareable."
-#~ msgstr "允许将与此文档的对话分享。"
+msgid "Allow your conversation with this document to be shareable."
+msgstr "允许将与此文档的对话分享。"
 
 #: pages/billing/index.tsx:1069
 #: pages/settings/index.tsx:170
-#~ msgid "Amount"
-#~ msgstr "金额"
+msgid "Amount"
+msgstr "金额"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:316
 #: components/Modals/CreateAPIKeyDesktop.tsx:331
-#~ msgid "An error has occured"
-#~ msgstr "发生错误"
+msgid "An error has occured"
+msgstr "发生错误"
 
-#: components/literature-review/MainContent.tsx:301
+#: pages/conversations/[[...params]].tsx:971
+#: pages/knowledge-base/[[...params]].tsx:1543
+#: pages/summarise/index.tsx:245
+#: pages/tools/literature-review-writer/index.tsx:299
 msgid "An error occurred"
 msgstr "发生错误"
 
 #: components/Modals/DocumentSelectModal.tsx:393
-#~ msgid "An error occurred while creating the knowledge base. Please try again."
-#~ msgstr "创建知识库时发生错误，请重试。"
+msgid "An error occurred while creating the knowledge base. Please try again."
+msgstr "创建知识库时发生错误，请重试。"
 
 #: components/Modals/DocumentSelectModal.tsx:434
-#~ msgid "An error occurred while deleting the conversation. However, the associated knowledge base has been deleted. Please delete the conversation manually."
-#~ msgstr "删除对话时发生错误，但相关知识库已被删除。请手动删除对话。"
+msgid "An error occurred while deleting the conversation. However, the associated knowledge base has been deleted. Please delete the conversation manually."
+msgstr "删除对话时发生错误，但相关知识库已被删除。请手动删除对话。"
 
 #: components/Modals/DocumentSelectModal.tsx:450
-#~ msgid "An error occurred while deleting the knowledge base. Please try again."
-#~ msgstr "删除知识库时发生错误，请重试。"
+msgid "An error occurred while deleting the knowledge base. Please try again."
+msgstr "删除知识库时发生错误，请重试。"
 
 #: components/Settings/LinkAccountCall.tsx:86
-#~ msgid "An error occurred while linking your mobile device. Please try again"
-#~ msgstr "在连接移动设备时发生错误。请重试"
+msgid "An error occurred while linking your mobile device. Please try again"
+msgstr "在连接移动设备时发生错误。请重试"
 
 #: pages/documents/[[...id]]/index.tsx:699
-#~ msgid "An error occurred while loading the document. Please try again"
-#~ msgstr "加载文档时发生错误。请重试"
+msgid "An error occurred while loading the document. Please try again"
+msgstr "加载文档时发生错误。请重试"
 
 #: pages/billing/index.tsx:690
 #: pages/settings/index.tsx:309
-#~ msgid "An error occurred while loading your subscription. Please try again"
-#~ msgstr "加载订阅时出错。请重试"
+msgid "An error occurred while loading your subscription. Please try again"
+msgstr "加载订阅时出错。请重试"
 
 #: components/SearchResults.tsx:371
-#~ msgid "An error occurred while searching for <0>\"{debouncedSearchTerm}\"</0>. Please try again."
-#~ msgstr "搜索<0>“{debouncedSearchTerm}”</0>时出错。请重试。"
+msgid "An error occurred while searching for <0>\"{debouncedSearchTerm}\"</0>. Please try again."
+msgstr "搜索<0>“{debouncedSearchTerm}”</0>时出错。请重试。"
 
 #: components/Modals/DocumentSelectModal.tsx:414
-#~ msgid "An error occurred while updating the knowledge base. Please try again."
-#~ msgstr "更新知识库时发生错误，请重试。"
+msgid "An error occurred while updating the knowledge base. Please try again."
+msgstr "更新知识库时发生错误，请重试。"
 
 #: pages/billing/index.tsx:713
 #: pages/settings/index.tsx:331
-#~ msgid "An error occurred. Please try again"
-#~ msgstr "发生错误。请重试"
+msgid "An error occurred. Please try again"
+msgstr "发生错误。请重试"
 
-#: components/literature-review/LiteratureUpload.tsx:575
+#: components/DocumentUpload.tsx:482
+#: components/literature-review/LiteratureUpload.tsx:577
+#: components/Summarisation/SummariseUpload.tsx:599
 msgid "Analysing Document"
 msgstr "分析文档"
 
 #: components/APIKeysList.tsx:591
 #: components/APIKeysList.tsx:754
-#~ msgid "Analytics for Default Key"
-#~ msgstr "默认密钥的分析"
+msgid "Analytics for Default Key"
+msgstr "默认密钥的分析"
 
 #~ msgid "Analyzing Document"
 #~ msgstr "分析文档"
@@ -264,24 +273,24 @@ msgstr "安卓应用"
 
 #: components/Landing/Plans.tsx:432
 #: components/PdfToChat/Plans.tsx:432
-#~ msgid "Annual"
-#~ msgstr "每年"
+msgid "Annual"
+msgstr "每年"
 
 #: components/Modals/ShareModal.tsx:201
-#~ msgid "Anyone with this link can start a new conversation with this document. Chats are not shared."
-#~ msgstr "拥有此链接的任何人都可以使用此文档开始新的对话。聊天不共享。"
+msgid "Anyone with this link can start a new conversation with this document. Chats are not shared."
+msgstr "拥有此链接的任何人都可以使用此文档开始新的对话。聊天不共享。"
 
 #: components/Footer.tsx:264
-#: components/Navbar.tsx:324
-#: components/Navbar.tsx:381
-#: components/tools/ToolBarExt.tsx:265
-#: components/tools/ToolBarExt.tsx:299
+#: components/Navbar.tsx:332
+#: components/Navbar.tsx:389
+#: components/tools/ToolBarExt.tsx:273
+#: components/tools/ToolBarExt.tsx:307
 msgid "API"
 msgstr "API"
 
 #: components/Modals/PaymentModalContent.tsx:387
-#~ msgid "API Access"
-#~ msgstr "API 访问"
+msgid "API Access"
+msgstr "API 访问"
 
 #~ msgid "API Access (Test Keys)"
 #~ msgstr "API访问（测试密钥）"
@@ -289,18 +298,18 @@ msgstr "API"
 #: components/APIKeysList.tsx:560
 #: components/APIKeysList.tsx:724
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:384
-#~ msgid "API Key"
-#~ msgstr "API 密钥"
+msgid "API Key"
+msgstr "API 密钥"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:393
 #: components/Modals/CreateAPIKeyDesktop.tsx:406
-#~ msgid "API Key copied"
-#~ msgstr "API 密钥已复制"
+msgid "API Key copied"
+msgstr "API 密钥已复制"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:364
 #: components/Modals/CreateAPIKeyDesktop.tsx:375
-#~ msgid "API Key Generated"
-#~ msgstr "API 密钥已生成"
+msgid "API Key Generated"
+msgstr "API 密钥已生成"
 
 #: components/DeveloperSidebar.tsx:137
 #: pages/apikeys/index.tsx:349
@@ -308,170 +317,170 @@ msgstr "API"
 #: pages/apikeys/index.tsx:386
 #: pages/billing/index.tsx:806
 #: pages/billing/upgrade.tsx:624
-#~ msgid "API Keys"
-#~ msgstr "API 密钥"
+msgid "API Keys"
+msgstr "API 密钥"
 
 #: pages/apikeys/index.tsx:394
-#~ msgid "API keys let you connect seamlessly with our APIs"
-#~ msgstr "API密钥让您无缝地连接我们的API"
+msgid "API keys let you connect seamlessly with our APIs"
+msgstr "API密钥让您无缝地连接我们的API"
 
 #: pages/apikeys/index.tsx:391
-#~ msgid "API Management"
-#~ msgstr "API 管理"
+msgid "API Management"
+msgstr "API 管理"
 
 #: components/Modals/Profile.tsx:345
-#~ msgid "API Plan"
-#~ msgstr "API 计划"
+msgid "API Plan"
+msgstr "API 计划"
 
 #: components/Landing/Products.tsx:157
 #: components/PdfToChat/Products.tsx:157
-#~ msgid "API Service for Developers"
-#~ msgstr "为开发者提供的 API 服务"
+msgid "API Service for Developers"
+msgstr "为开发者提供的 API 服务"
 
 #: utils/termsData.ts:36
-#~ msgid "App Permissions"
-#~ msgstr "应用程序权限"
+msgid "App Permissions"
+msgstr "应用程序权限"
 
 #: components/Modals/ConversationHistoryDeleteModal.tsx:111
-#~ msgid "Are you sure you want to clear your conversation history?"
-#~ msgstr "您确定要清除对话记录吗?"
+msgid "Are you sure you want to clear your conversation history?"
+msgstr "您确定要清除对话记录吗?"
 
 #: components/Modals/ConversationDeleteModal.tsx:111
-#~ msgid "Are you sure you want to delete this conversation?"
-#~ msgstr "您确定要删除此对话吗?"
+msgid "Are you sure you want to delete this conversation?"
+msgstr "您确定要删除此对话吗?"
 
 #: components/Modals/OldDocumentDeleteModal.tsx:127
-#~ msgid "Are you sure you want to delete this document?"
-#~ msgstr "您确定要删除这个文档吗？"
+msgid "Are you sure you want to delete this document?"
+msgstr "您确定要删除这个文档吗？"
 
 #: components/Modals/DocumentDeleteModal.tsx:110
-#~ msgid "Are you sure you want to delete this document? The associated conversation will be deleted from our servers as well."
-#~ msgstr "您确定要删除此文档吗?相关的对话也将从我们的服务器中删除。"
+msgid "Are you sure you want to delete this document? The associated conversation will be deleted from our servers as well."
+msgstr "您确定要删除此文档吗?相关的对话也将从我们的服务器中删除。"
 
 #: components/Modals/DocumentSelectModal.tsx:758
-#~ msgid "Are you sure you want to delete this knowledge base?"
-#~ msgstr "您确定要删除此知识库吗？"
+msgid "Are you sure you want to delete this knowledge base?"
+msgstr "您确定要删除此知识库吗？"
 
 #: components/Modals/Profile.tsx:248
-#~ msgid "Are you sure you want to delete your account? Deleting your account will result in the permanent loss of all your data."
-#~ msgstr "你确定要删除你的账户吗？删除账户将导致你所有数据的永久丢失。"
+msgid "Are you sure you want to delete your account? Deleting your account will result in the permanent loss of all your data."
+msgstr "你确定要删除你的账户吗？删除账户将导致你所有数据的永久丢失。"
 
 #: pages/billing/upgrade.tsx:908
-#~ msgid "Are you sure you want to downgrade to a free plan? You'll have access to your pro features until the end of your billing period on {0}"
-#~ msgstr "您确定要降级到免费计划吗?您可以使用 pro 功能直到 {0} 的计费周期结束"
+msgid "Are you sure you want to downgrade to a free plan? You'll have access to your pro features until the end of your billing period on {0}"
+msgstr "您确定要降级到免费计划吗?您可以使用 pro 功能直到 {0} 的计费周期结束"
 
 #: pages/settings/index.tsx:440
-#~ msgid "Are you sure you want to downgrade your account? You'll have access to your {userRole} features until the end of your billing period on {0}"
-#~ msgstr "您确定要降级您的账户吗?在{0}的账单周期结束之前,您可以使用{userRole}功能。"
+msgid "Are you sure you want to downgrade your account? You'll have access to your {userRole} features until the end of your billing period on {0}"
+msgstr "您确定要降级您的账户吗?在{0}的账单周期结束之前,您可以使用{userRole}功能。"
 
 #: components/PdfToChat/Guide.tsx:152
-#~ msgid "Ask"
-#~ msgstr "询问"
+msgid "Ask"
+msgstr "询问"
 
 #: pages/conversations/[[...params]].tsx:1279
-#~ msgid "Ask any question about your document"
-#~ msgstr "关于您的文档提出任何问题"
+msgid "Ask any question about your document"
+msgstr "关于您的文档提出任何问题"
 
 #: pages/knowledge-base/[[...params]].tsx:1923
-#~ msgid "Ask any question about your knowledge base"
-#~ msgstr "关于您的知识库，您可以提出任何问题"
+msgid "Ask any question about your knowledge base"
+msgstr "关于您的知识库，您可以提出任何问题"
 
 #: pages/conversations/[[...params]].tsx:1133
 #: pages/knowledge-base/[[...params]].tsx:1719
-#~ msgid "Ask me about {0}."
-#~ msgstr "问我关于{0}的问题。"
+msgid "Ask me about {0}."
+msgstr "问我关于{0}的问题。"
 
 #~ msgid "AskYourPDF"
 #~ msgstr "AskYourPDF"
 
 #: utils/termsData.ts:32
-#~ msgid "AskYourPDF allows you to import and view documents. You retain     full ownership and control over the content you import into the app. We do not claim ownership of your content, nor do we monitor or access it unless required by  applicable laws."
-#~ msgstr "AskYourPDF允许您导入和查看文档。您保留对导入应用程序的内容的完全所有权和控制权。除非相关法律要求,否则我们不声称拥有您的内容的所有权,也不监控或访问它。"
+msgid "AskYourPDF allows you to import and view documents. You retain     full ownership and control over the content you import into the app. We do not claim ownership of your content, nor do we monitor or access it unless required by  applicable laws."
+msgstr "AskYourPDF允许您导入和查看文档。您保留对导入应用程序的内容的完全所有权和控制权。除非相关法律要求,否则我们不声称拥有您的内容的所有权,也不监控或访问它。"
 
 #: components/Api/Pricing.tsx:265
-#~ msgid "AskYourPDF API Pricing"
-#~ msgstr "AskYourPDF API定价"
+msgid "AskYourPDF API Pricing"
+msgstr "AskYourPDF API定价"
 
 #: components/Landing/Features.tsx:290
 #: components/PdfToChat/Features.tsx:315
-#~ msgid "AskYourPDF brings the magic of AI to your fingertips! Dive into smart navigation, no more endless scrolling or page skimming."
-#~ msgstr "AskYourPDF将AI的魔力带到您的指尖! 潜入智能导航,不再无休止的滚动或快速翻页。"
+msgid "AskYourPDF brings the magic of AI to your fingertips! Dive into smart navigation, no more endless scrolling or page skimming."
+msgstr "AskYourPDF将AI的魔力带到您的指尖! 潜入智能导航,不再无休止的滚动或快速翻页。"
 
 #: components/Extension/Methods.tsx:143
-#~ msgid "AskYourPDF Chrome extension lets you seamlessly have intelligent conversations with your PDF documents. Whether you're working together with others or making notes for yourself, the extension makes it quick and straightforward to extract valuable information, all without leaving the comfort of your browser."
-#~ msgstr "AskYourPDF Chrome扩展程序让您可以与PDF文档轻松进行智能对话。无论是与他人合作还是为自己做笔记，该扩展程序都可以快速简便地提取有价值的信息，而无需离开浏览器的舒适环境。"
+msgid "AskYourPDF Chrome extension lets you seamlessly have intelligent conversations with your PDF documents. Whether you're working together with others or making notes for yourself, the extension makes it quick and straightforward to extract valuable information, all without leaving the comfort of your browser."
+msgstr "AskYourPDF Chrome扩展程序让您可以与PDF文档轻松进行智能对话。无论是与他人合作还是为自己做笔记，该扩展程序都可以快速简便地提取有价值的信息，而无需离开浏览器的舒适环境。"
 
 #: components/PdfToChat/Discover.tsx:38
-#~ msgid "AskYourPDF gives researchers and academics the ability to speed up their work by quickly extracting data and insights from large PDF documents."
-#~ msgstr " AskYourPDF为研究人员和学者提供了从大型PDF文档中快速提取数据和见解的能力，从而加快了他们的工作。"
+msgid "AskYourPDF gives researchers and academics the ability to speed up their work by quickly extracting data and insights from large PDF documents."
+msgstr " AskYourPDF为研究人员和学者提供了从大型PDF文档中快速提取数据和见解的能力，从而加快了他们的工作。"
 
 #: utils/termsData.ts:62
-#~ msgid "AskYourPDF is provided on an \"as is\" and \"as available\" basis. We do not warrant that AskYourPDF will be uninterrupted, error-free, or free from downtime."
-#~ msgstr "AskYourPDF是在“原样”和“可用”的基础上提供的。我们不保证AskYourPDF不会中断、无错误或无宕机时间。"
+msgid "AskYourPDF is provided on an \"as is\" and \"as available\" basis. We do not warrant that AskYourPDF will be uninterrupted, error-free, or free from downtime."
+msgstr "AskYourPDF是在“原样”和“可用”的基础上提供的。我们不保证AskYourPDF不会中断、无错误或无宕机时间。"
 
 #: utils/faqData.tsx:31
-#~ msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See <0>here</0> for details]."
-#~ msgstr "AskYourPDF 提供三种计划：高级版、专业版和企业版。 [详情请参阅<0>此处</0>]。"
+msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See <0>here</0> for details]."
+msgstr "AskYourPDF 提供三种计划：高级版、专业版和企业版。 [详情请参阅<0>此处</0>]。"
 
 #: utils/faqData.tsx:29
-#~ msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See here (https://askyourpdf.com/settings) for details]."
-#~ msgstr "AskYourPDF提供三种计划：高级、专业和企业。[详情请参阅此处（https://askyourpdf.com/settings）"
+msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See here (https://askyourpdf.com/settings) for details]."
+msgstr "AskYourPDF提供三种计划：高级、专业和企业。[详情请参阅此处（https://askyourpdf.com/settings）"
 
 #: components/PdfToChat/ApiBanner.tsx:79
-#~ msgid "AskYourPDF Plugin for ChatGPT"
-#~ msgstr "ChatGPT 的 AskYourPDF 插件"
+msgid "AskYourPDF Plugin for ChatGPT"
+msgstr "ChatGPT 的 AskYourPDF 插件"
 
 #: pages/knowledge-base/intro.tsx:260
-#~ msgid "AskYourPDF uses AI to scan all the documents within the knowledge base to provide answers based on the collective information they contain."
-#~ msgstr "AskYourPDF使用人工智能扫描知识库内的所有文档，以提供基于它们包含的集体信息的答案。"
+msgid "AskYourPDF uses AI to scan all the documents within the knowledge base to provide answers based on the collective information they contain."
+msgstr "AskYourPDF使用人工智能扫描知识库内的所有文档，以提供基于它们包含的集体信息的答案。"
 
 #: pages/knowledge-base/intro.tsx:262
-#~ msgid "AskYourPDF uses AI to scan all the documents within the knowledge base to provide answers based on the collective information they contain. <0>Learn more</0>"
-#~ msgstr "AskYourPDF使用人工智能扫描知识库内的所有文档，以提供基于它们包含的集体信息的答案。 <0>了解更多</0>"
+msgid "AskYourPDF uses AI to scan all the documents within the knowledge base to provide answers based on the collective information they contain. <0>Learn more</0>"
+msgstr "AskYourPDF使用人工智能扫描知识库内的所有文档，以提供基于它们包含的集体信息的答案。 <0>了解更多</0>"
 
 #: pages/knowledge-base/intro.tsx:283
-#~ msgid "AskYourPDF will produce a consolidated answer based on the contents of both documents. What's even better is, you can prompt it to give you answers from on a specific document in your knowledge base."
-#~ msgstr "AskYourPDF将根据两个文档的内容生成一份综合答案。更好的是，您可以提示它从您的知识库中的特定文档中提供答案。"
+msgid "AskYourPDF will produce a consolidated answer based on the contents of both documents. What's even better is, you can prompt it to give you answers from on a specific document in your knowledge base."
+msgstr "AskYourPDF将根据两个文档的内容生成一份综合答案。更好的是，您可以提示它从您的知识库中的特定文档中提供答案。"
 
 #: components/Affiliate/Header.tsx:198
-#~ msgid "At AskYourPDF we cherish our community and think you should be rewarded for spreading the word about our platform's advantages. To earn 30% commission on all payments made by users you refer within the first 12 months, Join our affiliate program."
-#~ msgstr "在 AskYourPDF，我们珍视我们的社区，并认为您应该因为宣传我们平台的优势而受到奖励。在前12个月内通过您推荐的用户所做的所有支付上赚取30%的佣金，"
+msgid "At AskYourPDF we cherish our community and think you should be rewarded for spreading the word about our platform's advantages. To earn 30% commission on all payments made by users you refer within the first 12 months, Join our affiliate program."
+msgstr "在 AskYourPDF，我们珍视我们的社区，并认为您应该因为宣传我们平台的优势而受到奖励。在前12个月内通过您推荐的用户所做的所有支付上赚取30%的佣金，"
 
 #: pages/privacy/index.tsx:98
-#~ msgid "At AskYourPDF, we value and respect your control over your data. You can delete your uploaded document files from our service at any time, completely erasing them from our servers. To ensure the privacy of our free users, we go one step further by automatically deleting uploaded files a few hours after use. This helps us ensure that no residual data remains on our servers longer than necessary."
-#~ msgstr "在AskYourPDF,我们尊重您对数据的控制。您可以随时从我们的服务中删除上传的文档文件,从我们的服务器中完全删除它们。为了保护免费用户的隐私,我们更进一步,在使用后几小时自动删除上传的文件。这帮助我们确保服务器上没有遗留的数据保留时间超过必要时间。"
+msgid "At AskYourPDF, we value and respect your control over your data. You can delete your uploaded document files from our service at any time, completely erasing them from our servers. To ensure the privacy of our free users, we go one step further by automatically deleting uploaded files a few hours after use. This helps us ensure that no residual data remains on our servers longer than necessary."
+msgstr "在AskYourPDF,我们尊重您对数据的控制。您可以随时从我们的服务中删除上传的文档文件,从我们的服务器中完全删除它们。为了保护免费用户的隐私,我们更进一步,在使用后几小时自动删除上传的文件。这帮助我们确保服务器上没有遗留的数据保留时间超过必要时间。"
 
 #: pages/privacy/index.tsx:43
-#~ msgid "At AskYourPDF, your privacy isn't just our responsibility – it's the foundation of the trust we hope to build with you. We are deeply committed to creating a platform where you can interact with your documents without compromising on your privacy. This Privacy Policy explains our practices in detail, outlining what data we collect, how we collect it, why we collect it, and how we ensure that your data is handled with the highest level of care."
-#~ msgstr "在AskYourPDF,您的隐私不仅是我们的责任,更是我们希望与您建立信任的基础。我们致力于创建一个平台,您可以在其中与文档互动而不会sacrifice您的隐私。本隐私政策详细解释了我们的做法,概述了我们收集的数据、收集方式、收集目的以及我们如何确保以最高级别的谨慎处理您的数据。"
+msgid "At AskYourPDF, your privacy isn't just our responsibility – it's the foundation of the trust we hope to build with you. We are deeply committed to creating a platform where you can interact with your documents without compromising on your privacy. This Privacy Policy explains our practices in detail, outlining what data we collect, how we collect it, why we collect it, and how we ensure that your data is handled with the highest level of care."
+msgstr "在AskYourPDF,您的隐私不仅是我们的责任,更是我们希望与您建立信任的基础。我们致力于创建一个平台,您可以在其中与文档互动而不会sacrifice您的隐私。本隐私政策详细解释了我们的做法,概述了我们收集的数据、收集方式、收集目的以及我们如何确保以最高级别的谨慎处理您的数据。"
 
 #: utils/termsData.ts:41
-#~ msgid "Automatically Collected Information"
-#~ msgstr "自动收集的信息"
+msgid "Automatically Collected Information"
+msgstr "自动收集的信息"
 
 #: components/Modals/Profile.tsx:292
-#~ msgid "Back to Homepage"
-#~ msgstr "返回首页"
+msgid "Back to Homepage"
+msgstr "返回首页"
 
-#: components/literature-review/MainContent.tsx:352
-#: pages/merge/index.tsx:702
-#: pages/ocr/index.tsx:321
-#: pages/split/index.tsx:829
+#: pages/tools/literature-review-writer/index.tsx:350
+#: pages/tools/merge/index.tsx:689
+#: pages/tools/ocr/index.tsx:307
+#: pages/tools/split/index.tsx:816
 msgid "Back to tools"
 msgstr "返回到工具"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:449
 #: components/Modals/CreateAPIKeyDesktop.tsx:465
-#~ msgid "Before generating your API Key"
-#~ msgstr "在生成API密钥之前"
+msgid "Before generating your API Key"
+msgstr "在生成API密钥之前"
 
 #: pages/chat/[[...docID]]/index.tsx:316
-#~ msgid "Begin a conversation with me by uploading a document. I'll respond with anything you need based on the document"
-#~ msgstr "通过上传文档与我开始对话。 我将根据文档提供您需要的任何响应"
+msgid "Begin a conversation with me by uploading a document. I'll respond with anything you need based on the document"
+msgstr "通过上传文档与我开始对话。 我将根据文档提供您需要的任何响应"
 
 #: components/PdfToChat/Guide.tsx:139
-#~ msgid "Begin by effortlessly uploading your PDF documents to our platform."
-#~ msgstr "从轻松地将您的PDF文档上传到我们的平台开始。"
+msgid "Begin by effortlessly uploading your PDF documents to our platform."
+msgstr "从轻松地将您的PDF文档上传到我们的平台开始。"
 
 #: components/DeveloperSidebar.tsx:155
 #: pages/apikeys/index.tsx:376
@@ -480,8 +489,8 @@ msgstr "返回到工具"
 #: pages/billing/index.tsx:814
 #: pages/billing/upgrade.tsx:605
 #: pages/billing/upgrade.tsx:632
-#~ msgid "Billing"
-#~ msgstr "计费"
+msgid "Billing"
+msgstr "计费"
 
 #~ msgid "BlockTechnology OÜ. All rights reserved. © {year}"
 #~ msgstr "BlockTechnology OÜ。 版权所有。 © {year}"
@@ -496,192 +505,196 @@ msgstr "博客"
 
 #: components/Landing/Products.tsx:150
 #: components/PdfToChat/Products.tsx:150
-#~ msgid "Browser Extension"
-#~ msgstr "浏览器扩展"
+msgid "Browser Extension"
+msgstr "浏览器扩展"
 
 #: components/Modals/ConversationFeedback.tsx:368
 #: components/Modals/ConversationFeedback.tsx:478
-#~ msgid "Bug"
-#~ msgstr "错误"
+msgid "Bug"
+msgstr "错误"
 
 #: components/Api/Header.tsx:157
-#~ msgid "Build Better With The"
-#~ msgstr "利用API构建更好"
+msgid "Build Better With The"
+msgstr "利用API构建更好"
 
 #: components/PdfToChat/Discover.tsx:48
-#~ msgid "Business analysts and professionals can extract valuable market insights and competitive intelligence from industry reports."
-#~ msgstr "商业分析师和专业人士可以从行业报告中提取有价值的市场洞察和竞争情报。"
+msgid "Business analysts and professionals can extract valuable market insights and competitive intelligence from industry reports."
+msgstr "商业分析师和专业人士可以从行业报告中提取有价值的市场洞察和竞争情报。"
 
 #: components/PdfToChat/Discover.tsx:47
-#~ msgid "Business Intelligence"
-#~ msgstr "商业智能 "
+msgid "Business Intelligence"
+msgstr "商业智能 "
 
 #: components/BuyCredits.tsx:111
-#~ msgid "Buy Credit"
-#~ msgstr "购买信用"
+msgid "Buy Credit"
+msgstr "购买信用"
 
 #: components/Modals/UnitsExceededModal.tsx:119
-#~ msgid "Buy Credits"
-#~ msgstr ""
+msgid "Buy Credits"
+msgstr ""
 
 #: components/Conversations/CreditBalance.tsx:131
-#~ msgid "Buy More Credit"
-#~ msgstr "购买更多信用"
+msgid "Buy More Credit"
+msgstr "购买更多信用"
 
 #~ msgid "Buy Plan"
 #~ msgstr "购买计划"
 
 #: utils/termsData.ts:12
-#~ msgid "By accessing or using AskYourPDF, you agree to be bound by these terms andconditions. If you do not agree with these terms and conditions, you must not use AskYourPDF."
-#~ msgstr "访问或使用AskYourPDF,即表示您同意受这些条款和条件的约束。 如果您不同意这些条款和条件,则不能使用AskYourPDF。"
+msgid "By accessing or using AskYourPDF, you agree to be bound by these terms andconditions. If you do not agree with these terms and conditions, you must not use AskYourPDF."
+msgstr "访问或使用AskYourPDF,即表示您同意受这些条款和条件的约束。 如果您不同意这些条款和条件,则不能使用AskYourPDF。"
 
 #: pages/file-upload/index.tsx:390
-#~ msgid "By starting a conversation you agree with our data privacy policy and terms"
-#~ msgstr "通过开始对话,您同意我们的数据隐私政策和条款"
+msgid "By starting a conversation you agree with our data privacy policy and terms"
+msgstr "通过开始对话,您同意我们的数据隐私政策和条款"
 
 #: components/PdfToChat/Discover.tsx:43
-#~ msgid "By streamlining case analysis and research, professionals can make legal documents more accessible and understandable using AskYourPDF."
-#~ msgstr "通过简化案例分析和研究，专业人士可以使用AskYourPDF使法律文件更加易于访问和理解。"
+msgid "By streamlining case analysis and research, professionals can make legal documents more accessible and understandable using AskYourPDF."
+msgstr "通过简化案例分析和研究，专业人士可以使用AskYourPDF使法律文件更加易于访问和理解。"
 
 #: components/PdfToChat/Discover.tsx:33
-#~ msgid "By using AskYouPDF to swiftly access information within textbooks, research papers, and study materials, students may acquire a competitive advantage."
-#~ msgstr "通过使用AskYourPDF快速访问教科书、研究论文和学习材料中的信息，学生可能会获得竞争优势。"
+msgid "By using AskYouPDF to swiftly access information within textbooks, research papers, and study materials, students may acquire a competitive advantage."
+msgstr "通过使用AskYourPDF快速访问教科书、研究论文和学习材料中的信息，学生可能会获得竞争优势。"
 
 #: pages/privacy/index.tsx:167
-#~ msgid "By using AskYourPDF, you acknowledge that you have read, understood, and agreed to the practices as described in this Privacy Policy."
-#~ msgstr "通过使用AskYourPDF,您承认您已经阅读、理解并同意本隐私政策中描述的做法。"
+msgid "By using AskYourPDF, you acknowledge that you have read, understood, and agreed to the practices as described in this Privacy Policy."
+msgstr "通过使用AskYourPDF,您承认您已经阅读、理解并同意本隐私政策中描述的做法。"
 
 #~ msgid "By using AskYourPDF, you agree to receive periodic emails related to product updates, including but not limited to new features, enhancements, and changes to existing functionality. These emails aim to keep you informed about improvements and updates to the app that may affect your user experience. You have the option to unsubscribe from these emails at any time through the unsubscribe link provided in the email."
 #~ msgstr "通过使用AskYourPDF，您同意接收与产品更新相关的定期电子邮件，包括但不限于新功能、增强功能以及对现有功能的更改。这些电子邮件旨在通知您有关可能影响用户体验的应用程序改进和更新。您可以随时通过电子邮件中提供的取消订阅链接取消订阅这些电子邮件。"
 
 #: utils/faqData.tsx:81
-#~ msgid "Can I chat in any language?"
-#~ msgstr "我可以用任何语言聊天吗?"
+msgid "Can I chat in any language?"
+msgstr "我可以用任何语言聊天吗?"
 
 #: pages/chat/[[...docID]]/index.tsx:255
 #: utils/faqData.tsx:59
-#~ msgid "Can I chat with other users of the application?"
-#~ msgstr "我可以与应用程序的其他用户聊天吗?"
+msgid "Can I chat with other users of the application?"
+msgstr "我可以与应用程序的其他用户聊天吗?"
 
 #: utils/faqData.tsx:86
-#~ msgid "Can I download the chat history?"
-#~ msgstr "我可以下载聊天记录吗?"
+msgid "Can I download the chat history?"
+msgstr "我可以下载聊天记录吗?"
 
 #: utils/faqData.tsx:101
-#~ msgid "Can I edit the document while using AskYourPDF?"
-#~ msgstr "使用AskYourPDF时,我可以编辑文档吗?"
+msgid "Can I edit the document while using AskYourPDF?"
+msgstr "使用AskYourPDF时,我可以编辑文档吗?"
 
 #: pages/knowledge-base/intro.tsx:287
-#~ msgid "Can I modify my Knowledge Base?"
-#~ msgstr "我能修改我的知识库吗？"
+msgid "Can I modify my Knowledge Base?"
+msgstr "我能修改我的知识库吗？"
 
 #: pages/chat/[[...docID]]/index.tsx:245
 #: pages/knowledge-base/intro.tsx:277
 #: utils/faqData.tsx:23
-#~ msgid "Can I upload any document?"
-#~ msgstr "我可以上传任何文档吗?"
+msgid "Can I upload any document?"
+msgstr "我可以上传任何文档吗?"
 
 #: utils/faqData.tsx:117
-#~ msgid "Can I upload multiple documents at once?"
-#~ msgstr "我可以一次上传多个文档吗?"
+msgid "Can I upload multiple documents at once?"
+msgstr "我可以一次上传多个文档吗?"
 
 #~ msgid "Can I upload password-protected documents to AskYourPDF"
 #~ msgstr "我可以将密码保护的文档上传到AskYourPDF吗?"
 
 #: utils/faqData.tsx:123
-#~ msgid "Can I upload password-protected documents to AskYourPDF?"
-#~ msgstr "我可以上传受密码保护的文件到AskYourPDF吗？"
+msgid "Can I upload password-protected documents to AskYourPDF?"
+msgstr "我可以上传受密码保护的文件到AskYourPDF吗？"
 
 #: utils/faqData.tsx:107
-#~ msgid "Can I use AskYourPDF on any device?"
-#~ msgstr "我可以在任何设备上使用AskYourPDF吗?"
+msgid "Can I use AskYourPDF on any device?"
+msgstr "我可以在任何设备上使用AskYourPDF吗?"
 
 #: pages/knowledge-base/intro.tsx:292
-#~ msgid "Can I use the Knowledge Base with the AskYourPDF Plugin?"
-#~ msgstr "我可以使用AskYourPDF插件吗？"
+msgid "Can I use the Knowledge Base with the AskYourPDF Plugin?"
+msgstr "我可以使用AskYourPDF插件吗？"
 
 #: components/Modals/ConversationFeedback.tsx:409
 #: components/Modals/ConversationFeedback.tsx:518
-#~ msgid "Cancel"
-#~ msgstr "取消"
+msgid "Cancel"
+msgstr "取消"
 
 #: pages/settings/index.tsx:577
-#~ msgid "Cancel Current Subscription"
-#~ msgstr "取消当前订阅"
+msgid "Cancel Current Subscription"
+msgstr "取消当前订阅"
 
 #: pages/billing/upgrade.tsx:761
-#~ msgid "Cancel Plan"
-#~ msgstr "取消计划"
+msgid "Cancel Plan"
+msgstr "取消计划"
 
 #: pages/billing/index.tsx:905
-#~ msgid "Cancel Subscription"
-#~ msgstr "取消订阅"
+msgid "Cancel Subscription"
+msgstr "取消订阅"
 
 #: pages/billing/index.tsx:837
 #: pages/billing/upgrade.tsx:669
 #: pages/settings/index.tsx:632
 #: pages/settings/index.tsx:749
 #: pages/settings/index.tsx:841
-#~ msgid "Canceled"
-#~ msgstr "已取消"
+msgid "Canceled"
+msgstr "已取消"
 
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:176
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:172
-#~ msgid "Card Number"
-#~ msgstr "卡号"
+msgid "Card Number"
+msgstr "卡号"
 
 #: pages/knowledge-base/intro.tsx:288
-#~ msgid "Certainly, you have the flexibility to adjust your Knowledge Base as needed. You can add or remove documents at your convenience."
-#~ msgstr "当然，您可以根据需要灵活调整您的知识库。您可以随时添加或删除文档。"
+msgid "Certainly, you have the flexibility to adjust your Knowledge Base as needed. You can add or remove documents at your convenience."
+msgstr "当然，您可以根据需要灵活调整您的知识库。您可以随时添加或删除文档。"
 
 #: components/Modals/Profile.tsx:146
-#~ msgid "Change Password"
-#~ msgstr "更改密码"
+msgid "Change Password"
+msgstr "更改密码"
 
 #: pages/privacy/index.tsx:137
-#~ msgid "Changes to the Privacy Policy"
-#~ msgstr "隐私政策的更改"
+msgid "Changes to the Privacy Policy"
+msgstr "隐私政策的更改"
 
 #: utils/termsData.ts:76
-#~ msgid "Changes to these Terms and Conditions"
-#~ msgstr "对这些条款和条件的更改"
+msgid "Changes to these Terms and Conditions"
+msgstr "对这些条款和条件的更改"
 
 #: components/Footer.tsx:292
+#: components/KnowledgeBaseSidebar.tsx:481
+#: components/MainSidebar.tsx:441
+#: components/Modals/SearchBottomSheet.tsx:152
+#: pages/knowledge-base/[[...params]].tsx:964
 msgid "Chat"
 msgstr "聊天"
 
 #: components/Modals/PaymentModalContent.tsx:285
-#~ msgid "Chat longer with your documents"
-#~ msgstr "与文档聊天时间更长"
+msgid "Chat longer with your documents"
+msgstr "与文档聊天时间更长"
 
 #: utils/faqData.tsx:130
-#~ msgid "Chat sessions remain available as long as the browser tab is open."
-#~ msgstr "只要浏览器标签页保持打开状态，聊天会话就仍然可用。"
+msgid "Chat sessions remain available as long as the browser tab is open."
+msgstr "只要浏览器标签页保持打开状态，聊天会话就仍然可用。"
 
 #: components/Extension/ExtensionHero.tsx:239
-#~ msgid "Chat with any PDF via our  <0>Chrome Extension</0>"
-#~ msgstr "通过我们的Chrome扩展与任何PDF文件聊天"
+msgid "Chat with any PDF via our  <0>Chrome Extension</0>"
+msgstr "通过我们的Chrome扩展与任何PDF文件聊天"
 
 #: components/Landing/ExtensionAnnouncement.tsx:124
 #: components/PdfToChat/ExtensionAnnouncement.tsx:124
-#~ msgid "Chat with any PDF via our <0/> <1>Chrome Extension</1>"
-#~ msgstr "通过我们的<0/> <1>Chrome扩展</1>与任何PDF聊天"
+msgid "Chat with any PDF via our <0/> <1>Chrome Extension</1>"
+msgstr "通过我们的<0/> <1>Chrome扩展</1>与任何PDF聊天"
 
 #: components/Landing/Products.tsx:143
 #: components/PdfToChat/Products.tsx:143
-#~ msgid "ChatGPT Plugin"
-#~ msgstr "ChatGPT插件"
+msgid "ChatGPT Plugin"
+msgstr "ChatGPT插件"
 
 #~ msgid "check your payment method"
 #~ msgstr "请检查您的支付方式"
 
 #: components/MainSidebar.tsx:611
-#~ msgid "check your payment method."
-#~ msgstr "检查您的付款方式。"
+msgid "check your payment method."
+msgstr "检查您的付款方式。"
 
 #: pages/billing/upgrade.tsx:695
-#~ msgid "Choose the preferred plan that suits your application"
-#~ msgstr "选择适合您的应用程序的首选计划"
+msgid "Choose the preferred plan that suits your application"
+msgstr "选择适合您的应用程序的首选计划"
 
 #: components/Footer.tsx:273
 msgid "Chrome Extension"
@@ -694,25 +707,25 @@ msgstr "Chrome扩展"
 #: components/PdfToChat/Plans.tsx:592
 #: components/PdfToChat/Plans.tsx:682
 #: pages/settings/index.tsx:655
-#~ msgid "Chrome Extension Access"
-#~ msgstr "Chrome扩展程序访问权限"
+msgid "Chrome Extension Access"
+msgstr "Chrome扩展程序访问权限"
 
 #: components/Modals/ConversationHistoryDeleteModal.tsx:123
-#~ msgid "Clear"
-#~ msgstr "清除"
+msgid "Clear"
+msgstr "清除"
 
 #: components/Modals/ConversationHistoryDeleteModal.tsx:108
-#~ msgid "Clear Conversation History"
-#~ msgstr "清除对话记录"
+msgid "Clear Conversation History"
+msgstr "清除对话记录"
 
 #: components/APIKeysList.tsx:671
-#~ msgid "Click the button below to get started"
-#~ msgstr "点击下面的按钮开始使用"
+msgid "Click the button below to get started"
+msgstr "点击下面的按钮开始使用"
 
 #: components/Modals/ConversationFeedback.tsx:351
 #: components/Modals/ConversationFeedback.tsx:461
-#~ msgid "Close"
-#~ msgstr "关闭"
+msgid "Close"
+msgstr "关闭"
 
 #: components/ToolsFooter.tsx:115
 msgid "Coming Soon"
@@ -724,8 +737,8 @@ msgstr "即将推出"
 
 #: components/Modals/PaymentBottomSheet.tsx:153
 #: components/Modals/PaymentModalDesktop.tsx:156
-#~ msgid "Communicating with documents has never felt this easy using ChatGPT"
-#~ msgstr "使用ChatGPT与文档沟通从未如此轻松过"
+msgid "Communicating with documents has never felt this easy using ChatGPT"
+msgstr "使用ChatGPT与文档沟通从未如此轻松过"
 
 #: components/Modals/PaymentSuccessModal.tsx:208
 #~ msgid "Communicating with documents has never felt this easy using ChatGPT."
@@ -736,20 +749,20 @@ msgid "Company"
 msgstr "公司"
 
 #: components/PdfToChat/MoreTools.tsx:39
-#~ msgid "Compress PDF Tool"
-#~ msgstr " 压缩PDF工具"
+msgid "Compress PDF Tool"
+msgstr " 压缩PDF工具"
 
 #: components/Modals/Profile.tsx:226
-#~ msgid "confirm password"
-#~ msgstr "确认密码"
+msgid "confirm password"
+msgstr "确认密码"
 
 #: components/Modals/Profile.tsx:221
-#~ msgid "Confirm Password"
-#~ msgstr "确认密码"
+msgid "Confirm Password"
+msgstr "确认密码"
 
 #: components/Modals/Profile.tsx:187
-#~ msgid "confirm password and new password don' match"
-#~ msgstr "确认密码和新密码不匹配"
+msgid "confirm password and new password don' match"
+msgstr "确认密码和新密码不匹配"
 
 #~ msgid "confirm password and new password don't match"
 #~ msgstr "确认密码与新密码不匹配"
@@ -757,41 +770,51 @@ msgstr "公司"
 #~ msgid "Contact us"
 #~ msgstr "联系我们"
 
+#: components/Api/Pricing.tsx:402
 #: components/Footer.tsx:353
+#: components/Landing/Plans.tsx:732
+#: components/PdfToChat/Plans.tsx:732
+#: pages/billing/upgrade.tsx:882
+#: pages/privacy/index.tsx:156
+#: pages/settings/index.tsx:873
+#: pages/settings/index.tsx:881
 msgid "Contact Us"
 msgstr "联系我们"
 
 #: components/Modals/PaymentModalContent.tsx:435
-#~ msgid "Contact Us For Enterprise Plan"
-#~ msgstr "联系我们获取企业计划"
+msgid "Contact Us For Enterprise Plan"
+msgstr "联系我们获取企业计划"
 
 #: pages/privacy/index.tsx:94
-#~ msgid "Control Over Your Data"
-#~ msgstr "对您的数据的控制"
+msgid "Control Over Your Data"
+msgstr "对您的数据的控制"
 
 #: pages/conversations/[[...params]].tsx:906
 #: pages/knowledge-base/[[...params]].tsx:1419
-#~ msgid "Conversation deleted successfully"
-#~ msgstr "对话删除成功"
+msgid "Conversation deleted successfully"
+msgstr "对话删除成功"
 
 #: pages/conversations/[[...params]].tsx:936
 #: pages/knowledge-base/[[...params]].tsx:1508
-#~ msgid "Conversation history cleared successfully"
-#~ msgstr "对话记录清除成功"
+msgid "Conversation history cleared successfully"
+msgstr "对话记录清除成功"
 
 #: components/Modals/PaymentModalContent.tsx:327
-#~ msgid "Conversation Per Day"
-#~ msgstr "每天对话"
+msgid "Conversation Per Day"
+msgstr "每天对话"
 
 #: components/Landing/Plans.tsx:768
 #: components/PdfToChat/Plans.tsx:768
-#~ msgid "conversations"
-#~ msgstr "对话"
+msgid "conversations"
+msgstr "对话"
 
-#: components/Navbar.tsx:282
-#: components/Navbar.tsx:339
-#: components/tools/ToolBarExt.tsx:245
-#: components/tools/ToolBarExt.tsx:279
+#: components/AppSidebar.tsx:175
+#: components/MainSidebar.tsx:346
+#: components/Navbar.tsx:290
+#: components/Navbar.tsx:347
+#: components/tools/ToolBarExt.tsx:253
+#: components/tools/ToolBarExt.tsx:287
+#: pages/settings/index.tsx:1089
 msgid "Conversations"
 msgstr "对话"
 
@@ -801,15 +824,25 @@ msgstr "对话"
 #: components/PdfToChat/Plans.tsx:501
 #: components/PdfToChat/Plans.tsx:583
 #: components/PdfToChat/Plans.tsx:673
-#~ msgid "conversations per day"
-#~ msgstr "每天对话数"
+msgid "conversations per day"
+msgstr "每天对话数"
 
 #: components/Landing/Features.tsx:224
 #: components/PdfToChat/Features.tsx:230
-#~ msgid "Converse, Learn, Track"
-#~ msgstr "交流,学习,跟踪"
+msgid "Converse, Learn, Track"
+msgstr "交流,学习,跟踪"
 
 #: components/literature-review/LiteratureMainBar.tsx:302
+#: components/Modals/CreateAPIKeyBottomSheet.tsx:393
+#: components/Modals/CreateAPIKeyDesktop.tsx:406
+#: components/Modals/ShareModal.tsx:189
+#: components/Summarisation/SummariseMainBar.tsx:413
+#: pages/conversations/[[...params]].tsx:1084
+#: pages/documents/[[...id]]/index.tsx:573
+#: pages/documents/[[...id]]/index.tsx:876
+#: pages/knowledge-base/[[...params]].tsx:970
+#: pages/knowledge-base/[[...params]].tsx:1665
+#: pages/upload/index.tsx:303
 msgid "Copied"
 msgstr "已复制"
 
@@ -818,87 +851,88 @@ msgstr "已复制"
 #: pages/documents/[[...id]]/index.tsx:883
 #: pages/knowledge-base/[[...params]].tsx:981
 #: pages/knowledge-base/[[...params]].tsx:1675
-#~ msgid "Copy ID"
-#~ msgstr "复制ID"
+msgid "Copy ID"
+msgstr "复制ID"
 
 #: components/SubscriptionGuard.tsx:29
-#~ msgid "Couldn't get your plan"
-#~ msgstr "无法获取您的计划"
+msgid "Couldn't get your plan"
+msgstr "无法获取您的计划"
 
 #: pages/knowledge-base/intro.tsx:347
-#~ msgid "Create a knowledge base by uploading a document. I'll respond with anything you need based on the document"
-#~ msgstr "通过上传文档创建知识库。我将根据文档提供您所需的任何信息"
+msgid "Create a knowledge base by uploading a document. I'll respond with anything you need based on the document"
+msgstr "通过上传文档创建知识库。我将根据文档提供您所需的任何信息"
 
 #: components/KnowledgeBaseSidebar.tsx:552
 #: components/KnowledgeBaseSidebar.tsx:588
 #: components/MainSidebar.tsx:497
 #: components/MainSidebar.tsx:533
-#~ msgid "Create Account"
-#~ msgstr "创建账户"
+msgid "Create Account"
+msgstr "创建账户"
 
 #: pages/documents/[[...id]]/index.tsx:596
 #: pages/knowledge-base/intro.tsx:383
-#~ msgid "Create Knowledge Base"
-#~ msgstr "创建知识库"
+msgid "Create Knowledge Base"
+msgstr "创建知识库"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:364
 #: components/Modals/CreateAPIKeyDesktop.tsx:375
-#~ msgid "Create New API Key"
-#~ msgstr "创建新的API密钥"
+msgid "Create New API Key"
+msgstr "创建新的API密钥"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:477
 #: components/Modals/CreateAPIKeyDesktop.tsx:493
-#~ msgid "Create New Key"
-#~ msgstr "创建新密钥"
+msgid "Create New Key"
+msgstr "创建新密钥"
 
+#: components/KnowledgeBaseSidebar.tsx:738
 #: components/Modals/DocumentSelectModal.tsx:616
-#~ msgid "Create New Knowledge Base"
-#~ msgstr "创建新知识库"
+msgid "Create New Knowledge Base"
+msgstr "创建新知识库"
 
 #: components/BuyCredits.tsx:107
-#~ msgid "credit"
-#~ msgstr ""
+msgid "credit"
+msgstr ""
 
 #: components/BuyCredits.tsx:40
-#~ msgid "Credit Purchase Unavailable for Free Users"
-#~ msgstr "信用"
+msgid "Credit Purchase Unavailable for Free Users"
+msgstr "信用"
 
 #: pages/settings/index.tsx:896
 #: pages/settings/index.tsx:904
-#~ msgid "Credits"
-#~ msgstr ""
+msgid "Credits"
+msgstr ""
 
 #: pages/settings/index.tsx:514
-#~ msgid "Current plan"
-#~ msgstr "当前计划"
+msgid "Current plan"
+msgstr "当前计划"
 
 #: pages/billing/upgrade.tsx:649
-#~ msgid "Current Plan"
-#~ msgstr "当前计划"
+msgid "Current Plan"
+msgstr "当前计划"
 
 #: components/Api/Pricing.tsx:393
 #: pages/billing/upgrade.tsx:871
-#~ msgid "Custom and flexible pricing for high volume processing"
-#~ msgstr "针对大量处理量提供定制和灵活的价格"
+msgid "Custom and flexible pricing for high volume processing"
+msgstr "针对大量处理量提供定制和灵活的价格"
 
 #: components/Landing/Plans.tsx:753
 #: components/PdfToChat/Plans.tsx:753
-#~ msgid "Custom Max upload size"
-#~ msgstr "自定义最大上传大小"
+msgid "Custom Max upload size"
+msgstr "自定义最大上传大小"
 
 #: components/PdfToChat/SummarizeGuide.tsx:174
-#~ msgid "Customise Your Summary"
-#~ msgstr "定制您的摘要"
+msgid "Customise Your Summary"
+msgstr "定制您的摘要"
 
 #: components/Landing/Plans.tsx:776
 #: components/PdfToChat/Plans.tsx:776
-#~ msgid "Customizable Link"
-#~ msgstr "可自定义链接"
+msgid "Customizable Link"
+msgstr "可自定义链接"
 
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:189
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:185
-#~ msgid "CVV"
-#~ msgstr "CVV"
+msgid "CVV"
+msgstr "CVV"
 
 #: components/literature-review/LiteratureSideBar.tsx:255
 msgid "Date Range"
@@ -907,65 +941,77 @@ msgstr "日期范围"
 #: components/Landing/Plans.tsx:780
 #: components/PdfToChat/Plans.tsx:780
 #: pages/settings/index.tsx:862
-#~ msgid "Dedicated 24/7 Support"
-#~ msgstr "24/7专属支持"
+msgid "Dedicated 24/7 Support"
+msgstr "24/7专属支持"
 
 #: components/Modals/PaymentModalContent.tsx:429
-#~ msgid "Dedicated Support"
-#~ msgstr "专属支持"
+msgid "Dedicated Support"
+msgstr "专属支持"
 
-#: components/literature-review/LiteratureUpload.tsx:333
+#: components/DocumentUpload.tsx:265
+#: components/literature-review/LiteratureUpload.tsx:335
+#: components/Modals/ConversationDeleteModal.tsx:123
+#: components/Modals/DocumentDeleteModal.tsx:125
+#: components/Modals/OldDocumentDeleteModal.tsx:147
+#: components/Summarisation/SummariseUpload.tsx:343
 #: components/tools/DocUploadNoFunc.tsx:260
+#: pages/conversations/[[...params]].tsx:1106
+#: pages/delete/index.tsx:297
+#: pages/documents/[[...id]]/index.tsx:606
+#: pages/knowledge-base/[[...params]].tsx:1692
 msgid "Delete"
 msgstr "删除"
 
 #: components/Modals/Profile.tsx:245
 #: components/Modals/Profile.tsx:267
 #: components/Modals/Profile.tsx:366
-#~ msgid "Delete Account"
-#~ msgstr "删除帐户"
+msgid "Delete Account"
+msgstr "删除帐户"
 
 #: components/Modals/ConversationDeleteModal.tsx:108
-#~ msgid "Delete Conversation"
-#~ msgstr "删除对话"
+msgid "Delete Conversation"
+msgstr "删除对话"
 
 #: components/AppSidebar.tsx:318
-#~ msgid "Delete Doc"
-#~ msgstr "删除文档"
+msgid "Delete Doc"
+msgstr "删除文档"
 
 #: pages/delete/index.tsx:271
-#~ msgid "Delete document"
-#~ msgstr "删除文档"
+msgid "Delete document"
+msgstr "删除文档"
 
 #: components/Modals/DocumentDeleteModal.tsx:107
-#~ msgid "Delete Document"
-#~ msgstr "删除文档"
+#: components/Modals/OldDocumentDeleteModal.tsx:124
+#: pages/documents/[[...id]]/index.tsx:994
+msgid "Delete Document"
+msgstr "删除文档"
 
 #: pages/delete/index.tsx:238
 #: pages/delete/index.tsx:245
 #: pages/documents/[[...id]]/index.tsx:794
 #: pages/knowledge-base/[[...params]].tsx:1430
-#~ msgid "Delete Failed"
-#~ msgstr "删除失败"
+msgid "Delete Failed"
+msgstr "删除失败"
 
 #: components/APIKeysList.tsx:542
 #: components/APIKeysList.tsx:706
-#~ msgid "Delete Key"
-#~ msgstr "删除密钥"
+msgid "Delete Key"
+msgstr "删除密钥"
 
 #: components/Modals/DocumentSelectModal.tsx:717
 #: components/Modals/DocumentSelectModal.tsx:755
 #: components/Modals/DocumentSelectModal.tsx:779
-#~ msgid "Delete Knowledge Base"
-#~ msgstr "删除知识库"
+msgid "Delete Knowledge Base"
+msgstr "删除知识库"
 
 #: components/Modals/DocumentSelectModal.tsx:424
-#~ msgid "Delete Success"
-#~ msgstr "删除成功"
+#: pages/knowledge-base/[[...params]].tsx:1419
+msgid "Delete Success"
+msgstr "删除成功"
 
 #: components/Modals/Profile.tsx:125
-#~ msgid "Deletion Failed"
-#~ msgstr "删除失败"
+msgid "Deletion Failed"
+msgstr "删除失败"
 
 #: components/literature-review/LiteratureSideBar.tsx:310
 msgid "Description"
@@ -975,126 +1021,136 @@ msgstr "描述"
 msgid "Developer Docs"
 msgstr "开发者文档"
 
+#: components/AppSidebar.tsx:246
+#: components/DeveloperSidebar.tsx:126
 #: components/Footer.tsx:315
+#: components/MobileHeader.tsx:115
+#: pages/apikeys/index.tsx:335
+#: pages/billing/index.tsx:773
+#: pages/billing/upgrade.tsx:591
 msgid "Developers"
 msgstr "开发者"
 
 #: utils/termsData.ts:61
-#~ msgid "Disclaimer of Warranties"
-#~ msgstr "免责声明"
+msgid "Disclaimer of Warranties"
+msgstr "免责声明"
 
 #: components/Landing/Features.tsx:232
 #: components/PdfToChat/Features.tsx:238
-#~ msgid "Discover a brand new way to interact with your documents on AskYourPDF."
-#~ msgstr "在AskYourPDF上发现与文档交互的全新方式。"
+msgid "Discover a brand new way to interact with your documents on AskYourPDF."
+msgstr "在AskYourPDF上发现与文档交互的全新方式。"
 
 #: components/PdfToChat/Discover.tsx:164
-#~ msgid "Discover how AskYouPDF can be applied to various scenarios"
-#~ msgstr "发现 AskYourPDF 如何应用于各种情景。"
+msgid "Discover how AskYouPDF can be applied to various scenarios"
+msgstr "发现 AskYourPDF 如何应用于各种情景。"
 
 #: components/PdfToChat/MoreTools.tsx:134
-#~ msgid "Discover More <0> Tools </0>"
-#~ msgstr "发现更多工具"
+msgid "Discover More <0> Tools </0>"
+msgstr "发现更多工具"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:457
 #: components/Modals/CreateAPIKeyDesktop.tsx:473
-#~ msgid "Do not share the generated key with anyone."
-#~ msgstr "请勿与任何人共享生成的密钥。"
+msgid "Do not share the generated key with anyone."
+msgstr "请勿与任何人共享生成的密钥。"
 
 #: components/APIKeysList.tsx:681
-#~ msgid "Do not use test keys on production server"
-#~ msgstr "请勿在生产服务器上使用测试密钥"
+msgid "Do not use test keys on production server"
+msgstr "请勿在生产服务器上使用测试密钥"
 
 #: pages/upload/index.tsx:315
-#~ msgid "Doc ID Successfully Generated"
-#~ msgstr "文档ID生成成功"
+msgid "Doc ID Successfully Generated"
+msgstr "文档ID生成成功"
 
-#: components/Navbar.tsx:302
-#: components/Navbar.tsx:359
+#: components/KnowledgeBaseSidebar.tsx:495
+#: components/MainSidebar.tsx:455
+#: components/Modals/SearchBottomSheet.tsx:166
+#: components/Navbar.tsx:310
+#: components/Navbar.tsx:367
 msgid "Docs"
 msgstr "文档"
 
 #: pages/delete/index.tsx:223
 #: pages/documents/[[...id]]/index.tsx:778
-#~ msgid "Document Deleted"
-#~ msgstr "文档已删除"
+msgid "Document Deleted"
+msgstr "文档已删除"
 
 #: pages/delete/index.tsx:223
 #: pages/documents/[[...id]]/index.tsx:778
-#~ msgid "Document deleted successfully"
-#~ msgstr "文档删除成功"
+msgid "Document deleted successfully"
+msgstr "文档删除成功"
 
 #: pages/upload/index.tsx:296
-#~ msgid "Document Id"
-#~ msgstr "文档ID"
+msgid "Document Id"
+msgstr "文档ID"
 
 #: pages/conversations/[[...params]].tsx:1085
 #: pages/documents/[[...id]]/index.tsx:574
 #: pages/documents/[[...id]]/index.tsx:877
-#~ msgid "Document ID Copied. You can use this ID with our ChatGPT Plugin"
-#~ msgstr ""
+msgid "Document ID Copied. You can use this ID with our ChatGPT Plugin"
+msgstr ""
 
 #: components/Summarisation/SummariseUpload.tsx:556
-#~ msgid "Document Length Exceeds Limit"
-#~ msgstr "文档长度超出限制"
+msgid "Document Length Exceeds Limit"
+msgstr "文档长度超出限制"
 
 #: pages/delete/index.tsx:233
-#~ msgid "Document Not Found"
-#~ msgstr "未找到文档"
+msgid "Document Not Found"
+msgstr "未找到文档"
 
 #: components/Landing/Plans.tsx:506
 #: components/PdfToChat/Plans.tsx:506
-#~ msgid "document per day"
-#~ msgstr "每天文档数"
+msgid "document per day"
+msgstr "每天文档数"
 
 #: components/AppSidebar.tsx:339
-#~ msgid "Documentation"
-#~ msgstr "文档"
+msgid "Documentation"
+msgstr "文档"
 
 #: components/MainSidebar.tsx:356
-#~ msgid "Documents"
-#~ msgstr "文档"
+msgid "Documents"
+msgstr "文档"
 
 #: pages/knowledge-base/intro.tsx:278
-#~ msgid "Documents natively supported by AskYourPDF can be seamlessly uploaded to the knowledge base."
-#~ msgstr "AskYourPDF原生支持的文档可以无缝上传到知识库中。"
+msgid "Documents natively supported by AskYourPDF can be seamlessly uploaded to the knowledge base."
+msgstr "AskYourPDF原生支持的文档可以无缝上传到知识库中。"
 
 #: components/Landing/Plans.tsx:588
 #: components/Landing/Plans.tsx:678
 #: components/PdfToChat/Plans.tsx:588
 #: components/PdfToChat/Plans.tsx:678
-#~ msgid "documents per day"
-#~ msgstr "每天文档数"
+msgid "documents per day"
+msgstr "每天文档数"
 
 #: components/Modals/PaymentModalContent.tsx:324
 #: components/Modals/PaymentModalContent.tsx:366
-#~ msgid "Documents Upload/day"
-#~ msgstr "每天文档上传数"
+msgid "Documents Upload/day"
+msgstr "每天文档上传数"
 
 #~ msgid "Does AskYourPDF have any limitations on the number of documents that can be uploaded per day?"
 #~ msgstr "AskYourPDF 对每天可以上传的文档数量有任何限制吗?"
 
-#: pages/merge/index.tsx:804
-#: pages/split/index.tsx:932
+#: pages/tools/merge/index.tsx:791
+#: pages/tools/split/index.tsx:919
 msgid "Done"
 msgstr ""
 
 #: pages/billing/index.tsx:1141
 #: pages/billing/upgrade.tsx:936
 #: pages/settings/index.tsx:468
-#~ msgid "Downgrade"
-#~ msgstr "降级"
+msgid "Downgrade"
+msgstr "降级"
 
 #: pages/billing/index.tsx:1112
 #: pages/billing/upgrade.tsx:905
 #: pages/settings/index.tsx:437
-#~ msgid "Downgrade Account"
-#~ msgstr "账户降级"
+msgid "Downgrade Account"
+msgstr "账户降级"
 
-#: components/Navbar.tsx:316
-#: components/Navbar.tsx:373
-#: components/tools/ToolBarExt.tsx:260
-#: components/tools/ToolBarExt.tsx:294
+#: components/Announcements.tsx:31
+#: components/Navbar.tsx:324
+#: components/Navbar.tsx:381
+#: components/tools/ToolBarExt.tsx:268
+#: components/tools/ToolBarExt.tsx:302
 msgid "Download"
 msgstr "下载"
 
@@ -1102,231 +1158,241 @@ msgstr "下载"
 #: components/Extension/ExtensionHero.tsx:256
 #: components/Landing/ExtensionAnnouncement.tsx:141
 #: components/PdfToChat/ExtensionAnnouncement.tsx:141
-#~ msgid "Download Extension"
-#~ msgstr "下载扩展程序"
+msgid "Download Extension"
+msgstr "下载扩展程序"
 
 #: components/PdfToChat/AppSection.tsx:147
-#~ msgid "Download Our <0>App</0>"
-#~ msgstr "下载我们的应用程序"
+msgid "Download Our <0>App</0>"
+msgstr "下载我们的应用程序"
 
 #: components/Extension/Methods.tsx:170
-#~ msgid "Dropbox links"
-#~ msgstr "Dropbox 链接"
+msgid "Dropbox links"
+msgstr "Dropbox 链接"
 
 #: components/Modals/DocumentSelectModal.tsx:593
-#~ msgid "e.g Exploring the Effects of Climate Change"
-#~ msgstr "例如，探讨气候变化的影响"
+msgid "e.g Exploring the Effects of Climate Change"
+msgstr "例如，探讨气候变化的影响"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:388
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:436
 #: components/Modals/CreateAPIKeyDesktop.tsx:401
 #: components/Modals/CreateAPIKeyDesktop.tsx:451
-#~ msgid "e.g My Website API Key"
-#~ msgstr "例如:我的网站API密钥"
+msgid "e.g My Website API Key"
+msgstr "例如:我的网站API密钥"
 
 #: components/Affiliate/Header.tsx:194
-#~ msgid "Earn 30% Commission"
-#~ msgstr "赚取30%佣金"
+msgid "Earn 30% Commission"
+msgstr "赚取30%佣金"
 
 #: components/Settings/LinkAccountCall.tsx:107
-#~ msgid "Easily access your subscription benefits on both mobile and web by linking your accounts. Click the link account button to unify your experience and enjoy AskYourPDF across all platforms."
-#~ msgstr ""
+msgid "Easily access your subscription benefits on both mobile and web by linking your accounts. Click the link account button to unify your experience and enjoy AskYourPDF across all platforms."
+msgstr ""
 
 #: pages/knowledge-base/[[...params]].tsx:1066
 #: pages/knowledge-base/[[...params]].tsx:1659
-#~ msgid "Edit Knowledge Base"
-#~ msgstr "编辑知识库"
+msgid "Edit Knowledge Base"
+msgstr "编辑知识库"
 
 #: components/PdfToChat/Discover.tsx:37
-#~ msgid "Effortless Research"
-#~ msgstr "轻松研究 "
+msgid "Effortless Research"
+msgstr "轻松研究 "
 
 #: components/Landing/Plans.tsx:528
 #: components/Landing/Plans.tsx:616
 #: components/PdfToChat/Plans.tsx:528
 #: components/PdfToChat/Plans.tsx:616
-#~ msgid "Elevate your document interaction with unlimited chats, full conversation history, and priority support."
-#~ msgstr "无限聊天、完整的对话历史记录和优先支持可以提升您的文档交互体验。"
+msgid "Elevate your document interaction with unlimited chats, full conversation history, and priority support."
+msgstr "无限聊天、完整的对话历史记录和优先支持可以提升您的文档交互体验。"
 
 #: components/Modals/Profile.tsx:307
-#~ msgid "Email Address"
-#~ msgstr "电子邮件地址"
+msgid "Email Address"
+msgstr "电子邮件地址"
 
 #: components/Settings/LinkAccountModal.tsx:146
-#~ msgid "Enter Mobile User ID"
-#~ msgstr "输入移动用户ID"
+msgid "Enter Mobile User ID"
+msgstr "输入移动用户ID"
 
+#: components/KnowledgeBaseSidebar.tsx:366
+#: components/MainSidebar.tsx:330
 #: components/Modals/DocumentSelectModal.tsx:603
-#~ msgid "Enter three or more characters"
-#~ msgstr "输入三个或更多字符"
+#: components/Modals/SearchBottomSheet.tsx:116
+msgid "Enter three or more characters"
+msgstr "输入三个或更多字符"
 
 #: components/Settings/LinkAccountModal.tsx:138
-#~ msgid "Enter your mobile account ID to link your mobile account to your web account"
-#~ msgstr ""
+msgid "Enter your mobile account ID to link your mobile account to your web account"
+msgstr ""
 
 #: components/Api/Pricing.tsx:389
 #: pages/billing/upgrade.tsx:867
 #: pages/settings/index.tsx:837
-#~ msgid "Enterprise plan"
-#~ msgstr "企业计划"
+msgid "Enterprise plan"
+msgstr "企业计划"
 
 #: components/PdfToChat/Discover.tsx:58
-#~ msgid "Enthusiasts and curious minds can use AskYouPDF to explore topics of interest within digital books and resources."
-#~ msgstr "爱好者和好奇心旺盛的人可以使用AskYouPDF来探索数字书籍和资源中的兴趣主题。"
+msgid "Enthusiasts and curious minds can use AskYouPDF to explore topics of interest within digital books and resources."
+msgstr "爱好者和好奇心旺盛的人可以使用AskYouPDF来探索数字书籍和资源中的兴趣主题。"
 
-#: components/tools/DocUploadNoFunc.tsx:323
+#: components/DocumentUpload.tsx:358
+#: components/tools/DocUploadNoFunc.tsx:322
+#: pages/billing/index.tsx:713
+#: pages/documents/[[...id]]/index.tsx:772
+#: pages/settings/index.tsx:331
 msgid "Error"
 msgstr "错误"
 
 #: components/Modals/Profile.tsx:126
-#~ msgid "Error deleting your account: {errorMessage}"
-#~ msgstr "删除您的帐户时出错：{errorMessage}"
+msgid "Error deleting your account: {errorMessage}"
+msgstr "删除您的帐户时出错：{errorMessage}"
 
 #: components/Modals/ConversationFeedback.tsx:267
-#~ msgid "Error submitting your issue: {errorMessage}"
-#~ msgstr "提交问题时出现错误：{errorMessage}"
+msgid "Error submitting your issue: {errorMessage}"
+msgstr "提交问题时出现错误：{errorMessage}"
 
 #: components/PdfToChat/Features.tsx:205
-#~ msgid "Ever wished your documents could talk? With AskYourPDF, they can! Powered by ChatGPT we breathe life into your documents, making them interactive and engaging. No more endless scrolling or skimming - just upload, ask and uncover insights directly from your document"
-#~ msgstr "您是否希望文档可以对话?有了AskYourPDF,它们可以! 在ChatGPT的支持下,我们赋予文档生命,使其互动且引人入胜。不再无休止地滚动或浏览 - 只需上传、提问并直接从文档中获得见解"
+msgid "Ever wished your documents could talk? With AskYourPDF, they can! Powered by ChatGPT we breathe life into your documents, making them interactive and engaging. No more endless scrolling or skimming - just upload, ask and uncover insights directly from your document"
+msgstr "您是否希望文档可以对话?有了AskYourPDF,它们可以! 在ChatGPT的支持下,我们赋予文档生命,使其互动且引人入胜。不再无休止地滚动或浏览 - 只需上传、提问并直接从文档中获得见解"
 
 #: components/Landing/Features.tsx:199
-#~ msgid "Ever wished your documents could talk? With AskYourPDF, they can! Powered by ChatGPT we breathe life into your documents, making them interactive and engaging. No more endless scrolling or skimming – just upload, ask and uncover insights directly from your document"
-#~ msgstr "您是否希望文档可以对话?有了AskYourPDF,它们可以! 在ChatGPT的支持下,我们赋予文档生命,使其互动且引人入胜。不再无休止地滚动或浏览 - 只需上传、提问并直接从文档中获得见解"
+msgid "Ever wished your documents could talk? With AskYourPDF, they can! Powered by ChatGPT we breathe life into your documents, making them interactive and engaging. No more endless scrolling or skimming – just upload, ask and uncover insights directly from your document"
+msgstr "您是否希望文档可以对话?有了AskYourPDF,它们可以! 在ChatGPT的支持下,我们赋予文档生命,使其互动且引人入胜。不再无休止地滚动或浏览 - 只需上传、提问并直接从文档中获得见解"
 
 #: components/PdfToChat/MoreTools.tsx:139
-#~ msgid "Expanding Possibilities with Additional Resources"
-#~ msgstr "借助额外资源扩展可能性"
+msgid "Expanding Possibilities with Additional Resources"
+msgstr "借助额外资源扩展可能性"
 
 #: components/Extension/Methods.tsx:127
-#~ msgid "Experience a new way to engage with your <0/> <1>documents </1>"
-#~ msgstr "体验与您的文件互动的新方式"
+msgid "Experience a new way to engage with your <0/> <1>documents </1>"
+msgstr "体验与您的文件互动的新方式"
 
 #: components/Extension/Download.tsx:172
-#~ msgid "Experience a new way to interact with your PDFs with our Chrome Extension"
-#~ msgstr "通过我们的Chrome扩展程序，体验与您的PDF文档互动的新方式"
+msgid "Experience a new way to interact with your PDFs with our Chrome Extension"
+msgstr "通过我们的Chrome扩展程序，体验与您的PDF文档互动的新方式"
 
 #: components/Api/Header.tsx:163
-#~ msgid "Experience Seamless Integration and Unparalleled PDF Processing Capabilities with AskYourPDF API"
-#~ msgstr "通过AskYourPDF API体验无缝集成和卓越的PDF处理能力"
+msgid "Experience Seamless Integration and Unparalleled PDF Processing Capabilities with AskYourPDF API"
+msgstr "通过AskYourPDF API体验无缝集成和卓越的PDF处理能力"
 
 #: components/Landing/Plans.tsx:403
 #: components/PdfToChat/Plans.tsx:403
-#~ msgid "Experience the future of document interaction with AskYourPDF. Choose the plan that fits your needs and start engaging with your documents like never before:"
-#~ msgstr "通过AskYourPDF体验文档交互的未来。选择符合您需求的计划,并以前所未有的方式与文档进行交互:"
+msgid "Experience the future of document interaction with AskYourPDF. Choose the plan that fits your needs and start engaging with your documents like never before:"
+msgstr "通过AskYourPDF体验文档交互的未来。选择符合您需求的计划,并以前所未有的方式与文档进行交互:"
 
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:183
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:179
-#~ msgid "Expiry Date"
-#~ msgstr "到期日"
+msgid "Expiry Date"
+msgstr "到期日"
 
 #: components/Summarisation/SummariseMainBar.tsx:399
 #: components/Summarisation/SummariseSideBar.tsx:281
-#~ msgid "Explore Other Tools"
-#~ msgstr "探索其他工具"
+msgid "Explore Other Tools"
+msgstr "探索其他工具"
 
 #: components/Landing/Products.tsx:173
 #: components/PdfToChat/Products.tsx:173
-#~ msgid "Explore our <0>products</0>"
-#~ msgstr "探索我们的<0>产品</0>"
+msgid "Explore our <0>products</0>"
+msgstr "探索我们的<0>产品</0>"
 
-#: pages/index.tsx:302
+#: pages/tools/index.tsx:302
 msgid "Explore our Free Tools"
 msgstr "探索我们的免费工具。"
 
 #: components/PdfToChat/MoreTools.tsx:157
-#~ msgid "Explore Tools"
-#~ msgstr "探索工具"
+msgid "Explore Tools"
+msgstr "探索工具"
 
 #: pages/conversations/[[...params]].tsx:1099
 #: pages/knowledge-base/[[...params]].tsx:1684
-#~ msgid "Export Chat as PDF"
-#~ msgstr "将聊天导出为 PDF"
+msgid "Export Chat as PDF"
+msgstr "将聊天导出为 PDF"
 
-#: components/Navbar.tsx:309
-#: components/Navbar.tsx:366
-#: components/tools/ToolBarExt.tsx:255
-#: components/tools/ToolBarExt.tsx:289
+#: components/Navbar.tsx:317
+#: components/Navbar.tsx:374
+#: components/tools/ToolBarExt.tsx:263
+#: components/tools/ToolBarExt.tsx:297
 msgid "Extension"
 msgstr "扩展"
 
 #: components/Modals/PaymentModalContent.tsx:290
-#~ msgid "Extensive Access"
-#~ msgstr "广泛访问权限"
+msgid "Extensive Access"
+msgstr "广泛访问权限"
 
 #~ msgid "Extract key insights and create concise summaries using our AI Document Summarisation Tool."
 #~ msgstr "使用我们的AI文档摘要工具提取关键见解并创建简洁的摘要。"
 
 #: components/Summarisation/SummariseMainBar.tsx:392
-#~ msgid "Extract key insights and create concise summaries using our AI Document Summarisation Tool. (200 pages max)"
-#~ msgstr ""
+msgid "Extract key insights and create concise summaries using our AI Document Summarisation Tool. (200 pages max)"
+msgstr ""
 
 #: components/Modals/DocumentSelectModal.tsx:392
 #: components/Modals/DocumentSelectModal.tsx:413
 #: components/Modals/DocumentSelectModal.tsx:449
-#~ msgid "Failed"
-#~ msgstr "失败"
+msgid "Failed"
+msgstr "失败"
 
 #: pages/conversations/[[...params]].tsx:951
 #: pages/knowledge-base/[[...params]].tsx:1523
-#~ msgid "Failed to clear conversation history"
-#~ msgstr "未能清除对话记录"
+msgid "Failed to clear conversation history"
+msgstr "未能清除对话记录"
 
 #: components/Modals/DocumentSelectModal.tsx:433
-#~ msgid "Failed to delete conversation"
-#~ msgstr "无法删除对话"
+msgid "Failed to delete conversation"
+msgstr "无法删除对话"
 
 #: pages/conversations/[[...params]].tsx:914
 #: pages/knowledge-base/[[...params]].tsx:1431
-#~ msgid "Failed to delete conversation. Please try again"
-#~ msgstr "删除对话失败。请重试"
+msgid "Failed to delete conversation. Please try again"
+msgstr "删除对话失败。请重试"
 
 #: pages/documents/[[...id]]/index.tsx:795
-#~ msgid "Failed to delete document. Please try again"
-#~ msgstr "删除文档失败。请重试"
+msgid "Failed to delete document. Please try again"
+msgstr "删除文档失败。请重试"
 
 #~ msgid "Failed to delete document. Please try again."
 #~ msgstr "删除文档失败。请重试"
 
-#: components/literature-review/MainContent.tsx:301
+#: pages/conversations/[[...params]].tsx:971
+#: pages/knowledge-base/[[...params]].tsx:1543
+#: pages/summarise/index.tsx:245
+#: pages/tools/literature-review-writer/index.tsx:299
 msgid "Failed to export PDF"
 msgstr "导出 PDF 失败"
 
 #: pages/billing/index.tsx:1086
 #: pages/settings/index.tsx:1032
-#~ msgid "Failed to fetch billing history. Please try again."
-#~ msgstr "获取计费历史记录失败。请重试。"
+msgid "Failed to fetch billing history. Please try again."
+msgstr "获取计费历史记录失败。请重试。"
 
 #: components/Settings/LinkAccountCall.tsx:88
-#~ msgid "Failed to link mobile account"
-#~ msgstr ""
+msgid "Failed to link mobile account"
+msgstr ""
 
 #: pages/billing/index.tsx:684
 #: pages/billing/index.tsx:689
 #: pages/settings/index.tsx:303
 #: pages/settings/index.tsx:308
-#~ msgid "Failed to load subscriptions"
-#~ msgstr "加载订阅失败"
+msgid "Failed to load subscriptions"
+msgstr "加载订阅失败"
 
-#: components/literature-review/MainContent.tsx:286
+#: pages/tools/literature-review-writer/index.tsx:284
 msgid "Failed to review text. Please try again"
 msgstr ""
 
 #: pages/summarise/index.tsx:168
-#~ msgid "Failed to summarise document. Please try again"
-#~ msgstr "无法对文档进行摘要。请重试"
+msgid "Failed to summarise document. Please try again"
+msgstr "无法对文档进行摘要。请重试"
 
 #: pages/summarise/index.tsx:228
-#~ msgid "Failed to summarise text. Please try again"
-#~ msgstr "无法对文本进行摘要。请重试"
+msgid "Failed to summarise text. Please try again"
+msgstr "无法对文本进行摘要。请重试"
 
-#: components/tools/DocUploadNoFunc.tsx:335
+#: components/tools/DocUploadNoFunc.tsx:334
 msgid "Failed to upload file"
 msgstr "上传文件失败"
 
 #: components/DocumentUpload.tsx:389
-#~ msgid "Failed to upload file. Try downloading the file and upload it manually."
-#~ msgstr "无法上传文件。请尝试下载文件并手动上传。"
+msgid "Failed to upload file. Try downloading the file and upload it manually."
+msgstr "无法上传文件。请尝试下载文件并手动上传。"
 
 #~ msgid "FAQ"
 #~ msgstr "常问问题"
@@ -1335,24 +1401,26 @@ msgstr "上传文件失败"
 msgid "FAQs"
 msgstr "常见问题解答"
 
-#: components/tools/DocUploadNoFunc.tsx:418
+#: components/DocumentUpload.tsx:475
+#: components/tools/DocUploadNoFunc.tsx:417
 msgid "Fetch document"
 msgstr "获取文档"
 
 #~ msgid "Fetching Conversations"
 #~ msgstr "获取对话"
 
-#: components/tools/DocUploadNoFunc.tsx:415
+#: components/DocumentUpload.tsx:472
+#: components/tools/DocUploadNoFunc.tsx:414
 msgid "Fetching document"
 msgstr "获取文档"
 
 #: pages/knowledge-base/intro.tsx:379
-#~ msgid "Fetching documents"
-#~ msgstr "获取文档"
+msgid "Fetching documents"
+msgstr "获取文档"
 
 #: components/literature-review/LiteratureSideBar.tsx:241
-#~ msgid "Field of Study"
-#~ msgstr "研究领域"
+msgid "Field of Study"
+msgstr "研究领域"
 
 #: components/Footer.tsx:297
 msgid "File Upload"
@@ -1360,113 +1428,138 @@ msgstr "上传文件"
 
 #: components/DocumentUpload.tsx:379
 #: pages/upload/index.tsx:290
-#~ msgid "File upload failed"
-#~ msgstr "文件上传失败"
+msgid "File upload failed"
+msgstr "文件上传失败"
 
-#: components/literature-review/LiteratureUpload.tsx:398
-#: components/literature-review/LiteratureUpload.tsx:402
-#: components/tools/DocUploadNoFunc.tsx:333
+#: components/DocumentUpload.tsx:329
+#: components/DocumentUpload.tsx:333
+#: components/DocumentUpload.tsx:387
+#: components/literature-review/LiteratureUpload.tsx:400
+#: components/literature-review/LiteratureUpload.tsx:404
+#: components/Summarisation/SummariseUpload.tsx:408
+#: components/Summarisation/SummariseUpload.tsx:412
+#: components/tools/DocUploadNoFunc.tsx:332
 msgid "File Upload Failed"
 msgstr "文件上传失败"
 
 #: components/DocumentUpload.tsx:370
-#~ msgid "File uploaded successfully"
-#~ msgstr "文件上传成功"
+msgid "File uploaded successfully"
+msgstr "文件上传成功"
 
 #: components/PdfToChat/SummarizeGuide.tsx:198
-#~ msgid "Finally, click the 'Summarise' button, and within moments, AskYourPDF will provide you with a customized summary of your document based on your settings and, if provided, your prompt."
-#~ msgstr "最后，点击“摘要”按钮，只需片刻时间，AskYourPDF将根据您的设置和（如果提供的话）您的提示为您提供文档的定制摘要。"
+msgid "Finally, click the 'Summarise' button, and within moments, AskYourPDF will provide you with a customized summary of your document based on your settings and, if provided, your prompt."
+msgstr "最后，点击“摘要”按钮，只需片刻时间，AskYourPDF将根据您的设置和（如果提供的话）您的提示为您提供文档的定制摘要。"
 
 #: components/Extension/Methods.tsx:173
-#~ msgid "For those who rely on Dropbox for their document storage, the AskYourPDF Chrome extension is a really helpful addition. Open any PDF link from Dropbox in Chrome, and the extension starts up, ready to help. With its intuitive interface, you can now work with your Dropbox documents more easily, making it a must-have tool for professionals and students alike."
-#~ msgstr "对于那些依赖Dropbox来存储文件的人来说，AskYourPDF Chrome扩展是一个非常有用的附加功能。在Chrome中打开来自Dropbox的任何PDF链接，扩展程序将启动并准备好帮助。通过其直观的界面，您现在可以更轻松地处理Dropbox文档，这对专业人士和学生都是不可或缺的工具。"
+msgid "For those who rely on Dropbox for their document storage, the AskYourPDF Chrome extension is a really helpful addition. Open any PDF link from Dropbox in Chrome, and the extension starts up, ready to help. With its intuitive interface, you can now work with your Dropbox documents more easily, making it a must-have tool for professionals and students alike."
+msgstr "对于那些依赖Dropbox来存储文件的人来说，AskYourPDF Chrome扩展是一个非常有用的附加功能。在Chrome中打开来自Dropbox的任何PDF链接，扩展程序将启动并准备好帮助。通过其直观的界面，您现在可以更轻松地处理Dropbox文档，这对专业人士和学生都是不可或缺的工具。"
 
 #: components/Summarisation/SummariseSideBar.tsx:325
-#~ msgid "Format"
-#~ msgstr "格式"
+msgid "Format"
+msgstr "格式"
 
 #: components/PdfToChat/Guide.tsx:155
-#~ msgid "Formulate your questions naturally, just as you would in a conversation."
-#~ msgstr ""
+msgid "Formulate your questions naturally, just as you would in a conversation."
+msgstr ""
 
 #: components/Landing/MobileAppBanner.tsx:89
-#~ msgid "Free"
-#~ msgstr "免费"
+msgid "Free"
+msgstr "免费"
 
 #: components/Api/Pricing.tsx:274
-#~ msgid "Free Plan"
-#~ msgstr "免费计划"
+msgid "Free Plan"
+msgstr "免费计划"
 
 #: pages/settings/index.tsx:549
-#~ msgid "Free Plan <0>$0/month</0>"
-#~ msgstr "免费计划 <0>$0/月</0>"
+msgid "Free Plan <0>$0/month</0>"
+msgstr "免费计划 <0>$0/月</0>"
 
 #: pages/settings/index.tsx:554
-#~ msgid "Free tier usage applicable - 100 page per document & 50 questions daily"
-#~ msgstr "适用于免费层使用 - 每份文档100页 & 每天50个问题"
+msgid "Free tier usage applicable - 100 page per document & 50 questions daily"
+msgstr "适用于免费层使用 - 每份文档100页 & 每天50个问题"
 
 #: utils/faqData.tsx:65
-#~ msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
-#~ msgstr "免费用户每天可以上传一个文件。高级用户和专业用户分别可以每天上传50和150个文件。如果需要更多上传次数，请联系我们获取企业计划。"
+msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
+msgstr "免费用户每天可以上传一个文件。高级用户和专业用户分别可以每天上传50和150个文件。如果需要更多上传次数，请联系我们获取企业计划。"
 
 #: components/PdfToChat/LandingFaq.tsx:85
 #: pages/faq/index.tsx:66
-#~ msgid "Frequently Asked Questions"
-#~ msgstr "常见问题"
+msgid "Frequently Asked Questions"
+msgstr "常见问题"
 
-#: components/literature-review/LiteratureUpload.tsx:499
+#: components/literature-review/LiteratureUpload.tsx:501
+#: components/Summarisation/SummariseUpload.tsx:515
 msgid "From Your Documents"
 msgstr "来自您的文件"
 
 #: components/APIKeysList.tsx:674
-#~ msgid "Generate API Key"
-#~ msgstr "生成 API 密钥"
+msgid "Generate API Key"
+msgstr "生成 API 密钥"
 
 #: components/APIKeysList.tsx:575
 #: components/APIKeysList.tsx:739
-#~ msgid "Generated on"
-#~ msgstr "生成于"
+msgid "Generated on"
+msgstr "生成于"
 
 #~ msgid "Generated on {0}"
 #~ msgstr "生成于 {0}"
 
 #: components/Landing/Hero.tsx:253
-#~ msgid "Get Our Plugin"
-#~ msgstr "获取我们的插件"
+msgid "Get Our Plugin"
+msgstr "获取我们的插件"
 
 #: components/Affiliate/Features.tsx:153
-#~ msgid "Get Paid Commission"
-#~ msgstr "获得佣金"
+msgid "Get Paid Commission"
+msgstr "获得佣金"
 
-#: components/Navbar.tsx:413
+#: components/Landing/Features.tsx:252
+#: components/Landing/Plans.tsx:468
+#: components/Landing/Plans.tsx:547
+#: components/Landing/Plans.tsx:637
+#: components/Navbar.tsx:421
+#: components/PdfToChat/Features.tsx:258
+#: components/PdfToChat/Plans.tsx:468
+#: components/PdfToChat/Plans.tsx:547
+#: components/PdfToChat/Plans.tsx:637
 msgid "Get Started"
 msgstr "开始使用"
 
 #: components/Footer.tsx:325
+#: pages/chat/[[...docID]]/index.tsx:334
+#: pages/knowledge-base/intro.tsx:389
 msgid "Getting Started"
 msgstr "开始使用"
 
 #: components/Landing/Plans.tsx:717
 #: components/PdfToChat/Plans.tsx:717
-#~ msgid "Go all out on features! Get everything in the Pro Plan, plus priority document processing and access to new features."
-#~ msgstr "全面享受所有功能!获得Pro计划中的所有功能,以及文档处理优先权和新功能访问权限。"
+msgid "Go all out on features! Get everything in the Pro Plan, plus priority document processing and access to new features."
+msgstr "全面享受所有功能!获得Pro计划中的所有功能,以及文档处理优先权和新功能访问权限。"
 
 #: components/Modals/PaymentModalContent.tsx:557
 #: components/Modals/UnitsExceededModal.tsx:124
-#~ msgid "Go back"
-#~ msgstr "返回"
+msgid "Go back"
+msgstr "返回"
 
+#: components/Modals/ConversationDeleteModal.tsx:120
+#: components/Modals/ConversationHistoryDeleteModal.tsx:120
 #: components/Modals/DocumentDeleteModal.tsx:122
-#~ msgid "Go Back"
-#~ msgstr "返回"
+#: components/Modals/DocumentSelectModal.tsx:768
+#: components/Modals/OldDocumentDeleteModal.tsx:144
+#: components/Modals/Profile.tsx:258
+#: pages/billing/index.tsx:1133
+#: pages/billing/upgrade.tsx:928
+#: pages/documents/[[...id]]/index.tsx:1013
+#: pages/settings/index.tsx:460
+msgid "Go Back"
+msgstr "返回"
 
 #: components/Extension/Methods.tsx:154
-#~ msgid "Google Drive Links"
-#~ msgstr "Google Drive 链接"
+msgid "Google Drive Links"
+msgstr "Google Drive 链接"
 
 #: utils/termsData.ts:71
-#~ msgid "Governing Law"
-#~ msgstr "监管法律"
+msgid "Governing Law"
+msgstr "监管法律"
 
 #: pages/settings/index.tsx:892
 #: pages/settings/index.tsx:900
@@ -1475,105 +1568,105 @@ msgstr "开始使用"
 
 #: components/Modals/ConversationFeedback.tsx:369
 #: components/Modals/ConversationFeedback.tsx:479
-#~ msgid "Harmful Content"
-#~ msgstr "有害内容"
+msgid "Harmful Content"
+msgstr "有害内容"
 
 #: components/Landing/Features.tsx:238
 #: components/PdfToChat/Features.tsx:244
-#~ msgid "Here, you give voice to your documents, turning them into engaging chat partners. What's more? You can effortlessly track and revisit all your conversations. Take control, ask questions, get answers, and never lose track of your learning. Ready to make your documents work for you?"
-#~ msgstr "在这里,您可以让文档发声,将其转变为吸引人的聊天伙伴。 更妙的是?您可以轻松跟踪和重新访问所有对话。 掌控局面,提出问题,得到答案,永远不会跟丢您的学习。 您准备好让文档为您服务了吗?"
+msgid "Here, you give voice to your documents, turning them into engaging chat partners. What's more? You can effortlessly track and revisit all your conversations. Take control, ask questions, get answers, and never lose track of your learning. Ready to make your documents work for you?"
+msgstr "在这里,您可以让文档发声,将其转变为吸引人的聊天伙伴。 更妙的是?您可以轻松跟踪和重新访问所有对话。 掌控局面,提出问题,得到答案,永远不会跟丢您的学习。 您准备好让文档为您服务了吗?"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:403
 #: components/Modals/CreateAPIKeyDesktop.tsx:416
-#~ msgid "Hey there, Just a quick reminder"
-#~ msgstr "嘿,只是一个快速提醒"
+msgid "Hey there, Just a quick reminder"
+msgstr "嘿,只是一个快速提醒"
 
-#: components/Navbar.tsx:277
-#: components/Navbar.tsx:334
-#: components/tools/ToolBarExt.tsx:240
-#: components/tools/ToolBarExt.tsx:274
+#: components/Navbar.tsx:285
+#: components/Navbar.tsx:342
+#: components/tools/ToolBarExt.tsx:248
+#: components/tools/ToolBarExt.tsx:282
 msgid "Home"
 msgstr "首页"
 
 #: utils/faqData.tsx:28
-#~ msgid "How does billing work?"
-#~ msgstr "计费如何工作？"
+msgid "How does billing work?"
+msgstr "计费如何工作？"
 
 #: pages/chat/[[...docID]]/index.tsx:240
 #: pages/knowledge-base/intro.tsx:259
 #: utils/faqData.tsx:18
-#~ msgid "How does it work?"
-#~ msgstr "它是如何工作的?"
+msgid "How does it work?"
+msgstr "它是如何工作的?"
 
 #: components/Affiliate/Features.tsx:112
-#~ msgid "How it Works"
-#~ msgstr "它是如何运作的"
+msgid "How it Works"
+msgstr "它是如何运作的"
 
 #: utils/faqData.tsx:129
-#~ msgid "How long are the chat sessions saved on AskYourPDF?"
-#~ msgstr "聊天会话在AskYourPDF上保存多长时间?"
+msgid "How long are the chat sessions saved on AskYourPDF?"
+msgstr "聊天会话在AskYourPDF上保存多长时间?"
 
 #~ msgid "How to <0> summarize</0> a PDF File with  AI"
 #~ msgstr "如何使用人工智能总结PDF文件"
 
 #: components/PdfToChat/SummarizeGuide.tsx:135
-#~ msgid "How to <0> Summarize</0> a PDF File with  AI"
-#~ msgstr ""
+msgid "How to <0> Summarize</0> a PDF File with  AI"
+msgstr ""
 
 #: pages/knowledge-base/intro.tsx:282
-#~ msgid "How will AskYourPDF respond if I have two documents with similar contents in my knowledge base?"
-#~ msgstr "如果我的知识库中有两个内容相似的文档，AskYourPDF将如何响应？"
+msgid "How will AskYourPDF respond if I have two documents with similar contents in my knowledge base?"
+msgstr "如果我的知识库中有两个内容相似的文档，AskYourPDF将如何响应？"
 
 #: components/SearchResults.tsx:347
-#~ msgid "I could not find any results related to <0>\"{debouncedSearchTerm}\"</0>. Try searching for something else"
-#~ msgstr "我找不到任何与<0>“{debouncedSearchTerm}”</0>相关的结果。尝试搜索其他内容"
+msgid "I could not find any results related to <0>\"{debouncedSearchTerm}\"</0>. Try searching for something else"
+msgstr "我找不到任何与<0>“{debouncedSearchTerm}”</0>相关的结果。尝试搜索其他内容"
 
 #: pages/upload/index.tsx:303
-#~ msgid "ID Copied"
-#~ msgstr "ID已复制"
+msgid "ID Copied"
+msgstr "ID已复制"
 
 #: components/MobileHeader.tsx:123
-#~ msgid "ID Generator"
-#~ msgstr "ID生成器"
+msgid "ID Generator"
+msgstr "ID生成器"
 
 #: pages/documents/[[...id]]/index.tsx:921
-#~ msgid "ID:"
-#~ msgstr "ID:"
+msgid "ID:"
+msgstr "ID:"
 
 #: utils/faqData.tsx:74
-#~ msgid "If I cancel my subscription, will I get a refund?"
-#~ msgstr "如果我取消订阅，是否会退款？"
+msgid "If I cancel my subscription, will I get a refund?"
+msgstr "如果我取消订阅，是否会退款？"
 
 #: utils/faqData.tsx:92
-#~ msgid "If the answer is in the uploaded document, there's a high likelihood the AI will provide it. The AI is constantly learning, so if it doesn't have an answer, you can always rephrase or ask a different question."
-#~ msgstr "如果答案在上传的文档中，AI提供答案的可能性很高。AI不断学习，所以如果它没有答案，您可以重新表述或提出不同的问题。"
+msgid "If the answer is in the uploaded document, there's a high likelihood the AI will provide it. The AI is constantly learning, so if it doesn't have an answer, you can always rephrase or ask a different question."
+msgstr "如果答案在上传的文档中，AI提供答案的可能性很高。AI不断学习，所以如果它没有答案，您可以重新表述或提出不同的问题。"
 
 #~ msgid "If the answer lies in the uploaded document, then there’s high likelihood the AI will answer it correctly.Note that the AI is constantly learning, so if it cannot answer your question,you can always ask a different question."
 #~ msgstr "如果答案存在于上传的文档中,那么AI回答正确的可能性很高。请注意,AI正在不断学习,所以如果它无法回答你的问题,你可以随时提出不同的问题。"
 
 #: pages/settings/index.tsx:517
-#~ msgid "If you choose to downgrade at any point. Your subscription will be active until the end of your next billing cycle."
-#~ msgstr "如果您在任何时候选择降级,您的订阅将一直激活到下一个计费周期结束。"
+msgid "If you choose to downgrade at any point. Your subscription will be active until the end of your next billing cycle."
+msgstr "如果您在任何时候选择降级,您的订阅将一直激活到下一个计费周期结束。"
 
 #: utils/faqData.tsx:135
-#~ msgid "If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help!"
-#~ msgstr "如果在使用AskYourPDF时遇到任何问题或有问题，请联系我们的支持团队：support@askyourpdf.com。他们在这里帮助您！"
+msgid "If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help!"
+msgstr "如果在使用AskYourPDF时遇到任何问题或有问题，请联系我们的支持团队：support@askyourpdf.com。他们在这里帮助您！"
 
 #: pages/privacy/index.tsx:159
-#~ msgid "If you have any questions or concerns about our privacy practices or this Privacy Policy, please don't hesitate to contact us. We value your opinions and look forward to hearing from you."
-#~ msgstr "如果您对我们的隐私惯例或本隐私政策有任何疑问或担忧,请随时联系我们。我们重视您的意见,并期待收到您的反馈。"
+msgid "If you have any questions or concerns about our privacy practices or this Privacy Policy, please don't hesitate to contact us. We value your opinions and look forward to hearing from you."
+msgstr "如果您对我们的隐私惯例或本隐私政策有任何疑问或担忧,请随时联系我们。我们重视您的意见,并期待收到您的反馈。"
 
 #: components/Extension/Methods.tsx:159
-#~ msgid "If you use Google Drive, the AskYourPDF Chrome extension is perfect for you. Just open a PDF from your Google Drive in Chrome, and the extension starts up on its own. It gives you the flexibility to engage with the document, get summaries, ask questions and receive answers in a flash."
-#~ msgstr "如果您使用Google Drive，那么AskYourPDF Chrome扩展程序非常适合您。只需在Chrome中打开来自Google Drive的PDF，扩展程序将自动启动。它使您能够灵活地与文档互动，获取摘要，提出问题并迅速获得答案。"
+msgid "If you use Google Drive, the AskYourPDF Chrome extension is perfect for you. Just open a PDF from your Google Drive in Chrome, and the extension starts up on its own. It gives you the flexibility to engage with the document, get summaries, ask questions and receive answers in a flash."
+msgstr "如果您使用Google Drive，那么AskYourPDF Chrome扩展程序非常适合您。只需在Chrome中打开来自Google Drive的PDF，扩展程序将自动启动。它使您能够灵活地与文档互动，获取摘要，提出问题并迅速获得答案。"
 
 #: components/APIKeysList.tsx:609
-#~ msgid "If you wish to increase your monthly limits you can upgrade to a higher subscription plan"
-#~ msgstr "如果您想增加每月限制,可以升级到更高级的订阅计划"
+msgid "If you wish to increase your monthly limits you can upgrade to a higher subscription plan"
+msgstr "如果您想增加每月限制,可以升级到更高级的订阅计划"
 
 #: utils/termsData.ts:37
-#~ msgid "In order to provide the intended functionality of our app, we may request certain permissions from you, such as access to your device's storage or file system. These permissions are solely for the purpose of allowing you to import and view documents stored on your device."
-#~ msgstr "为了提供我们应用程序的预期功能,我们可能会要求您授予某些权限,比如访问您设备的存储或文件系统。这些权限仅用于允许您导入和查看存储在您设备上的文档。"
+msgid "In order to provide the intended functionality of our app, we may request certain permissions from you, such as access to your device's storage or file system. These permissions are solely for the purpose of allowing you to import and view documents stored on your device."
+msgstr "为了提供我们应用程序的预期功能,我们可能会要求您授予某些权限,比如访问您设备的存储或文件系统。这些权限仅用于允许您导入和查看存储在您设备上的文档。"
 
 #: components/Landing/Plans.tsx:473
 #: components/Landing/Plans.tsx:555
@@ -1583,37 +1676,37 @@ msgstr "首页"
 #: components/PdfToChat/Plans.tsx:555
 #: components/PdfToChat/Plans.tsx:645
 #: components/PdfToChat/Plans.tsx:738
-#~ msgid "Includes"
-#~ msgstr "包括"
+msgid "Includes"
+msgstr "包括"
 
 #: pages/settings/index.tsx:638
-#~ msgid "Includes up to 2,500 pages per doc (max 30mb)"
-#~ msgstr "每份文档包含多达2,500页(最大30MB)"
+msgid "Includes up to 2,500 pages per doc (max 30mb)"
+msgstr "每份文档包含多达2,500页(最大30MB)"
 
 #: pages/settings/index.tsx:755
-#~ msgid "Includes up to 6,000 pages per doc (max 90mb)"
-#~ msgstr "每份文档包含多达6,000页(最大90MB)"
+msgid "Includes up to 6,000 pages per doc (max 90mb)"
+msgstr "每份文档包含多达6,000页(最大90MB)"
 
 #: components/Modals/ConversationFeedback.tsx:370
-#~ msgid "Incorrect Response"
-#~ msgstr ""
+msgid "Incorrect Response"
+msgstr ""
 
 #: components/Summarisation/SummariseMainBar.tsx:457
-#~ msgid "Input some text here OR upload a document in the pane below to summarise"
-#~ msgstr "在此处输入文本或在下方窗格中上传文档以进行摘要"
+msgid "Input some text here OR upload a document in the pane below to summarise"
+msgstr "在此处输入文本或在下方窗格中上传文档以进行摘要"
 
 #: components/Summarisation/SummariseMainBar.tsx:456
-#~ msgid "Input some text here OR upload a document in the right pane to summarise"
-#~ msgstr "在此处输入文本或在右窗格中上传文档以进行摘要"
+msgid "Input some text here OR upload a document in the right pane to summarise"
+msgstr "在此处输入文本或在右窗格中上传文档以进行摘要"
 
 #: components/Landing/Features.tsx:265
 #: components/PdfToChat/Features.tsx:290
-#~ msgid "Insightful Conversations"
-#~ msgstr "富有洞察力的对话"
+msgid "Insightful Conversations"
+msgstr "富有洞察力的对话"
 
 #: components/Landing/Hero.tsx:257
-#~ msgid "Install directly on ChatGPT"
-#~ msgstr "直接在ChatGPT上安装"
+msgid "Install directly on ChatGPT"
+msgstr "直接在ChatGPT上安装"
 
 #~ msgid "Instantly generate brief summaries that deliver crucial information, changing your document interaction into a streamlined efficient process."
 #~ msgstr "即时生成简要摘要，提供关键信息，将您的文件互动转化为高效的精简流程。"
@@ -1622,22 +1715,24 @@ msgstr "首页"
 #: components/Modals/DocumentSelectModal.tsx:466
 #: components/Modals/DocumentSelectModal.tsx:482
 #: components/Modals/DocumentSelectModal.tsx:490
-#~ msgid "Invalid Entry"
-#~ msgstr "无效条目"
+#: components/Settings/LinkAccountCall.tsx:96
+msgid "Invalid Entry"
+msgstr "无效条目"
 
-#: components/tools/DocUploadNoFunc.tsx:323
+#: components/DocumentUpload.tsx:358
+#: components/tools/DocUploadNoFunc.tsx:322
 msgid "Invalid Entry. Please try again"
 msgstr "无效输入。请重试"
 
 #: pages/billing/index.tsx:1020
 #: pages/settings/index.tsx:130
-#~ msgid "Invoice"
-#~ msgstr "发票"
+msgid "Invoice"
+msgstr "发票"
 
 #: pages/billing/index.tsx:988
 #: pages/settings/index.tsx:997
-#~ msgid "Invoice History"
-#~ msgstr "发票历史记录"
+msgid "Invoice History"
+msgstr "发票历史记录"
 
 #: components/Footer.tsx:287
 msgid "iOS App"
@@ -1645,129 +1740,129 @@ msgstr "iOS应用"
 
 #: pages/chat/[[...docID]]/index.tsx:250
 #: utils/faqData.tsx:39
-#~ msgid "Is it necessary to create an account to use the application?"
-#~ msgstr "使用该应用程序是否需要创建账号?"
+msgid "Is it necessary to create an account to use the application?"
+msgstr "使用该应用程序是否需要创建账号?"
 
 #: utils/faqData.tsx:96
-#~ msgid "Is my data secure?"
-#~ msgstr "我的数据安全吗?"
+msgid "Is my data secure?"
+msgstr "我的数据安全吗?"
 
 #: utils/faqData.tsx:69
-#~ msgid "Is the application free to use?"
-#~ msgstr "该应用程序是否免费使用?"
+msgid "Is the application free to use?"
+msgstr "该应用程序是否免费使用?"
 
 #: pages/knowledge-base/intro.tsx:297
-#~ msgid "Is the Knowledge Base service free or is there a separate charge?"
-#~ msgstr "知识库服务是免费的还是有额外费用？"
+msgid "Is the Knowledge Base service free or is there a separate charge?"
+msgstr "知识库服务是免费的还是有额外费用？"
 
 #: utils/faqData.tsx:44
-#~ msgid "Is there a discount for students?"
-#~ msgstr "有学生折扣吗？ (Yǒu xuéshēng zhékòu ma?)"
+msgid "Is there a discount for students?"
+msgstr "有学生折扣吗？ (Yǒu xuéshēng zhékòu ma?)"
 
 #: utils/faqData.tsx:64
-#~ msgid "Is there a limit to the number of documents I can upload?"
-#~ msgstr "我可以上传的文档数量有限制吗?"
+msgid "Is there a limit to the number of documents I can upload?"
+msgstr "我可以上传的文档数量有限制吗?"
 
 #: utils/faqData.tsx:112
-#~ msgid "Is there a limit to the size of the document that can be uploaded?"
-#~ msgstr "可以上传的文档大小有限制吗?"
+msgid "Is there a limit to the size of the document that can be uploaded?"
+msgstr "可以上传的文档大小有限制吗?"
 
 #: components/Announcements.tsx:30
-#~ msgid "it to access AskYourPDF from anywhere."
-#~ msgstr "使用它从任何地方访问AskYourPDF。"
+msgid "it to access AskYourPDF from anywhere."
+msgstr "使用它从任何地方访问AskYourPDF。"
 
 #: components/Landing/Hero.tsx:267
-#~ msgid "it's a <0>conversation</0>"
-#~ msgstr "这是一次<0>对话</0>"
+msgid "it's a <0>conversation</0>"
+msgstr "这是一次<0>对话</0>"
 
 #: utils/faqData.tsx:14
-#~ msgid "It's an application that lets you chat with any document you upload"
-#~ msgstr "这是一个允许您与上传的任何文档进行聊天的应用程序"
+msgid "It's an application that lets you chat with any document you upload"
+msgstr "这是一个允许您与上传的任何文档进行聊天的应用程序"
 
 #: components/Affiliate/Features.tsx:127
-#~ msgid "It's easy to get started. Sign up for our Affiliate Programme to receive your unique referral link."
-#~ msgstr "开始很容易。注册我们的联盟计划"
+msgid "It's easy to get started. Sign up for our Affiliate Programme to receive your unique referral link."
+msgstr "开始很容易。注册我们的联盟计划"
 
 #: components/Landing/Hero.tsx:264
-#~ msgid "It's not just reading anymore"
-#~ msgstr "这不仅仅是阅读"
+msgid "It's not just reading anymore"
+msgstr "这不仅仅是阅读"
 
 #: components/Affiliate/Header.tsx:209
-#~ msgid "Join Now"
-#~ msgstr "立即加入"
+msgid "Join Now"
+msgstr "立即加入"
 
 #: components/Affiliate/Header.tsx:190
-#~ msgid "Join Our Affiliate Program and"
-#~ msgstr "加入我们的联盟计划，并"
+msgid "Join Our Affiliate Program and"
+msgstr "加入我们的联盟计划，并"
 
 #: components/Affiliate/Join.tsx:94
-#~ msgid "Join our Affiliate Programme today and start earning for your referrals while sharing the benefits of AskYourPDF. As an AskYourPDF Affiliate, you can help your audience realize the full potential of their documents."
-#~ msgstr "今天加入我们的联盟计划，并开始通过您的推荐赚钱，同时分享 AskYourPDF 的好处。作为 AskYourPDF 联盟成员，"
+msgid "Join our Affiliate Programme today and start earning for your referrals while sharing the benefits of AskYourPDF. As an AskYourPDF Affiliate, you can help your audience realize the full potential of their documents."
+msgstr "今天加入我们的联盟计划，并开始通过您的推荐赚钱，同时分享 AskYourPDF 的好处。作为 AskYourPDF 联盟成员，"
 
 #: components/Affiliate/Join.tsx:91
-#~ msgid "Join us Today"
-#~ msgstr "今天加入我们"
+msgid "Join us Today"
+msgstr "今天加入我们"
 
 #: components/Landing/Features.tsx:275
 #: components/PdfToChat/Features.tsx:300
-#~ msgid "Just upload and voila, your documents aren't just smart, they're your new best friends. Dive in, engage, and enjoy your most interactive reading experience yet!"
-#~ msgstr "只需上传,您的文档不仅仅是智能的,它们是您的新良伴。深入参与,享受迄今为止最具交互性的阅读体验!"
+msgid "Just upload and voila, your documents aren't just smart, they're your new best friends. Dive in, engage, and enjoy your most interactive reading experience yet!"
+msgstr "只需上传,您的文档不仅仅是智能的,它们是您的新良伴。深入参与,享受迄今为止最具交互性的阅读体验!"
 
 #: components/APIKeysList.tsx:471
-#~ msgid "Key Deleted"
-#~ msgstr "密钥已删除"
+msgid "Key Deleted"
+msgstr "密钥已删除"
 
 #: components/AppSidebar.tsx:217
 #: components/KnowledgeBaseSidebar.tsx:379
 #: components/MobileHeader.tsx:99
-#~ msgid "Knowledge Base"
-#~ msgstr "知识库"
+msgid "Knowledge Base"
+msgstr "知识库"
 
 #: components/Modals/PaymentModalContent.tsx:339
 #: components/Modals/PaymentModalContent.tsx:378
 #: pages/settings/index.tsx:658
 #: pages/settings/index.tsx:781
-#~ msgid "Knowledge Base Access"
-#~ msgstr "知识库访问"
+msgid "Knowledge Base Access"
+msgstr "知识库访问"
 
 #: components/KnowledgeBaseSidebar.tsx:509
 #: components/Modals/SearchBottomSheet.tsx:180
-#~ msgid "Knowledge Base Conversations"
-#~ msgstr "知识库对话"
+msgid "Knowledge Base Conversations"
+msgstr "知识库对话"
 
 #~ msgid "Knowledge Base ID Copied"
 #~ msgstr "复制知识库ID"
 
 #: pages/knowledge-base/[[...params]].tsx:971
 #: pages/knowledge-base/[[...params]].tsx:1666
-#~ msgid "Knowledge Base ID Copied. You can use this ID with our ChatGPT Plugin"
-#~ msgstr "知识库ID已复制。您可以在我们的ChatGPT插件中使用此ID"
+msgid "Knowledge Base ID Copied. You can use this ID with our ChatGPT Plugin"
+msgstr "知识库ID已复制。您可以在我们的ChatGPT插件中使用此ID"
 
 #: components/PdfToChat/KnowledgeBaseServiceBanner.tsx:82
-#~ msgid "Knowledge Base Service"
-#~ msgstr "知识库服务 "
+msgid "Knowledge Base Service"
+msgstr "知识库服务 "
 
 #~ msgid "Leading Universities"
 #~ msgstr "顶尖大学"
 
 #: components/PdfToChat/ApiBanner.tsx:87
-#~ msgid "Learn More"
-#~ msgstr "了解更多"
+msgid "Learn More"
+msgstr "了解更多"
 
 #: components/Landing/Features.tsx:307
 #: components/PdfToChat/Features.tsx:332
-#~ msgid "Learn Playfully"
-#~ msgstr "寓教于乐地学习"
+msgid "Learn Playfully"
+msgstr "寓教于乐地学习"
 
 #: components/PdfToChat/Discover.tsx:42
-#~ msgid "Legal Clarity"
-#~ msgstr " 法律明晰"
+msgid "Legal Clarity"
+msgstr " 法律明晰"
 
 #: components/Summarisation/SummariseSideBar.tsx:296
-#~ msgid "Length"
-#~ msgstr "长度"
+msgid "Length"
+msgstr "长度"
 
-#: pages/index.tsx:277
+#: pages/tools/index.tsx:277
 msgid "Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
 msgstr "让人工智能来完成工作，将您的PDF文档分割成单独的文件，为您节省时间并优化您的文档管理任务。"
 
@@ -1777,7 +1872,7 @@ msgstr "让人工智能来完成工作，将您的PDF文档分割成单独的文
 #~ "streamlining your document management tasks."
 #~ msgstr "让人工智能迅速完成工作，将您的PDF文档分割成单独的文件，为您节省时间和。优化您的文件管理任务。"
 
-#: pages/split/index.tsx:826
+#: pages/tools/split/index.tsx:813
 msgid "Let artificial intelligence do the work as it swiftly divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
 msgstr "\"让人工智能来完成工作，将您的PDF文档分割成单独的文件，为您节省时间并优化您的文档管理任务。"
 
@@ -1785,26 +1880,26 @@ msgstr "\"让人工智能来完成工作，将您的PDF文档分割成单独的�
 #: components/Modals/PaymentModalDesktop.tsx:167
 #: components/Modals/PaymentSuccessModal.tsx:173
 #: components/Modals/PaymentSuccessModal.tsx:211
-#~ msgid "Let's Go"
-#~ msgstr "让我们开始吧"
+msgid "Let's Go"
+msgstr "让我们开始吧"
 
 #: utils/termsData.ts:66
-#~ msgid "Limitation of Liability"
-#~ msgstr "责任限制"
+msgid "Limitation of Liability"
+msgstr "责任限制"
 
 #: components/Settings/LinkAccountCall.tsx:120
 #: components/Settings/LinkAccountModal.tsx:135
 #: components/Settings/LinkAccountModal.tsx:161
-#~ msgid "Link Account"
-#~ msgstr "链接帐户"
+msgid "Link Account"
+msgstr "链接帐户"
 
 #: components/Modals/ShareModal.tsx:189
-#~ msgid "Link copied"
-#~ msgstr "链接已复制"
+msgid "Link copied"
+msgstr "链接已复制"
 
 #: components/Settings/LinkAccountCall.tsx:104
-#~ msgid "Link Your Mobile Account"
-#~ msgstr "链接您的移动设备帐户"
+msgid "Link Your Mobile Account"
+msgstr "链接您的移动设备帐户"
 
 #: components/literature-review/LiteratureMainBar.tsx:302
 msgid "Literature Review copied"
@@ -1812,7 +1907,7 @@ msgstr ""
 
 #: components/tools/ToolCommon.tsx:207
 #: components/ToolsFooter.tsx:78
-#: pages/index.tsx:269
+#: pages/tools/index.tsx:269
 msgid "Literature Review Tool"
 msgstr "文献评论工具"
 
@@ -1823,51 +1918,51 @@ msgstr "文献评论工具"
 #: components/KnowledgeBaseSidebar.tsx:600
 #: components/MainSidebar.tsx:510
 #: components/MainSidebar.tsx:545
-#~ msgid "Log In"
-#~ msgstr "登录"
+msgid "Log In"
+msgstr "登录"
 
 #: components/KnowledgeBaseSidebar.tsx:573
 #: components/MainSidebar.tsx:518
-#~ msgid "Login or create an account to have multiple conversations, access your chat history and manage your documents seamlessly"
-#~ msgstr "登录或创建账户以进行多次对话、访问聊天记录并无缝管理文档"
+msgid "Login or create an account to have multiple conversations, access your chat history and manage your documents seamlessly"
+msgstr "登录或创建账户以进行多次对话、访问聊天记录并无缝管理文档"
 
 #: components/AppSidebar.tsx:386
 #: components/MobileHeader.tsx:131
-#~ msgid "Logout"
-#~ msgstr "登出"
+msgid "Logout"
+msgstr "登出"
 
 #: components/Landing/Plans.tsx:694
 #: components/Modals/PaymentModalContent.tsx:393
 #: components/PdfToChat/Plans.tsx:694
 #: pages/settings/index.tsx:775
-#~ msgid "Longer Reply Length"
-#~ msgstr "更长的回复长度"
+msgid "Longer Reply Length"
+msgstr "更长的回复长度"
 
 #: components/Modals/Profile.tsx:335
-#~ msgid "Manage"
-#~ msgstr "管理"
+msgid "Manage"
+msgstr "管理"
 
 #: components/DeveloperSidebar.tsx:140
-#~ msgid "Manage & Create API Keys to connect your applications"
-#~ msgstr "管理和创建API密钥以连接您的应用程序"
+msgid "Manage & Create API Keys to connect your applications"
+msgstr "管理和创建API密钥以连接您的应用程序"
 
 #: pages/billing/index.tsx:970
 #: pages/settings/index.tsx:985
-#~ msgid "Manage Payment Method"
-#~ msgstr "管理支付方式"
+msgid "Manage Payment Method"
+msgstr "管理支付方式"
 
 #: components/DeveloperSidebar.tsx:158
-#~ msgid "Manage payments for your developer account"
-#~ msgstr "管理开发者账户的支付"
+msgid "Manage payments for your developer account"
+msgstr "管理开发者账户的支付"
 
 #: components/KnowledgeBaseSidebar.tsx:668
 #: components/MainSidebar.tsx:623
-#~ msgid "Manage Subscription"
-#~ msgstr "管理订阅"
+msgid "Manage Subscription"
+msgstr "管理订阅"
 
 #: pages/settings/index.tsx:917
-#~ msgid "Manage your payment method and billing history"
-#~ msgstr "管理您的支付方式和账单历史记录"
+msgid "Manage your payment method and billing history"
+msgstr "管理您的支付方式和账单历史记录"
 
 #: components/Landing/Plans.tsx:479
 #: components/Landing/Plans.tsx:561
@@ -1876,8 +1971,8 @@ msgstr "文献评论工具"
 #: components/PdfToChat/Plans.tsx:479
 #: components/PdfToChat/Plans.tsx:561
 #: components/PdfToChat/Plans.tsx:651
-#~ msgid "max"
-#~ msgstr "最大"
+msgid "max"
+msgstr "最大"
 
 #: components/Landing/Plans.tsx:487
 #: components/Landing/Plans.tsx:569
@@ -1885,24 +1980,24 @@ msgstr "文献评论工具"
 #: components/PdfToChat/Plans.tsx:487
 #: components/PdfToChat/Plans.tsx:569
 #: components/PdfToChat/Plans.tsx:659
-#~ msgid "Max upload size"
-#~ msgstr "最大上传大小"
+msgid "Max upload size"
+msgstr "最大上传大小"
 
 #: pages/billing/upgrade.tsx:727
 #: pages/billing/upgrade.tsx:828
-#~ msgid "Maximum {0} documents per <0>month</0>"
-#~ msgstr "每月最多{0}份文档"
+msgid "Maximum {0} documents per <0>month</0>"
+msgstr "每月最多{0}份文档"
 
 #: components/Modals/DocumentSelectModal.tsx:631
-#~ msgid "Maximum of 5 documents"
-#~ msgstr "最多5个文档"
+msgid "Maximum of 5 documents"
+msgstr "最多5个文档"
 
 #: components/Modals/PaymentModalContent.tsx:321
 #: components/Modals/PaymentModalContent.tsx:363
-#~ msgid "MB/Document"
-#~ msgstr "MB/文档"
+msgid "MB/Document"
+msgstr "MB/文档"
 
-#: pages/merge/index.tsx:838
+#: pages/tools/merge/index.tsx:825
 msgid "Merge Another"
 msgstr "合并另一个"
 
@@ -1911,110 +2006,110 @@ msgstr "合并另一个"
 #~ msgstr "合并PDF"
 
 #: components/PdfToChat/MoreTools.tsx:35
-#~ msgid "Merge PDF Tool"
-#~ msgstr "合并PDF工具"
+msgid "Merge PDF Tool"
+msgstr "合并PDF工具"
 
 #: pages/conversations/[[...params]].tsx:1218
 #: pages/knowledge-base/[[...params]].tsx:1797
-#~ msgid "Message Copied"
-#~ msgstr "消息已复制"
+msgid "Message Copied"
+msgstr "消息已复制"
 
 #: components/Landing/Products.tsx:136
 #: components/PdfToChat/Products.tsx:136
-#~ msgid "Mobile App"
-#~ msgstr "移动应用程序"
+msgid "Mobile App"
+msgstr "移动应用程序"
 
 #: components/Landing/Plans.tsx:422
 #: components/Modals/PaymentModalContent.tsx:497
 #: components/PdfToChat/Plans.tsx:422
-#~ msgid "Monthly"
-#~ msgstr "每月"
+msgid "Monthly"
+msgstr "每月"
 
 #~ msgid "Most Popular"
 #~ msgstr "最受欢迎"
 
 #: components/Landing/Plans.tsx:604
 #: components/PdfToChat/Plans.tsx:604
-#~ msgid "Most popular and Efficient"
-#~ msgstr "最受欢迎和高效"
+msgid "Most popular and Efficient"
+msgstr "最受欢迎和高效"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:431
 #: components/Modals/CreateAPIKeyDesktop.tsx:445
-#~ msgid "Name of API Key"
-#~ msgstr "API密钥名称"
+msgid "Name of API Key"
+msgstr "API密钥名称"
 
 #: components/Modals/DocumentSelectModal.tsx:586
-#~ msgid "Name of Knowledge Base"
-#~ msgstr "知识库名称"
+msgid "Name of Knowledge Base"
+msgstr "知识库名称"
 
 #: components/Modals/DocumentSelectModal.tsx:580
-#~ msgid "Name your Knowledge Base"
-#~ msgstr "为您的知识库命名"
+msgid "Name your Knowledge Base"
+msgstr "为您的知识库命名"
 
 #: components/PdfToChat/LandingFaq.tsx:90
 #: pages/faq/index.tsx:67
-#~ msgid "Need help? Look through our FAQs for quick answers!"
-#~ msgstr "需要帮助吗?查看我们的常见问题解答以获取快速答案!"
+msgid "Need help? Look through our FAQs for quick answers!"
+msgstr "需要帮助吗?查看我们的常见问题解答以获取快速答案!"
 
 #: components/APIKeysList.tsx:605
-#~ msgid "Need to increase your monthly limits?"
-#~ msgstr "需要增加每月限制吗?"
+msgid "Need to increase your monthly limits?"
+msgstr "需要增加每月限制吗?"
 
 #: components/Landing/Products.tsx:191
 #: components/Landing/Products.tsx:207
 #: components/PdfToChat/Products.tsx:191
 #: components/PdfToChat/Products.tsx:207
-#~ msgid "New"
-#~ msgstr "新增"
+msgid "New"
+msgstr "新增"
 
 #: pages/apikeys/index.tsx:445
-#~ msgid "New API Key"
-#~ msgstr "新API密钥"
+msgid "New API Key"
+msgstr "新API密钥"
 
 #: pages/documents/[[...id]]/index.tsx:567
-#~ msgid "New Chat"
-#~ msgstr "新聊天"
+msgid "New Chat"
+msgstr "新聊天"
 
 #: components/MainSidebar.tsx:691
 #: pages/documents/[[...id]]/index.tsx:985
-#~ msgid "New Conversation"
-#~ msgstr "新对话"
+msgid "New Conversation"
+msgstr "新对话"
 
 #: components/Modals/Profile.tsx:212
-#~ msgid "new password"
-#~ msgstr "新密码"
+msgid "new password"
+msgstr "新密码"
 
 #: components/Modals/Profile.tsx:207
-#~ msgid "New Password"
-#~ msgstr "新密码"
+msgid "New Password"
+msgstr "新密码"
 
 #: components/Modals/DocumentSelectModal.tsx:698
-#~ msgid "Next"
-#~ msgstr "下一步"
+msgid "Next"
+msgstr "下一步"
 
 #: components/SearchResults.tsx:344
-#~ msgid "No results found"
-#~ msgstr "未找到结果"
+msgid "No results found"
+msgstr "未找到结果"
 
 #: utils/faqData.tsx:102
-#~ msgid "No, documents cannot be edited within AskYourPDF. But this will be possible in the future."
-#~ msgstr "不，文件无法在AskYourPDF内编辑。但将来将有可能。"
+msgid "No, documents cannot be edited within AskYourPDF. But this will be possible in the future."
+msgstr "不，文件无法在AskYourPDF内编辑。但将来将有可能。"
 
 #: utils/faqData.tsx:118
-#~ msgid "No, only one document can be uploaded at a time. But this will be possible in the future."
-#~ msgstr "不，一次只能上传一个文档。但将来将有可能。"
+msgid "No, only one document can be uploaded at a time. But this will be possible in the future."
+msgstr "不，一次只能上传一个文档。但将来将有可能。"
 
 #: utils/faqData.tsx:124
-#~ msgid "No, password-protected documents cannot be uploaded to AskYourPDF."
-#~ msgstr "不，受密码保护的文件无法上传到AskYourPDF。"
+msgid "No, password-protected documents cannot be uploaded to AskYourPDF."
+msgstr "不，受密码保护的文件无法上传到AskYourPDF。"
 
 #: pages/chat/[[...docID]]/index.tsx:256
-#~ msgid "No, the chat interface is only for interacting with the content of the document"
-#~ msgstr "不,聊天界面仅用于与文档内容进行交互"
+msgid "No, the chat interface is only for interacting with the content of the document"
+msgstr "不,聊天界面仅用于与文档内容进行交互"
 
 #: utils/faqData.tsx:60
-#~ msgid "No, the chat interface is solely for interacting with the content of the document."
-#~ msgstr "不，聊天界面仅用于与文档内容互动。"
+msgid "No, the chat interface is solely for interacting with the content of the document."
+msgstr "不，聊天界面仅用于与文档内容互动。"
 
 #~ msgid "No, there are no limitations on the number of documents that can be uploaded per day"
 #~ msgstr "不,每天可以上传的文档数量没有限制"
@@ -2032,48 +2127,48 @@ msgstr "合并另一个"
 #~ msgstr "不,您无法将密码保护的文档上传到AskYourPDF。"
 
 #: pages/chat/[[...docID]]/index.tsx:251
-#~ msgid "No, you do not need to create an account to use the application, but there are restrictions."
-#~ msgstr "不,您不需要创建账户就可以使用该应用程序,但有部分限制。"
+msgid "No, you do not need to create an account to use the application, but there are restrictions."
+msgstr "不,您不需要创建账户就可以使用该应用程序,但有部分限制。"
 
 #: utils/faqData.tsx:40
-#~ msgid "No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."
-#~ msgstr "不，您无需创建帐户即可使用该应用程序。但是，有一些限制。要探索AskYourPDF的强大功能，您需要升级计划。"
+msgid "No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."
+msgstr "不，您无需创建帐户即可使用该应用程序。但是，有一些限制。要探索AskYourPDF的强大功能，您需要升级计划。"
 
 #: components/Landing/AppSection.tsx:147
-#~ msgid "Now <0>Live</0>"
-#~ msgstr "现在 <0>直播</0>"
+msgid "Now <0>Live</0>"
+msgstr "现在 <0>直播</0>"
 
 #~ msgid "Number of Docs"
 #~ msgstr "文档数量"
 
 #: components/APIKeysList.tsx:649
 #: components/APIKeysList.tsx:804
-#~ msgid "Number of Pages"
-#~ msgstr "页面数量"
+msgid "Number of Pages"
+msgstr "页面数量"
 
 #: components/APIKeysList.tsx:635
 #: components/APIKeysList.tsx:790
-#~ msgid "Number of Questions"
-#~ msgstr "问题数量"
+msgid "Number of Questions"
+msgstr "问题数量"
 
 #: components/tools/ToolCommon.tsx:219
 #: components/ToolsFooter.tsx:94
-#: pages/index.tsx:290
-#: pages/ocr/index.tsx:318
+#: pages/tools/index.tsx:290
+#: pages/tools/ocr/index.tsx:304
 msgid "OCR PDF Reader"
 msgstr "OCR PDF阅读器"
 
 #: pages/settings/index.tsx:652
 #: pages/settings/index.tsx:772
-#~ msgid "OCR support"
-#~ msgstr "OCR支持"
+msgid "OCR support"
+msgstr "OCR支持"
 
 #: components/Landing/Plans.tsx:690
 #: components/Modals/PaymentModalContent.tsx:336
 #: components/Modals/PaymentModalContent.tsx:390
 #: components/PdfToChat/Plans.tsx:690
-#~ msgid "OCR Support"
-#~ msgstr "OCR支持"
+msgid "OCR Support"
+msgstr "OCR支持"
 
 #~ msgid "OCR Support - Coming Soon"
 #~ msgstr "OCR支持 - 即将推出"
@@ -2082,38 +2177,38 @@ msgstr "OCR PDF阅读器"
 #~ msgstr "OCR支持(即将推出)"
 
 #: components/PdfToChat/MoreTools.tsx:27
-#~ msgid "OCR Tool"
-#~ msgstr ""
+msgid "OCR Tool"
+msgstr ""
 
 #: components/Modals/Profile.tsx:197
-#~ msgid "old password"
-#~ msgstr "旧密码"
+msgid "old password"
+msgstr "旧密码"
 
 #: components/Modals/Profile.tsx:192
-#~ msgid "Old Password"
-#~ msgstr "旧密码"
+msgid "Old Password"
+msgstr "旧密码"
 
 #: components/APIKeysList.tsx:762
-#~ msgid "Once you exhaust your quota you will have to upgrade to a production account to keep using your service"
-#~ msgstr "配额用尽后,您需要升级到生产账户才能继续使用该服务"
+msgid "Once you exhaust your quota you will have to upgrade to a production account to keep using your service"
+msgstr "配额用尽后,您需要升级到生产账户才能继续使用该服务"
 
 #: components/Affiliate/Features.tsx:141
-#~ msgid "Once you've signed up, begin sharing your referral link with your audience. Spread the word about AskYourPDF's strong document tools,  whether on a blog, a social media, or a professional network."
-#~ msgstr "一旦您注册，开始与您的观众分享您的推荐链接。宣传 AskYourPDF 强大的文档工具，无论是在博客上，社交媒体上还是"
+msgid "Once you've signed up, begin sharing your referral link with your audience. Spread the word about AskYourPDF's strong document tools,  whether on a blog, a social media, or a professional network."
+msgstr "一旦您注册，开始与您的观众分享您的推荐链接。宣传 AskYourPDF 强大的文档工具，无论是在博客上，社交媒体上还是"
 
 #: components/SearchResults.tsx:268
-#~ msgid "or document"
-#~ msgstr "或文档"
+msgid "or document"
+msgstr "或文档"
 
 #: components/Modals/ConversationFeedback.tsx:371
 #: components/Modals/ConversationFeedback.tsx:480
-#~ msgid "Other"
-#~ msgstr "其他"
+msgid "Other"
+msgstr "其他"
 
 #: components/Landing/Features.tsx:311
 #: components/PdfToChat/Features.tsx:336
-#~ msgid "Our AI-powered chat system not only provides you with accurate information but also fosters an enjoyable learning environment that keeps you coming back for more."
-#~ msgstr "我们的AI驱动聊天系统不仅为您提供准确的信息,还营造了一个愉快的学习环境,让您再次回来。"
+msgid "Our AI-powered chat system not only provides you with accurate information but also fosters an enjoyable learning environment that keeps you coming back for more."
+msgstr "我们的AI驱动聊天系统不仅为您提供准确的信息,还营造了一个愉快的学习环境,让您再次回来。"
 
 #: components/Waitlist.tsx:141
 msgid "Our API is Now Live"
@@ -2124,8 +2219,8 @@ msgid "Our Knowledge Base is Now Live"
 msgstr ""
 
 #: pages/privacy/index.tsx:129
-#~ msgid "Our Privacy Policy does not apply to services offered by other companies or individuals, including third-party services used in conjunction with AskYourPDF. We recommend that you review the privacy policies of any third-party services you may use."
-#~ msgstr "我们的隐私政策不适用于其他公司或个人提供的服务,包括与AskYourPDF一起使用的第三方服务。我们建议您查看您可能使用的任何第三方服务的隐私政策。"
+msgid "Our Privacy Policy does not apply to services offered by other companies or individuals, including third-party services used in conjunction with AskYourPDF. We recommend that you review the privacy policies of any third-party services you may use."
+msgstr "我们的隐私政策不适用于其他公司或个人提供的服务,包括与AskYourPDF一起使用的第三方服务。我们建议您查看您可能使用的任何第三方服务的隐私政策。"
 
 #: components/literature-review/LiteratureMainBar.tsx:294
 msgid "Output"
@@ -2137,36 +2232,36 @@ msgstr "输出"
 #: components/PdfToChat/Plans.tsx:479
 #: components/PdfToChat/Plans.tsx:561
 #: components/PdfToChat/Plans.tsx:651
-#~ msgid "pages per document"
-#~ msgstr "每份文档的页面数"
+msgid "pages per document"
+msgstr "每份文档的页面数"
 
 #: pages/documents/[[...id]]/index.tsx:950
-#~ msgid "Pages:"
-#~ msgstr "页数:"
+msgid "Pages:"
+msgstr "页数:"
 
 #: components/Modals/PaymentModalContent.tsx:318
 #: components/Modals/PaymentModalContent.tsx:360
-#~ msgid "pages/Document"
-#~ msgstr "页数/文档"
+msgid "pages/Document"
+msgstr "页数/文档"
 
 #: pages/billing/index.tsx:1054
 #: pages/settings/index.tsx:98
 #: pages/settings/index.tsx:113
-#~ msgid "Paid"
-#~ msgstr "已支付"
+msgid "Paid"
+msgstr "已支付"
 
 #: pages/billing/index.tsx:925
 #: pages/settings/index.tsx:929
-#~ msgid "Payment Method"
-#~ msgstr "支付方式"
+msgid "Payment Method"
+msgstr "支付方式"
 
 #: pages/settings/index.tsx:914
-#~ msgid "Payment Method, Billing History & Usage"
-#~ msgstr "支付方式、账单历史和使用情况"
+msgid "Payment Method, Billing History & Usage"
+msgstr "支付方式、账单历史和使用情况"
 
 #: components/Extension/Methods.tsx:140
-#~ msgid "PDF and Other Document Formats"
-#~ msgstr "PDF和其他文档格式"
+msgid "PDF and Other Document Formats"
+msgstr "PDF和其他文档格式"
 
 #: components/tools/ToolCommon.tsx:223
 #: components/ToolsFooter.tsx:86
@@ -2175,15 +2270,15 @@ msgstr "PDF压缩器"
 
 #: components/tools/ToolCommon.tsx:215
 #: components/ToolsFooter.tsx:90
-#: pages/index.tsx:283
-#: pages/merge/index.tsx:698
+#: pages/tools/index.tsx:283
+#: pages/tools/merge/index.tsx:685
 msgid "PDF Merger"
 msgstr "PDF合并器"
 
 #: components/tools/ToolCommon.tsx:211
 #: components/ToolsFooter.tsx:82
-#: pages/index.tsx:276
-#: pages/split/index.tsx:825
+#: pages/tools/index.tsx:276
+#: pages/tools/split/index.tsx:812
 msgid "PDF Splitter"
 msgstr "PDF拆分器"
 
@@ -2193,16 +2288,16 @@ msgstr ""
 
 #: components/Landing/Plans.tsx:455
 #: components/PdfToChat/Plans.tsx:455
-#~ msgid "Perfect for getting started! Experience the magic of AI-enhanced documents at no cost. Includes 100 chats per month."
-#~ msgstr "非常适合入门!免费体验AI增强文档的魔力。包括每个月100次聊天。"
+msgid "Perfect for getting started! Experience the magic of AI-enhanced documents at no cost. Includes 100 chats per month."
+msgstr "非常适合入门!免费体验AI增强文档的魔力。包括每个月100次聊天。"
 
 #: components/PdfToChat/Discover.tsx:57
-#~ msgid "Personal Knowledge"
-#~ msgstr "个人知识"
+msgid "Personal Knowledge"
+msgstr "个人知识"
 
 #: pages/settings/index.tsx:507
-#~ msgid "Pick an account plan that fits your workflow."
-#~ msgstr "选择一个适合您工作流程的账户计划。"
+msgid "Pick an account plan that fits your workflow."
+msgstr "选择一个适合您工作流程的账户计划。"
 
 #: components/Modals/Profile.tsx:320
 #: components/Modals/Profile.tsx:323
@@ -2210,88 +2305,89 @@ msgstr ""
 #: pages/billing/index.tsx:1075
 #: pages/billing/upgrade.tsx:665
 #: pages/settings/index.tsx:186
-#~ msgid "Plan"
-#~ msgstr "计划"
+msgid "Plan"
+msgstr "计划"
 
 #: components/Landing/Plans.tsx:398
 #: components/PdfToChat/Plans.tsx:398
-#~ msgid "Plans for <0>everyone</0>"
-#~ msgstr "适合<0>所有人</0>的计划"
+msgid "Plans for <0>everyone</0>"
+msgstr "适合<0>所有人</0>的计划"
 
 #: components/Modals/DocumentSelectModal.tsx:483
-#~ msgid "Please confirm if you have selected any documents"
-#~ msgstr "请确认您是否选择了任何文档"
+msgid "Please confirm if you have selected any documents"
+msgstr "请确认您是否选择了任何文档"
 
 #: components/Modals/DocumentSelectModal.tsx:459
-#~ msgid "Please confirm if you have selected any documents or given the knowledge base a name"
-#~ msgstr "请确认您是否选择了任何文档或为知识库命名"
+msgid "Please confirm if you have selected any documents or given the knowledge base a name"
+msgstr "请确认您是否选择了任何文档或为知识库命名"
 
 #: pages/upload/index.tsx:317
-#~ msgid "Please copy the document ID above and paste it into the <0>ChatGPT UI</0> to have a conversation about this document."
-#~ msgstr "请复制上方的文档ID,并将其粘贴到<0>ChatGPT UI</0>中,以便就此文档进行对话。"
+msgid "Please copy the document ID above and paste it into the <0>ChatGPT UI</0> to have a conversation about this document."
+msgstr "请复制上方的文档ID,并将其粘贴到<0>ChatGPT UI</0>中,以便就此文档进行对话。"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:300
-#~ msgid "Please enter a API name"
-#~ msgstr "请输入一个API名称"
+msgid "Please enter a API name"
+msgstr "请输入一个API名称"
 
 #: components/Settings/LinkAccountCall.tsx:96
-#~ msgid "Please enter a valid device ID"
-#~ msgstr ""
+msgid "Please enter a valid device ID"
+msgstr ""
 
 #: components/Modals/CreateAPIKeyDesktop.tsx:315
-#~ msgid "Please enter an API name"
-#~ msgstr "请输入一个API名称"
+msgid "Please enter an API name"
+msgstr "请输入一个API名称"
 
+#: components/literature-review/LiteratureSideBar.tsx:245
 #: components/literature-review/LiteratureSideBar.tsx:313
 msgid "Please enter instructions on how to review your text input OR document"
 msgstr "请提供有关如何审查文本输入或文档的说明"
 
 #: components/Summarisation/SummariseSideBar.tsx:366
-#~ msgid "Please enter instructions on how to summarise your text input OR document"
-#~ msgstr "请输入如何总结您的文本输入或文档的说明"
+msgid "Please enter instructions on how to summarise your text input OR document"
+msgstr "请输入如何总结您的文本输入或文档的说明"
 
 #: pages/delete/index.tsx:284
-#~ msgid "Please Enter Your Document ID"
-#~ msgstr "请输入您的文档ID"
+msgid "Please Enter Your Document ID"
+msgstr "请输入您的文档ID"
 
 #: pages/delete/index.tsx:234
-#~ msgid "Please make sure you're deleting a document you uploaded anonymously"
-#~ msgstr "请确保您正在删除匿名上传的文档"
+msgid "Please make sure you're deleting a document you uploaded anonymously"
+msgstr "请确保您正在删除匿名上传的文档"
 
 #: components/Modals/ConversationFeedback.tsx:388
 #: components/Modals/ConversationFeedback.tsx:497
-#~ msgid "Please provide details: (Optional)"
-#~ msgstr "请提供详细信息：（可选）"
+msgid "Please provide details: (Optional)"
+msgstr "请提供详细信息：（可选）"
 
 #: pages/billing/index.tsx:991
-#~ msgid "Please reach out to our team via <0>billing@askyourpdf.com</0> if you have any concerns about billing"
-#~ msgstr "如果您对结算有任何疑问,请通过<0>billing@askyourpdf.com</0>联系我们的团队"
+msgid "Please reach out to our team via <0>billing@askyourpdf.com</0> if you have any concerns about billing"
+msgstr "如果您对结算有任何疑问,请通过<0>billing@askyourpdf.com</0>联系我们的团队"
 
 #: pages/settings/index.tsx:1000
-#~ msgid "Please reach out to our team via billing@askyourpdf.com if you have any concerns about billing"
-#~ msgstr "如果您对结算有任何疑问,请通过billing@askyourpdf.com联系我们的团队"
+msgid "Please reach out to our team via billing@askyourpdf.com if you have any concerns about billing"
+msgstr "如果您对结算有任何疑问,请通过billing@askyourpdf.com联系我们的团队"
 
 #: pages/conversations/[[...params]].tsx:952
 #: pages/knowledge-base/[[...params]].tsx:1524
-#~ msgid "Please try again"
-#~ msgstr "请重试"
+msgid "Please try again"
+msgstr "请重试"
 
 #: pages/billing/index.tsx:960
 #: pages/settings/index.tsx:976
-#~ msgid "Please Wait"
-#~ msgstr "请稍等"
+msgid "Please Wait"
+msgstr "请稍等"
 
 #~ msgid "Premium Plan <0>$4.99/month or $3.99/month (Billed Annually)</0>"
 #~ msgstr "高级计划 <0>每月$4.99 或每年 $3.99(按年付费)</0>"
 
 #: pages/settings/index.tsx:625
-#~ msgid "Premium Plan <0>$9.99/month or $6.99/month (Billed Annually)</0>"
-#~ msgstr "高级计划 <0>$9.99/月 或 $6.99/月（按年度结算）</0>"
+msgid "Premium Plan <0>$9.99/month or $6.99/month (Billed Annually)</0>"
+msgstr "高级计划 <0>$9.99/月 或 $6.99/月（按年度结算）</0>"
 
-#: components/Navbar.tsx:296
-#: components/Navbar.tsx:353
-#: components/tools/ToolBarExt.tsx:250
-#: components/tools/ToolBarExt.tsx:284
+#: components/Navbar.tsx:304
+#: components/Navbar.tsx:361
+#: components/tools/ToolBarExt.tsx:258
+#: components/tools/ToolBarExt.tsx:292
 msgid "Pricing"
 msgstr "价格"
 
@@ -2299,45 +2395,46 @@ msgstr "价格"
 #: components/Modals/PaymentModalContent.tsx:399
 #: components/PdfToChat/Plans.tsx:702
 #: pages/settings/index.tsx:778
-#~ msgid "Priority access to new features"
-#~ msgstr "新功能的优先访问权限"
+msgid "Priority access to new features"
+msgstr "新功能的优先访问权限"
 
 #: components/Landing/Plans.tsx:698
 #: components/Modals/PaymentModalContent.tsx:396
 #: components/PdfToChat/Plans.tsx:698
 #: pages/settings/index.tsx:769
-#~ msgid "Priority support"
-#~ msgstr "优先支持"
+msgid "Priority support"
+msgstr "优先支持"
 
 #: utils/termsData.ts:46
-#~ msgid "Privacy"
-#~ msgstr "隐私"
+msgid "Privacy"
+msgstr "隐私"
 
 #: components/Footer.tsx:343
+#: pages/privacy/index.tsx:35
 msgid "Privacy Policy"
 msgstr "隐私政策"
 
 #: components/Api/Pricing.tsx:303
-#~ msgid "Pro Plan"
-#~ msgstr "专业计划"
+msgid "Pro Plan"
+msgstr "专业计划"
 
 #~ msgid "Pro Plan <0>$12.99/month or $7.99/month (Billed Annually)</0>"
 #~ msgstr "Pro计划 <0>每月$12.99 或每年$7.99(按年付费)</0>"
 
 #: pages/settings/index.tsx:743
-#~ msgid "Pro Plan <0>$14.99/month or $9.99/month (Billed Annually)</0>"
-#~ msgstr "专业计划 <0>$14.99/月 或 $9.99/月（按年度结算）</0>"
+msgid "Pro Plan <0>$14.99/month or $9.99/month (Billed Annually)</0>"
+msgstr "专业计划 <0>$14.99/月 或 $9.99/月（按年度结算）</0>"
 
 #~ msgid "Product Update Emails"
 #~ msgstr "产品更新电子邮件"
 
 #: components/APIKeysList.tsx:482
-#~ msgid "production"
-#~ msgstr "生产"
+msgid "production"
+msgstr "生产"
 
 #: pages/apikeys/index.tsx:413
-#~ msgid "Production Keys"
-#~ msgstr "生产密钥"
+msgid "Production Keys"
+msgstr "生产密钥"
 
 #: components/Footer.tsx:259
 msgid "Products"
@@ -2345,20 +2442,20 @@ msgstr "产品"
 
 #: components/AppSidebar.tsx:370
 #: components/MobileHeader.tsx:91
-#~ msgid "Profile"
-#~ msgstr "个人资料"
+msgid "Profile"
+msgstr "个人资料"
 
 #: components/Summarisation/SummariseSideBar.tsx:363
-#~ msgid "Prompt"
-#~ msgstr "提示"
+msgid "Prompt"
+msgstr "提示"
 
 #: pages/settings/index.tsx:1136
-#~ msgid "Questions"
-#~ msgstr "问题"
+msgid "Questions"
+msgstr "问题"
 
 #: pages/settings/index.tsx:1171
-#~ msgid "Questions (Plugin)"
-#~ msgstr "问题(插件)"
+msgid "Questions (Plugin)"
+msgstr "问题(插件)"
 
 #: components/Landing/Plans.tsx:496
 #: components/Landing/Plans.tsx:578
@@ -2368,66 +2465,68 @@ msgstr "产品"
 #: components/PdfToChat/Plans.tsx:578
 #: components/PdfToChat/Plans.tsx:668
 #: components/PdfToChat/Plans.tsx:763
-#~ msgid "questions per day"
-#~ msgstr "每天问题数"
+msgid "questions per day"
+msgstr "每天问题数"
 
 #: components/Modals/PaymentModalContent.tsx:330
-#~ msgid "questions/day"
-#~ msgstr "问题/天"
+msgid "questions/day"
+msgstr "问题/天"
 
 #: pages/knowledge-base/[[...params]].tsx:1463
-#~ msgid "Reaction Failed to submit"
-#~ msgstr "反应提交失败"
+msgid "Reaction Failed to submit"
+msgstr "反应提交失败"
 
 #: components/Api/Header.tsx:171
 #: components/APIKeysList.tsx:770
-#~ msgid "Read Documentation"
-#~ msgstr "阅读文档"
+msgid "Read Documentation"
+msgstr "阅读文档"
 
-#: pages/ocr/index.tsx:353
+#: pages/tools/ocr/index.tsx:339
 msgid "Read OCR PDF"
 msgstr "阅读OCR PDF"
 
 #: components/PdfToChat/Guide.tsx:125
 #: components/PdfToChat/SummarizeGuide.tsx:141
-#~ msgid "Ready to harness the future of document interaction? Let's dive into how you can make the most of AskYouPDF's incredible features."
-#~ msgstr "准备好利用文档互动的未来了吗？让我们深入了解如何充分利用AskYouPDF令人惊叹的功能。"
+msgid "Ready to harness the future of document interaction? Let's dive into how you can make the most of AskYouPDF's incredible features."
+msgstr "准备好利用文档互动的未来了吗？让我们深入了解如何充分利用AskYouPDF令人惊叹的功能。"
 
 #: components/PdfToChat/Guide.tsx:168
-#~ msgid "Receive Answers"
-#~ msgstr "接收答案"
+msgid "Receive Answers"
+msgstr "接收答案"
 
 #: components/PdfToChat/SummarizeGuide.tsx:195
-#~ msgid "Receive Your Summary"
-#~ msgstr "收到您的摘要"
+msgid "Receive Your Summary"
+msgstr "收到您的摘要"
 
 #: components/AppHeader.tsx:116
-#~ msgid "Renew"
-#~ msgstr "续订"
+msgid "Renew"
+msgstr "续订"
 
 #: pages/billing/upgrade.tsx:744
 #: pages/settings/index.tsx:567
-#~ msgid "Renew Canceled Plan"
-#~ msgstr "续订已取消的计划"
+msgid "Renew Canceled Plan"
+msgstr "续订已取消的计划"
 
 #: pages/billing/index.tsx:883
-#~ msgid "Renew Plan"
-#~ msgstr "续订计划"
+msgid "Renew Plan"
+msgstr "续订计划"
 
 #: components/Modals/ConversationFeedback.tsx:358
 #: components/Modals/ConversationFeedback.tsx:468
-#~ msgid "Report an Issue"
-#~ msgstr "报告问题"
+msgid "Report an Issue"
+msgstr "报告问题"
 
-#: components/literature-review/MainContent.tsx:289
+#: pages/summarise/index.tsx:171
+#: pages/summarise/index.tsx:231
+#: pages/tools/literature-review-writer/index.tsx:287
 msgid "Request timed out. Please try again"
 msgstr "请求超时。请重试"
 
 #: pages/privacy/index.tsx:38
-#~ msgid "Respecting Your Privacy: Our Commitment and Assurance"
-#~ msgstr "尊重您的隐私:我们的承诺和保证"
+msgid "Respecting Your Privacy: Our Commitment and Assurance"
+msgstr "尊重您的隐私:我们的承诺和保证"
 
-#: components/literature-review/MainContent.tsx:371
+#: pages/tools/literature-review-writer/index.tsx:369
 msgid "Results for"
 msgstr " 结果为"
 
@@ -2437,8 +2536,8 @@ msgstr " 结果为"
 #~ msgid "Resume Conversation"
 #~ msgstr "继续对话"
 
-#: components/literature-review/MainContent.tsx:281
-#: components/literature-review/MainContent.tsx:291
+#: pages/tools/literature-review-writer/index.tsx:279
+#: pages/tools/literature-review-writer/index.tsx:289
 msgid "Review Failed"
 msgstr ""
 
@@ -2451,19 +2550,20 @@ msgstr "评论将显示在这里"
 
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:195
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:191
-#~ msgid "Save Details"
-#~ msgstr "保存详细信息"
+msgid "Save Details"
+msgstr "保存详细信息"
 
 #: components/Landing/Features.tsx:286
 #: components/PdfToChat/Features.tsx:311
-#~ msgid "Save Time"
-#~ msgstr "节省时间"
+msgid "Save Time"
+msgstr "节省时间"
 
-#: components/literature-review/MainContent.tsx:359
+#: pages/tools/literature-review-writer/index.tsx:357
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr ""
 
 #: components/Footer.tsx:207
+#: components/Landing/Hero.tsx:275
 msgid "Say hello to documents that respond to you! With AskYourPDF, your reading isn't just simple, it's fun!"
 msgstr "问候那些回复您的文档吧!有了AskYourPDF,您的阅读不仅简单,还很有趣!"
 
@@ -2473,191 +2573,194 @@ msgstr "问候那些回复您的文档吧!有了AskYourPDF,您的阅读不仅简
 #~ "PDF interactions for free"
 #~ msgstr "无缝地编辑、拆分、合并、压缩和提取PDF中的文本。充分利用人工智能的力量，免费简化您的PDF操作"
 
-#: pages/index.tsx:303
+#: pages/tools/index.tsx:303
 msgid "Seamlessly edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
 msgstr "无缝地编辑、拆分、合并、压缩和提取PDF中的文本。充分利用人工智能的力量，免费简化您的PDF操作"
 
 #: components/Modals/SearchBottomSheet.tsx:131
-#~ msgid "Search"
-#~ msgstr "搜索"
+msgid "Search"
+msgstr "搜索"
 
 #: components/SearchResults.tsx:368
-#~ msgid "Search Failed"
-#~ msgstr "搜索失败"
+msgid "Search Failed"
+msgstr "搜索失败"
 
 #: components/SearchResults.tsx:261
-#~ msgid "Search for any conversation"
-#~ msgstr "搜索任何对话"
+msgid "Search for any conversation"
+msgstr "搜索任何对话"
 
 #: pages/privacy/index.tsx:110
-#~ msgid "Security of Your Information"
-#~ msgstr "您信息的安全性"
+msgid "Security of Your Information"
+msgstr "您信息的安全性"
 
 #: components/Api/Pricing.tsx:268
-#~ msgid "Select a preferred pricing plan to get started"
-#~ msgstr "选择首选定价计划以开始"
+msgid "Select a preferred pricing plan to get started"
+msgstr "选择首选定价计划以开始"
 
 #: components/Modals/ConversationFeedback.tsx:363
 #: components/Modals/ConversationFeedback.tsx:473
-#~ msgid "Select an option"
-#~ msgstr "选择一个选项"
+msgid "Select an option"
+msgstr "选择一个选项"
 
 #: components/Modals/DocumentSelectModal.tsx:628
-#~ msgid "Select Documents"
-#~ msgstr "选择文档"
+msgid "Select Documents"
+msgstr "选择文档"
 
 #: components/AppSidebar.tsx:354
 #: pages/settings/index.tsx:483
-#~ msgid "Settings"
-#~ msgstr "设置"
+msgid "Settings"
+msgstr "设置"
 
 #: pages/conversations/[[...params]].tsx:1078
-#~ msgid "Share"
-#~ msgstr "分享"
+msgid "Share"
+msgstr "分享"
 
 #: components/Modals/PaymentModalContent.tsx:426
 #: pages/settings/index.tsx:649
 #: pages/settings/index.tsx:766
 #: pages/settings/index.tsx:859
-#~ msgid "Share Customizable link"
-#~ msgstr "分享可定制链接"
+msgid "Share Customizable link"
+msgstr "分享可定制链接"
 
 #: components/Modals/ShareModal.tsx:180
-#~ msgid "Share this conversation"
-#~ msgstr "分享此对话"
+msgid "Share this conversation"
+msgstr "分享此对话"
 
 #: components/Modals/ShareModal.tsx:209
-#~ msgid "Share Via:"
-#~ msgstr "分享方式:"
+msgid "Share Via:"
+msgstr "分享方式:"
 
 #: components/Affiliate/Features.tsx:137
-#~ msgid "Share Your Referral Link with Your Audience"
-#~ msgstr "与您的观众分享您的推荐链接"
+msgid "Share Your Referral Link with Your Audience"
+msgstr "与您的观众分享您的推荐链接"
 
 #: pages/chat/[[...docID]]/index.tsx:337
 #: pages/knowledge-base/intro.tsx:392
-#~ msgid "Short guides to get you started"
-#~ msgstr "简短指南帮助您入门"
+msgid "Short guides to get you started"
+msgstr "简短指南帮助您入门"
 
 #: components/Affiliate/Features.tsx:123
-#~ msgid "Sign Up for the Affiliate Program"
-#~ msgstr "注册联盟计划"
+msgid "Sign Up for the Affiliate Program"
+msgstr "注册联盟计划"
 
 #: components/Affiliate/Join.tsx:103
-#~ msgid "Sign Up Now"
-#~ msgstr "立即注册"
+msgid "Sign Up Now"
+msgstr "立即注册"
 
 #: components/Modals/PaymentModal.tsx:49
 #: pages/documents/[[...id]]/index.tsx:772
-#~ msgid "Something went wrong. Please try again"
-#~ msgstr "发生错误。请重试"
+msgid "Something went wrong. Please try again"
+msgstr "发生错误。请重试"
 
 #: components/Summarisation/SummariseUpload.tsx:557
-#~ msgid "Sorry, but this document has over {SUMMARY_MAX_PAGES} pages. Please select a document with fewer pages to continue."
-#~ msgstr "对不起，但是这个文档有超过{SUMMARY_MAX_PAGES}页。请选择一个页面较少的文档以继续。"
+msgid "Sorry, but this document has over {SUMMARY_MAX_PAGES} pages. Please select a document with fewer pages to continue."
+msgstr "对不起，但是这个文档有超过{SUMMARY_MAX_PAGES}页。请选择一个页面较少的文档以继续。"
 
 #: components/Summarisation/SummariseUpload.tsx:543
 #~ msgid "Sorry, but this document has over 200 pages. Please select a document with fewer pages to continue."
 #~ msgstr ""
 
 #: components/BuyCredits.tsx:41
-#~ msgid "Sorry, you can't buy credits as a free user. Upgrade your account to access this feature"
-#~ msgstr ""
+msgid "Sorry, you can't buy credits as a free user. Upgrade your account to access this feature"
+msgstr ""
 
-#: pages/split/index.tsx:946
+#: pages/tools/split/index.tsx:933
 msgid "Split Another"
 msgstr "拆分另一个"
 
-#: pages/split/index.tsx:863
+#: pages/tools/split/index.tsx:850
 msgid "Split PDF"
 msgstr "拆分PDF"
 
 #: components/PdfToChat/MoreTools.tsx:31
-#~ msgid "Split PDF Tool"
-#~ msgstr "分割PDF工具"
+msgid "Split PDF Tool"
+msgstr "分割PDF工具"
 
 #: pages/chat/[[...docID]]/index.tsx:329
 #: pages/file-upload/index.tsx:407
-#~ msgid "Start Conversation"
-#~ msgstr "开始对话"
+msgid "Start Conversation"
+msgstr "开始对话"
 
-#: components/Navbar.tsx:414
-#: components/tools/ToolBarExt.tsx:330
+#: components/Navbar.tsx:422
+#: components/PdfToChat/Discover.tsx:185
+#: components/PdfToChat/Features.tsx:346
+#: components/PdfToChat/SummarizeGuide.tsx:211
+#: components/tools/ToolBarExt.tsx:338
 msgid "Start For Free"
 msgstr "免费开始"
 
 #: pages/chat/[[...docID]]/index.tsx:313
-#~ msgid "Start your first conversation"
-#~ msgstr "开始您的第一个对话"
+msgid "Start your first conversation"
+msgstr "开始您的第一个对话"
 
 #: pages/knowledge-base/intro.tsx:344
-#~ msgid "Start your first knowledge base"
-#~ msgstr "开始创建您的第一个知识库"
+msgid "Start your first knowledge base"
+msgstr "开始创建您的第一个知识库"
 
 #: pages/billing/index.tsx:1043
 #: pages/settings/index.tsx:155
-#~ msgid "Status"
-#~ msgstr "状态"
+msgid "Status"
+msgstr "状态"
 
-#: pages/index.tsx:270
+#: pages/tools/index.tsx:270
 msgid "Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work."
 msgstr ""
 
 #: components/Modals/ConversationFeedback.tsx:266
-#~ msgid "Submission Failed"
-#~ msgstr "提交失败"
+msgid "Submission Failed"
+msgstr "提交失败"
 
 #: components/Modals/ConversationFeedback.tsx:419
 #: components/Modals/ConversationFeedback.tsx:528
-#~ msgid "Submit"
-#~ msgstr "提交"
+msgid "Submit"
+msgstr "提交"
 
 #~ msgid "Submitting this report will send the current conversation to Anthropic and store with your feedback for future improvements to our models."
 #~ msgstr "提交此报告将发送当前对话至Anthropic，并存储您的反馈以供将来改进我们的模型时使用。"
 
 #: components/Modals/ConversationFeedback.tsx:400
 #: components/Modals/ConversationFeedback.tsx:509
-#~ msgid "Submitting this report will send the current conversation to AskYourPDF and store with your feedback for future improvements to our models."
-#~ msgstr ""
+msgid "Submitting this report will send the current conversation to AskYourPDF and store with your feedback for future improvements to our models."
+msgstr ""
 
 #: components/Modals/PaymentModalContent.tsx:536
-#~ msgid "Subscribe for"
-#~ msgstr "订阅"
+msgid "Subscribe for"
+msgstr "订阅"
 
 #: components/Modals/PaymentModalContent.tsx:352
 #: components/Modals/PaymentModalContent.tsx:409
-#~ msgid "Subscribe To"
-#~ msgstr "订阅"
+msgid "Subscribe To"
+msgstr "订阅"
 
 #: utils/faqData.tsx:75
-#~ msgid "Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."
-#~ msgstr "订阅者可以随时取消订阅。但是，不会为订阅期内未使用的部分提供退款。"
+msgid "Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."
+msgstr "订阅者可以随时取消订阅。但是，不会为订阅期内未使用的部分提供退款。"
 
 #: utils/termsData.ts:57
-#~ msgid "Subscribers can cancel their subscriptions at any time, but no refunds will be provided for any unused portion of the subscription period."
-#~ msgstr "订阅者可以随时取消他们的订阅，但不会为订阅期间的未使用部分提供退款。"
+msgid "Subscribers can cancel their subscriptions at any time, but no refunds will be provided for any unused portion of the subscription period."
+msgstr "订阅者可以随时取消他们的订阅，但不会为订阅期间的未使用部分提供退款。"
 
 #: components/Modals/PaymentModal.tsx:48
-#~ msgid "Subscription Failed"
-#~ msgstr "订阅失败"
+msgid "Subscription Failed"
+msgstr "订阅失败"
 
 #: utils/termsData.ts:56
-#~ msgid "Subscriptions and cancellations"
-#~ msgstr "订阅和取消订阅"
+msgid "Subscriptions and cancellations"
+msgstr "订阅和取消订阅"
 
 #: pages/conversations/[[...params]].tsx:935
 #: pages/documents/[[...id]]/index.tsx:764
 #: pages/knowledge-base/[[...params]].tsx:1507
-#~ msgid "Success"
-#~ msgstr "成功"
+msgid "Success"
+msgstr "成功"
 
 #~ msgid "Sumarisation"
 #~ msgstr "摘要"
 
 #: components/AppSidebar.tsx:296
 #: components/MobileHeader.tsx:107
-#~ msgid "Summarisation"
-#~ msgstr "摘要"
+msgid "Summarisation"
+msgstr "摘要"
 
 #: pages/settings/index.tsx:909
 #: pages/settings/index.tsx:917
@@ -2665,176 +2768,177 @@ msgstr ""
 #~ msgstr "摘要信用"
 
 #: components/Summarisation/SummariseMainBar.tsx:389
-#~ msgid "Summarise Documents"
-#~ msgstr "摘要文档"
+msgid "Summarise Documents"
+msgstr "摘要文档"
 
 #: components/Modals/PaymentModalContent.tsx:342
 #: components/Modals/PaymentModalContent.tsx:381
 #: pages/settings/index.tsx:661
 #: pages/settings/index.tsx:784
-#~ msgid "Summarization Access"
-#~ msgstr "摘要访问"
+msgid "Summarization Access"
+msgstr "摘要访问"
 
 #: components/Summarisation/SummariseMainBar.tsx:406
-#~ msgid "Summary"
-#~ msgstr "摘要"
+msgid "Summary"
+msgstr "摘要"
 
 #: components/Summarisation/SummariseMainBar.tsx:413
-#~ msgid "Summary copied"
-#~ msgstr "摘要已复制"
+msgid "Summary copied"
+msgstr "摘要已复制"
 
 #: pages/summarise/index.tsx:163
 #: pages/summarise/index.tsx:175
 #: pages/summarise/index.tsx:223
 #: pages/summarise/index.tsx:235
-#~ msgid "Summary Failed"
-#~ msgstr "摘要失败"
+msgid "Summary Failed"
+msgstr "摘要失败"
 
 #: components/Summarisation/SummariseMainBar.tsx:445
-#~ msgid "Summary will be displayed here"
-#~ msgstr "摘要将在此处显示"
+msgid "Summary will be displayed here"
+msgstr "摘要将在此处显示"
 
 #: components/Landing/Features.tsx:194
 #: components/PdfToChat/Features.tsx:200
-#~ msgid "Supercharge Document <0/> <1>Interactions</1>"
-#~ msgstr "为文档<0/> <1>交互</1>加力"
+msgid "Supercharge Document <0/> <1>Interactions</1>"
+msgstr "为文档<0/> <1>交互</1>加力"
 
 #: components/Landing/Hero.tsx:298
-#~ msgid "Supported formats"
-#~ msgstr "支持的格式"
+msgid "Supported formats"
+msgstr "支持的格式"
 
-#: components/tools/DocUploadNoFunc.tsx:390
+#: components/tools/DocUploadNoFunc.tsx:389
 msgid "Supported formats: .pdf"
 msgstr ""
 
 #: components/DocumentUpload.tsx:446
-#~ msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf'"
-#~ msgstr "支持的格式:.pdf、.txt、.ppt、.pptx、.csv、.epub、.rtf"
+msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf'"
+msgstr "支持的格式:.pdf、.txt、.ppt、.pptx、.csv、.epub、.rtf"
 
-#: components/literature-review/LiteratureUpload.tsx:518
+#: components/Summarisation/SummariseUpload.tsx:534
 msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf' (max 200 pages)"
 msgstr "支持的格式：.pdf、.txt、.ppt、.pptx、.csv、.epub、.rtf（最多200页）"
 
 #: pages/billing/index.tsx:866
-#~ msgid "Switch Plan"
-#~ msgstr "切换计划"
+msgid "Switch Plan"
+msgstr "切换计划"
 
 #: pages/settings/index.tsx:676
-#~ msgid "Switch To Premium"
-#~ msgstr "切换到高级计划"
+msgid "Switch To Premium"
+msgstr "切换到高级计划"
 
 #: pages/settings/index.tsx:798
-#~ msgid "Switch To Pro"
-#~ msgstr "切换到Pro计划"
+msgid "Switch To Pro"
+msgstr "切换到Pro计划"
 
 #: components/Landing/AppSection.tsx:152
 #: components/PdfToChat/AppSection.tsx:152
-#~ msgid "Take your document chats on the go with AskYourPDF app! Chat, track, learn - anytime, anywhere. Available on iOS and Android."
-#~ msgstr "使用AskYourPDF应用程序随时随地进行文档聊天! 聊天、跟踪、学习 - 随时随地,在iOS和Android上可用。"
+msgid "Take your document chats on the go with AskYourPDF app! Chat, track, learn - anytime, anywhere. Available on iOS and Android."
+msgstr "使用AskYourPDF应用程序随时随地进行文档聊天! 聊天、跟踪、学习 - 随时随地,在iOS和Android上可用。"
 
 #: components/PdfToChat/Discover.tsx:52
-#~ msgid "Technical Mastery"
-#~ msgstr "技术精通"
+msgid "Technical Mastery"
+msgstr "技术精通"
 
 #: utils/termsData.ts:51
-#~ msgid "Termination"
-#~ msgstr "终止"
+msgid "Termination"
+msgstr "终止"
 
 #: components/Footer.tsx:338
+#: pages/terms/index.tsx:44
 msgid "Terms & Conditions"
 msgstr "条款和条件"
 
 #: components/APIKeysList.tsx:482
-#~ msgid "test"
-#~ msgstr "测试"
+msgid "test"
+msgstr "测试"
 
 #: components/APIKeysList.tsx:682
-#~ msgid "Test API keys should only be used on staging or during development. Switch to production keys when you wish to go live"
-#~ msgstr "测试API密钥只应在暂存或开发过程中使用。希望上线时请切换到生产密钥"
+msgid "Test API keys should only be used on staging or during development. Switch to production keys when you wish to go live"
+msgstr "测试API密钥只应在暂存或开发过程中使用。希望上线时请切换到生产密钥"
 
 #: pages/apikeys/index.tsx:405
-#~ msgid "Test Keys"
-#~ msgstr "测试密钥"
+msgid "Test Keys"
+msgstr "测试密钥"
 
 #: components/Modals/ConversationFeedback.tsx:333
 #: components/Modals/ConversationFeedback.tsx:443
-#~ msgid "Thank You"
-#~ msgstr "谢谢"
+msgid "Thank You"
+msgstr "谢谢"
 
 #: pages/chat/[[...docID]]/index.tsx:241
 #: utils/faqData.tsx:19
-#~ msgid "The application uses artificial intelligence to analyze the content of the document and provide a chat interface for users to ask questions get answers."
-#~ msgstr "该应用程序使用人工智能分析文档的内容,并提供聊天界面供用户提出问题并获取答案。"
+msgid "The application uses artificial intelligence to analyze the content of the document and provide a chat interface for users to ask questions get answers."
+msgstr "该应用程序使用人工智能分析文档的内容,并提供聊天界面供用户提出问题并获取答案。"
 
 #: pages/knowledge-base/intro.tsx:255
-#~ msgid "The AskYourPDF Knowledge Base is a service that allows users to create a list or library of documents which then serves as a knowledge base. Users can then chat this knowledge base as if it were a single document and receive answers based on the information contained within those documents."
-#~ msgstr "AskYourPDF知识库是一项服务，允许用户创建文档列表或库，然后作为知识库使用。用户可以像单个文档一样与该知识库聊天，并根据其中包含的信息获取答案。"
+msgid "The AskYourPDF Knowledge Base is a service that allows users to create a list or library of documents which then serves as a knowledge base. Users can then chat this knowledge base as if it were a single document and receive answers based on the information contained within those documents."
+msgstr "AskYourPDF知识库是一项服务，允许用户创建文档列表或库，然后作为知识库使用。用户可以像单个文档一样与该知识库聊天，并根据其中包含的信息获取答案。"
 
 #: components/PdfToChat/KnowledgeBaseServiceBanner.tsx:85
-#~ msgid "The AskYourPDF Knowledge Base service provides a platform for users to upload documents into one folder 📂 (knowledge base) from which they can ask questions and get answers based on those documents."
-#~ msgstr "AskYourPDF知识库服务为用户提供了一个平台，可以将文档上传到一个文件夹📂（知识库）中，用户可以根据这些文档提问并获得答案。"
+msgid "The AskYourPDF Knowledge Base service provides a platform for users to upload documents into one folder 📂 (knowledge base) from which they can ask questions and get answers based on those documents."
+msgstr "AskYourPDF知识库服务为用户提供了一个平台，可以将文档上传到一个文件夹📂（知识库）中，用户可以根据这些文档提问并获得答案。"
 
 #~ msgid "The chat session is available as long as the tab is open."
 #~ msgstr "聊天会话在标签页打开时一直可用。"
 
 #: pages/privacy/index.tsx:55
-#~ msgid "The Information We Collect and Its Use"
-#~ msgstr "我们收集的信息及其用途"
+msgid "The Information We Collect and Its Use"
+msgstr "我们收集的信息及其用途"
 
 #: pages/knowledge-base/intro.tsx:298
-#~ msgid "The Knowledge Base service is included at no additional cost for our Premium, Pro, and Enterprise plans."
-#~ msgstr "我们的优质、专业和企业计划中不会额外收费包含知识库服务。"
+msgid "The Knowledge Base service is included at no additional cost for our Premium, Pro, and Enterprise plans."
+msgstr "我们的优质、专业和企业计划中不会额外收费包含知识库服务。"
 
 #: utils/termsData.ts:72
-#~ msgid "These terms and conditions shall be governed by and construed in accordance with the laws of the country or state where it is used."
-#~ msgstr "这些条款和条件应由使用国家或州的法律管辖和解释。"
+msgid "These terms and conditions shall be governed by and construed in accordance with the laws of the country or state where it is used."
+msgstr "这些条款和条件应由使用国家或州的法律管辖和解释。"
 
 #: pages/privacy/index.tsx:125
-#~ msgid "Third-Party Services"
-#~ msgstr "第三方服务"
+msgid "Third-Party Services"
+msgstr "第三方服务"
 
 #: pages/chat/[[...docID]]/index.tsx:236
-#~ msgid "This application lets you chat with any document you upload."
-#~ msgstr "此应用程序可让您与上传的任何文档聊天。"
+msgid "This application lets you chat with any document you upload."
+msgstr "此应用程序可让您与上传的任何文档聊天。"
 
 #: pages/subscription-error/index.tsx:163
-#~ msgid "This feature requires an active subscription. Click the button below to upgrade your account and access more features"
-#~ msgstr "此功能需要活跃的订阅。点击下方按钮升级您的帐户并访问更多功能"
+msgid "This feature requires an active subscription. Click the button below to upgrade your account and access more features"
+msgstr "此功能需要活跃的订阅。点击下方按钮升级您的帐户并访问更多功能"
 
 #: pages/billing/upgrade.tsx:674
-#~ msgid "This plan limits your quota to the maximum available for the {0} Plan. <0>Learn More</0>"
-#~ msgstr "此计划将您的配额限制为{0}计划可用的最大配额。<0>了解更多</0>"
+msgid "This plan limits your quota to the maximum available for the {0} Plan. <0>Learn More</0>"
+msgstr "此计划将您的配额限制为{0}计划可用的最大配额。<0>了解更多</0>"
 
 #: components/APIKeysList.tsx:501
-#~ msgid "This quota sets the maximum number of API calls or actions you can perform within a given period. If you find your needs exceeding this limit, consider upgrading to one of our premium plans for additional quota and features."
-#~ msgstr "此配额设置了给定时间内可以执行的最大API调用或操作次数。如果您发现需求超过此限制,请考虑升级到我们的高级计划以获取额外的配额和功能。"
+msgid "This quota sets the maximum number of API calls or actions you can perform within a given period. If you find your needs exceeding this limit, consider upgrading to one of our premium plans for additional quota and features."
+msgstr "此配额设置了给定时间内可以执行的最大API调用或操作次数。如果您发现需求超过此限制,请考虑升级到我们的高级计划以获取额外的配额和功能。"
 
 #: components/PdfToChat/SummarizeGuide.tsx:155
-#~ msgid "To begin, upload the document to be summarised. This can be a PDF, text file, or any of the various document formats that are supported. <0/>After you've submitted the document, you'll have to wait a few moments while AskYourPDF processes it. Our AI system will analyze the material in order to extract important information."
-#~ msgstr "要开始，请上传要总结的文件。这可以是PDF文件、文本文件或任何支持的各种文件格式之一。在提交文件后，您需要等待片刻，直到AskYourPDF处理完毕。我们的人工智能系统将分析材料以提取重要信息。"
+msgid "To begin, upload the document to be summarised. This can be a PDF, text file, or any of the various document formats that are supported. <0/>After you've submitted the document, you'll have to wait a few moments while AskYourPDF processes it. Our AI system will analyze the material in order to extract important information."
+msgstr "要开始，请上传要总结的文件。这可以是PDF文件、文本文件或任何支持的各种文件格式之一。在提交文件后，您需要等待片刻，直到AskYourPDF处理完毕。我们的人工智能系统将分析材料以提取重要信息。"
 
 #: pages/privacy/index.tsx:59
-#~ msgid "To provide the best possible experience on AskYourPDF, we collect certain types of data from our users:"
-#~ msgstr "为了在AskYourPDF上提供最佳的可能体验,我们会从用户那里收集某些类型的数据:"
+msgid "To provide the best possible experience on AskYourPDF, we collect certain types of data from our users:"
+msgstr "为了在AskYourPDF上提供最佳的可能体验,我们会从用户那里收集某些类型的数据:"
 
 #: utils/termsData.ts:67
-#~ msgid "To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of AskYourPDF."
-#~ msgstr "在法律允许的最大范围内,我们对任何因使用AskYourPDF而产生的任何直接、间接、附带、特殊或后果性损害概不负责。"
+msgid "To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of AskYourPDF."
+msgstr "在法律允许的最大范围内,我们对任何因使用AskYourPDF而产生的任何直接、间接、附带、特殊或后果性损害概不负责。"
 
-#: components/Navbar.tsx:288
-#: components/Navbar.tsx:345
-#: pages/index.tsx:305
+#: components/Navbar.tsx:296
+#: components/Navbar.tsx:353
+#: pages/tools/index.tsx:305
 msgid "Tools"
 msgstr "工具"
 
 #: components/Landing/Products.tsx:178
 #: components/PdfToChat/Products.tsx:178
-#~ msgid "Tools we’ve built to improve your document experience"
-#~ msgstr "我们打造的改善文档体验的工具"
+msgid "Tools we’ve built to improve your document experience"
+msgstr "我们打造的改善文档体验的工具"
 
 #: pages/settings/index.tsx:1051
-#~ msgid "Track your Usage"
-#~ msgstr "跟踪您的使用情况"
+msgid "Track your Usage"
+msgstr "跟踪您的使用情况"
 
 #: pages/tools/ocr/index.tsx:505
 #~ msgid ""
@@ -2842,8 +2946,8 @@ msgstr "工具"
 #~ "powered OCR PDF Reader."
 #~ msgstr "利用我们基于人工智能的OCR PDF阅读器，将扫描或基于图像的PDF文档转化为可编辑和可搜索的文本。"
 
-#: pages/index.tsx:291
-#: pages/ocr/index.tsx:319
+#: pages/tools/index.tsx:291
+#: pages/tools/ocr/index.tsx:305
 msgid "Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader."
 msgstr "利用我们基于人工智能的OCR PDF阅读器，将扫描或基于图像的PDF文档转化为可编辑和可搜索的文本。"
 
@@ -2851,9 +2955,10 @@ msgstr "利用我们基于人工智能的OCR PDF阅读器，将扫描或基于�
 #~ msgstr "信任"
 
 #: components/PdfToChat/Universities.tsx:92
-#~ msgid "Trusted By <0> Leading Universities </0>"
-#~ msgstr "信任于顶尖大学"
+msgid "Trusted By <0> Leading Universities </0>"
+msgstr "信任于顶尖大学"
 
+#: components/PdfToChat/KnowledgeBaseServiceBanner.tsx:93
 #: components/tools/ToolsWaitlist.tsx:150
 #: components/Waitlist.tsx:151
 msgid "Try it Now"
@@ -2861,108 +2966,108 @@ msgstr "立即试用"
 
 #: components/Announcements.tsx:19
 #: components/Announcements.tsx:25
-#~ msgid "Try it out now"
-#~ msgstr "现在试试看"
+msgid "Try it out now"
+msgstr "现在试试看"
 
 #: components/SearchResults.tsx:264
-#~ msgid "Type what you want to search for in the search box, you can filter by conversation"
-#~ msgstr "在搜索框中输入要搜索的内容,您可以按对话进行过滤"
+msgid "Type what you want to search for in the search box, you can filter by conversation"
+msgstr "在搜索框中输入要搜索的内容,您可以按对话进行过滤"
 
 #: pages/conversations/[[...params]].tsx:1057
 #: pages/knowledge-base/[[...params]].tsx:1635
-#~ msgid "Typing..."
-#~ msgstr "输入中..."
+msgid "Typing..."
+msgstr "输入中..."
 
 #: pages/delete/index.tsx:239
 #: pages/delete/index.tsx:246
-#~ msgid "Unable to Delete document, please make sure you're deleting a document you uploaded anonymously"
-#~ msgstr "无法删除文档，请确保您正在删除您匿名上传的文档。"
+msgid "Unable to Delete document, please make sure you're deleting a document you uploaded anonymously"
+msgstr "无法删除文档，请确保您正在删除您匿名上传的文档。"
 
 #: components/Modals/UnitsExceededModal.tsx:105
-#~ msgid "Units Exceeded"
-#~ msgstr ""
+msgid "Units Exceeded"
+msgstr ""
 
 #: components/Landing/Features.tsx:269
 #: components/PdfToChat/Features.tsx:294
-#~ msgid "Unleash the chat power in your documents! Turn them into friendly Chatbot's,ready to share knowledge and insights."
-#~ msgstr "释放文档中的聊天力量!将它们变成友好的聊天机器人,准备分享知识和见解。"
+msgid "Unleash the chat power in your documents! Turn them into friendly Chatbot's,ready to share knowledge and insights."
+msgstr "释放文档中的聊天力量!将它们变成友好的聊天机器人,准备分享知识和见解。"
 
 #: components/Landing/Plans.tsx:686
 #: components/Modals/PaymentModalContent.tsx:384
 #: components/PdfToChat/Plans.tsx:686
-#~ msgid "Unlimited ChatGPT Plugin Question"
-#~ msgstr "无限ChatGPT插件问题"
+msgid "Unlimited ChatGPT Plugin Question"
+msgstr "无限ChatGPT插件问题"
 
 #: components/Modals/PaymentModalContent.tsx:369
-#~ msgid "Unlimited Conversation Per Day"
-#~ msgstr "每天无限对话"
+msgid "Unlimited Conversation Per Day"
+msgstr "每天无限对话"
 
 #: components/Modals/PaymentModalContent.tsx:420
 #: pages/settings/index.tsx:853
-#~ msgid "Unlimited doc uploads a day"
-#~ msgstr "每天无限文档上传"
+msgid "Unlimited doc uploads a day"
+msgstr "每天无限文档上传"
 
 #: components/Landing/Plans.tsx:772
 #: components/PdfToChat/Plans.tsx:772
-#~ msgid "Unlimited documents per day"
-#~ msgstr "每天无限文档"
+msgid "Unlimited documents per day"
+msgstr "每天无限文档"
 
 #: pages/settings/index.tsx:850
-#~ msgid "Unlimited file size"
-#~ msgstr "无限文件大小"
+msgid "Unlimited file size"
+msgstr "无限文件大小"
 
 #: components/Modals/PaymentModalContent.tsx:417
 #: pages/settings/index.tsx:847
-#~ msgid "Unlimited pages"
-#~ msgstr "无限页数"
+msgid "Unlimited pages"
+msgstr "无限页数"
 
 #: components/Landing/Plans.tsx:744
 #: components/PdfToChat/Plans.tsx:744
-#~ msgid "Unlimited pages per document"
-#~ msgstr "每份文档无限页数"
+msgid "Unlimited pages per document"
+msgstr "每份文档无限页数"
 
 #: components/Modals/PaymentModalContent.tsx:423
 #: pages/settings/index.tsx:763
 #: pages/settings/index.tsx:856
-#~ msgid "Unlimited questions / day"
-#~ msgstr "每天无限问题"
+msgid "Unlimited questions / day"
+msgstr "每天无限问题"
 
 #: components/Modals/PaymentModalContent.tsx:372
-#~ msgid "Unlimited questions/day"
-#~ msgstr "每天无限问题"
+msgid "Unlimited questions/day"
+msgstr "每天无限问题"
 
 #~ msgid "Unlock the Possibilities of <0> AskYouPDF </0>"
 #~ msgstr "解锁<0>AskYourPDF</0>的可能性 (Jiěsuǒ <0>AskYourPDF</0> de kěnéng xìng)"
 
 #: components/PdfToChat/Discover.tsx:159
-#~ msgid "Unlock the Possibilities of <0> AskYourPDF </0>"
-#~ msgstr "解锁<0>AskYourPDF</0>的可能性 (Jiěsuǒ <0>AskYourPDF</0> de kěnéng xìng)"
+msgid "Unlock the Possibilities of <0> AskYourPDF </0>"
+msgstr "解锁<0>AskYourPDF</0>的可能性 (Jiěsuǒ <0>AskYourPDF</0> de kěnéng xìng)"
 
 #: pages/billing/index.tsx:1061
 #: pages/settings/index.tsx:83
-#~ msgid "Unpaid"
-#~ msgstr "未付款"
+msgid "Unpaid"
+msgstr "未付款"
 
 #: components/Modals/Profile.tsx:235
-#~ msgid "Update"
-#~ msgstr "更新"
+msgid "Update"
+msgstr "更新"
 
 #: components/Modals/DocumentSelectModal.tsx:721
-#~ msgid "Update Knowledge Base"
-#~ msgstr "更新知识库"
+msgid "Update Knowledge Base"
+msgstr "更新知识库"
 
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:162
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:158
-#~ msgid "Update Payment Method"
-#~ msgstr "更新付款方式"
+msgid "Update Payment Method"
+msgstr "更新付款方式"
 
 #: components/Modals/DocumentSelectModal.tsx:402
-#~ msgid "Update Success"
-#~ msgstr "更新成功"
+msgid "Update Success"
+msgstr "更新成功"
 
 #: pages/billing/index.tsx:976
-#~ msgid "Update your payment method"
-#~ msgstr "更新您的支付方式"
+msgid "Update your payment method"
+msgstr "更新您的支付方式"
 
 #: components/AppHeader.tsx:105
 #: components/KnowledgeBaseSidebar.tsx:630
@@ -2971,159 +3076,165 @@ msgstr "立即试用"
 #: components/MainSidebar.tsx:592
 #: pages/file-upload/index.tsx:353
 #: pages/subscription-error/index.tsx:176
-#~ msgid "Upgrade"
-#~ msgstr "升级"
+msgid "Upgrade"
+msgstr "升级"
 
 #: components/APIKeysList.tsx:618
 #: components/APIKeysList.tsx:775
 #: pages/billing/upgrade.tsx:691
-#~ msgid "Upgrade Account"
-#~ msgstr "升级账户"
+msgid "Upgrade Account"
+msgstr "升级账户"
 
 #: components/APIKeysList.tsx:511
-#~ msgid "Upgrade Developer Account"
-#~ msgstr "升级开发者账户"
+msgid "Upgrade Developer Account"
+msgstr "升级开发者账户"
 
 #: components/Modals/PaymentModalContent.tsx:587
 #: components/Modals/PaymentModalContent.tsx:601
-#~ msgid "Upgrade now for increased upload limits and enhanced ChatGPT conversations"
-#~ msgstr "现在升级以增加上传限制并增强ChatGPT对话"
+msgid "Upgrade now for increased upload limits and enhanced ChatGPT conversations"
+msgstr "现在升级以增加上传限制并增强ChatGPT对话"
 
 #: components/Api/Pricing.tsx:319
 #: components/Api/Pricing.tsx:374
 #: pages/billing/index.tsx:867
 #: pages/billing/upgrade.tsx:785
 #: pages/billing/upgrade.tsx:851
-#~ msgid "Upgrade Plan"
-#~ msgstr "升级计划"
+msgid "Upgrade Plan"
+msgstr "升级计划"
 
 #: components/KnowledgeBaseSidebar.tsx:638
 #: components/MainSidebar.tsx:583
 #: pages/file-upload/index.tsx:335
-#~ msgid "Upgrade to access more features"
-#~ msgstr "升级以访问更多功能"
+msgid "Upgrade to access more features"
+msgstr "升级以访问更多功能"
 
 #: pages/settings/index.tsx:688
 #: pages/settings/index.tsx:699
-#~ msgid "Upgrade To Premium"
-#~ msgstr "升级到高级版"
+msgid "Upgrade To Premium"
+msgstr "升级到高级版"
 
 #: pages/settings/index.tsx:810
 #: pages/settings/index.tsx:821
-#~ msgid "Upgrade To Pro"
-#~ msgstr "升级到Pro版"
+msgid "Upgrade To Pro"
+msgstr "升级到Pro版"
 
 #: components/Modals/PaymentModalContent.tsx:584
 #: components/Modals/PaymentModalContent.tsx:598
-#~ msgid "Upgrade your content"
-#~ msgstr "升级您的内容"
+msgid "Upgrade your content"
+msgstr "升级您的内容"
 
 #: components/PdfToChat/Guide.tsx:136
 #: components/PdfToChat/SummarizeGuide.tsx:152
-#~ msgid "Upload"
-#~ msgstr "上传"
+msgid "Upload"
+msgstr "上传"
 
 #: components/AppSidebar.tsx:266
-#~ msgid "Upload Doc"
-#~ msgstr "上传文档"
+msgid "Upload Doc"
+msgstr "上传文档"
 
 #: pages/upload/index.tsx:250
-#~ msgid "Upload document"
-#~ msgstr "上传文档"
+msgid "Upload document"
+msgstr "上传文档"
 
-#: components/tools/DocUploadNoFunc.tsx:357
+#: components/DocumentUpload.tsx:413
+#: components/Landing/Hero.tsx:289
+#: components/tools/DocUploadNoFunc.tsx:356
 msgid "Upload Document"
 msgstr "上传文档"
 
-#: components/tools/DocUploadNoFunc.tsx:335
+#: components/DocumentUpload.tsx:389
+#: components/tools/DocUploadNoFunc.tsx:334
 msgid "Upload failed"
 msgstr "上传失败"
 
-#: components/tools/DocUploadNoFunc.tsx:371
+#: components/DocumentUpload.tsx:427
+#: components/tools/DocUploadNoFunc.tsx:370
 msgid "Upload From URL"
 msgstr "从URL上传"
 
 #: components/Modals/PaymentModalContent.tsx:280
-#~ msgid "Upload larger documents"
-#~ msgstr "上传更大的文档"
+msgid "Upload larger documents"
+msgstr "上传更大的文档"
 
-#: components/literature-review/LiteratureUpload.tsx:485
+#: components/literature-review/LiteratureUpload.tsx:487
+#: components/Modals/DocumentSelectModal.tsx:640
+#: components/Summarisation/SummariseUpload.tsx:501
 msgid "Upload New Document"
 msgstr "上传新文档"
 
 #: components/DocumentUpload.tsx:370
-#~ msgid "Upload Success"
-#~ msgstr "上传成功"
+msgid "Upload Success"
+msgstr "上传成功"
 
 #: pages/file-upload/index.tsx:360
-#~ msgid "Upload your document"
-#~ msgstr "上传您的文档"
+msgid "Upload your document"
+msgstr "上传您的文档"
 
 #: pages/documents/[[...id]]/index.tsx:533
 #: pages/knowledge-base/[[...params]].tsx:1032
-#~ msgid "Uploaded"
-#~ msgstr "已上传"
+msgid "Uploaded"
+msgstr "已上传"
 
 #: pages/settings/index.tsx:1058
-#~ msgid "Uploaded Docs"
-#~ msgstr "已上传文档"
+msgid "Uploaded Docs"
+msgstr "已上传文档"
 
 #: pages/documents/[[...id]]/index.tsx:938
-#~ msgid "Uploaded:"
-#~ msgstr "已上传:"
+msgid "Uploaded:"
+msgstr "已上传:"
 
 #: utils/termsData.ts:21
-#~ msgid "Uploading documents"
-#~ msgstr "上传文档"
+msgid "Uploading documents"
+msgstr "上传文档"
 
 #: pages/settings/index.tsx:1048
-#~ msgid "Usage"
-#~ msgstr "使用情况"
+msgid "Usage"
+msgstr "使用情况"
 
 #: utils/termsData.ts:16
-#~ msgid "Use of AskYourPDF"
-#~ msgstr "AskYourPDF的使用"
+msgid "Use of AskYourPDF"
+msgstr "AskYourPDF的使用"
 
 #: components/Modals/OldDocumentDeleteModal.tsx:132
-#~ msgid "Use this method only to delete anonymous uploads or files from our old plugin, not personal account documents."
-#~ msgstr "请仅在删除匿名上传或旧插件中的文件时使用此方法，而不是个人账户文档。"
+msgid "Use this method only to delete anonymous uploads or files from our old plugin, not personal account documents."
+msgstr "请仅在删除匿名上传或旧插件中的文件时使用此方法，而不是个人账户文档。"
 
 #: components/APIKeysList.tsx:642
 #: components/APIKeysList.tsx:656
 #: components/APIKeysList.tsx:797
 #: components/APIKeysList.tsx:809
-#~ msgid "Used"
-#~ msgstr "用过的"
+msgid "Used"
+msgstr "用过的"
 
 #: utils/termsData.ts:26
-#~ msgid "User Conduct"
-#~ msgstr "用户行为准则"
+msgid "User Conduct"
+msgstr "用户行为准则"
 
 #: utils/termsData.ts:31
-#~ msgid "User Content"
-#~ msgstr "用户内容"
+msgid "User Content"
+msgstr "用户内容"
 
 #: components/Landing/MobileAppBanner.tsx:94
-#~ msgid "View App"
-#~ msgstr "查看应用"
+msgid "View App"
+msgstr "查看应用"
 
 #: pages/conversations/[[...params]].tsx:1142
-#~ msgid "View Doc"
-#~ msgstr "查看文档"
+msgid "View Doc"
+msgstr "查看文档"
 
 #: pages/apikeys/index.tsx:342
 #: pages/billing/index.tsx:780
 #: pages/billing/upgrade.tsx:598
-#~ msgid "View Docs"
-#~ msgstr "查看文档"
+msgid "View Docs"
+msgstr "查看文档"
 
 #: pages/apikeys/index.tsx:356
 #: pages/billing/index.tsx:794
 #: pages/billing/upgrade.tsx:612
-#~ msgid "View Documentation"
-#~ msgstr "查看文档"
+msgid "View Documentation"
+msgstr "查看文档"
 
-#: components/literature-review/MainContent.tsx:236
+#: pages/tools/literature-review-writer/index.tsx:234
 msgid "Warning"
 msgstr ""
 
@@ -3135,91 +3246,91 @@ msgid "We are making AskYourPDF API open for developers to build applications an
 msgstr "我们正在开放AskYourPDF API,供开发者构建应用程序和服务。"
 
 #: components/Announcements.tsx:29
-#~ msgid "We just launched our Browser extension."
-#~ msgstr "我们刚刚推出了我们的浏览器扩展。"
+msgid "We just launched our Browser extension."
+msgstr "我们刚刚推出了我们的浏览器扩展。"
 
 #: utils/termsData.ts:52
-#~ msgid "We may terminate your use of AskYourPDF at any time for any reason, including if we believe that you have violated these terms and conditions."
-#~ msgstr "如果我们认为您违反了这些条款和条件,我们可以因任何原因随时终止您对AskYourPDF的使用。"
+msgid "We may terminate your use of AskYourPDF at any time for any reason, including if we believe that you have violated these terms and conditions."
+msgstr "如果我们认为您违反了这些条款和条件,我们可以因任何原因随时终止您对AskYourPDF的使用。"
 
 #: utils/termsData.ts:77
-#~ msgid "We reserve the right to modify these terms and conditions at any time without prior notice. Your continued use of AskYourPDF after any changes to these terms and conditions constitutes your acceptance of the revised terms and conditions."
-#~ msgstr "我们保留随时修改这些条款和条件而不预先通知的权利。在对这些条款和条件进行任何更改后,您继续使用AskYourPDF即表示您接受修订后的条款和条件。"
+msgid "We reserve the right to modify these terms and conditions at any time without prior notice. Your continued use of AskYourPDF after any changes to these terms and conditions constitutes your acceptance of the revised terms and conditions."
+msgstr "我们保留随时修改这些条款和条件而不预先通知的权利。在对这些条款和条件进行任何更改后,您继续使用AskYourPDF即表示您接受修订后的条款和条件。"
 
 #: pages/privacy/index.tsx:140
-#~ msgid "We reserve the right to update or amend this Privacy Policy at any time to reflect changes in our practices or services, or changes in the law. We will notify you of any significant changes and encourage you to review this policy periodically to stay informed."
-#~ msgstr "我们保留随时更新或修改本隐私政策的权利,以反映我们的实践或服务的变化,或者法律的变化。我们会通知您任何重大变更,并鼓励您定期查看本政策以了解最新信息。"
+msgid "We reserve the right to update or amend this Privacy Policy at any time to reflect changes in our practices or services, or changes in the law. We will notify you of any significant changes and encourage you to review this policy periodically to stay informed."
+msgstr "我们保留随时更新或修改本隐私政策的权利,以反映我们的实践或服务的变化,或者法律的变化。我们会通知您任何重大变更,并鼓励您定期查看本政策以了解最新信息。"
 
 #: pages/chat/[[...docID]]/index.tsx:246
-#~ msgid "We support multiple document formats ('.pdf', '.txt', '.ppt', '.pptx', '.csv','.epub', '.rtf')"
-#~ msgstr "我们支持多种文档格式('.pdf','.txt','.ppt','.pptx','.csv','.epub','.rtf')"
+msgid "We support multiple document formats ('.pdf', '.txt', '.ppt', '.pptx', '.csv','.epub', '.rtf')"
+msgstr "我们支持多种文档格式('.pdf','.txt','.ppt','.pptx','.csv','.epub','.rtf')"
 
 #: utils/faqData.tsx:24
-#~ msgid "We support multiple document formats: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", and \".rtf\"."
-#~ msgstr "我们支持多种文档格式：“.pdf”、“.txt”、“.ppt”、“.pptx”、“.csv”、“.epub”和“.rtf”。"
+msgid "We support multiple document formats: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", and \".rtf\"."
+msgstr "我们支持多种文档格式：“.pdf”、“.txt”、“.ppt”、“.pptx”、“.csv”、“.epub”和“.rtf”。"
 
 #: pages/billing/index.tsx:977
-#~ msgid "We tried to renew your subscription but we couldn't because of a payment issue, please check your payment method to avoid service disruption"
-#~ msgstr "我们试图续订您的订阅,但由于支付问题无法续订,请检查您的支付方式以避免服务中断"
+msgid "We tried to renew your subscription but we couldn't because of a payment issue, please check your payment method to avoid service disruption"
+msgstr "我们试图续订您的订阅,但由于支付问题无法续订,请检查您的支付方式以避免服务中断"
 
 #: pages/privacy/index.tsx:114
-#~ msgid "We understand the sensitivity of your personal information and implement strict security measures to safeguard it. We store your information on secure servers, and access is strictly limited to a small number of authorized personnel who are required to keep the information confidential. Furthermore, we review and update our security measures on a regular basis."
-#~ msgstr "我们理解您的个人信息的敏感性,并实施严格的安全措施来保护它。我们将您的信息存储在安全服务器上,并严格限制获得访问权限的授权人员数量,他们必须对信息保密。此外,我们定期检查和更新我们的安全措施。"
+msgid "We understand the sensitivity of your personal information and implement strict security measures to safeguard it. We store your information on secure servers, and access is strictly limited to a small number of authorized personnel who are required to keep the information confidential. Furthermore, we review and update our security measures on a regular basis."
+msgstr "我们理解您的个人信息的敏感性,并实施严格的安全措施来保护它。我们将您的信息存储在安全服务器上,并严格限制获得访问权限的授权人员数量,他们必须对信息保密。此外,我们定期检查和更新我们的安全措施。"
 
 #: components/PdfToChat/Features.tsx:276
-#~ msgid "We're committed to enhancing your PDF interaction experience and providing you with powerful tools that simplify the way you work with documents."
-#~ msgstr "我们致力于提升您的PDF互动体验，并为您提供强大的工具，简化您处理文档的方式。"
+msgid "We're committed to enhancing your PDF interaction experience and providing you with powerful tools that simplify the way you work with documents."
+msgstr "我们致力于提升您的PDF互动体验，并为您提供强大的工具，简化您处理文档的方式。"
 
 #: components/Landing/Products.tsx:129
 #: components/PdfToChat/Products.tsx:129
-#~ msgid "Website"
-#~ msgstr "网站"
+msgid "Website"
+msgstr "网站"
 
 #: pages/terms/index.tsx:47
-#~ msgid "Welcome to AskYourPDF, Please read these terms and conditions carefully as they govern your use of the product"
-#~ msgstr "欢迎使用AskYourPDF,请仔细阅读这些条款和条件,因为它们规范您对该产品的使用"
+msgid "Welcome to AskYourPDF, Please read these terms and conditions carefully as they govern your use of the product"
+msgstr "欢迎使用AskYourPDF,请仔细阅读这些条款和条件,因为它们规范您对该产品的使用"
 
 #: utils/faqData.tsx:134
-#~ msgid "What if I have a question or a problem while using AskYourPDF?"
-#~ msgstr "使用AskYourPDF时,如果我有任何问题或遇到任何问题怎么办?"
+msgid "What if I have a question or a problem while using AskYourPDF?"
+msgstr "使用AskYourPDF时,如果我有任何问题或遇到任何问题怎么办?"
 
 #: utils/faqData.tsx:91
-#~ msgid "What if I have a question that the AI can't answer?"
-#~ msgstr "如果我提出AI无法回答的问题怎么办?"
+msgid "What if I have a question that the AI can't answer?"
+msgstr "如果我提出AI无法回答的问题怎么办?"
 
 #: pages/knowledge-base/intro.tsx:254
-#~ msgid "What is AskYourPDF Knowledge Base about?"
-#~ msgstr "AskYourPDF知识库是关于什么的？"
+msgid "What is AskYourPDF Knowledge Base about?"
+msgstr "AskYourPDF知识库是关于什么的？"
 
 #: utils/faqData.tsx:13
-#~ msgid "What is AskYourPDF?"
-#~ msgstr "什么是AskYourPDF？"
+msgid "What is AskYourPDF?"
+msgstr "什么是AskYourPDF？"
 
 #: pages/chat/[[...docID]]/index.tsx:235
-#~ msgid "What is this application about?"
-#~ msgstr "这个应用程序是关于什么的?"
+msgid "What is this application about?"
+msgstr "这个应用程序是关于什么的?"
 
 #: components/Landing/Testimonial.tsx:139
 #: components/PdfToChat/Testimonial.tsx:139
-#~ msgid "What people say <0>about us</0>"
-#~ msgstr "人们如何评价<0>我们</0>"
+msgid "What people say <0>about us</0>"
+msgstr "人们如何评价<0>我们</0>"
 
 #: components/Modals/ConversationFeedback.tsx:393
 #: components/Modals/ConversationFeedback.tsx:502
-#~ msgid "What was unsatisfying about this response?"
-#~ msgstr "对这个回答有何不满意？"
+msgid "What was unsatisfying about this response?"
+msgstr "对这个回答有何不满意？"
 
 #: utils/termsData.ts:42
-#~ msgid "When you use our app, we may collect certain information automatically, such as technical information about your device, app usage statistics, and crash reports. This information is collected in an anonymized and aggregated form and is used to improve our app's performance, user experience, and overall quality."
-#~ msgstr "当您使用我们的应用程序时,我们可能会自动收集某些信息,例如关于您设备的技术信息、应用程序使用统计信息和崩溃报告。这些信息以匿名和聚合的形式收集,用于改进我们应用程序的性能、用户体验和整体质量。"
+msgid "When you use our app, we may collect certain information automatically, such as technical information about your device, app usage statistics, and crash reports. This information is collected in an anonymized and aggregated form and is used to improve our app's performance, user experience, and overall quality."
+msgstr "当您使用我们的应用程序时,我们可能会自动收集某些信息,例如关于您设备的技术信息、应用程序使用统计信息和崩溃报告。这些信息以匿名和聚合的形式收集,用于改进我们应用程序的性能、用户体验和整体质量。"
 
 #: components/PdfToChat/Features.tsx:271
-#~ msgid "Why Choose <0>Us</0>"
-#~ msgstr "为什么选择我们"
+msgid "Why Choose <0>Us</0>"
+msgstr "为什么选择我们"
 
 #: components/PdfToChat/Discover.tsx:53
-#~ msgid "With AskYourPDF technical specialists and engineers are able to quickly retrieve crucial knowledge from technical manuals and paperwork."
-#~ msgstr "使用AskYourPDF，技术专家和工程师能够快速从技术手册和文件中检索关键知识。"
+msgid "With AskYourPDF technical specialists and engineers are able to quickly retrieve crucial knowledge from technical manuals and paperwork."
+msgstr "使用AskYourPDF，技术专家和工程师能够快速从技术手册和文件中检索关键知识。"
 
 #: pages/tools/merge/index.tsx:697
 #~ msgid ""
@@ -3227,58 +3338,58 @@ msgstr "我们正在开放AskYourPDF API,供开发者构建应用程序和服务
 #~ "maintaining quality and formatting."
 #~ msgstr "通过智能自动合并，您的PDF文档可以无缝地统一成一个单一、连贯的文件，同时保持质量和格式。"
 
-#: pages/index.tsx:284
-#: pages/merge/index.tsx:699
+#: pages/tools/index.tsx:284
+#: pages/tools/merge/index.tsx:686
 msgid "With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 msgstr "通过智能自动合并，您的PDF文档可以无缝地统一成一个单一、连贯的文件，同时保持质量和格式。"
 
 #: components/PdfToChat/Guide.tsx:171
-#~ msgid "Witness AI-driven comprehension as AskYouPDF analyzes your PDF and provides instant, insightful answers."
-#~ msgstr "见证AI驱动的理解，当AskYouPDF分析您的PDF并提供即时而富有洞察力的答案时。"
+msgid "Witness AI-driven comprehension as AskYouPDF analyzes your PDF and provides instant, insightful answers."
+msgstr "见证AI驱动的理解，当AskYouPDF分析您的PDF并提供即时而富有洞察力的答案时。"
 
 #: components/Modals/PaymentModalContent.tsx:516
-#~ msgid "Yearly"
-#~ msgstr "每年"
+msgid "Yearly"
+msgstr "每年"
 
 #~ msgid "Yes, AskYourPDF is accessible from any device with an internet connection."
 #~ msgstr "是的,只要有互联网连接,任何设备都可以访问AskYourPDF。"
 
 #: utils/faqData.tsx:108
-#~ msgid "Yes, AskYourPDF is accessible from any device with standard browsers and an internet connection."
-#~ msgstr "是的，AskYourPDF可以从具有标准浏览器和互联网连接的任何设备访问。"
+msgid "Yes, AskYourPDF is accessible from any device with standard browsers and an internet connection."
+msgstr "是的，AskYourPDF可以从具有标准浏览器和互联网连接的任何设备访问。"
 
 #~ msgid "Yes, AskYourPDF is multilingual and lets you chat in any language of your choice."
 #~ msgstr "是的,AskYourPDF支持多语言,您可以用任意语言进行聊天。"
 
 #: utils/faqData.tsx:82
-#~ msgid "Yes, AskYourPDF is multilingual and supports chatting in any language of your choice."
-#~ msgstr "是的，AskYourPDF是多语言的，并支持使用您选择的任何语言进行聊天。"
+msgid "Yes, AskYourPDF is multilingual and supports chatting in any language of your choice."
+msgstr "是的，AskYourPDF是多语言的，并支持使用您选择的任何语言进行聊天。"
 
 #: utils/faqData.tsx:87
-#~ msgid "Yes, chat history can be downloaded."
-#~ msgstr "是的，聊天历史记录可以下载。"
+msgid "Yes, chat history can be downloaded."
+msgstr "是的，聊天历史记录可以下载。"
 
 #: utils/faqData.tsx:47
-#~ msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at <0>billing@askyourpdf.com</0> with details of your educational institution and enrolment."
-#~ msgstr "是的，但是目前还没有自动化的申请流程。 如果您通过 <0>billing@askyourpdf.com</0> 联系我们并提供您的教育机构和注册的详细信息，我们将为您提供折扣券。"
+msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at <0>billing@askyourpdf.com</0> with details of your educational institution and enrolment."
+msgstr "是的，但是目前还没有自动化的申请流程。 如果您通过 <0>billing@askyourpdf.com</0> 联系我们并提供您的教育机构和注册的详细信息，我们将为您提供折扣券。"
 
 #: utils/faqData.tsx:45
-#~ msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at billing@askyourpdf.com with details of your educational institution and enrolment."
-#~ msgstr "是的，但是目前没有自动申请流程。如果您通过 billing@askyourpdf.com 与我们联系并提供您的教育机构和注册信息，我们将为您提供折扣券。"
+msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at billing@askyourpdf.com with details of your educational institution and enrolment."
+msgstr "是的，但是目前没有自动申请流程。如果您通过 billing@askyourpdf.com 与我们联系并提供您的教育机构和注册信息，我们将为您提供折扣券。"
 
 #~ msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF."
 #~ msgstr "是的，该应用程序可免费使用，但受到某些限制。要探索AskYourPDF的强大功能，需要升级计划。"
 
 #: utils/faqData.tsx:70
-#~ msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF. Documents uploaded by Free users remain in our database for a maximum of 90 days before removal."
-#~ msgstr "是的，该应用程序可免费使用，但有一定限制。要探索AskYourPDF的广泛功能，需要升级的计划。由免费用户上传的文档在删除之前最多保留90天。"
+msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF. Documents uploaded by Free users remain in our database for a maximum of 90 days before removal."
+msgstr "是的，该应用程序可免费使用，但有一定限制。要探索AskYourPDF的广泛功能，需要升级的计划。由免费用户上传的文档在删除之前最多保留90天。"
 
 #~ msgid "Yes, the application is free to use."
 #~ msgstr "是的,该应用程序可以免费使用。"
 
 #: utils/faqData.tsx:113
-#~ msgid "Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."
-#~ msgstr "是的，免费用户的文档上传的最大文件大小为15MB。但高级用户和专业用户分别可以上传高达30MB和90MB。对于更大的文件大小，用户需要与我们联系以获取企业计划。"
+msgid "Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."
+msgstr "是的，免费用户的文档上传的最大文件大小为15MB。但高级用户和专业用户分别可以上传高达30MB和90MB。对于更大的文件大小，用户需要与我们联系以获取企业计划。"
 
 #~ msgid "Yes, the maximum limit of the document that can be uploaded is 20mb."
 #~ msgstr "是的,可以上传的文档最大限制为20MB。"
@@ -3290,28 +3401,28 @@ msgstr "通过智能自动合并，您的PDF文档可以无缝地统一成一个
 #~ msgstr "是的,您的数据是安全的,该应用程序使用行业标准的(SSL加密)安全措施来保护您的信息。"
 
 #: utils/termsData.ts:27
-#~ msgid "You are solely responsible for your conduct on AskYourPDF. You must not engage in any conduct that is illegal, defamatory, threatening, or abusive. You must not upload any documents that infringe the intellectual property rights of  others."
-#~ msgstr "您需要对您在AskYourPDF上的行为承担全部责任。您不能参与任何非法、诽谤、威胁或辱骂的行为。您不能上传侵犯他人知识产权的任何文档。"
+msgid "You are solely responsible for your conduct on AskYourPDF. You must not engage in any conduct that is illegal, defamatory, threatening, or abusive. You must not upload any documents that infringe the intellectual property rights of  others."
+msgstr "您需要对您在AskYourPDF上的行为承担全部责任。您不能参与任何非法、诽谤、威胁或辱骂的行为。您不能上传侵犯他人知识产权的任何文档。"
 
 #: pages/documents/[[...id]]/index.tsx:757
-#~ msgid "You can no longer share your chat with this document"
-#~ msgstr "您无法再与该文档共享您的聊天内容"
+msgid "You can no longer share your chat with this document"
+msgstr "您无法再与该文档共享您的聊天内容"
 
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"
 msgstr ""
 
 #: components/Announcements.tsx:17
-#~ msgid "You can now chat with multiple documents at once. Using our knowledge Base."
-#~ msgstr "您现在可以同时与多个文档进行聊天。使用我们的知识库."
+msgid "You can now chat with multiple documents at once. Using our knowledge Base."
+msgstr "您现在可以同时与多个文档进行聊天。使用我们的知识库."
 
 #: components/Announcements.tsx:23
-#~ msgid "You can now generate detailed summaries of your documents."
-#~ msgstr "您现在可以生成您文件的详细摘要。"
+msgid "You can now generate detailed summaries of your documents."
+msgstr "您现在可以生成您文件的详细摘要。"
 
 #: pages/documents/[[...id]]/index.tsx:756
-#~ msgid "You can now share your chat with this document"
-#~ msgstr "您现在可以与此文档共享您的聊天内容"
+msgid "You can now share your chat with this document"
+msgstr "您现在可以与此文档共享您的聊天内容"
 
 #: components/KnowledgeBaseSidebar.tsx:680
 #: components/KnowledgeBaseSidebar.tsx:696
@@ -3319,83 +3430,83 @@ msgstr ""
 #: components/MainSidebar.tsx:635
 #: components/MainSidebar.tsx:651
 #: components/MainSidebar.tsx:668
-#~ msgid "You have exceeded the conversation limits for your account. Please try again tomorrow."
-#~ msgstr "您已超出账户的对话限制。请明天重试。"
+msgid "You have exceeded the conversation limits for your account. Please try again tomorrow."
+msgstr "您已超出账户的对话限制。请明天重试。"
 
 #: components/KnowledgeBaseSidebar.tsx:613
 #: components/MainSidebar.tsx:558
-#~ msgid "You have exceeded the conversation limits of a free account. Please try again tomorrow."
-#~ msgstr "您已超出免费账户的对话限制。请明天重试。"
+msgid "You have exceeded the conversation limits of a free account. Please try again tomorrow."
+msgstr "您已超出免费账户的对话限制。请明天重试。"
 
 #: components/KnowledgeBaseSidebar.tsx:536
 #: components/MainSidebar.tsx:481
-#~ msgid "You have exceeded your conversation limit. Login or create an account to create more conversations."
-#~ msgstr "您已超出对话限制。登录或创建账户以创建更多对话。"
+msgid "You have exceeded your conversation limit. Login or create an account to create more conversations."
+msgstr "您已超出对话限制。登录或创建账户以创建更多对话。"
 
 #: components/Modals/UnitsExceededModal.tsx:108
-#~ msgid "You have have used up your available {product} units. Please purchase more units."
-#~ msgstr ""
+msgid "You have have used up your available {product} units. Please purchase more units."
+msgstr ""
 
 #: components/Modals/DocumentSelectModal.tsx:467
 #: components/Modals/DocumentSelectModal.tsx:491
-#~ msgid "You have selected more than 5 documents"
-#~ msgstr "您选择了超过5个文档"
+msgid "You have selected more than 5 documents"
+msgstr "您选择了超过5个文档"
 
 #: utils/termsData.ts:22
-#~ msgid "You may upload documents to AskYourPDF for the purpose of discussing them with other users. You must not upload any documents that are illegal, defamatory, obscene, or otherwise objectionable."
-#~ msgstr "您可以将文档上传到AskYourPDF以便与其他用户讨论。您不能上传任何非法、诽谤、淫秽或令人反感的文档。"
+msgid "You may upload documents to AskYourPDF for the purpose of discussing them with other users. You must not upload any documents that are illegal, defamatory, obscene, or otherwise objectionable."
+msgstr "您可以将文档上传到AskYourPDF以便与其他用户讨论。您不能上传任何非法、诽谤、淫秽或令人反感的文档。"
 
 #: utils/termsData.ts:17
-#~ msgid "You may use AskYourPDF for personal or non-commercial purposes only. You must not use AskYourPDF for any illegal or unauthorized purpose."
-#~ msgstr "您只能将AskYourPDF用于个人或非商业用途。您不能将AskYourPDF用于任何非法或未经授权的用途。"
+msgid "You may use AskYourPDF for personal or non-commercial purposes only. You must not use AskYourPDF for any illegal or unauthorized purpose."
+msgstr "您只能将AskYourPDF用于个人或非商业用途。您不能将AskYourPDF用于任何非法或未经授权的用途。"
 
 #~ msgid "You need to upgrade your account to create {0} keys"
 #~ msgstr "您需要升级账户才能创建{0}个密钥"
 
 #: components/SubscriptionGuard.tsx:30
-#~ msgid "You tried accessing a premium feature, however an error occurred while fetching your plan. Please try again"
-#~ msgstr "您尝试访问高级功能，但在获取您的计划时发生了错误。请重试"
+msgid "You tried accessing a premium feature, however an error occurred while fetching your plan. Please try again"
+msgstr "您尝试访问高级功能，但在获取您的计划时发生了错误。请重试"
 
 #: pages/delete/index.tsx:275
-#~ msgid "You'll be able to delete any document you no longer want on this dashboard. Just input the <0>Doc ID</0> and delete the document."
-#~ msgstr "您可以在此仪表板上删除不再需要的任何文档。只需输入文档ID并删除文档。"
+msgid "You'll be able to delete any document you no longer want on this dashboard. Just input the <0>Doc ID</0> and delete the document."
+msgstr "您可以在此仪表板上删除不再需要的任何文档。只需输入文档ID并删除文档。"
 
 #: pages/file-upload/index.tsx:363
-#~ msgid "You'll be able to start a conversation based on the document uploaded. You can upgrade your account to increase your limits"
-#~ msgstr "您可以根据上传的文档开始对话。您可以升级账户以提高限制"
+msgid "You'll be able to start a conversation based on the document uploaded. You can upgrade your account to increase your limits"
+msgstr "您可以根据上传的文档开始对话。您可以升级账户以提高限制"
 
 #: components/Affiliate/Features.tsx:157
-#~ msgid "You'll get  30% commission on every paying client who signs up through your referral link for the first 12 months. You will be able to withdraw your money once you have earned a minimum of $100 in commission. We want to make certain that your contributions are properly recognized."
-#~ msgstr "   您将在前12个月内通过您的推荐链接注册的每个付费客户上获得30%的佣金。在赚取至少$100的佣金后，您将能够提取您的资金。"
+msgid "You'll get  30% commission on every paying client who signs up through your referral link for the first 12 months. You will be able to withdraw your money once you have earned a minimum of $100 in commission. We want to make certain that your contributions are properly recognized."
+msgstr "   您将在前12个月内通过您的推荐链接注册的每个付费客户上获得30%的佣金。在赚取至少$100的佣金后，您将能够提取您的资金。"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:404
 #: components/Modals/CreateAPIKeyDesktop.tsx:417
-#~ msgid "You'll only see this key once, so please make sure to copy it and keep it safe"
-#~ msgstr "您只能看一次这个密钥,所以请确保复制它并妥善保管"
+msgid "You'll only see this key once, so please make sure to copy it and keep it safe"
+msgstr "您只能看一次这个密钥,所以请确保复制它并妥善保管"
 
 #: pages/subscription-error/index.tsx:160
-#~ msgid "You're not subscribed"
-#~ msgstr "您尚未订阅"
+msgid "You're not subscribed"
+msgstr "您尚未订阅"
 
 #: components/APIKeysList.tsx:497
-#~ msgid "You're on the Free Plan. Your quota will be limited to the free plan quota"
-#~ msgstr "您正在使用免费计划。您的配额将限制在免费计划配额内"
+msgid "You're on the Free Plan. Your quota will be limited to the free plan quota"
+msgstr "您正在使用免费计划。您的配额将限制在免费计划配额内"
 
 #: components/Modals/Profile.tsx:277
-#~ msgid "Your Account has been Deleted"
-#~ msgstr "您的帐户已被删除"
+msgid "Your Account has been Deleted"
+msgstr "您的帐户已被删除"
 
 #: components/Modals/Profile.tsx:280
-#~ msgid "Your account has been successfully deleted. We're sorry to see you go, but if you ever change your mind, we'll be here to welcome you back. Thank you for being a part of our community."
-#~ msgstr "您的帐户已成功删除。我们很抱歉看到您离开，但如果您改变主意，我们将在这里欢迎您回来。感谢您成为我们社区的一部分。"
+msgid "Your account has been successfully deleted. We're sorry to see you go, but if you ever change your mind, we'll be here to welcome you back. Thank you for being a part of our community."
+msgstr "您的帐户已成功删除。我们很抱歉看到您离开，但如果您改变主意，我们将在这里欢迎您回来。感谢您成为我们社区的一部分。"
 
 #: components/Modals/CreateAPIKeyDesktop.tsx:387
-#~ msgid "Your API Key has been generated successfully"
-#~ msgstr "您的API密钥已成功生成"
+msgid "Your API Key has been generated successfully"
+msgstr "您的API密钥已成功生成"
 
 #: pages/privacy/index.tsx:149
-#~ msgid "Your continued use of AskYourPDF services after any changes to this Privacy Policy signifies your acceptance of our practices as set out in the revised policy."
-#~ msgstr "在本隐私政策进行任何更改后,您继续使用AskYourPDF服务表示您接受修改后的政策中规定的我们的做法。"
+msgid "Your continued use of AskYourPDF services after any changes to this Privacy Policy signifies your acceptance of our practices as set out in the revised policy."
+msgstr "在本隐私政策进行任何更改后,您继续使用AskYourPDF服务表示您接受修改后的政策中规定的我们的做法。"
 
 #: pages/tools/ocr/index.tsx:520
 #~ msgid "Your converted file is ready"
@@ -3409,55 +3520,148 @@ msgstr ""
 
 #: components/Landing/Features.tsx:297
 #: components/PdfToChat/Features.tsx:322
-#~ msgid "Your documents transform into interactive buddies, ready to help you understand and engage in an instant!"
-#~ msgstr "您的文档立即变成互动式伙伴,准备帮助您理解并参与!"
+msgid "Your documents transform into interactive buddies, ready to help you understand and engage in an instant!"
+msgstr "您的文档立即变成互动式伙伴,准备帮助您理解并参与!"
 
 #: components/Modals/ConversationFeedback.tsx:343
 #: components/Modals/ConversationFeedback.tsx:453
-#~ msgid "Your feedback is crucial for improving our user experience and our team is actively working to resolve the issue. We truly appreciate your contribution to improving our platform."
-#~ msgstr "您的反馈对改善我们的用户体验至关重要，我们的团队正在积极努力解决此问题。非常感谢您对改进我们平台的贡献。"
+msgid "Your feedback is crucial for improving our user experience and our team is actively working to resolve the issue. We truly appreciate your contribution to improving our platform."
+msgstr "您的反馈对改善我们的用户体验至关重要，我们的团队正在积极努力解决此问题。非常感谢您对改进我们平台的贡献。"
 
 #: components/PdfToChat/Guide.tsx:120
-#~ msgid "Your Guide to Effortless PDF <0> Interaction </0>"
-#~ msgstr "您轻松处理PDF的指南"
+msgid "Your Guide to Effortless PDF <0> Interaction </0>"
+msgstr "您轻松处理PDF的指南"
 
 #: components/Modals/DocumentSelectModal.tsx:425
-#~ msgid "Your knowledge base has been deleted"
-#~ msgstr "您的知识库已被删除"
+msgid "Your knowledge base has been deleted"
+msgstr "您的知识库已被删除"
 
 #: components/Modals/DocumentSelectModal.tsx:403
-#~ msgid "Your knowledge base has been updated"
-#~ msgstr "您的知识库已被更新"
+msgid "Your knowledge base has been updated"
+msgstr "您的知识库已被更新"
 
 #: components/Settings/AccountLinkedSuccessModal.tsx:69
-#~ msgid "Your mobile and web accounts are now linked, giving you access to your subscription benefits on both platforms. Enjoy the unified AskYourPDF experience across all your devices."
-#~ msgstr "您的移动设备和网络帐户现在已连接，可在两个平台上访问您的订阅优惠。在所有设备上享受统一的 AskYourPDF 体验。"
+msgid "Your mobile and web accounts are now linked, giving you access to your subscription benefits on both platforms. Enjoy the unified AskYourPDF experience across all your devices."
+msgstr "您的移动设备和网络帐户现在已连接，可在两个平台上访问您的订阅优惠。在所有设备上享受统一的 AskYourPDF 体验。"
 
-#: pages/merge/index.tsx:805
+#: pages/tools/merge/index.tsx:792
 msgid "Your PDF is ready"
 msgstr ""
 
-#: pages/split/index.tsx:933
+#: pages/tools/split/index.tsx:920
 msgid "Your PDFs are ready"
 msgstr ""
 
 #: utils/termsData.ts:47
-#~ msgid "Your privacy is important to us. Please see our privacy policy for information on how we collect, use, and protect your personal information."
-#~ msgstr "您的隐私对我们很重要。请参阅我们的隐私政策,了解我们如何收集、使用和保护您的个人信息的相关信息。"
+msgid "Your privacy is important to us. Please see our privacy policy for information on how we collect, use, and protect your personal information."
+msgstr "您的隐私对我们很重要。请参阅我们的隐私政策,了解我们如何收集、使用和保护您的个人信息的相关信息。"
 
 #: components/literature-review/LiteratureMainBar.tsx:327
 msgid "Your Review is being generated"
 msgstr "您的评论正在生成中"
 
 #: components/MainSidebar.tsx:606
-#~ msgid "Your subscription could not be renewed because billing failed. Please"
-#~ msgstr "由于计费失败,无法续订您的订阅"
+msgid "Your subscription could not be renewed because billing failed. Please"
+msgstr "由于计费失败,无法续订您的订阅"
 
 #: components/KnowledgeBaseSidebar.tsx:659
-#~ msgid "Your subscription could not be renewed because billing failed. Please check your payment method"
-#~ msgstr "由于计费失败，您的订阅无法续订。请检查您的付款方式"
+msgid "Your subscription could not be renewed because billing failed. Please check your payment method"
+msgstr "由于计费失败，您的订阅无法续订。请检查您的付款方式"
 
 #: components/Summarisation/SummariseMainBar.tsx:307
 #: components/Summarisation/SummariseMainBar.tsx:439
-#~ msgid "Your summary is being generated"
-#~ msgstr "您的摘要正在生成"
+msgid "Your summary is being generated"
+msgstr "您的摘要正在生成"
+
+#: components/Footer.tsx:363
+msgid "Affiliate Program"
+msgstr "联盟计划"
+
+#: pages/source-tool/index.tsx:202
+msgid "Source Tool"
+msgstr "来源工具"
+
+#: pages/source-tool/index.tsx:198
+msgid "Back to tools"
+msgstr "返回工具"
+
+#: pages/source-tool/index.tsx:205
+msgid "Simplify your search, guaranteeing precision and trustworthiness with each query."
+msgstr "简化您的搜索，确保每次查询都精确可靠。"
+
+#: pages/source-tool/index.tsx:235
+msgid "Hang on! We’re looking for sources"
+msgstr "稍等！我们正在查找资源"
+
+#: components/source-tools/source-content/index,tsx.tsx:216
+msgid "Upload text file"
+msgstr "上传文本文件"
+
+#: components/source-tools/source-content/index,tsx.tsx:229
+msgid "Description"
+msgstr "描述"
+
+#: components/source-tools/source-content/index,tsx.tsx:248
+msgid "Maximum of 300 characters"
+msgstr "最多300个字符"
+
+#: components/source-tools/source-content/index,tsx.tsx:259
+msgid "Configure search"
+msgstr "配置搜索"
+
+#: components/source-tools/source-content/index,tsx.tsx:266
+msgid "Find sources"
+msgstr "查找资源"
+
+#: components/source-tools/source-result/index,tsx.tsx:412
+msgid "Content"
+msgstr "内容"
+
+#: components/source-tools/source-result/index,tsx.tsx:422
+msgid "Sources found"
+msgstr "找到的资源"
+
+#: components/source-tools/source-result/index,tsx.tsx:433
+msgid "Export all"
+msgstr "全部导出"
+
+#: components/source-tools/source-result/index,tsx.tsx:442
+msgid "Select all"
+msgstr "全选"
+
+#: components/source-tools/source-result/index,tsx.tsx:466
+msgid "Cited by:"
+msgstr "引用者："
+
+#: components/source-tools/source-result/index,tsx.tsx:473
+msgid "Authors:"
+msgstr "作者："
+
+#: components/source-tools/source-result/index,tsx.tsx:480
+msgid "Publication Year:"
+msgstr "出版年份："
+
+#: components/source-tools/source-result/index,tsx.tsx:510
+msgid "Cancel"
+msgstr "取消"
+
+#: components/source-tools/source-result/index,tsx.tsx:521
+msgid "Export As"
+msgstr "导出为"
+
+#: components/source-tools/source-result/index,tsx.tsx:540
+msgid "Not satisfied with your results?"
+msgstr "对结果不满意？"
+
+#: components/source-tools/source-result/index,tsx.tsx:548
+msgid "Begin new search"
+msgstr "开始新搜索"
+
+#: components/tools/ToolCommon.tsx:258
+#: pages/index.tsx:320
+msgid "Source Tool"
+msgstr "源工具"
+
+#: pages.index.tsx:323
+msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources relevant to your needs."
+msgstr "利用人工智能的力量发现、分析和推荐与您的需求相关的源。"
