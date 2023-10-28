@@ -179,7 +179,7 @@ msgstr "제휴 프로그램"
 msgid "AI Literature Review Writer"
 msgstr ""
 
-#: components/literature-review/MainContent.tsx:361
+#: components/literature-review/MainContent.tsx:360
 msgid "AI Literature Review Writer Tool"
 msgstr ""
 
@@ -202,7 +202,7 @@ msgstr ""
 #~ msgid "An error has occured"
 #~ msgstr "오류가 발생했습니다"
 
-#: components/literature-review/MainContent.tsx:306
+#: components/literature-review/MainContent.tsx:305
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "An error occurred"
 msgstr "오류가 발생했습니다"
@@ -456,7 +456,7 @@ msgstr "저자:"
 #~ msgid "Back to Homepage"
 #~ msgstr "홈페이지로 돌아가기"
 
-#: components/literature-review/MainContent.tsx:357
+#: components/literature-review/MainContent.tsx:356
 #: components/tools/MergePage.tsx:693
 #: components/tools/OcrPage.tsx:309
 #: components/tools/SplitPage.tsx:822
@@ -1330,7 +1330,7 @@ msgstr "확장"
 #~ msgid "Failed to delete document. Please try again."
 #~ msgstr "문서 삭제에 실패했습니다. 다시 시도하세요"
 
-#: components/literature-review/MainContent.tsx:306
+#: components/literature-review/MainContent.tsx:305
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "Failed to export PDF"
 msgstr "PDF 내보내기를 실패했습니다"
@@ -1351,7 +1351,7 @@ msgstr "PDF 내보내기를 실패했습니다"
 #~ msgid "Failed to load subscriptions"
 #~ msgstr "구독 로드에 실패했습니다"
 
-#: components/literature-review/MainContent.tsx:291
+#: components/literature-review/MainContent.tsx:290
 msgid "Failed to review text. Please try again"
 msgstr ""
 
@@ -2499,7 +2499,7 @@ msgstr "OCR PDF 읽기"
 #~ msgid "Report an Issue"
 #~ msgstr "문제 신고"
 
-#: components/literature-review/MainContent.tsx:294
+#: components/literature-review/MainContent.tsx:293
 msgid "Request timed out. Please try again"
 msgstr "요청 시간이 초과되었습니다. 다시 시도해주세요"
 
@@ -2507,7 +2507,7 @@ msgstr "요청 시간이 초과되었습니다. 다시 시도해주세요"
 #~ msgid "Respecting Your Privacy: Our Commitment and Assurance"
 #~ msgstr "개인정보 존중: 약속과 보장"
 
-#: components/literature-review/MainContent.tsx:376
+#: components/literature-review/MainContent.tsx:375
 msgid "Results for"
 msgstr " 결과물"
 
@@ -2517,8 +2517,8 @@ msgstr " 결과물"
 #~ msgid "Resume Conversation"
 #~ msgstr "대화 이어하기"
 
-#: components/literature-review/MainContent.tsx:286
-#: components/literature-review/MainContent.tsx:296
+#: components/literature-review/MainContent.tsx:285
+#: components/literature-review/MainContent.tsx:295
 msgid "Review Failed"
 msgstr ""
 
@@ -2539,7 +2539,7 @@ msgstr "리뷰가 여기에 표시됩니다"
 #~ msgid "Save Time"
 #~ msgstr "시간 절약"
 
-#: components/literature-review/MainContent.tsx:364
+#: components/literature-review/MainContent.tsx:363
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr ""
 
@@ -3216,7 +3216,7 @@ msgstr "텍스트 파일 업로드"
 #~ msgid "View Documentation"
 #~ msgstr "문서 보기"
 
-#: components/literature-review/MainContent.tsx:241
+#: components/literature-review/MainContent.tsx:240
 #: pages/source-tool/index.tsx:174
 msgid "Warning"
 msgstr ""

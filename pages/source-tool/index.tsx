@@ -8,7 +8,7 @@ import { t, Trans } from "@lingui/macro";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { loadCatalog } from "@/utils/i18n";
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/tools/ToolBarExt";
 import Footer from "@/components/Footer";
 import { useMedia } from "react-use";
 import HeroImage from "@/img/Mask.svg?url";
@@ -95,7 +95,7 @@ const SourceLayout = styled(Layout)`
   background: #fff;
   padding: 62px 30px;
   margin: 0px 45px;
-  z-index: 20;
+  z-index: 3;
 
   @media (max-width: 768px) {
     padding: 0px;
@@ -220,7 +220,7 @@ const SourceTools = () => {
   };
   return (
     <MyLayout>
-      <Navbar whiteBg={true} />
+      <Navbar />
       <SourceHeader>
         <div className="heroImage">
           {isSmallScreen && (

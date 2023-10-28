@@ -179,7 +179,7 @@ msgstr "Partnerprogramm"
 msgid "AI Literature Review Writer"
 msgstr ""
 
-#: components/literature-review/MainContent.tsx:361
+#: components/literature-review/MainContent.tsx:360
 msgid "AI Literature Review Writer Tool"
 msgstr ""
 
@@ -202,7 +202,7 @@ msgstr ""
 #~ msgid "An error has occured"
 #~ msgstr "Es ist ein Fehler aufgetreten"
 
-#: components/literature-review/MainContent.tsx:306
+#: components/literature-review/MainContent.tsx:305
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "An error occurred"
 msgstr "Es ist ein Fehler aufgetreten"
@@ -456,7 +456,7 @@ msgstr "Autoren:"
 #~ msgid "Back to Homepage"
 #~ msgstr "Zurück zur Startseite"
 
-#: components/literature-review/MainContent.tsx:357
+#: components/literature-review/MainContent.tsx:356
 #: components/tools/MergePage.tsx:693
 #: components/tools/OcrPage.tsx:309
 #: components/tools/SplitPage.tsx:822
@@ -1336,7 +1336,7 @@ msgstr "Erweiterung"
 #~ msgid "Failed to delete document. Please try again."
 #~ msgstr "Dokument konnte nicht gelöscht werden. Bitte versuchen Sie es erneut"
 
-#: components/literature-review/MainContent.tsx:306
+#: components/literature-review/MainContent.tsx:305
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "Failed to export PDF"
 msgstr "Export als PDF fehlgeschlagen"
@@ -1357,7 +1357,7 @@ msgstr "Export als PDF fehlgeschlagen"
 #~ msgid "Failed to load subscriptions"
 #~ msgstr "Abonnements konnten nicht geladen werden"
 
-#: components/literature-review/MainContent.tsx:291
+#: components/literature-review/MainContent.tsx:290
 msgid "Failed to review text. Please try again"
 msgstr ""
 
@@ -2511,7 +2511,7 @@ msgstr "OCR-PDF lesen"
 #~ msgid "Report an Issue"
 #~ msgstr "Problem melden"
 
-#: components/literature-review/MainContent.tsx:294
+#: components/literature-review/MainContent.tsx:293
 msgid "Request timed out. Please try again"
 msgstr "Anfrage abgelaufen. Bitte versuchen Sie es erneut"
 
@@ -2519,7 +2519,7 @@ msgstr "Anfrage abgelaufen. Bitte versuchen Sie es erneut"
 #~ msgid "Respecting Your Privacy: Our Commitment and Assurance"
 #~ msgstr "Respekt für Ihre Privatsphäre: Unser Engagement und unsere Zusicherung"
 
-#: components/literature-review/MainContent.tsx:376
+#: components/literature-review/MainContent.tsx:375
 msgid "Results for"
 msgstr "Ergebnisse für"
 
@@ -2529,8 +2529,8 @@ msgstr "Ergebnisse für"
 #~ msgid "Resume Conversation"
 #~ msgstr "Konversation fortsetzen"
 
-#: components/literature-review/MainContent.tsx:286
-#: components/literature-review/MainContent.tsx:296
+#: components/literature-review/MainContent.tsx:285
+#: components/literature-review/MainContent.tsx:295
 msgid "Review Failed"
 msgstr ""
 
@@ -2551,7 +2551,7 @@ msgstr "Die Überprüfung wird hier angezeigt"
 #~ msgid "Save Time"
 #~ msgstr "Sparen Sie Zeit"
 
-#: components/literature-review/MainContent.tsx:364
+#: components/literature-review/MainContent.tsx:363
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr ""
 
@@ -3228,7 +3228,7 @@ msgstr "Textdatei hochladen"
 #~ msgid "View Documentation"
 #~ msgstr "Dokumentation anzeigen"
 
-#: components/literature-review/MainContent.tsx:241
+#: components/literature-review/MainContent.tsx:240
 #: pages/source-tool/index.tsx:174
 msgid "Warning"
 msgstr ""

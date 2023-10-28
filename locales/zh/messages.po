@@ -179,7 +179,7 @@ msgstr "联盟计划"
 msgid "AI Literature Review Writer"
 msgstr ""
 
-#: components/literature-review/MainContent.tsx:361
+#: components/literature-review/MainContent.tsx:360
 msgid "AI Literature Review Writer Tool"
 msgstr ""
 
@@ -202,7 +202,7 @@ msgstr ""
 #~ msgid "An error has occured"
 #~ msgstr "发生错误"
 
-#: components/literature-review/MainContent.tsx:306
+#: components/literature-review/MainContent.tsx:305
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "An error occurred"
 msgstr "发生错误"
@@ -456,7 +456,7 @@ msgstr "作者："
 #~ msgid "Back to Homepage"
 #~ msgstr "返回首页"
 
-#: components/literature-review/MainContent.tsx:357
+#: components/literature-review/MainContent.tsx:356
 #: components/tools/MergePage.tsx:693
 #: components/tools/OcrPage.tsx:309
 #: components/tools/SplitPage.tsx:822
@@ -1326,7 +1326,7 @@ msgstr "扩展"
 #~ msgid "Failed to delete document. Please try again."
 #~ msgstr "删除文档失败。请重试"
 
-#: components/literature-review/MainContent.tsx:306
+#: components/literature-review/MainContent.tsx:305
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "Failed to export PDF"
 msgstr "导出 PDF 失败"
@@ -1347,7 +1347,7 @@ msgstr "导出 PDF 失败"
 #~ msgid "Failed to load subscriptions"
 #~ msgstr "加载订阅失败"
 
-#: components/literature-review/MainContent.tsx:291
+#: components/literature-review/MainContent.tsx:290
 msgid "Failed to review text. Please try again"
 msgstr ""
 
@@ -2501,7 +2501,7 @@ msgstr "阅读OCR PDF"
 #~ msgid "Report an Issue"
 #~ msgstr "报告问题"
 
-#: components/literature-review/MainContent.tsx:294
+#: components/literature-review/MainContent.tsx:293
 msgid "Request timed out. Please try again"
 msgstr "请求超时。请重试"
 
@@ -2509,7 +2509,7 @@ msgstr "请求超时。请重试"
 #~ msgid "Respecting Your Privacy: Our Commitment and Assurance"
 #~ msgstr "尊重您的隐私:我们的承诺和保证"
 
-#: components/literature-review/MainContent.tsx:376
+#: components/literature-review/MainContent.tsx:375
 msgid "Results for"
 msgstr " 结果为"
 
@@ -2519,8 +2519,8 @@ msgstr " 结果为"
 #~ msgid "Resume Conversation"
 #~ msgstr "继续对话"
 
-#: components/literature-review/MainContent.tsx:286
-#: components/literature-review/MainContent.tsx:296
+#: components/literature-review/MainContent.tsx:285
+#: components/literature-review/MainContent.tsx:295
 msgid "Review Failed"
 msgstr ""
 
@@ -2541,7 +2541,7 @@ msgstr "评论将显示在这里"
 #~ msgid "Save Time"
 #~ msgstr "节省时间"
 
-#: components/literature-review/MainContent.tsx:364
+#: components/literature-review/MainContent.tsx:363
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr ""
 
@@ -3230,7 +3230,7 @@ msgstr "上传文本文件"
 #~ msgid "View Documentation"
 #~ msgstr "查看文档"
 
-#: components/literature-review/MainContent.tsx:241
+#: components/literature-review/MainContent.tsx:240
 #: pages/source-tool/index.tsx:174
 msgid "Warning"
 msgstr ""

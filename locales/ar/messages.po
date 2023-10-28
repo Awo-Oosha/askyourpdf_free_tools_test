@@ -182,7 +182,7 @@ msgstr "برنامج الشراكة التابعة"
 msgid "AI Literature Review Writer"
 msgstr ""
 
-#: components/literature-review/MainContent.tsx:361
+#: components/literature-review/MainContent.tsx:360
 msgid "AI Literature Review Writer Tool"
 msgstr ""
 
@@ -205,7 +205,7 @@ msgstr ""
 #~ msgid "An error has occured"
 #~ msgstr "حدث خطأ"
 
-#: components/literature-review/MainContent.tsx:306
+#: components/literature-review/MainContent.tsx:305
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "An error occurred"
 msgstr "حدث خطأ"
@@ -459,7 +459,7 @@ msgstr "المؤلفون:"
 #~ msgid "Back to Homepage"
 #~ msgstr "العودة إلى الصفحة الرئيسية"
 
-#: components/literature-review/MainContent.tsx:357
+#: components/literature-review/MainContent.tsx:356
 #: components/tools/MergePage.tsx:693
 #: components/tools/OcrPage.tsx:309
 #: components/tools/SplitPage.tsx:822
@@ -1333,7 +1333,7 @@ msgstr "امتداد"
 #~ msgid "Failed to delete document. Please try again."
 #~ msgstr "فشل في حذف المستند. يرجى إعادة المحاولة"
 
-#: components/literature-review/MainContent.tsx:306
+#: components/literature-review/MainContent.tsx:305
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "Failed to export PDF"
 msgstr "فشل في تصدير PDF"
@@ -1354,7 +1354,7 @@ msgstr "فشل في تصدير PDF"
 #~ msgid "Failed to load subscriptions"
 #~ msgstr "فشل في تحميل الاشتراكات"
 
-#: components/literature-review/MainContent.tsx:291
+#: components/literature-review/MainContent.tsx:290
 msgid "Failed to review text. Please try again"
 msgstr ""
 
@@ -2502,7 +2502,7 @@ msgstr "قراءة التعرف الضوئي على الحروف PDF"
 #~ msgid "Report an Issue"
 #~ msgstr "الإبلاغ عن مشكلة"
 
-#: components/literature-review/MainContent.tsx:294
+#: components/literature-review/MainContent.tsx:293
 msgid "Request timed out. Please try again"
 msgstr "انتهت صلاحية الطلب. الرجاء المحاولة مرة أخرى"
 
@@ -2510,7 +2510,7 @@ msgstr "انتهت صلاحية الطلب. الرجاء المحاولة مرة
 #~ msgid "Respecting Your Privacy: Our Commitment and Assurance"
 #~ msgstr "احترام خصوصيتك: التزامنا وضماننا"
 
-#: components/literature-review/MainContent.tsx:376
+#: components/literature-review/MainContent.tsx:375
 msgid "Results for"
 msgstr "نتائج لـ"
 
@@ -2520,8 +2520,8 @@ msgstr "نتائج لـ"
 #~ msgid "Resume Conversation"
 #~ msgstr "استئناف المحادثة"
 
-#: components/literature-review/MainContent.tsx:286
-#: components/literature-review/MainContent.tsx:296
+#: components/literature-review/MainContent.tsx:285
+#: components/literature-review/MainContent.tsx:295
 msgid "Review Failed"
 msgstr ""
 
@@ -2542,7 +2542,7 @@ msgstr "ستظهر المراجعة هنا"
 #~ msgid "Save Time"
 #~ msgstr "وفّر الوقت"
 
-#: components/literature-review/MainContent.tsx:364
+#: components/literature-review/MainContent.tsx:363
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr ""
 
@@ -3219,7 +3219,7 @@ msgstr "تحميل ملف نصي"
 #~ msgid "View Documentation"
 #~ msgstr "عرض التوثيق"
 
-#: components/literature-review/MainContent.tsx:241
+#: components/literature-review/MainContent.tsx:240
 #: pages/source-tool/index.tsx:174
 msgid "Warning"
 msgstr ""
