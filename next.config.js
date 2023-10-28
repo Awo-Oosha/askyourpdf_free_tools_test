@@ -17,7 +17,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: 'build',
+  distDir: 'next/build',
   reactStrictMode: false,
   swcMinify: true,
   compiler: {
