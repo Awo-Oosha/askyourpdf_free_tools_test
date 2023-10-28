@@ -21,7 +21,7 @@ import ReactGA from "react-ga4";
 import { GetStaticProps } from "next";
 import { loadCatalog } from "@/utils/i18n";
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/tools/ToolBarExt";
 import Footer from "@/components/Footer";
 import ToolsFooter from "@/components/ToolsFooter";
 import { useMedia } from "react-use";
@@ -46,6 +46,7 @@ const MyLayout = styled(Layout)`
     transform: translate(-50%, -0%);
     z-index: -1;
     background-blend-mode: multiply;
+    z-index:1;
   }
 `;
 const LiteratureHeader = styled(Layout)`
@@ -131,7 +132,7 @@ const LiteratureLayout = styled(Layout)`
   background: #fff;
   padding: 62px 30px;
   margin: 0px 45px;
-  z-index: 20;
+  z-index: 1;
 
   @media (max-width: 768px) {
     padding: 0px;
@@ -343,7 +344,7 @@ const Literature = () => {
   const isSmallScreen = useMedia("(min-width: 576px)", false);
   return (
     <MyLayout>
-      <Navbar whiteBg={true} />
+      <Navbar />
       <LiteratureHeader>
         <div className="heroImage">
           {isSmallScreen && (

@@ -8,6 +8,7 @@ import LinkedIcon from "@/img/footer_socials/LinkedIn.svg?url";
 import TiktokIcon from "@/img/footer_socials/TikTok.svg?url";
 import { path } from "../routes";
 import { Trans } from "@lingui/macro";
+import {MAIN_APP_URL} from  '@/config/config';
 import Link from "next/link";
 import Image from "next/image";
 
@@ -260,7 +261,7 @@ export default function Footer() {
             </div>
             <ul>
               <li>
-                <Link href={path.apiPricing}>
+                <Link href={MAIN_APP_URL+path.apiPricing}>
                   <Trans>API</Trans>
                 </Link>
               </li>
@@ -283,27 +284,27 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href={""}>
+                <Link href={MAIN_APP_URL+""}>
                   <Trans>iOS App</Trans>
                 </Link>
               </li>
               <li>
-                <Link href={"/chat"}>
+                <Link href={MAIN_APP_URL+"/chat"}>
                   <Trans>Chat</Trans>
                 </Link>
               </li>
               <li>
-                <Link href={"/file-upload"}>
+                <Link href={MAIN_APP_URL+"/file-upload"}>
                   <Trans>File Upload</Trans>
                 </Link>
               </li>
               <li>
-                <Link href={"/pdf-to-chat"}>
+                <Link href={MAIN_APP_URL+"/pdf-to-chat"}>
                   <Trans>PDF To Chat</Trans>
                 </Link>
               </li>
               <li>
-                <Link href={"tools/literature-review-writer"}>
+                <Link href={"literature-review-writer"}>
                   <Trans>AI Literature Review Writer</Trans>
                 </Link>
               </li>
@@ -321,7 +322,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href={"/conversations"}>
+                <Link href={MAIN_APP_URL+"/conversations"}>
                   <Trans>Getting Started</Trans>
                 </Link>
               </li>
@@ -334,17 +335,17 @@ export default function Footer() {
             </div>
             <ul>
               <li>
-                <Link href={path.TermsAndCondition}>
+                <Link href={MAIN_APP_URL+path.TermsAndCondition}>
                   <Trans>Terms & Conditions</Trans>
                 </Link>
               </li>
               <li>
-                <Link href={path.PrivacyPolicy}>
+                <Link href={MAIN_APP_URL+path.PrivacyPolicy}>
                   <Trans>Privacy Policy</Trans>
                 </Link>
               </li>
               <li>
-                <Link href={path.FAQs}>
+                <Link href={MAIN_APP_URL+path.FAQs}>
                   <Trans>FAQs</Trans>
                 </Link>
               </li>

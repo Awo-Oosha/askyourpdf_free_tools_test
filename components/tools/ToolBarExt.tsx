@@ -5,7 +5,7 @@ import styled from "styled-components";
 import MenuIcon from "../../img/MenuIcon.svg?url";
 import CloseIcon from "../../img/CloseIcon.svg?url";
 import Logo from "../../img/Logo.svg?url";
-import { AUTH_FRONTEND_URL } from "@/config/config";
+import { AUTH_FRONTEND_URL, MAIN_APP_URL } from "@/config/config";
 import { ArrowDown } from "@phosphor-icons/react/dist/ssr";
 import { Dropdown, Radio } from "antd";
 import Link from "next/link";
@@ -236,32 +236,32 @@ const NavbarExt = () => {
             <NavMenu>
               <ul>
                 <li>
-                  <Link href={"/"}>
+                  <Link href={MAIN_APP_URL+""}>
                     <Trans>Home</Trans>
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/conversations"}>
+                  <Link href={MAIN_APP_URL+"/conversations"}>
                     ✨ <Trans>Conversations</Trans>
                   </Link>
                 </li>
                 <li onClick={() => handleScrollToSection("Plans")}>
-                  <p>
+                <Link href={MAIN_APP_URL+"/"}>
                     <Trans>Pricing</Trans>
-                  </p>
+                  </Link>
                 </li>
                 <li>
-                  <Link href={"/extension"}>
+                  <Link href={MAIN_APP_URL+"/extension"}>
                     <Trans>Extension</Trans>
                   </Link>
                 </li>
                 <li onClick={() => handleScrollToSection("App-Section")}>
-                  <p>
+                <Link href={MAIN_APP_URL+"/"}>
                     <Trans>Download</Trans>
-                  </p>
+                  </Link>
                 </li>
                 <li>
-                  <Link href={"/api-pricing"}>
+                  <Link href={MAIN_APP_URL+"/api-pricing"}>
                     <Trans>API</Trans>
                   </Link>
                 </li>
@@ -270,32 +270,32 @@ const NavbarExt = () => {
             <MobileMenu $open={menuOpen}>
               <ul>
                 <li>
-                  <Link href={"/"}>
+                  <Link href={MAIN_APP_URL+"/"}>
                     <Trans>Home</Trans>
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/conversations"}>
+                  <Link href={MAIN_APP_URL+"/conversations"}>
                     ✨ <Trans>Conversations</Trans>
                   </Link>
                 </li>
                 <li onClick={() => handleScrollToSection("Plans")}>
-                  <p>
+                <Link href={MAIN_APP_URL+"/"}>
                     <Trans>Pricing</Trans>
-                  </p>
+                  </Link>
                 </li>
                 <li>
-                  <Link href={"/extension"}>
+                  <Link href={MAIN_APP_URL+"/extension"}>
                     <Trans>Extension</Trans>
                   </Link>
                 </li>
                 <li onClick={() => handleScrollToSection("App-Section")}>
-                  <p>
+                <Link href={MAIN_APP_URL+"/"}>
                     <Trans>Download</Trans>
-                  </p>
+                  </Link>
                 </li>
                 <li>
-                  <Link href={"/api-pricing"}>
+                  <Link href={MAIN_APP_URL+"/api-pricing"}>
                     <Trans>API</Trans>
                   </Link>
                 </li>

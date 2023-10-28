@@ -20,8 +20,12 @@ import { useMutation } from "react-query";
 import { Filter, getSourceInformation, getSources } from "@/services/tools";
 import { useRouter } from "next/router";
 import ProgressModal from "@/components/Modals/ProgressModal";
-import { BottomNavigation } from "@/components/tools/ToolCommon";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+
+const BottomNavigation = dynamic(() => import('@/components/tools/ToolCommon'), {
+  ssr: false,
+}); 
 
 const MyLayout = styled(Layout)`
   background: #f6f6f8 !important;
