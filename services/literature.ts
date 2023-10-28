@@ -1,4 +1,4 @@
-import { LIT_REVIEW_SERVER_URL, INCLUDE_CREDENTIALS } from "../config/config";
+import { LIT_REVIEW_SERVER_URL, INCLUDE_CREDENTIALS } from "@/config/config";
 import { APIError } from "./conversations";
 
 export async function literatureReviewText(

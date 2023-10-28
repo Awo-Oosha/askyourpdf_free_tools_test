@@ -4,8 +4,6 @@ import {Trans} from "@lingui/macro";
 import {styled} from "styled-components";
 import Link from "next/link";
 
-
-
 const HeroContainer = styled.section<{ $backgroundImage?: string }>`
   background-color: #141314;
   background-image: url(${(props) => props.$backgroundImage});
@@ -28,7 +26,7 @@ const HeroContainer = styled.section<{ $backgroundImage?: string }>`
 
   @media (min-width: 576px) {
     padding-block: 180px;
-    background-color: #F9F9FA;
+    background-color: #f9f9fa;
   }
 
   @media (min-width: 1200px) {
@@ -105,14 +103,14 @@ const HeroText = styled.div`
 const HeaderTitleTab = styled(Link)`
   margin-bottom: 15px;
   text-decoration: none;
-  background: #FFF;
+  background: #fff;
   backdrop-filter: blur(18px);
   display: flex;
   padding: 8px 16px;
   justify-content: center;
   align-items: center;
   border-radius: 24px;
-  color: #EDB01A;
+  color: #edb01a;
   text-align: center;
   width: fit-content;
   font-size: 16px;
@@ -142,9 +140,9 @@ const NavButtons = styled(Link)`
   align-items: center;
   gap: 20px;
   border-radius: 36px;
-  border: 1px solid rgba(47, 43, 67, 0.10);
-  background: #FFF;
-  color: #2F2B43;
+  border: 1px solid rgba(47, 43, 67, 0.1);
+  background: #fff;
+  color: #2f2b43;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;

@@ -21,6 +21,7 @@ export const path = Object.freeze({
   tools: "/tools",
   literatureReview: "/literature-review-writer",
   affiliateProgram: "/affiliate-program",
+  sourceTool: "/source-tool",
 });
 
 const DEFAULT_DESCRIPTION =
@@ -58,12 +59,15 @@ export const PAGE_DESCRIPTION = {
   [`${path.pdfToChat}`]: "The easiest way to unlock insights from documents",
   [`${path.literatureReview}`]:
     "Generate high-quality literature reviews fast with our AI tool. Summarize papers, identify key themes, and synthesize conclusions with just a few clicks. The AI reviews thousands of sources to find the most relevant info for your topic.",
+  [`${path.sourceTool}`]:
+    "Leverage the power of artificial intelligence to discover, analyze, and recommend sources of relevant to your needs.",
   [`${path.affiliateProgram}`]:
     "At AskYourPDF we cherish our community and think you should be rewarded for spreading the word about our platform's advantages. To earn 30% commission on all payments made by users you refer within the first 12 months, Join our affiliate program.",
-    [`${path.tools}`]:
+  [`${path.tools}`]:
     "At AskYourPDF we cherish our community and think you should be rewarded for spreading the word about our platform's advantages. To earn 30% commission on all payments made by users you refer within the first 12 months, Join our affiliate program.",
 };
 
 export const PAGE_TITLE = {
   [`${path.literatureReview}`]: "AI-Powered Literature Review Writer",
+  [`${path.sourceTool}`]: "AI-Powered Source Tool",
 };
