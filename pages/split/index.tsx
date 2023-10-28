@@ -6,7 +6,7 @@ import {MAIN_APP_URL} from "@/config/config";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
 
-const MainPage = dynamic(() => import('@/components/tools/MainPage'), {
+const SplitPage = dynamic(() => import('@/components/tools/SplitPage'), {
   ssr: false,
   loading:()=>{
     return (<FullLoader/>);
@@ -27,11 +27,11 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
 
 
-const Tools: NextPage = () => {
+const ToolsSplit: NextPage = () => {
   
   return (
-    <MainPage/>
+    <SplitPage/>
   );
 };
 
-export default Tools;
+export default ToolsSplit;

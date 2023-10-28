@@ -155,19 +155,19 @@ const NavButtons = styled(Link)`
 const BottomNavigation = ()=>{
   return (<div style={{width:"100%",display:"flex",justifyContent:"center"}}>
 <BottomNav>
-  <NavButtons  href="./literature-review-writer">
+  <NavButtons  href="./tools/literature-review-writer">
     <div><Trans>Literature Review Tool</Trans></div>
     <ArrowRight style={{height:"20px"}}/>
   </NavButtons>
-  <NavButtons  href="./split">
+  <NavButtons  href="./tools/split">
     <div><Trans>PDF Splitter</Trans></div>
     <ArrowRight style={{height:"20px"}}/>
   </NavButtons>
-  <NavButtons  href="./merge">
+  <NavButtons  href="./tools/merge">
     <div><Trans>PDF Merger</Trans></div>
     <ArrowRight style={{height:"20px"}}/>
   </NavButtons>
-  <NavButtons  href="./ocr">
+  <NavButtons  href="./tools/ocr">
     <div><Trans>OCR PDF Reader</Trans></div>
     <ArrowRight style={{height:"20px"}}/>
   </NavButtons>

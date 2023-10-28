@@ -2,11 +2,9 @@ import {useState} from 'react'
 import {Row, Col} from "antd";
 import styled from "styled-components";
 import Spinner from "@/components/Spinner";
-import FileIcon from "@/img/FileIcon.svg?url";
 import Tesseract from 'tesseract.js';
 import {PDFDocument} from 'pdf-lib'
 import * as PDFJS from "pdfjs-dist";
-import Image from "next/image";
 import {PageContainer} from "@/styles/styles";
 import {Trans, t} from "@lingui/macro";
 import dynamic from "next/dynamic";
@@ -14,29 +12,14 @@ import type { NextPage, GetStaticProps } from "next";
 import { PAGE_DESCRIPTION, path } from '@/routes';
 import { loadCatalog } from "@/utils/i18n";
 import { MAIN_APP_URL } from '@/config/config';
+import BottomNavigation from '@/components/tools/ToolCommon';
+import ToolsHero from '@/components/tools/ToolsHero';
+import NavbarExt from '@/components/tools/ToolBarExt'; 
+import Footer from '@/components/Footer';
+import Waitlist from '@/components/tools/ToolsWaitlist';
+import DocUpload from '@/components/tools/DocUploadNoFunc';
+import Modal from '@/components/tools/ToolModal';
 
-
-const BottomNavigation = dynamic(() => import('@/components/tools/ToolCommon'), {
-  ssr: false,
-}); 
-const ToolsHero = dynamic(() => import('@/components/tools/ToolsHero'), {
-  ssr: false,
-}); 
-const NavbarExt = dynamic(() => import('@/components/tools/ToolBarExt'), {
-    ssr: false,
-});
-const Footer = dynamic(() => import('@/components/Footer'), {
-    ssr: false,
-});
-const Waitlist = dynamic(() => import('@/components/tools/ToolsWaitlist'), {
-    ssr: false,
-});
-const DocUpload = dynamic(() => import('@/components/tools/DocUploadNoFunc'), {
-    ssr: false,
-});
-const Modal = dynamic(() => import('@/components/tools/ToolModal'), {
-    ssr: false,
-});
 
 
 const ReUpload = styled.div`

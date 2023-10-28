@@ -26,26 +26,13 @@ import type { NextPage, GetStaticProps } from "next";
 import { PAGE_DESCRIPTION, path } from '@/routes';
 import { loadCatalog } from "@/utils/i18n";
 import { MAIN_APP_URL } from '@/config/config';
+import BottomNavigation from '@/components/tools/ToolCommon';
+import ToolsHero from '@/components/tools/ToolsHero';
+import NavbarExt from '@/components/tools/ToolBarExt'; 
+import Footer from '@/components/Footer';
+import Waitlist from '@/components/tools/ToolsWaitlist';
+import DocUpload from '@/components/tools/DocUploadNoFunc';
 
-const BottomNavigation = dynamic(() => import('@/components/tools/ToolCommon'), {
-  ssr: false,
-}); 
-const ToolsHero = dynamic(() => import('@/components/tools/ToolsHero'), {
-  ssr: false,
-}); 
-
-const NavbarExt = dynamic(() => import('@/components/tools/ToolBarExt'), {
-    ssr: false,
-});
-const Footer = dynamic(() => import('@/components/Footer'), {
-    ssr: false,
-});
-const Waitlist = dynamic(() => import('@/components/tools/ToolsWaitlist'), {
-    ssr: false,
-});
-const DocUpload = dynamic(() => import('@/components/tools/DocUploadNoFunc'), {
-    ssr: false,
-});
 
 
 const ReUpload = styled.div`

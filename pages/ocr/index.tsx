@@ -6,7 +6,7 @@ import {MAIN_APP_URL} from "@/config/config";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
 
-const MainPage = dynamic(() => import('@/components/tools/MainPage'), {
+const OcrPage = dynamic(() => import('@/components/tools/OcrPage'), {
   ssr: false,
   loading:()=>{
     return (<FullLoader/>);
@@ -27,11 +27,11 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
 
 
-const Tools: NextPage = () => {
+const ToolsOcr: NextPage = () => {
   
   return (
-    <MainPage/>
+    <OcrPage/>
   );
 };
 
-export default Tools;
+export default ToolsOcr;

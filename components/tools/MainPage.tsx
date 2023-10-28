@@ -1,9 +1,5 @@
-import type { NextPage, GetStaticProps } from "next";
 import { Container, PageContainer } from "@/styles/styles";
-import { loadCatalog } from "@/utils/i18n";
 import React, { useRef } from "react";
-import {PAGE_DESCRIPTION, path} from "@/routes";
-import {MAIN_APP_URL} from "@/config/config";
 import { Trans, t } from "@lingui/macro";
 import ToolsHero from "@/components/tools/ToolsHero";
 import ToolsSection from "@/components/tools/ToolsSection";

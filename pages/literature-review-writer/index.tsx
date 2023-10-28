@@ -10,7 +10,7 @@ const Content = dynamic(() => import('@/components/literature-review/MainContent
 
 const LiteratureHome = ()=>{
   return(
-      <Content/>
+   <Content/>
   )
 }
 export default LiteratureHome

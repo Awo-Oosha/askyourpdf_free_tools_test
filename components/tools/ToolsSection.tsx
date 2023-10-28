@@ -11,6 +11,7 @@ import EyeIcon from "@/img/tools/eye.png";
 import SplitIcon from "@/img/tools/split.png";
 import MergeIcon from "@/img/tools/merge.png";
 import ScanIcon from "@/img/tools/scan.png";
+import SourceIcon from "@/img/SourceIcon.svg?url";
 import { LandingFlexCol } from "@/styles/landing";
 import { Trans, t } from "@lingui/macro";
 import Image from "next/image";
@@ -288,6 +289,18 @@ const ToolsSection = ()=>{
   and searchable text with our AI powered OCR PDF
   Reader.</Trans></Tdesc>
   </ToolComp>
+  <ToolComp href="source-tool">
+          <Image src={SourceIcon} alt="" />
+          <Thead>
+            <Trans>Source Tool</Trans>
+          </Thead>
+          <Tdesc>
+            <Trans>
+              Leverage the power of artificial intelligence to discover,
+              analyse, and recommend sources of relevant to your needs.
+            </Trans>
+            </Tdesc>
+        </ToolComp>
     </ToolsListInner>
    </ToolsList>
     );
