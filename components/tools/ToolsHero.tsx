@@ -16,7 +16,7 @@ const HeroContainer = styled.section<{ $backgroundImage?: string }>`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-block: 85px;
+  padding-block: 95px;
   position: relative;
   overflow: hidden;
   z-index: 1;
