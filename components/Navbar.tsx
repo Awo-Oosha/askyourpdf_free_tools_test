@@ -5,7 +5,6 @@ import styled from "styled-components";
 import MenuIcon from "../img/MenuIcon.svg?url";
 import CloseIcon from "../img/CloseIcon.svg?url";
 import Logo from "../img/Logo.svg?url";
-import { AUTH_FRONTEND_URL } from "@/config/config";
 import { ArrowDown } from "@phosphor-icons/react/dist/ssr";
 import { Dropdown, Radio } from "antd";
 import Link from "next/link";
