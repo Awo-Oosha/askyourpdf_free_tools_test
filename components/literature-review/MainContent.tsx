@@ -24,12 +24,16 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ToolsFooter from "@/components/ToolsFooter";
-import { BottomNavigation } from "@/components/tools/ToolCommon";
 import { useMedia } from "react-use";
 import HeroImage from "@/img/Mask.svg?url";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+
+const BottomNavigation = dynamic(() => import('@/components/tools/ToolCommon'), {
+  ssr: false,
+}); 
 
 const MyLayout = styled(Layout)`
   background: #f6f6f8 !important;

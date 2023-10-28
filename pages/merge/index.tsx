@@ -18,12 +18,17 @@ import Image from "next/image";
 import {PageContainer} from "@/styles/styles";
 import {Trans, t} from "@lingui/macro";
 import dynamic from "next/dynamic";
-import {BottomNavigation, ToolsHero} from "@/components/tools/ToolCommon";
 import type { NextPage, GetStaticProps } from "next";
 import { PAGE_DESCRIPTION, path } from '@/routes';
 import { loadCatalog } from "@/utils/i18n";
 import { MAIN_APP_URL } from '@/config/config';
 
+const BottomNavigation = dynamic(() => import('@/components/tools/ToolCommon'), {
+  ssr: false,
+}); 
+const ToolsHero = dynamic(() => import('@/components/tools/ToolsHero'), {
+  ssr: false,
+}); 
 const NavbarExt = dynamic(() => import('@/components/tools/ToolBarExt'), {
     ssr: false,
 });
