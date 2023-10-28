@@ -46,7 +46,6 @@ const MyLayout = styled(Layout)`
     transform: translate(-50%, -0%);
     z-index: -1;
     background-blend-mode: multiply;
-    z-index:1;
   }
 `;
 const LiteratureHeader = styled(Layout)`
