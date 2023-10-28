@@ -16,7 +16,7 @@ const HeroContainer = styled.section<{ $backgroundImage?: string }>`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-block: 150px;
+  padding-block: 95px;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -144,7 +144,7 @@ const HeaderTitleTab = styled(Link)`
                       alt="Hero"
                       priority={true}
                       sizes="100vw"
-                      style={isSmallScreen==false? {transform:"scale(0.6)"}:{}}
+                      style={isSmallScreen==false? {transform:"scale(0.6)",display:"none"}:{}}
                   />
            
           </div>
