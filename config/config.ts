@@ -54,6 +54,7 @@ function getURL() {
       API_SERVICE_SERVER_URL: "http://127.0.0.1:5500",
       LIT_REVIEW_SERVER_URL: "http://127.0.0.1:5700",
       AUTH_FRONTEND_URL: "http://localhost:3000",
+      MAIN_APP_URL: "http://localhost:3000",
       CURRENT_ENV: "development",
     },
   };

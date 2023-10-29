@@ -3,7 +3,6 @@ import Reorder from "react-reorder";
 import {
     Layout,
     Row,
-    Col,
 } from "antd";
 import styled from "styled-components";
 import Spinner from "@/components/Spinner";
@@ -17,14 +16,9 @@ import * as PDFJS from "pdfjs-dist";
 import Image from "next/image";
 import {PageContainer} from "@/styles/styles";
 import {Trans, t} from "@lingui/macro";
-import dynamic from "next/dynamic";
-import type { NextPage, GetStaticProps } from "next";
-import { PAGE_DESCRIPTION, path } from '@/routes';
-import { loadCatalog } from "@/utils/i18n";
-import { MAIN_APP_URL } from '@/config/config';
 import BottomNavigation from '@/components/tools/ToolCommon';
 import ToolsHero from '@/components/tools/ToolsHero';
-import NavbarExt from '@/components/tools/ToolBarExt'; 
+import NavbarExt from '@/components/tools/ToolBarExt';
 import Footer from '@/components/Footer';
 import Waitlist from '@/components/tools/ToolsWaitlist';
 import DocUpload from '@/components/tools/DocUploadNoFunc';
@@ -380,22 +374,22 @@ const UploadInfo = styled.div`
     color: #344054 !important;
   }
 `;
- const PDFRows = styled(Reorder)`
-   width: 100%;
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   gap: 12px;
+const PDFRows = styled(Reorder)`
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
 
-   .startDrg {
-     border: 1px dashed rgba(237, 176, 26, 0.60);
-     box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.09);
-   }
+  .startDrg {
+    border: 1px dashed rgba(237, 176, 26, 0.60);
+    box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.09);
+  }
 
-   @media screen and (max-width: 900px) {
-     grid-template-columns: repeat(1, 1fr);
-     margin-bottom: 30px;
-   }
- `;
+  @media screen and (max-width: 900px) {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 30px;
+  }
+`;
 const PDFPage = styled.div`
   width: 100%;
   border-radius: 10.488px;
@@ -529,16 +523,7 @@ const ButtonRow = styled.div`
     }
   }
 `;
-export const getStaticProps: GetStaticProps = async (ctx) => {
-  const translation = await loadCatalog(ctx.locale!);
-  return {
-    props: {
-      translation,
-      description : PAGE_DESCRIPTION[path.tools],
-      canonicalUrl: `${MAIN_APP_URL}/`,
-    },
-  };
-};
+
 let resetKey = 1;
 const ToolsMerge = () => {
     const [mainfileData, setFileData] = useState();
@@ -681,7 +666,7 @@ const ToolsMerge = () => {
         });
         return (<div>
             <PDFRows reorderId="my-list" onReorder={getChangedPos} draggedClassName="startDrg" key={refreshCount}>
-               {allpages}
+                {allpages}
             </PDFRows>
         </div>);
     }
@@ -691,15 +676,15 @@ const ToolsMerge = () => {
         while
         maintaining quality and formatting.</Trans>;
     const tab = <Trans>Back to tools</Trans>;
-    const [isdone, setdone] = useState<true|false>(false);
-useEffect(()=>{
-if(isdone==false){
-  if(mainfileData!=null ){
-    docParts(mainfileData);
-    setdone(true);
-  }
-}
-},[mainfileData,docParts,isdone,setdone])
+    const [isdone, setdone] = useState<true | false>(false);
+    useEffect(() => {
+        if (isdone == false) {
+            if (mainfileData != null) {
+                docParts(mainfileData);
+                setdone(true);
+            }
+        }
+    }, [mainfileData, docParts, isdone, setdone])
 
     return (
         <PageContainer style={{background: "#f9f9fa"}}>
@@ -717,27 +702,27 @@ if(isdone==false){
                                 onUpload={async (data) => {
                                     setFileData(data.file.originFileObj);
                                     //setProcessing(true);
-                                    
+
                                 }}
                                 onError={(error) => {
-                                 
-                                  
+
+
                                 }}
                                 onRemoved={() => {
                                     setFileData(undefined);
                                 }}
                             />
 
-                                         <div style={{width:"100%",padding:"30px",display:"flex",justifyContent:"center"}}>
-                                           <Spinner type="primary" style={{
-                                            display: processing ? 'inline' : 'none',
-                                            height: "10px",
-                                            marginLeft: '20px',
-                                            transform: 'scale(2.5)'
-                                        }}/>
-                                        </div>
+                            <div style={{width: "100%", padding: "30px", display: "flex", justifyContent: "center"}}>
+                                <Spinner type="primary" style={{
+                                    display: processing ? 'inline' : 'none',
+                                    height: "10px",
+                                    marginLeft: '20px',
+                                    transform: 'scale(2.5)'
+                                }}/>
+                            </div>
 
-                            
+
                         </div>) : (done === "PAGES" ? (
                             <div>
                                 <OptionRows>
@@ -787,7 +772,7 @@ if(isdone==false){
 
                                 {viewPages(pdfPages)}
 
-                               
+
                             </div>
                         ) : (
                             <div>
@@ -840,14 +825,14 @@ if(isdone==false){
             <BottomNavigation/>
             <Waitlist/>
             <Footer/>
-            <Modal buttonText={"Download to files"} content={"PDF Successfully Merged!"} click={()=>{
-              
-              downloadFile(fileInfo.url, fileInfo.name);
-              setisDoneModal(false);
-              setDone("");
-              setFileData(undefined);
-              setPages([]);
-              }} show={isDoneModal}  />
+            <Modal buttonText={"Download to files"} content={"PDF Successfully Merged!"} click={() => {
+
+                downloadFile(fileInfo.url, fileInfo.name);
+                setisDoneModal(false);
+                setDone("");
+                setFileData(undefined);
+                setPages([]);
+            }} show={isDoneModal}/>
         </PageContainer>
     );
 }
