@@ -20,6 +20,7 @@ import DynamicDescription from "@/components/DynamicDescription";
 import React from "react";
 import { useEffect } from "react";
 import DynamicPageTitle from "@/components/DynamicPageTitle";
+import {DEFAULT_PAGE_TITLE} from "@/routes";
 
 ReactGA.initialize(TRACKING_ID);
 const queryClient = new QueryClient();
@@ -49,7 +50,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <I18nProvider i18n={i18n}>
       <QueryClientProvider client={queryClient}>
-        <DynamicPageTitle title={pageProps.title} />
+        <DynamicPageTitle title={pageProps.title || DEFAULT_PAGE_TITLE} />
         <AppHead />
         <DynamicDescription
           description={pageProps.description}

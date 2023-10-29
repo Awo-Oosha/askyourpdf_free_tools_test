@@ -40,6 +40,8 @@ export const PAGE_DESCRIPTION = {
     [`${path.split}`]: "Split, extract, and manage your PDF files with our advanced free PDF Online Splitter Tool. Tailored for precision, our tool empowers you to handle PDFs with ease."
 };
 
+
+export const DEFAULT_PAGE_TITLE = "AskYourPDF: The Best PDF AI Chat App"
 export const PAGE_TITLE = {
     [`${path.tools}`]: "Best Free PDF tools",
     [`${path.sourceTool}`]: "Best Free online Research and Citation Tool",
