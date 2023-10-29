@@ -54,6 +54,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <DynamicDescription
           description={pageProps.description}
           canonicalUrl={pageProps?.canonicalUrl}
+          imageUrl={pageProps?.imageUrl}
         />
         <ThemeProvider theme={theme}>
                     <GlobalStyle />

@@ -22,6 +22,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
       description: PAGE_DESCRIPTION[path.merge],
       title: PAGE_TITLE[path.merge],
       canonicalUrl: `${MAIN_APP_URL}${path.merge}`,
+      imageUrl : "/f7e8f296-465a-49c6-54a7-799c95d8a300/public"
     },
   };
 };

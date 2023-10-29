@@ -19,7 +19,8 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
       translation,
       description: PAGE_DESCRIPTION[path.literatureReview],
       canonicalUrl: `${MAIN_APP_URL}${path.literatureReview}`,
-      title : PAGE_TITLE[path.literatureReview]
+      title : PAGE_TITLE[path.literatureReview],
+      imageUrl : "/5f5921a7-4543-4668-9722-a8724e5e8600/public"
     },
   };
 };

@@ -22,6 +22,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
       description: PAGE_DESCRIPTION[path.ocr],
       title: PAGE_TITLE[path.ocr],
       canonicalUrl: `${MAIN_APP_URL}${path.ocr}`,
+      imageUrl : "/49ed616b-fb91-4bb1-2029-ba662f5c9c00/public"
     },
   };
 };
