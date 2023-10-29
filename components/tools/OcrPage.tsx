@@ -8,18 +8,17 @@ import * as PDFJS from "pdfjs-dist";
 import {PageContainer} from "@/styles/styles";
 import {Trans, t} from "@lingui/macro";
 import dynamic from "next/dynamic";
-import type { NextPage, GetStaticProps } from "next";
-import { PAGE_DESCRIPTION, path } from '@/routes';
-import { loadCatalog } from "@/utils/i18n";
-import { MAIN_APP_URL } from '@/config/config';
+import type {NextPage, GetStaticProps} from "next";
+import {PAGE_DESCRIPTION, PAGE_TITLE, path} from '@/routes';
+import {loadCatalog} from "@/utils/i18n";
+import {MAIN_APP_URL} from '@/config/config';
 import BottomNavigation from '@/components/tools/ToolCommon';
 import ToolsHero from '@/components/tools/ToolsHero';
-import NavbarExt from '@/components/tools/ToolBarExt'; 
+import NavbarExt from '@/components/tools/ToolBarExt';
 import Footer from '@/components/Footer';
 import Waitlist from '@/components/tools/ToolsWaitlist';
 import DocUpload from '@/components/tools/DocUploadNoFunc';
 import Modal from '@/components/tools/ToolModal';
-
 
 
 const ReUpload = styled.div`
@@ -182,16 +181,6 @@ const UploadInfo = styled.div`
   }
 `;
 
-export const getStaticProps: GetStaticProps = async (ctx) => {
-  const translation = await loadCatalog(ctx.locale!);
-  return {
-    props: {
-      translation,
-      description : PAGE_DESCRIPTION[path.tools],
-      canonicalUrl: `${MAIN_APP_URL}/`,
-    },
-  };
-};
 const ToolsOCR = () => {
     const [mainfileData, setFileData] = useState();
     const [done, setDone] = useState("");
@@ -304,8 +293,7 @@ const ToolsOCR = () => {
     };
 
     const title = <Trans>OCR PDF Reader</Trans>;
-    const desc = <Trans>Transform scanned or image-based PDFs into editable and searchable text with our AI
-        powered OCR PDF Reader.</Trans>;
+    const desc = <Trans>Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader.</Trans>;
     const tab = <Trans>Back to tools</Trans>;
 
     return (
@@ -316,38 +304,38 @@ const ToolsOCR = () => {
 
             <Padding>
                 <UploadSection>
-                            <div>
-                            <DocUpload key={keyRef}
-                                allowUploadModeSwitch={false}
-                                onUpload={(data) => {
-                                    setFileData(data.file.originFileObj);
-                                }}
-                                onError={(error) => {
-                                }}
-                                onRemoved={() => {
-                                    setFileData(undefined);
-                                }}
-                            />
+                    <div>
+                        <DocUpload key={keyRef}
+                                   allowUploadModeSwitch={false}
+                                   onUpload={(data) => {
+                                       setFileData(data.file.originFileObj);
+                                   }}
+                                   onError={(error) => {
+                                   }}
+                                   onRemoved={() => {
+                                       setFileData(undefined);
+                                   }}
+                        />
 
 
-                            <UploadButtonSect>
-                                <Rowx style={{justifyContent: 'center'}}>
+                        <UploadButtonSect>
+                            <Rowx style={{justifyContent: 'center'}}>
 
-                                    <Col>
-                                        <UpgradeButton disabled={!mainfileData} onClick={() => {
-                                            if (processing) return;
-                                            generateOCR(mainfileData);
-                                        }}>
-                                            <Trans>Read OCR PDF</Trans> <Spinner type="primary" style={{
-                                            display: processing ? 'inline' : 'none',
-                                            height: "10px",
-                                            marginLeft: '20px',
-                                            transform: 'scale(2.5)'
-                                        }}/></UpgradeButton>
-                                    </Col>
-                                </Rowx>
-                            </UploadButtonSect>
-                        </div>
+                                <Col>
+                                    <UpgradeButton disabled={!mainfileData} onClick={() => {
+                                        if (processing) return;
+                                        generateOCR(mainfileData);
+                                    }}>
+                                        <Trans>Read OCR PDF</Trans> <Spinner type="primary" style={{
+                                        display: processing ? 'inline' : 'none',
+                                        height: "10px",
+                                        marginLeft: '20px',
+                                        transform: 'scale(2.5)'
+                                    }}/></UpgradeButton>
+                                </Col>
+                            </Rowx>
+                        </UploadButtonSect>
+                    </div>
                 </UploadSection>
 
 
@@ -355,15 +343,15 @@ const ToolsOCR = () => {
             <BottomNavigation/>
             <Waitlist/>
             <Footer/>
-            <Modal content={"Read successful!"} 
-            buttonText = {"Download OCR PDF"}
-            click={()=>{
-              
-              downloadFile(done, fileInfo.name);
-              setisDoneModal(false);
-              setDone("");
-              setKeyRef(keyRef+1);
-              }} show={isDoneModal}  />
+            <Modal content={"Read successful!"}
+                   buttonText={"Download OCR PDF"}
+                   click={() => {
+
+                       downloadFile(done, fileInfo.name);
+                       setisDoneModal(false);
+                       setDone("");
+                       setKeyRef(keyRef + 1);
+                   }} show={isDoneModal}/>
         </PageContainer>
     );
 }

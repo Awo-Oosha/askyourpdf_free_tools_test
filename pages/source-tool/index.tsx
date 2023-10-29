@@ -234,12 +234,11 @@ const SourceTools = () => {
           </p>
         </BackToTools>
         <h1>
-          <Trans>Source Tool</Trans>
+          <Trans>AI Source Finder</Trans>
         </h1>
         <p>
           <Trans>
-            Simplify your search, guaranteeing precision and trustworthiness
-            with each query.
+            Enhance your research with our Source-Tool, which automatically cites and creates references for your academic text.
           </Trans>
         </p>
       </SourceHeader>

@@ -151,31 +151,34 @@ const NavButtons = styled(Link)`
 `;
 
 
-
-const BottomNavigation = ()=>{
-  return (<div style={{width:"100%",display:"flex",justifyContent:"center"}}>
-<BottomNav>
-  <NavButtons  href="literature-review-writer">
-    <div><Trans>Literature Review Tool</Trans></div>
-    <ArrowRight style={{height:"20px"}}/>
-  </NavButtons>
-  <NavButtons  href="split">
-    <div><Trans>PDF Splitter</Trans></div>
-    <ArrowRight style={{height:"20px"}}/>
-  </NavButtons>
-  <NavButtons  href="merge">
-    <div><Trans>PDF Merger</Trans></div>
-    <ArrowRight style={{height:"20px"}}/>
-  </NavButtons>
-  <NavButtons  href="ocr">
-    <div><Trans>OCR PDF Reader</Trans></div>
-    <ArrowRight style={{height:"20px"}}/>
-  </NavButtons>
-  <NavButtons  href="" style={{display:"none"}}>
-    <div><Trans>PDF Compressor</Trans></div>
-    <ArrowRight style={{height:"20px"}}/>
-  </NavButtons>
-</BottomNav>
-  </div>);
+const BottomNavigation = () => {
+    return (<div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+        <BottomNav>
+            <NavButtons href="literature-review-writer">
+                <div><Trans>Literature Review Tool</Trans></div>
+                <ArrowRight style={{height: "20px"}}/>
+            </NavButtons>
+            <NavButtons href="split">
+                <div><Trans>PDF Splitter</Trans></div>
+                <ArrowRight style={{height: "20px"}}/>
+            </NavButtons>
+            <NavButtons href="merge">
+                <div><Trans>PDF Merger</Trans></div>
+                <ArrowRight style={{height: "20px"}}/>
+            </NavButtons>
+            <NavButtons href="ocr">
+                <div><Trans>OCR PDF Reader</Trans></div>
+                <ArrowRight style={{height: "20px"}}/>
+            </NavButtons>
+            <NavButtons href="" style={{display: "none"}}>
+                <div><Trans>PDF Compressor</Trans></div>
+                <ArrowRight style={{height: "20px"}}/>
+            </NavButtons>
+            <NavButtons href="source-tool">
+                <div><Trans>Source Tool</Trans></div>
+                <ArrowRight style={{height: "20px"}}/>
+            </NavButtons>
+        </BottomNav>
+    </div>);
 }
 export default BottomNavigation;

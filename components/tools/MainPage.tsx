@@ -1,6 +1,6 @@
-import { Container, PageContainer } from "@/styles/styles";
-import React, { useRef } from "react";
-import { Trans, t } from "@lingui/macro";
+import { PageContainer } from "@/styles/styles";
+import React from "react";
+import { Trans } from "@lingui/macro";
 import ToolsHero from "@/components/tools/ToolsHero";
 import ToolsSection from "@/components/tools/ToolsSection";
 import NavbarExt from "./ToolBarExt";
@@ -14,7 +14,7 @@ import Waitlist from "../Waitlist";
 const ToolsPage = () => {
   
  const title= <Trans>Explore our Free Tools</Trans>;
- const desc = <Trans>Seamlessly edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your 
+ const desc = <Trans>Seamlessly cite, reference, edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your
  PDF interactions for free</Trans>;
  const tab = <Trans>Tools</Trans>;
   return (

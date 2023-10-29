@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Layout } from "antd";
 import { Content } from "antd/lib/layout/layout";
 import LiteratureMainBar from "@/components/literature-review/LiteratureMainBar";
@@ -23,7 +23,6 @@ import { loadCatalog } from "@/utils/i18n";
 import Image from "next/image";
 import Navbar from "@/components/tools/ToolBarExt";
 import Footer from "@/components/Footer";
-import ToolsFooter from "@/components/ToolsFooter";
 import { useMedia } from "react-use";
 import HeroImage from "@/img/Mask.svg?url";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
