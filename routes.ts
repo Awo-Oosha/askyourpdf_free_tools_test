@@ -44,7 +44,7 @@ export const PAGE_DESCRIPTION = {
 export const DEFAULT_PAGE_TITLE = "AskYourPDF: The Best PDF AI Chat App"
 export const PAGE_TITLE = {
     [`${path.tools}`]: "Best Free PDF tools",
-    [`${path.sourceTool}`]: "Best Free online Research and Citation Tool",
+    [`${path.sourceTool}`]: "Best Free AI Research and Citation Tool",
     [`${path.ocr}`]: "Best Free OCR PDF Reader",
     [`${path.merge}`]: "Best Online PDF Merger Tool",
     [`${path.split}`]: "Best PDF Splitter Online",
