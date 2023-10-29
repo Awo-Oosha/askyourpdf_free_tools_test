@@ -21,20 +21,6 @@ import DocUpload from '@/components/tools/DocUploadNoFunc';
 import Modal from '@/components/tools/ToolModal';
 
 
-const ReUpload = styled.div`
-  font-family:: var(--font-satoshi);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  color: black;
-  cursor: pointer;
-  @media (max-width: 992px) {
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-  }
-`;
 const UpgradeButton = styled.button`
   display: flex;
   justify-content: center;
@@ -147,37 +133,6 @@ const DoneText = styled.div`
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-  }
-`;
-const UploadItemContainer = styled.div`
-  background: #ffffff;
-  border: 1px solid #e4e7ec;
-  border-radius: 8px;
-  margin-bottom: 70px;
-`;
-
-const UploadInfoContainer = styled.div`
-  display: flex;
-  gap: 4px;
-  border-radius: 8px;
-  padding: 16px;
-`;
-
-const UploadInfo = styled.div`
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr auto;
-
-  p {
-    margin: 0;
-    font-family:: var(--font-satoshi);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    color: #344054 !important;
   }
 `;
 

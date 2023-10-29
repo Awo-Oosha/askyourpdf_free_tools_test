@@ -18,15 +18,11 @@ import { usePDF } from "@react-pdf/renderer";
 import { ToolsPDFExport } from "@/components/ToolsPDFExport";
 import { useDocuments } from "@/providers/DocumentsProvider";
 import ReactGA from "react-ga4";
-import { GetStaticProps } from "next";
-import { loadCatalog } from "@/utils/i18n";
 import Image from "next/image";
 import Navbar from "@/components/tools/ToolBarExt";
 import Footer from "@/components/Footer";
 import { useMedia } from "react-use";
 import HeroImage from "@/img/Mask.svg?url";
-import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
-import {MAIN_APP_URL} from "@/config/config";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 
@@ -152,17 +148,7 @@ const LiteratureLayout = styled(Layout)`
     }
   }
 `;
-export const getStaticProps: GetStaticProps = async (ctx) => {
-  const translation = await loadCatalog(ctx.locale!);
-  return {
-    props: {
-      translation,
-      description: PAGE_DESCRIPTION[path.literatureReview],
-      canonicalUrl: `${MAIN_APP_URL}${path.literatureReview}`,
-      title : PAGE_TITLE[path.literatureReview]
-    },
-  };
-};
+
 const ResultContainer = styled.div`
   display: flex;
   align-items: center;

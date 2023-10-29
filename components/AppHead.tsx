@@ -17,7 +17,6 @@ export default function AppHead() {
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="AskYourPDF: The Best PDF AI Chat App"/>
             <meta property="og:image:alt" content="AskYourPDF: The Best PDF AI Chat App"/>
-            <meta property="og:image" content="https://askyourpdf.com/logo512.png"/>
 
 
             {/* <!-- Twitter Meta Tags --> */}
