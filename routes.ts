@@ -5,7 +5,25 @@ export const path = Object.freeze({
     ocr: "/ocr",
     merge: "/merge",
     split: "/split",
-    apiPricing:"/api-pricing"
+    apiPricing:"/api-pricing",
+    FAQs: "/faq",
+    PrivacyPolicy: "/privacy",
+    chat: "/chat/:docID?",
+    upload: "/file-upload",
+    documents: "/documents/:docID?",
+    conversations: "/conversations/:idType?/:id?",
+    TermsAndCondition: "/terms",
+    settings: "/settings",
+    gptUpload: "/upload",
+    apiKeys: "/apikeys",
+    billingInfo: "/billing",
+    billingUpgrade: "/billing/upgrade",
+    knowledgeBase: "/knowledge-base",
+    delete: "/delete",
+    extension: "/extension",
+    summarise: "/summarise",
+    pdfToChat: "/pdf-to-chat",
+    affiliateProgram: "/affiliate-program",
 });
 
 const DEFAULT_DESCRIPTION =
