@@ -21,11 +21,6 @@ import {Dropdown} from 'antd';
 import * as PDFJS from "pdfjs-dist";
 import Image from "next/image";
 import {PageContainer} from "@/styles/styles";
-import dynamic from "next/dynamic";
-import type { NextPage, GetStaticProps } from "next";
-import { PAGE_DESCRIPTION, path } from '@/routes';
-import { loadCatalog } from "@/utils/i18n";
-import { MAIN_APP_URL } from '@/config/config';
 import BottomNavigation from '@/components/tools/ToolCommon';
 import ToolsHero from '@/components/tools/ToolsHero';
 import NavbarExt from '@/components/tools/ToolBarExt'; 
@@ -533,16 +528,7 @@ const WhiteBody = styled.div`
     padding: 30px 30px;
   }
 `;
-export const getStaticProps: GetStaticProps = async (ctx) => {
-  const translation = await loadCatalog(ctx.locale!);
-  return {
-    props: {
-      translation,
-      description : PAGE_DESCRIPTION[path.home],
-      canonicalUrl: `${MAIN_APP_URL}/`,
-    },
-  };
-};
+
 const ToolsSplit = () => {
     const [mainfileData, setFileData] = useState();
     const [done, setDone] = useState("");
