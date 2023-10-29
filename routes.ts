@@ -5,6 +5,7 @@ export const path = Object.freeze({
     ocr: "/ocr",
     merge: "/merge",
     split: "/split",
+    apiPricing:"/api-pricing"
 });
 
 const DEFAULT_DESCRIPTION =
