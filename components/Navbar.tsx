@@ -12,6 +12,7 @@ import Image from "next/image";
 import { locales } from "@/utils/i18n";
 import { useRouter } from "next/router";
 import { Trans } from "@lingui/macro";
+import {MAIN_APP_URL} from "@/config/config";
 
 const Header = styled.header`
   position: fixed;
@@ -210,7 +211,7 @@ function Navbar({
   };
 
   const handleGetStartedClick = () => {
-    router.push("/conversations");
+    router.push(`${MAIN_APP_URL}/conversation`);
   };
 
   const dropDownMenu = Object.values(locales).map((loc, index) => {
