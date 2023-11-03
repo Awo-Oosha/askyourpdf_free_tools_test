@@ -193,15 +193,10 @@ const NavbarExt = () => {
   const [locale, setLocale] = useState(router.locale!.split("-")[0]);
 
   const handleScrollToSection = (sectionId: string) => {
-    // const section = document.getElementById(sectionId);
     const section = document.getElementById(sectionId) as HTMLElement;
     if (section) {
       section?.scrollIntoView({ behavior: "smooth" });
     }
-  };
-
-  const handleGetStartedClick = () => {
-    return router.push(`${MAIN_APP_URL}/conversations`);
   };
 
   const dropDownMenu = Object.values(locales).map((loc, index) => {
@@ -325,7 +320,8 @@ const NavbarExt = () => {
                   {locale.toUpperCase()} <ArrowDown size={16} />
                 </CTA>
               </Dropdown>
-              <CTA onClick={handleGetStartedClick}>
+              <Link href={MAIN_APP_URL+"/conversations"} style={{ textDecoration: "none"}}>
+              <CTA >
                 <Trans>Start For Free</Trans>{" "}
                 <Image
                   src={ChevronRight}
@@ -334,6 +330,7 @@ const NavbarExt = () => {
                   height={12}
                 />
               </CTA>
+              </Link>
               <div
                 onClick={() => {
                   setMenuOpen(!menuOpen);
