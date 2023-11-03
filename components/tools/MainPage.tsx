@@ -13,7 +13,7 @@ import Waitlist from "../Waitlist";
 
 const ToolsPage = () => {
   
- const title= <Trans>Explore our Free Tools</Trans>;
+ const title= <Trans>Explore our Free Toolss</Trans>;
  const desc = <Trans>Seamlessly cite, reference, edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your
  PDF interactions for free</Trans>;
  const tab = <Trans>Tools</Trans>;
