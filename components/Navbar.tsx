@@ -410,9 +410,7 @@ function Navbar({
                 </CTA>
               </Dropdown>
               <CTA onClick={handleGetStartedClick}>
-                {router.pathname === "/pdf-to-chat" ? (<Trans> Get Started </Trans>) 
-                : ( <Trans>Start For Free</Trans> )}
-                {" "}
+                <Trans>Start For Free</Trans>
                 <Image
                   src={ChevronRight}
                   alt="chevron"
