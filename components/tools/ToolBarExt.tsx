@@ -202,7 +202,7 @@ const NavbarExt = () => {
   };
 
   const handleGetStartedClick = () => {
-    router.push(MAIN_APP_URL+"/conversations");
+    return router.push(`${MAIN_APP_URL}/conversations`);
   };
 
   const dropDownMenu = Object.values(locales).map((loc, index) => {
