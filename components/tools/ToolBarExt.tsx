@@ -184,7 +184,6 @@ const DropdownOverlay = styled.div`
   z-index: 5;
 `;
 
-// million-ignore
 const NavbarExt = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const router = useRouter();

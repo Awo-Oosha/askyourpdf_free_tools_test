@@ -3,9 +3,9 @@ import React from "react";
 import { Trans } from "@lingui/macro";
 import ToolsHero from "@/components/tools/ToolsHero";
 import ToolsSection from "@/components/tools/ToolsSection";
-import NavbarExt from "./ToolBarExt";
 import Footer from "../Footer";
 import Waitlist from "../Waitlist";
+import NavbarExt from "@/components/tools/ToolBarExt";
 
 
 
