@@ -409,15 +409,17 @@ function Navbar({
                   {locale.toUpperCase()} <ArrowDown size={16} />
                 </CTA>
               </Dropdown>
-              <CTA onClick={handleGetStartedClick}>
-                <Trans>Start For Free</Trans>
-                <Image
-                  src={ChevronRight}
-                  alt="chevron"
-                  width={16}
-                  height={12}
-                />
-              </CTA>
+              <Link href={"/conversations"} passHref>
+                <CTA as="a">
+                  <Trans>Start For Free</Trans>
+                  <Image
+                      src={ChevronRight}
+                      alt="chevron"
+                      width={16}
+                      height={12}
+                  />
+                </CTA>
+              </Link>
               <div
                 onClick={() => {
                   setMenuOpen(!menuOpen);
