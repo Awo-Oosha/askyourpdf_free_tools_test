@@ -33,7 +33,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
             description: PAGE_DESCRIPTION[path.sourceTool],
             canonicalUrl: `${MAIN_APP_URL}${path.sourceTool}`,
             title: PAGE_TITLE[path.sourceTool],
-            imageUrl: "/img/AI-story-generator.svg"
+            imageUrl: "/img/AI-story-.png"
         },
     };
 };
@@ -41,18 +41,18 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 const StoryGenerator = () => {
     const router = useRouter();
     const options:any = [
-        {name:"Select Genre",data:[
+        {name:" Genre",data:[
             {label:"Story",key:"str",  onClick:(key:any)=>{}},
             {label:"Story2",key:"str2",onClick:(key:any)=>{}},
             {label:"Story3",key:"str3",onClick:(key:any)=>{}},
         ]},
-        {name:"Select Length",data:[
+        {name:"Length",data:[
             {label:"Story",key:"str",  onClick:(key:any)=>{}},
             {label:"Story2",key:"str2",onClick:(key:any)=>{}},
             {label:"Story3",key:"str3",onClick:(key:any)=>{}},
         ]}
         ,
-        {name:"Select Settings",data:[
+        {name:" Settings",data:[
             {label:"Story",key:"str",  onClick:(key:any)=>{}},
             {label:"Story2",key:"str2",onClick:(key:any)=>{}},
             {label:"Story3",key:"str3",onClick:(key:any)=>{}},
@@ -60,7 +60,7 @@ const StoryGenerator = () => {
     ];
     const textfields:any=[
         {placeholder:t`Input Names and a brief description of the main characters`,height:"70px"},
-        {placeholder:t`Input Names and a brief description of the main characters`,height:"70px"},
+        {placeholder:t`input Key events/plot points `,height:"70px"},
     ];
 
     const faqs=[
