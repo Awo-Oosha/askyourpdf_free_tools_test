@@ -220,18 +220,29 @@ export default function Hero({image,title,description,fields,buttonText,buttonFu
 }) {
   const ref = useRef(null);
   const isSmallScreen = useMedia('(min-width: 576px)', false);
-  let textData:any=[];
+  const [textData,setTextData] = useState([]);
+  let tempChange:any = [];
   const [selectedItem, setSelectedItem] = useState([]);
   
   const TextFields = ()=>{
  
     let area:any = [];
-    fields.forEach((element:any,index:number)=> {
-      function handleTextAreaChange(event:any) {
-        textData[index] = event.target.value; 
-      }
+    const handleTextAreaChange = (event:any, index:number) => {
+      const newTextData:any = [...textData];
+      newTextData[index] = event.target.value;
+      setTextData(newTextData);
+    };
+    const handleTextAreaChange2 = (event:any, index:number) => {
+      const newTextData:any = [...textData];
+      newTextData[index] = event.target.value + newTextData[index];
+      tempChange=newTextData;
+    };
+    fields.map((element:any,index:number)=> {
+    
      area.push(
-      <TextArea key={index} placeholder={`${element.placeholder}`} onChange={handleTextAreaChange} style={element.height!=undefined?{height:element.height}:{}}  />
+      <TextArea  key={index} value={tempChange[index]==null?textData[index]:tempChange[index]} placeholder={`${element.placeholder}`} onChange={(e)=>{
+        //handleTextAreaChange2(e,index)
+      }}  onBlur={(e) => handleTextAreaChange(e, index)} style={element.height!=undefined?{height:element.height}:{}}  />
      );    
     })
 
