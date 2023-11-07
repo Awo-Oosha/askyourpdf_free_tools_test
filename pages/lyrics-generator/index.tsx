@@ -24,6 +24,7 @@ import {useRouter} from "next/router";
 import ProgressModal from "@/components/Modals/ProgressModal";
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import {routerData } from "@/services/libtools";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadCatalog(ctx.locale!);
@@ -77,7 +78,7 @@ const LyricsGenerator = () => {
         fields={textfields}
         buttonText={"Generate Lyrics"}
         buttonFunction={(text:any,items:any)=>{
-            console.log(text,items);
+            routerData(text,items,"./lyrics-generator/generate");
         }}
         selectOptions={options} 
         />
