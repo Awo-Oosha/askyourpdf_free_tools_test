@@ -2,7 +2,7 @@ import React, {ChangeEvent, useEffect, useRef, useState} from "react";
 import {Layout} from "antd";
 import {Content} from "antd/lib/layout/layout";
 import styled from "styled-components";
-import LyricsGen from "@/img/AI-story-generator.svg?url";
+import LyricsGen from "@/img/tools/lyricsGen.png";
 import {alerts} from "@/utils/alerts";
 import {t, Trans} from "@lingui/macro";
 import {GetStaticPaths, GetStaticProps} from "next";
@@ -33,33 +33,40 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
             description: PAGE_DESCRIPTION[path.sourceTool],
             canonicalUrl: `${MAIN_APP_URL}${path.sourceTool}`,
             title: PAGE_TITLE[path.sourceTool],
-            imageUrl: "/img/AI-essay-maker.png"
+            imageUrl: "/img/AI-Poem-Generator.png"
         },
     };
 };
 
-const EssayMaker = () => {
+const PoemGenerator = () => {
     const router = useRouter();
     const options:any = [
-        {name:" Select Type",data:[
-            {label:"Story",key:"str",  onClick:(key:any)=>{}},
-            {label:"Story2",key:"str2",onClick:(key:any)=>{}},
-            {label:"Story3",key:"str3",onClick:(key:any)=>{}},
+        {name:"Select Style",data:[
+            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
         ]},
-        {name:"No of Paragraphs",data:[
-            {label:"Story",key:"str",  onClick:(key:any)=>{}},
-            {label:"Story2",key:"str2",onClick:(key:any)=>{}},
-            {label:"Story3",key:"str3",onClick:(key:any)=>{}},
+        {name:"Select Mood",data:[
+            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
         ]}
-       
+        ,
+        {name:"Select Themes",data:[
+            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+        ]}
+        ,
+        {name:"Length",data:[
+            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+        ]}
     ];
     const textfields:any=[
-        {placeholder:t`Input Title or Topic`,height:"70px"},
-        {placeholder:t`input Thesis Statement  `,height:"70px"},
-        {placeholder:t`input Key Points to Cover `,height:"70px"},
-        
+        {placeholder:t`Input some line here to begin`,height:"90px"},
     ];
-
     const faqs=[
         {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
         {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
@@ -77,17 +84,15 @@ const EssayMaker = () => {
         <Navbar/>
         <Hero 
         image={LyricsGen} 
-        title={t`AI Essay Maker`} 
-        description={t`Fill`}
-        fields={textfields }
-        buttonText={"Generate Essay"}
+        title={t`AI Poem Generator`} 
+        description={t`fill`}
+        fields={textfields}
+        buttonText={"Generate Poem"}
         buttonFunction={(text:any,items:any)=>{
             console.log(text,items);
         }}
         selectOptions={options} 
         />
-
-        
         <FAQ data={faqs}/>
         <Footer/>
 
@@ -95,4 +100,4 @@ const EssayMaker = () => {
  
 };
 
-export default EssayMaker;
+export default PoemGenerator;
