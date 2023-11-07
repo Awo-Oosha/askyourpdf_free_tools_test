@@ -2,7 +2,7 @@ import React, {ChangeEvent, useEffect, useRef, useState} from "react";
 import {Layout} from "antd";
 import {Content} from "antd/lib/layout/layout";
 import styled from "styled-components";
-import LyricsGen from "@/img/tools/lyricsGen.png";
+import LyricsGen from "@/img/AI-story-generator.svg?url";
 import {alerts} from "@/utils/alerts";
 import {t, Trans} from "@lingui/macro";
 import {GetStaticPaths, GetStaticProps} from "next";
@@ -59,12 +59,10 @@ const StoryGenerator = () => {
         ]}
     ];
     const textfields:any=[
-        {placeholder:t`Input Names and a brief description of the main characters`,height:"90px"},
+        {placeholder:t`Input Names and a brief description of the main characters`,height:"70px"},
+        {placeholder:t`Input Names and a brief description of the main characters`,height:"70px"},
     ];
 
-    const textfield:any=[
-        {placeholder:t`Input Key events/plot points`,height:"90px"},
-    ];
     const faqs=[
         {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
         {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
