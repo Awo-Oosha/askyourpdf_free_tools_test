@@ -84,7 +84,7 @@ const EssayMaker = () => {
         fields={textfields }
         buttonText={"Generate Essay"}
         buttonFunction={(text:any,items:any)=>{
-            routerData(text,items,"../essay-maker/generate");
+            routerData(text,items,"./essay-maker/generate");
         }}
         selectOptions={options} 
         />

@@ -86,7 +86,7 @@ const InstagramCaptionGenerator = () => {
         fields={textfields}
         buttonText={"Generate Instagram Caption"}
         buttonFunction={(text:any,items:any)=>{
-            routerData(text,items,"./generate");
+            routerData(text,items,"./instagram-caption/generate");
         }}
         selectOptions={options} 
         />

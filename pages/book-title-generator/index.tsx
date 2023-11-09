@@ -85,7 +85,7 @@ const BookTitleGenerator = () => {
         fields={textfields}
         buttonText={"Generate Book"}
         buttonFunction={(text:any,items:any)=>{
-             routerData(text,items,"../book-title-generator/generate");
+             routerData(text,items,"./book-title-generator/generate");
         }}
         selectOptions={options} 
         />
