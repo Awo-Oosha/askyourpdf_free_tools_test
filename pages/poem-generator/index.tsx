@@ -2,7 +2,7 @@ import React, {ChangeEvent, useEffect, useRef, useState} from "react";
 import {Layout} from "antd";
 import {Content} from "antd/lib/layout/layout";
 import styled from "styled-components";
-import LyricsGen from "@/img/AI-Poem-Generator.png.svg?url";
+import LyricsGen from "@/img/AI-Poem-Generator.png";
 import {alerts} from "@/utils/alerts";
 import {t, Trans} from "@lingui/macro";
 import {GetStaticPaths, GetStaticProps} from "next";
@@ -90,7 +90,7 @@ const PoemGenerator = () => {
         fields={textfields}
         buttonText={"Generate Poem"}
         buttonFunction={(text:any,items:any)=>{
-            routerData(text,items,"./generate");
+            routerData(text,items,"./poem-generator/generate");
         }}
         selectOptions={options} 
         />

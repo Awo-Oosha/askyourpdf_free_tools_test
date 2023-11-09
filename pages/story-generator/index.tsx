@@ -2,7 +2,7 @@ import React, {ChangeEvent, useEffect, useRef, useState} from "react";
 import {Layout} from "antd";
 import {Content} from "antd/lib/layout/layout";
 import styled from "styled-components";
-import LyricsGen from "@/img/AI-story-generator.svg?url";
+import LyricsGen from "@/img/AI-story-.png";
 import {alerts} from "@/utils/alerts";
 import {t, Trans} from "@lingui/macro";
 import {GetStaticPaths, GetStaticProps} from "next";
@@ -86,7 +86,7 @@ const StoryGenerator = () => {
         fields={textfields }
         buttonText={"Generate Story"}
         buttonFunction={(text:any,items:any)=>{
-            routerData(text,items,"./generate");
+            routerData(text,items,"./story-generator/generate");
         }}
         selectOptions={options} 
         />

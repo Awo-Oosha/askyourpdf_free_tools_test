@@ -34,8 +34,9 @@ const ParagraphGeneratorSub = ()=>{
             const texts = data.texts;
             const options = data.items;
             //execute direct api function here
+            setPreviousData(data);
         }
-        setPreviousData(data);
+        
     })
     console.log("previous",previousData);
   },[setPreviousData,previousData])

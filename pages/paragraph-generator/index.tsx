@@ -2,7 +2,7 @@ import React, {ChangeEvent, useEffect, useRef, useState} from "react";
 import {Layout} from "antd";
 import {Content} from "antd/lib/layout/layout";
 import styled from "styled-components";
-import ParaGen from "@/img/AI-Paragraph- Generator.png.svg?url";
+import ParaGen from "@/img/AI-Paragraph- Generator.png";
 import {alerts} from "@/utils/alerts";
 import {t, Trans} from "@lingui/macro";
 import {GetStaticPaths, GetStaticProps} from "next";
@@ -78,7 +78,7 @@ const ParagraphGenerator = () => {
         fields={textfields}
         buttonText={"Generate Paragraph"}
         buttonFunction={(text:any,items:any)=>{
-            routerData(text,items,"./generate");
+            routerData(text,items,"./pararaph-generator/generate");
         }}
         selectOptions={options} 
         />
