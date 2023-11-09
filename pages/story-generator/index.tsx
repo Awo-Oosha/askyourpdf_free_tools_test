@@ -2,7 +2,7 @@ import React, {ChangeEvent, useEffect, useRef, useState} from "react";
 import {Layout} from "antd";
 import {Content} from "antd/lib/layout/layout";
 import styled from "styled-components";
-import LyricsGen from "@/img/AI-story-generator.svg?url";
+import LyricsGen from "@/img/AI-story-.png";
 import {alerts} from "@/utils/alerts";
 import {t, Trans} from "@lingui/macro";
 import {GetStaticPaths, GetStaticProps} from "next";
@@ -24,6 +24,7 @@ import {useRouter} from "next/router";
 import ProgressModal from "@/components/Modals/ProgressModal";
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import {routerData } from "@/services/libtools";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadCatalog(ctx.locale!);
@@ -33,7 +34,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
             description: PAGE_DESCRIPTION[path.sourceTool],
             canonicalUrl: `${MAIN_APP_URL}${path.sourceTool}`,
             title: PAGE_TITLE[path.sourceTool],
-            imageUrl: "/img/AI-story-.png"
+            imageUrl: "/6201447e-3545-4eb4-334d-cadf31496100/public"
         },
     };
 };
@@ -85,7 +86,7 @@ const StoryGenerator = () => {
         fields={textfields }
         buttonText={"Generate Story"}
         buttonFunction={(text:any,items:any)=>{
-            console.log(text,items);
+            routerData(text,items,"./story-generator/generate");
         }}
         selectOptions={options} 
         />
