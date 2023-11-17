@@ -121,32 +121,33 @@ const BackToTools = styled(Link)`
 `;
 
 const LiteratureLayout = styled(Layout)`
-  border-radius: 18px;
-  border: 1px solid rgba(47, 43, 67, 0.1);
-  background: #fff;
-  padding: 62px 30px;
-  margin: 0px 45px;
-  z-index: 1;
+border-radius: 18px;
+border: 1px solid rgba(47, 43, 67, 0.1);
+background: #fff;
+padding: 62px 30px;
+margin: 0px 45px;
+z-index: 3;
 
-  @media (max-width: 768px) {
-    padding: 0px;
-    margin: 0px 20px;
-    background-color: transparent;
-    border: none;
-  }
+@media (max-width: 768px) {
+  padding: 0px;
+  margin: 0px 16px;
+  background-color: transparent;
+  border: none;
+}
+
+.ant-layout-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
   .ant-layout-content {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
   }
-
-  @media (min-width: 992px) {
-    .ant-layout-content {
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-    }
-  }
+}
 `;
 
 const ResultContainer = styled.div`
@@ -190,6 +191,7 @@ const Literature = () => {
   const [literatureText, setLiteratureText] = useState("");
   const [docID, setDocID] = useState("");
   const [isTyping, setIsTyping] = useState(false);
+  const [isOpen,setOpen] = useState(false);
   const [literatureYearFrom, setLiteratureYearFrom] = useState<
     number | undefined
   >();
@@ -370,16 +372,19 @@ const Literature = () => {
             isTyping={isTyping}
             exportPDF={exportPDF}
             handleLiteratureText={handleLiteratureText}
+            setShowConfigurationModal={setOpen}
           />
-          <LiteratureSideBar
+          {isOpen==true?(<LiteratureSideBar
             isTyping={isTyping}
+            setOpen={setOpen}
+            open={isOpen}
             docID={docID}
             setDocID={setDocID}
             literatureYearTo={literatureYearTo}
             setLiteratureYearTo={setLiteratureYearTo}
             literatureYearFrom={literatureYearFrom}
             setLiteratureYearFrom={setLiteratureYearFrom}
-          />
+          />):(<></>)}
         </Content>
       </LiteratureLayout>
       <BottomNavigation/>
