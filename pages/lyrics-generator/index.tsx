@@ -78,6 +78,23 @@ const LyricsGenerator = () => {
         fields={textfields}
         buttonText={"Generate Lyrics"}
         buttonFunction={(text:any,items:any)=>{
+            //console.log(text);
+            if(text[0]==''){
+                alerts.error(
+                    t`Warning`,
+                    "Please enter some text",
+                    2000
+                  ); 
+                return null;
+            }
+            if(items.length<2){
+                alerts.error(
+                    t`Warning`,
+                    "Please select genre and mood",
+                    2000
+                  ); 
+                return null;
+            }
             routerData(text,items,"./lyrics-generator/generate");
         }}
         selectOptions={options} 

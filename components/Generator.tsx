@@ -179,6 +179,7 @@ width:100%;
 padding:14px;
 font-family:Satoshi;
 box-sizing:border-box;
+white-space: pre-wrap;
 
 `;
 const ContentHeader = styled.div`

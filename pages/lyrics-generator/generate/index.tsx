@@ -9,6 +9,7 @@ import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
 import Generator from "@/components/Generator";
 import { getRouterData } from "@/services/libtools";
+import { generateLyrics } from "@/services/toolsApi";
 
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -28,12 +29,56 @@ const LyricsGeneratorSub = ()=>{
   const [generatedContent,setGeneratedContent]= useState("");
   const [isLoading,setIsLoading]= useState(false);
   const [previousData,setPreviousData]= useState(null); //data from previos page/ null if empty
+  const genLyrics = async(text:any,parameters:any)=>{
+    if(text==null){
+        alerts.error(
+            t`Warning`,
+            "Please enter some text",
+            2000
+          ); 
+        return null;
+    }
+    if(parameters.length<2){
+        alerts.error(
+            t`Warning`,
+            "Please select genre and mood",
+            2000
+          ); 
+        return null;
+    }
+    const newParam:any = {
+        "GENRE":parameters[0],
+        "MOOD":parameters[1],
+    }
+    
+    setGeneratedContent("");
+    let dynamicContent = ""
+    setIsLoading(true);
+  const st = await generateLyrics(text,newParam);
+  const reader = st.body!.getReader();
+  setIsLoading(false);
+  while (true) {
+
+const { value, done } = await reader.read();
+
+if (done) {
+  break;
+} else {
+const textDecoder = new TextDecoder('utf-8'); // Assuming utf-8 encoding
+const text = textDecoder.decode(value);
+const nwText = dynamicContent + text;
+setGeneratedContent(nwText);
+//console.log(text);
+}
+  }
+  }
   useEffect(()=>{
     getRouterData().then((data:any)=>{
         if(data!=null){
             const texts = data.texts;
             const options = data.items;
             //execute direct api function here
+            genLyrics(texts[0],options).catch((e:any)=>{console.log(e)});
             setPreviousData(data);
         }
         
@@ -66,7 +111,16 @@ return(<div>
  content={generatedContent}
  isLoading={isLoading}
  buttonFunction={(text:any,items:any)=>{
-     console.log(text,items);
+    //execute direct api function here
+    console.log(items)
+    genLyrics(text[0],items).catch((e:any)=>{
+        setIsLoading(false);
+        alerts.error(
+            t`Warning`,
+            "An error has occured",
+            2000
+          ); 
+    });
  }}
  selectOptions={options} 
 />

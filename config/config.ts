@@ -22,6 +22,7 @@ type EnvironmentConfig = {
     CURRENT_ENV: string;
     MAIN_APP_URL?: string;
     OG_IMAGE_URL?: string;
+    TOOLS_GEN_URL? : string;
 };
 
 function getURL() {
@@ -36,7 +37,8 @@ function getURL() {
             LIT_REVIEW_SERVER_URL: "https://lit-review.askyourpdf.com",
             CURRENT_ENV: "production",
             MAIN_APP_URL: "https://askyourpdf.com",
-            OG_IMAGE_URL: "https://imagedelivery.net/hYJU-PhERMuLWB8TBRFWpw"
+            OG_IMAGE_URL: "https://imagedelivery.net/hYJU-PhERMuLWB8TBRFWpw",
+            TOOLS_GEN_URL: "https://tools.askyourpdf.com"
         },
         staging: {
             AUTH_SERVER_URL: "https://auth.askingstage.com",
@@ -48,7 +50,8 @@ function getURL() {
             LIT_REVIEW_SERVER_URL: "https://lit-review.askingstage.com",
             CURRENT_ENV: "staging",
             MAIN_APP_URL: "https://next.askingstage.com/",
-            OG_IMAGE_URL: "https://imagedelivery.net/hYJU-PhERMuLWB8TBRFWpw"
+            OG_IMAGE_URL: "https://imagedelivery.net/hYJU-PhERMuLWB8TBRFWpw",
+            TOOLS_GEN_URL: "https://tools.askyourpdf.com"
         },
         development: {
             AUTH_SERVER_URL: "http://127.0.0.1:5100",
@@ -60,7 +63,8 @@ function getURL() {
             AUTH_FRONTEND_URL: "http://localhost:3000",
             MAIN_APP_URL: "http://localhost:3000",
             CURRENT_ENV: "development",
-            OG_IMAGE_URL: "https://imagedelivery.net/hYJU-PhERMuLWB8TBRFWpw"
+            OG_IMAGE_URL: "https://imagedelivery.net/hYJU-PhERMuLWB8TBRFWpw",
+            TOOLS_GEN_URL: "https://tools.askingstage.com"
         },
     };
     const env = process.env.NEXT_PUBLIC_MY_ENV || "production";
@@ -76,7 +80,8 @@ export const {
     LIT_REVIEW_SERVER_URL,
     CURRENT_ENV,
     MAIN_APP_URL,
-    OG_IMAGE_URL
+    OG_IMAGE_URL,
+    TOOLS_GEN_URL
 } = getURL();
 
 export const INCLUDE_CREDENTIALS =
