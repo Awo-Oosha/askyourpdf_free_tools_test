@@ -11,9 +11,13 @@ import {MAIN_APP_URL} from "@/config/config";
 import { getRouterData } from "@/services/libtools";
 import { generateLyrics } from "@/services/toolsApi";
 import dynamic from "next/dynamic";
+import FullLoader from "@/components/tools/FullLoader";
 
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
+  loading:()=>{
+    return (<FullLoader/>);
+  }
 }); 
 
 export const getStaticProps: GetStaticProps = async (ctx) => {

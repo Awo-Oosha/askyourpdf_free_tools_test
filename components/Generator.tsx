@@ -278,10 +278,12 @@ const Generator = ({title,description,fields,buttonText,buttonFunction,selectOpt
       });
       link.click();
     };
-    let textData:any=[];
+    const [textData,setTextData] = useState([]);
     const [selectedItem, setSelectedItem] = useState([]);
     function handleTextAreaChange(event:any,index:number) {
-      textData[index] = event.target.value; 
+      const newTextData:any = [...textData];
+    newTextData[index] = event.target.value;
+    setTextData(newTextData);
     }
   
     const OptionsList = ()=>{
@@ -291,7 +293,7 @@ const Generator = ({title,description,fields,buttonText,buttonFunction,selectOpt
     
         const items: MenuProps['items'] = element.data;
         const onClick: MenuProps['onClick'] = ({key})=>{
-          const ns:any = [...selectedItem];;
+          const ns:any = [...selectedItem];
           ns[index]=key;
           setSelectedItem(ns);
         };
@@ -338,7 +340,9 @@ return(<div>
     </DividerFirst>
     <DividerLast>
         <GenTitle><span>{generationTitle}</span><ContentHeader>
-        <div className="copyAndExport">
+        {
+          content!=""?(<>
+          <div className="copyAndExport">
                   <CopyToClipboard
                       text={removeMarkdown(content)}
                       onCopy={() => {
@@ -358,6 +362,8 @@ return(<div>
                     PDF <Image src={Export} alt="" />
                   </button>
                 </div>
+          </>):(<></>)
+        }
             </ContentHeader></GenTitle>
         <div>
         {
