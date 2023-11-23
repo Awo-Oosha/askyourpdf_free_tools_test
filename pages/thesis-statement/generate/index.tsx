@@ -9,7 +9,7 @@ import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
 import Generator from "@/components/Generator";
 import { getRouterData } from "@/services/libtools";
-
+import { generateThesis } from "@/services/toolsApi";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadCatalog(ctx.locale!);
@@ -28,18 +28,64 @@ const ThesisStatementGeneratorSub = ()=>{
   const [generatedContent,setGeneratedContent]= useState("");
   const [isLoading,setIsLoading]= useState(false);
   const [previousData,setPreviousData]= useState(null); //data from previos page/ null if empty
+  const genThesis = async(text:any,parameters:any)=>{
+    if(text==null){
+        alerts.error(
+            t`Warning`,
+            "Please enter some text",
+            2000
+          ); 
+        return null;
+    }
+    if(parameters.length<2){
+        alerts.error(
+            t`Warning`,
+            "Please select genre and mood",
+            2000
+          ); 
+        return null;
+    }
+    const newParam:any = {
+        "TYPE_OF_PAPER":parameters[0],
+        "FILL":parameters[1],
+        
+    }
+    
+    setGeneratedContent("");
+    let dynamicContent = ""
+    setIsLoading(true);
+  const st = await generateThesis (text,newParam);
+  const reader = st.body!.getReader();
+  setIsLoading(false);
+  while (true) {
+
+const { value, done } = await reader.read();
+
+if (done) {
+  break;
+} else {
+const textDecoder = new TextDecoder('utf-8'); // Assuming utf-8 encoding
+const text = textDecoder.decode(value);
+const nwText = dynamicContent + text;
+setGeneratedContent(nwText);
+//console.log(text);
+}
+  }
+  }
   useEffect(()=>{
     getRouterData().then((data:any)=>{
         if(data!=null){
             const texts = data.texts;
             const options = data.items;
             //execute direct api function here
+            genThesis(texts[0],options).catch((e:any)=>{console.log(e)});
             setPreviousData(data);
         }
-       
+        
     })
     console.log("previous",previousData);
-  },[setPreviousData,previousData])
+},[setPreviousData,previousData])
+    
     const options:any = [
         {name:"Select Type of Paper",data:[
             {label:"Music",key:"muz",  onClick:(key:any)=>{}},
@@ -68,6 +114,14 @@ return(<div>
  isLoading={isLoading}
  buttonFunction={(text:any,items:any)=>{
      console.log(text,items);
+     genThesis(text[0],items).catch((e:any)=>{
+        setIsLoading(false);
+        alerts.error(
+            t`Warning`,
+            "An error has occured",
+            2000
+          ); 
+    });
  }}
  selectOptions={options} 
 />
