@@ -166,9 +166,13 @@ msgstr "<0>اضغط للتحميل</0> أو اسحب وأفلت"
 #~ msgid "Add the AskyourPDF extension to your Chrome browser to start chatting effortlessly with any PDF. It saves you hours and boosts your productivity!"
 #~ msgstr "أضف امتداد AskyourPDF إلى متصفح Chrome لبدء المحادثة بسهولة مع أي ملف PDF. إنه يوفر عليك الساعات ويعزز إنتاجيتك!"
 
-#: components/literature-review/LiteratureSideBar.tsx:306
+#: components/literature-review/LiteratureSideBar.tsx:434
 msgid "Advanced Parameters"
 msgstr "معلمات متقدمة"
+
+#: components/literature-review/LiteratureMainBar.tsx:407
+msgid "Advanced settings"
+msgstr ""
 
 #: components/Footer.tsx:364
 msgid "Affiliate Program"
@@ -178,12 +182,71 @@ msgstr "برنامج الشراكة التابعة"
 #~ msgid "After the document has been processed, you can customize the summary based on your preferences. <0/>Set settings such as the desired length of the summary to make it as brief or as informative as you want. Set text formatting choices to ensure that the summary follows your desired style. You can include a prompt to instruct AskYourPDF on how to summarise the document. However, if you prefer not to provide a prompt, you can skip this step."
 #~ msgstr "بعد معالجة الوثيقة، يمكنك تخصيص الملخص استنادًا إلى تفضيلاتك. <0/> قم بضبط الإعدادات مثل الطول المرغوب فيه للملخص لجعله موجزًا أو معلوماتيًا بقدر ما ترغب. قم بضبط خيارات تنسيق النص لضمان أن الملخص يتبع الأسلوب المطلوب. يمكنك تضمين استفسار لتوجيه AskYourPDF حول كيفية تلخيص الوثيقة. ومع ذلك، إذا كنت تفضل عدم تقديم استفسار، فيمكنك تخطي هذه الخطوة."
 
+#: pages/book-title-generator/generate/index.tsx:67
+#: pages/book-title-generator/index.tsx:83
+msgid "AI Book Title Generator"
+msgstr ""
+
+#: pages/essay-maker/generate/index.tsx:63
+#: pages/essay-maker/index.tsx:82
+msgid "AI Essay Maker"
+msgstr ""
+
+#: pages/instagram-caption/generate/index.tsx:66
+#: pages/instagram-caption/index.tsx:84
+msgid "AI Instagram Caption Generator"
+msgstr ""
+
+#: components/tools/ToolsSection.tsx:125
+msgid "AI Literature Review Generator"
+msgstr ""
+
 #: components/Footer.tsx:308
 msgid "AI Literature Review Writer"
 msgstr ""
 
-#: components/literature-review/MainContent.tsx:360
+#: components/literature-review/MainContent.tsx:347
 msgid "AI Literature Review Writer Tool"
+msgstr ""
+
+#: pages/lyrics-generator/generate/index.tsx:106
+#: pages/lyrics-generator/index.tsx:76
+msgid "AI Lyrics Generator"
+msgstr ""
+
+#: pages/paragraph-generator/generate/index.tsx:61
+#: pages/paragraph-generator/index.tsx:76
+msgid "AI Paragraph Generator"
+msgstr ""
+
+#: pages/poem-generator/generate/index.tsx:73
+#: pages/poem-generator/index.tsx:88
+msgid "AI Poem Generator"
+msgstr ""
+
+#: pages/rap-generator/generate/index.tsx:68
+#: pages/rap-generator/index.tsx:83
+msgid "AI Rap Generator"
+msgstr ""
+
+#: components/tools/ToolsSection.tsx:114
+#: pages/source-tool/index.tsx:245
+msgid "AI Source Finder"
+msgstr ""
+
+#: pages/story-generator/generate/index.tsx:67
+#: pages/story-generator/index.tsx:84
+msgid "AI Story Generator"
+msgstr ""
+
+#: pages/text-generator/generate/index.tsx:67
+#: pages/text-generator/index.tsx:82
+msgid "AI Text Generator"
+msgstr ""
+
+#: pages/thesis-statement/generate/index.tsx:62
+#: pages/thesis-statement/index.tsx:77
+msgid "AI Thesis Statement Generator"
 msgstr ""
 
 #: components/Landing/Features.tsx:227
@@ -205,7 +268,8 @@ msgstr ""
 #~ msgid "An error has occured"
 #~ msgstr "حدث خطأ"
 
-#: components/literature-review/MainContent.tsx:305
+#: components/Generator.tsx:263
+#: components/literature-review/MainContent.tsx:292
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "An error occurred"
 msgstr "حدث خطأ"
@@ -243,8 +307,8 @@ msgstr "حدث خطأ"
 #~ msgid "An error occurred while updating the knowledge base. Please try again."
 #~ msgstr "حدث خطأ أثناء تحديث قاعدة المعرفة. يرجى المحاولة مرة أخرى."
 
-#: pages/source-tool/index.tsx:198
-#: pages/source-tool/index.tsx:208
+#: pages/source-tool/index.tsx:206
+#: pages/source-tool/index.tsx:216
 msgid "An error occurred. Please try again"
 msgstr "حدث خطأ. يرجى إعادة المحاولة"
 
@@ -274,10 +338,10 @@ msgstr "تطبيق أندرويد"
 #~ msgstr "يمكن لأي شخص لديه هذا الرابط بدء محادثة جديدة مع هذا المستند. المحادثات غير مشتركة."
 
 #: components/Footer.tsx:265
-#: components/Navbar.tsx:324
-#: components/Navbar.tsx:381
-#: components/tools/ToolBarExt.tsx:265
-#: components/tools/ToolBarExt.tsx:299
+#: components/Navbar.tsx:325
+#: components/Navbar.tsx:382
+#: components/tools/ToolBarExt.tsx:259
+#: components/tools/ToolBarExt.tsx:293
 msgid "API"
 msgstr "API"
 
@@ -459,11 +523,11 @@ msgstr "المؤلفون:"
 #~ msgid "Back to Homepage"
 #~ msgstr "العودة إلى الصفحة الرئيسية"
 
-#: components/literature-review/MainContent.tsx:356
-#: components/tools/MergePage.tsx:693
-#: components/tools/OcrPage.tsx:309
-#: components/tools/SplitPage.tsx:822
-#: pages/source-tool/index.tsx:233
+#: components/literature-review/MainContent.tsx:343
+#: components/tools/MergePage.tsx:676
+#: components/tools/OcrPage.tsx:252
+#: components/tools/SplitPage.tsx:806
+#: pages/source-tool/index.tsx:241
 msgid "Back to tools"
 msgstr "العودة إلى الأدوات"
 
@@ -479,6 +543,10 @@ msgstr "العودة إلى الأدوات"
 #: components/PdfToChat/Guide.tsx:139
 #~ msgid "Begin by effortlessly uploading your PDF documents to our platform."
 #~ msgstr "ابدأ بسهولة بتحميل مستندات PDF الخاصة بك إلى منصتنا."
+
+#: components/literature-review/LiteratureMainBar.tsx:487
+msgid "Begin new review"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:548
 msgid "Begin new search"
@@ -807,10 +875,11 @@ msgstr "المحتوى"
 #~ msgid "conversations"
 #~ msgstr "محادثات"
 
-#: components/Navbar.tsx:282
-#: components/Navbar.tsx:339
-#: components/tools/ToolBarExt.tsx:245
-#: components/tools/ToolBarExt.tsx:279
+#: components/AppSidebar.tsx:151
+#: components/Navbar.tsx:283
+#: components/Navbar.tsx:340
+#: components/tools/ToolBarExt.tsx:239
+#: components/tools/ToolBarExt.tsx:273
 msgid "Conversations"
 msgstr "المحادثات"
 
@@ -828,7 +897,9 @@ msgstr "المحادثات"
 #~ msgid "Converse, Learn, Track"
 #~ msgstr "تحاور، تعلم، تتبع"
 
-#: components/literature-review/LiteratureMainBar.tsx:302
+#: components/Generator.tsx:345
+#: components/Generator.tsx:345
+#: components/literature-review/LiteratureMainBar.tsx:435
 #: components/source-tools/source-result/index.tsx:491
 msgid "Copied"
 msgstr "تم النسخ"
@@ -921,7 +992,7 @@ msgstr "تم النسخ"
 #~ msgid "CVV"
 #~ msgstr "CVV"
 
-#: components/literature-review/LiteratureSideBar.tsx:255
+#: components/literature-review/LiteratureSideBar.tsx:383
 msgid "Date Range"
 msgstr "نطاق التاريخ"
 
@@ -950,9 +1021,9 @@ msgstr "حذف"
 #~ msgid "Delete Conversation"
 #~ msgstr "حذف المحادثة"
 
-#: components/AppSidebar.tsx:318
-#~ msgid "Delete Doc"
-#~ msgstr "حذف المستند"
+#: components/AppSidebar.tsx:274
+msgid "Delete Doc"
+msgstr "حذف المستند"
 
 #: pages/delete/index.tsx:271
 #~ msgid "Delete document"
@@ -991,7 +1062,8 @@ msgstr "حذف"
 #~ msgid "Deletion Failed"
 #~ msgstr "فشل الحذف"
 
-#: components/literature-review/LiteratureSideBar.tsx:310
+#: components/literature-review/LiteratureMainBar.tsx:379
+#: components/literature-review/LiteratureSideBar.tsx:438
 #: components/source-tools/source-content/index.tsx:229
 msgid "Description"
 msgstr "الوصف"
@@ -1000,6 +1072,7 @@ msgstr "الوصف"
 msgid "Developer Docs"
 msgstr "مستندات المطور"
 
+#: components/AppSidebar.tsx:202
 #: components/Footer.tsx:316
 msgid "Developers"
 msgstr "المطورين"
@@ -1037,8 +1110,8 @@ msgstr "المطورين"
 #~ msgid "Doc ID Successfully Generated"
 #~ msgstr "تم إنشاء معرف المستند بنجاح"
 
-#: components/Navbar.tsx:302
-#: components/Navbar.tsx:359
+#: components/Navbar.tsx:303
+#: components/Navbar.tsx:360
 msgid "Docs"
 msgstr "المستندات"
 
@@ -1075,9 +1148,9 @@ msgstr "المستندات"
 #~ msgid "document per day"
 #~ msgstr "مستند في اليوم"
 
-#: components/AppSidebar.tsx:339
-#~ msgid "Documentation"
-#~ msgstr "التوثيق"
+#: components/AppSidebar.tsx:295
+msgid "Documentation"
+msgstr "التوثيق"
 
 #: components/MainSidebar.tsx:356
 #~ msgid "Documents"
@@ -1102,8 +1175,8 @@ msgstr "المستندات"
 #~ msgid "Does AskYourPDF have any limitations on the number of documents that can be uploaded per day?"
 #~ msgstr "هل يوجد في AskYourPDF أية قيود على عدد المستندات التي يمكن تحميلها يوميًا؟"
 
-#: components/tools/MergePage.tsx:795
-#: components/tools/SplitPage.tsx:925
+#: components/tools/MergePage.tsx:778
+#: components/tools/SplitPage.tsx:909
 msgid "Done"
 msgstr "منتهي"
 
@@ -1119,10 +1192,10 @@ msgstr "منتهي"
 #~ msgid "Downgrade Account"
 #~ msgstr "تخفيض مستوى الحساب"
 
-#: components/Navbar.tsx:316
-#: components/Navbar.tsx:373
-#: components/tools/ToolBarExt.tsx:260
-#: components/tools/ToolBarExt.tsx:294
+#: components/Navbar.tsx:317
+#: components/Navbar.tsx:374
+#: components/tools/ToolBarExt.tsx:254
+#: components/tools/ToolBarExt.tsx:288
 msgid "Download"
 msgstr "تحميل"
 
@@ -1165,6 +1238,11 @@ msgstr "تحميل"
 #~ msgid "Edit Knowledge Base"
 #~ msgstr "تعديل قاعدة المعرفة"
 
+#: components/tools/SplitPage.tsx:805
+#: components/tools/ToolsSection.tsx:133
+msgid "Efficiently split, separate, and manage your PDF files using our superior free online PDF splitter."
+msgstr ""
+
 #: components/PdfToChat/Discover.tsx:37
 #~ msgid "Effortless Research"
 #~ msgstr "بحث بلا جهد"
@@ -1183,6 +1261,11 @@ msgstr "تحميل"
 #: components/Modals/Profile.tsx:307
 #~ msgid "Email Address"
 #~ msgstr "البريد الإلكتروني"
+
+#: components/tools/ToolsSection.tsx:117
+#: pages/source-tool/index.tsx:248
+msgid "Enhance your research with our Source-Tool, which automatically cites and creates references for your academic text."
+msgstr ""
 
 #: components/Settings/LinkAccountModal.tsx:146
 #~ msgid "Enter Mobile User ID"
@@ -1210,8 +1293,8 @@ msgstr "تحميل"
 #~ msgstr "يمكن للهواة وعقول الفضوليين استخدام AskYouPDF لاستكشاف مواضيع الاهتمام داخل الكتب الرقمية والموارد."
 
 #: components/tools/DocUploadNoFunc.tsx:323
-#: pages/source-tool/index.tsx:198
-#: pages/source-tool/index.tsx:208
+#: pages/source-tool/index.tsx:206
+#: pages/source-tool/index.tsx:216
 msgid "Error"
 msgstr "خطأ"
 
@@ -1288,10 +1371,10 @@ msgstr "تصدير كـ"
 #~ msgid "Export Chat as PDF"
 #~ msgstr "تصدير المحادثة كملف PDF"
 
-#: components/Navbar.tsx:309
-#: components/Navbar.tsx:366
-#: components/tools/ToolBarExt.tsx:255
-#: components/tools/ToolBarExt.tsx:289
+#: components/Navbar.tsx:310
+#: components/Navbar.tsx:367
+#: components/tools/ToolBarExt.tsx:249
+#: components/tools/ToolBarExt.tsx:283
 msgid "Extension"
 msgstr "امتداد"
 
@@ -1333,7 +1416,8 @@ msgstr "امتداد"
 #~ msgid "Failed to delete document. Please try again."
 #~ msgstr "فشل في حذف المستند. يرجى إعادة المحاولة"
 
-#: components/literature-review/MainContent.tsx:305
+#: components/Generator.tsx:263
+#: components/literature-review/MainContent.tsx:292
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "Failed to export PDF"
 msgstr "فشل في تصدير PDF"
@@ -1354,7 +1438,7 @@ msgstr "فشل في تصدير PDF"
 #~ msgid "Failed to load subscriptions"
 #~ msgstr "فشل في تحميل الاشتراكات"
 
-#: components/literature-review/MainContent.tsx:290
+#: components/literature-review/MainContent.tsx:277
 msgid "Failed to review text. Please try again"
 msgstr ""
 
@@ -1396,7 +1480,7 @@ msgstr "جارٍ جلب المستند"
 #~ msgid "Fetching documents"
 #~ msgstr "جلب المستندات"
 
-#: components/literature-review/LiteratureSideBar.tsx:241
+#: components/literature-review/LiteratureSideBar.tsx:369
 msgid "Field of Study"
 msgstr "مجال الدراسة"
 
@@ -1418,6 +1502,30 @@ msgstr "فشل تحميل الملف"
 #: components/DocumentUpload.tsx:370
 #~ msgid "File uploaded successfully"
 #~ msgstr "تم تحميل الملف بنجاح"
+
+#: pages/book-title-generator/generate/index.tsx:68
+#: pages/book-title-generator/index.tsx:84
+#: pages/instagram-caption/generate/index.tsx:67
+#: pages/instagram-caption/index.tsx:85
+#: pages/paragraph-generator/generate/index.tsx:62
+#: pages/paragraph-generator/index.tsx:77
+#: pages/poem-generator/generate/index.tsx:74
+#: pages/poem-generator/index.tsx:89
+#: pages/rap-generator/generate/index.tsx:69
+#: pages/rap-generator/index.tsx:84
+#: pages/text-generator/generate/index.tsx:68
+#: pages/text-generator/index.tsx:83
+#: pages/thesis-statement/generate/index.tsx:63
+#: pages/thesis-statement/index.tsx:78
+msgid "fill"
+msgstr ""
+
+#: pages/essay-maker/generate/index.tsx:64
+#: pages/essay-maker/index.tsx:83
+#: pages/story-generator/generate/index.tsx:68
+#: pages/story-generator/index.tsx:85
+msgid "Fill"
+msgstr ""
 
 #: components/PdfToChat/SummarizeGuide.tsx:198
 #~ msgid "Finally, click the 'Summarise' button, and within moments, AskYourPDF will provide you with a customized summary of your document based on your settings and, if provided, your prompt."
@@ -1488,7 +1596,7 @@ msgstr "من مستنداتك"
 #~ msgid "Get Paid Commission"
 #~ msgstr "احصل على عمولتك"
 
-#: components/Navbar.tsx:413
+#: components/Navbar.tsx:414
 msgid "Get Started"
 msgstr "ابدأ"
 
@@ -1532,7 +1640,7 @@ msgstr "البدء"
 #~ msgid "GPT-4 Credit"
 #~ msgstr "ائتمان GPT-4"
 
-#: pages/source-tool/index.tsx:270
+#: pages/source-tool/index.tsx:278
 msgid "Hang on! We’re looking for sources"
 msgstr "انتظر! نبحث عن المصادر"
 
@@ -1540,6 +1648,10 @@ msgstr "انتظر! نبحث عن المصادر"
 #: components/Modals/ConversationFeedback.tsx:479
 #~ msgid "Harmful Content"
 #~ msgstr "محتوى ضار"
+
+#: components/tools/ToolsSection.tsx:126
+msgid "Harness the power of our AI-driven Literature Review Assistant. Simplify your research process, produce structured overviews, and craft in-depth literature reviews to elevate your academic work."
+msgstr ""
 
 #: components/Landing/Features.tsx:238
 #: components/PdfToChat/Features.tsx:244
@@ -1551,10 +1663,10 @@ msgstr "انتظر! نبحث عن المصادر"
 #~ msgid "Hey there, Just a quick reminder"
 #~ msgstr "مرحبًا، مجرد تذكير سريع"
 
-#: components/Navbar.tsx:277
-#: components/Navbar.tsx:334
-#: components/tools/ToolBarExt.tsx:240
-#: components/tools/ToolBarExt.tsx:274
+#: components/Navbar.tsx:278
+#: components/Navbar.tsx:335
+#: components/tools/ToolBarExt.tsx:234
+#: components/tools/ToolBarExt.tsx:268
 msgid "Home"
 msgstr "الرئيسية"
 
@@ -1661,6 +1773,43 @@ msgstr "الرئيسية"
 #~ msgid "Incorrect Response"
 #~ msgstr ""
 
+#: pages/story-generator/generate/index.tsx:63
+#: pages/story-generator/index.tsx:64
+msgid "input Key events/plot points"
+msgstr ""
+
+#: pages/essay-maker/generate/index.tsx:58
+#: pages/essay-maker/index.tsx:61
+msgid "input Key Points to Cover"
+msgstr ""
+
+#: pages/paragraph-generator/index.tsx:57
+msgid "Input main idea/supporting points"
+msgstr ""
+
+#: pages/story-generator/generate/index.tsx:62
+#: pages/story-generator/index.tsx:63
+msgid "Input Names and a brief description of the main characters"
+msgstr ""
+
+#: pages/book-title-generator/generate/index.tsx:62
+#: pages/book-title-generator/index.tsx:64
+#: pages/instagram-caption/generate/index.tsx:61
+#: pages/instagram-caption/index.tsx:65
+#: pages/lyrics-generator/generate/index.tsx:101
+#: pages/lyrics-generator/index.tsx:57
+#: pages/paragraph-generator/generate/index.tsx:56
+#: pages/poem-generator/generate/index.tsx:68
+#: pages/poem-generator/index.tsx:69
+#: pages/rap-generator/generate/index.tsx:63
+#: pages/rap-generator/index.tsx:64
+#: pages/text-generator/generate/index.tsx:62
+#: pages/text-generator/index.tsx:63
+#: pages/thesis-statement/generate/index.tsx:57
+#: pages/thesis-statement/index.tsx:58
+msgid "Input some line here to begin"
+msgstr ""
+
 #: components/Summarisation/SummariseMainBar.tsx:457
 #~ msgid "Input some text here OR upload a document in the pane below to summarise"
 #~ msgstr "أدخل نصًا هنا أو قم بتحميل مستند في اللوحة أدناه للملخص"
@@ -1668,6 +1817,16 @@ msgstr "الرئيسية"
 #: components/Summarisation/SummariseMainBar.tsx:456
 #~ msgid "Input some text here OR upload a document in the right pane to summarise"
 #~ msgstr "أدخل نصًا هنا أو قم بتحميل مستند في اللوحة اليمنى للملخص"
+
+#: pages/essay-maker/generate/index.tsx:57
+#: pages/essay-maker/index.tsx:60
+msgid "input Thesis Statement"
+msgstr ""
+
+#: pages/essay-maker/generate/index.tsx:56
+#: pages/essay-maker/index.tsx:59
+msgid "Input Title or Topic"
+msgstr ""
 
 #: components/Landing/Features.tsx:265
 #: components/PdfToChat/Features.tsx:290
@@ -1781,11 +1940,9 @@ msgstr "تطبيق iOS"
 #~ msgid "Key Deleted"
 #~ msgstr "تم حذف المفتاح"
 
-#: components/AppSidebar.tsx:217
-#: components/KnowledgeBaseSidebar.tsx:379
-#: components/MobileHeader.tsx:99
-#~ msgid "Knowledge Base"
-#~ msgstr "قاعدة المعرفة"
+#: components/AppSidebar.tsx:179
+msgid "Knowledge Base"
+msgstr "قاعدة المعرفة"
 
 #: components/Modals/PaymentModalContent.tsx:339
 #: components/Modals/PaymentModalContent.tsx:378
@@ -1832,12 +1989,12 @@ msgstr "تطبيق iOS"
 #~ msgstr "الطول"
 
 #: components/tools/ToolsSection.tsx:274
-msgid "Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
-msgstr "دع الذكاء الاصطناعي يقوم بالعمل لأنه يقسم مستندات PDF الخاصة بك إلى ملفات منفصلة، مما يوفر لك الوقت ويبسط مهام إدارة المستندات الخاصة بك."
+#~ msgid "Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
+#~ msgstr "دع الذكاء الاصطناعي يقوم بالعمل لأنه يقسم مستندات PDF الخاصة بك إلى ملفات منفصلة، مما يوفر لك الوقت ويبسط مهام إدارة المستندات الخاصة بك."
 
 #: components/tools/SplitPage.tsx:819
-msgid "Let artificial intelligence do the work as it swiftly divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
-msgstr "دع الذكاء الاصطناعي يقوم بالعمل لأنه يقسم مستندات PDF الخاصة بك بسرعة إلى ملفات منفصلة، مما يوفر لك الوقت ويبسط مهام إدارة المستندات الخاصة بك."
+#~ msgid "Let artificial intelligence do the work as it swiftly divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
+#~ msgstr "دع الذكاء الاصطناعي يقوم بالعمل لأنه يقسم مستندات PDF الخاصة بك بسرعة إلى ملفات منفصلة، مما يوفر لك الوقت ويبسط مهام إدارة المستندات الخاصة بك."
 
 #: components/Modals/PaymentBottomSheet.tsx:164
 #: components/Modals/PaymentModalDesktop.tsx:167
@@ -1847,8 +2004,8 @@ msgstr "دع الذكاء الاصطناعي يقوم بالعمل لأنه يق
 #~ msgstr "دعنا نبدأ"
 
 #: components/tools/ToolsSection.tsx:298
-msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources of relevant to your needs."
-msgstr ""
+#~ msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources of relevant to your needs."
+#~ msgstr ""
 
 #: pages/index.tsx:323
 #~ msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources relevant to your needs."
@@ -1872,12 +2029,11 @@ msgstr ""
 #~ msgid "Link Your Mobile Account"
 #~ msgstr "ربط حساب الجوال الخاص بك"
 
-#: components/literature-review/LiteratureMainBar.tsx:302
+#: components/literature-review/LiteratureMainBar.tsx:435
 msgid "Literature Review copied"
 msgstr ""
 
-#: components/tools/ToolCommon.tsx:159
-#: components/tools/ToolsSection.tsx:266
+#: components/tools/ToolCommon.tsx:158
 #: components/ToolsFooter.tsx:78
 msgid "Literature Review Tool"
 msgstr "أداة استعراض الأدب"
@@ -1897,10 +2053,9 @@ msgstr "أداة استعراض الأدب"
 #~ msgid "Login or create an account to have multiple conversations, access your chat history and manage your documents seamlessly"
 #~ msgstr "قم بتسجيل الدخول أو إنشاء حساب للقيام بمحادثات متعددة والوصول إلى سجل المحادثات وإدارة مستنداتك بسلاسة"
 
-#: components/AppSidebar.tsx:386
-#: components/MobileHeader.tsx:131
-#~ msgid "Logout"
-#~ msgstr "تسجيل الخروج"
+#: components/AppSidebar.tsx:336
+msgid "Logout"
+msgstr "تسجيل الخروج"
 
 #: components/Landing/Plans.tsx:694
 #: components/Modals/PaymentModalContent.tsx:393
@@ -1959,6 +2114,7 @@ msgstr "أداة استعراض الأدب"
 #~ msgid "Maximum {0} documents per <0>month</0>"
 #~ msgstr "الحد الأقصى {0} من المستندات لكل <0>شهر</0>"
 
+#: components/literature-review/LiteratureMainBar.tsx:396
 #: components/source-tools/source-content/index.tsx:248
 msgid "Maximum of 10000 characters"
 msgstr ""
@@ -1976,7 +2132,7 @@ msgstr ""
 #~ msgid "MB/Document"
 #~ msgstr "ميغابايت/مستند"
 
-#: components/tools/MergePage.tsx:829
+#: components/tools/MergePage.tsx:812
 msgid "Merge Another"
 msgstr "دمج آخر"
 
@@ -2134,9 +2290,9 @@ msgstr "غير راضٍ عن نتائجك؟"
 #~ msgid "Number of Questions"
 #~ msgstr "عدد الأسئلة"
 
-#: components/tools/OcrPage.tsx:306
-#: components/tools/ToolCommon.tsx:171
-#: components/tools/ToolsSection.tsx:287
+#: components/tools/OcrPage.tsx:250
+#: components/tools/ToolCommon.tsx:170
+#: components/tools/ToolsSection.tsx:146
 #: components/ToolsFooter.tsx:94
 msgid "OCR PDF Reader"
 msgstr "قارئ PDF بتقنية البصر الآلي"
@@ -2205,7 +2361,7 @@ msgstr ""
 #~ msgid "Our Privacy Policy does not apply to services offered by other companies or individuals, including third-party services used in conjunction with AskYourPDF. We recommend that you review the privacy policies of any third-party services you may use."
 #~ msgstr "لا تنطبق سياسة الخصوصية الخاصة بنا على الخدمات التي تقدمها شركات أو أفراد آخرون، بما في ذلك خدمات الجهات الخارجية المستخدمة بالاقتران مع AskYourPDF. نوصي بمراجعة سياسات الخصوصية لأي خدمات جهات خارجية قد تستخدمها."
 
-#: components/literature-review/LiteratureMainBar.tsx:294
+#: components/literature-review/LiteratureMainBar.tsx:425
 msgid "Output"
 msgstr "الناتج"
 
@@ -2246,21 +2402,21 @@ msgstr "الناتج"
 #~ msgid "PDF and Other Document Formats"
 #~ msgstr "ملفات PDF وتنسيقات أخرى للمستندات"
 
-#: components/tools/ToolCommon.tsx:175
+#: components/tools/ToolCommon.tsx:174
 #: components/ToolsFooter.tsx:86
 msgid "PDF Compressor"
 msgstr "ضاغط PDF"
 
-#: components/tools/MergePage.tsx:689
-#: components/tools/ToolCommon.tsx:167
-#: components/tools/ToolsSection.tsx:280
+#: components/tools/MergePage.tsx:674
+#: components/tools/ToolCommon.tsx:166
+#: components/tools/ToolsSection.tsx:139
 #: components/ToolsFooter.tsx:90
 msgid "PDF Merger"
 msgstr "دمج PDF"
 
-#: components/tools/SplitPage.tsx:818
-#: components/tools/ToolCommon.tsx:163
-#: components/tools/ToolsSection.tsx:273
+#: components/tools/SplitPage.tsx:804
+#: components/tools/ToolCommon.tsx:162
+#: components/tools/ToolsSection.tsx:132
 #: components/ToolsFooter.tsx:82
 msgid "PDF Splitter"
 msgstr "فاصل PDF"
@@ -2320,8 +2476,8 @@ msgstr ""
 #~ msgid "Please enter an API name"
 #~ msgstr "يرجى إدخال اسم API"
 
-#: components/literature-review/LiteratureSideBar.tsx:245
-#: components/literature-review/LiteratureSideBar.tsx:313
+#: components/literature-review/LiteratureSideBar.tsx:373
+#: components/literature-review/LiteratureSideBar.tsx:441
 msgid "Please enter instructions on how to review your text input OR document"
 msgstr "الرجاء إدخال تعليمات حول كيفية مراجعة مدخلات النص أو المستند"
 
@@ -2367,10 +2523,10 @@ msgstr "الرجاء إدخال تعليمات حول كيفية مراجعة م
 #~ msgid "Premium Plan <0>$9.99/month or $6.99/month (Billed Annually)</0>"
 #~ msgstr "خطة بريميوم $9.99 شهريًا أو $6.99 شهريًا (تم فرض الفواتير سنويًا)"
 
-#: components/Navbar.tsx:296
-#: components/Navbar.tsx:353
-#: components/tools/ToolBarExt.tsx:250
-#: components/tools/ToolBarExt.tsx:284
+#: components/Navbar.tsx:297
+#: components/Navbar.tsx:354
+#: components/tools/ToolBarExt.tsx:244
+#: components/tools/ToolBarExt.tsx:278
 msgid "Pricing"
 msgstr "التسعير"
 
@@ -2422,10 +2578,9 @@ msgstr "سياسة الخصوصية"
 msgid "Products"
 msgstr "منتجات"
 
-#: components/AppSidebar.tsx:370
-#: components/MobileHeader.tsx:91
-#~ msgid "Profile"
-#~ msgstr "الملف الشخصي"
+#: components/AppSidebar.tsx:321
+msgid "Profile"
+msgstr "الملف الشخصي"
 
 #: components/Summarisation/SummariseSideBar.tsx:363
 #~ msgid "Prompt"
@@ -2467,7 +2622,7 @@ msgstr "سنة النشر:"
 #~ msgid "Read Documentation"
 #~ msgstr "قراءة التوثيق"
 
-#: components/tools/OcrPage.tsx:341
+#: components/tools/OcrPage.tsx:284
 msgid "Read OCR PDF"
 msgstr "قراءة التعرف الضوئي على الحروف PDF"
 
@@ -2502,7 +2657,7 @@ msgstr "قراءة التعرف الضوئي على الحروف PDF"
 #~ msgid "Report an Issue"
 #~ msgstr "الإبلاغ عن مشكلة"
 
-#: components/literature-review/MainContent.tsx:293
+#: components/literature-review/MainContent.tsx:280
 msgid "Request timed out. Please try again"
 msgstr "انتهت صلاحية الطلب. الرجاء المحاولة مرة أخرى"
 
@@ -2510,7 +2665,7 @@ msgstr "انتهت صلاحية الطلب. الرجاء المحاولة مرة
 #~ msgid "Respecting Your Privacy: Our Commitment and Assurance"
 #~ msgstr "احترام خصوصيتك: التزامنا وضماننا"
 
-#: components/literature-review/MainContent.tsx:375
+#: components/literature-review/MainContent.tsx:362
 msgid "Results for"
 msgstr "نتائج لـ"
 
@@ -2520,12 +2675,16 @@ msgstr "نتائج لـ"
 #~ msgid "Resume Conversation"
 #~ msgstr "استئناف المحادثة"
 
-#: components/literature-review/MainContent.tsx:285
-#: components/literature-review/MainContent.tsx:295
+#: components/literature-review/MainContent.tsx:272
+#: components/literature-review/MainContent.tsx:282
 msgid "Review Failed"
 msgstr ""
 
-#: components/literature-review/LiteratureMainBar.tsx:333
+#: components/literature-review/LiteratureMainBar.tsx:414
+msgid "Review my work"
+msgstr ""
+
+#: components/literature-review/LiteratureMainBar.tsx:468
 msgid "Review will be displayed here"
 msgstr "ستظهر المراجعة هنا"
 
@@ -2542,7 +2701,7 @@ msgstr "ستظهر المراجعة هنا"
 #~ msgid "Save Time"
 #~ msgstr "وفّر الوقت"
 
-#: components/literature-review/MainContent.tsx:363
+#: components/literature-review/MainContent.tsx:350
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr ""
 
@@ -2551,8 +2710,12 @@ msgid "Say hello to documents that respond to you! With AskYourPDF, your reading
 msgstr "رحّب بالمستندات التي تستجيب لك! مع AskYourPDF، لن تكون قراءتك بسيطة فحسب، بل ممتعة!"
 
 #: components/tools/MainPage.tsx:17
-msgid "Seamlessly edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
-msgstr "قم بتحرير النص وتقسيمه ودمجه وضغطه واستخراجه من ملفات PDF بسلاسة. استغل قوة الذكاء الاصطناعي لتبسيط تفاعلات PDF الخاصة بك مجانًا"
+msgid "Seamlessly cite, reference, edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
+msgstr ""
+
+#: components/tools/MainPage.tsx:17
+#~ msgid "Seamlessly edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
+#~ msgstr "قم بتحرير النص وتقسيمه ودمجه وضغطه واستخراجه من ملفات PDF بسلاسة. استغل قوة الذكاء الاصطناعي لتبسيط تفاعلات PDF الخاصة بك مجانًا"
 
 #: components/Modals/SearchBottomSheet.tsx:131
 #~ msgid "Search"
@@ -2587,10 +2750,9 @@ msgstr "تحديد الكل"
 #~ msgid "Select Documents"
 #~ msgstr "حدد الوثائق"
 
-#: components/AppSidebar.tsx:354
-#: pages/settings/index.tsx:483
-#~ msgid "Settings"
-#~ msgstr "الإعدادات"
+#: components/AppSidebar.tsx:310
+msgid "Settings"
+msgstr "الإعدادات"
 
 #: pages/conversations/[[...params]].tsx:1078
 #~ msgid "Share"
@@ -2629,8 +2791,8 @@ msgstr "تحديد الكل"
 #~ msgstr "سجل الآن"
 
 #: pages/source-tool/index.tsx:240
-msgid "Simplify your search, guaranteeing precision and trustworthiness with each query."
-msgstr "بسط بحثك، مضمون الدقة والموثوقية مع كل استعلام."
+#~ msgid "Simplify your search, guaranteeing precision and trustworthiness with each query."
+#~ msgstr "بسط بحثك، مضمون الدقة والموثوقية مع كل استعلام."
 
 #: components/Modals/PaymentModal.tsx:49
 #: pages/documents/[[...id]]/index.tsx:772
@@ -2653,8 +2815,7 @@ msgstr "بسط بحثك، مضمون الدقة والموثوقية مع كل �
 msgid "Source copied"
 msgstr ""
 
-#: components/tools/ToolsSection.tsx:295
-#: pages/source-tool/index.tsx:237
+#: components/tools/ToolCommon.tsx:178
 msgid "Source Tool"
 msgstr "أداة المصدر"
 
@@ -2662,11 +2823,11 @@ msgstr "أداة المصدر"
 msgid "Sources found"
 msgstr "المصادر المُوجَدَة"
 
-#: components/tools/SplitPage.tsx:939
+#: components/tools/SplitPage.tsx:923
 msgid "Split Another"
 msgstr "تقسيم آخر"
 
-#: components/tools/SplitPage.tsx:856
+#: components/tools/SplitPage.tsx:840
 msgid "Split PDF"
 msgstr "تقسيم قوات الدفاع الشعبي"
 
@@ -2674,13 +2835,17 @@ msgstr "تقسيم قوات الدفاع الشعبي"
 #~ msgid "Split PDF Tool"
 #~ msgstr "أداة تقسيم ملفات PDF"
 
+#: components/literature-review/LiteratureMainBar.tsx:479
+msgid "Start another review"
+msgstr ""
+
 #: pages/chat/[[...docID]]/index.tsx:329
 #: pages/file-upload/index.tsx:407
 #~ msgid "Start Conversation"
 #~ msgstr "بدء المحادثة"
 
-#: components/Navbar.tsx:414
-#: components/tools/ToolBarExt.tsx:330
+#: components/Navbar.tsx:415
+#: components/tools/ToolBarExt.tsx:325
 msgid "Start For Free"
 msgstr "ابدأ مجاناً"
 
@@ -2698,8 +2863,8 @@ msgstr "ابدأ مجاناً"
 #~ msgstr "الحالة"
 
 #: components/tools/ToolsSection.tsx:267
-msgid "Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work."
-msgstr ""
+#~ msgid "Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work."
+#~ msgstr ""
 
 #: components/Modals/ConversationFeedback.tsx:266
 #~ msgid "Submission Failed"
@@ -2752,10 +2917,9 @@ msgstr ""
 #~ msgid "Sumarisation"
 #~ msgstr "تلخيص"
 
-#: components/AppSidebar.tsx:296
-#: components/MobileHeader.tsx:107
-#~ msgid "Summarisation"
-#~ msgstr "تلخيص"
+#: components/AppSidebar.tsx:252
+msgid "Summarisation"
+msgstr "تلخيص"
 
 #: pages/settings/index.tsx:909
 #: pages/settings/index.tsx:917
@@ -2919,8 +3083,8 @@ msgstr "الشروط والأحكام"
 #~ msgid "To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of AskYourPDF."
 #~ msgstr "إلى الحد الأقصى المسموح به قانونًا، لا نتحمل أية مسؤولية عن أية أضرار مباشرة أو غير مباشرة أو عرضية أو خاصة أو لاحقة ناتجة عن استخدامك AskYourPDF أو ذات صلة به."
 
-#: components/Navbar.tsx:288
-#: components/Navbar.tsx:345
+#: components/Navbar.tsx:289
+#: components/Navbar.tsx:346
 #: components/tools/MainPage.tsx:19
 msgid "Tools"
 msgstr "أدوات"
@@ -2934,8 +3098,8 @@ msgstr "أدوات"
 #~ msgid "Track your Usage"
 #~ msgstr "تتبع استخدامك"
 
-#: components/tools/OcrPage.tsx:307
-#: components/tools/ToolsSection.tsx:288
+#: components/tools/OcrPage.tsx:251
+#: components/tools/ToolsSection.tsx:147
 msgid "Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader."
 msgstr "قم بتحويل ملفات PDF الممسوحة ضوئيًا أو المستندة إلى الصور إلى نص قابل للتحرير والبحث باستخدام قارئ OCR PDF الذي يعمل بالذكاء الاصطناعي."
 
@@ -3115,9 +3279,9 @@ msgstr "جرّبه الآن"
 #~ msgid "Upload"
 #~ msgstr "تحميل"
 
-#: components/AppSidebar.tsx:266
-#~ msgid "Upload Doc"
-#~ msgstr "تحميل المستند"
+#: components/AppSidebar.tsx:222
+msgid "Upload Doc"
+msgstr "تحميل المستند"
 
 #: pages/upload/index.tsx:250
 #~ msgid "Upload document"
@@ -3147,6 +3311,7 @@ msgstr "تحميل وثيقة جديدة"
 #~ msgid "Upload Success"
 #~ msgstr "نجاح التحميل"
 
+#: components/literature-review/LiteratureMainBar.tsx:366
 #: components/source-tools/source-content/index.tsx:216
 msgid "Upload text file"
 msgstr "تحميل ملف نصي"
@@ -3219,8 +3384,13 @@ msgstr "تحميل ملف نصي"
 #~ msgid "View Documentation"
 #~ msgstr "عرض التوثيق"
 
-#: components/literature-review/MainContent.tsx:240
-#: pages/source-tool/index.tsx:174
+#: components/literature-review/MainContent.tsx:227
+#: pages/lyrics-generator/generate/index.tsx:35
+#: pages/lyrics-generator/generate/index.tsx:43
+#: pages/lyrics-generator/generate/index.tsx:119
+#: pages/lyrics-generator/index.tsx:84
+#: pages/lyrics-generator/index.tsx:92
+#: pages/source-tool/index.tsx:181
 msgid "Warning"
 msgstr ""
 
@@ -3318,10 +3488,15 @@ msgstr "نجعل واجهة برمجة تطبيقات AskYourPDF مفتوحة ل
 #~ msgid "With AskYourPDF technical specialists and engineers are able to quickly retrieve crucial knowledge from technical manuals and paperwork."
 #~ msgstr "باستخدام AskYourPDF، يمكن للمتخصصين التقنيين والمهندسين استرداد المعرفة الحاسمة بسرعة من الكتيبات التقنية والأوراق الإدارية."
 
+#: components/tools/MergePage.tsx:675
+#: components/tools/ToolsSection.tsx:140
+msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
+msgstr ""
+
 #: components/tools/MergePage.tsx:690
 #: components/tools/ToolsSection.tsx:281
-msgid "With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
-msgstr "من خلال الدمج الذكي والآلي، يتم توحيد ملفات PDF الخاصة بك بسلاسة في مستند واحد متماسك مع الحفاظ على الجودة والتنسيق."
+#~ msgid "With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
+#~ msgstr "من خلال الدمج الذكي والآلي، يتم توحيد ملفات PDF الخاصة بك بسلاسة في مستند واحد متماسك مع الحفاظ على الجودة والتنسيق."
 
 #: components/PdfToChat/Guide.tsx:171
 #~ msgid "Witness AI-driven comprehension as AskYouPDF analyzes your PDF and provides instant, insightful answers."
@@ -3492,6 +3667,11 @@ msgstr ""
 #~ msgid "Your converted file is ready"
 #~ msgstr "الملف المحول الخاص بك جاهز"
 
+#: pages/lyrics-generator/generate/index.tsx:107
+#: pages/lyrics-generator/index.tsx:77
+msgid "Your creative companion on your musical journey, create lyrics that tell your unique story"
+msgstr ""
+
 #~ msgid "Your document is private"
 #~ msgstr "مستندك خاص"
 
@@ -3524,11 +3704,11 @@ msgstr ""
 #~ msgid "Your mobile and web accounts are now linked, giving you access to your subscription benefits on both platforms. Enjoy the unified AskYourPDF experience across all your devices."
 #~ msgstr "تم ربط حساباتك على الهاتف المحمول والويب الآن، مما يمنحك الوصول إلى فوائد الاشتراك على كلا النظامين. استمتع بتجربة AskYourPDF الموحدة عبر جميع أجهزتك."
 
-#: components/tools/MergePage.tsx:796
+#: components/tools/MergePage.tsx:779
 msgid "Your PDF is ready"
 msgstr "ملف PDF الخاص بك جاهز"
 
-#: components/tools/SplitPage.tsx:926
+#: components/tools/SplitPage.tsx:910
 msgid "Your PDFs are ready"
 msgstr "ملفات PDF الخاصة بك جاهزة"
 
@@ -3536,7 +3716,7 @@ msgstr "ملفات PDF الخاصة بك جاهزة"
 #~ msgid "Your privacy is important to us. Please see our privacy policy for information on how we collect, use, and protect your personal information."
 #~ msgstr "خصوصيتك مهمة بالنسبة لنا. يرجى الاطلاع على سياسة الخصوصية الخاصة بنا للحصول على معلومات حول كيفية جمعنا واستخدامنا وحمايتنا لمعلوماتك الشخصية."
 
-#: components/literature-review/LiteratureMainBar.tsx:327
+#: components/literature-review/LiteratureMainBar.tsx:462
 msgid "Your Review is being generated"
 msgstr "يتم إنشاء مراجعتك"
 

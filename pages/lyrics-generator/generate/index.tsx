@@ -7,10 +7,14 @@ import {loadCatalog} from "@/utils/i18n";
 import Image from "next/image";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
-import Generator from "@/components/Generator";
+
 import { getRouterData } from "@/services/libtools";
 import { generateLyrics } from "@/services/toolsApi";
+import dynamic from "next/dynamic";
 
+const Generator = dynamic(() => import('@/components/Generator'), {
+  ssr: false,
+}); 
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadCatalog(ctx.locale!);
@@ -73,7 +77,9 @@ setGeneratedContent(nwText);
   }
   }
   useEffect(()=>{
+
     getRouterData().then((data:any)=>{
+      console.log(data);
         if(data!=null){
             const texts = data.texts;
             const options = data.items;
@@ -83,7 +89,7 @@ setGeneratedContent(nwText);
         }
         
     })
-    console.log("previous",previousData);
+    
   },[setPreviousData,previousData])
     const options:any = [
         {name:"Select Genre",data:[
