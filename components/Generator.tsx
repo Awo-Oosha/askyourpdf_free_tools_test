@@ -15,8 +15,11 @@ import { CaretDown } from "@phosphor-icons/react/dist/ssr";
 import CopyIcon from "@/img/CopyIcon.svg?url";
 import Export from "@/img/Export-r.svg?url";
 import CopyToClipboard from "react-copy-to-clipboard";
-import { removeMarkdown } from "@/utils/utils";
+import { covertToItalics, getCurrentTimestamp, removeMarkdown } from "@/utils/utils";
 import Spinner from "./Spinner";
+import { usePDF } from "@react-pdf/renderer";
+import { ToolsPDFExport } from "./ToolsPDFExport";
+import ReactGA from "react-ga4";
 
 const Body = styled.div`
 width:100%;
@@ -241,26 +244,46 @@ const Generator = ({title,description,fields,buttonText,buttonFunction,selectOpt
   
   })=>{
 
+    const [instance, updateInstance] = usePDF({
+      document: ToolsPDFExport(
+        covertToItalics(removeMarkdown(content)),
+        `${title}`
+      ),
+    });
+    useEffect(() => {
+      updateInstance(
+        ToolsPDFExport(
+          covertToItalics(removeMarkdown(content)),
+          `${title}`
+        )
+      );
+    }, [content,title,updateInstance]);
+    const exportPDF = () => {
+      if (!instance.url) {
+        alerts.error(t`An error occurred`, t`Failed to export PDF`);
+        return;
+      }
+  
+      const currentTimestamp = getCurrentTimestamp();
+      let filename = `ai_generator_${currentTimestamp}.pdf`;
+      
+      const link = document.createElement("a");
+      link.href = instance.url;
+      link.setAttribute("download", filename);
+      document.body.appendChild(link);
+      ReactGA.event({
+        category: "Button",
+        action: "Click",
+        label: "PDF Exported",
+      });
+      link.click();
+    };
     let textData:any=[];
     const [selectedItem, setSelectedItem] = useState([]);
-    
-    const TextFields = ()=>{
-   
-      let area:any = [];
-      fields.forEach((element:any,index:number)=> {
-        function handleTextAreaChange(event:any) {
-          textData[index] = event.target.value; 
-        }
-       area.push(
-        <TextArea key={index} placeholder={`${element.placeholder}`} onChange={handleTextAreaChange} style={element.height!=undefined?{height:element.height}:{}}  />
-       );    
-      })
-  
-      
-      return(
-        <TextFieldBody>{area}</TextFieldBody>
-      )
+    function handleTextAreaChange(event:any,index:number) {
+      textData[index] = event.target.value; 
     }
+  
     const OptionsList = ()=>{
    
       let btns:any = [];
@@ -297,7 +320,17 @@ return(<div>
 <SubTitle>{description}</SubTitle>
 <Divider>
     <DividerFirst>
-        <TextFields/>
+    <TextFieldBody>
+  {fields.map((element: any, index: number) => (
+    <TextArea
+      key={index}
+      value={ textData[index]}
+      placeholder={`${element.placeholder}`}
+      onChange={(e) => handleTextAreaChange(e, index)}
+      style={element.height !== undefined ? { height: element.height } : {}}
+    />
+  ))}
+</TextFieldBody>
         <OptionsList/>
         <GenButton onClick={()=>{
             buttonFunction(textData,selectedItem);
@@ -307,7 +340,7 @@ return(<div>
         <GenTitle><span>{generationTitle}</span><ContentHeader>
         <div className="copyAndExport">
                   <CopyToClipboard
-                      text={removeMarkdown("")}
+                      text={removeMarkdown(content)}
                       onCopy={() => {
                         alerts.success(t`Copied`, t`Copied`);
                       }}
@@ -319,7 +352,7 @@ return(<div>
                   <button
                       className="export"
                       onClick={() => {
-                        //exportPDF();
+                        exportPDF();
                       }}
                   >
                     PDF <Image src={Export} alt="" />

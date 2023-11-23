@@ -224,33 +224,12 @@ export default function Hero({image,title,description,fields,buttonText,buttonFu
   let tempChange:any = [];
   const [selectedItem, setSelectedItem] = useState([]);
   
-  const TextFields = ()=>{
+  const handleTextAreaChange = (event:any, index:number) => {
+    const newTextData:any = [...textData];
+    newTextData[index] = event.target.value;
+    setTextData(newTextData);
+  };
  
-    let area:any = [];
-    const handleTextAreaChange = (event:any, index:number) => {
-      const newTextData:any = [...textData];
-      newTextData[index] = event.target.value;
-      setTextData(newTextData);
-    };
-    const handleTextAreaChange2 = (event:any, index:number) => {
-      const newTextData:any = [...textData];
-      newTextData[index] = event.target.value + newTextData[index];
-      tempChange=newTextData;
-    };
-    fields.map((element:any,index:number)=> {
-    
-     area.push(
-      <TextArea  key={index} value={tempChange[index]==null?textData[index]:tempChange[index]} placeholder={`${element.placeholder}`} onChange={(e)=>{
-        //handleTextAreaChange2(e,index)
-      }}  onBlur={(e) => handleTextAreaChange(e, index)} style={element.height!=undefined?{height:element.height}:{}}  />
-     );    
-    })
-
-    
-    return(
-      <TextFieldBody>{area}</TextFieldBody>
-    )
-  }
   const OptionsList = ()=>{
  
     let btns:any = [];
@@ -299,7 +278,17 @@ export default function Hero({image,title,description,fields,buttonText,buttonFu
                       {description}
                       </p>
                   </HeroText>
-                <TextFields/>
+                  <TextFieldBody>
+  {fields.map((element: any, index: number) => (
+    <TextArea
+      key={index}
+      value={ textData[index]}
+      placeholder={`${element.placeholder}`}
+      onChange={(e) => handleTextAreaChange(e, index)}
+      style={element.height !== undefined ? { height: element.height } : {}}
+    />
+  ))}
+</TextFieldBody>
                   <OptionsList/>
                   <HeroActions>
                       <button
