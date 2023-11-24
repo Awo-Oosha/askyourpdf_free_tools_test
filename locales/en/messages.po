@@ -210,18 +210,18 @@ msgstr "Affiliate Program"
 #~ msgid "After the document has been processed, you can customize the summary based on your preferences. <0/>Set settings such as the desired length of the summary to make it as brief or as informative as you want. Set text formatting choices to ensure that the summary follows your desired style. You can include a prompt to instruct AskYourPDF on how to summarise the document. However, if you prefer not to provide a prompt, you can skip this step."
 #~ msgstr "After the document has been processed, you can customize the summary based on your preferences. <0/>Set settings such as the desired length of the summary to make it as brief or as informative as you want. Set text formatting choices to ensure that the summary follows your desired style. You can include a prompt to instruct AskYourPDF on how to summarise the document. However, if you prefer not to provide a prompt, you can skip this step."
 
-#: pages/book-title-generator/generate/index.tsx:67
-#: pages/book-title-generator/index.tsx:83
+#: pages/book-title-generator/generate/index.tsx:111
+#: pages/book-title-generator/index.tsx:58
 msgid "AI Book Title Generator"
 msgstr "AI Book Title Generator"
 
-#: pages/essay-maker/generate/index.tsx:63
-#: pages/essay-maker/index.tsx:82
+#: pages/essay-maker/generate/index.tsx:108
+#: pages/essay-maker/index.tsx:62
 msgid "AI Essay Maker"
 msgstr "AI Essay Maker"
 
-#: pages/instagram-caption/generate/index.tsx:66
-#: pages/instagram-caption/index.tsx:84
+#: pages/instagram-caption/generate/index.tsx:108
+#: pages/instagram-caption/index.tsx:70
 msgid "AI Instagram Caption Generator"
 msgstr "AI Instagram Caption Generator"
 
@@ -237,23 +237,23 @@ msgstr "AI Literature Review Writer"
 msgid "AI Literature Review Writer Tool"
 msgstr "AI Literature Review Writer Tool"
 
-#: pages/lyrics-generator/generate/index.tsx:106
-#: pages/lyrics-generator/index.tsx:76
+#: pages/lyrics-generator/generate/index.tsx:108
+#: pages/lyrics-generator/index.tsx:65
 msgid "AI Lyrics Generator"
 msgstr "AI Lyrics Generator"
 
-#: pages/paragraph-generator/generate/index.tsx:61
-#: pages/paragraph-generator/index.tsx:76
+#: pages/paragraph-generator/generate/index.tsx:107
+#: pages/paragraph-generator/index.tsx:58
 msgid "AI Paragraph Generator"
 msgstr "AI Paragraph Generator"
 
-#: pages/poem-generator/generate/index.tsx:73
-#: pages/poem-generator/index.tsx:88
+#: pages/poem-generator/generate/index.tsx:109
+#: pages/poem-generator/index.tsx:75
 msgid "AI Poem Generator"
 msgstr "AI Poem Generator"
 
-#: pages/rap-generator/generate/index.tsx:68
-#: pages/rap-generator/index.tsx:83
+#: pages/rap-generator/generate/index.tsx:110
+#: pages/rap-generator/index.tsx:60
 msgid "AI Rap Generator"
 msgstr "AI Rap Generator"
 
@@ -262,18 +262,18 @@ msgstr "AI Rap Generator"
 msgid "AI Source Finder"
 msgstr "AI Source Finder"
 
-#: pages/story-generator/generate/index.tsx:67
-#: pages/story-generator/index.tsx:84
+#: pages/story-generator/generate/index.tsx:114
+#: pages/story-generator/index.tsx:64
 msgid "AI Story Generator"
 msgstr "AI Story Generator"
 
-#: pages/text-generator/generate/index.tsx:67
-#: pages/text-generator/index.tsx:82
+#: pages/text-generator/generate/index.tsx:107
+#: pages/text-generator/index.tsx:61
 msgid "AI Text Generator"
 msgstr "AI Text Generator"
 
-#: pages/thesis-statement/generate/index.tsx:62
-#: pages/thesis-statement/index.tsx:77
+#: pages/thesis-statement/generate/index.tsx:107
+#: pages/thesis-statement/index.tsx:57
 msgid "AI Thesis Statement Generator"
 msgstr "AI Thesis Statement Generator"
 
@@ -618,6 +618,11 @@ msgstr "BlockTechnology OÜ. All rights reserved. ©{year}"
 msgid "Blog"
 msgstr "Blog"
 
+#: pages/book-title-generator/generate/index.tsx:112
+#: pages/book-title-generator/index.tsx:59
+msgid "Book Title Generator"
+msgstr "Book Title Generator"
+
 #: components/Landing/Products.tsx:150
 #: components/PdfToChat/Products.tsx:150
 #~ msgid "Browser Extension"
@@ -952,8 +957,8 @@ msgstr "Conversations"
 #~ msgid "Converse, Learn, Track"
 #~ msgstr "Converse, Learn, Track"
 
-#: components/Generator.tsx:345
-#: components/Generator.tsx:345
+#: components/Generator.tsx:349
+#: components/Generator.tsx:349
 #: components/literature-review/LiteratureMainBar.tsx:435
 #: components/source-tools/source-result/index.tsx:491
 msgid "Copied"
@@ -1579,13 +1584,11 @@ msgstr "File Upload Failed"
 #: pages/text-generator/index.tsx:83
 #: pages/thesis-statement/generate/index.tsx:63
 #: pages/thesis-statement/index.tsx:78
-msgid "fill"
-msgstr "fill"
+#~ msgid "fill"
+#~ msgstr "fill"
 
-#: pages/essay-maker/generate/index.tsx:64
-#: pages/essay-maker/index.tsx:83
-#: pages/story-generator/generate/index.tsx:68
-#: pages/story-generator/index.tsx:85
+#: pages/essay-maker/generate/index.tsx:109
+#: pages/essay-maker/index.tsx:63
 msgid "Fill"
 msgstr "Fill"
 
@@ -1874,40 +1877,38 @@ msgstr "Home"
 #~ msgid "Incorrect Response"
 #~ msgstr "Incorrect Response"
 
-#: pages/story-generator/generate/index.tsx:63
-#: pages/story-generator/index.tsx:64
+#: pages/story-generator/generate/index.tsx:110
+#: pages/story-generator/index.tsx:56
 msgid "input Key events/plot points"
 msgstr "input Key events/plot points"
 
-#: pages/essay-maker/generate/index.tsx:58
-#: pages/essay-maker/index.tsx:61
+#: pages/essay-maker/generate/index.tsx:103
+#: pages/essay-maker/index.tsx:53
 msgid "input Key Points to Cover"
 msgstr "input Key Points to Cover"
 
 #: pages/paragraph-generator/index.tsx:57
-msgid "Input main idea/supporting points"
-msgstr "Input main idea/supporting points"
+#~ msgid "Input main idea/supporting points"
+#~ msgstr "Input main idea/supporting points"
 
-#: pages/story-generator/generate/index.tsx:62
-#: pages/story-generator/index.tsx:63
+#: pages/story-generator/generate/index.tsx:109
+#: pages/story-generator/index.tsx:55
 msgid "Input Names and a brief description of the main characters"
 msgstr "Input Names and a brief description of the main characters"
 
-#: pages/book-title-generator/generate/index.tsx:62
-#: pages/book-title-generator/index.tsx:64
-#: pages/instagram-caption/generate/index.tsx:61
-#: pages/instagram-caption/index.tsx:65
-#: pages/lyrics-generator/generate/index.tsx:101
-#: pages/lyrics-generator/index.tsx:57
-#: pages/paragraph-generator/generate/index.tsx:56
-#: pages/poem-generator/generate/index.tsx:68
-#: pages/poem-generator/index.tsx:69
-#: pages/rap-generator/generate/index.tsx:63
-#: pages/rap-generator/index.tsx:64
-#: pages/text-generator/generate/index.tsx:62
-#: pages/text-generator/index.tsx:63
-#: pages/thesis-statement/generate/index.tsx:57
-#: pages/thesis-statement/index.tsx:58
+#: pages/book-title-generator/generate/index.tsx:106
+#: pages/book-title-generator/index.tsx:51
+#: pages/instagram-caption/generate/index.tsx:103
+#: pages/instagram-caption/index.tsx:63
+#: pages/lyrics-generator/generate/index.tsx:103
+#: pages/lyrics-generator/index.tsx:58
+#: pages/poem-generator/generate/index.tsx:104
+#: pages/poem-generator/index.tsx:67
+#: pages/rap-generator/index.tsx:53
+#: pages/text-generator/generate/index.tsx:102
+#: pages/text-generator/index.tsx:53
+#: pages/thesis-statement/generate/index.tsx:102
+#: pages/thesis-statement/index.tsx:50
 msgid "Input some line here to begin"
 msgstr "Input some line here to begin"
 
@@ -1919,13 +1920,13 @@ msgstr "Input some line here to begin"
 #~ msgid "Input some text here OR upload a document in the right pane to summarise"
 #~ msgstr "Input some text here OR upload a document in the right pane to summarise"
 
-#: pages/essay-maker/generate/index.tsx:57
-#: pages/essay-maker/index.tsx:60
+#: pages/essay-maker/generate/index.tsx:102
+#: pages/essay-maker/index.tsx:52
 msgid "input Thesis Statement"
 msgstr "input Thesis Statement"
 
-#: pages/essay-maker/generate/index.tsx:56
-#: pages/essay-maker/index.tsx:59
+#: pages/essay-maker/generate/index.tsx:101
+#: pages/essay-maker/index.tsx:51
 msgid "Input Title or Topic"
 msgstr "Input Title or Topic"
 
@@ -1933,6 +1934,11 @@ msgstr "Input Title or Topic"
 #: components/PdfToChat/Features.tsx:290
 #~ msgid "Insightful Conversations"
 #~ msgstr "Insightful Conversations"
+
+#: pages/instagram-caption/generate/index.tsx:109
+#: pages/instagram-caption/index.tsx:71
+msgid "Instagram Caption Generator"
+msgstr "Instagram Caption Generator"
 
 #: components/Landing/Hero.tsx:257
 #~ msgid "Install directly on ChatGPT"
@@ -2188,6 +2194,11 @@ msgstr "Logout"
 #: components/Landing/SummarizeGuide.tsx:175
 #~ msgid "Lorem ipsum dolor sit amet consectetur adipiscing elit, netus curae aliquam aenean duis dis felis nibh, massa tristique mi natoque maecenas justo."
 #~ msgstr "Lorem ipsum dolor sit amet consectetur adipiscing elit, netus curae aliquam aenean duis dis felis nibh, massa tristique mi natoque maecenas justo."
+
+#: pages/paragraph-generator/generate/index.tsx:100
+#: pages/paragraph-generator/index.tsx:49
+msgid "Main idea"
+msgstr "Main idea"
 
 #: components/Modals/Profile.tsx:335
 #~ msgid "Manage"
@@ -2540,6 +2551,11 @@ msgstr "Output"
 #~ msgid "Paid"
 #~ msgstr "Paid"
 
+#: pages/paragraph-generator/generate/index.tsx:108
+#: pages/paragraph-generator/index.tsx:59
+msgid "Paragraph Generator"
+msgstr "Paragraph Generator"
+
 #: pages/billing/index.tsx:925
 #: pages/settings/index.tsx:929
 #~ msgid "Payment Method"
@@ -2667,6 +2683,11 @@ msgstr "Please enter instructions on how to review your text input OR document"
 #~ msgid "Please Wait"
 #~ msgstr "Please Wait"
 
+#: pages/poem-generator/generate/index.tsx:110
+#: pages/poem-generator/index.tsx:76
+msgid "Poem Generator"
+msgstr "Poem Generator"
+
 #: pages/settings/index.tsx:608
 #~ msgid "Premium Plan <0>$4.99/month or $3.99/month (Billed Annually)</0>"
 #~ msgstr "Premium Plan <0>$4.99/month or $3.99/month (Billed Annually)</0>"
@@ -2766,6 +2787,11 @@ msgstr "Publication Year:"
 #: components/Modals/PaymentModalContent.tsx:330
 #~ msgid "questions/day"
 #~ msgstr "questions/day"
+
+#: pages/rap-generator/generate/index.tsx:111
+#: pages/rap-generator/index.tsx:61
+msgid "Rap Generator"
+msgstr "Rap Generator"
 
 #: pages/knowledge-base/[[...params]].tsx:1463
 #~ msgid "Reaction Failed to submit"
@@ -3019,6 +3045,11 @@ msgstr "Start For Free"
 #~ msgid "Status"
 #~ msgstr "Status"
 
+#: pages/story-generator/generate/index.tsx:115
+#: pages/story-generator/index.tsx:65
+msgid "Story Generator"
+msgstr "Story Generator"
+
 #: components/tools/ToolsSection.tsx:267
 #~ msgid "Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work."
 #~ msgstr "Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work."
@@ -3145,6 +3176,11 @@ msgstr "Supported formats: .pdf"
 #~ msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf' (max 200 pages)"
 #~ msgstr "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf' (max 200 pages)"
 
+#: pages/paragraph-generator/generate/index.tsx:101
+#: pages/paragraph-generator/index.tsx:50
+msgid "Supporting points"
+msgstr "Supporting points"
+
 #: pages/billing/index.tsx:866
 #~ msgid "Switch Plan"
 #~ msgstr "Switch Plan"
@@ -3186,6 +3222,11 @@ msgstr "Terms & Conditions"
 #~ msgid "Test Keys"
 #~ msgstr "Test Keys"
 
+#: pages/text-generator/generate/index.tsx:108
+#: pages/text-generator/index.tsx:62
+msgid "Text Generator"
+msgstr "Text Generator"
+
 #: components/Modals/ConversationFeedback.tsx:333
 #: components/Modals/ConversationFeedback.tsx:443
 #~ msgid "Thank You"
@@ -3219,6 +3260,11 @@ msgstr "Terms & Conditions"
 #: utils/termsData.ts:72
 #~ msgid "These terms and conditions shall be governed by and construed in accordance with the laws of the country or state where it is used."
 #~ msgstr "These terms and conditions shall be governed by and construed in accordance with the laws of the country or state where it is used."
+
+#: pages/thesis-statement/generate/index.tsx:108
+#: pages/thesis-statement/index.tsx:58
+msgid "Thesis Statement Generator"
+msgstr "Thesis Statement Generator"
 
 #: pages/privacy/index.tsx:125
 #~ msgid "Third-Party Services"
@@ -3262,6 +3308,10 @@ msgstr "Tools"
 #: components/PdfToChat/Products.tsx:178
 #~ msgid "Tools we’ve built to improve your document experience"
 #~ msgstr "Tools we’ve built to improve your document experience"
+
+#: pages/rap-generator/generate/index.tsx:105
+msgid "Topic/Theme"
+msgstr "Topic/Theme"
 
 #: pages/settings/index.tsx:1051
 #~ msgid "Track your Usage"
@@ -3556,12 +3606,57 @@ msgstr "Upload text file"
 #~ msgstr "View Documentation"
 
 #: components/literature-review/MainContent.tsx:227
-#: pages/lyrics-generator/generate/index.tsx:35
-#: pages/lyrics-generator/generate/index.tsx:43
-#: pages/lyrics-generator/generate/index.tsx:119
-#: pages/lyrics-generator/index.tsx:84
-#: pages/lyrics-generator/index.tsx:92
+#: pages/book-title-generator/generate/index.tsx:47
+#: pages/book-title-generator/generate/index.tsx:55
+#: pages/book-title-generator/generate/index.tsx:124
+#: pages/book-title-generator/index.tsx:65
+#: pages/book-title-generator/index.tsx:73
+#: pages/essay-maker/generate/index.tsx:46
+#: pages/essay-maker/generate/index.tsx:54
+#: pages/essay-maker/generate/index.tsx:120
+#: pages/essay-maker/index.tsx:69
+#: pages/essay-maker/index.tsx:77
+#: pages/instagram-caption/generate/index.tsx:47
+#: pages/instagram-caption/generate/index.tsx:55
+#: pages/instagram-caption/generate/index.tsx:120
+#: pages/instagram-caption/index.tsx:77
+#: pages/instagram-caption/index.tsx:85
+#: pages/lyrics-generator/generate/index.tsx:46
+#: pages/lyrics-generator/generate/index.tsx:54
+#: pages/lyrics-generator/generate/index.tsx:121
+#: pages/lyrics-generator/index.tsx:73
+#: pages/lyrics-generator/index.tsx:81
+#: pages/paragraph-generator/generate/index.tsx:45
+#: pages/paragraph-generator/generate/index.tsx:53
+#: pages/paragraph-generator/generate/index.tsx:119
+#: pages/paragraph-generator/index.tsx:65
+#: pages/paragraph-generator/index.tsx:73
+#: pages/poem-generator/generate/index.tsx:47
+#: pages/poem-generator/generate/index.tsx:55
+#: pages/poem-generator/generate/index.tsx:122
+#: pages/poem-generator/index.tsx:82
+#: pages/poem-generator/index.tsx:90
+#: pages/rap-generator/generate/index.tsx:48
+#: pages/rap-generator/generate/index.tsx:56
+#: pages/rap-generator/generate/index.tsx:123
+#: pages/rap-generator/index.tsx:67
+#: pages/rap-generator/index.tsx:75
 #: pages/source-tool/index.tsx:181
+#: pages/story-generator/generate/index.tsx:48
+#: pages/story-generator/generate/index.tsx:56
+#: pages/story-generator/generate/index.tsx:127
+#: pages/story-generator/index.tsx:71
+#: pages/story-generator/index.tsx:79
+#: pages/text-generator/generate/index.tsx:46
+#: pages/text-generator/generate/index.tsx:54
+#: pages/text-generator/generate/index.tsx:119
+#: pages/text-generator/index.tsx:68
+#: pages/text-generator/index.tsx:76
+#: pages/thesis-statement/generate/index.tsx:45
+#: pages/thesis-statement/generate/index.tsx:53
+#: pages/thesis-statement/generate/index.tsx:119
+#: pages/thesis-statement/index.tsx:64
+#: pages/thesis-statement/index.tsx:72
 msgid "Warning"
 msgstr "Warning"
 
@@ -3873,8 +3968,8 @@ msgstr "You can now chat with multiple documents at once using our knowledge bas
 #~ msgid "Your converted file is ready"
 #~ msgstr "Your converted file is ready"
 
-#: pages/lyrics-generator/generate/index.tsx:107
-#: pages/lyrics-generator/index.tsx:77
+#: pages/lyrics-generator/generate/index.tsx:109
+#: pages/lyrics-generator/index.tsx:66
 msgid "Your creative companion on your musical journey, create lyrics that tell your unique story"
 msgstr "Your creative companion on your musical journey, create lyrics that tell your unique story"
 
