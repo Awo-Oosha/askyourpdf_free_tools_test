@@ -12,6 +12,7 @@ import { generateRap} from "@/services/toolsApi";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
 import {options} from "../index";
+import { useRouter } from "next/router";
 
 
 const Generator = dynamic(() => import('@/components/Generator'), {
@@ -37,6 +38,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 };
 
 const RapGeneratorSub = ()=>{
+  const router = useRouter();
   const [generatedContent,setGeneratedContent]= useState("");
   const [isLoading,setIsLoading]= useState(false);
   const [previousData,setPreviousData]= useState(null); //data from previos page/ null if empty
@@ -67,7 +69,7 @@ const RapGeneratorSub = ()=>{
     setGeneratedContent("");
     let dynamicContent = ""
     setIsLoading(true);
-  const st = await generateRap (text,newParam);
+  const st = await generateRap (text,newParam,router.locale);
   const reader = st.body!.getReader();
   setIsLoading(false);
   while (true) {

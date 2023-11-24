@@ -12,6 +12,7 @@ import { generateParagraph} from "@/services/toolsApi";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
 import {options} from "../index";
+import { useRouter } from "next/router";
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
   loading:()=>{
@@ -34,6 +35,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 };
 
 const ParagraphGeneratorSub = ()=>{
+  const router = useRouter();
   const [generatedContent,setGeneratedContent]= useState("");
   const [isLoading,setIsLoading]= useState(false);
   const [previousData,setPreviousData]= useState(null); //data from previos page/ null if empty
@@ -62,7 +64,7 @@ const ParagraphGeneratorSub = ()=>{
     setGeneratedContent("");
     let dynamicContent = ""
     setIsLoading(true);
-  const st = await  generateParagraph(text,newParam);
+  const st = await  generateParagraph(text,newParam,router.locale);
   const reader = st.body!.getReader();
   setIsLoading(false);
   while (true) {

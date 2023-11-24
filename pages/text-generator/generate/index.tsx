@@ -12,6 +12,7 @@ import { generateText} from "@/services/toolsApi";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
 import {options} from "../index";
+import { useRouter } from "next/router";
 
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
@@ -35,6 +36,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 };
 
 const TextGeneratorSub = ()=>{
+  const router = useRouter();
   const [generatedContent,setGeneratedContent]= useState("");
   const [isLoading,setIsLoading]= useState(false);
   const [previousData,setPreviousData]= useState(null); //data from previos page/ null if empty
@@ -64,7 +66,7 @@ const TextGeneratorSub = ()=>{
     setGeneratedContent("");
     let dynamicContent = ""
     setIsLoading(true);
-  const st = await generateText (text,newParam);
+  const st = await generateText (text,newParam,router.locale);
   const reader = st.body!.getReader();
   setIsLoading(false);
   while (true) {
