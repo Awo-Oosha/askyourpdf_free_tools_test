@@ -110,9 +110,9 @@ setGeneratedContent(nwText);
         ]}
         ,
         {name:"Hashtags Preferences",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Include Specific Hashtag",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Not Specific Hashtag",key:"muz1",onClick:(key:any)=>{}},
+            
         ]}
     ];
     const textfields:any=[
