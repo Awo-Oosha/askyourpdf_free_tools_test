@@ -11,7 +11,7 @@ import { getRouterData } from "@/services/libtools";
 import { generateParagraph} from "@/services/toolsApi";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
-
+import {options} from "../index";
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
   loading:()=>{
@@ -56,7 +56,7 @@ const ParagraphGeneratorSub = ()=>{
     }
     const newParam:any = {
         "TONE":parameters[0],
-        "PURRPOSE":parameters[1],
+        "PURPOSE":parameters[1],
     }
     
     setGeneratedContent("");
@@ -93,21 +93,7 @@ setGeneratedContent(nwText);
     })
     console.log("previous",previousData);
   },[setPreviousData,previousData])
-    const options:any = [
-        {name:"Select Purpose",data:[
-            {label:"Informative",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Persuasive",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Descriptive",key:"muz3",onClick:(key:any)=>{}},
-            {label:"Narrative",key:"muz3",onClick:(key:any)=>{}},
-        ]},
-        {name:"Select Tone",data:[
-            {label:"Formal",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Informal",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Professional",key:"muz3",onClick:(key:any)=>{}},
-            {label:"Casual",key:"muz4",onClick:(key:any)=>{}},
-        ]}
-        
-    ];
+
     const textfields:any=[
         {placeholder:t`Main idea`,height:"90px"},
         {placeholder:t` Supporting points`,height:"90px"},
@@ -117,7 +103,7 @@ setGeneratedContent(nwText);
 return(<div>
 <Generator
  title={t`AI Paragraph Generator`} 
- description={t`fill`}
+ description={t`Paragraph Generator`}
  fields={textfields}
  buttonText={"Generate Paragraph"}
  generationTitle={"Generated Paragraph"}

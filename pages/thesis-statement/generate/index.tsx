@@ -11,6 +11,7 @@ import { getRouterData } from "@/services/libtools";
 import { generateThesis } from "@/services/toolsApi";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
+import {options} from "../index";
 
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
@@ -94,19 +95,7 @@ setGeneratedContent(nwText);
     console.log("previous",previousData);
 },[setPreviousData,previousData])
     
-    const options:any = [
-        {name:"Select Type of Paper",data:[
-            {label:"Argumentative",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Analytical",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Expository",key:"muz3",onClick:(key:any)=>{}},
-        ]},
-        {name:"Fill ",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
-        ]}
-        
-    ];
+  
     const textfields:any=[
         {placeholder:t`Input some line here to begin`,height:"90px"},
     ];
@@ -114,7 +103,7 @@ setGeneratedContent(nwText);
 return(<div>
 <Generator
   title={t`AI Thesis Statement Generator`} 
-  description={t`fill`}
+  description={t`Thesis Statement Generator`}
   fields={textfields}
   buttonText={"Generate Thesis Statement"}
  generationTitle={"Generated Thesis Statement"}

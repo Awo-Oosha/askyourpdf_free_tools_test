@@ -11,6 +11,7 @@ import { getRouterData } from "@/services/libtools";
 import { generateText} from "@/services/toolsApi";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
+import {options} from "../index";
 
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
@@ -95,25 +96,6 @@ setGeneratedContent(nwText);
     console.log("previous",previousData);
 },[setPreviousData,previousData])
    
-    const options:any = [
-        {name:"Select Purpose ",data:[
-            {label:"General Content",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Marketing",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Educatonal",key:"muz3",onClick:(key:any)=>{}},
-            {label:"Fictional",key:"muz4",onClick:(key:any)=>{}},
-        ]},
-        {name:"Select Tone ",data:[
-            {label:"Professional",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Casual",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Technical",key:"muz3",onClick:(key:any)=>{}},
-        ]}
-        ,
-        {name:"Select Length",data:[
-            {label:"Word Limit",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Character Limit",key:"muz1",onClick:(key:any)=>{}},
-            
-        ]}
-    ];
     const textfields:any=[
         {placeholder:t`Input some line here to begin`,height:"90px"},
     ];
@@ -121,7 +103,7 @@ setGeneratedContent(nwText);
 return(<div>
 <Generator
   title={t`AI Text Generator`} 
-  description={t`fill`}
+  description={t`Text Generator`}
   fields={textfields}
   buttonText={"Generate Text"}
  generationTitle={"Generated Text"}

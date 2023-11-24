@@ -1,7 +1,4 @@
 import React, {ChangeEvent, useEffect, useRef, useState} from "react";
-import {Layout} from "antd";
-import {Content} from "antd/lib/layout/layout";
-import styled from "styled-components";
 import LyricsGen from "@/img/AI-story-.png";
 import {alerts} from "@/utils/alerts";
 import {t, Trans} from "@lingui/macro";
@@ -12,18 +9,9 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
-import {useMedia} from "react-use";
-import HeroImage from "@/img/Mask.svg?url";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
-import {MAIN_APP_URL} from "@/config/config";
-import {SourceContent} from "@/components/source-tools/source-content";
-import {SourceResult} from "@/components/source-tools/source-result";
-import {useMutation} from "react-query";
-import {Filter, getSourceInformation, getSources} from "@/services/tools";
+import {FAQDATA,  MAIN_APP_URL} from "@/config/config";
 import {useRouter} from "next/router";
-import ProgressModal from "@/components/Modals/ProgressModal";
-import Link from "next/link";
-import dynamic from "next/dynamic";
 import {routerData } from "@/services/libtools";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -39,53 +27,61 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     };
 };
 
+export const options:any = [
+    {name:" Genre",data:[
+        {label:"Fantasy",key:"str",  onClick:(key:any)=>{}},
+        {label:"Sci-Fi",key:"str2",onClick:(key:any)=>{}},
+        {label:"Mystery",key:"str3",onClick:(key:any)=>{}},
+        {label:"Horror",key:"str4",onClick:(key:any)=>{}},
+        {label:"Romance",key:"str5",onClick:(key:any)=>{}},
+        {label:"Comedy",key:"str6",onClick:(key:any)=>{}},
+    ]},
+    {name:"Length",data:[
+        {label:"Short story",key:"str",  onClick:(key:any)=>{}},
+        {label:"Novella",key:"str2",onClick:(key:any)=>{}},
+        {label:"Full length",key:"str3",onClick:(key:any)=>{}},
+    ]}
+    ,
+    {name:" Settings",data:[
+        {label:"Time",key:"str",  onClick:(key:any)=>{}},
+        {label:"Period",key:"str2",onClick:(key:any)=>{}},
+        {label:"Location",key:"str3",onClick:(key:any)=>{}},
+    ]}
+];
 const StoryGenerator = () => {
     const router = useRouter();
-    const options:any = [
-        {name:" Genre",data:[
-            {label:"Story",key:"str",  onClick:(key:any)=>{}},
-            {label:"Story2",key:"str2",onClick:(key:any)=>{}},
-            {label:"Story3",key:"str3",onClick:(key:any)=>{}},
-        ]},
-        {name:"Length",data:[
-            {label:"Story",key:"str",  onClick:(key:any)=>{}},
-            {label:"Story2",key:"str2",onClick:(key:any)=>{}},
-            {label:"Story3",key:"str3",onClick:(key:any)=>{}},
-        ]}
-        ,
-        {name:" Settings",data:[
-            {label:"Story",key:"str",  onClick:(key:any)=>{}},
-            {label:"Story2",key:"str2",onClick:(key:any)=>{}},
-            {label:"Story3",key:"str3",onClick:(key:any)=>{}},
-        ]}
-    ];
+
     const textfields:any=[
         {placeholder:t`Input Names and a brief description of the main characters`,height:"70px"},
         {placeholder:t`input Key events/plot points `,height:"70px"},
     ];
 
-    const faqs=[
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-    ]
+    const faqs= FAQDATA;
     return (<div>
         <Navbar/>
         <Hero 
         image={LyricsGen} 
         title={t`AI Story Generator`} 
-        description={t`Fill`}
+        description={t`Story Generator`}
         fields={textfields }
         buttonText={"Generate Story"}
         buttonFunction={(text:any,items:any)=>{
+            if(text[0]==''){
+                alerts.error(
+                    t`Warning`,
+                    "Please enter some text",
+                    2000
+                  ); 
+                return null;
+            }
+            if(items.length<3){
+                alerts.error(
+                    t`Warning`,
+                    "Please select genre, length and settings",
+                    2000
+                  ); 
+                return null;
+            }
             routerData(text,items,"./story-generator/generate");
         }}
         selectOptions={options} 

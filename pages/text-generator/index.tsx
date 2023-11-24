@@ -1,7 +1,4 @@
 import React, {ChangeEvent, useEffect, useRef, useState} from "react";
-import {Layout} from "antd";
-import {Content} from "antd/lib/layout/layout";
-import styled from "styled-components";
 import LyricsGen from "@/img/Ai-Text-Generator.png";
 import {alerts} from "@/utils/alerts";
 import {t, Trans} from "@lingui/macro";
@@ -12,18 +9,10 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
-import {useMedia} from "react-use";
-import HeroImage from "@/img/Mask.svg?url";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
-import {MAIN_APP_URL} from "@/config/config";
-import {SourceContent} from "@/components/source-tools/source-content";
-import {SourceResult} from "@/components/source-tools/source-result";
-import {useMutation} from "react-query";
+import {FAQDATA, MAIN_APP_URL} from "@/config/config";
 import {Filter, getSourceInformation, getSources} from "@/services/tools";
 import {useRouter} from "next/router";
-import ProgressModal from "@/components/Modals/ProgressModal";
-import Link from "next/link";
-import dynamic from "next/dynamic";
 import {routerData } from "@/services/libtools";
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadCatalog(ctx.locale!);
@@ -38,52 +27,58 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     };
 };
 
+export const options:any = [
+    {name:"Select Purpose ",data:[
+        {label:"General Content",key:"General Content",  onClick:(key:any)=>{}},
+        {label:"Marketing",key:"Marketing",onClick:(key:any)=>{}},
+        {label:"Educatonal",key:"Educational",onClick:(key:any)=>{}},
+        {label:"Fictional",key:"Fictional",onClick:(key:any)=>{}},
+    ]},
+    {name:"Select Tone ",data:[
+        {label:"Professional",key:"Professional",  onClick:(key:any)=>{}},
+        {label:"Casual",key:"Casual",onClick:(key:any)=>{}},
+        {label:"Technical",key:"Technical",onClick:(key:any)=>{}},
+    ]}
+    ,
+    {name:"Select Length",data:[
+        {label:"Word Limit",key:"Word Limit",  onClick:(key:any)=>{}},
+        {label:"Character Limit",key:"Character Limit",onClick:(key:any)=>{}},
+        
+    ]}
+];
 const TextGenerator = () => {
     const router = useRouter();
-    const options:any = [
-        {name:"Select Purpose ",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
-        ]},
-        {name:"Select Tone ",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
-        ]}
-        ,
-        {name:"Select Length",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
-        ]}
-        
-    ];
+   
     const textfields:any=[
         {placeholder:t`Input some line here to begin`,height:"90px"},
     ];
-    const faqs=[
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-    ]
+   
+    const faqs= FAQDATA;
     return (<div>
         <Navbar/>
         <Hero 
         image={LyricsGen} 
         title={t`AI Text Generator`} 
-        description={t`fill`}
+        description={t`Text Generator`}
         fields={textfields}
         buttonText={"Generate Text"}
         buttonFunction={(text:any,items:any)=>{
+            if(text[0]==''){
+                alerts.error(
+                    t`Warning`,
+                    "Please enter some text",
+                    2000
+                  ); 
+                return null;
+            }
+            if(items.length<3){
+                alerts.error(
+                    t`Warning`,
+                    "Please select purpose, tone and length",
+                    2000
+                  ); 
+                return null;
+            }
             routerData(text,items,"./text-generator/generate");
         }}
         selectOptions={options} 

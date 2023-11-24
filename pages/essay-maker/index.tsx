@@ -1,7 +1,4 @@
 import React, {ChangeEvent, useEffect, useRef, useState} from "react";
-import {Layout} from "antd";
-import {Content} from "antd/lib/layout/layout";
-import styled from "styled-components";
 import LyricsGen from "@/img/AI-essay-maker.png";
 import {alerts} from "@/utils/alerts";
 import {t, Trans} from "@lingui/macro";
@@ -15,15 +12,8 @@ import Footer from "@/components/Footer";
 import {useMedia} from "react-use";
 import HeroImage from "@/img/Mask.svg?url";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
-import {MAIN_APP_URL} from "@/config/config";
-import {SourceContent} from "@/components/source-tools/source-content";
-import {SourceResult} from "@/components/source-tools/source-result";
-import {useMutation} from "react-query";
-import {Filter, getSourceInformation, getSources} from "@/services/tools";
+import {FAQDATA, MAIN_APP_URL} from "@/config/config";
 import {useRouter} from "next/router";
-import ProgressModal from "@/components/Modals/ProgressModal";
-import Link from "next/link";
-import dynamic from "next/dynamic";
 import {routerData } from "@/services/libtools";
 
 
@@ -40,21 +30,23 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     };
 };
 
+export const options:any = [
+    {name:" Select Type",data:[
+        {label:"Argumentative",key:"Argumentative",  onClick:(key:any)=>{}},
+        {label:"Descriptive",key:"Descriptive",onClick:(key:any)=>{}},
+        {label:"Narrative",key:"Narrative",onClick:(key:any)=>{}},
+        {label:"Expository",key:"Expository",onClick:(key:any)=>{}},
+    ]},
+    {name:"No of Paragraphs",data:[
+        {label:"1",key:"1",  onClick:(key:any)=>{}},
+        {label:"2",key:"2",onClick:(key:any)=>{}},
+        {label:"3",key:"3",onClick:(key:any)=>{}},
+    ]}
+   
+];
 const EssayMaker = () => {
     const router = useRouter();
-    const options:any = [
-        {name:" Select Type",data:[
-            {label:"Story",key:"str",  onClick:(key:any)=>{}},
-            {label:"Story2",key:"str2",onClick:(key:any)=>{}},
-            {label:"Story3",key:"str3",onClick:(key:any)=>{}},
-        ]},
-        {name:"No of Paragraphs",data:[
-            {label:"Story",key:"str",  onClick:(key:any)=>{}},
-            {label:"Story2",key:"str2",onClick:(key:any)=>{}},
-            {label:"Story3",key:"str3",onClick:(key:any)=>{}},
-        ]}
-       
-    ];
+   
     const textfields:any=[
         {placeholder:t`Input Title or Topic`,height:"70px"},
         {placeholder:t`input Thesis Statement  `,height:"70px"},
@@ -62,19 +54,7 @@ const EssayMaker = () => {
         
     ];
 
-    const faqs=[
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-    ]
+    const faqs= FAQDATA;
     return (<div>
         <Navbar/>
         <Hero 
@@ -84,6 +64,22 @@ const EssayMaker = () => {
         fields={textfields }
         buttonText={"Generate Essay"}
         buttonFunction={(text:any,items:any)=>{
+            if(text[0]==''){
+                alerts.error(
+                    t`Warning`,
+                    "Please enter some text",
+                    2000
+                  ); 
+                return null;
+            }
+            if(items.length<2){
+                alerts.error(
+                    t`Warning`,
+                    "Please select type and paragraphs",
+                    2000
+                  ); 
+                return null;
+            }
             routerData(text,items,"./essay-maker/generate");
         }}
         selectOptions={options} 

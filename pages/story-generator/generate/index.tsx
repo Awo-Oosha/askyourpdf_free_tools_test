@@ -11,6 +11,7 @@ import { getRouterData } from "@/services/libtools";
 import { generateStory } from "@/services/toolsApi";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
+import {options} from "../index";
 
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
@@ -101,27 +102,7 @@ setGeneratedContent(nwText);
 
 
   
-    const options:any = [
-        {name:" Genre",data:[
-            {label:"Fantasy",key:"str",  onClick:(key:any)=>{}},
-            {label:"Sci-Fi",key:"str2",onClick:(key:any)=>{}},
-            {label:"Mystery",key:"str3",onClick:(key:any)=>{}},
-            {label:"Horror",key:"str4",onClick:(key:any)=>{}},
-            {label:"Romance",key:"str5",onClick:(key:any)=>{}},
-            {label:"Comedy",key:"str6",onClick:(key:any)=>{}},
-        ]},
-        {name:"Length",data:[
-            {label:"Short story",key:"str",  onClick:(key:any)=>{}},
-            {label:"Novella",key:"str2",onClick:(key:any)=>{}},
-            {label:"Full length",key:"str3",onClick:(key:any)=>{}},
-        ]}
-        ,
-        {name:" Settings",data:[
-            {label:"Time",key:"str",  onClick:(key:any)=>{}},
-            {label:"Period",key:"str2",onClick:(key:any)=>{}},
-            {label:"Location",key:"str3",onClick:(key:any)=>{}},
-        ]}
-    ];
+   
     const textfields:any=[
         {placeholder:t`Input Names and a brief description of the main characters`,height:"70px"},
         {placeholder:t`input Key events/plot points `,height:"70px"},
@@ -129,7 +110,7 @@ setGeneratedContent(nwText);
 return(<div>
 <Generator
    title={t`AI Story Generator`} 
-   description={t`Fill`}
+   description={t`Story Generator`}
    fields={textfields }
    buttonText={"Generate Story"}
  generationTitle={"Generated Story"}
