@@ -27,22 +27,23 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     };
 };
 export const options:any = [
-    {name:"Select Style",data:[
-        {label:"Old School",key:"muz",  onClick:(key:any)=>{}},
-        {label:"Trap",key:"muz1",onClick:(key:any)=>{}},
-        {label:"Gangsta",key:"muz3",onClick:(key:any)=>{}},
-    ]},
-    {name:"Select Best Tempo",data:[
-        {label:"Fast",key:"muz",  onClick:(key:any)=>{}},
-        {label:"Medium",key:"muz1",onClick:(key:any)=>{}},
-        {label:"Slow",key:"muz3",onClick:(key:any)=>{}},
-    ]}
-    ,
-    {name:"Select Complexity",data:[
-        {label:"Simplicity of Words",key:"muz",  onClick:(key:any)=>{}},
-        {label:"Complex Vocabulary",key:"muz1",onClick:(key:any)=>{}},
-       
-    ]}
+    
+        {name:"Select Style",data:[
+            {label:"Old School",key:"Old School",  onClick:(key:any)=>{}},
+            {label:"Trap",key:"Trap",onClick:(key:any)=>{}},
+            {label:"Gangsta",key:"Gangsta",onClick:(key:any)=>{}},
+        ]},
+        {name:"Select Best Tempo",data:[
+            {label:"Fast",key:"Fast",  onClick:(key:any)=>{}},
+            {label:"Medium",key:"Medium",onClick:(key:any)=>{}},
+            {label:"Slow",key:"Slow",onClick:(key:any)=>{}},
+        ]}
+        ,
+        {name:"Select Complexity",data:[
+            {label:"Simplicity of Words",key:"Simplicity of Words",  onClick:(key:any)=>{}},
+            {label:"Complex Vocabulary",key:"Complex Vocabulary",onClick:(key:any)=>{}},
+           
+        ]}
     
 ];
 const RapGenerator = () => {
