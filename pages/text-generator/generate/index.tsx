@@ -7,9 +7,17 @@ import {loadCatalog} from "@/utils/i18n";
 import Image from "next/image";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
-import Generator from "@/components/Generator";
 import { getRouterData } from "@/services/libtools";
 import { generateText} from "@/services/toolsApi";
+import dynamic from "next/dynamic";
+import FullLoader from "@/components/tools/FullLoader";
+
+const Generator = dynamic(() => import('@/components/Generator'), {
+  ssr: false,
+  loading:()=>{
+    return (<FullLoader/>);
+  }
+}); 
 
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -38,10 +46,10 @@ const TextGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<2){
+    if(parameters.length<3){
         alerts.error(
             t`Warning`,
-            "Please select genre and mood",
+            "Please select the purpose theme and length",
             2000
           ); 
         return null;

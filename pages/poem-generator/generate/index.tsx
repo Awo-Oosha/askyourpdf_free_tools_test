@@ -7,9 +7,17 @@ import {loadCatalog} from "@/utils/i18n";
 import Image from "next/image";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
-import Generator from "@/components/Generator";
 import { getRouterData } from "@/services/libtools";
 import { generatePoem} from "@/services/toolsApi";
+import dynamic from "next/dynamic";
+import FullLoader from "@/components/tools/FullLoader";
+
+const Generator = dynamic(() => import('@/components/Generator'), {
+  ssr: false,
+  loading:()=>{
+    return (<FullLoader/>);
+  }
+}); 
 
 
 
@@ -39,10 +47,10 @@ const PoemGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<2){
+    if(parameters.length<4){
         alerts.error(
             t`Warning`,
-            "Please select genre and mood",
+            "Please select the style,mood,themes and length",
             2000
           ); 
         return null;
