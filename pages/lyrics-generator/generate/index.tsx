@@ -12,6 +12,7 @@ import { getRouterData } from "@/services/libtools";
 import { generateLyrics } from "@/services/toolsApi";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
+import {options}from "../index";
 
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
@@ -95,18 +96,7 @@ setGeneratedContent(nwText);
     })
     
   },[setPreviousData,previousData])
-    const options:any = [
-        {name:"Select Genre",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
-        ]},
-        {name:"Select Mood",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
-        ]}
-    ];
+    //const options:any = options;
     const textfields:any=[
         {placeholder:t`Input some line here to begin`,height:"90px"},
     ];
