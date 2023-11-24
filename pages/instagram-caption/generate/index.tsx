@@ -11,6 +11,7 @@ import { getRouterData } from "@/services/libtools";
 import { generateInstagramCaption} from "@/services/toolsApi";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
+import {options} from "../index";
 
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
@@ -95,32 +96,7 @@ setGeneratedContent(nwText);
     })
     console.log("previous",previousData);
 },[setPreviousData,previousData])
-    const options:any = [
-        {name:"Select Type of Post",data:[
-            {label:"Travel",key:"Travel",  onClick:(key:any)=>{}},
-            {label:"Food",key:"Food",onClick:(key:any)=>{}},
-            {label:"Passion",key:"Passion",onClick:(key:any)=>{}},
-        ]},
-        {name:"Select Mood ",data:[
-            {label:"Funny",key:"Funny",  onClick:(key:any)=>{}},
-            {label:"Inspirational",key:"Inspirational",onClick:(key:any)=>{}},
-            {label:"Casual",key:"Casual",onClick:(key:any)=>{}},
-            {label:"Serious",key:"Serious",onClick:(key:any)=>{}},
-
-        ]}
-        ,
-        {name:"Hashtags Preferences",data:[
-            {label:"Include Hashtag or not",key:"Include Hashtag or not",  onClick:(key:any)=>{}},
-            {label:" Specific Hashtags",key:"Specific Hashtags",onClick:(key:any)=>{}},
-            
-        ]}
-        ,
-        {name:"Mention Preferences",data:[
-            {label:"Include Mentions or not",key:"Include Mentions or not",  onClick:(key:any)=>{}},
-            {label:" Who to Mention",key:"Who to Mention",onClick:(key:any)=>{}},
-            
-        ]}
-    ];
+  
     const textfields:any=[
         {placeholder:t`Input some line here to begin`,height:"90px"},
     ];
@@ -128,7 +104,7 @@ setGeneratedContent(nwText);
 return(<div>
 <Generator
   title={t`AI Instagram Caption Generator`} 
-  description={t`fill`}
+  description={t`Instagram Caption Generator`}
   fields={textfields}
   buttonText={"Generate Instagram Caption"}
  generationTitle={"Generated Instagram Caption"}

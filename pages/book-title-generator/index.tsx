@@ -1,7 +1,4 @@
 import React, {ChangeEvent, useEffect, useRef, useState} from "react";
-import {Layout} from "antd";
-import {Content} from "antd/lib/layout/layout";
-import styled from "styled-components";
 import LyricsGen from "@/img/AI-Book-Title-Generator.png";
 import {alerts} from "@/utils/alerts";
 import {t, Trans} from "@lingui/macro";
@@ -12,18 +9,9 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
-import {useMedia} from "react-use";
-import HeroImage from "@/img/Mask.svg?url";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {FAQDATA , MAIN_APP_URL} from "@/config/config";
-import {SourceContent} from "@/components/source-tools/source-content";
-import {SourceResult} from "@/components/source-tools/source-result";
-import {useMutation} from "react-query";
-import {Filter, getSourceInformation, getSources} from "@/services/tools";
 import {useRouter} from "next/router";
-import ProgressModal from "@/components/Modals/ProgressModal";
-import Link from "next/link";
-import dynamic from "next/dynamic";
 import {routerData } from "@/services/libtools";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -39,28 +27,26 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     };
 };
 
+export const options:any = [
+    {name:"Select Genre",data:[
+        {label:"Dynamic",key:"dynamic",  onClick:(key:any)=>{}},
+    ]},
+    {name:"Select Target Audience ",data:[
+        {label:"Children",key:"Children",  onClick:(key:any)=>{}},
+        {label:"YA",key:"YA",onClick:(key:any)=>{}},
+        {label:"Adults",key:"Adults",onClick:(key:any)=>{}},
+    ]}
+    ,
+    {name:"Mood/Tone",data:[
+        {label:"Professional",key:"formal",  onClick:(key:any)=>{}},
+        {label:"Casual",key:"casual",  onClick:(key:any)=>{}},
+        {label:"Technical",key:"tenchnical",  onClick:(key:any)=>{}},
+    ]}
+    
+];
 const BookTitleGenerator = () => {
     const router = useRouter();
-    const options:any = [
-        {name:"Select Genre",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
-        ]},
-        {name:"Select Target Audience ",data:[
-            {label:"Children",key:"Children",  onClick:(key:any)=>{}},
-            {label:"YA",key:"YA",onClick:(key:any)=>{}},
-            {label:"Adults",key:"Adults",onClick:(key:any)=>{}},
-        ]}
-        ,
-        {name:"Mood/Tone",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
-        ]}
-        
-        
-    ];
+
     const textfields:any=[
         {placeholder:t`Input some line here to begin`,height:"90px"},
     ];
@@ -70,10 +56,26 @@ const BookTitleGenerator = () => {
         <Hero 
         image={LyricsGen} 
         title={t`AI Book Title Generator`} 
-        description={t`fill`}
+        description={t`Book Title Generator`}
         fields={textfields}
         buttonText={"Generate Book"}
         buttonFunction={(text:any,items:any)=>{
+            if(text[0]==''){
+                alerts.error(
+                    t`Warning`,
+                    "Please enter some text",
+                    2000
+                  ); 
+                return null;
+            }
+            if(items.length<3){
+                alerts.error(
+                    t`Warning`,
+                    "Please select genre,audience and toon",
+                    2000
+                  ); 
+                return null;
+            }
              routerData(text,items,"./book-title-generator/generate");
         }}
         selectOptions={options} 

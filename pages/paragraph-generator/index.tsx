@@ -1,7 +1,4 @@
 import React, {ChangeEvent, useEffect, useRef, useState} from "react";
-import {Layout} from "antd";
-import {Content} from "antd/lib/layout/layout";
-import styled from "styled-components";
 import ParaGen from "@/img/AI-Paragraph- Generator.png";
 import {alerts} from "@/utils/alerts";
 import {t, Trans} from "@lingui/macro";
@@ -12,18 +9,9 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
-import {useMedia} from "react-use";
-import HeroImage from "@/img/Mask.svg?url";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {FAQDATA, MAIN_APP_URL} from "@/config/config";
-import {SourceContent} from "@/components/source-tools/source-content";
-import {SourceResult} from "@/components/source-tools/source-result";
-import {useMutation} from "react-query";
-import {Filter, getSourceInformation, getSources} from "@/services/tools";
 import {useRouter} from "next/router";
-import ProgressModal from "@/components/Modals/ProgressModal";
-import Link from "next/link";
-import dynamic from "next/dynamic";
 import {routerData } from "@/services/libtools";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -38,24 +26,25 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
         },
     };
 };
+export const options:any = [
+    {name:"Select Purpose",data:[
+        {label:"Informative",key:"Informative",  onClick:(key:any)=>{}},
+        {label:"Persuasive",key:"Persuasive",onClick:(key:any)=>{}},
+        {label:"Descriptive",key:"Descriptive",onClick:(key:any)=>{}},
+        {label:"Narrative",key:"Narrative",onClick:(key:any)=>{}},
+    ]},
+    {name:"Select Tone",data:[
+        {label:"Formal",key:"Formal",  onClick:(key:any)=>{}},
+        {label:"Informal",key:"Informal",onClick:(key:any)=>{}},
+        {label:"Professional",key:"Professional",onClick:(key:any)=>{}},
+        {label:"Casual",key:"Casual",onClick:(key:any)=>{}},
+    ]}
+    
+];
 
 const ParagraphGenerator = () => {
     const router = useRouter();
-    const options:any = [
-        {name:"Select Purpose",data:[
-            {label:"Informative",key:"Informative",  onClick:(key:any)=>{}},
-            {label:"Persuasive",key:"Persuasive",onClick:(key:any)=>{}},
-            {label:"Descriptive",key:"Descriptive",onClick:(key:any)=>{}},
-            {label:"Narrative",key:"Narrative",onClick:(key:any)=>{}},
-        ]},
-        {name:"Select Tone",data:[
-            {label:"Formal",key:"Formal",  onClick:(key:any)=>{}},
-            {label:"Informal",key:"Informal",onClick:(key:any)=>{}},
-            {label:"Professional",key:"Professional",onClick:(key:any)=>{}},
-            {label:"Casual",key:"Casual",onClick:(key:any)=>{}},
-        ]}
-        
-    ];
+  
     const textfields:any=[
         {placeholder:t`Main idea`,height:"90px"},
         {placeholder:t` Supporting points`,height:"90px"},
@@ -67,11 +56,27 @@ const ParagraphGenerator = () => {
         <Hero 
         image={ParaGen} 
         title={t`AI Paragraph Generator`} 
-        description={t`fill`}
+        description={t`Paragraph Generator`}
         fields={textfields}
         buttonText={"Generate Paragraph"}
         buttonFunction={(text:any,items:any)=>{
-            routerData(text,items,"./pararaph-generator/generate");
+            if(text[0]=='' || text[0]==null){
+                alerts.error(
+                    t`Warning`,
+                    "Please enter some text",
+                    2000
+                  ); 
+                return null;
+            }
+            if(items.length<2){
+                alerts.error(
+                    t`Warning`,
+                    "Please select purpose and toon",
+                    2000
+                  ); 
+                return null;
+            }
+            routerData(text,items,"./paragraph-generator/generate");
         }}
         selectOptions={options} 
         />

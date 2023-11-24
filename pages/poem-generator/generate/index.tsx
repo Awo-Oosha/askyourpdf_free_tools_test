@@ -11,6 +11,7 @@ import { getRouterData } from "@/services/libtools";
 import { generatePoem} from "@/services/toolsApi";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
+import {options} from "../index";
 
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
@@ -97,39 +98,6 @@ setGeneratedContent(nwText);
     console.log("previous",previousData);
 },[setPreviousData,previousData])
     
-    const options:any = [
-        {name:"Select Style",data:[
-            {label:"Sonnet",key:"Sonnet",  onClick:(key:any)=>{}},
-            {label:"Haiku",key:"Haiku",onClick:(key:any)=>{}},
-            {label:"Limerick",key:"Limerick",onClick:(key:any)=>{}},
-            {label:"Free Verse",key:"Free Verse",onClick:(key:any)=>{}},
-        ]},
-        {name:"Select Mood",data:[
-            {label:"Romantic",key:"Romantic",  onClick:(key:any)=>{}},
-            {label:"Melancholic",key:"Melancholic",onClick:(key:any)=>{}},
-            {label:"Joyful",key:"Joyful",onClick:(key:any)=>{}},
-        ]}
-        ,
-        {name:"Select Themes",data:[
-            {label:"Nature",key:"Nature",  onClick:(key:any)=>{}},
-            {label:"Love",key:"Love",onClick:(key:any)=>{}},
-            {label:"Death",key:"Death",onClick:(key:any)=>{}},
-            {label:"Time",key:"Time",onClick:(key:any)=>{}},
-        ]}
-        ,
-        {name:"Rhyming Scheme",data:[
-            {label:"ABAB",key:"ABAB",  onClick:(key:any)=>{}},
-            {label:"AABB",key:"AABB",onClick:(key:any)=>{}},
-           
-        ]}
-
-        ,
-        {name:"Length",data:[
-            {label:"1",key:"1",  onClick:(key:any)=>{}},
-            {label:"2",key:"2",onClick:(key:any)=>{}},
-            {label:"3",key:"3",onClick:(key:any)=>{}},
-        ]}
-    ];
     const textfields:any=[
         {placeholder:t`Input some line here to begin`,height:"90px"},
     ];
@@ -137,7 +105,7 @@ setGeneratedContent(nwText);
 return(<div>
 <Generator
  title={t`AI Poem Generator`} 
- description={t`fill`}
+ description={t`Poem Generator`}
  fields={textfields}
  buttonText={"Generate Poem"}
  generationTitle={"Generated Poem"}

@@ -11,6 +11,7 @@ import { getRouterData } from "@/services/libtools";
 import { generateBookTitle } from "@/services/toolsApi";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
+import {options} from "../index";
 
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
@@ -98,25 +99,7 @@ setGeneratedContent(nwText);
 
 
 
-    const options:any = [
-        {name:"Select Genre",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
-        ]},
-        {name:"Select Target Audience ",data:[
-            {label:"Children",key:"Children",  onClick:(key:any)=>{}},
-            {label:"YA",key:"YA",onClick:(key:any)=>{}},
-            {label:"Adults",key:"Adults",onClick:(key:any)=>{}},
-        ]}
-        ,
-        {name:"Mood/Tone",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
-        ]}
-        
-    ];
+   
     const textfields:any=[
         {placeholder:t`Input some line here to begin`,height:"90px"},
     ];
@@ -124,7 +107,7 @@ setGeneratedContent(nwText);
 return(<div>
 <Generator
  title={t`AI Book Title Generator`} 
- description={t`fill`}
+ description={t`Book Title Generator`}
  fields={textfields}
  buttonText={"Generate Book"}
  generationTitle={"Generated Book"}

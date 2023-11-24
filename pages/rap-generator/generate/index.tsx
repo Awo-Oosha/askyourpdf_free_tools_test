@@ -11,6 +11,8 @@ import { getRouterData } from "@/services/libtools";
 import { generateRap} from "@/services/toolsApi";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
+import {options} from "../index";
+
 
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
@@ -96,25 +98,7 @@ setGeneratedContent(nwText);
     })
     console.log("previous",previousData);
 },[setPreviousData,previousData])
-    const options:any = [
-        {name:"Select Style",data:[
-            {label:"Old School",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Trap",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Gangsta",key:"muz3",onClick:(key:any)=>{}},
-        ]},
-        {name:"Select Best Tempo",data:[
-            {label:"Fast",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Medium",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Slow",key:"muz3",onClick:(key:any)=>{}},
-        ]}
-        ,
-        {name:"Select Complexity",data:[
-            {label:"Simplicity of Words",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Complex Vocabulary",key:"muz1",onClick:(key:any)=>{}},
-           
-        ]}
-        
-    ];
+   
     const textfields:any=[
         {placeholder:t`Topic/Theme`,height:"90px"},
     ];
@@ -122,7 +106,7 @@ setGeneratedContent(nwText);
 return(<div>
 <Generator
   title={t`AI Rap Generator`} 
-  description={t`fill`}
+  description={t`Rap Generator`}
   fields={textfields}
   buttonText={"Generate Rap"}
  generationTitle={"Generated Rap"}

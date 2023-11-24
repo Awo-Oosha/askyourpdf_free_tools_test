@@ -11,6 +11,7 @@ import { getRouterData } from "@/services/libtools";
 import { generateEssay } from "@/services/toolsApi";
 import dynamic from "next/dynamic";
 import FullLoader from "@/components/tools/FullLoader";
+import {options} from "../index";
 
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
@@ -93,20 +94,7 @@ setGeneratedContent(nwText);
     })
     console.log("previous",previousData);
   },[setPreviousData,previousData])
-    const options:any = [
-        {name:" Select Type",data:[
-            {label:"Argumentative",key:"Argumentative",  onClick:(key:any)=>{}},
-            {label:"Descriptive",key:"Descriptive",onClick:(key:any)=>{}},
-            {label:"Narrative",key:"Narrative",onClick:(key:any)=>{}},
-            {label:"Expository",key:"Expository",onClick:(key:any)=>{}},
-        ]},
-        {name:"No of Paragraphs",data:[
-            {label:"1",key:"1",  onClick:(key:any)=>{}},
-            {label:"2",key:"2",onClick:(key:any)=>{}},
-            {label:"3",key:"3",onClick:(key:any)=>{}},
-        ]}
-       
-    ];
+   
     const textfields:any=[
         {placeholder:t`Input Title or Topic`,height:"70px"},
         {placeholder:t`input Thesis Statement  `,height:"70px"},

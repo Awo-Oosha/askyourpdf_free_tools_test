@@ -1,7 +1,4 @@
 import React, {ChangeEvent, useEffect, useRef, useState} from "react";
-import {Layout} from "antd";
-import {Content} from "antd/lib/layout/layout";
-import styled from "styled-components";
 import LyricsGen from "@/img/AI-Thesis-statement-generator.png";
 import {alerts} from "@/utils/alerts";
 import {t, Trans} from "@lingui/macro";
@@ -12,18 +9,10 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
-import {useMedia} from "react-use";
-import HeroImage from "@/img/Mask.svg?url";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {FAQDATA, MAIN_APP_URL} from "@/config/config";
-import {SourceContent} from "@/components/source-tools/source-content";
-import {SourceResult} from "@/components/source-tools/source-result";
-import {useMutation} from "react-query";
 import {Filter, getSourceInformation, getSources} from "@/services/tools";
 import {useRouter} from "next/router";
-import ProgressModal from "@/components/Modals/ProgressModal";
-import Link from "next/link";
-import dynamic from "next/dynamic";
 import {routerData } from "@/services/libtools";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -39,22 +28,24 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     };
 };
 
+export const options:any = [
+    {name:"Select Type of Paper",data:[
+        {label:"Argumentative",key:"Argumentative",  onClick:(key:any)=>{}},
+        {label:"Analytical",key:"Analytical",onClick:(key:any)=>{}},
+        {label:"Expository",key:"Expository",onClick:(key:any)=>{}},
+    ]},
+    {name:"Fill ",data:[
+        {label:"fill 1",key:"fill1",  onClick:(key:any)=>{}},
+        {label:"fill 2",key:"fill2",onClick:(key:any)=>{}},
+        {label:"fill 3",key:"fill3",onClick:(key:any)=>{}},
+    ]}
+    
+];
+
 const ThesisStatementGenerator = () => {
     const router = useRouter();
    
-    const options:any = [
-        {name:"Select Type of Paper",data:[
-            {label:"Argumentative",key:"Argumentative",  onClick:(key:any)=>{}},
-            {label:"Analytical",key:"Analytical",onClick:(key:any)=>{}},
-            {label:"Expository",key:"Expository",onClick:(key:any)=>{}},
-        ]},
-        {name:"Fill ",data:[
-            {label:"fill",key:"fill",  onClick:(key:any)=>{}},
-            {label:"fill",key:"fill",onClick:(key:any)=>{}},
-            {label:"fill",key:"fill",onClick:(key:any)=>{}},
-        ]}
-        
-    ];
+    
     const textfields:any=[
         {placeholder:t`Input some line here to begin`,height:"90px"},
     ];
@@ -64,10 +55,26 @@ const ThesisStatementGenerator = () => {
         <Hero 
         image={LyricsGen} 
         title={t`AI Thesis Statement Generator`} 
-        description={t`fill`}
+        description={t`Thesis Statement Generator`}
         fields={textfields}
         buttonText={"Generate Thesis Statement"}
         buttonFunction={(text:any,items:any)=>{
+            if(text[0]==''){
+                alerts.error(
+                    t`Warning`,
+                    "Please enter some text",
+                    2000
+                  ); 
+                return null;
+            }
+            if(items.length<2){
+                alerts.error(
+                    t`Warning`,
+                    "Please select paper type and fill",
+                    2000
+                  ); 
+                return null;
+            }
             routerData(text,items,"./thesis-statement/generate");
         }}
         selectOptions={options} 
