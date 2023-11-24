@@ -7,9 +7,17 @@ import {loadCatalog} from "@/utils/i18n";
 import Image from "next/image";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
-import Generator from "@/components/Generator";
 import { getRouterData } from "@/services/libtools";
 import { generateParagraph} from "@/services/toolsApi";
+import dynamic from "next/dynamic";
+import FullLoader from "@/components/tools/FullLoader";
+
+const Generator = dynamic(() => import('@/components/Generator'), {
+  ssr: false,
+  loading:()=>{
+    return (<FullLoader/>);
+  }
+}); 
 
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -41,7 +49,7 @@ const ParagraphGeneratorSub = ()=>{
     if(parameters.length<2){
         alerts.error(
             t`Warning`,
-            "Please select genre and mood",
+            "Please select the ton and purpose",
             2000
           ); 
         return null;
@@ -87,18 +95,23 @@ setGeneratedContent(nwText);
   },[setPreviousData,previousData])
     const options:any = [
         {name:"Select Purpose",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Informative",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Persuasive",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Descriptive",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Narrative",key:"muz3",onClick:(key:any)=>{}},
         ]},
         {name:"Select Tone",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Formal",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Informal",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Professional",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Casual",key:"muz4",onClick:(key:any)=>{}},
         ]}
+        
     ];
     const textfields:any=[
-        {placeholder:t`Input some line here to begin`,height:"90px"},
+        {placeholder:t`Main idea`,height:"90px"},
+        {placeholder:t` Supporting points`,height:"90px"},
+
     ];
 
 return(<div>

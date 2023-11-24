@@ -7,9 +7,17 @@ import {loadCatalog} from "@/utils/i18n";
 import Image from "next/image";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
-import Generator from "@/components/Generator";
 import { getRouterData } from "@/services/libtools";
 import { generateInstagramCaption} from "@/services/toolsApi";
+import dynamic from "next/dynamic";
+import FullLoader from "@/components/tools/FullLoader";
+
+const Generator = dynamic(() => import('@/components/Generator'), {
+  ssr: false,
+  loading:()=>{
+    return (<FullLoader/>);
+  }
+}); 
 
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -39,10 +47,10 @@ const InstagramCaptionGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<2){
+    if(parameters.length<3){
         alerts.error(
             t`Warning`,
-            "Please select genre and mood",
+            "Please select the type post , mood and the hashtags preferences",
             2000
           ); 
         return null;
@@ -89,20 +97,22 @@ setGeneratedContent(nwText);
 },[setPreviousData,previousData])
     const options:any = [
         {name:"Select Type of Post",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Travel",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Food",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Passion",key:"muz3",onClick:(key:any)=>{}},
         ]},
         {name:"Select Mood ",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Funny",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Inspirational",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Casual",key:"muz3",onClick:(key:any)=>{}},
+            {label:"",key:"muz3",onClick:(key:any)=>{}},
+
         ]}
         ,
         {name:"Hashtags Preferences",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Include Specific Hashtag",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Not Specific Hashtag",key:"muz1",onClick:(key:any)=>{}},
+            
         ]}
     ];
     const textfields:any=[

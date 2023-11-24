@@ -7,9 +7,17 @@ import {loadCatalog} from "@/utils/i18n";
 import Image from "next/image";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
-import Generator from "@/components/Generator";
 import { getRouterData } from "@/services/libtools";
 import { generateThesis } from "@/services/toolsApi";
+import dynamic from "next/dynamic";
+import FullLoader from "@/components/tools/FullLoader";
+
+const Generator = dynamic(() => import('@/components/Generator'), {
+  ssr: false,
+  loading:()=>{
+    return (<FullLoader/>);
+  }
+}); 
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadCatalog(ctx.locale!);
@@ -40,7 +48,7 @@ const ThesisStatementGeneratorSub = ()=>{
     if(parameters.length<2){
         alerts.error(
             t`Warning`,
-            "Please select genre and mood",
+            "Please select type of paper",
             2000
           ); 
         return null;
@@ -88,9 +96,9 @@ setGeneratedContent(nwText);
     
     const options:any = [
         {name:"Select Type of Paper",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Argumentative",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Analytical",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Expository",key:"muz3",onClick:(key:any)=>{}},
         ]},
         {name:"Fill ",data:[
             {label:"Music",key:"muz",  onClick:(key:any)=>{}},

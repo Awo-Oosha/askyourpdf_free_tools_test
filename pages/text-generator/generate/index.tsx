@@ -7,9 +7,17 @@ import {loadCatalog} from "@/utils/i18n";
 import Image from "next/image";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
-import Generator from "@/components/Generator";
 import { getRouterData } from "@/services/libtools";
 import { generateText} from "@/services/toolsApi";
+import dynamic from "next/dynamic";
+import FullLoader from "@/components/tools/FullLoader";
+
+const Generator = dynamic(() => import('@/components/Generator'), {
+  ssr: false,
+  loading:()=>{
+    return (<FullLoader/>);
+  }
+}); 
 
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -38,10 +46,10 @@ const TextGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<2){
+    if(parameters.length<3){
         alerts.error(
             t`Warning`,
-            "Please select genre and mood",
+            "Please select the purpose theme and length",
             2000
           ); 
         return null;
@@ -89,20 +97,21 @@ setGeneratedContent(nwText);
    
     const options:any = [
         {name:"Select Purpose ",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"General Content",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Marketing",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Educatonal",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Fictional",key:"muz4",onClick:(key:any)=>{}},
         ]},
         {name:"Select Tone ",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Professional",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Casual",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Technical",key:"muz3",onClick:(key:any)=>{}},
         ]}
         ,
         {name:"Select Length",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Word Limit",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Character Limit",key:"muz1",onClick:(key:any)=>{}},
+            
         ]}
     ];
     const textfields:any=[

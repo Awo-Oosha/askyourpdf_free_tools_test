@@ -7,9 +7,17 @@ import {loadCatalog} from "@/utils/i18n";
 import Image from "next/image";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
-import Generator from "@/components/Generator";
 import { getRouterData } from "@/services/libtools";
 import { generateRap} from "@/services/toolsApi";
+import dynamic from "next/dynamic";
+import FullLoader from "@/components/tools/FullLoader";
+
+const Generator = dynamic(() => import('@/components/Generator'), {
+  ssr: false,
+  loading:()=>{
+    return (<FullLoader/>);
+  }
+}); 
 
 
 
@@ -39,10 +47,10 @@ const RapGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<2){
+    if(parameters.length<3){
         alerts.error(
             t`Warning`,
-            "Please select genre and mood",
+            "Please select the style , best tempo and the complexity",
             2000
           ); 
         return null;
@@ -90,25 +98,25 @@ setGeneratedContent(nwText);
 },[setPreviousData,previousData])
     const options:any = [
         {name:"Select Style",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Old School",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Trap",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Gangsta",key:"muz3",onClick:(key:any)=>{}},
         ]},
         {name:"Select Best Tempo",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Fast",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Medium",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Slow",key:"muz3",onClick:(key:any)=>{}},
         ]}
         ,
         {name:"Select Complexity",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Simplicity of Words",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Complex Vocabulary",key:"muz1",onClick:(key:any)=>{}},
+           
         ]}
         
     ];
     const textfields:any=[
-        {placeholder:t`Input some line here to begin`,height:"90px"},
+        {placeholder:t`Topic/Theme`,height:"90px"},
     ];
 
 return(<div>

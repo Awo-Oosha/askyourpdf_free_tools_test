@@ -7,9 +7,17 @@ import {loadCatalog} from "@/utils/i18n";
 import Image from "next/image";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
-import Generator from "@/components/Generator";
 import { getRouterData } from "@/services/libtools";
 import { generateEssay } from "@/services/toolsApi";
+import dynamic from "next/dynamic";
+import FullLoader from "@/components/tools/FullLoader";
+
+const Generator = dynamic(() => import('@/components/Generator'), {
+  ssr: false,
+  loading:()=>{
+    return (<FullLoader/>);
+  }
+}); 
 
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -41,7 +49,7 @@ const EssayMakerSub = ()=>{
     if(parameters.length<2){
         alerts.error(
             t`Warning`,
-            "Please select genre and mood",
+            "Please select the type and no of paragraphs",
             2000
           ); 
         return null;
@@ -87,9 +95,10 @@ setGeneratedContent(nwText);
   },[setPreviousData,previousData])
     const options:any = [
         {name:" Select Type",data:[
-            {label:"Story",key:"str",  onClick:(key:any)=>{}},
-            {label:"Story2",key:"str2",onClick:(key:any)=>{}},
-            {label:"Story3",key:"str3",onClick:(key:any)=>{}},
+            {label:"Argumentative",key:"str",  onClick:(key:any)=>{}},
+            {label:"Descriptive",key:"str2",onClick:(key:any)=>{}},
+            {label:"Narrative",key:"str3",onClick:(key:any)=>{}},
+            {label:"Expository",key:"str4",onClick:(key:any)=>{}},
         ]},
         {name:"No of Paragraphs",data:[
             {label:"Story",key:"str",  onClick:(key:any)=>{}},
