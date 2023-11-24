@@ -66,7 +66,7 @@ const StoryGenerator = () => {
         fields={textfields }
         buttonText={"Generate Story"}
         buttonFunction={(text:any,items:any)=>{
-            if(text[0]==''){
+            if(text[0]=='' || text[0]==null){
                 alerts.error(
                     t`Warning`,
                     "Please enter some text",
