@@ -95,15 +95,15 @@ setGeneratedContent(nwText);
   },[setPreviousData,previousData])
     const options:any = [
         {name:" Select Type",data:[
-            {label:"Argumentative",key:"str",  onClick:(key:any)=>{}},
-            {label:"Descriptive",key:"str2",onClick:(key:any)=>{}},
-            {label:"Narrative",key:"str3",onClick:(key:any)=>{}},
-            {label:"Expository",key:"str4",onClick:(key:any)=>{}},
+            {label:"Argumentative",key:"Argumentative",  onClick:(key:any)=>{}},
+            {label:"Descriptive",key:"Descriptive",onClick:(key:any)=>{}},
+            {label:"Narrative",key:"Narrative",onClick:(key:any)=>{}},
+            {label:"Expository",key:"Expository",onClick:(key:any)=>{}},
         ]},
         {name:"No of Paragraphs",data:[
-            {label:"Story",key:"str",  onClick:(key:any)=>{}},
-            {label:"Story2",key:"str2",onClick:(key:any)=>{}},
-            {label:"Story3",key:"str3",onClick:(key:any)=>{}},
+            {label:"1",key:"1",  onClick:(key:any)=>{}},
+            {label:"2",key:"2",onClick:(key:any)=>{}},
+            {label:"3",key:"3",onClick:(key:any)=>{}},
         ]}
        
     ];

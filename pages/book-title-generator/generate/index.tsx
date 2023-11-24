@@ -105,9 +105,9 @@ setGeneratedContent(nwText);
             {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
         ]},
         {name:"Select Target Audience ",data:[
-            {label:"Children",key:"muz",  onClick:(key:any)=>{}},
-            {label:"YA",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Adults",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Children",key:"Children",  onClick:(key:any)=>{}},
+            {label:"YA",key:"YA",onClick:(key:any)=>{}},
+            {label:"Adults",key:"Adults",onClick:(key:any)=>{}},
         ]}
         ,
         {name:"Mood/Tone",data:[

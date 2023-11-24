@@ -15,7 +15,7 @@ import Footer from "@/components/Footer";
 import {useMedia} from "react-use";
 import HeroImage from "@/img/Mask.svg?url";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
-import {MAIN_APP_URL} from "@/config/config";
+import {FAQDATA, MAIN_APP_URL} from "@/config/config";
 import {SourceContent} from "@/components/source-tools/source-content";
 import {SourceResult} from "@/components/source-tools/source-result";
 import {useMutation} from "react-query";
@@ -43,32 +43,25 @@ const ParagraphGenerator = () => {
     const router = useRouter();
     const options:any = [
         {name:"Select Purpose",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Informative",key:"Informative",  onClick:(key:any)=>{}},
+            {label:"Persuasive",key:"Persuasive",onClick:(key:any)=>{}},
+            {label:"Descriptive",key:"Descriptive",onClick:(key:any)=>{}},
+            {label:"Narrative",key:"Narrative",onClick:(key:any)=>{}},
         ]},
         {name:"Select Tone",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Formal",key:"Formal",  onClick:(key:any)=>{}},
+            {label:"Informal",key:"Informal",onClick:(key:any)=>{}},
+            {label:"Professional",key:"Professional",onClick:(key:any)=>{}},
+            {label:"Casual",key:"Casual",onClick:(key:any)=>{}},
         ]}
+        
     ];
     const textfields:any=[
-        {placeholder:t`Input main idea/supporting points `,height:"90px"},
+        {placeholder:t`Main idea`,height:"90px"},
+        {placeholder:t` Supporting points`,height:"90px"},
+
     ];
-    const faqs=[
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-    ]
+    const faqs= FAQDATA;
     return (<div>
         <Navbar/>
         <Hero 

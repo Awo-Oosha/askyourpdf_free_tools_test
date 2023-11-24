@@ -97,21 +97,27 @@ setGeneratedContent(nwText);
 },[setPreviousData,previousData])
     const options:any = [
         {name:"Select Type of Post",data:[
-            {label:"Travel",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Food",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Passion",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Travel",key:"Travel",  onClick:(key:any)=>{}},
+            {label:"Food",key:"Food",onClick:(key:any)=>{}},
+            {label:"Passion",key:"Passion",onClick:(key:any)=>{}},
         ]},
         {name:"Select Mood ",data:[
-            {label:"Funny",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Inspirational",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Casual",key:"muz3",onClick:(key:any)=>{}},
-            {label:"",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Funny",key:"Funny",  onClick:(key:any)=>{}},
+            {label:"Inspirational",key:"Inspirational",onClick:(key:any)=>{}},
+            {label:"Casual",key:"Casual",onClick:(key:any)=>{}},
+            {label:"Serious",key:"Serious",onClick:(key:any)=>{}},
 
         ]}
         ,
         {name:"Hashtags Preferences",data:[
-            {label:"Include Specific Hashtag",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Not Specific Hashtag",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Include Hashtag or not",key:"Include Hashtag or not",  onClick:(key:any)=>{}},
+            {label:" Specific Hashtags",key:"Specific Hashtags",onClick:(key:any)=>{}},
+            
+        ]}
+        ,
+        {name:"Mention Preferences",data:[
+            {label:"Include Mentions or not",key:"Include Mentions or not",  onClick:(key:any)=>{}},
+            {label:" Who to Mention",key:"Who to Mention",onClick:(key:any)=>{}},
             
         ]}
     ];

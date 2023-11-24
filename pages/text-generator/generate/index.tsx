@@ -97,20 +97,20 @@ setGeneratedContent(nwText);
    
     const options:any = [
         {name:"Select Purpose ",data:[
-            {label:"General Content",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Marketing",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Educatonal",key:"muz3",onClick:(key:any)=>{}},
-            {label:"Fictional",key:"muz4",onClick:(key:any)=>{}},
+            {label:"General Content",key:"General Content",  onClick:(key:any)=>{}},
+            {label:"Marketing",key:"Marketing",onClick:(key:any)=>{}},
+            {label:"Educatonal",key:"Educational",onClick:(key:any)=>{}},
+            {label:"Fictional",key:"Fictional",onClick:(key:any)=>{}},
         ]},
         {name:"Select Tone ",data:[
-            {label:"Professional",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Casual",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Technical",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Professional",key:"Professional",  onClick:(key:any)=>{}},
+            {label:"Casual",key:"Casual",onClick:(key:any)=>{}},
+            {label:"Technical",key:"Technical",onClick:(key:any)=>{}},
         ]}
         ,
         {name:"Select Length",data:[
-            {label:"Word Limit",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Character Limit",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Word Limit",key:"Word Limit",  onClick:(key:any)=>{}},
+            {label:"Character Limit",key:"Character Limit",onClick:(key:any)=>{}},
             
         ]}
     ];

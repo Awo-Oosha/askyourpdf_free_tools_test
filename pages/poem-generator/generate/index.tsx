@@ -99,35 +99,35 @@ setGeneratedContent(nwText);
     
     const options:any = [
         {name:"Select Style",data:[
-            {label:"Sonnet",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Haiku",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Limerick",key:"muz3",onClick:(key:any)=>{}},
-            {label:"Free Verse",key:"muz4",onClick:(key:any)=>{}},
+            {label:"Sonnet",key:"Sonnet",  onClick:(key:any)=>{}},
+            {label:"Haiku",key:"Haiku",onClick:(key:any)=>{}},
+            {label:"Limerick",key:"Limerick",onClick:(key:any)=>{}},
+            {label:"Free Verse",key:"Free Verse",onClick:(key:any)=>{}},
         ]},
         {name:"Select Mood",data:[
-            {label:"Romantic",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Melancholic",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Joyful",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Romantic",key:"Romantic",  onClick:(key:any)=>{}},
+            {label:"Melancholic",key:"Melancholic",onClick:(key:any)=>{}},
+            {label:"Joyful",key:"Joyful",onClick:(key:any)=>{}},
         ]}
         ,
         {name:"Select Themes",data:[
-            {label:"Nature",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Love",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Death",key:"muz3",onClick:(key:any)=>{}},
-            {label:"Time",key:"muz4",onClick:(key:any)=>{}},
+            {label:"Nature",key:"Nature",  onClick:(key:any)=>{}},
+            {label:"Love",key:"Love",onClick:(key:any)=>{}},
+            {label:"Death",key:"Death",onClick:(key:any)=>{}},
+            {label:"Time",key:"Time",onClick:(key:any)=>{}},
         ]}
         ,
         {name:"Rhyming Scheme",data:[
-            {label:"ABAB",key:"muz",  onClick:(key:any)=>{}},
-            {label:"AABB",key:"muz1",onClick:(key:any)=>{}},
+            {label:"ABAB",key:"ABAB",  onClick:(key:any)=>{}},
+            {label:"AABB",key:"AABB",onClick:(key:any)=>{}},
            
         ]}
 
         ,
         {name:"Length",data:[
-            {label:"1",key:"muz",  onClick:(key:any)=>{}},
-            {label:"2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"1",key:"1",  onClick:(key:any)=>{}},
+            {label:"2",key:"2",onClick:(key:any)=>{}},
+            {label:"3",key:"3",onClick:(key:any)=>{}},
         ]}
     ];
     const textfields:any=[

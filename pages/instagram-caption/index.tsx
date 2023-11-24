@@ -15,7 +15,7 @@ import Footer from "@/components/Footer";
 import {useMedia} from "react-use";
 import HeroImage from "@/img/Mask.svg?url";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
-import {MAIN_APP_URL} from "@/config/config";
+import {FAQDATA, MAIN_APP_URL} from "@/config/config";
 import {SourceContent} from "@/components/source-tools/source-content";
 import {SourceResult} from "@/components/source-tools/source-result";
 import {useMutation} from "react-query";
@@ -44,39 +44,34 @@ const InstagramCaptionGenerator = () => {
     const router = useRouter();
     const options:any = [
         {name:"Select Type of Post",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Travel",key:"Travel",  onClick:(key:any)=>{}},
+            {label:"Food",key:"Food",onClick:(key:any)=>{}},
+            {label:"Passion",key:"Passion",onClick:(key:any)=>{}},
         ]},
         {name:"Select Mood ",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Funny",key:"Funny",  onClick:(key:any)=>{}},
+            {label:"Inspirational",key:"Inspirational",onClick:(key:any)=>{}},
+            {label:"Casual",key:"Casual",onClick:(key:any)=>{}},
+            {label:"Serious",key:"Serious",onClick:(key:any)=>{}},
+
         ]}
         ,
         {name:"Hashtags Preferences",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Include Hashtag or not",key:"Include Hashtag or not",  onClick:(key:any)=>{}},
+            {label:" Specific Hashtags",key:"Specific Hashtags",onClick:(key:any)=>{}},
+            
         ]}
-        
+        ,
+        {name:"Mention Preferences",data:[
+            {label:"Include Mentions or not",key:"Include Mentions or not",  onClick:(key:any)=>{}},
+            {label:" Who to Mention",key:"Who to Mention",onClick:(key:any)=>{}},
+            
+        ]}
     ];
     const textfields:any=[
         {placeholder:t`Input some line here to begin`,height:"90px"},
     ];
-    const faqs=[
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-    ]
+    const faqs= FAQDATA;
     return (<div>
         <Navbar/>
         <Hero 

@@ -95,16 +95,16 @@ setGeneratedContent(nwText);
   },[setPreviousData,previousData])
     const options:any = [
         {name:"Select Purpose",data:[
-            {label:"Informative",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Persuasive",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Descriptive",key:"muz3",onClick:(key:any)=>{}},
-            {label:"Narrative",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Informative",key:"Informative",  onClick:(key:any)=>{}},
+            {label:"Persuasive",key:"Persuasive",onClick:(key:any)=>{}},
+            {label:"Descriptive",key:"Descriptive",onClick:(key:any)=>{}},
+            {label:"Narrative",key:"Narrative",onClick:(key:any)=>{}},
         ]},
         {name:"Select Tone",data:[
-            {label:"Formal",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Informal",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Professional",key:"muz3",onClick:(key:any)=>{}},
-            {label:"Casual",key:"muz4",onClick:(key:any)=>{}},
+            {label:"Formal",key:"Formal",  onClick:(key:any)=>{}},
+            {label:"Informal",key:"Informal",onClick:(key:any)=>{}},
+            {label:"Professional",key:"Professional",onClick:(key:any)=>{}},
+            {label:"Casual",key:"Casual",onClick:(key:any)=>{}},
         ]}
         
     ];

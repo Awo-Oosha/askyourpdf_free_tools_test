@@ -15,7 +15,7 @@ import Footer from "@/components/Footer";
 import {useMedia} from "react-use";
 import HeroImage from "@/img/Mask.svg?url";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
-import {MAIN_APP_URL} from "@/config/config";
+import {FAQDATA , MAIN_APP_URL} from "@/config/config";
 import {SourceContent} from "@/components/source-tools/source-content";
 import {SourceResult} from "@/components/source-tools/source-result";
 import {useMutation} from "react-query";
@@ -48,9 +48,9 @@ const BookTitleGenerator = () => {
             {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
         ]},
         {name:"Select Target Audience ",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Children",key:"Children",  onClick:(key:any)=>{}},
+            {label:"YA",key:"YA",onClick:(key:any)=>{}},
+            {label:"Adults",key:"Adults",onClick:(key:any)=>{}},
         ]}
         ,
         {name:"Mood/Tone",data:[
@@ -59,23 +59,12 @@ const BookTitleGenerator = () => {
             {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
         ]}
         
+        
     ];
     const textfields:any=[
         {placeholder:t`Input some line here to begin`,height:"90px"},
     ];
-    const faqs=[
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-        {question:"Is there a free trial available?",answer:"Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible."},
-    ]
+    const faqs= FAQDATA;
     return (<div>
         <Navbar/>
         <Hero 
