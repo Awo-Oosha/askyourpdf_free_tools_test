@@ -99,26 +99,35 @@ setGeneratedContent(nwText);
     
     const options:any = [
         {name:"Select Style",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Sonnet",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Haiku",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Limerick",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Free Verse",key:"muz4",onClick:(key:any)=>{}},
         ]},
         {name:"Select Mood",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Romantic",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Melancholic",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Joyful",key:"muz3",onClick:(key:any)=>{}},
         ]}
         ,
         {name:"Select Themes",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Nature",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Love",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Death",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Time",key:"muz4",onClick:(key:any)=>{}},
         ]}
         ,
+        {name:"Rhyming Scheme",data:[
+            {label:"ABAB",key:"muz",  onClick:(key:any)=>{}},
+            {label:"AABB",key:"muz1",onClick:(key:any)=>{}},
+           
+        ]}
+
+        ,
         {name:"Length",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"1",key:"muz",  onClick:(key:any)=>{}},
+            {label:"2",key:"muz1",onClick:(key:any)=>{}},
+            {label:"3",key:"muz3",onClick:(key:any)=>{}},
         ]}
     ];
     const textfields:any=[

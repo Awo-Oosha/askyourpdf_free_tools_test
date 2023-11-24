@@ -98,25 +98,25 @@ setGeneratedContent(nwText);
 },[setPreviousData,previousData])
     const options:any = [
         {name:"Select Style",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Old School",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Trap",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Gangsta",key:"muz3",onClick:(key:any)=>{}},
         ]},
         {name:"Select Best Tempo",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Fast",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Medium",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Slow",key:"muz3",onClick:(key:any)=>{}},
         ]}
         ,
         {name:"Select Complexity",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Simplicity of Words",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Complex Vocabulary",key:"muz1",onClick:(key:any)=>{}},
+           
         ]}
         
     ];
     const textfields:any=[
-        {placeholder:t`Input some line here to begin`,height:"90px"},
+        {placeholder:t`Topic/Theme`,height:"90px"},
     ];
 
 return(<div>

@@ -96,9 +96,9 @@ setGeneratedContent(nwText);
     
     const options:any = [
         {name:"Select Type of Paper",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Argumentative",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Analytical",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Expository",key:"muz3",onClick:(key:any)=>{}},
         ]},
         {name:"Fill ",data:[
             {label:"Music",key:"muz",  onClick:(key:any)=>{}},

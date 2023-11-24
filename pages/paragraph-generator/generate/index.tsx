@@ -95,18 +95,23 @@ setGeneratedContent(nwText);
   },[setPreviousData,previousData])
     const options:any = [
         {name:"Select Purpose",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Informative",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Persuasive",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Descriptive",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Narrative",key:"muz3",onClick:(key:any)=>{}},
         ]},
         {name:"Select Tone",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Formal",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Informal",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Professional",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Casual",key:"muz4",onClick:(key:any)=>{}},
         ]}
+        
     ];
     const textfields:any=[
-        {placeholder:t`Input some line here to begin`,height:"90px"},
+        {placeholder:t`Main idea`,height:"90px"},
+        {placeholder:t` Supporting points`,height:"90px"},
+
     ];
 
 return(<div>

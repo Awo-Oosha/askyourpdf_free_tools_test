@@ -97,20 +97,21 @@ setGeneratedContent(nwText);
    
     const options:any = [
         {name:"Select Purpose ",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"General Content",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Marketing",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Educatonal",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Fictional",key:"muz4",onClick:(key:any)=>{}},
         ]},
         {name:"Select Tone ",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Professional",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Casual",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Technical",key:"muz3",onClick:(key:any)=>{}},
         ]}
         ,
         {name:"Select Length",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Word Limit",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Character Limit",key:"muz1",onClick:(key:any)=>{}},
+            
         ]}
     ];
     const textfields:any=[

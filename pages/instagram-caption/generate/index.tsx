@@ -97,14 +97,16 @@ setGeneratedContent(nwText);
 },[setPreviousData,previousData])
     const options:any = [
         {name:"Select Type of Post",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Travel",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Food",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Passion",key:"muz3",onClick:(key:any)=>{}},
         ]},
         {name:"Select Mood ",data:[
-            {label:"Music",key:"muz",  onClick:(key:any)=>{}},
-            {label:"Music2",key:"muz1",onClick:(key:any)=>{}},
-            {label:"Music3",key:"muz3",onClick:(key:any)=>{}},
+            {label:"Funny",key:"muz",  onClick:(key:any)=>{}},
+            {label:"Inspirational",key:"muz1",onClick:(key:any)=>{}},
+            {label:"Casual",key:"muz3",onClick:(key:any)=>{}},
+            {label:"",key:"muz3",onClick:(key:any)=>{}},
+
         ]}
         ,
         {name:"Hashtags Preferences",data:[
