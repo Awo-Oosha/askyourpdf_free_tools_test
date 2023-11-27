@@ -169,7 +169,7 @@ msgstr "Paramètres avancés"
 
 #: components/literature-review/LiteratureMainBar.tsx:407
 msgid "Advanced settings"
-msgstr ""
+msgstr "Paramètres avancés"
 
 #: components/Footer.tsx:364
 msgid "Affiliate Program"
@@ -182,69 +182,69 @@ msgstr "Programme d'affiliation"
 #: pages/book-title-generator/generate/index.tsx:111
 #: pages/book-title-generator/index.tsx:58
 msgid "AI Book Title Generator"
-msgstr ""
+msgstr "Générateur de titres de livres en IA"
 
 #: pages/essay-maker/generate/index.tsx:108
 #: pages/essay-maker/index.tsx:62
 msgid "AI Essay Maker"
-msgstr ""
+msgstr "Créateur d'essais en IA"
 
 #: pages/instagram-caption/generate/index.tsx:108
 #: pages/instagram-caption/index.tsx:70
 msgid "AI Instagram Caption Generator"
-msgstr ""
+msgstr "Générateur de légendes Instagram AI"
 
 #: components/tools/ToolsSection.tsx:125
 msgid "AI Literature Review Generator"
-msgstr ""
+msgstr "Générateur d'analyse documentaire sur l'IA
 
 #: components/Footer.tsx:308
 msgid "AI Literature Review Writer"
-msgstr ""
+msgstr "Rédacteur d'une revue de littérature sur l'IA"
 
 #: components/literature-review/MainContent.tsx:347
 msgid "AI Literature Review Writer Tool"
-msgstr ""
+msgstr "Outil de rédaction d'une analyse documentaire sur l'IA"
 
 #: pages/lyrics-generator/generate/index.tsx:108
 #: pages/lyrics-generator/index.tsx:65
 msgid "AI Lyrics Generator"
-msgstr ""
+msgstr "Générateur de paroles AI"
 
 #: pages/paragraph-generator/generate/index.tsx:107
 #: pages/paragraph-generator/index.tsx:58
 msgid "AI Paragraph Generator"
-msgstr ""
+msgstr "Générateur de paragraphes pour l'IA"
 
 #: pages/poem-generator/generate/index.tsx:109
 #: pages/poem-generator/index.tsx:75
 msgid "AI Poem Generator"
-msgstr ""
+msgstr "Générateur de poèmes en IA"
 
 #: pages/rap-generator/generate/index.tsx:110
 #: pages/rap-generator/index.tsx:60
 msgid "AI Rap Generator"
-msgstr ""
+msgstr "Générateur de rap IA"
 
 #: components/tools/ToolsSection.tsx:114
 #: pages/source-tool/index.tsx:245
 msgid "AI Source Finder"
-msgstr ""
+msgstr "Recherche de sources d'information sur l'IA"
 
 #: pages/story-generator/generate/index.tsx:114
 #: pages/story-generator/index.tsx:64
 msgid "AI Story Generator"
-msgstr ""
+msgstr "Générateur d'histoires pour l'IA
 
 #: pages/text-generator/generate/index.tsx:107
 #: pages/text-generator/index.tsx:61
 msgid "AI Text Generator"
-msgstr ""
+msgstr "Générateur de texte AI
 
 #: pages/thesis-statement/generate/index.tsx:107
 #: pages/thesis-statement/index.tsx:57
 msgid "AI Thesis Statement Generator"
-msgstr ""
+msgstr "Générateur d'énoncé de thèse en IA"
 
 #: components/Landing/Features.tsx:227
 #: components/PdfToChat/Features.tsx:233
@@ -543,7 +543,7 @@ msgstr "Retour aux outils"
 
 #: components/literature-review/LiteratureMainBar.tsx:487
 msgid "Begin new review"
-msgstr ""
+msgstr "Commencer un nouvel examen"
 
 #: components/source-tools/source-result/index.tsx:548
 msgid "Begin new search"
@@ -573,7 +573,7 @@ msgstr "Blog"
 #: pages/book-title-generator/generate/index.tsx:112
 #: pages/book-title-generator/index.tsx:59
 msgid "Book Title Generator"
-msgstr ""
+msgstr "Générateur de titres de livres"
 
 #: components/Landing/Products.tsx:150
 #: components/PdfToChat/Products.tsx:150
@@ -603,7 +603,7 @@ msgstr ""
 
 #: components/Modals/UnitsExceededModal.tsx:119
 #~ msgid "Buy Credits"
-#~ msgstr ""
+#~ msgstr "Acheter des crédits
 
 #: components/Conversations/CreditBalance.tsx:131
 #~ msgid "Buy More Credit"
@@ -958,12 +958,12 @@ msgstr "Copié"
 
 #: components/BuyCredits.tsx:40
 #~ msgid "Credit Purchase Unavailable for Free Users"
-#~ msgstr ""
+#~ msgstr "L'achat par crédit n'est pas disponible pour les utilisateurs gratuits".
 
 #: pages/settings/index.tsx:896
 #: pages/settings/index.tsx:904
 #~ msgid "Credits"
-#~ msgstr ""
+#~ msgstr "Crédits
 
 #: pages/settings/index.tsx:514
 #~ msgid "Current plan"
@@ -1135,7 +1135,7 @@ msgstr "Docs"
 #: pages/documents/[[...id]]/index.tsx:574
 #: pages/documents/[[...id]]/index.tsx:877
 #~ msgid "Document ID Copied. You can use this ID with our ChatGPT Plugin"
-#~ msgstr ""
+#~ msgstr "Document ID Copied. Vous pouvez utiliser cet identifiant avec notre plugin ChatGPT".
 
 #: components/Summarisation/SummariseUpload.tsx:556
 #~ msgid "Document Length Exceeds Limit"
@@ -1233,7 +1233,7 @@ msgstr "Télécharger"
 
 #: components/Settings/LinkAccountCall.tsx:107
 #~ msgid "Easily access your subscription benefits on both mobile and web by linking your accounts. Click the link account button to unify your experience and enjoy AskYourPDF across all platforms."
-#~ msgstr ""
+#~ msgstr "Accédez facilement aux avantages de votre abonnement sur mobile et sur le web en liant vos comptes. Cliquez sur le bouton de liaison des comptes pour unifier votre expérience et profiter de AskYourPDF sur toutes les plateformes."
 
 #: pages/knowledge-base/[[...params]].tsx:1066
 #: pages/knowledge-base/[[...params]].tsx:1659
@@ -1243,7 +1243,7 @@ msgstr "Télécharger"
 #: components/tools/SplitPage.tsx:805
 #: components/tools/ToolsSection.tsx:133
 msgid "Efficiently split, separate, and manage your PDF files using our superior free online PDF splitter."
-msgstr ""
+msgstr "Divisez, séparez et gérez efficacement vos fichiers PDF à l'aide de notre séparateur de PDF en ligne gratuit de qualité supérieure."
 
 #: components/PdfToChat/Discover.tsx:37
 #~ msgid "Effortless Research"
@@ -1282,7 +1282,7 @@ msgstr ""
 
 #: components/Settings/LinkAccountModal.tsx:138
 #~ msgid "Enter your mobile account ID to link your mobile account to your web account"
-#~ msgstr ""
+#~ msgstr "Saisissez l'identifiant de votre compte mobile pour lier votre compte mobile à votre compte web.
 
 #: components/Api/Pricing.tsx:389
 #: pages/billing/upgrade.tsx:867
@@ -1392,7 +1392,7 @@ msgstr "Extension"
 
 #: components/Summarisation/SummariseMainBar.tsx:392
 #~ msgid "Extract key insights and create concise summaries using our AI Document Summarisation Tool. (200 pages max)"
-#~ msgstr ""
+#~ msgstr "Extrayez des informations clés et créez des résumés concis à l'aide de notre outil de résumé de documents par l'IA. (200 pages maximum)"
 
 #: components/Modals/DocumentSelectModal.tsx:392
 #: components/Modals/DocumentSelectModal.tsx:413
@@ -1434,7 +1434,7 @@ msgstr "Échec de l'exportation du PDF"
 
 #: components/Settings/LinkAccountCall.tsx:88
 #~ msgid "Failed to link mobile account"
-#~ msgstr ""
+#~ msgstr "Échec de la connexion au compte mobile"
 
 #: pages/billing/index.tsx:684
 #: pages/billing/index.tsx:689
@@ -1445,7 +1445,7 @@ msgstr "Échec de l'exportation du PDF"
 
 #: components/literature-review/MainContent.tsx:277
 msgid "Failed to review text. Please try again"
-msgstr ""
+msgstr "L'examen du texte a échoué. Veuillez réessayer"
 
 #: pages/summarise/index.tsx:168
 #~ msgid "Failed to summarise document. Please try again"
@@ -1523,12 +1523,12 @@ msgstr "Échec du téléchargement du fichier"
 #: pages/thesis-statement/generate/index.tsx:63
 #: pages/thesis-statement/index.tsx:78
 #~ msgid "fill"
-#~ msgstr ""
+#~ msgstr "fill"
 
 #: pages/essay-maker/generate/index.tsx:109
 #: pages/essay-maker/index.tsx:63
 msgid "Fill"
-msgstr ""
+msgstr "Fill"
 
 #: components/PdfToChat/SummarizeGuide.tsx:198
 #~ msgid "Finally, click the 'Summarise' button, and within moments, AskYourPDF will provide you with a customized summary of your document based on your settings and, if provided, your prompt."
@@ -1548,7 +1548,7 @@ msgstr "Trouver des sources"
 
 #: components/PdfToChat/Guide.tsx:155
 #~ msgid "Formulate your questions naturally, just as you would in a conversation."
-#~ msgstr ""
+#~ msgstr "Formulez vos questions de manière naturelle, comme vous le feriez lors d'une conversation.
 
 #: components/Landing/MobileAppBanner.tsx:89
 #~ msgid "Free"
@@ -1654,7 +1654,7 @@ msgstr "Attendez ! Nous cherchons des sources"
 
 #: components/tools/ToolsSection.tsx:126
 msgid "Harness the power of our AI-driven Literature Review Assistant. Simplify your research process, produce structured overviews, and craft in-depth literature reviews to elevate your academic work."
-msgstr ""
+msgstr "Exploitez la puissance de notre assistant d'analyse documentaire piloté par l'IA. Simplifiez votre processus de recherche, produisez des aperçus structurés et élaborez des analyses documentaires approfondies pour améliorer votre travail universitaire."
 
 #: components/Landing/Features.tsx:238
 #: components/PdfToChat/Features.tsx:244
@@ -1696,7 +1696,7 @@ msgstr "Accueil"
 
 #: components/PdfToChat/SummarizeGuide.tsx:135
 #~ msgid "How to <0> Summarize</0> a PDF File with  AI"
-#~ msgstr ""
+#~ msgstr "Comment résumer un fichier PDF avec l'IA"
 
 #~ msgid "How to <0>Summarise</0> a PDF File with  AI"
 #~ msgstr "Comment résumer un fichier PDF avec l'IA"
@@ -1777,26 +1777,26 @@ msgstr "Accueil"
 
 #: components/Modals/ConversationFeedback.tsx:370
 #~ msgid "Incorrect Response"
-#~ msgstr ""
+#~ msgstr "Réponse incorrecte"
 
 #: pages/story-generator/generate/index.tsx:110
 #: pages/story-generator/index.tsx:56
 msgid "input Key events/plot points"
-msgstr ""
+msgstr "entrée Événements clés / points de l'intrigue"
 
 #: pages/essay-maker/generate/index.tsx:103
 #: pages/essay-maker/index.tsx:53
 msgid "input Key Points to Cover"
-msgstr ""
+msgstr "Les points clés de l'entrée à couvrir
 
 #: pages/paragraph-generator/index.tsx:57
 #~ msgid "Input main idea/supporting points"
-#~ msgstr ""
+#~ msgstr "Saisir l'idée principale/les points d'appui".
 
 #: pages/story-generator/generate/index.tsx:109
 #: pages/story-generator/index.tsx:55
 msgid "Input Names and a brief description of the main characters"
-msgstr ""
+msgstr "Entrée Noms et brève description des personnages principaux"
 
 #: pages/book-title-generator/generate/index.tsx:106
 #: pages/book-title-generator/index.tsx:51
@@ -1812,7 +1812,7 @@ msgstr ""
 #: pages/thesis-statement/generate/index.tsx:102
 #: pages/thesis-statement/index.tsx:50
 msgid "Input some line here to begin"
-msgstr ""
+msgstr "Introduisez une ligne ici pour commencer."
 
 #: components/Summarisation/SummariseMainBar.tsx:457
 #~ msgid "Input some text here OR upload a document in the pane below to summarise"
@@ -1825,12 +1825,12 @@ msgstr ""
 #: pages/essay-maker/generate/index.tsx:102
 #: pages/essay-maker/index.tsx:52
 msgid "input Thesis Statement"
-msgstr ""
+msgstr "Déclaration de thèse d'entrée"
 
 #: pages/essay-maker/generate/index.tsx:101
 #: pages/essay-maker/index.tsx:51
 msgid "Input Title or Topic"
-msgstr ""
+msgstr "Titre ou sujet de l'entrée"
 
 #: components/Landing/Features.tsx:265
 #: components/PdfToChat/Features.tsx:290
@@ -1840,7 +1840,7 @@ msgstr ""
 #: pages/instagram-caption/generate/index.tsx:109
 #: pages/instagram-caption/index.tsx:71
 msgid "Instagram Caption Generator"
-msgstr ""
+msgstr "Générateur de légendes Instagram"
 
 #: components/Landing/Hero.tsx:257
 #~ msgid "Install directly on ChatGPT"
@@ -2014,7 +2014,7 @@ msgstr "Base de Connaissances"
 
 #: components/tools/ToolsSection.tsx:298
 #~ msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources of relevant to your needs."
-#~ msgstr ""
+#~ msgstr "Tirez parti de la puissance de l'intelligence artificielle pour découvrir, analyser et recommander des sources d'information adaptées à vos besoins."
 
 #: pages/index.tsx:323
 #~ msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources relevant to your needs."
@@ -2040,7 +2040,7 @@ msgstr "Base de Connaissances"
 
 #: components/literature-review/LiteratureMainBar.tsx:435
 msgid "Literature Review copied"
-msgstr ""
+msgstr "Revue de la littérature copiée"
 
 #: components/tools/ToolCommon.tsx:158
 #: components/ToolsFooter.tsx:78
@@ -2076,7 +2076,7 @@ msgstr "Déconnexion"
 #: pages/paragraph-generator/generate/index.tsx:100
 #: pages/paragraph-generator/index.tsx:49
 msgid "Main idea"
-msgstr ""
+msgstr "Idée principale
 
 #: components/Modals/Profile.tsx:335
 #~ msgid "Manage"
@@ -2131,7 +2131,7 @@ msgstr ""
 #: components/literature-review/LiteratureMainBar.tsx:396
 #: components/source-tools/source-content/index.tsx:248
 msgid "Maximum of 10000 characters"
-msgstr ""
+msgstr "Maximum de 10000 caractères"
 
 #: components/source-tools/source-content/index,tsx.tsx:248
 #~ msgid "Maximum of 300 characters"
@@ -2331,7 +2331,7 @@ msgstr "Lecteur OCR de PDF"
 
 #: components/PdfToChat/MoreTools.tsx:27
 #~ msgid "OCR Tool"
-#~ msgstr ""
+#~ msgstr "Outil d'OCR"
 
 #: components/Modals/Profile.tsx:197
 #~ msgid "old password"
@@ -2369,7 +2369,7 @@ msgstr "Notre API est maintenant en ligne"
 
 #: components/tools/ToolsWaitlist.tsx:141
 msgid "Our Knowledge Base is Now Live"
-msgstr ""
+msgstr "Notre base de connaissances est désormais en ligne
 
 #: pages/privacy/index.tsx:129
 #~ msgid "Our Privacy Policy does not apply to services offered by other companies or individuals, including third-party services used in conjunction with AskYourPDF. We recommend that you review the privacy policies of any third-party services you may use."
@@ -2406,7 +2406,7 @@ msgstr "Sortie"
 #: pages/paragraph-generator/generate/index.tsx:108
 #: pages/paragraph-generator/index.tsx:59
 msgid "Paragraph Generator"
-msgstr ""
+msgstr "Générateur de paragraphes"
 
 #: pages/billing/index.tsx:925
 #: pages/settings/index.tsx:929
@@ -2442,7 +2442,7 @@ msgstr "Diviseur PDF"
 
 #: components/Footer.tsx:303
 msgid "PDF To Chat"
-msgstr ""
+msgstr "PDF en anglais"
 
 #: components/Landing/Plans.tsx:455
 #: components/PdfToChat/Plans.tsx:455
@@ -2489,7 +2489,7 @@ msgstr ""
 
 #: components/Settings/LinkAccountCall.tsx:96
 #~ msgid "Please enter a valid device ID"
-#~ msgstr ""
+#~ msgstr "Veuillez saisir un numéro d'identification d'appareil valide"
 
 #: components/Modals/CreateAPIKeyDesktop.tsx:315
 #~ msgid "Please enter an API name"
@@ -2538,7 +2538,7 @@ msgstr "Veuillez saisir des instructions sur la manière de réviser votre saisi
 #: pages/poem-generator/generate/index.tsx:110
 #: pages/poem-generator/index.tsx:76
 msgid "Poem Generator"
-msgstr ""
+msgstr "Générateur de poèmes"
 
 #~ msgid "Premium Plan <0>$4.99/month or $3.99/month (Billed Annually)</0>"
 #~ msgstr "Forfait Premium <0>4,99 $/mois ou 3,99 $/mois (facturé annuellement)</0>"
@@ -2640,7 +2640,7 @@ msgstr "Année de publication :"
 #: pages/rap-generator/generate/index.tsx:111
 #: pages/rap-generator/index.tsx:61
 msgid "Rap Generator"
-msgstr ""
+msgstr "Générateur de rap"
 
 #: pages/knowledge-base/[[...params]].tsx:1463
 #~ msgid "Reaction Failed to submit"
@@ -2707,11 +2707,11 @@ msgstr "Résultats pour"
 #: components/literature-review/MainContent.tsx:272
 #: components/literature-review/MainContent.tsx:282
 msgid "Review Failed"
-msgstr ""
+msgstr "Échec de l'examen"
 
 #: components/literature-review/LiteratureMainBar.tsx:414
 msgid "Review my work"
-msgstr ""
+msgstr "Réviser mon travail
 
 #: components/literature-review/LiteratureMainBar.tsx:468
 msgid "Review will be displayed here"
@@ -2834,15 +2834,15 @@ msgstr "Paramètres"
 
 #: components/Summarisation/SummariseUpload.tsx:543
 #~ msgid "Sorry, but this document has over 200 pages. Please select a document with fewer pages to continue."
-#~ msgstr ""
+#~ msgstr "Désolé, mais ce document compte plus de 200 pages. Veuillez sélectionner un document de moins de pages pour continuer."
 
 #: components/BuyCredits.tsx:41
 #~ msgid "Sorry, you can't buy credits as a free user. Upgrade your account to access this feature"
-#~ msgstr ""
+#~ msgstr "Désolé, vous ne pouvez pas acheter de crédits en tant qu'utilisateur gratuit. Mettez votre compte à niveau pour accéder à cette fonctionnalité"
 
 #: components/source-tools/source-result/index.tsx:491
 msgid "Source copied"
-msgstr ""
+msgstr "Source copiée"
 
 #: components/tools/ToolCommon.tsx:178
 msgid "Source Tool"
@@ -2866,7 +2866,7 @@ msgstr "Fractionner un PDF"
 
 #: components/literature-review/LiteratureMainBar.tsx:479
 msgid "Start another review"
-msgstr ""
+msgstr "Commencer un autre examen"
 
 #: pages/chat/[[...docID]]/index.tsx:329
 #: pages/file-upload/index.tsx:407
@@ -2894,11 +2894,11 @@ msgstr "Commencez Gratuitement"
 #: pages/story-generator/generate/index.tsx:115
 #: pages/story-generator/index.tsx:65
 msgid "Story Generator"
-msgstr ""
+msgstr "Générateur d'histoires"
 
 #: components/tools/ToolsSection.tsx:267
 #~ msgid "Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work."
-#~ msgstr ""
+#~ msgstr "Rationalisez vos recherches, générez des résumés structurés et créez des analyses cohérentes et complètes qui rehaussent votre travail académique".
 
 #: components/Modals/ConversationFeedback.tsx:266
 #~ msgid "Submission Failed"
@@ -2915,7 +2915,7 @@ msgstr ""
 #: components/Modals/ConversationFeedback.tsx:400
 #: components/Modals/ConversationFeedback.tsx:509
 #~ msgid "Submitting this report will send the current conversation to AskYourPDF and store with your feedback for future improvements to our models."
-#~ msgstr ""
+#~ msgstr "En soumettant ce rapport, vous enverrez la conversation en cours à AskYourPDF et la conserverez avec vos commentaires pour améliorer nos modèles à l'avenir."
 
 #: components/Modals/PaymentModalContent.tsx:536
 #~ msgid "Subscribe for"
@@ -3014,7 +3014,7 @@ msgstr "Formats pris en charge : .pdf"
 #: pages/paragraph-generator/generate/index.tsx:101
 #: pages/paragraph-generator/index.tsx:50
 msgid "Supporting points"
-msgstr ""
+msgstr "Points d'appui"
 
 #: pages/billing/index.tsx:866
 #~ msgid "Switch Plan"
@@ -3060,7 +3060,7 @@ msgstr "Conditions générales"
 #: pages/text-generator/generate/index.tsx:108
 #: pages/text-generator/index.tsx:62
 msgid "Text Generator"
-msgstr ""
+msgstr "Générateur de texte
 
 #: components/Modals/ConversationFeedback.tsx:333
 #: components/Modals/ConversationFeedback.tsx:443
@@ -3098,7 +3098,7 @@ msgstr ""
 #: pages/thesis-statement/generate/index.tsx:108
 #: pages/thesis-statement/index.tsx:58
 msgid "Thesis Statement Generator"
-msgstr ""
+msgstr "Générateur d'énoncé de thèse"
 
 #: pages/privacy/index.tsx:125
 #~ msgid "Third-Party Services"
@@ -3145,7 +3145,7 @@ msgstr "Outils"
 
 #: pages/rap-generator/generate/index.tsx:105
 msgid "Topic/Theme"
-msgstr ""
+msgstr "Sujet/thème
 
 #: pages/settings/index.tsx:1051
 #~ msgid "Track your Usage"
@@ -3189,7 +3189,7 @@ msgstr "Essayez maintenant"
 
 #: components/Modals/UnitsExceededModal.tsx:105
 #~ msgid "Units Exceeded"
-#~ msgstr ""
+#~ msgstr "Unités dépassées"
 
 #: components/Landing/Features.tsx:269
 #: components/PdfToChat/Features.tsx:294
@@ -3490,7 +3490,7 @@ msgstr "Télécharger un fichier texte"
 #: pages/thesis-statement/index.tsx:64
 #: pages/thesis-statement/index.tsx:72
 msgid "Warning"
-msgstr ""
+msgstr "Avertissement
 
 #~ msgid "Warning:"
 #~ msgstr "Avertissement:"
@@ -3589,7 +3589,7 @@ msgstr "Nous rendons l'API AskYourPDF open source pour les développeurs afin de
 #: components/tools/MergePage.tsx:675
 #: components/tools/ToolsSection.tsx:140
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
-msgstr ""
+msgstr "Grâce à notre fusion intelligente et automatisée, vos PDF sont unifiés de manière transparente en un seul document cohérent, tout en préservant la qualité et le formatage."
 
 #: components/tools/MergePage.tsx:690
 #: components/tools/ToolsSection.tsx:281
@@ -3663,7 +3663,7 @@ msgstr ""
 
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"
-msgstr ""
+msgstr "Vous pouvez désormais discuter avec plusieurs documents à la fois en utilisant notre base de connaissances.
 
 #: components/Announcements.tsx:17
 #~ msgid "You can now chat with multiple documents at once. Using our knowledge Base."
@@ -3698,7 +3698,7 @@ msgstr ""
 
 #: components/Modals/UnitsExceededModal.tsx:108
 #~ msgid "You have have used up your available {product} units. Please purchase more units."
-#~ msgstr ""
+#~ msgstr "Vous avez utilisé toutes les unités de {produit} disponibles. Veuillez en acheter d'autres."
 
 #: components/Modals/DocumentSelectModal.tsx:467
 #: components/Modals/DocumentSelectModal.tsx:491
@@ -3768,7 +3768,7 @@ msgstr ""
 #: pages/lyrics-generator/generate/index.tsx:109
 #: pages/lyrics-generator/index.tsx:66
 msgid "Your creative companion on your musical journey, create lyrics that tell your unique story"
-msgstr ""
+msgstr "Votre compagnon créatif dans votre voyage musical, créez des paroles qui racontent votre histoire unique.
 
 #~ msgid "Your document is private"
 #~ msgstr "Votre document est privé"
