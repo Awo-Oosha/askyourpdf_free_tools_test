@@ -1,20 +1,11 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-18 00:16+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
-"X-Generator: Poedit 3.4\n"
-
-#~ msgid "  Streamline research, generate structured summaries, and createcohesive and comprehensive <br /> reviews that elevate your academic"
-#~ msgstr " 研究を合理化し、構造化された要約を生成し、学術的な業績を向上させる包括的で統一されたレビューを作成します。"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: ayp\n"
+"Language: ja\n"
 
 #: components/Modals/SourceToolsConfiguration.tsx:411
 msgid "{0}"
@@ -25,14 +16,8 @@ msgstr ""
 #: pages/billing/index.tsx:852
 #: pages/billing/upgrade.tsx:720
 #: pages/billing/upgrade.tsx:821
-#~ msgid "{0} document pages <0>monthly</0>"
-#~ msgstr "{0} ドキュメントページ <0>毎月</0>"
-
 #: pages/billing/index.tsx:934
 #: pages/settings/index.tsx:946
-#~ msgid "{0} ending in <0>*{1}</0>"
-#~ msgstr "{0} の終わり <0>*{1}</0>"
-
 #: components/literature-review/LiteratureUpload.tsx:399
 msgid "{0} file upload failed"
 msgstr "{0} ファイルのアップロードに失敗しました"
@@ -42,130 +27,43 @@ msgstr "{0} ファイルのアップロードに失敗しました"
 #: pages/billing/index.tsx:846
 #: pages/billing/upgrade.tsx:713
 #: pages/billing/upgrade.tsx:814
-#~ msgid "{0} messages <0>monthly</0>"
-#~ msgstr "{0} メッセージ <0>毎月</0>"
-
-#~ msgid "{0} Plan"
-#~ msgstr "{0} プラン"
-
 #: pages/settings/index.tsx:1075
 #: pages/settings/index.tsx:1110
 #: pages/settings/index.tsx:1155
 #: pages/settings/index.tsx:1192
-#~ msgid "{0} Quota Used"
-#~ msgstr "{0} 使用量"
-
-#~ msgid "{0} Used"
-#~ msgstr "{0} 使用済み"
-
 #: pages/knowledge-base/[[...params]].tsx:1463
-#~ msgid "{errorMessage}"
-#~ msgstr "{errorMessage}"
-
 #: pages/privacy/index.tsx:66
-#~ msgid "<0>1. Account Information:</0> When you create an account with us, we collect basic information such as your name, email address, and password. This information is used to identify you and provide personalized services."
-#~ msgstr "<0>1. アカウント情報:</0> アカウントを作成すると、名前、メールアドレス、パスワードなどの基本情報を収集します。この情報は、あなたを特定し、パーソナライズされたサービスを提供するために使用されます。"
-
 #: pages/privacy/index.tsx:75
-#~ msgid "<0>2. Uploaded documents:</0> When you upload a document to our platform, we temporarily store the file to provide you with our conversational document service. We do not use your documents for any other purposes."
-#~ msgstr "<0>2. アップロードされたドキュメント:</0> ドキュメントをプラットフォームにアップロードすると、一時的にファイルを保存して、会話型ドキュメントサービスを提供します。ドキュメントは他の目的には使用しません。"
-
 #: pages/privacy/index.tsx:84
-#~ msgid "<0>3. User Interactions:</0> We collect data about how you interact with our services. This includes data such as the time, frequency, and duration of your interactions. This helps us understand usage patterns, improve our services, and provide you with a more personalized experience."
-#~ msgstr "<0>3. ユーザーとのインタラクション:</0> サービスとのインタラクションに関するデータを収集します。これには、インタラクションの時間、頻度、期間などのデータが含まれます。これにより、使用パターンを理解し、サービスを改善し、パーソナライズされたエクスペリエンスを提供できます。"
-
-#~ msgid "<0>Back to Homepage</0>"
-#~ msgstr "<0>ホームページに戻る</0>"
-
 #: components/tools/DocUploadNoFunc.tsx:385
 msgid "<0>Click to upload</0> or drag and drop"
 msgstr "<0>クリックしてアップロード</0>またはドラッグアンドドロップ"
 
-#~ msgid "<0>Keep this document public.</0> (That means this document can be shared)"
-#~ msgstr "<0>このドキュメントを公開状態に保ちます。</0>(ドキュメントが共有可能であることを意味します)"
-
 #: components/Modals/OldDocumentDeleteModal.tsx:132
-#~ msgid "<0>Warning: </0>"
-#~ msgstr "警告:"
-
 #: pages/upload/index.tsx:252
-#~ msgid "<0>We'll assign an ID to your document.</0> You'll be able to start a conversation in ChatGPT based on the document uploaded. You can upgrade your account to increase your limits."
-#~ msgstr "<0>ドキュメントにIDを割り当てます。</0> アップロードしたドキュメントに基づいて、ChatGPTで会話を開始できます。アカウントをアップグレードして制限を増やすことができます。"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:462
 #: components/Modals/CreateAPIKeyDesktop.tsx:478
-#~ msgid "<0>You'll only see your API key once</0> after it's generated. Please make sure to save it securely."
-#~ msgstr "<0>APIキーは一度だけ表示されます</0>生成後に。安全に保存してください。"
-
-#~ msgid ">If you have any questions or problems while using AskYourPDF, you can contact our support team, who will be happy to help you."
-#~ msgstr ">AskYourPDFの使用中に質問や問題があれば、サポートチームに連絡してください。喜んでお手伝いいたします。"
-
 #: pages/billing/index.tsx:842
 #: pages/billing/upgrade.tsx:707
 #: pages/billing/upgrade.tsx:799
-#~ msgid "${0}/month"
-#~ msgstr "${0}/月"
-
 #: components/Api/Pricing.tsx:277
 #: components/Api/Pricing.tsx:333
-#~ msgid "${0}<0>/month</0>"
-#~ msgstr "${0}<0>/月</0>"
-
 #: pages/settings/index.tsx:646
-#~ msgid "1200 questions / day"
-#~ msgstr "1日1200個の質問"
-
 #: pages/settings/index.tsx:760
-#~ msgid "150 documents per day"
-#~ msgstr "1日あたり150のドキュメント"
-
 #: pages/settings/index.tsx:643
-#~ msgid "50 documents per day"
-#~ msgstr "1日あたり50のドキュメント"
-
 #: components/PdfToChat/ApiBanner.tsx:82
-#~ msgid "A seamless integration that takes your conversations to the next level. With this powerful plugin, ChatGPT gains the ability to access and provide insights from your documents hosted on AskYourPDF."
-#~ msgstr "会話を次のレベルに引き上げるシームレスな統合。この強力なプラグインを使用することで、ChatGPTはAskYourPDFにホストされた文書にアクセスし、その中から洞察を提供する能力を獲得します。"
-
 #: pages/knowledge-base/intro.tsx:293
-#~ msgid "Absolutely! Click on the menu icon by the Knowledge Base and click on Copy ID in the dropdown. You can then paste this ID in the ChatGPT UI to have a conversation with the Knowledge Base"
-#~ msgstr "絶対です！ナレッジベースの隣にあるメニューアイコンをクリックし、ドロップダウンメニューから「IDをコピー」をクリックします。次に、このIDをChatGPTのUIに貼り付けて、ナレッジベースとの対話を行うことができます。"
-
 #: utils/faqData.tsx:97
-#~ msgid "Absolutely. Data privacy is our top priority. The application employs industry-standard SSL encryption to ensure the protection of your information."
-#~ msgstr "もちろんです。データのプライバシーは私たちの最優先事項です。アプリケーションは業界標準のSSL暗号化を使用して、情報の保護を確保しています。"
-
 #: components/PdfToChat/Discover.tsx:32
-#~ msgid "Academic Excellence"
-#~ msgstr "学術の卓越性"
-
 #: utils/termsData.ts:11
-#~ msgid "Acceptance of Terms"
-#~ msgstr "利用規約の受諾"
-
 #: pages/settings/index.tsx:504
-#~ msgid "Account plans"
-#~ msgstr "アカウントプラン"
-
 #: components/Modals/PaymentBottomSheet.tsx:150
 #: components/Modals/PaymentModalDesktop.tsx:153
-#~ msgid "Account Upgraded"
-#~ msgstr "アカウントがアップグレードされました"
-
 #: components/Settings/AccountLinkedSuccessModal.tsx:66
-#~ msgid "Accounts Linked Successfully"
-#~ msgstr "アカウントが正常にリンクされました"
-
 #: components/Extension/Download.tsx:169
-#~ msgid "Add Our Chrome Extension"
-#~ msgstr "弊社のChrome拡張機能に追加"
-
 #: components/Extension/ExtensionHero.tsx:244
 #: components/Landing/ExtensionAnnouncement.tsx:129
 #: components/PdfToChat/ExtensionAnnouncement.tsx:129
-#~ msgid "Add the AskyourPDF extension to your Chrome browser to start chatting effortlessly with any PDF. It saves you hours and boosts your productivity!"
-#~ msgstr "AskYourPDFの拡張機能をChromeブラウザに追加すると、どのPDFでも手軽にチャットを始めることができます。時間を節約し、生産性が向上します!"
-
 #: components/literature-review/LiteratureSideBar.tsx:434
 msgid "Advanced Parameters"
 msgstr "高度なパラメータ"
@@ -179,9 +77,6 @@ msgid "Affiliate Program"
 msgstr "アフィリエイトプログラム"
 
 #: components/PdfToChat/SummarizeGuide.tsx:177
-#~ msgid "After the document has been processed, you can customize the summary based on your preferences. <0/>Set settings such as the desired length of the summary to make it as brief or as informative as you want. Set text formatting choices to ensure that the summary follows your desired style. You can include a prompt to instruct AskYourPDF on how to summarise the document. However, if you prefer not to provide a prompt, you can skip this step."
-#~ msgstr "ドキュメントの処理が完了したら、好みに応じて要約をカスタマイズできます。 <0/> 要約の希望する長さなどの設定を行い、希望するだけの簡潔さまたは情報量にすることができます。 テキストの書式設定オプションを設定して、要約が希望するスタイルに従うようにします。 ドキュメントの要約方法をAskYourPDFに指示するプロンプトを含めることもできます。ただし、プロンプトを提供しない場合、このステップをスキップすることもできます。"
-
 #: pages/book-title-generator/generate/index.tsx:111
 #: pages/book-title-generator/index.tsx:58
 msgid "AI Book Title Generator"
@@ -251,23 +146,11 @@ msgstr "AI論文ジェネレーター"
 
 #: components/Landing/Features.tsx:227
 #: components/PdfToChat/Features.tsx:233
-#~ msgid "All on Your Terms"
-#~ msgstr "あなたの条件で全て対応"
-
 #: pages/documents/[[...id]]/index.tsx:969
-#~ msgid "Allow your conversation with this document to be shareable."
-#~ msgstr "この文書との会話を共有可能に設定してください。"
-
 #: pages/billing/index.tsx:1069
 #: pages/settings/index.tsx:170
-#~ msgid "Amount"
-#~ msgstr "金額"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:316
 #: components/Modals/CreateAPIKeyDesktop.tsx:331
-#~ msgid "An error has occured"
-#~ msgstr "エラーが発生しました"
-
 #: components/Generator.tsx:263
 #: components/literature-review/MainContent.tsx:292
 #: components/Modals/ExportSourceTools.tsx:231
@@ -275,38 +158,14 @@ msgid "An error occurred"
 msgstr "エラーが発生しました"
 
 #: components/Modals/DocumentSelectModal.tsx:393
-#~ msgid "An error occurred while creating the knowledge base. Please try again."
-#~ msgstr "ナレッジベースの作成中にエラーが発生しました。もう一度お試しください。"
-
 #: components/Modals/DocumentSelectModal.tsx:434
-#~ msgid "An error occurred while deleting the conversation. However, the associated knowledge base has been deleted. Please delete the conversation manually."
-#~ msgstr "会話の削除中にエラーが発生しましたが、関連するナレッジベースは削除されました。会話を手動で削除してください。"
-
 #: components/Modals/DocumentSelectModal.tsx:450
-#~ msgid "An error occurred while deleting the knowledge base. Please try again."
-#~ msgstr "ナレッジベースの削除中にエラーが発生しました。もう一度お試しください。"
-
 #: components/Settings/LinkAccountCall.tsx:86
-#~ msgid "An error occurred while linking your mobile device. Please try again"
-#~ msgstr "モバイルデバイスのリンク中にエラーが発生しました。もう一度お試しください"
-
 #: pages/documents/[[...id]]/index.tsx:699
-#~ msgid "An error occurred while loading the document. Please try again"
-#~ msgstr "ドキュメントの読み込み中にエラーが発生しました。もう一度お試しください"
-
 #: pages/billing/index.tsx:690
 #: pages/settings/index.tsx:309
-#~ msgid "An error occurred while loading your subscription. Please try again"
-#~ msgstr "サブスクリプションの読み込み中にエラーが発生しました。もう一度お試しください"
-
 #: components/SearchResults.tsx:371
-#~ msgid "An error occurred while searching for <0>\"{debouncedSearchTerm}\"</0>. Please try again."
-#~ msgstr "<0>\"{debouncedSearchTerm}\"</0> の検索中にエラーが発生しました。もう一度お試しください。"
-
 #: components/Modals/DocumentSelectModal.tsx:414
-#~ msgid "An error occurred while updating the knowledge base. Please try again."
-#~ msgstr "ナレッジベースの更新中にエラーが発生しました。もう一度お試しください。"
-
 #: pages/source-tool/index.tsx:206
 #: pages/source-tool/index.tsx:216
 msgid "An error occurred. Please try again"
@@ -318,25 +177,13 @@ msgstr "ドキュメントを分析しています"
 
 #: components/APIKeysList.tsx:591
 #: components/APIKeysList.tsx:754
-#~ msgid "Analytics for Default Key"
-#~ msgstr "デフォルトキーの分析"
-
-#~ msgid "Analyzing Document"
-#~ msgstr "文書の分析中"
-
 #: components/Footer.tsx:283
 msgid "Android App"
 msgstr "Androidアプリ"
 
 #: components/Landing/Plans.tsx:432
 #: components/PdfToChat/Plans.tsx:432
-#~ msgid "Annual"
-#~ msgstr "年間"
-
 #: components/Modals/ShareModal.tsx:201
-#~ msgid "Anyone with this link can start a new conversation with this document. Chats are not shared."
-#~ msgstr "このリンクを持つ誰でも、このドキュメントで新しい会話を始めることができます。チャットは共有されません。"
-
 #: components/Footer.tsx:265
 #: components/Navbar.tsx:325
 #: components/Navbar.tsx:382
@@ -346,183 +193,60 @@ msgid "API"
 msgstr "API"
 
 #: components/Modals/PaymentModalContent.tsx:387
-#~ msgid "API Access"
-#~ msgstr "APIアクセス"
-
-#~ msgid "API Access (Test Keys)"
-#~ msgstr "APIアクセス（テストキー）"
-
 #: components/APIKeysList.tsx:560
 #: components/APIKeysList.tsx:724
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:384
-#~ msgid "API Key"
-#~ msgstr "APIキー"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:393
 #: components/Modals/CreateAPIKeyDesktop.tsx:406
-#~ msgid "API Key copied"
-#~ msgstr "APIキーがコピーされました"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:364
 #: components/Modals/CreateAPIKeyDesktop.tsx:375
-#~ msgid "API Key Generated"
-#~ msgstr "APIキーが生成されました"
-
 #: components/DeveloperSidebar.tsx:137
 #: pages/apikeys/index.tsx:349
 #: pages/apikeys/index.tsx:368
 #: pages/apikeys/index.tsx:386
 #: pages/billing/index.tsx:806
 #: pages/billing/upgrade.tsx:624
-#~ msgid "API Keys"
-#~ msgstr "APIキー"
-
 #: pages/apikeys/index.tsx:394
-#~ msgid "API keys let you connect seamlessly with our APIs"
-#~ msgstr "APIキーを使用すると、当社のAPIとシームレスに接続できます"
-
 #: pages/apikeys/index.tsx:391
-#~ msgid "API Management"
-#~ msgstr "API管理"
-
 #: components/Modals/Profile.tsx:345
-#~ msgid "API Plan"
-#~ msgstr "APIプラン"
-
 #: components/Landing/Products.tsx:157
 #: components/PdfToChat/Products.tsx:157
-#~ msgid "API Service for Developers"
-#~ msgstr "開発者向けAPIサービス"
-
 #: utils/termsData.ts:36
-#~ msgid "App Permissions"
-#~ msgstr "アプリの許可設定"
-
 #: components/Modals/ConversationHistoryDeleteModal.tsx:111
-#~ msgid "Are you sure you want to clear your conversation history?"
-#~ msgstr "会話履歴を削除してもよろしいですか?"
-
 #: components/Modals/ConversationDeleteModal.tsx:111
-#~ msgid "Are you sure you want to delete this conversation?"
-#~ msgstr "この会話を削除してもよろしいですか?"
-
 #: components/Modals/OldDocumentDeleteModal.tsx:127
-#~ msgid "Are you sure you want to delete this document?"
-#~ msgstr "このドキュメントを削除してもよろしいですか？"
-
 #: components/Modals/DocumentDeleteModal.tsx:110
-#~ msgid "Are you sure you want to delete this document? The associated conversation will be deleted from our servers as well."
-#~ msgstr "このドキュメントを削除してもよろしいですか？関連する会話もサーバーから削除されます。"
-
 #: components/Modals/DocumentSelectModal.tsx:758
-#~ msgid "Are you sure you want to delete this knowledge base?"
-#~ msgstr "このナレッジベースを削除してもよろしいですか？"
-
 #: components/Modals/Profile.tsx:248
-#~ msgid "Are you sure you want to delete your account? Deleting your account will result in the permanent loss of all your data."
-#~ msgstr "アカウントを削除してもよろしいですか? アカウントを削除すると、すべてのデータが永久に失われます。"
-
 #: pages/billing/upgrade.tsx:908
-#~ msgid "Are you sure you want to downgrade to a free plan? You'll have access to your pro features until the end of your billing period on {0}"
-#~ msgstr "無料プランにダウングレードしてもよろしいですか？{0}までの請求期間終了までプロの機能を利用できます。"
-
 #: pages/settings/index.tsx:440
-#~ msgid "Are you sure you want to downgrade your account? You'll have access to your {userRole} features until the end of your billing period on {0}"
-#~ msgstr "アカウントをダウングレードしてもよろしいですか？{0}までの請求期間終了まで{userRole}の機能を利用できます。"
-
 #: components/PdfToChat/Guide.tsx:152
-#~ msgid "Ask"
-#~ msgstr "尋ねる"
-
 #: pages/conversations/[[...params]].tsx:1279
-#~ msgid "Ask any question about your document"
-#~ msgstr "ドキュメントに関する質問は何でもどうぞ"
-
 #: pages/knowledge-base/[[...params]].tsx:1923
-#~ msgid "Ask any question about your knowledge base"
-#~ msgstr "あなたのナレッジベースに関する質問は何でもどうぞ"
-
 #: pages/conversations/[[...params]].tsx:1133
 #: pages/knowledge-base/[[...params]].tsx:1719
-#~ msgid "Ask me about {0}."
-#~ msgstr "{0}について聞いてください。"
-
-#~ msgid "AskYourPDF"
-#~ msgstr "AskYourPDF"
-
 #: utils/termsData.ts:32
-#~ msgid "AskYourPDF allows you to import and view documents. You retain     full ownership and control over the content you import into the app. We do not claim ownership of your content, nor do we monitor or access it unless required by  applicable laws."
-#~ msgstr "AskYourPDFは文書をインポートして表示できるようにします。アプリにインポートしたコンテンツに対する所有権と制御権はすべて保持されます。私たちはあなたのコンテンツの所有権を主張せず、適用される法律によって要求されない限り、監視またはアクセスは行いません。"
-
 #: components/Api/Pricing.tsx:265
-#~ msgid "AskYourPDF API Pricing"
-#~ msgstr "AskYourPDF APIの価格設定"
-
 #: components/Landing/Features.tsx:290
 #: components/PdfToChat/Features.tsx:315
-#~ msgid "AskYourPDF brings the magic of AI to your fingertips! Dive into smart navigation, no more endless scrolling or page skimming."
-#~ msgstr "AskYourPDFはAIの魔法をあなたの指先にもたらします！スマートなナビゲーションに没頭し、もう終わりのないスクロールやページのめくりをしなくても済みます。"
-
 #: components/Extension/Methods.tsx:143
-#~ msgid "AskYourPDF Chrome extension lets you seamlessly have intelligent conversations with your PDF documents. Whether you're working together with others or making notes for yourself, the extension makes it quick and straightforward to extract valuable information, all without leaving the comfort of your browser."
-#~ msgstr "AskYourPDF Chrome拡張機能を使用すると、PDFドキュメントとスムーズにインテリジェントな対話をすることができます。他の人と協力している場合でも、自分用のメモを作成している場合でも、この拡張機能を使えば、貴重な情報を素早く簡単に抽出できます。ブラウザを離れることなくすべてが可能です。"
-
 #: components/PdfToChat/Discover.tsx:38
-#~ msgid "AskYourPDF gives researchers and academics the ability to speed up their work by quickly extracting data and insights from large PDF documents."
-#~ msgstr "AskYourPDFは、研究者や学者に大規模なPDF文書から迅速にデータと洞察を抽出する能力を提供します。"
-
 #: utils/termsData.ts:62
-#~ msgid "AskYourPDF is provided on an \"as is\" and \"as available\" basis. We do not warrant that AskYourPDF will be uninterrupted, error-free, or free from downtime."
-#~ msgstr "AskYourPDFは「現状のまま」および「利用可能な状態」で提供されます。AskYourPDFが中断されないこと、エラーがないこと、ダウンタイムがないことを保証するものではありません。"
-
 #: utils/faqData.tsx:31
-#~ msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See <0>here</0> for details]."
-#~ msgstr "AskYourPDF には、プレミアム、プロ、エンタープライズの 3 つのプランがあります。 [詳細については<0>こちら</0>をご覧ください]。"
-
 #: utils/faqData.tsx:29
-#~ msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See here (https://askyourpdf.com/settings) for details]."
-#~ msgstr "AskYourPDFは3つのプランを提供しています：プレミアム、プロ、エンタープライズ。[詳細はこちら（https://askyourpdf.com/settings）をご覧ください]。"
-
 #: components/PdfToChat/ApiBanner.tsx:79
-#~ msgid "AskYourPDF Plugin for ChatGPT"
-#~ msgstr "ChatGPT用AskYourPDFプラグイン"
-
 #: pages/knowledge-base/intro.tsx:260
-#~ msgid "AskYourPDF uses AI to scan all the documents within the knowledge base to provide answers based on the collective information they contain."
-#~ msgstr "AskYourPDFは、知識ベース内のすべての文書をスキャンし、それらが含む共通の情報に基づいて回答を提供するためにAIを使用します。"
-
 #: pages/knowledge-base/intro.tsx:262
-#~ msgid "AskYourPDF uses AI to scan all the documents within the knowledge base to provide answers based on the collective information they contain. <0>Learn more</0>"
-#~ msgstr "AskYourPDFは、知識ベース内のすべての文書をスキャンし、それらが含む共通の情報に基づいて回答を提供するためにAIを使用します。 <0>詳細を学ぶ</0>"
-
 #: pages/knowledge-base/intro.tsx:283
-#~ msgid "AskYourPDF will produce a consolidated answer based on the contents of both documents. What's even better is, you can prompt it to give you answers from on a specific document in your knowledge base."
-#~ msgstr "AskYourPDFは、両方の文書の内容に基づいて統合された回答を生成します。さらに良いことは、特定の文書から回答を取得するように指示することができます。"
-
 #: components/Affiliate/Header.tsx:198
-#~ msgid "At AskYourPDF we cherish our community and think you should be rewarded for spreading the word about our platform's advantages. To earn 30% commission on all payments made by users you refer within the first 12 months, Join our affiliate program."
-#~ msgstr "AskYourPDFでは、コミュニティを大切にし、プラットフォームの利点について言及することで報酬を受けるべきだと考えています。最初の12か月以内に参照されたユーザーによるすべての支払いに対して30％の"
-
 #: pages/privacy/index.tsx:98
-#~ msgid "At AskYourPDF, we value and respect your control over your data. You can delete your uploaded document files from our service at any time, completely erasing them from our servers. To ensure the privacy of our free users, we go one step further by automatically deleting uploaded files a few hours after use. This helps us ensure that no residual data remains on our servers longer than necessary."
-#~ msgstr "AskYourPDFでは、データに対するあなたの制御を尊重しています。いつでもアップロードしたドキュメントファイルをサービスから削除し、サーバーから完全に消去できます。無料ユーザーのプライバシーを保護するために、使用後数時間後にアップロードしたファイルを自動的に削除するというさらなる措置を講じています。これにより、余分なデータが必要以上にサーバーに残ることはありません。"
-
 #: pages/privacy/index.tsx:43
-#~ msgid "At AskYourPDF, your privacy isn't just our responsibility – it's the foundation of the trust we hope to build with you. We are deeply committed to creating a platform where you can interact with your documents without compromising on your privacy. This Privacy Policy explains our practices in detail, outlining what data we collect, how we collect it, why we collect it, and how we ensure that your data is handled with the highest level of care."
-#~ msgstr "AskYourPDFでは、あなたのプライバシーは単なる責任ではなく、あなたと築きたい信頼の基盤です。私たちは、あなたのプライバシーを損なうことなくドキュメントと対話できるプラットフォームを提供することに深く取り組んでいます。このプライバシーポリシーは、私たちの実践を詳しく説明し、どのデータを収集するか、どのように収集するか、なぜ収集するか、そしてどのようにデータを最高水準のケアで扱うかを概説しています。"
-
 #: components/source-tools/source-result/index.tsx:473
 msgid "Authors:"
 msgstr "著者："
 
 #: utils/termsData.ts:41
-#~ msgid "Automatically Collected Information"
-#~ msgstr "自動的に収集される情報"
-
 #: components/Modals/Profile.tsx:292
-#~ msgid "Back to Homepage"
-#~ msgstr "ホームページに戻る"
-
 #: components/literature-review/MainContent.tsx:343
 #: components/tools/MergePage.tsx:676
 #: components/tools/OcrPage.tsx:252
@@ -533,17 +257,8 @@ msgstr "ツールに戻る"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:449
 #: components/Modals/CreateAPIKeyDesktop.tsx:465
-#~ msgid "Before generating your API Key"
-#~ msgstr "APIキーを生成する前に"
-
 #: pages/chat/[[...docID]]/index.tsx:316
-#~ msgid "Begin a conversation with me by uploading a document. I'll respond with anything you need based on the document"
-#~ msgstr "ドキュメントをアップロードして私との会話を始めましょう。ドキュメントに基づいて必要な情報を提供します"
-
 #: components/PdfToChat/Guide.tsx:139
-#~ msgid "Begin by effortlessly uploading your PDF documents to our platform."
-#~ msgstr "無理なくPDFドキュメントを当社のプラットフォームにアップロードして始めましょう。"
-
 #: components/literature-review/LiteratureMainBar.tsx:487
 msgid "Begin new review"
 msgstr "新しいレビューを始める"
@@ -559,12 +274,6 @@ msgstr "新しい検索を開始"
 #: pages/billing/index.tsx:814
 #: pages/billing/upgrade.tsx:605
 #: pages/billing/upgrade.tsx:632
-#~ msgid "Billing"
-#~ msgstr "請求"
-
-#~ msgid "BlockTechnology OÜ. All rights reserved. © {year}"
-#~ msgstr "BlockTechnology OÜ。全著作権所有。 © {year}"
-
 #: components/Footer.tsx:418
 msgid "BlockTechnology OÜ. All rights reserved. ©{year}"
 msgstr "BlockTechnology OÜ. すべての権利を保有します。 ©{year}"
@@ -580,192 +289,63 @@ msgstr "書籍名ジェネレーター"
 
 #: components/Landing/Products.tsx:150
 #: components/PdfToChat/Products.tsx:150
-#~ msgid "Browser Extension"
-#~ msgstr "ブラウザ拡張機能"
-
 #: components/Modals/ConversationFeedback.tsx:368
 #: components/Modals/ConversationFeedback.tsx:478
-#~ msgid "Bug"
-#~ msgstr "バグ"
-
 #: components/Api/Header.tsx:157
-#~ msgid "Build Better With The"
-#~ msgstr "APIでより良いものを構築する"
-
 #: components/PdfToChat/Discover.tsx:48
-#~ msgid "Business analysts and professionals can extract valuable market insights and competitive intelligence from industry reports."
-#~ msgstr "ビジネスアナリストや専門家は業界レポートから貴重な市場洞察と競争情報を抽出できます。"
-
 #: components/PdfToChat/Discover.tsx:47
-#~ msgid "Business Intelligence"
-#~ msgstr "ビジネスインテリジェンス"
-
 #: components/BuyCredits.tsx:111
-#~ msgid "Buy Credit"
-#~ msgstr "クレジットを購入する"
-
 #: components/Modals/UnitsExceededModal.tsx:119
-#~ msgid "Buy Credits"
-#~ msgstr "クレジット購入"
-
 #: components/Conversations/CreditBalance.tsx:131
-#~ msgid "Buy More Credit"
-#~ msgstr "もっとクレジットを購入する"
-
-#~ msgid "Buy Plan"
-#~ msgstr "プランを購入"
-
 #: utils/termsData.ts:12
-#~ msgid "By accessing or using AskYourPDF, you agree to be bound by these terms andconditions. If you do not agree with these terms and conditions, you must not use AskYourPDF."
-#~ msgstr "AskYourPDFにアクセスするか使用することで、これらの利用規約に拘束されることに同意します。これらの利用規約に同意しない場合、AskYourPDFを使用してはいけません。"
-
 #: pages/file-upload/index.tsx:390
-#~ msgid "By starting a conversation you agree with our data privacy policy and terms"
-#~ msgstr "会話を開始することで、データプライバシーポリシーと利用規約に同意したことになります"
-
 #: components/PdfToChat/Discover.tsx:43
-#~ msgid "By streamlining case analysis and research, professionals can make legal documents more accessible and understandable using AskYourPDF."
-#~ msgstr "ケース分析と研究を効率化することで、専門家はAskYourPDFを使用して法的文書をよりアクセスしやすく理解しやすくすることができます。"
-
 #: components/PdfToChat/Discover.tsx:33
-#~ msgid "By using AskYouPDF to swiftly access information within textbooks, research papers, and study materials, students may acquire a competitive advantage."
-#~ msgstr "教科書、研究論文、学習資料内の情報に迅速にアクセスするためにAskYourPDFを使用することで、学生は競争上の優位性を獲得するかもしれません。"
-
 #: pages/privacy/index.tsx:167
-#~ msgid "By using AskYourPDF, you acknowledge that you have read, understood, and agreed to the practices as described in this Privacy Policy."
-#~ msgstr "AskYourPDFを使用することで、このプライバシーポリシーに記載されている慣行を読み、理解し、同意したことを認めたことになります。"
-
-#~ msgid "By using AskYourPDF, you agree to receive periodic emails related to product updates, including but not limited to new features, enhancements, and changes to existing functionality. These emails aim to keep you informed about improvements and updates to the app that may affect your user experience. You have the option to unsubscribe from these emails at any time through the unsubscribe link provided in the email."
-#~ msgstr "AskYourPDFを使用することにより、新機能、改善、および既存の機能の変更を含む製品の更新に関連する定期的な電子メールを受け取ることに同意します。これらの電子メールは、ユーザーエクスペリエンスに影響を与える可能性のあるアプリの改善と更新についてあなたを情報提供することを目的としています。これらの電子メールからは、電子メール内に提供された解除リンクを介していつでも解除するオプションがあります。"
-
 #: utils/faqData.tsx:81
-#~ msgid "Can I chat in any language?"
-#~ msgstr "どの言語でチャットできますか?"
-
 #: pages/chat/[[...docID]]/index.tsx:255
 #: utils/faqData.tsx:59
-#~ msgid "Can I chat with other users of the application?"
-#~ msgstr "アプリケーションの他のユーザーとチャットできますか?"
-
 #: utils/faqData.tsx:86
-#~ msgid "Can I download the chat history?"
-#~ msgstr "チャット履歴をダウンロードできますか?"
-
 #: utils/faqData.tsx:101
-#~ msgid "Can I edit the document while using AskYourPDF?"
-#~ msgstr "AskYourPDFを使用している間、ドキュメントを編集できますか?"
-
 #: pages/knowledge-base/intro.tsx:287
-#~ msgid "Can I modify my Knowledge Base?"
-#~ msgstr "私の知識ベースを変更できますか？"
-
 #: pages/chat/[[...docID]]/index.tsx:245
 #: pages/knowledge-base/intro.tsx:277
 #: utils/faqData.tsx:23
-#~ msgid "Can I upload any document?"
-#~ msgstr "どのようなドキュメントでもアップロードできますか?"
-
 #: utils/faqData.tsx:117
-#~ msgid "Can I upload multiple documents at once?"
-#~ msgstr "複数のドキュメントを一度にアップロードできますか?"
-
-#~ msgid "Can I upload password-protected documents to AskYourPDF"
-#~ msgstr "AskYourPDFにパスワード保護されたドキュメントをアップロードできますか?"
-
 #: utils/faqData.tsx:123
-#~ msgid "Can I upload password-protected documents to AskYourPDF?"
-#~ msgstr "パスワードで保護された文書をAskYourPDFにアップロードできますか？"
-
 #: utils/faqData.tsx:107
-#~ msgid "Can I use AskYourPDF on any device?"
-#~ msgstr "AskYourPDFはどのデバイスでも使用できますか?"
-
 #: pages/knowledge-base/intro.tsx:292
-#~ msgid "Can I use the Knowledge Base with the AskYourPDF Plugin?"
-#~ msgstr "AskYourPDFプラグインを使用して知識ベースを利用できますか？"
-
 #: components/source-tools/source-result/index.tsx:510
 msgid "Cancel"
 msgstr "キャンセル"
 
 #: pages/settings/index.tsx:577
-#~ msgid "Cancel Current Subscription"
-#~ msgstr "現在のサブスクリプションをキャンセル"
-
 #: pages/billing/upgrade.tsx:761
-#~ msgid "Cancel Plan"
-#~ msgstr "プランをキャンセル"
-
 #: pages/billing/index.tsx:905
-#~ msgid "Cancel Subscription"
-#~ msgstr "サブスクリプションをキャンセル"
-
 #: pages/billing/index.tsx:837
 #: pages/billing/upgrade.tsx:669
 #: pages/settings/index.tsx:632
 #: pages/settings/index.tsx:749
 #: pages/settings/index.tsx:841
-#~ msgid "Canceled"
-#~ msgstr "キャンセル済み"
-
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:176
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:172
-#~ msgid "Card Number"
-#~ msgstr "カード番号"
-
 #: pages/knowledge-base/intro.tsx:288
-#~ msgid "Certainly, you have the flexibility to adjust your Knowledge Base as needed. You can add or remove documents at your convenience."
-#~ msgstr "もちろん、必要に応じて知識ベースを調整する柔軟性があります。自分の都合で文書を追加または削除できます。"
-
 #: components/Modals/Profile.tsx:146
-#~ msgid "Change Password"
-#~ msgstr "パスワードの変更"
-
 #: pages/privacy/index.tsx:137
-#~ msgid "Changes to the Privacy Policy"
-#~ msgstr "プライバシーポリシーの変更"
-
 #: utils/termsData.ts:76
-#~ msgid "Changes to these Terms and Conditions"
-#~ msgstr "利用規約の変更"
-
 #: components/Footer.tsx:293
 msgid "Chat"
 msgstr "チャット"
 
 #: components/Modals/PaymentModalContent.tsx:285
-#~ msgid "Chat longer with your documents"
-#~ msgstr "ドキュメントともっと長くチャット"
-
 #: utils/faqData.tsx:130
-#~ msgid "Chat sessions remain available as long as the browser tab is open."
-#~ msgstr "ブラウザのタブが開いている限り、チャットセッションは利用可能です。"
-
 #: components/Extension/ExtensionHero.tsx:239
-#~ msgid "Chat with any PDF via our  <0>Chrome Extension</0>"
-#~ msgstr "弊社のChrome拡張機能を使用して、任意のPDFドキュメントとチャットしてください"
-
 #: components/Landing/ExtensionAnnouncement.tsx:124
 #: components/PdfToChat/ExtensionAnnouncement.tsx:124
-#~ msgid "Chat with any PDF via our <0/> <1>Chrome Extension</1>"
-#~ msgstr "弊社の<0/><1>Chrome拡張機能</1>を介して、任意のPDFとチャット"
-
 #: components/Landing/Products.tsx:143
 #: components/PdfToChat/Products.tsx:143
-#~ msgid "ChatGPT Plugin"
-#~ msgstr "ChatGPTプラグイン"
-
-#~ msgid "check your payment method"
-#~ msgstr "をご確認ください"
-
 #: components/MainSidebar.tsx:611
-#~ msgid "check your payment method."
-#~ msgstr "お支払い方法を確認してください。"
-
 #: pages/billing/upgrade.tsx:695
-#~ msgid "Choose the preferred plan that suits your application"
-#~ msgstr "アプリケーションに合ったプランを選択してください"
-
 #: components/Footer.tsx:274
 msgid "Chrome Extension"
 msgstr "Chrome拡張機能"
@@ -777,112 +357,52 @@ msgstr "Chrome拡張機能"
 #: components/PdfToChat/Plans.tsx:592
 #: components/PdfToChat/Plans.tsx:682
 #: pages/settings/index.tsx:655
-#~ msgid "Chrome Extension Access"
-#~ msgstr "Chrome拡張機能へのアクセス"
-
 #: components/source-tools/source-result/index.tsx:466
 msgid "Cited by:"
 msgstr "引用元："
 
 #: components/Modals/ConversationHistoryDeleteModal.tsx:123
-#~ msgid "Clear"
-#~ msgstr "クリア"
-
 #: components/Modals/ConversationHistoryDeleteModal.tsx:108
-#~ msgid "Clear Conversation History"
-#~ msgstr "会話履歴をクリア"
-
 #: components/APIKeysList.tsx:671
-#~ msgid "Click the button below to get started"
-#~ msgstr "はじめるには下のボタンをクリックしてください"
-
 #: components/Modals/ConversationFeedback.tsx:351
 #: components/Modals/ConversationFeedback.tsx:461
-#~ msgid "Close"
-#~ msgstr "閉じる"
-
 #: components/ToolsFooter.tsx:115
 msgid "Coming Soon"
 msgstr "近日公開"
 
 #: components/Modals/PaymentSuccessModal.tsx:163
-#~ msgid "Communicating with documents has never felt this easy using AskYourPDF."
-#~ msgstr "AskYourPDFを使うと、ドキュメントとのコミュニケーションがこれほど簡単に感じたことはありませんでした。"
-
 #: components/Modals/PaymentBottomSheet.tsx:153
 #: components/Modals/PaymentModalDesktop.tsx:156
-#~ msgid "Communicating with documents has never felt this easy using ChatGPT"
-#~ msgstr "ChatGPTを使うと、ドキュメントとのコミュニケーションがこれほど簡単に感じたことはありませんでした"
-
 #: components/Modals/PaymentSuccessModal.tsx:208
-#~ msgid "Communicating with documents has never felt this easy using ChatGPT."
-#~ msgstr "ChatGPTを使うと、ドキュメントとのコミュニケーションがこれほど簡単に感じたことはありませんでした。"
-
 #: components/Footer.tsx:334
 msgid "Company"
 msgstr "会社"
 
 #: components/PdfToChat/MoreTools.tsx:39
-#~ msgid "Compress PDF Tool"
-#~ msgstr "PDF圧縮ツール"
-
 #: components/source-tools/source-content/index.tsx:259
 msgid "Configure search"
 msgstr "検索の設定"
 
 #: components/Modals/Profile.tsx:226
-#~ msgid "confirm password"
-#~ msgstr "パスワードを確認"
-
 #: components/Modals/Profile.tsx:221
-#~ msgid "Confirm Password"
-#~ msgstr "パスワードを認証する"
-
 #: components/Modals/Profile.tsx:187
-#~ msgid "confirm password and new password don' match"
-#~ msgstr "確認用パスワードと新しいパスワードが一致しません"
-
-#~ msgid "confirm password and new password don't match"
-#~ msgstr "パスワードと新しいパスワードが一致しません"
-
-#~ msgid "Contact us"
-#~ msgstr "お問い合わせ"
-
 #: components/Footer.tsx:354
 msgid "Contact Us"
 msgstr "お問い合わせ"
 
 #: components/Modals/PaymentModalContent.tsx:435
-#~ msgid "Contact Us For Enterprise Plan"
-#~ msgstr "エンタープライズプランについてはお問い合わせください"
-
 #: components/source-tools/source-result/index.tsx:412
 msgid "Content"
 msgstr "コンテンツ"
 
 #: pages/privacy/index.tsx:94
-#~ msgid "Control Over Your Data"
-#~ msgstr "データに対する制御"
-
 #: pages/conversations/[[...params]].tsx:906
 #: pages/knowledge-base/[[...params]].tsx:1419
-#~ msgid "Conversation deleted successfully"
-#~ msgstr "会話が正常に削除されました"
-
 #: pages/conversations/[[...params]].tsx:936
 #: pages/knowledge-base/[[...params]].tsx:1508
-#~ msgid "Conversation history cleared successfully"
-#~ msgstr "会話履歴が正常にクリアされました"
-
 #: components/Modals/PaymentModalContent.tsx:327
-#~ msgid "Conversation Per Day"
-#~ msgstr "1日あたりの会話数"
-
 #: components/Landing/Plans.tsx:768
 #: components/PdfToChat/Plans.tsx:768
-#~ msgid "conversations"
-#~ msgstr "会話"
-
 #: components/AppSidebar.tsx:151
 #: components/Navbar.tsx:283
 #: components/Navbar.tsx:340
@@ -897,14 +417,8 @@ msgstr "会話"
 #: components/PdfToChat/Plans.tsx:501
 #: components/PdfToChat/Plans.tsx:583
 #: components/PdfToChat/Plans.tsx:673
-#~ msgid "conversations per day"
-#~ msgstr "1日あたりの会話数"
-
 #: components/Landing/Features.tsx:224
 #: components/PdfToChat/Features.tsx:230
-#~ msgid "Converse, Learn, Track"
-#~ msgstr "会話し、学び、追跡"
-
 #: components/Generator.tsx:349
 #: components/Generator.tsx:349
 #: components/literature-review/LiteratureMainBar.tsx:435
@@ -917,89 +431,35 @@ msgstr "コピーしました"
 #: pages/documents/[[...id]]/index.tsx:883
 #: pages/knowledge-base/[[...params]].tsx:981
 #: pages/knowledge-base/[[...params]].tsx:1675
-#~ msgid "Copy ID"
-#~ msgstr "IDをコピー"
-
 #: components/SubscriptionGuard.tsx:29
-#~ msgid "Couldn't get your plan"
-#~ msgstr "プラン情報を取得できませんでした"
-
 #: pages/knowledge-base/intro.tsx:347
-#~ msgid "Create a knowledge base by uploading a document. I'll respond with anything you need based on the document"
-#~ msgstr "ドキュメントをアップロードして知識ベースを作成します。文書に基づいて必要な情報を提供します"
-
 #: components/KnowledgeBaseSidebar.tsx:552
 #: components/KnowledgeBaseSidebar.tsx:588
 #: components/MainSidebar.tsx:497
 #: components/MainSidebar.tsx:533
-#~ msgid "Create Account"
-#~ msgstr "アカウントの作成"
-
 #: pages/documents/[[...id]]/index.tsx:596
 #: pages/knowledge-base/intro.tsx:383
-#~ msgid "Create Knowledge Base"
-#~ msgstr "ナレッジベースを作成する"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:364
 #: components/Modals/CreateAPIKeyDesktop.tsx:375
-#~ msgid "Create New API Key"
-#~ msgstr "新しいAPIキーを作成"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:477
 #: components/Modals/CreateAPIKeyDesktop.tsx:493
-#~ msgid "Create New Key"
-#~ msgstr "新しいキーを作成"
-
 #: components/KnowledgeBaseSidebar.tsx:738
 #: components/Modals/DocumentSelectModal.tsx:616
-#~ msgid "Create New Knowledge Base"
-#~ msgstr "新しいナレッジベースを作成する"
-
 #: components/BuyCredits.tsx:107
-#~ msgid "credit"
-#~ msgstr "クレジット"
-
 #: components/BuyCredits.tsx:40
-#~ msgid "Credit Purchase Unavailable for Free Users"
-#~ msgstr "無料ユーザーはクレジット購入ができない"
-
 #: pages/settings/index.tsx:896
 #: pages/settings/index.tsx:904
-#~ msgid "Credits"
-#~ msgstr "クレジット"
-
 #: pages/settings/index.tsx:514
-#~ msgid "Current plan"
-#~ msgstr "現在のプラン"
-
 #: pages/billing/upgrade.tsx:649
-#~ msgid "Current Plan"
-#~ msgstr "現在のプラン"
-
 #: components/Api/Pricing.tsx:393
 #: pages/billing/upgrade.tsx:871
-#~ msgid "Custom and flexible pricing for high volume processing"
-#~ msgstr "大量処理のためのカスタマイズ可能な価格設定"
-
 #: components/Landing/Plans.tsx:753
 #: components/PdfToChat/Plans.tsx:753
-#~ msgid "Custom Max upload size"
-#~ msgstr "カスタムの最大アップロードサイズ"
-
 #: components/PdfToChat/SummarizeGuide.tsx:174
-#~ msgid "Customise Your Summary"
-#~ msgstr "サマリーをカスタマイズ"
-
 #: components/Landing/Plans.tsx:776
 #: components/PdfToChat/Plans.tsx:776
-#~ msgid "Customizable Link"
-#~ msgstr "カスタマイズ可能なリンク"
-
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:189
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:185
-#~ msgid "CVV"
-#~ msgstr "CVV"
-
 #: components/literature-review/LiteratureSideBar.tsx:383
 msgid "Date Range"
 msgstr "日付範囲"
@@ -1007,13 +467,7 @@ msgstr "日付範囲"
 #: components/Landing/Plans.tsx:780
 #: components/PdfToChat/Plans.tsx:780
 #: pages/settings/index.tsx:862
-#~ msgid "Dedicated 24/7 Support"
-#~ msgstr "24時間年中無休の専任サポート"
-
 #: components/Modals/PaymentModalContent.tsx:429
-#~ msgid "Dedicated Support"
-#~ msgstr "専任サポート"
-
 #: components/literature-review/LiteratureUpload.tsx:334
 #: components/tools/DocUploadNoFunc.tsx:260
 msgid "Delete"
@@ -1022,54 +476,27 @@ msgstr "削除"
 #: components/Modals/Profile.tsx:245
 #: components/Modals/Profile.tsx:267
 #: components/Modals/Profile.tsx:366
-#~ msgid "Delete Account"
-#~ msgstr "アカウントを削除する"
-
 #: components/Modals/ConversationDeleteModal.tsx:108
-#~ msgid "Delete Conversation"
-#~ msgstr "会話を削除"
-
 #: components/AppSidebar.tsx:274
 msgid "Delete Doc"
 msgstr "ドキュメントを削除"
 
 #: pages/delete/index.tsx:271
-#~ msgid "Delete document"
-#~ msgstr "ドキュメントを削除"
-
 #: components/Modals/DocumentDeleteModal.tsx:107
 #: components/Modals/OldDocumentDeleteModal.tsx:124
 #: pages/documents/[[...id]]/index.tsx:994
-#~ msgid "Delete Document"
-#~ msgstr "ドキュメントを削除"
-
 #: pages/delete/index.tsx:238
 #: pages/delete/index.tsx:245
 #: pages/documents/[[...id]]/index.tsx:794
 #: pages/knowledge-base/[[...params]].tsx:1430
-#~ msgid "Delete Failed"
-#~ msgstr "削除に失敗しました"
-
 #: components/APIKeysList.tsx:542
 #: components/APIKeysList.tsx:706
-#~ msgid "Delete Key"
-#~ msgstr "キーを削除"
-
 #: components/Modals/DocumentSelectModal.tsx:717
 #: components/Modals/DocumentSelectModal.tsx:755
 #: components/Modals/DocumentSelectModal.tsx:779
-#~ msgid "Delete Knowledge Base"
-#~ msgstr "ナレッジベースを削除する"
-
 #: components/Modals/DocumentSelectModal.tsx:424
 #: pages/knowledge-base/[[...params]].tsx:1419
-#~ msgid "Delete Success"
-#~ msgstr "削除が成功しました"
-
 #: components/Modals/Profile.tsx:125
-#~ msgid "Deletion Failed"
-#~ msgstr "削除に失敗しました"
-
 #: components/literature-review/LiteratureMainBar.tsx:379
 #: components/literature-review/LiteratureSideBar.tsx:438
 #: components/source-tools/source-content/index.tsx:229
@@ -1086,35 +513,14 @@ msgid "Developers"
 msgstr "開発者"
 
 #: utils/termsData.ts:61
-#~ msgid "Disclaimer of Warranties"
-#~ msgstr "保証の免責事項"
-
 #: components/Landing/Features.tsx:232
 #: components/PdfToChat/Features.tsx:238
-#~ msgid "Discover a brand new way to interact with your documents on AskYourPDF."
-#~ msgstr "AskYourPDFでドキュメントとの新しいやり取りの方法を発見しましょう。"
-
 #: components/PdfToChat/Discover.tsx:164
-#~ msgid "Discover how AskYouPDF can be applied to various scenarios"
-#~ msgstr "AskYourPDFがさまざまなシナリオに適用できる方法を発見する。"
-
 #: components/PdfToChat/MoreTools.tsx:134
-#~ msgid "Discover More <0> Tools </0>"
-#~ msgstr "さらに多くのツールを発見する"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:457
 #: components/Modals/CreateAPIKeyDesktop.tsx:473
-#~ msgid "Do not share the generated key with anyone."
-#~ msgstr "生成されたキーは誰とも共有しないでください。"
-
 #: components/APIKeysList.tsx:681
-#~ msgid "Do not use test keys on production server"
-#~ msgstr "本番サーバーでテストキーを使用しないでください"
-
 #: pages/upload/index.tsx:315
-#~ msgid "Doc ID Successfully Generated"
-#~ msgstr "ドキュメントIDの生成に成功しました"
-
 #: components/Navbar.tsx:303
 #: components/Navbar.tsx:360
 msgid "Docs"
@@ -1122,64 +528,28 @@ msgstr "ドキュメント"
 
 #: pages/delete/index.tsx:223
 #: pages/documents/[[...id]]/index.tsx:778
-#~ msgid "Document Deleted"
-#~ msgstr "ドキュメントが削除されました"
-
 #: pages/delete/index.tsx:223
 #: pages/documents/[[...id]]/index.tsx:778
-#~ msgid "Document deleted successfully"
-#~ msgstr "ドキュメントが正常に削除されました"
-
 #: pages/upload/index.tsx:296
-#~ msgid "Document Id"
-#~ msgstr "ドキュメントID"
-
 #: pages/conversations/[[...params]].tsx:1085
 #: pages/documents/[[...id]]/index.tsx:574
 #: pages/documents/[[...id]]/index.tsx:877
-#~ msgid "Document ID Copied. You can use this ID with our ChatGPT Plugin"
-#~ msgstr "コピーされたドキュメントID。このIDはChatGPTプラグインで使用できます。"
-
 #: components/Summarisation/SummariseUpload.tsx:556
-#~ msgid "Document Length Exceeds Limit"
-#~ msgstr "文書の長さが制限を超えています"
-
 #: pages/delete/index.tsx:233
-#~ msgid "Document Not Found"
-#~ msgstr "ドキュメントが見つかりません"
-
 #: components/Landing/Plans.tsx:506
 #: components/PdfToChat/Plans.tsx:506
-#~ msgid "document per day"
-#~ msgstr "1日あたりのドキュメント数"
-
 #: components/AppSidebar.tsx:295
 msgid "Documentation"
 msgstr "ドキュメンテーション"
 
 #: components/MainSidebar.tsx:356
-#~ msgid "Documents"
-#~ msgstr "ドキュメント"
-
 #: pages/knowledge-base/intro.tsx:278
-#~ msgid "Documents natively supported by AskYourPDF can be seamlessly uploaded to the knowledge base."
-#~ msgstr "AskYourPDFがネイティブでサポートしている文書は、知識ベースにシームレスにアップロードできます。"
-
 #: components/Landing/Plans.tsx:588
 #: components/Landing/Plans.tsx:678
 #: components/PdfToChat/Plans.tsx:588
 #: components/PdfToChat/Plans.tsx:678
-#~ msgid "documents per day"
-#~ msgstr "1日あたりのドキュメント数"
-
 #: components/Modals/PaymentModalContent.tsx:324
 #: components/Modals/PaymentModalContent.tsx:366
-#~ msgid "Documents Upload/day"
-#~ msgstr "1日あたりのドキュメントアップロード数"
-
-#~ msgid "Does AskYourPDF have any limitations on the number of documents that can be uploaded per day?"
-#~ msgstr "AskYourPDFは1日あたりにアップロードできるドキュメント数に制限はありますか?"
-
 #: components/tools/MergePage.tsx:778
 #: components/tools/SplitPage.tsx:909
 msgid "Done"
@@ -1188,15 +558,9 @@ msgstr "終わり"
 #: pages/billing/index.tsx:1141
 #: pages/billing/upgrade.tsx:936
 #: pages/settings/index.tsx:468
-#~ msgid "Downgrade"
-#~ msgstr "ダウングレード"
-
 #: pages/billing/index.tsx:1112
 #: pages/billing/upgrade.tsx:905
 #: pages/settings/index.tsx:437
-#~ msgid "Downgrade Account"
-#~ msgstr "アカウントをダウングレード"
-
 #: components/Navbar.tsx:317
 #: components/Navbar.tsx:374
 #: components/tools/ToolBarExt.tsx:254
@@ -1208,95 +572,43 @@ msgstr "ダウンロード"
 #: components/Extension/ExtensionHero.tsx:256
 #: components/Landing/ExtensionAnnouncement.tsx:141
 #: components/PdfToChat/ExtensionAnnouncement.tsx:141
-#~ msgid "Download Extension"
-#~ msgstr "拡張機能をダウンロード"
-
 #: components/PdfToChat/AppSection.tsx:147
-#~ msgid "Download Our <0>App</0>"
-#~ msgstr "アプリをダウンロードする"
-
 #: components/Extension/Methods.tsx:170
-#~ msgid "Dropbox links"
-#~ msgstr "Dropbox リンク"
-
 #: components/Modals/DocumentSelectModal.tsx:593
-#~ msgid "e.g Exploring the Effects of Climate Change"
-#~ msgstr "例:気候変動の影響を探る"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:388
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:436
 #: components/Modals/CreateAPIKeyDesktop.tsx:401
 #: components/Modals/CreateAPIKeyDesktop.tsx:451
-#~ msgid "e.g My Website API Key"
-#~ msgstr "例: My Website APIキー"
-
 #: components/Affiliate/Header.tsx:194
-#~ msgid "Earn 30% Commission"
-#~ msgstr "30%の手数料を獲得"
-
 #: components/Settings/LinkAccountCall.tsx:107
-#~ msgid "Easily access your subscription benefits on both mobile and web by linking your accounts. Click the link account button to unify your experience and enjoy AskYourPDF across all platforms."
-#~ msgstr "アカウントをリンクすることで、モバイルとウェブの両方で購読特典に簡単にアクセスできます。アカウントのリンクボタンをクリックすると、すべてのプラットフォームでAskYourPDFをご利用いただけます。"
-
 #: pages/knowledge-base/[[...params]].tsx:1066
 #: pages/knowledge-base/[[...params]].tsx:1659
-#~ msgid "Edit Knowledge Base"
-#~ msgstr "ナレッジベースを編集する"
-
 #: components/tools/SplitPage.tsx:805
 #: components/tools/ToolsSection.tsx:133
 msgid "Efficiently split, separate, and manage your PDF files using our superior free online PDF splitter."
 msgstr "PDFファイルを効率的に分割、分離、管理できます。"
 
 #: components/PdfToChat/Discover.tsx:37
-#~ msgid "Effortless Research"
-#~ msgstr "無駄のない研究 "
-
-#: pages/tools/compress/index.tsx:506
-#~ msgid "Effortlessly compress PDF files while retaining their quality. Reduce file sizes for easier sharing, faster downloads, and efficient storage. The PDF Compression tool ensures that your documents remain clear and accessible, even after compression."
-#~ msgstr "PDF ファイルの品質を維持しながら簡単に圧縮します。ファイル サイズを小さくして、共有を容易にし、ダウンロードを高速化し、ストレージを効率的にします。 PDF 圧縮ツールを使用すると、圧縮後でもドキュメントが鮮明でアクセスしやすい状態が保たれます。"
-
 #: components/Landing/Plans.tsx:528
 #: components/Landing/Plans.tsx:616
 #: components/PdfToChat/Plans.tsx:528
 #: components/PdfToChat/Plans.tsx:616
-#~ msgid "Elevate your document interaction with unlimited chats, full conversation history, and priority support."
-#~ msgstr "無制限のチャット、完全な会話履歴、優先サポートで、ドキュメントとのインタラクションを向上させましょう。"
-
 #: components/Modals/Profile.tsx:307
-#~ msgid "Email Address"
-#~ msgstr "メールアドレス"
-
 #: components/tools/ToolsSection.tsx:117
 #: pages/source-tool/index.tsx:248
 msgid "Enhance your research with our Source-Tool, which automatically cites and creates references for your academic text."
 msgstr "学術的なテキストを自動的に引用し、参考文献を作成するSource-Toolを使用して、研究を強化しましょう。"
 
 #: components/Settings/LinkAccountModal.tsx:146
-#~ msgid "Enter Mobile User ID"
-#~ msgstr "モバイルユーザーIDを入力"
-
 #: components/KnowledgeBaseSidebar.tsx:366
 #: components/MainSidebar.tsx:330
 #: components/Modals/DocumentSelectModal.tsx:603
 #: components/Modals/SearchBottomSheet.tsx:116
-#~ msgid "Enter three or more characters"
-#~ msgstr "3文字以上入力してください"
-
 #: components/Settings/LinkAccountModal.tsx:138
-#~ msgid "Enter your mobile account ID to link your mobile account to your web account"
-#~ msgstr "モバイルアカウントIDを入力して、モバイルアカウントとウェブアカウントをリンクします。"
-
 #: components/Api/Pricing.tsx:389
 #: pages/billing/upgrade.tsx:867
 #: pages/settings/index.tsx:837
-#~ msgid "Enterprise plan"
-#~ msgstr "エンタープライズプラン"
-
 #: components/PdfToChat/Discover.tsx:58
-#~ msgid "Enthusiasts and curious minds can use AskYouPDF to explore topics of interest within digital books and resources."
-#~ msgstr "愛好家や好奇心旺盛な人々は、デジタルブックやリソース内の興味深いトピックを探索するためにAskYouPDFを利用できます。"
-
 #: components/tools/DocUploadNoFunc.tsx:323
 #: pages/source-tool/index.tsx:206
 #: pages/source-tool/index.tsx:216
@@ -1304,65 +616,26 @@ msgid "Error"
 msgstr "エラー"
 
 #: components/Modals/Profile.tsx:126
-#~ msgid "Error deleting your account: {errorMessage}"
-#~ msgstr "アカウントの削除中にエラーが発生しました"
-
 #: components/Modals/ConversationFeedback.tsx:267
-#~ msgid "Error submitting your issue: {errorMessage}"
-#~ msgstr "問題の提出中にエラーが発生しました：{errorMessage}"
-
 #: components/PdfToChat/Features.tsx:205
-#~ msgid "Ever wished your documents could talk? With AskYourPDF, they can! Powered by ChatGPT we breathe life into your documents, making them interactive and engaging. No more endless scrolling or skimming - just upload, ask and uncover insights directly from your document"
-#~ msgstr "ドキュメントが話せたらいいのに、と思ったことはありませんか? AskYourPDFなら可能です! ChatGPTの力でドキュメントに生命を吹き込み、インタラクティブでエンゲージメントのあるものにします。端から端までスクロールしたり、ただ目を通すことはもう過去のもの。アップロードして質問をし、ドキュメントから直接洞察を得ましょう"
-
 #: components/Landing/Features.tsx:199
-#~ msgid "Ever wished your documents could talk? With AskYourPDF, they can! Powered by ChatGPT we breathe life into your documents, making them interactive and engaging. No more endless scrolling or skimming – just upload, ask and uncover insights directly from your document"
-#~ msgstr "ドキュメントが話せたらいいのに、と思ったことはありませんか? AskYourPDFなら可能です! ChatGPTの力でドキュメントに生命を吹き込み、インタラクティブでエンゲージメントのあるものにします。端から端までスクロールしたり、ただ目を通すことはもう過去のもの。アップロードして質問をし、ドキュメントから直接洞察を得ましょう"
-
 #: components/PdfToChat/MoreTools.tsx:139
-#~ msgid "Expanding Possibilities with Additional Resources"
-#~ msgstr "追加のリソースで可能性を拡大する"
-
 #: components/Extension/Methods.tsx:127
-#~ msgid "Experience a new way to engage with your <0/> <1>documents </1>"
-#~ msgstr "ドキュメントとの新しい対話方法を体験してください"
-
 #: components/Extension/Download.tsx:172
-#~ msgid "Experience a new way to interact with your PDFs with our Chrome Extension"
-#~ msgstr "弊社のChrome拡張機能を使って、PDFとの新しい対話方法を体験してみてください"
-
 #: components/Api/Header.tsx:163
-#~ msgid "Experience Seamless Integration and Unparalleled PDF Processing Capabilities with AskYourPDF API"
-#~ msgstr "AskYourPDF APIを使用してシームレスな統合と並外れたPDF処理能力を体験してください"
-
 #: components/Landing/Plans.tsx:403
 #: components/PdfToChat/Plans.tsx:403
-#~ msgid "Experience the future of document interaction with AskYourPDF. Choose the plan that fits your needs and start engaging with your documents like never before:"
-#~ msgstr "AskYourPDFでドキュメントとのインタラクションの未来を体験してください。ニーズに合ったプランを選択し、今までにない方法でドキュメントとエンゲージメントを始めましょう:"
-
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:183
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:179
-#~ msgid "Expiry Date"
-#~ msgstr "有効期限"
-
 #: components/Summarisation/SummariseMainBar.tsx:399
 #: components/Summarisation/SummariseSideBar.tsx:281
-#~ msgid "Explore Other Tools"
-#~ msgstr "他のツールを探索する"
-
 #: components/Landing/Products.tsx:173
 #: components/PdfToChat/Products.tsx:173
-#~ msgid "Explore our <0>products</0>"
-#~ msgstr "弊社の<0>製品</0>をご覧ください"
-
 #: components/tools/MainPage.tsx:16
 msgid "Explore our Free Tools"
 msgstr "無料ツールを探索する"
 
 #: components/PdfToChat/MoreTools.tsx:157
-#~ msgid "Explore Tools"
-#~ msgstr "ツールを探索する"
-
 #: components/source-tools/source-result/index.tsx:433
 msgid "Export all"
 msgstr "すべてエクスポート"
@@ -1373,9 +646,6 @@ msgstr "エクスポート形式"
 
 #: pages/conversations/[[...params]].tsx:1099
 #: pages/knowledge-base/[[...params]].tsx:1684
-#~ msgid "Export Chat as PDF"
-#~ msgstr "チャットをPDFとしてエクスポート"
-
 #: components/Navbar.tsx:310
 #: components/Navbar.tsx:367
 #: components/tools/ToolBarExt.tsx:249
@@ -1384,43 +654,16 @@ msgid "Extension"
 msgstr "拡張"
 
 #: components/Modals/PaymentModalContent.tsx:290
-#~ msgid "Extensive Access"
-#~ msgstr "広範なアクセス"
-
-#~ msgid "Extract key insights and create concise summaries using our AI Document Summarisation Tool."
-#~ msgstr "重要な洞察を抽出し、AI文書要約ツールを使用して簡潔な要約を作成します。"
-
 #: components/Summarisation/SummariseMainBar.tsx:392
-#~ msgid "Extract key insights and create concise summaries using our AI Document Summarisation Tool. (200 pages max)"
-#~ msgstr "AIドキュメント要約ツールを使用して、重要な洞察を抽出し、簡潔な要約を作成します。(最大200ページ)"
-
 #: components/Modals/DocumentSelectModal.tsx:392
 #: components/Modals/DocumentSelectModal.tsx:413
 #: components/Modals/DocumentSelectModal.tsx:449
-#~ msgid "Failed"
-#~ msgstr "失敗しました"
-
 #: pages/conversations/[[...params]].tsx:951
 #: pages/knowledge-base/[[...params]].tsx:1523
-#~ msgid "Failed to clear conversation history"
-#~ msgstr "会話履歴のクリアに失敗しました"
-
 #: components/Modals/DocumentSelectModal.tsx:433
-#~ msgid "Failed to delete conversation"
-#~ msgstr "会話の削除に失敗しました"
-
 #: pages/conversations/[[...params]].tsx:914
 #: pages/knowledge-base/[[...params]].tsx:1431
-#~ msgid "Failed to delete conversation. Please try again"
-#~ msgstr "会話の削除に失敗しました。もう一度お試しください"
-
 #: pages/documents/[[...id]]/index.tsx:795
-#~ msgid "Failed to delete document. Please try again"
-#~ msgstr "ドキュメントの削除に失敗しました。もう一度お試しください"
-
-#~ msgid "Failed to delete document. Please try again."
-#~ msgstr "ドキュメントの削除に失敗しました。もう一度お試しください"
-
 #: components/Generator.tsx:263
 #: components/literature-review/MainContent.tsx:292
 #: components/Modals/ExportSourceTools.tsx:231
@@ -1429,43 +672,22 @@ msgstr "PDFのエクスポートに失敗しました"
 
 #: pages/billing/index.tsx:1086
 #: pages/settings/index.tsx:1032
-#~ msgid "Failed to fetch billing history. Please try again."
-#~ msgstr "課金履歴の取得に失敗しました。もう一度お試しください。"
-
 #: components/Settings/LinkAccountCall.tsx:88
-#~ msgid "Failed to link mobile account"
-#~ msgstr "モバイルアカウントのリンクに失敗しました"
-
 #: pages/billing/index.tsx:684
 #: pages/billing/index.tsx:689
 #: pages/settings/index.tsx:303
 #: pages/settings/index.tsx:308
-#~ msgid "Failed to load subscriptions"
-#~ msgstr "サブスクリプションの読み込みに失敗しました"
-
 #: components/literature-review/MainContent.tsx:277
 msgid "Failed to review text. Please try again"
 msgstr "テキストのレビューに失敗しました。もう一度お試しください。"
 
 #: pages/summarise/index.tsx:168
-#~ msgid "Failed to summarise document. Please try again"
-#~ msgstr "ドキュメントの要約に失敗しました。もう一度お試しください"
-
 #: pages/summarise/index.tsx:228
-#~ msgid "Failed to summarise text. Please try again"
-#~ msgstr "テキストの要約に失敗しました。もう一度お試しください"
-
 #: components/tools/DocUploadNoFunc.tsx:335
 msgid "Failed to upload file"
 msgstr "ファイルのアップロードに失敗しました"
 
 #: components/DocumentUpload.tsx:389
-#~ msgid "Failed to upload file. Try downloading the file and upload it manually."
-#~ msgstr "ファイルのアップロードに失敗しました。ファイルをダウンロードして、手動でアップロードしてみてください。"
-
-#~ msgid "FAQ"
-#~ msgstr "よくある質問"
-
 #: components/Footer.tsx:349
 msgid "FAQs"
 msgstr "よくある質問"
@@ -1474,17 +696,11 @@ msgstr "よくある質問"
 msgid "Fetch document"
 msgstr "ドキュメントを取得中"
 
-#~ msgid "Fetching Conversations"
-#~ msgstr "会話を取得中"
-
 #: components/tools/DocUploadNoFunc.tsx:415
 msgid "Fetching document"
 msgstr "ドキュメントを取得中"
 
 #: pages/knowledge-base/intro.tsx:379
-#~ msgid "Fetching documents"
-#~ msgstr "文書を取得中"
-
 #: components/literature-review/LiteratureSideBar.tsx:369
 msgid "Field of Study"
 msgstr "研究の分野"
@@ -1495,9 +711,6 @@ msgstr "ファイルのアップロード"
 
 #: components/DocumentUpload.tsx:379
 #: pages/upload/index.tsx:290
-#~ msgid "File upload failed"
-#~ msgstr "ファイルのアップロードに失敗しました"
-
 #: components/literature-review/LiteratureUpload.tsx:398
 #: components/literature-review/LiteratureUpload.tsx:402
 #: components/tools/DocUploadNoFunc.tsx:333
@@ -1505,9 +718,6 @@ msgid "File Upload Failed"
 msgstr "ファイルのアップロードに失敗しました"
 
 #: components/DocumentUpload.tsx:370
-#~ msgid "File uploaded successfully"
-#~ msgstr "ファイルが正常にアップロードされました"
-
 #: pages/book-title-generator/generate/index.tsx:68
 #: pages/book-title-generator/index.tsx:84
 #: pages/instagram-caption/generate/index.tsx:67
@@ -1522,83 +732,35 @@ msgstr "ファイルのアップロードに失敗しました"
 #: pages/text-generator/index.tsx:83
 #: pages/thesis-statement/generate/index.tsx:63
 #: pages/thesis-statement/index.tsx:78
-#~ msgid "fill"
-#~ msgstr ""
-
 #: pages/essay-maker/generate/index.tsx:109
 #: pages/essay-maker/index.tsx:63
 msgid "Fill"
 msgstr ""
 
 #: components/PdfToChat/SummarizeGuide.tsx:198
-#~ msgid "Finally, click the 'Summarise' button, and within moments, AskYourPDF will provide you with a customized summary of your document based on your settings and, if provided, your prompt."
-#~ msgstr "最後に、「要約」ボタンをクリックし、わずかな時間で、AskYourPDFはあなたの設定と、提供された場合は指示に基づいたカスタマイズされた文書の要約を提供します。"
-
 #: components/source-tools/source-content/index.tsx:266
 msgid "Find sources"
 msgstr "ソースを検索"
 
 #: components/Extension/Methods.tsx:173
-#~ msgid "For those who rely on Dropbox for their document storage, the AskYourPDF Chrome extension is a really helpful addition. Open any PDF link from Dropbox in Chrome, and the extension starts up, ready to help. With its intuitive interface, you can now work with your Dropbox documents more easily, making it a must-have tool for professionals and students alike."
-#~ msgstr "ドキュメントの保存にDropboxを利用している人にとって、AskYourPDF Chrome拡張機能は本当に役立つ追加機能です。ChromeでDropboxからのPDFリンクを開くと、拡張機能が起動し、即座にサポートの用意ができます。直感的なインターフェースを備えているため、Dropboxのドキュメントとの作業がより簡単になり、プロフェッショナルや学生にとって必携のツールとなっています。"
-
 #: components/Summarisation/SummariseSideBar.tsx:325
-#~ msgid "Format"
-#~ msgstr "フォーマット"
-
 #: components/PdfToChat/Guide.tsx:155
-#~ msgid "Formulate your questions naturally, just as you would in a conversation."
-#~ msgstr "会話と同じように、自然に質問を組み立てる。"
-
 #: components/Landing/MobileAppBanner.tsx:89
-#~ msgid "Free"
-#~ msgstr "無料"
-
 #: components/Api/Pricing.tsx:274
-#~ msgid "Free Plan"
-#~ msgstr "無料プラン"
-
 #: pages/settings/index.tsx:549
-#~ msgid "Free Plan <0>$0/month</0>"
-#~ msgstr "フリープラン <0>月額$0</0>"
-
 #: pages/settings/index.tsx:554
-#~ msgid "Free tier usage applicable - 100 page per document & 50 questions daily"
-#~ msgstr "フリープランの利用 - 1ドキュメントあたり100ページ、1日50問まで"
-
 #: utils/faqData.tsx:65
-#~ msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
-#~ msgstr "無料ユーザーは1日に1つの文書をアップロードできます。プレミアムおよびプロユーザーはそれぞれ1日に50および150の文書をアップロードできます。より多くのアップロードが必要な場合、ユーザーはエンタープライズプランのために私たちに連絡する必要があります。"
-
 #: components/PdfToChat/LandingFaq.tsx:85
 #: pages/faq/index.tsx:66
-#~ msgid "Frequently Asked Questions"
-#~ msgstr "よくある質問"
-
 #: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
 msgstr "あなたの文書から"
 
 #: components/APIKeysList.tsx:674
-#~ msgid "Generate API Key"
-#~ msgstr "APIキーを生成"
-
 #: components/APIKeysList.tsx:575
 #: components/APIKeysList.tsx:739
-#~ msgid "Generated on"
-#~ msgstr "生成日"
-
-#~ msgid "Generated on {0}"
-#~ msgstr "{0} に生成"
-
 #: components/Landing/Hero.tsx:253
-#~ msgid "Get Our Plugin"
-#~ msgstr "弊社のプラグインを取得"
-
 #: components/Affiliate/Features.tsx:153
-#~ msgid "Get Paid Commission"
-#~ msgstr "手数料を受け取る"
-
 #: components/Navbar.tsx:414
 msgid "Get Started"
 msgstr "はじめる"
@@ -1609,14 +771,8 @@ msgstr "はじめに"
 
 #: components/Landing/Plans.tsx:717
 #: components/PdfToChat/Plans.tsx:717
-#~ msgid "Go all out on features! Get everything in the Pro Plan, plus priority document processing and access to new features."
-#~ msgstr "機能をフルに活用しましょう! プロプランの全機能に加え、優先的なドキュメント処理と新機能へのアクセスが含まれます。"
-
 #: components/Modals/PaymentModalContent.tsx:557
 #: components/Modals/UnitsExceededModal.tsx:124
-#~ msgid "Go back"
-#~ msgstr "戻る"
-
 #: components/Modals/ConversationDeleteModal.tsx:120
 #: components/Modals/ConversationHistoryDeleteModal.tsx:120
 #: components/Modals/DocumentDeleteModal.tsx:122
@@ -1627,45 +783,24 @@ msgstr "はじめに"
 #: pages/billing/upgrade.tsx:928
 #: pages/documents/[[...id]]/index.tsx:1013
 #: pages/settings/index.tsx:460
-#~ msgid "Go Back"
-#~ msgstr "戻る"
-
 #: components/Extension/Methods.tsx:154
-#~ msgid "Google Drive Links"
-#~ msgstr "Google Drive リンク"
-
 #: utils/termsData.ts:71
-#~ msgid "Governing Law"
-#~ msgstr "準拠法"
-
 #: pages/settings/index.tsx:892
 #: pages/settings/index.tsx:900
-#~ msgid "GPT-4 Credit"
-#~ msgstr "GPT-4 クレジット"
-
 #: pages/source-tool/index.tsx:278
 msgid "Hang on! We’re looking for sources"
 msgstr "お待ちください！ソースを探しています"
 
 #: components/Modals/ConversationFeedback.tsx:369
 #: components/Modals/ConversationFeedback.tsx:479
-#~ msgid "Harmful Content"
-#~ msgstr "有害なコンテンツ"
-
 #: components/tools/ToolsSection.tsx:126
 msgid "Harness the power of our AI-driven Literature Review Assistant. Simplify your research process, produce structured overviews, and craft in-depth literature reviews to elevate your academic work."
 msgstr "AIを活用した文献レビューアシスタント。研究プロセスを簡素化し、構造化された概要を作成し、詳細な文献レビューを作成することで、学術研究を向上させます。"
 
 #: components/Landing/Features.tsx:238
 #: components/PdfToChat/Features.tsx:244
-#~ msgid "Here, you give voice to your documents, turning them into engaging chat partners. What's more? You can effortlessly track and revisit all your conversations. Take control, ask questions, get answers, and never lose track of your learning. Ready to make your documents work for you?"
-#~ msgstr "ここでドキュメントに声を与え、エンゲージメントあるチャットパートナーに変えることができます。その上、すべての会話を手軽に追跡・再確認できます。コントロールを取り戻し、質問をし、答えを得て、学びを見失うことがなくなります。ドキュメントを自分のために働かせる準備はできましたか?"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:403
 #: components/Modals/CreateAPIKeyDesktop.tsx:416
-#~ msgid "Hey there, Just a quick reminder"
-#~ msgstr "こんにちは、ちょっとしたお願いがあります"
-
 #: components/Navbar.tsx:278
 #: components/Navbar.tsx:335
 #: components/tools/ToolBarExt.tsx:234
@@ -1674,85 +809,25 @@ msgid "Home"
 msgstr "ホーム"
 
 #: utils/faqData.tsx:28
-#~ msgid "How does billing work?"
-#~ msgstr "請求はどのように動作しますか？"
-
 #: pages/chat/[[...docID]]/index.tsx:240
 #: pages/knowledge-base/intro.tsx:259
 #: utils/faqData.tsx:18
-#~ msgid "How does it work?"
-#~ msgstr "どのように機能しますか?"
-
 #: components/Affiliate/Features.tsx:112
-#~ msgid "How it Works"
-#~ msgstr "使い方"
-
 #: utils/faqData.tsx:129
-#~ msgid "How long are the chat sessions saved on AskYourPDF?"
-#~ msgstr "AskYourPDF上のチャットセッションはどのくらいの期間保存されますか?"
-
-#~ msgid "How to <0> summarize</0> a PDF File with  AI"
-#~ msgstr "AIを使用してPDFファイルを要約する方法"
-
 #: components/PdfToChat/SummarizeGuide.tsx:135
-#~ msgid "How to <0> Summarize</0> a PDF File with  AI"
-#~ msgstr "AIでPDFファイルを<0>要約</0>する方法"
-
 #: pages/knowledge-base/intro.tsx:282
-#~ msgid "How will AskYourPDF respond if I have two documents with similar contents in my knowledge base?"
-#~ msgstr "私の知識ベースに似た内容の2つの文書がある場合、AskYourPDFはどのように応答しますか？"
-
 #: components/SearchResults.tsx:347
-#~ msgid "I could not find any results related to <0>\"{debouncedSearchTerm}\"</0>. Try searching for something else"
-#~ msgstr "<0>\"{debouncedSearchTerm}\"</0> に関連する結果が見つかりませんでした。他のキーワードで検索してみてください"
-
 #: pages/upload/index.tsx:303
-#~ msgid "ID Copied"
-#~ msgstr "IDがコピーされました"
-
 #: components/MobileHeader.tsx:123
-#~ msgid "ID Generator"
-#~ msgstr "IDジェネレーター"
-
 #: pages/documents/[[...id]]/index.tsx:921
-#~ msgid "ID:"
-#~ msgstr "ID:"
-
 #: utils/faqData.tsx:74
-#~ msgid "If I cancel my subscription, will I get a refund?"
-#~ msgstr "サブスクリプションをキャンセルした場合、払い戻しは受けられますか？"
-
 #: utils/faqData.tsx:92
-#~ msgid "If the answer is in the uploaded document, there's a high likelihood the AI will provide it. The AI is constantly learning, so if it doesn't have an answer, you can always rephrase or ask a different question."
-#~ msgstr "アップロードされた文書に答えがある場合、AIが提供する可能性が高いです。AIは常に学習しているため、答えがない場合でも、言い換えるか別の質問をすることができます。"
-
-#~ msgid "If the answer lies in the uploaded document, then there’s high likelihood the AI will answer it correctly.Note that the AI is constantly learning, so if it cannot answer your question,you can always ask a different question."
-#~ msgstr "答えがアップロードしたドキュメントにある場合、AIが正確に答える可能性は高いでしょう。AIは常に学習しているため、質問に答えられない場合はいつでも別の質問をすることができます。"
-
 #: pages/settings/index.tsx:517
-#~ msgid "If you choose to downgrade at any point. Your subscription will be active until the end of your next billing cycle."
-#~ msgstr "いつでもダウングレードを選択できます。次の請求サイクルの終わりまでサブスクリプションは有効です。"
-
 #: utils/faqData.tsx:135
-#~ msgid "If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help!"
-#~ msgstr "AskYourPDFを使用中に問題が発生した場合や質問がある場合は、サポートチームにお問い合わせください：support@askyourpdf.com。彼らはお手伝いさせていただきます！"
-
 #: pages/privacy/index.tsx:159
-#~ msgid "If you have any questions or concerns about our privacy practices or this Privacy Policy, please don't hesitate to contact us. We value your opinions and look forward to hearing from you."
-#~ msgstr "プライバシー慣行やこのプライバシーポリシーについてご質問やご意見があれば、遠慮なくお問い合わせください。あなたの意見を尊重し、ご連絡を楽しみにしています。"
-
 #: components/Extension/Methods.tsx:159
-#~ msgid "If you use Google Drive, the AskYourPDF Chrome extension is perfect for you. Just open a PDF from your Google Drive in Chrome, and the extension starts up on its own. It gives you the flexibility to engage with the document, get summaries, ask questions and receive answers in a flash."
-#~ msgstr "Google Driveを使用している場合、AskYourPDF Chrome拡張機能は完璧です。ChromeでGoogle DriveからPDFを開くだけで、拡張機能は自動で起動します。これにより、ドキュメントとの対話、要約の取得、質問の投稿、即座の回答が可能です。"
-
 #: components/APIKeysList.tsx:609
-#~ msgid "If you wish to increase your monthly limits you can upgrade to a higher subscription plan"
-#~ msgstr "月間制限を増やしたい場合は、上位のサブスクリプションプランにアップグレードできます"
-
 #: utils/termsData.ts:37
-#~ msgid "In order to provide the intended functionality of our app, we may request certain permissions from you, such as access to your device's storage or file system. These permissions are solely for the purpose of allowing you to import and view documents stored on your device."
-#~ msgstr "アプリの機能を提供するために、デバイスのストレージやファイルシステムへのアクセスなど、特定のアクセス許可をリクエストする場合があります。これらの許可は、デバイスに保存されたドキュメントをインポートおよび閲覧できるようにするためだけに使用されます。"
-
 #: components/Landing/Plans.tsx:473
 #: components/Landing/Plans.tsx:555
 #: components/Landing/Plans.tsx:645
@@ -1761,21 +836,9 @@ msgstr "ホーム"
 #: components/PdfToChat/Plans.tsx:555
 #: components/PdfToChat/Plans.tsx:645
 #: components/PdfToChat/Plans.tsx:738
-#~ msgid "Includes"
-#~ msgstr "含まれるもの"
-
 #: pages/settings/index.tsx:638
-#~ msgid "Includes up to 2,500 pages per doc (max 30mb)"
-#~ msgstr "ドキュメントあたり最大2,500ページまで (最大30MB)"
-
 #: pages/settings/index.tsx:755
-#~ msgid "Includes up to 6,000 pages per doc (max 90mb)"
-#~ msgstr "ドキュメントあたり最大6,000ページまで (最大90MB)"
-
 #: components/Modals/ConversationFeedback.tsx:370
-#~ msgid "Incorrect Response"
-#~ msgstr "誤った回答"
-
 #: pages/story-generator/generate/index.tsx:110
 #: pages/story-generator/index.tsx:56
 msgid "input Key events/plot points"
@@ -1787,9 +850,6 @@ msgid "input Key Points to Cover"
 msgstr "インプット・キーポイント"
 
 #: pages/paragraph-generator/index.tsx:57
-#~ msgid "Input main idea/supporting points"
-#~ msgstr "メインアイデア／サポートポイントの入力"
-
 #: pages/story-generator/generate/index.tsx:109
 #: pages/story-generator/index.tsx:55
 msgid "Input Names and a brief description of the main characters"
@@ -1812,13 +872,7 @@ msgid "Input some line here to begin"
 msgstr "ここに行を入力して始める"
 
 #: components/Summarisation/SummariseMainBar.tsx:457
-#~ msgid "Input some text here OR upload a document in the pane below to summarise"
-#~ msgstr "ここにテキストを入力するか、要約するために下のパネルにドキュメントをアップロードしてください"
-
 #: components/Summarisation/SummariseMainBar.tsx:456
-#~ msgid "Input some text here OR upload a document in the right pane to summarise"
-#~ msgstr "ここにテキストを入力するか、要約するために右側のパネルにドキュメントをアップロードしてください"
-
 #: pages/essay-maker/generate/index.tsx:102
 #: pages/essay-maker/index.tsx:52
 msgid "input Thesis Statement"
@@ -1831,121 +885,49 @@ msgstr "入力 タイトルまたはトピック"
 
 #: components/Landing/Features.tsx:265
 #: components/PdfToChat/Features.tsx:290
-#~ msgid "Insightful Conversations"
-#~ msgstr "洞察に満ちた会話"
-
 #: pages/instagram-caption/generate/index.tsx:109
 #: pages/instagram-caption/index.tsx:71
 msgid "Instagram Caption Generator"
 msgstr "インスタグラム・キャプション・ジェネレーター"
 
 #: components/Landing/Hero.tsx:257
-#~ msgid "Install directly on ChatGPT"
-#~ msgstr "ChatGPTに直接インストール"
-
-#~ msgid "Instantly generate brief summaries that deliver crucial information, changing your document interaction into a streamlined efficient process."
-#~ msgstr "重要な情報を提供する簡潔な要約を即座に生成し、文書のインタラクションを効率的かつ効果的なプロセスに変えます。"
-
 #: components/Modals/DocumentSelectModal.tsx:458
 #: components/Modals/DocumentSelectModal.tsx:466
 #: components/Modals/DocumentSelectModal.tsx:482
 #: components/Modals/DocumentSelectModal.tsx:490
 #: components/Settings/LinkAccountCall.tsx:96
-#~ msgid "Invalid Entry"
-#~ msgstr "無効なエントリ"
-
 #: components/tools/DocUploadNoFunc.tsx:323
 msgid "Invalid Entry. Please try again"
 msgstr "入力が無効です。もう一度お試しください"
 
 #: pages/billing/index.tsx:1020
 #: pages/settings/index.tsx:130
-#~ msgid "Invoice"
-#~ msgstr "請求書"
-
 #: pages/billing/index.tsx:988
 #: pages/settings/index.tsx:997
-#~ msgid "Invoice History"
-#~ msgstr "請求書履歴"
-
 #: components/Footer.tsx:288
 msgid "iOS App"
 msgstr "iOSアプリ"
 
 #: pages/chat/[[...docID]]/index.tsx:250
 #: utils/faqData.tsx:39
-#~ msgid "Is it necessary to create an account to use the application?"
-#~ msgstr "アプリを使用するにはアカウントの作成が必要ですか?"
-
 #: utils/faqData.tsx:96
-#~ msgid "Is my data secure?"
-#~ msgstr "私のデータは安全ですか?"
-
 #: utils/faqData.tsx:69
-#~ msgid "Is the application free to use?"
-#~ msgstr "このアプリは無料で使えますか?"
-
 #: pages/knowledge-base/intro.tsx:297
-#~ msgid "Is the Knowledge Base service free or is there a separate charge?"
-#~ msgstr "知識ベースサービスは無料ですか、それとも別途料金がかかりますか？"
-
 #: utils/faqData.tsx:44
-#~ msgid "Is there a discount for students?"
-#~ msgstr "学生割引はありますか？"
-
 #: utils/faqData.tsx:64
-#~ msgid "Is there a limit to the number of documents I can upload?"
-#~ msgstr "アップロードできるドキュメントの数に制限はありますか?"
-
 #: utils/faqData.tsx:112
-#~ msgid "Is there a limit to the size of the document that can be uploaded?"
-#~ msgstr "アップロードできるドキュメントのサイズに制限はありますか?"
-
 #: components/Announcements.tsx:30
-#~ msgid "it to access AskYourPDF from anywhere."
-#~ msgstr "どこからでもAskYourPDFにアクセスするためにそれを使用してください。"
-
 #: components/Landing/Hero.tsx:267
-#~ msgid "it's a <0>conversation</0>"
-#~ msgstr "それは<0>会話</0>です"
-
 #: utils/faqData.tsx:14
-#~ msgid "It's an application that lets you chat with any document you upload"
-#~ msgstr "それは、アップロードしたどんな文書でもチャットできるアプリケーションです"
-
 #: components/Affiliate/Features.tsx:127
-#~ msgid "It's easy to get started. Sign up for our Affiliate Programme to receive your unique referral link."
-#~ msgstr "始めるのは簡単です。アフィリエイトプログラムにサインアップして、"
-
 #: components/Landing/Hero.tsx:264
-#~ msgid "It's not just reading anymore"
-#~ msgstr "もう読むだけではありません"
-
 #: components/Affiliate/Header.tsx:209
-#~ msgid "Join Now"
-#~ msgstr "今すぐ参加"
-
 #: components/Affiliate/Header.tsx:190
-#~ msgid "Join Our Affiliate Program and"
-#~ msgstr "アフィリエイトプログラムに参加して"
-
 #: components/Affiliate/Join.tsx:94
-#~ msgid "Join our Affiliate Programme today and start earning for your referrals while sharing the benefits of AskYourPDF. As an AskYourPDF Affiliate, you can help your audience realize the full potential of their documents."
-#~ msgstr "今日、私たちのアフィリエイトプログラムに参加して、あなたの紹介で報酬を得ながらAskYourPDFの利点を共有しましょう。AskYourPDFのアフィリエイトとして、"
-
 #: components/Affiliate/Join.tsx:91
-#~ msgid "Join us Today"
-#~ msgstr "今日参加してください"
-
 #: components/Landing/Features.tsx:275
 #: components/PdfToChat/Features.tsx:300
-#~ msgid "Just upload and voila, your documents aren't just smart, they're your new best friends. Dive in, engage, and enjoy your most interactive reading experience yet!"
-#~ msgstr "アップロードするだけで、ドキュメントはスマートなだけでなく、あなたの新しいベストフレンドになります。 Dixeて、エンゲージして、今までで最もインタラクティブな読書体験を楽しんでください!"
-
 #: components/APIKeysList.tsx:471
-#~ msgid "Key Deleted"
-#~ msgstr "キーが削除されました"
-
 #: components/AppSidebar.tsx:179
 msgid "Knowledge Base"
 msgstr "ナレッジベース"
@@ -1954,87 +936,31 @@ msgstr "ナレッジベース"
 #: components/Modals/PaymentModalContent.tsx:378
 #: pages/settings/index.tsx:658
 #: pages/settings/index.tsx:781
-#~ msgid "Knowledge Base Access"
-#~ msgstr "ナレッジベースアクセス"
-
 #: components/KnowledgeBaseSidebar.tsx:509
 #: components/Modals/SearchBottomSheet.tsx:180
-#~ msgid "Knowledge Base Conversations"
-#~ msgstr "ナレッジベースの会話"
-
-#~ msgid "Knowledge Base ID Copied"
-#~ msgstr "知識ベースのIDがコピーされました"
-
 #: pages/knowledge-base/[[...params]].tsx:971
 #: pages/knowledge-base/[[...params]].tsx:1666
-#~ msgid "Knowledge Base ID Copied. You can use this ID with our ChatGPT Plugin"
-#~ msgstr "ナレッジベースIDがコピーされました。ChatGPTプラグインでこのIDを使用できます"
-
 #: components/PdfToChat/KnowledgeBaseServiceBanner.tsx:82
-#~ msgid "Knowledge Base Service"
-#~ msgstr "ナレッジベース サービス"
-
-#~ msgid "Leading Universities"
-#~ msgstr "有力な大学"
-
 #: components/PdfToChat/ApiBanner.tsx:87
-#~ msgid "Learn More"
-#~ msgstr "詳細を学ぶ"
-
 #: components/Landing/Features.tsx:307
 #: components/PdfToChat/Features.tsx:332
-#~ msgid "Learn Playfully"
-#~ msgstr "遊び心を持って学ぶ"
-
 #: components/PdfToChat/Discover.tsx:42
-#~ msgid "Legal Clarity"
-#~ msgstr "法的明瞭さ"
-
 #: components/Summarisation/SummariseSideBar.tsx:296
-#~ msgid "Length"
-#~ msgstr "長さ"
-
 #: components/tools/ToolsSection.tsx:274
-#~ msgid "Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
-#~ msgstr "人工知能に作業を任せて PDF ドキュメントを個別のファイルに分割することで、時間を節約し、ドキュメント管理タスクを合理化します。"
-
+#: pages/tools/split/index.tsx:813
 #: components/tools/SplitPage.tsx:819
-#~ msgid "Let artificial intelligence do the work as it swiftly divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
-#~ msgstr "人工知能に作業を任せて、PDF ドキュメントを個別のファイルに迅速に分割することで時間を節約し、ドキュメント管理タスクを合理化します。"
-
 #: components/Modals/PaymentBottomSheet.tsx:164
 #: components/Modals/PaymentModalDesktop.tsx:167
 #: components/Modals/PaymentSuccessModal.tsx:173
 #: components/Modals/PaymentSuccessModal.tsx:211
-#~ msgid "Let's Go"
-#~ msgstr "はじめましょう"
-
 #: components/tools/ToolsSection.tsx:298
-#~ msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources of relevant to your needs."
-#~ msgstr "人工知能の力を活用し、お客様のニーズに合ったソースを発見、分析、推薦します。"
-
 #: pages.index.tsx:323
-#~ msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources relevant to your needs."
-#~ msgstr "人工知能の力を活用して、ニーズに関連するソースを発見し、分析し、推薦します。"
-
 #: utils/termsData.ts:66
-#~ msgid "Limitation of Liability"
-#~ msgstr "責任の制限"
-
 #: components/Settings/LinkAccountCall.tsx:120
 #: components/Settings/LinkAccountModal.tsx:135
 #: components/Settings/LinkAccountModal.tsx:161
-#~ msgid "Link Account"
-#~ msgstr "アカウントをリンク"
-
 #: components/Modals/ShareModal.tsx:189
-#~ msgid "Link copied"
-#~ msgstr "リンクがコピーされました"
-
 #: components/Settings/LinkAccountCall.tsx:104
-#~ msgid "Link Your Mobile Account"
-#~ msgstr "モバイルアカウントをリンク"
-
 #: components/literature-review/LiteratureMainBar.tsx:435
 msgid "Literature Review copied"
 msgstr "文献レビュー"
@@ -2044,21 +970,12 @@ msgstr "文献レビュー"
 msgid "Literature Review Tool"
 msgstr "文献レビューツール"
 
-#~ msgid "Literature Review Writer Tool"
-#~ msgstr "文献レビューライターツール "
-
 #: components/KnowledgeBaseSidebar.tsx:565
 #: components/KnowledgeBaseSidebar.tsx:600
 #: components/MainSidebar.tsx:510
 #: components/MainSidebar.tsx:545
-#~ msgid "Log In"
-#~ msgstr "ログイン"
-
 #: components/KnowledgeBaseSidebar.tsx:573
 #: components/MainSidebar.tsx:518
-#~ msgid "Login or create an account to have multiple conversations, access your chat history and manage your documents seamlessly"
-#~ msgstr "アカウントをログインまたは作成すると、複数の会話、チャット履歴へのアクセス、ドキュメントの管理がシームレスに行えます"
-
 #: components/AppSidebar.tsx:336
 msgid "Logout"
 msgstr "ログアウト"
@@ -2067,40 +984,19 @@ msgstr "ログアウト"
 #: components/Modals/PaymentModalContent.tsx:393
 #: components/PdfToChat/Plans.tsx:694
 #: pages/settings/index.tsx:775
-#~ msgid "Longer Reply Length"
-#~ msgstr "返信の文字数制限拡張"
-
 #: pages/paragraph-generator/generate/index.tsx:100
 #: pages/paragraph-generator/index.tsx:49
 msgid "Main idea"
 msgstr "主旨"
 
 #: components/Modals/Profile.tsx:335
-#~ msgid "Manage"
-#~ msgstr "管理"
-
 #: components/DeveloperSidebar.tsx:140
-#~ msgid "Manage & Create API Keys to connect your applications"
-#~ msgstr "アプリケーションを接続するためのAPIキーの管理と作成"
-
 #: pages/billing/index.tsx:970
 #: pages/settings/index.tsx:985
-#~ msgid "Manage Payment Method"
-#~ msgstr "支払方法の管理"
-
 #: components/DeveloperSidebar.tsx:158
-#~ msgid "Manage payments for your developer account"
-#~ msgstr "開発者アカウントの支払いを管理"
-
 #: components/KnowledgeBaseSidebar.tsx:668
 #: components/MainSidebar.tsx:623
-#~ msgid "Manage Subscription"
-#~ msgstr "サブスクリプションの管理"
-
 #: pages/settings/index.tsx:917
-#~ msgid "Manage your payment method and billing history"
-#~ msgstr "支払方法と請求履歴を管理"
-
 #: components/Landing/Plans.tsx:479
 #: components/Landing/Plans.tsx:561
 #: components/Landing/Plans.tsx:651
@@ -2108,199 +1004,73 @@ msgstr "主旨"
 #: components/PdfToChat/Plans.tsx:479
 #: components/PdfToChat/Plans.tsx:561
 #: components/PdfToChat/Plans.tsx:651
-#~ msgid "max"
-#~ msgstr "最大"
-
 #: components/Landing/Plans.tsx:487
 #: components/Landing/Plans.tsx:569
 #: components/Landing/Plans.tsx:659
 #: components/PdfToChat/Plans.tsx:487
 #: components/PdfToChat/Plans.tsx:569
 #: components/PdfToChat/Plans.tsx:659
-#~ msgid "Max upload size"
-#~ msgstr "最大アップロードサイズ"
-
 #: pages/billing/upgrade.tsx:727
 #: pages/billing/upgrade.tsx:828
-#~ msgid "Maximum {0} documents per <0>month</0>"
-#~ msgstr "月あたり最大{0}ドキュメント"
-
 #: components/literature-review/LiteratureMainBar.tsx:396
 #: components/source-tools/source-content/index.tsx:248
 msgid "Maximum of 10000 characters"
 msgstr ""
 
 #: components/source-tools/source-content/index,tsx.tsx:248
-#~ msgid "Maximum of 300 characters"
-#~ msgstr "最大300文字まで"
-
 #: components/Modals/DocumentSelectModal.tsx:631
-#~ msgid "Maximum of 5 documents"
-#~ msgstr "最大5つのドキュメント"
-
 #: components/Modals/PaymentModalContent.tsx:321
 #: components/Modals/PaymentModalContent.tsx:363
-#~ msgid "MB/Document"
-#~ msgstr "ドキュメントあたりのMB"
-
 #: components/tools/MergePage.tsx:812
 msgid "Merge Another"
 msgstr "別のものをマージ"
 
 #: pages/tools/merge/index.tsx:691
-#~ msgid "Merge PDF"
-#~ msgstr "PDFを結合"
-
 #: components/PdfToChat/MoreTools.tsx:35
-#~ msgid "Merge PDF Tool"
-#~ msgstr "PDF 結合ツール"
-
 #: pages/conversations/[[...params]].tsx:1218
 #: pages/knowledge-base/[[...params]].tsx:1797
-#~ msgid "Message Copied"
-#~ msgstr "メッセージがコピーされました"
-
 #: components/Landing/Products.tsx:136
 #: components/PdfToChat/Products.tsx:136
-#~ msgid "Mobile App"
-#~ msgstr "モバイルアプリ"
-
 #: components/Landing/Plans.tsx:422
 #: components/Modals/PaymentModalContent.tsx:497
 #: components/PdfToChat/Plans.tsx:422
-#~ msgid "Monthly"
-#~ msgstr "月ごと"
-
-#~ msgid "Most Popular"
-#~ msgstr "最も人気"
-
 #: components/Landing/Plans.tsx:604
 #: components/PdfToChat/Plans.tsx:604
-#~ msgid "Most popular and Efficient"
-#~ msgstr "最も人気があり効率的"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:431
 #: components/Modals/CreateAPIKeyDesktop.tsx:445
-#~ msgid "Name of API Key"
-#~ msgstr "APIキーの名前"
-
 #: components/Modals/DocumentSelectModal.tsx:586
-#~ msgid "Name of Knowledge Base"
-#~ msgstr "ナレッジベースの名前"
-
 #: components/Modals/DocumentSelectModal.tsx:580
-#~ msgid "Name your Knowledge Base"
-#~ msgstr "ナレッジベースに名前を付ける"
-
 #: components/PdfToChat/LandingFaq.tsx:90
 #: pages/faq/index.tsx:67
-#~ msgid "Need help? Look through our FAQs for quick answers!"
-#~ msgstr "ヘルプが必要ですか? FAQを見てクイックアンサーをチェックしてください!"
-
 #: components/APIKeysList.tsx:605
-#~ msgid "Need to increase your monthly limits?"
-#~ msgstr "月間制限を増やす必要がありますか?"
-
 #: components/Landing/Products.tsx:191
 #: components/Landing/Products.tsx:207
 #: components/PdfToChat/Products.tsx:191
 #: components/PdfToChat/Products.tsx:207
-#~ msgid "New"
-#~ msgstr "新規"
-
 #: pages/apikeys/index.tsx:445
-#~ msgid "New API Key"
-#~ msgstr "新しいAPIキー"
-
 #: pages/documents/[[...id]]/index.tsx:567
-#~ msgid "New Chat"
-#~ msgstr "新しいチャット"
-
 #: components/MainSidebar.tsx:691
 #: pages/documents/[[...id]]/index.tsx:985
-#~ msgid "New Conversation"
-#~ msgstr "新しい会話"
-
 #: components/Modals/Profile.tsx:212
-#~ msgid "new password"
-#~ msgstr "新しいパスワード"
-
 #: components/Modals/Profile.tsx:207
-#~ msgid "New Password"
-#~ msgstr "新しいパスワード"
-
 #: components/Modals/DocumentSelectModal.tsx:698
-#~ msgid "Next"
-#~ msgstr "次へ"
-
 #: components/SearchResults.tsx:344
-#~ msgid "No results found"
-#~ msgstr "結果が見つかりませんでした"
-
 #: utils/faqData.tsx:102
-#~ msgid "No, documents cannot be edited within AskYourPDF. But this will be possible in the future."
-#~ msgstr "いいえ、文書はAskYourPDF内で編集できません。しかし、将来的には可能になります。"
-
 #: utils/faqData.tsx:118
-#~ msgid "No, only one document can be uploaded at a time. But this will be possible in the future."
-#~ msgstr "いいえ、一度に1つの文書しかアップロードできません。しかし、将来的には可能になります。"
-
 #: utils/faqData.tsx:124
-#~ msgid "No, password-protected documents cannot be uploaded to AskYourPDF."
-#~ msgstr "いいえ、パスワードで保護された文書はAskYourPDFにアップロードできません。"
-
 #: pages/chat/[[...docID]]/index.tsx:256
-#~ msgid "No, the chat interface is only for interacting with the content of the document"
-#~ msgstr "いいえ、チャットインターフェースはドキュメントの内容と交流するためのみです"
-
 #: utils/faqData.tsx:60
-#~ msgid "No, the chat interface is solely for interacting with the content of the document."
-#~ msgstr "いいえ、チャットインターフェースは文書のコンテンツとの対話専用です。"
-
-#~ msgid "No, there are no limitations on the number of documents that can be uploaded per day"
-#~ msgstr "いいえ、1日あたりにアップロードできるドキュメント数の制限はありません。"
-
-#~ msgid "No, there is no limit to the number of documents you can upload. However, for now, the application only accepts one document upload per time."
-#~ msgstr "いいえ、アップロードできるドキュメント数の制限はありません。ただし、現在、アプリは一度に1つのドキュメントのみ受け入れ可能です。"
-
-#~ msgid "No, you can only upload one document at a time."
-#~ msgstr "いいえ、一度にアップロードできるのは1つのドキュメントのみです。"
-
-#~ msgid "No, you cannot edit the document itself while using AskYourPDF."
-#~ msgstr "いいえ、AskYourPDFを使用している間にドキュメント自体を編集することはできません。"
-
-#~ msgid "No, you cannot upload password-protected documents to AskYourPDF."
-#~ msgstr "いいえ、AskYourPDFにパスワード保護されたドキュメントをアップロードすることはできません。"
-
 #: pages/chat/[[...docID]]/index.tsx:251
-#~ msgid "No, you do not need to create an account to use the application, but there are restrictions."
-#~ msgstr "いいえ、アプリを利用するためにアカウントを作成する必要はありませんが、制限があります。"
-
 #: utils/faqData.tsx:40
-#~ msgid "No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."
-#~ msgstr "いいえ、アプリを使用するにはアカウントを作成する必要はありません。ただし、いくつかの制限があります。AskYourPDFの広範な機能を探索するには、アップグレードされたプランが必要です。"
-
 #: components/source-tools/source-result/index.tsx:540
 msgid "Not satisfied with your results?"
 msgstr "結果に満足していませんか？"
 
 #: components/Landing/AppSection.tsx:147
-#~ msgid "Now <0>Live</0>"
-#~ msgstr "今 <0>ライブ</0>"
-
-#~ msgid "Number of Docs"
-#~ msgstr "ドキュメント数"
-
 #: components/APIKeysList.tsx:649
 #: components/APIKeysList.tsx:804
-#~ msgid "Number of Pages"
-#~ msgstr "ページ数"
-
 #: components/APIKeysList.tsx:635
 #: components/APIKeysList.tsx:790
-#~ msgid "Number of Questions"
-#~ msgstr "質問数"
-
 #: components/tools/OcrPage.tsx:250
 #: components/tools/ToolCommon.tsx:170
 #: components/tools/ToolsSection.tsx:146
@@ -2310,56 +1080,20 @@ msgstr "OCR PDFリーダー"
 
 #: pages/settings/index.tsx:652
 #: pages/settings/index.tsx:772
-#~ msgid "OCR support"
-#~ msgstr "OCRサポート"
-
 #: components/Landing/Plans.tsx:690
 #: components/Modals/PaymentModalContent.tsx:336
 #: components/Modals/PaymentModalContent.tsx:390
 #: components/PdfToChat/Plans.tsx:690
-#~ msgid "OCR Support"
-#~ msgstr "OCRサポート"
-
-#~ msgid "OCR Support - Coming Soon"
-#~ msgstr "OCRサポート - 近日公開"
-
-#~ msgid "OCR support (Coming Soon)"
-#~ msgstr "OCRサポート(近日公開)"
-
 #: components/PdfToChat/MoreTools.tsx:27
-#~ msgid "OCR Tool"
-#~ msgstr "OCRツール"
-
 #: components/Modals/Profile.tsx:197
-#~ msgid "old password"
-#~ msgstr "以前のパスワード"
-
 #: components/Modals/Profile.tsx:192
-#~ msgid "Old Password"
-#~ msgstr "以前のパスワード"
-
 #: components/APIKeysList.tsx:762
-#~ msgid "Once you exhaust your quota you will have to upgrade to a production account to keep using your service"
-#~ msgstr "割り当て量を使い切ると、サービスを継続使用するにはプロダクションアカウントにアップグレードする必要があります"
-
 #: components/Affiliate/Features.tsx:141
-#~ msgid "Once you've signed up, begin sharing your referral link with your audience. Spread the word about AskYourPDF's strong document tools,  whether on a blog, a social media, or a professional network."
-#~ msgstr "サインアップしたら、リファラルリンクを観客と共有し始めてください。AskYourPDFの強力なドキュメントツールについて広めてください。"
-
 #: components/SearchResults.tsx:268
-#~ msgid "or document"
-#~ msgstr "またはドキュメント"
-
 #: components/Modals/ConversationFeedback.tsx:371
 #: components/Modals/ConversationFeedback.tsx:480
-#~ msgid "Other"
-#~ msgstr "その他"
-
 #: components/Landing/Features.tsx:311
 #: components/PdfToChat/Features.tsx:336
-#~ msgid "Our AI-powered chat system not only provides you with accurate information but also fosters an enjoyable learning environment that keeps you coming back for more."
-#~ msgstr "弊社のAIチャットシステムは正確な情報を提供するだけでなく、楽しみながら学べる環境を育み、再び訪れたくなる体験を提供します。"
-
 #: components/Waitlist.tsx:141
 msgid "Our API is Now Live"
 msgstr "APIがローンチしました"
@@ -2369,9 +1103,6 @@ msgid "Our Knowledge Base is Now Live"
 msgstr "ナレッジ・ベースが稼動"
 
 #: pages/privacy/index.tsx:129
-#~ msgid "Our Privacy Policy does not apply to services offered by other companies or individuals, including third-party services used in conjunction with AskYourPDF. We recommend that you review the privacy policies of any third-party services you may use."
-#~ msgstr "プライバシーポリシーは、AskYourPDFと連携して使用される第三者サービスを含む、他社や個人が提供するサービスには適用されません。 ご利用になる第三者サービスのプライバシーポリシーを確認することをお勧めします。"
-
 #: components/literature-review/LiteratureMainBar.tsx:425
 msgid "Output"
 msgstr "出力"
@@ -2382,24 +1113,12 @@ msgstr "出力"
 #: components/PdfToChat/Plans.tsx:479
 #: components/PdfToChat/Plans.tsx:561
 #: components/PdfToChat/Plans.tsx:651
-#~ msgid "pages per document"
-#~ msgstr "ドキュメントあたりのページ数"
-
 #: pages/documents/[[...id]]/index.tsx:950
-#~ msgid "Pages:"
-#~ msgstr "ページ数:"
-
 #: components/Modals/PaymentModalContent.tsx:318
 #: components/Modals/PaymentModalContent.tsx:360
-#~ msgid "pages/Document"
-#~ msgstr "ドキュメントあたりのページ数"
-
 #: pages/billing/index.tsx:1054
 #: pages/settings/index.tsx:98
 #: pages/settings/index.tsx:113
-#~ msgid "Paid"
-#~ msgstr "支払済み"
-
 #: pages/paragraph-generator/generate/index.tsx:108
 #: pages/paragraph-generator/index.tsx:59
 msgid "Paragraph Generator"
@@ -2407,17 +1126,8 @@ msgstr "パラグラフ・ジェネレーター"
 
 #: pages/billing/index.tsx:925
 #: pages/settings/index.tsx:929
-#~ msgid "Payment Method"
-#~ msgstr "支払方法"
-
 #: pages/settings/index.tsx:914
-#~ msgid "Payment Method, Billing History & Usage"
-#~ msgstr "支払方法、課金履歴、利用状況"
-
 #: components/Extension/Methods.tsx:140
-#~ msgid "PDF and Other Document Formats"
-#~ msgstr "PDFおよびその他の文書フォーマット"
-
 #: components/tools/ToolCommon.tsx:174
 #: components/ToolsFooter.tsx:86
 msgid "PDF Compressor"
@@ -2443,107 +1153,44 @@ msgstr "PDFからチャットへ"
 
 #: components/Landing/Plans.tsx:455
 #: components/PdfToChat/Plans.tsx:455
-#~ msgid "Perfect for getting started! Experience the magic of AI-enhanced documents at no cost. Includes 100 chats per month."
-#~ msgstr "はじめるにはピッタリ! 無料でAI搭載ドキュメントの魅力を体験できます。月100チャットが含まれます。"
-
 #: components/PdfToChat/Discover.tsx:57
-#~ msgid "Personal Knowledge"
-#~ msgstr "個人の知識"
-
 #: pages/settings/index.tsx:507
-#~ msgid "Pick an account plan that fits your workflow."
-#~ msgstr "ワークフローに合ったアカウントプランを選択してください。"
-
 #: components/Modals/Profile.tsx:320
 #: components/Modals/Profile.tsx:323
 #: pages/billing/index.tsx:833
 #: pages/billing/index.tsx:1075
 #: pages/billing/upgrade.tsx:665
 #: pages/settings/index.tsx:186
-#~ msgid "Plan"
-#~ msgstr "プラン"
-
 #: components/Landing/Plans.tsx:398
 #: components/PdfToChat/Plans.tsx:398
-#~ msgid "Plans for <0>everyone</0>"
-#~ msgstr "誰にでも合う<0>プラン</0>"
-
 #: components/Modals/DocumentSelectModal.tsx:483
-#~ msgid "Please confirm if you have selected any documents"
-#~ msgstr "ドキュメントを選択したかどうか確認してください"
-
 #: components/Modals/DocumentSelectModal.tsx:459
-#~ msgid "Please confirm if you have selected any documents or given the knowledge base a name"
-#~ msgstr "ドキュメントを選択したか、ナレッジベースに名前を付けたかどうか確認してください"
-
 #: pages/upload/index.tsx:317
-#~ msgid "Please copy the document ID above and paste it into the <0>ChatGPT UI</0> to have a conversation about this document."
-#~ msgstr "このドキュメントについて会話をするには、上記のドキュメントIDをコピーして<0>ChatGPT UI</0>に貼り付けてください。"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:300
-#~ msgid "Please enter a API name"
-#~ msgstr "API名を入力してください"
-
 #: components/Settings/LinkAccountCall.tsx:96
-#~ msgid "Please enter a valid device ID"
-#~ msgstr "有効なデバイスIDを入力してください。"
-
 #: components/Modals/CreateAPIKeyDesktop.tsx:315
-#~ msgid "Please enter an API name"
-#~ msgstr "API名を入力してください"
-
 #: components/literature-review/LiteratureSideBar.tsx:373
 #: components/literature-review/LiteratureSideBar.tsx:441
 msgid "Please enter instructions on how to review your text input OR document"
 msgstr "テキスト入力またはドキュメントのレビュー方法についての指示を入力してください"
 
 #: components/Summarisation/SummariseSideBar.tsx:366
-#~ msgid "Please enter instructions on how to summarise your text input OR document"
-#~ msgstr "テキスト入力または文書を要約する方法についての指示を入力してください"
-
 #: pages/delete/index.tsx:284
-#~ msgid "Please Enter Your Document ID"
-#~ msgstr "ドキュメントIDを入力してください "
-
 #: pages/delete/index.tsx:234
-#~ msgid "Please make sure you're deleting a document you uploaded anonymously"
-#~ msgstr "匿名でアップロードした文書を削除していることを確認してください"
-
 #: components/Modals/ConversationFeedback.tsx:388
 #: components/Modals/ConversationFeedback.tsx:497
-#~ msgid "Please provide details: (Optional)"
-#~ msgstr "詳細を提供してください: (任意)"
-
 #: pages/billing/index.tsx:991
-#~ msgid "Please reach out to our team via <0>billing@askyourpdf.com</0> if you have any concerns about billing"
-#~ msgstr "課金に関するご不明な点がありましたら、<0>billing@askyourpdf.com</0>までお問い合わせください"
-
 #: pages/settings/index.tsx:1000
-#~ msgid "Please reach out to our team via billing@askyourpdf.com if you have any concerns about billing"
-#~ msgstr "課金に関するご不明な点がありましたら、billing@askyourpdf.comまでお問い合わせください"
-
 #: pages/conversations/[[...params]].tsx:952
 #: pages/knowledge-base/[[...params]].tsx:1524
-#~ msgid "Please try again"
-#~ msgstr "もう一度お試しください"
-
 #: pages/billing/index.tsx:960
 #: pages/settings/index.tsx:976
-#~ msgid "Please Wait"
-#~ msgstr "しばらくお待ちください"
-
 #: pages/poem-generator/generate/index.tsx:110
 #: pages/poem-generator/index.tsx:76
 msgid "Poem Generator"
 msgstr "詩ジェネレーター"
 
-#~ msgid "Premium Plan <0>$4.99/month or $3.99/month (Billed Annually)</0>"
-#~ msgstr "プレミアムプラン <0>月額$4.99 または 年額$3.99/月</0>"
-
 #: pages/settings/index.tsx:625
-#~ msgid "Premium Plan <0>$9.99/month or $6.99/month (Billed Annually)</0>"
-#~ msgstr "プレミアムプラン <0>$9.99/月または$6.99/月（年間請求）</0>"
-
 #: components/Navbar.tsx:297
 #: components/Navbar.tsx:354
 #: components/tools/ToolBarExt.tsx:244
@@ -2555,46 +1202,19 @@ msgstr "価格設定"
 #: components/Modals/PaymentModalContent.tsx:399
 #: components/PdfToChat/Plans.tsx:702
 #: pages/settings/index.tsx:778
-#~ msgid "Priority access to new features"
-#~ msgstr "新機能への優先アクセス"
-
 #: components/Landing/Plans.tsx:698
 #: components/Modals/PaymentModalContent.tsx:396
 #: components/PdfToChat/Plans.tsx:698
 #: pages/settings/index.tsx:769
-#~ msgid "Priority support"
-#~ msgstr "優先サポート"
-
 #: utils/termsData.ts:46
-#~ msgid "Privacy"
-#~ msgstr "プライバシー"
-
 #: components/Footer.tsx:344
 msgid "Privacy Policy"
 msgstr "プライバシーポリシー"
 
 #: components/Api/Pricing.tsx:303
-#~ msgid "Pro Plan"
-#~ msgstr "プロプラン"
-
-#~ msgid "Pro Plan <0>$12.99/month or $7.99/month (Billed Annually)</0>"
-#~ msgstr "プロプラン <0>月額$12.99 または 年額$7.99/月</0>"
-
 #: pages/settings/index.tsx:743
-#~ msgid "Pro Plan <0>$14.99/month or $9.99/month (Billed Annually)</0>"
-#~ msgstr "プロプラン <0>$14.99/月または$9.99/月（年間請求）</0>"
-
-#~ msgid "Product Update Emails"
-#~ msgstr "製品の更新メール"
-
 #: components/APIKeysList.tsx:482
-#~ msgid "production"
-#~ msgstr "本番"
-
 #: pages/apikeys/index.tsx:413
-#~ msgid "Production Keys"
-#~ msgstr "本番キー"
-
 #: components/Footer.tsx:260
 msgid "Products"
 msgstr "製品"
@@ -2604,21 +1224,12 @@ msgid "Profile"
 msgstr "プロフィール"
 
 #: components/Summarisation/SummariseSideBar.tsx:363
-#~ msgid "Prompt"
-#~ msgstr "プロンプト"
-
 #: components/source-tools/source-result/index.tsx:480
 msgid "Publication Year:"
 msgstr "出版年："
 
 #: pages/settings/index.tsx:1136
-#~ msgid "Questions"
-#~ msgstr "質問"
-
 #: pages/settings/index.tsx:1171
-#~ msgid "Questions (Plugin)"
-#~ msgstr "質問(プラグイン)"
-
 #: components/Landing/Plans.tsx:496
 #: components/Landing/Plans.tsx:578
 #: components/Landing/Plans.tsx:668
@@ -2627,79 +1238,37 @@ msgstr "出版年："
 #: components/PdfToChat/Plans.tsx:578
 #: components/PdfToChat/Plans.tsx:668
 #: components/PdfToChat/Plans.tsx:763
-#~ msgid "questions per day"
-#~ msgstr "1日あたりの質問数"
-
 #: components/Modals/PaymentModalContent.tsx:330
-#~ msgid "questions/day"
-#~ msgstr "1日あたりの質問数"
-
 #: pages/rap-generator/generate/index.tsx:111
 #: pages/rap-generator/index.tsx:61
 msgid "Rap Generator"
 msgstr "ラップ・ジェネレーター"
 
 #: pages/knowledge-base/[[...params]].tsx:1463
-#~ msgid "Reaction Failed to submit"
-#~ msgstr "リアクションの提出に失敗しました"
-
 #: components/Api/Header.tsx:171
 #: components/APIKeysList.tsx:770
-#~ msgid "Read Documentation"
-#~ msgstr "ドキュメントを読む"
-
 #: components/tools/OcrPage.tsx:284
 msgid "Read OCR PDF"
 msgstr "OCR PDF を読む"
 
 #: components/PdfToChat/Guide.tsx:125
 #: components/PdfToChat/SummarizeGuide.tsx:141
-#~ msgid "Ready to harness the future of document interaction? Let's dive into how you can make the most of AskYouPDF's incredible features."
-#~ msgstr "文書の対話の未来を活用する準備はできていますか？ AskYouPDFの素晴らしい機能を最大限に活用する方法について掘り下げてみましょう。"
-
 #: components/PdfToChat/Guide.tsx:168
-#~ msgid "Receive Answers"
-#~ msgstr " 回答を受け取る"
-
 #: components/PdfToChat/SummarizeGuide.tsx:195
-#~ msgid "Receive Your Summary"
-#~ msgstr "あなたの要約を受け取る"
-
 #: components/AppHeader.tsx:116
-#~ msgid "Renew"
-#~ msgstr "更新"
-
 #: pages/billing/upgrade.tsx:744
 #: pages/settings/index.tsx:567
-#~ msgid "Renew Canceled Plan"
-#~ msgstr "キャンセルされたプランを更新"
-
 #: pages/billing/index.tsx:883
-#~ msgid "Renew Plan"
-#~ msgstr "プランを更新"
-
 #: components/Modals/ConversationFeedback.tsx:358
 #: components/Modals/ConversationFeedback.tsx:468
-#~ msgid "Report an Issue"
-#~ msgstr "問題を報告する"
-
 #: components/literature-review/MainContent.tsx:280
 msgid "Request timed out. Please try again"
 msgstr "リクエストがタイムアウトしました。もう一度お試しください"
 
 #: pages/privacy/index.tsx:38
-#~ msgid "Respecting Your Privacy: Our Commitment and Assurance"
-#~ msgstr "あなたのプライバシーを尊重: 弊社のコミットメントと保証"
-
 #: components/literature-review/MainContent.tsx:362
 msgid "Results for"
 msgstr " の結果"
-
-#~ msgid "Resume Chat"
-#~ msgstr "チャットを再開"
-
-#~ msgid "Resume Conversation"
-#~ msgstr "会話を再開"
 
 #: components/literature-review/MainContent.tsx:272
 #: components/literature-review/MainContent.tsx:282
@@ -2714,19 +1283,10 @@ msgstr "私の仕事を見直す"
 msgid "Review will be displayed here"
 msgstr "ここにレビューが表示されます"
 
-#~ msgid "save 25%"
-#~ msgstr "25%オフ"
-
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:195
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:191
-#~ msgid "Save Details"
-#~ msgstr "詳細の保存"
-
 #: components/Landing/Features.tsx:286
 #: components/PdfToChat/Features.tsx:311
-#~ msgid "Save Time"
-#~ msgstr "時間を節約"
-
 #: components/literature-review/MainContent.tsx:350
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr "AI搭載の文献レビューライターで時間と労力を節約。研究を効率化し、構造化された要約を作成し、学術的な仕事を向上させるまとまりのある包括的なレビューを作成します。AIを搭載。"
@@ -2739,104 +1299,42 @@ msgstr "あなたに反応するドキュメントをご紹介します! AskYour
 msgid "Seamlessly cite, reference, edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
 msgstr "引用、参照、編集、分割、結合、圧縮、PDFからのテキスト抽出をシームレスに。AIのパワーを活用して、PDFのやり取りをシンプルに。"
 
+#: pages/tools/index.tsx:358
 #: components/tools/MainPage.tsx:17
-#~ msgid "Seamlessly edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
-#~ msgstr "PDF からテキストをシームレスに編集、分割、結合、圧縮、抽出します。 AI の力を利用して PDF の操作を無料で簡素化します"
-
 #: components/Modals/SearchBottomSheet.tsx:131
-#~ msgid "Search"
-#~ msgstr "検索"
-
 #: components/SearchResults.tsx:368
-#~ msgid "Search Failed"
-#~ msgstr "検索に失敗しました"
-
 #: components/SearchResults.tsx:261
-#~ msgid "Search for any conversation"
-#~ msgstr "会話を検索"
-
 #: pages/privacy/index.tsx:110
-#~ msgid "Security of Your Information"
-#~ msgstr "情報のセキュリティ"
-
 #: components/Api/Pricing.tsx:268
-#~ msgid "Select a preferred pricing plan to get started"
-#~ msgstr "開始するために希望の価格プランを選択してください"
-
 #: components/source-tools/source-result/index.tsx:442
 msgid "Select all"
 msgstr "すべて選択"
 
 #: components/Modals/ConversationFeedback.tsx:363
 #: components/Modals/ConversationFeedback.tsx:473
-#~ msgid "Select an option"
-#~ msgstr "オプションを選択"
-
 #: components/Modals/DocumentSelectModal.tsx:628
-#~ msgid "Select Documents"
-#~ msgstr "ドキュメントを選択する"
-
 #: components/AppSidebar.tsx:310
 msgid "Settings"
 msgstr "設定"
 
 #: pages/conversations/[[...params]].tsx:1078
-#~ msgid "Share"
-#~ msgstr "共有"
-
 #: components/Modals/PaymentModalContent.tsx:426
 #: pages/settings/index.tsx:649
 #: pages/settings/index.tsx:766
 #: pages/settings/index.tsx:859
-#~ msgid "Share Customizable link"
-#~ msgstr "カスタマイズ可能なリンクを共有"
-
 #: components/Modals/ShareModal.tsx:180
-#~ msgid "Share this conversation"
-#~ msgstr "この会話を共有"
-
 #: components/Modals/ShareModal.tsx:209
-#~ msgid "Share Via:"
-#~ msgstr "共有元:"
-
 #: components/Affiliate/Features.tsx:137
-#~ msgid "Share Your Referral Link with Your Audience"
-#~ msgstr "あなたの観客とリファラルリンクを共有する"
-
 #: pages/chat/[[...docID]]/index.tsx:337
 #: pages/knowledge-base/intro.tsx:392
-#~ msgid "Short guides to get you started"
-#~ msgstr "はじめるための短いガイド"
-
 #: components/Affiliate/Features.tsx:123
-#~ msgid "Sign Up for the Affiliate Program"
-#~ msgstr "アフィリエイトプログラムにサインアップ"
-
 #: components/Affiliate/Join.tsx:103
-#~ msgid "Sign Up Now"
-#~ msgstr "今すぐサインアップ"
-
 #: pages/source-tool/index.tsx:240
-#~ msgid "Simplify your search, guaranteeing precision and trustworthiness with each query."
-#~ msgstr "各クエリで精度と信頼性を保証しつつ、検索を簡素化します。"
-
 #: components/Modals/PaymentModal.tsx:49
 #: pages/documents/[[...id]]/index.tsx:772
-#~ msgid "Something went wrong. Please try again"
-#~ msgstr "なにかが間違っています。もう一度お試しください"
-
 #: components/Summarisation/SummariseUpload.tsx:557
-#~ msgid "Sorry, but this document has over {SUMMARY_MAX_PAGES} pages. Please select a document with fewer pages to continue."
-#~ msgstr "申し訳ありませんが、この文書は{SUMMARY_MAX_PAGES}ページを超えています。続行するにはページ数の少ない文書を選択してください。"
-
 #: components/Summarisation/SummariseUpload.tsx:543
-#~ msgid "Sorry, but this document has over 200 pages. Please select a document with fewer pages to continue."
-#~ msgstr "申し訳ありませんが、このドキュメントは200ページを超えています。続行するには、ページ数の少ない文書を選択してください。"
-
 #: components/BuyCredits.tsx:41
-#~ msgid "Sorry, you can't buy credits as a free user. Upgrade your account to access this feature"
-#~ msgstr "申し訳ございませんが、無料ユーザーとしてクレジットを購入することはできません。この機能を利用するには、アカウントをアップグレードしてください。"
-
 #: components/source-tools/source-result/index.tsx:491
 msgid "Source copied"
 msgstr "コピーされたソース"
@@ -2858,202 +1356,88 @@ msgid "Split PDF"
 msgstr "PDFの分割"
 
 #: components/PdfToChat/MoreTools.tsx:31
-#~ msgid "Split PDF Tool"
-#~ msgstr "PDF分割ツール"
-
 #: components/literature-review/LiteratureMainBar.tsx:479
 msgid "Start another review"
 msgstr "別のレビューを開始する"
 
 #: pages/chat/[[...docID]]/index.tsx:329
 #: pages/file-upload/index.tsx:407
-#~ msgid "Start Conversation"
-#~ msgstr "会話を始める"
-
 #: components/Navbar.tsx:415
 #: components/tools/ToolBarExt.tsx:325
 msgid "Start For Free"
 msgstr "無料で開始"
 
 #: pages/chat/[[...docID]]/index.tsx:313
-#~ msgid "Start your first conversation"
-#~ msgstr "最初の会話を始めましょう"
-
 #: pages/knowledge-base/intro.tsx:344
-#~ msgid "Start your first knowledge base"
-#~ msgstr "最初の知識ベースを作成します"
-
 #: pages/billing/index.tsx:1043
 #: pages/settings/index.tsx:155
-#~ msgid "Status"
-#~ msgstr "ステータス"
-
 #: pages/story-generator/generate/index.tsx:115
 #: pages/story-generator/index.tsx:65
 msgid "Story Generator"
 msgstr "ストーリージェネレーター"
 
 #: components/tools/ToolsSection.tsx:267
-#~ msgid "Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work."
-#~ msgstr "研究を効率化し、構造化された要約を作成し、学術的な研究を向上させるまとまりのある包括的なレビューを作成します。"
-
 #: components/Modals/ConversationFeedback.tsx:266
-#~ msgid "Submission Failed"
-#~ msgstr "提出に失敗しました"
-
 #: components/Modals/ConversationFeedback.tsx:419
 #: components/Modals/ConversationFeedback.tsx:528
-#~ msgid "Submit"
-#~ msgstr "送信"
-
-#~ msgid "Submitting this report will send the current conversation to Anthropic and store with your feedback for future improvements to our models."
-#~ msgstr "このレポートを送信すると、現在の会話がAnthropicに送信され、フィードバックを将来のモデルの改善に使用されます。"
-
 #: components/Modals/ConversationFeedback.tsx:400
 #: components/Modals/ConversationFeedback.tsx:509
-#~ msgid "Submitting this report will send the current conversation to AskYourPDF and store with your feedback for future improvements to our models."
-#~ msgstr "このレポートを提出すると、現在の会話がAskYourPDFに送信され、今後のモデル改良のためのフィードバックとともに保存されます。"
-
 #: components/Modals/PaymentModalContent.tsx:536
-#~ msgid "Subscribe for"
-#~ msgstr "購読する"
-
 #: components/Modals/PaymentModalContent.tsx:352
 #: components/Modals/PaymentModalContent.tsx:409
-#~ msgid "Subscribe To"
-#~ msgstr "購読"
-
 #: utils/faqData.tsx:75
-#~ msgid "Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."
-#~ msgstr "購読者はいつでも購読をキャンセルできます。ただし、購読期間の未使用部分に対しては払い戻しが提供されません。"
-
 #: utils/termsData.ts:57
-#~ msgid "Subscribers can cancel their subscriptions at any time, but no refunds will be provided for any unused portion of the subscription period."
-#~ msgstr "購読者はいつでも購読をキャンセルできますが、購読期間の未使用部分に対しては払い戻しは行われません。"
-
 #: components/Modals/PaymentModal.tsx:48
-#~ msgid "Subscription Failed"
-#~ msgstr "サブスクリプションに失敗しました"
-
 #: utils/termsData.ts:56
-#~ msgid "Subscriptions and cancellations"
-#~ msgstr "購読とキャンセル"
-
 #: pages/conversations/[[...params]].tsx:935
 #: pages/documents/[[...id]]/index.tsx:764
 #: pages/knowledge-base/[[...params]].tsx:1507
-#~ msgid "Success"
-#~ msgstr "成功"
-
-#~ msgid "Sumarisation"
-#~ msgstr "要約"
-
 #: components/AppSidebar.tsx:252
 msgid "Summarisation"
 msgstr "要約"
 
 #: pages/settings/index.tsx:909
 #: pages/settings/index.tsx:917
-#~ msgid "Summarisation Credit"
-#~ msgstr " 要約クレジット"
-
 #: components/Summarisation/SummariseMainBar.tsx:389
-#~ msgid "Summarise Documents"
-#~ msgstr "ドキュメントを要約する"
-
 #: components/Modals/PaymentModalContent.tsx:342
 #: components/Modals/PaymentModalContent.tsx:381
 #: pages/settings/index.tsx:661
 #: pages/settings/index.tsx:784
-#~ msgid "Summarization Access"
-#~ msgstr "要約アクセス"
-
 #: components/Summarisation/SummariseMainBar.tsx:406
-#~ msgid "Summary"
-#~ msgstr "要約"
-
 #: components/Summarisation/SummariseMainBar.tsx:413
-#~ msgid "Summary copied"
-#~ msgstr "要約がコピーされました"
-
 #: pages/summarise/index.tsx:163
 #: pages/summarise/index.tsx:175
 #: pages/summarise/index.tsx:223
 #: pages/summarise/index.tsx:235
-#~ msgid "Summary Failed"
-#~ msgstr "要約に失敗しました"
-
 #: components/Summarisation/SummariseMainBar.tsx:445
-#~ msgid "Summary will be displayed here"
-#~ msgstr "要約がここに表示されます"
-
 #: components/Landing/Features.tsx:194
 #: components/PdfToChat/Features.tsx:200
-#~ msgid "Supercharge Document <0/> <1>Interactions</1>"
-#~ msgstr "ドキュメントの<0/><1>インタラクション</1>を強化"
-
 #: components/Landing/Hero.tsx:298
-#~ msgid "Supported formats"
-#~ msgstr "サポートされているフォーマット"
-
 #: components/tools/DocUploadNoFunc.tsx:390
 msgid "Supported formats: .pdf"
 msgstr ""
 
 #: components/DocumentUpload.tsx:446
-#~ msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf'"
-#~ msgstr "サポートされているフォーマット: .pdf, .txt, .ppt, .pptx, .csv, .epub, .rtf"
-
 #: components/Summarisation/SummariseUpload.tsx:534
-#~ msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf' (max 200 pages)"
-#~ msgstr "サポートされているフォーマット： .pdf、.txt、.ppt、.pptx、.csv、.epub、.rtf（最大200ページ"
-
 #: pages/paragraph-generator/generate/index.tsx:101
 #: pages/paragraph-generator/index.tsx:50
 msgid "Supporting points"
 msgstr "サポートポイント"
 
 #: pages/billing/index.tsx:866
-#~ msgid "Switch Plan"
-#~ msgstr "プランを切り替える"
-
 #: pages/settings/index.tsx:676
-#~ msgid "Switch To Premium"
-#~ msgstr "プレミアムに切り替える"
-
 #: pages/settings/index.tsx:798
-#~ msgid "Switch To Pro"
-#~ msgstr "プロに切り替える"
-
 #: components/Landing/AppSection.tsx:152
 #: components/PdfToChat/AppSection.tsx:152
-#~ msgid "Take your document chats on the go with AskYourPDF app! Chat, track, learn - anytime, anywhere. Available on iOS and Android."
-#~ msgstr "AskYourPDFアプリで持ち歩けるドキュメントチャット! いつでもどこでもチャット、追跡、学習。iOSとAndroidで利用可能。"
-
 #: components/PdfToChat/Discover.tsx:52
-#~ msgid "Technical Mastery"
-#~ msgstr "テクニカル マスタリー"
-
 #: utils/termsData.ts:51
-#~ msgid "Termination"
-#~ msgstr "終了"
-
 #: components/Footer.tsx:339
 msgid "Terms & Conditions"
 msgstr "利用規約"
 
 #: components/APIKeysList.tsx:482
-#~ msgid "test"
-#~ msgstr "テスト"
-
 #: components/APIKeysList.tsx:682
-#~ msgid "Test API keys should only be used on staging or during development. Switch to production keys when you wish to go live"
-#~ msgstr "テストAPIキーはステージングや開発中にのみ使用してください。本番環境にしたいときは本番キーに切り替えてください"
-
 #: pages/apikeys/index.tsx:405
-#~ msgid "Test Keys"
-#~ msgstr "テストキー"
-
 #: pages/text-generator/generate/index.tsx:108
 #: pages/text-generator/index.tsx:62
 msgid "Text Generator"
@@ -3061,74 +1445,26 @@ msgstr "テキストジェネレーター"
 
 #: components/Modals/ConversationFeedback.tsx:333
 #: components/Modals/ConversationFeedback.tsx:443
-#~ msgid "Thank You"
-#~ msgstr "ありがとうございます"
-
 #: pages/chat/[[...docID]]/index.tsx:241
 #: utils/faqData.tsx:19
-#~ msgid "The application uses artificial intelligence to analyze the content of the document and provide a chat interface for users to ask questions get answers."
-#~ msgstr "このアプリケーションは、ドキュメントの内容をAIで分析し、ユーザーが質問して答えを得られるチャットインターフェースを提供します。"
-
 #: pages/knowledge-base/intro.tsx:255
-#~ msgid "The AskYourPDF Knowledge Base is a service that allows users to create a list or library of documents which then serves as a knowledge base. Users can then chat this knowledge base as if it were a single document and receive answers based on the information contained within those documents."
-#~ msgstr "AskYourPDFの知識ベースは、ユーザーが文書のリストやライブラリを作成し、それが知識ベースとして機能するサービスです。ユーザーはそれからこの知識ベースとチャットし、それが単一の文書であるかのように回答を受け取り、それらの文書に含まれる情報に基づいています。"
-
 #: components/PdfToChat/KnowledgeBaseServiceBanner.tsx:85
-#~ msgid "The AskYourPDF Knowledge Base service provides a platform for users to upload documents into one folder 📂 (knowledge base) from which they can ask questions and get answers based on those documents."
-#~ msgstr "AskYourPDFのナレッジベースサービスは、ユーザーがドキュメントを1つのフォルダ 📂（ナレッジベース）にアップロードし、そのドキュメントを基に質問をしたり回答を得たりできるプラットフォームを提供します。"
-
-#~ msgid "The chat session is available as long as the tab is open."
-#~ msgstr "タブが開いている限り、チャットセッションは利用可能です。"
-
 #: pages/privacy/index.tsx:55
-#~ msgid "The Information We Collect and Its Use"
-#~ msgstr "収集する情報とその利用方法"
-
 #: pages/knowledge-base/intro.tsx:298
-#~ msgid "The Knowledge Base service is included at no additional cost for our Premium, Pro, and Enterprise plans."
-#~ msgstr "知識ベースサービスは、当社のプレミアム、プロ、エンタープライズプランには追加料金はかかりません。"
-
 #: utils/termsData.ts:72
-#~ msgid "These terms and conditions shall be governed by and construed in accordance with the laws of the country or state where it is used."
-#~ msgstr "本利用規約は、利用される国または州の法律に準拠し、それに従って解釈されます。"
-
 #: pages/thesis-statement/generate/index.tsx:108
 #: pages/thesis-statement/index.tsx:58
 msgid "Thesis Statement Generator"
 msgstr "テーゼ・ステートメント・ジェネレーター"
 
 #: pages/privacy/index.tsx:125
-#~ msgid "Third-Party Services"
-#~ msgstr "第三者サービス"
-
 #: pages/chat/[[...docID]]/index.tsx:236
-#~ msgid "This application lets you chat with any document you upload."
-#~ msgstr "このアプリケーションを使えば、アップロードしたドキュメントとチャットができます。"
-
 #: pages/subscription-error/index.tsx:163
-#~ msgid "This feature requires an active subscription. Click the button below to upgrade your account and access more features"
-#~ msgstr "この機能を利用するにはアクティブなサブスクリプションが必要です。アカウントをアップグレードし、さらに多くの機能にアクセスするために下のボタンをクリックしてください"
-
 #: pages/billing/upgrade.tsx:674
-#~ msgid "This plan limits your quota to the maximum available for the {0} Plan. <0>Learn More</0>"
-#~ msgstr "このプランでは、{0}プランで利用可能な最大値までにクォータが制限されます。<0>詳細</0>"
-
 #: components/APIKeysList.tsx:501
-#~ msgid "This quota sets the maximum number of API calls or actions you can perform within a given period. If you find your needs exceeding this limit, consider upgrading to one of our premium plans for additional quota and features."
-#~ msgstr "このクォータは、所定の期間内に実行できるAPI呼び出しやアクションの最大数を設定します。この制限を超える必要がある場合は、追加のクォータと機能のためにプレミアムプランへのアップグレードを検討してください。"
-
 #: components/PdfToChat/SummarizeGuide.tsx:155
-#~ msgid "To begin, upload the document to be summarised. This can be a PDF, text file, or any of the various document formats that are supported. <0/>After you've submitted the document, you'll have to wait a few moments while AskYourPDF processes it. Our AI system will analyze the material in order to extract important information."
-#~ msgstr "開始するには、要約するドキュメントをアップロードしてください。これはPDFファイル、テキストファイル、またはサポートされているさまざまなドキュメント形式のいずれかです。ドキュメントを提出した後、AskYourPDFが処理する間、数分間お待ちいただく必要があります。当社のAIシステムは重要な情報を抽出するために素材を分析します。"
-
 #: pages/privacy/index.tsx:59
-#~ msgid "To provide the best possible experience on AskYourPDF, we collect certain types of data from our users:"
-#~ msgstr "AskYourPDFで最高のエクスペリエンスを提供するために、ユーザーから特定の種類のデータを収集しています:"
-
 #: utils/termsData.ts:67
-#~ msgid "To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of AskYourPDF."
-#~ msgstr "法律で許可されている最大限度において、AskYourPDFのご利用に関連して発生した直接的、間接的、偶発的、特別の、結果的な損害に対して責任を負わないものとします。"
-
 #: components/Navbar.tsx:289
 #: components/Navbar.tsx:346
 #: components/tools/MainPage.tsx:19
@@ -3137,29 +1473,18 @@ msgstr "ツール"
 
 #: components/Landing/Products.tsx:178
 #: components/PdfToChat/Products.tsx:178
-#~ msgid "Tools we’ve built to improve your document experience"
-#~ msgstr "ドキュメントエクスペリエンスを向上させるために構築したツール"
-
 #: pages/rap-generator/generate/index.tsx:105
 msgid "Topic/Theme"
 msgstr "テーマ"
 
 #: pages/settings/index.tsx:1051
-#~ msgid "Track your Usage"
-#~ msgstr "使用状況を追跡"
-
+#: pages/tools/ocr/index.tsx:505
 #: components/tools/OcrPage.tsx:251
 #: components/tools/ToolsSection.tsx:147
 msgid "Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader."
 msgstr "AI を活用した OCR PDF リーダーを使用して、スキャンした PDF または画像ベースの PDF を編集可能で検索可能なテキストに変換します。"
 
-#~ msgid "Trusted By"
-#~ msgstr " 信頼されている"
-
 #: components/PdfToChat/Universities.tsx:92
-#~ msgid "Trusted By <0> Leading Universities </0>"
-#~ msgstr "信頼されている 有力な大学"
-
 #: components/tools/ToolsWaitlist.tsx:150
 #: components/Waitlist.tsx:151
 msgid "Try it Now"
@@ -3167,109 +1492,40 @@ msgstr "今すぐお試しください"
 
 #: components/Announcements.tsx:19
 #: components/Announcements.tsx:25
-#~ msgid "Try it out now"
-#~ msgstr "今すぐ試してみてください"
-
 #: components/SearchResults.tsx:264
-#~ msgid "Type what you want to search for in the search box, you can filter by conversation"
-#~ msgstr "検索ボックスに検索したい内容を入力してください。会話で絞り込むことができます"
-
 #: pages/conversations/[[...params]].tsx:1057
 #: pages/knowledge-base/[[...params]].tsx:1635
-#~ msgid "Typing..."
-#~ msgstr "入力中..."
-
 #: pages/delete/index.tsx:239
 #: pages/delete/index.tsx:246
-#~ msgid "Unable to Delete document, please make sure you're deleting a document you uploaded anonymously"
-#~ msgstr "ドキュメントを削除できません、匿名でアップロードしたドキュメントを削除していることを確認してください。"
-
 #: components/Modals/UnitsExceededModal.tsx:105
-#~ msgid "Units Exceeded"
-#~ msgstr "単位超過"
-
 #: components/Landing/Features.tsx:269
 #: components/PdfToChat/Features.tsx:294
-#~ msgid "Unleash the chat power in your documents! Turn them into friendly Chatbot's,ready to share knowledge and insights."
-#~ msgstr "ドキュメントのチャットパワーを解き放ちましょう! 知識と洞察を共有する親しみやすいチャットボットに変えましょう。"
-
 #: components/Landing/Plans.tsx:686
 #: components/Modals/PaymentModalContent.tsx:384
 #: components/PdfToChat/Plans.tsx:686
-#~ msgid "Unlimited ChatGPT Plugin Question"
-#~ msgstr "ChatGPTプラグインの質問無制限"
-
 #: components/Modals/PaymentModalContent.tsx:369
-#~ msgid "Unlimited Conversation Per Day"
-#~ msgstr "1日あたりの会話無制限"
-
 #: components/Modals/PaymentModalContent.tsx:420
 #: pages/settings/index.tsx:853
-#~ msgid "Unlimited doc uploads a day"
-#~ msgstr "1日あたりのドキュメントアップロード無制限"
-
 #: components/Landing/Plans.tsx:772
 #: components/PdfToChat/Plans.tsx:772
-#~ msgid "Unlimited documents per day"
-#~ msgstr "1日あたりのドキュメント数無制限"
-
 #: pages/settings/index.tsx:850
-#~ msgid "Unlimited file size"
-#~ msgstr "ファイルサイズ無制限"
-
 #: components/Modals/PaymentModalContent.tsx:417
 #: pages/settings/index.tsx:847
-#~ msgid "Unlimited pages"
-#~ msgstr "ページ数無制限"
-
 #: components/Landing/Plans.tsx:744
 #: components/PdfToChat/Plans.tsx:744
-#~ msgid "Unlimited pages per document"
-#~ msgstr "ドキュメントあたりのページ数無制限"
-
 #: components/Modals/PaymentModalContent.tsx:423
 #: pages/settings/index.tsx:763
 #: pages/settings/index.tsx:856
-#~ msgid "Unlimited questions / day"
-#~ msgstr "1日あたりの質問数無制限"
-
 #: components/Modals/PaymentModalContent.tsx:372
-#~ msgid "Unlimited questions/day"
-#~ msgstr "1日あたりの質問数無制限"
-
-#~ msgid "Unlock the Possibilities of <0> AskYouPDF </0>"
-#~ msgstr "<0>AskYourPDF</0>の可能性を開放する (<0>AskYourPDF</0> no kanōsei o kaifuku suru)"
-
 #: components/PdfToChat/Discover.tsx:159
-#~ msgid "Unlock the Possibilities of <0> AskYourPDF </0>"
-#~ msgstr "<0>AskYourPDF</0>の可能性を開放する (<0>AskYourPDF</0> no kanōsei o kaifuku suru)"
-
 #: pages/billing/index.tsx:1061
 #: pages/settings/index.tsx:83
-#~ msgid "Unpaid"
-#~ msgstr "未払い"
-
 #: components/Modals/Profile.tsx:235
-#~ msgid "Update"
-#~ msgstr "更新"
-
 #: components/Modals/DocumentSelectModal.tsx:721
-#~ msgid "Update Knowledge Base"
-#~ msgstr "ナレッジベースを更新する"
-
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:162
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:158
-#~ msgid "Update Payment Method"
-#~ msgstr "支払い方法の更新"
-
 #: components/Modals/DocumentSelectModal.tsx:402
-#~ msgid "Update Success"
-#~ msgstr "更新が成功しました"
-
 #: pages/billing/index.tsx:976
-#~ msgid "Update your payment method"
-#~ msgstr "支払方法を更新する"
-
 #: components/AppHeader.tsx:105
 #: components/KnowledgeBaseSidebar.tsx:630
 #: components/KnowledgeBaseSidebar.tsx:647
@@ -3277,66 +1533,33 @@ msgstr "今すぐお試しください"
 #: components/MainSidebar.tsx:592
 #: pages/file-upload/index.tsx:353
 #: pages/subscription-error/index.tsx:176
-#~ msgid "Upgrade"
-#~ msgstr "アップグレード"
-
 #: components/APIKeysList.tsx:618
 #: components/APIKeysList.tsx:775
 #: pages/billing/upgrade.tsx:691
-#~ msgid "Upgrade Account"
-#~ msgstr "アカウントをアップグレード"
-
 #: components/APIKeysList.tsx:511
-#~ msgid "Upgrade Developer Account"
-#~ msgstr "開発者アカウントをアップグレード"
-
 #: components/Modals/PaymentModalContent.tsx:587
 #: components/Modals/PaymentModalContent.tsx:601
-#~ msgid "Upgrade now for increased upload limits and enhanced ChatGPT conversations"
-#~ msgstr "今すぐアップグレードして、アップロード制限を増やし、ChatGPTでの会話を向上させましょう"
-
 #: components/Api/Pricing.tsx:319
 #: components/Api/Pricing.tsx:374
 #: pages/billing/index.tsx:867
 #: pages/billing/upgrade.tsx:785
 #: pages/billing/upgrade.tsx:851
-#~ msgid "Upgrade Plan"
-#~ msgstr "プランをアップグレード"
-
 #: components/KnowledgeBaseSidebar.tsx:638
 #: components/MainSidebar.tsx:583
 #: pages/file-upload/index.tsx:335
-#~ msgid "Upgrade to access more features"
-#~ msgstr "もっと機能を使うためにアップグレード"
-
 #: pages/settings/index.tsx:688
 #: pages/settings/index.tsx:699
-#~ msgid "Upgrade To Premium"
-#~ msgstr "プレミアムにアップグレード"
-
 #: pages/settings/index.tsx:810
 #: pages/settings/index.tsx:821
-#~ msgid "Upgrade To Pro"
-#~ msgstr "プロにアップグレード"
-
 #: components/Modals/PaymentModalContent.tsx:584
 #: components/Modals/PaymentModalContent.tsx:598
-#~ msgid "Upgrade your content"
-#~ msgstr "コンテンツをアップグレード"
-
 #: components/PdfToChat/Guide.tsx:136
 #: components/PdfToChat/SummarizeGuide.tsx:152
-#~ msgid "Upload"
-#~ msgstr "アップロード"
-
 #: components/AppSidebar.tsx:222
 msgid "Upload Doc"
 msgstr "ドキュメントをアップロード"
 
 #: pages/upload/index.tsx:250
-#~ msgid "Upload document"
-#~ msgstr "ドキュメントをアップロード"
-
 #: components/tools/DocUploadNoFunc.tsx:357
 msgid "Upload Document"
 msgstr "ドキュメントをアップロード"
@@ -3350,90 +1573,39 @@ msgid "Upload From URL"
 msgstr "URLからアップロード"
 
 #: components/Modals/PaymentModalContent.tsx:280
-#~ msgid "Upload larger documents"
-#~ msgstr "大きなドキュメントをアップロード"
-
 #: components/literature-review/LiteratureUpload.tsx:485
 msgid "Upload New Document"
 msgstr "新しいドキュメントをアップロードする"
 
 #: components/DocumentUpload.tsx:370
-#~ msgid "Upload Success"
-#~ msgstr "アップロード成功"
-
 #: components/literature-review/LiteratureMainBar.tsx:366
 #: components/source-tools/source-content/index.tsx:216
 msgid "Upload text file"
 msgstr "テキストファイルをアップロード"
 
 #: pages/file-upload/index.tsx:360
-#~ msgid "Upload your document"
-#~ msgstr "ドキュメントをアップロードしてください"
-
 #: pages/documents/[[...id]]/index.tsx:533
 #: pages/knowledge-base/[[...params]].tsx:1032
-#~ msgid "Uploaded"
-#~ msgstr "アップロード済み"
-
 #: pages/settings/index.tsx:1058
-#~ msgid "Uploaded Docs"
-#~ msgstr "アップロードしたドキュメント"
-
 #: pages/documents/[[...id]]/index.tsx:938
-#~ msgid "Uploaded:"
-#~ msgstr "アップロード:"
-
 #: utils/termsData.ts:21
-#~ msgid "Uploading documents"
-#~ msgstr "ドキュメントのアップロード"
-
 #: pages/settings/index.tsx:1048
-#~ msgid "Usage"
-#~ msgstr "利用状況"
-
 #: utils/termsData.ts:16
-#~ msgid "Use of AskYourPDF"
-#~ msgstr "AskYourPDFの利用"
-
 #: components/Modals/OldDocumentDeleteModal.tsx:132
-#~ msgid "Use this method only to delete anonymous uploads or files from our old plugin, not personal account documents."
-#~ msgstr "この方法は、匿名のアップロードや古いプラグインからのファイルを削除するためにのみ使用してください。個人アカウントの文書ではありません。"
-
 #: components/APIKeysList.tsx:642
 #: components/APIKeysList.tsx:656
 #: components/APIKeysList.tsx:797
 #: components/APIKeysList.tsx:809
-#~ msgid "Used"
-#~ msgstr "使用済み"
-
 #: utils/termsData.ts:26
-#~ msgid "User Conduct"
-#~ msgstr "ユーザーの行為"
-
 #: utils/termsData.ts:31
-#~ msgid "User Content"
-#~ msgstr "ユーザーコンテンツ"
-
 #: components/Landing/MobileAppBanner.tsx:94
-#~ msgid "View App"
-#~ msgstr "アプリを表示"
-
 #: pages/conversations/[[...params]].tsx:1142
-#~ msgid "View Doc"
-#~ msgstr "ドキュメントを表示"
-
 #: pages/apikeys/index.tsx:342
 #: pages/billing/index.tsx:780
 #: pages/billing/upgrade.tsx:598
-#~ msgid "View Docs"
-#~ msgstr "ドキュメントを表示"
-
 #: pages/apikeys/index.tsx:356
 #: pages/billing/index.tsx:794
 #: pages/billing/upgrade.tsx:612
-#~ msgid "View Documentation"
-#~ msgstr "ドキュメンテーションを表示"
-
 #: components/literature-review/MainContent.tsx:227
 #: pages/book-title-generator/generate/index.tsx:47
 #: pages/book-title-generator/generate/index.tsx:55
@@ -3489,316 +1661,101 @@ msgstr "テキストファイルをアップロード"
 msgid "Warning"
 msgstr "警告"
 
-#~ msgid "Warning:"
-#~ msgstr "警告:"
-
 #: components/Waitlist.tsx:144
 msgid "We are making AskYourPDF API open for developers to build applications and services."
 msgstr "AskYourPDF APIをオープンにし、開発者がアプリケーションやサービスを構築できるようにしています。"
 
 #: components/Announcements.tsx:29
-#~ msgid "We just launched our Browser extension."
-#~ msgstr "私たちはブラウザ拡張機能をたった今リリースしました。"
-
 #: utils/termsData.ts:52
-#~ msgid "We may terminate your use of AskYourPDF at any time for any reason, including if we believe that you have violated these terms and conditions."
-#~ msgstr "本利用規約に違反したとみなされる場合を含め、いかなる理由でもAskYourPDFの使用をいつでも終了させることができます。"
-
 #: utils/termsData.ts:77
-#~ msgid "We reserve the right to modify these terms and conditions at any time without prior notice. Your continued use of AskYourPDF after any changes to these terms and conditions constitutes your acceptance of the revised terms and conditions."
-#~ msgstr "事前の通知なく、いつでも本利用規約を変更する権利を留保します。 本利用規約の変更後もAskYourPDFの使用を継続した場合、変更後の利用規約に同意したとみなします。"
-
 #: pages/privacy/index.tsx:140
-#~ msgid "We reserve the right to update or amend this Privacy Policy at any time to reflect changes in our practices or services, or changes in the law. We will notify you of any significant changes and encourage you to review this policy periodically to stay informed."
-#~ msgstr "プライバシーポリシーは、実務やサービス、法律の変更を反映するため、必要に応じて更新または改定されることがあります。重要な変更がある場合は通知し、このポリシーを定期的に確認することをお勧めします。"
-
 #: pages/chat/[[...docID]]/index.tsx:246
-#~ msgid "We support multiple document formats ('.pdf', '.txt', '.ppt', '.pptx', '.csv','.epub', '.rtf')"
-#~ msgstr "複数のドキュメントフォーマット('.pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf') に対応しています。"
-
 #: utils/faqData.tsx:24
-#~ msgid "We support multiple document formats: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", and \".rtf\"."
-#~ msgstr "複数の文書形式をサポートしています：「.pdf」、「.txt」、「.ppt」、「.pptx」、「.csv」、「.epub」、および「.rtf」。"
-
 #: pages/billing/index.tsx:977
-#~ msgid "We tried to renew your subscription but we couldn't because of a payment issue, please check your payment method to avoid service disruption"
-#~ msgstr "サブスクリプションを更新しようとしましたが、支払いの問題で更新できませんでした。サービスの中断を避けるために支払方法をご確認ください"
-
 #: pages/privacy/index.tsx:114
-#~ msgid "We understand the sensitivity of your personal information and implement strict security measures to safeguard it. We store your information on secure servers, and access is strictly limited to a small number of authorized personnel who are required to keep the information confidential. Furthermore, we review and update our security measures on a regular basis."
-#~ msgstr "個人情報の機微性を理解し、厳格なセキュリティ対策を講じています。情報は安全なサーバーに保存され、アクセスは秘密保持契約を交わした少数の権限保持者に限定しています。さらに、セキュリティ対策は定期的にレビューおよび更新しています。"
-
 #: components/PdfToChat/Features.tsx:276
-#~ msgid "We're committed to enhancing your PDF interaction experience and providing you with powerful tools that simplify the way you work with documents."
-#~ msgstr "私たちは、PDFとのインタラクション体験を向上させ、文書の取り扱いを簡素化する強力なツールを提供することに取り組んでいます。"
-
 #: components/Landing/Products.tsx:129
 #: components/PdfToChat/Products.tsx:129
-#~ msgid "Website"
-#~ msgstr "ウェブサイト"
-
 #: pages/terms/index.tsx:47
-#~ msgid "Welcome to AskYourPDF, Please read these terms and conditions carefully as they govern your use of the product"
-#~ msgstr "AskYourPDFへようこそ。製品の使用は本利用規約に基づくため、内容を注意深くお読みください"
-
 #: utils/faqData.tsx:134
-#~ msgid "What if I have a question or a problem while using AskYourPDF?"
-#~ msgstr "AskYourPDFの使用中に質問や問題がある場合はどうすればいいですか?"
-
 #: utils/faqData.tsx:91
-#~ msgid "What if I have a question that the AI can't answer?"
-#~ msgstr "AIが答えられない質問がある場合はどうすればいいですか?"
-
 #: pages/knowledge-base/intro.tsx:254
-#~ msgid "What is AskYourPDF Knowledge Base about?"
-#~ msgstr "AskYourPDFの知識ベースは何についてですか？"
-
 #: utils/faqData.tsx:13
-#~ msgid "What is AskYourPDF?"
-#~ msgstr "AskYourPDFとは何ですか？"
-
 #: pages/chat/[[...docID]]/index.tsx:235
-#~ msgid "What is this application about?"
-#~ msgstr "このアプリケーションは何のためのものですか?"
-
 #: components/Landing/Testimonial.tsx:139
 #: components/PdfToChat/Testimonial.tsx:139
-#~ msgid "What people say <0>about us</0>"
-#~ msgstr "<0>当社について</0>人々が言ったこと"
-
 #: components/Modals/ConversationFeedback.tsx:393
 #: components/Modals/ConversationFeedback.tsx:502
-#~ msgid "What was unsatisfying about this response?"
-#~ msgstr "この回答について不満な点は何ですか？"
-
 #: utils/termsData.ts:42
-#~ msgid "When you use our app, we may collect certain information automatically, such as technical information about your device, app usage statistics, and crash reports. This information is collected in an anonymized and aggregated form and is used to improve our app's performance, user experience, and overall quality."
-#~ msgstr "アプリを使用すると、デバイスの技術情報、アプリの使用統計、クラッシュレポートなど、特定の情報を自動的に収集する場合があります。この情報は匿名化され集計された形式で収集され、アプリのパフォーマンス、ユーザーエクスペリエンス、全体的な品質の改善に使用されます。"
-
 #: components/PdfToChat/Features.tsx:271
-#~ msgid "Why Choose <0>Us</0>"
-#~ msgstr " なぜ私たちを選ぶのか"
-
 #: components/PdfToChat/Discover.tsx:53
-#~ msgid "With AskYourPDF technical specialists and engineers are able to quickly retrieve crucial knowledge from technical manuals and paperwork."
-#~ msgstr "AskYourPDFを使用すれば、技術の専門家やエンジニアは技術マニュアルや書類から重要な知識を素早く取得できます。"
-
 #: components/tools/MergePage.tsx:675
 #: components/tools/ToolsSection.tsx:140
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 msgstr "スマートな自動マージにより、品質とフォーマットを維持しながら、PDFをシームレスに1つのまとまりのあるドキュメントに統合します。"
 
+#: pages/tools/merge/index.tsx:697
 #: components/tools/MergePage.tsx:690
 #: components/tools/ToolsSection.tsx:281
-#~ msgid "With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
-#~ msgstr "スマートな自動結合により、品質とフォーマットを維持しながら、PDF が 1 つのまとまりのあるドキュメントにシームレスに統合されます。"
-
 #: components/PdfToChat/Guide.tsx:171
-#~ msgid "Witness AI-driven comprehension as AskYouPDF analyzes your PDF and provides instant, insightful answers."
-#~ msgstr "AskYouPDFがPDFを解析し、瞬時に洞察に富んだ回答を提供するAI駆動の理解をご覧ください。"
-
 #: components/Modals/PaymentModalContent.tsx:516
-#~ msgid "Yearly"
-#~ msgstr "年払い"
-
-#~ msgid "Yes, AskYourPDF is accessible from any device with an internet connection."
-#~ msgstr "はい、インターネットに接続されたデバイスならどこからでもAskYourPDFにアクセスできます。"
-
 #: utils/faqData.tsx:108
-#~ msgid "Yes, AskYourPDF is accessible from any device with standard browsers and an internet connection."
-#~ msgstr "はい、AskYourPDFは標準のブラウザとインターネット接続を備えた任意のデバイスからアクセスできます。"
-
-#~ msgid "Yes, AskYourPDF is multilingual and lets you chat in any language of your choice."
-#~ msgstr "はい、AskYourPDFは多言語対応で、希望する言語でチャットできます。"
-
 #: utils/faqData.tsx:82
-#~ msgid "Yes, AskYourPDF is multilingual and supports chatting in any language of your choice."
-#~ msgstr "はい、AskYourPDFは多言語対応で、選択した任意の言語でチャットをサポートしています。"
-
 #: utils/faqData.tsx:87
-#~ msgid "Yes, chat history can be downloaded."
-#~ msgstr "はい、チャット履歴をダウンロードできます。"
-
 #: utils/faqData.tsx:47
-#~ msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at <0>billing@askyourpdf.com</0> with details of your educational institution and enrolment."
-#~ msgstr "はい、ただし、現在、自動化された申請プロセスはありません。 教育機関と登録の詳細を <0>billing@askyourpdf.com</0> までご連絡いただければ、割引クーポンを提供いたします。"
-
 #: utils/faqData.tsx:45
-#~ msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at billing@askyourpdf.com with details of your educational institution and enrolment."
-#~ msgstr "はい、しかしながら、現在自動化された申請プロセスはありません。教育機関と登録の詳細をbilling@askyourpdf.com までご連絡いただければ、割引クーポンを提供いたします。"
-
-#~ msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF."
-#~ msgstr "はい、このアプリケーションは無料で使用できますが、一部の制限があります。AskYourPDFの広範な機能を探索するには、アップグレードされたプランが必要です。"
-
 #: utils/faqData.tsx:70
-#~ msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF. Documents uploaded by Free users remain in our database for a maximum of 90 days before removal."
-#~ msgstr "はい、このアプリは無料で使用できますが、一部の制限があります。AskYourPDFの幅広い機能を活用するにはアップグレードプランが必要です。無料ユーザーがアップロードしたドキュメントは、削除される前に最大90日間データベースに保管されます。"
-
-#~ msgid "Yes, the application is free to use."
-#~ msgstr "はい、このアプリは無料で利用できます。"
-
 #: utils/faqData.tsx:113
-#~ msgid "Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."
-#~ msgstr "はい、無料ユーザーの文書のアップロードの最大ファイルサイズは15MBです。ただし、プレミアムおよびプロユーザーはそれぞれ最大30MBおよび90MBまでアップロードできます。より大きなファイルサイズの場合、ユーザーはエンタープライズプランについてお問い合わせいただく必要があります。"
-
-#~ msgid "Yes, the maximum limit of the document that can be uploaded is 20mb."
-#~ msgstr "はい、アップロードできるドキュメントの最大制限は20MBです。"
-
-#~ msgid "Yes, you can download the chat history."
-#~ msgstr "はい、チャット履歴をダウンロードできます。"
-
-#~ msgid "Yes, your data is secure and the application uses industry-standard (SSL encryption) security measures to protect your information."
-#~ msgstr "はい、データは安全で、アプリは業界標準のSSL暗号化などのセキュリティ対策を用いて情報を保護しています。"
-
 #: utils/termsData.ts:27
-#~ msgid "You are solely responsible for your conduct on AskYourPDF. You must not engage in any conduct that is illegal, defamatory, threatening, or abusive. You must not upload any documents that infringe the intellectual property rights of  others."
-#~ msgstr "AskYourPDFでの行動についての責任はあなた個人にあります。違法、名誉毀損、脅迫的、虐待的な行為をしてはいけません。他者の知的財産権を侵害するドキュメントをアップロードしてはいけません。"
-
 #: pages/documents/[[...id]]/index.tsx:757
-#~ msgid "You can no longer share your chat with this document"
-#~ msgstr "このドキュメントとチャットを共有することはできなくなります"
-
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"
 msgstr "ナレッジベースを使って、一度に複数のドキュメントとチャットできるようになりました。"
 
 #: components/Announcements.tsx:17
-#~ msgid "You can now chat with multiple documents at once. Using our knowledge Base."
-#~ msgstr "今、複数のドキュメントと同時にチャットできます。当社のナレッジベースを使用してください。"
-
 #: components/Announcements.tsx:23
-#~ msgid "You can now generate detailed summaries of your documents."
-#~ msgstr "あなたは今、あなたの文書の詳細な要約を生成できます。"
-
 #: pages/documents/[[...id]]/index.tsx:756
-#~ msgid "You can now share your chat with this document"
-#~ msgstr "このドキュメントを使用してチャットを共有できるようになりました"
-
 #: components/KnowledgeBaseSidebar.tsx:680
 #: components/KnowledgeBaseSidebar.tsx:696
 #: components/KnowledgeBaseSidebar.tsx:713
 #: components/MainSidebar.tsx:635
 #: components/MainSidebar.tsx:651
 #: components/MainSidebar.tsx:668
-#~ msgid "You have exceeded the conversation limits for your account. Please try again tomorrow."
-#~ msgstr "アカウントの会話制限を超えています。明日再度お試しください。"
-
 #: components/KnowledgeBaseSidebar.tsx:613
 #: components/MainSidebar.tsx:558
-#~ msgid "You have exceeded the conversation limits of a free account. Please try again tomorrow."
-#~ msgstr "フリーアカウントの会話制限を超えています。明日再度お試しください。"
-
 #: components/KnowledgeBaseSidebar.tsx:536
 #: components/MainSidebar.tsx:481
-#~ msgid "You have exceeded your conversation limit. Login or create an account to create more conversations."
-#~ msgstr "会話制限を超えています。ログイン、またはアカウント作成すると、より多くの会話を作成できます。"
-
 #: components/Modals/UnitsExceededModal.tsx:108
-#~ msgid "You have have used up your available {product} units. Please purchase more units."
-#~ msgstr ""
-
 #: components/Modals/DocumentSelectModal.tsx:467
 #: components/Modals/DocumentSelectModal.tsx:491
-#~ msgid "You have selected more than 5 documents"
-#~ msgstr "5つ以上のドキュメントを選択しました"
-
 #: utils/termsData.ts:22
-#~ msgid "You may upload documents to AskYourPDF for the purpose of discussing them with other users. You must not upload any documents that are illegal, defamatory, obscene, or otherwise objectionable."
-#~ msgstr "AskYourPDFには、他のユーザーと議論する目的でドキュメントをアップロードできます。違法、名誉毀損、わいせつ、またはその他好ましくないドキュメントはアップロードできません。"
-
 #: utils/termsData.ts:17
-#~ msgid "You may use AskYourPDF for personal or non-commercial purposes only. You must not use AskYourPDF for any illegal or unauthorized purpose."
-#~ msgstr "AskYourPDFは、個人用または非商用目的でのみ使用できます。違法または不正な目的で使用してはいけません。"
-
-#~ msgid "You need to upgrade your account to create {0} keys"
-#~ msgstr "{0}個のキーを作成するにはアカウントをアップグレードする必要があります"
-
 #: components/SubscriptionGuard.tsx:30
-#~ msgid "You tried accessing a premium feature, however an error occurred while fetching your plan. Please try again"
-#~ msgstr "プレミアム機能にアクセスしようとしましたが、プランの取得中にエラーが発生しました。もう一度お試しください"
-
 #: pages/delete/index.tsx:275
-#~ msgid "You'll be able to delete any document you no longer want on this dashboard. Just input the <0>Doc ID</0> and delete the document."
-#~ msgstr "このダッシュボード上で、もはや必要のないドキュメントを削除できます。ドキュメントIDを入力してドキュメントを削除してください。"
-
 #: pages/file-upload/index.tsx:363
-#~ msgid "You'll be able to start a conversation based on the document uploaded. You can upgrade your account to increase your limits"
-#~ msgstr "アップロードしたドキュメントに基づいて会話を開始できます。アカウントをアップグレードすると制限を増やせます"
-
 #: components/Affiliate/Features.tsx:157
-#~ msgid "You'll get  30% commission on every paying client who signs up through your referral link for the first 12 months. You will be able to withdraw your money once you have earned a minimum of $100 in commission. We want to make certain that your contributions are properly recognized."
-#~ msgstr "最初の12か月間に紹介リンクを経由してサインアップしたすべての有料クライアントに対して30％の手数料が支払われます。最低$100の手数料を獲得したら、"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:404
 #: components/Modals/CreateAPIKeyDesktop.tsx:417
-#~ msgid "You'll only see this key once, so please make sure to copy it and keep it safe"
-#~ msgstr "このキーは一度しか表示されないので、必ずコピーして安全に保管してください"
-
 #: pages/subscription-error/index.tsx:160
-#~ msgid "You're not subscribed"
-#~ msgstr "あなたは購読していません"
-
 #: components/APIKeysList.tsx:497
-#~ msgid "You're on the Free Plan. Your quota will be limited to the free plan quota"
-#~ msgstr "フリープランを利用しています。クォータはフリープランの制限に限定されます"
-
 #: components/Modals/Profile.tsx:277
-#~ msgid "Your Account has been Deleted"
-#~ msgstr "あなたのアカウントは削除されました"
-
 #: components/Modals/Profile.tsx:280
-#~ msgid "Your account has been successfully deleted. We're sorry to see you go, but if you ever change your mind, we'll be here to welcome you back. Thank you for being a part of our community."
-#~ msgstr "アカウントは正常に削除されました。 お帰りは残念ですが、気が変わったらまたお迎えいたします。 私たちのコミュニティの一員になっていただきありがとうございます。"
-
 #: components/Modals/CreateAPIKeyDesktop.tsx:387
-#~ msgid "Your API Key has been generated successfully"
-#~ msgstr "APIキーが正常に生成されました"
-
 #: pages/privacy/index.tsx:149
-#~ msgid "Your continued use of AskYourPDF services after any changes to this Privacy Policy signifies your acceptance of our practices as set out in the revised policy."
-#~ msgstr "プライバシーポリシーの変更後もAskYourPDFサービスの利用を継続した場合、改定後のポリシーに定める慣行を承認したことになります。"
-
 #: pages/tools/ocr/index.tsx:520
-#~ msgid "Your converted file is ready"
-#~ msgstr "変換されたファイルの準備ができました"
-
 #: pages/lyrics-generator/generate/index.tsx:109
 #: pages/lyrics-generator/index.tsx:66
 msgid "Your creative companion on your musical journey, create lyrics that tell your unique story"
 msgstr ""
 
-#~ msgid "Your document is private"
-#~ msgstr "ドキュメントは非公開です"
-
-#~ msgid "Your document is public"
-#~ msgstr "ドキュメントは公開されています"
-
 #: components/Landing/Features.tsx:297
 #: components/PdfToChat/Features.tsx:322
-#~ msgid "Your documents transform into interactive buddies, ready to help you understand and engage in an instant!"
-#~ msgstr "ドキュメントがインタラクティブな相棒に変わり、瞬時に理解とエンゲージメントのお手伝いができるようになります!"
-
 #: components/Modals/ConversationFeedback.tsx:343
 #: components/Modals/ConversationFeedback.tsx:453
-#~ msgid "Your feedback is crucial for improving our user experience and our team is actively working to resolve the issue. We truly appreciate your contribution to improving our platform."
-#~ msgstr "お客様のフィードバックは、プラットフォームの改善に貢献するために非常に重要です。私たちのチームは積極的に問題の解決に取り組んでおり、お客様の貢献を心から感謝しています。"
-
 #: components/PdfToChat/Guide.tsx:120
-#~ msgid "Your Guide to Effortless PDF <0> Interaction </0>"
-#~ msgstr "PDFの簡単な相互作用へのガイド"
-
 #: components/Modals/DocumentSelectModal.tsx:425
-#~ msgid "Your knowledge base has been deleted"
-#~ msgstr "あなたのナレッジベースは削除されました"
-
 #: components/Modals/DocumentSelectModal.tsx:403
-#~ msgid "Your knowledge base has been updated"
-#~ msgstr "あなたのナレッジベースは更新されました"
-
 #: components/Settings/AccountLinkedSuccessModal.tsx:69
-#~ msgid "Your mobile and web accounts are now linked, giving you access to your subscription benefits on both platforms. Enjoy the unified AskYourPDF experience across all your devices."
-#~ msgstr "モバイルとWebのアカウントは現在リンクされており、両方のプラットフォームでサブスクリプション特典にアクセスできます。すべてのデバイスで統一されたAskYourPDFのエクスペリエンスをお楽しみください。"
-
 #: components/tools/MergePage.tsx:779
 msgid "Your PDF is ready"
 msgstr "PDF の準備ができました"
@@ -3808,25 +1765,7 @@ msgid "Your PDFs are ready"
 msgstr "PDF の準備が完了しました"
 
 #: utils/termsData.ts:47
-#~ msgid "Your privacy is important to us. Please see our privacy policy for information on how we collect, use, and protect your personal information."
-#~ msgstr "プライバシーは大切です。個人情報の収集、利用、保護についてはプライバシーポリシーをご覧ください。"
-
 #: components/literature-review/LiteratureMainBar.tsx:462
 msgid "Your Review is being generated"
 msgstr "あなたのレビューが生成されています"
 
-#: components/MainSidebar.tsx:606
-#~ msgid "Your subscription could not be renewed because billing failed. Please"
-#~ msgstr "お支払いが失敗したため、サブスクリプションを更新できませんでした"
-
-#~ msgid "Your subscription could not be renewed because billing failed. Please "
-#~ msgstr "課金に失敗したため、サブスクリプションを更新できませんでした。支払方法"
-
-#: components/KnowledgeBaseSidebar.tsx:659
-#~ msgid "Your subscription could not be renewed because billing failed. Please check your payment method"
-#~ msgstr "お支払いが失敗したため、サブスクリプションを更新できませんでした。お支払い方法を確認してください"
-
-#: components/Summarisation/SummariseMainBar.tsx:307
-#: components/Summarisation/SummariseMainBar.tsx:439
-#~ msgid "Your summary is being generated"
-#~ msgstr "あなたの要約が生成されています"

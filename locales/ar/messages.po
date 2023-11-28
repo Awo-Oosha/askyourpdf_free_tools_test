@@ -1,20 +1,11 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-18 00:16+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: ar\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
-"X-Generator: Poedit 3.4\n"
-
-#~ msgid "  Streamline research, generate structured summaries, and createcohesive and comprehensive <br /> reviews that elevate your academic"
-#~ msgstr " تسهيل البحث ، إنشاء ملخصات منظمة ، وإنشاء مراجع شاملة ومتماسكة ترفع من أعمالك الأكاديمية"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: ayp\n"
+"Language: ar\n"
 
 #: components/Modals/SourceToolsConfiguration.tsx:411
 msgid "{0}"
@@ -25,14 +16,8 @@ msgstr "{0}"
 #: pages/billing/index.tsx:852
 #: pages/billing/upgrade.tsx:720
 #: pages/billing/upgrade.tsx:821
-#~ msgid "{0} document pages <0>monthly</0>"
-#~ msgstr "{0} صفحات مستند <0>شهريا</0>"
-
 #: pages/billing/index.tsx:934
 #: pages/settings/index.tsx:946
-#~ msgid "{0} ending in <0>*{1}</0>"
-#~ msgstr "{0} ينتهي بـ <0>*{1}</0>"
-
 #: components/literature-review/LiteratureUpload.tsx:399
 msgid "{0} file upload failed"
 msgstr "فشل تحميل ملف {0}"
@@ -42,130 +27,43 @@ msgstr "فشل تحميل ملف {0}"
 #: pages/billing/index.tsx:846
 #: pages/billing/upgrade.tsx:713
 #: pages/billing/upgrade.tsx:814
-#~ msgid "{0} messages <0>monthly</0>"
-#~ msgstr "{0} رسائل <0>شهريا</0>"
-
-#~ msgid "{0} Plan"
-#~ msgstr "خطة {0}"
-
 #: pages/settings/index.tsx:1075
 #: pages/settings/index.tsx:1110
 #: pages/settings/index.tsx:1155
 #: pages/settings/index.tsx:1192
-#~ msgid "{0} Quota Used"
-#~ msgstr "{0} مستخدم من الحصة"
-
-#~ msgid "{0} Used"
-#~ msgstr "{0} مستخدم"
-
 #: pages/knowledge-base/[[...params]].tsx:1463
-#~ msgid "{errorMessage}"
-#~ msgstr "{errorMessage}"
-
 #: pages/privacy/index.tsx:66
-#~ msgid "<0>1. Account Information:</0> When you create an account with us, we collect basic information such as your name, email address, and password. This information is used to identify you and provide personalized services."
-#~ msgstr "<0>1. معلومات الحساب:</0> عند إنشاء حساب لدينا، نقوم بجمع معلومات أساسية مثل الاسم والبريد الإلكتروني وكلمة المرور. تُستخدم هذه المعلومات للتعرف عليك وتقديم خدمات مخصصة."
-
 #: pages/privacy/index.tsx:75
-#~ msgid "<0>2. Uploaded documents:</0> When you upload a document to our platform, we temporarily store the file to provide you with our conversational document service. We do not use your documents for any other purposes."
-#~ msgstr "<0>2. المستندات المرفوعة:</0> عند رفع مستند إلى منصتنا، نقوم بتخزين الملف مؤقتًا لتزويدك بخدمة المستندات الحوارية. لا نستخدم مستنداتك لأية أغراض أخرى."
-
 #: pages/privacy/index.tsx:84
-#~ msgid "<0>3. User Interactions:</0> We collect data about how you interact with our services. This includes data such as the time, frequency, and duration of your interactions. This helps us understand usage patterns, improve our services, and provide you with a more personalized experience."
-#~ msgstr "<0>3. تفاعلات المستخدمين:</0> نقوم بجمع بيانات حول كيفية تفاعلك مع خدماتنا. وهذا يشمل بيانات مثل الوقت والتكرار ومدة التفاعلات. يساعدنا هذا على فهم أنماط الاستخدام وتحسين خدماتنا وتقديم تجربة أكثر تخصيصًا."
-
-#~ msgid "<0>Back to Homepage</0>"
-#~ msgstr "<0>العودة إلى الصفحة الرئيسية</0>"
-
 #: components/tools/DocUploadNoFunc.tsx:385
 msgid "<0>Click to upload</0> or drag and drop"
 msgstr "<0>اضغط للتحميل</0> أو اسحب وأفلت"
 
-#~ msgid "<0>Keep this document public.</0> (That means this document can be shared)"
-#~ msgstr "<0>اجعل هذا المستند عامًا.</0> (هذا يعني أنه يمكن مشاركة هذا المستند)"
-
 #: components/Modals/OldDocumentDeleteModal.tsx:132
-#~ msgid "<0>Warning: </0>"
-#~ msgstr "تحذير:"
-
 #: pages/upload/index.tsx:252
-#~ msgid "<0>We'll assign an ID to your document.</0> You'll be able to start a conversation in ChatGPT based on the document uploaded. You can upgrade your account to increase your limits."
-#~ msgstr "<0>سنخصص معرف لمستندك.</0> ستتمكن من بدء محادثة في ChatGPT بناءً على المستند المرفوع. يمكنك ترقية حسابك لزيادة حدودك."
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:462
 #: components/Modals/CreateAPIKeyDesktop.tsx:478
-#~ msgid "<0>You'll only see your API key once</0> after it's generated. Please make sure to save it securely."
-#~ msgstr "<0>سترى مفتاح API الخاص بك مرة واحدة فقط</0> بعد إنشائه. يرجى التأكد من حفظه بأمان."
-
-#~ msgid ">If you have any questions or problems while using AskYourPDF, you can contact our support team, who will be happy to help you."
-#~ msgstr ">إذا كانت لديك أي أسئلة أو مشاكل أثناء استخدام AskYourPDF، يمكنك التواصل مع فريق الدعم الخاص بنا، الذي سيسعده مساعدتك."
-
 #: pages/billing/index.tsx:842
 #: pages/billing/upgrade.tsx:707
 #: pages/billing/upgrade.tsx:799
-#~ msgid "${0}/month"
-#~ msgstr "${0}/شهرياً"
-
 #: components/Api/Pricing.tsx:277
 #: components/Api/Pricing.tsx:333
-#~ msgid "${0}<0>/month</0>"
-#~ msgstr "{0}<0>/شهر</0>"
-
 #: pages/settings/index.tsx:646
-#~ msgid "1200 questions / day"
-#~ msgstr "1200 سؤال / يومياً"
-
 #: pages/settings/index.tsx:760
-#~ msgid "150 documents per day"
-#~ msgstr "150 مستند / يومياً"
-
 #: pages/settings/index.tsx:643
-#~ msgid "50 documents per day"
-#~ msgstr "50 مستند / يومياً"
-
 #: components/PdfToChat/ApiBanner.tsx:82
-#~ msgid "A seamless integration that takes your conversations to the next level. With this powerful plugin, ChatGPT gains the ability to access and provide insights from your documents hosted on AskYourPDF."
-#~ msgstr "اندماج سلس يأخذ محادثاتك إلى المستوى التالي. من خلال هذه المكونة القوية، يكتسب ChatGPT القدرة على الوصول إلى مستنداتك وتقديم رؤى منها على AskYourPDF."
-
 #: pages/knowledge-base/intro.tsx:293
-#~ msgid "Absolutely! Click on the menu icon by the Knowledge Base and click on Copy ID in the dropdown. You can then paste this ID in the ChatGPT UI to have a conversation with the Knowledge Base"
-#~ msgstr "بالتأكيد! انقر على أيقونة القائمة بجوار قاعدة المعرفة وانقر على نسخ الهوية في القائمة المنسدلة. بعد ذلك، يمكنك لصق هذه الهوية في واجهة ChatGPT لإجراء محادثة مع قاعدة المعرفة"
-
 #: utils/faqData.tsx:97
-#~ msgid "Absolutely. Data privacy is our top priority. The application employs industry-standard SSL encryption to ensure the protection of your information."
-#~ msgstr "بالتأكيد. الخصوصية البيانات هي أولويتنا القصوى. تستخدم التطبيق تشفير SSL القياسي في الصناعة لضمان حماية معلوماتك."
-
 #: components/PdfToChat/Discover.tsx:32
-#~ msgid "Academic Excellence"
-#~ msgstr "التفوق الأكاديمي"
-
 #: utils/termsData.ts:11
-#~ msgid "Acceptance of Terms"
-#~ msgstr "قبول الشروط"
-
 #: pages/settings/index.tsx:504
-#~ msgid "Account plans"
-#~ msgstr "خطط الحساب"
-
 #: components/Modals/PaymentBottomSheet.tsx:150
 #: components/Modals/PaymentModalDesktop.tsx:153
-#~ msgid "Account Upgraded"
-#~ msgstr "تم ترقية الحساب"
-
 #: components/Settings/AccountLinkedSuccessModal.tsx:66
-#~ msgid "Accounts Linked Successfully"
-#~ msgstr "تم ربط الحسابات بنجاح"
-
 #: components/Extension/Download.tsx:169
-#~ msgid "Add Our Chrome Extension"
-#~ msgstr "أضف إلى إضافة Google Chrome الخاصة بنا"
-
 #: components/Extension/ExtensionHero.tsx:244
 #: components/Landing/ExtensionAnnouncement.tsx:129
 #: components/PdfToChat/ExtensionAnnouncement.tsx:129
-#~ msgid "Add the AskyourPDF extension to your Chrome browser to start chatting effortlessly with any PDF. It saves you hours and boosts your productivity!"
-#~ msgstr "أضف امتداد AskyourPDF إلى متصفح Chrome لبدء المحادثة بسهولة مع أي ملف PDF. إنه يوفر عليك الساعات ويعزز إنتاجيتك!"
-
 #: components/literature-review/LiteratureSideBar.tsx:434
 msgid "Advanced Parameters"
 msgstr "معلمات متقدمة"
@@ -179,9 +77,6 @@ msgid "Affiliate Program"
 msgstr "برنامج الشراكة التابعة"
 
 #: components/PdfToChat/SummarizeGuide.tsx:177
-#~ msgid "After the document has been processed, you can customize the summary based on your preferences. <0/>Set settings such as the desired length of the summary to make it as brief or as informative as you want. Set text formatting choices to ensure that the summary follows your desired style. You can include a prompt to instruct AskYourPDF on how to summarise the document. However, if you prefer not to provide a prompt, you can skip this step."
-#~ msgstr "بعد معالجة الوثيقة، يمكنك تخصيص الملخص استنادًا إلى تفضيلاتك. <0/> قم بضبط الإعدادات مثل الطول المرغوب فيه للملخص لجعله موجزًا أو معلوماتيًا بقدر ما ترغب. قم بضبط خيارات تنسيق النص لضمان أن الملخص يتبع الأسلوب المطلوب. يمكنك تضمين استفسار لتوجيه AskYourPDF حول كيفية تلخيص الوثيقة. ومع ذلك، إذا كنت تفضل عدم تقديم استفسار، فيمكنك تخطي هذه الخطوة."
-
 #: pages/book-title-generator/generate/index.tsx:111
 #: pages/book-title-generator/index.tsx:58
 msgid "AI Book Title Generator"
@@ -251,23 +146,11 @@ msgstr "مولد بيان أطروحة الذكاء الاصطناعي"
 
 #: components/Landing/Features.tsx:227
 #: components/PdfToChat/Features.tsx:233
-#~ msgid "All on Your Terms"
-#~ msgstr "كل شيء حسب شروطك"
-
 #: pages/documents/[[...id]]/index.tsx:969
-#~ msgid "Allow your conversation with this document to be shareable."
-#~ msgstr "اسمح بمشاركة محادثتك مع هذا المستند."
-
 #: pages/billing/index.tsx:1069
 #: pages/settings/index.tsx:170
-#~ msgid "Amount"
-#~ msgstr "المبلغ"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:316
 #: components/Modals/CreateAPIKeyDesktop.tsx:331
-#~ msgid "An error has occured"
-#~ msgstr "حدث خطأ"
-
 #: components/Generator.tsx:263
 #: components/literature-review/MainContent.tsx:292
 #: components/Modals/ExportSourceTools.tsx:231
@@ -275,38 +158,14 @@ msgid "An error occurred"
 msgstr "حدث خطأ"
 
 #: components/Modals/DocumentSelectModal.tsx:393
-#~ msgid "An error occurred while creating the knowledge base. Please try again."
-#~ msgstr "حدث خطأ أثناء إنشاء قاعدة المعرفة. يرجى المحاولة مرة أخرى."
-
 #: components/Modals/DocumentSelectModal.tsx:434
-#~ msgid "An error occurred while deleting the conversation. However, the associated knowledge base has been deleted. Please delete the conversation manually."
-#~ msgstr "حدث خطأ أثناء حذف المحادثة. ومع ذلك، تم حذف قاعدة المعرفة المرتبطة. يرجى حذف المحادثة يدويًا."
-
 #: components/Modals/DocumentSelectModal.tsx:450
-#~ msgid "An error occurred while deleting the knowledge base. Please try again."
-#~ msgstr "حدث خطأ أثناء حذف قاعدة المعرفة. يرجى المحاولة مرة أخرى."
-
 #: components/Settings/LinkAccountCall.tsx:86
-#~ msgid "An error occurred while linking your mobile device. Please try again"
-#~ msgstr "حدث خطأ أثناء ربط جهازك المحمول. يرجى المحاولة مرة أخرى"
-
 #: pages/documents/[[...id]]/index.tsx:699
-#~ msgid "An error occurred while loading the document. Please try again"
-#~ msgstr "حدث خطأ أثناء تحميل المستند. يرجى إعادة المحاولة"
-
 #: pages/billing/index.tsx:690
 #: pages/settings/index.tsx:309
-#~ msgid "An error occurred while loading your subscription. Please try again"
-#~ msgstr "حدث خطأ أثناء تحميل اشتراكك. يرجى إعادة المحاولة"
-
 #: components/SearchResults.tsx:371
-#~ msgid "An error occurred while searching for <0>\"{debouncedSearchTerm}\"</0>. Please try again."
-#~ msgstr "حدث خطأ أثناء البحث عن <0>\"{debouncedSearchTerm}\"</0>. يرجى إعادة المحاولة."
-
 #: components/Modals/DocumentSelectModal.tsx:414
-#~ msgid "An error occurred while updating the knowledge base. Please try again."
-#~ msgstr "حدث خطأ أثناء تحديث قاعدة المعرفة. يرجى المحاولة مرة أخرى."
-
 #: pages/source-tool/index.tsx:206
 #: pages/source-tool/index.tsx:216
 msgid "An error occurred. Please try again"
@@ -318,25 +177,13 @@ msgstr "تحليل المستند"
 
 #: components/APIKeysList.tsx:591
 #: components/APIKeysList.tsx:754
-#~ msgid "Analytics for Default Key"
-#~ msgstr "التحليلات للمفتاح الافتراضي"
-
-#~ msgid "Analyzing Document"
-#~ msgstr "تحليل الوثيقة"
-
 #: components/Footer.tsx:283
 msgid "Android App"
 msgstr "تطبيق أندرويد"
 
 #: components/Landing/Plans.tsx:432
 #: components/PdfToChat/Plans.tsx:432
-#~ msgid "Annual"
-#~ msgstr "سنوي"
-
 #: components/Modals/ShareModal.tsx:201
-#~ msgid "Anyone with this link can start a new conversation with this document. Chats are not shared."
-#~ msgstr "يمكن لأي شخص لديه هذا الرابط بدء محادثة جديدة مع هذا المستند. المحادثات غير مشتركة."
-
 #: components/Footer.tsx:265
 #: components/Navbar.tsx:325
 #: components/Navbar.tsx:382
@@ -346,183 +193,60 @@ msgid "API"
 msgstr "API"
 
 #: components/Modals/PaymentModalContent.tsx:387
-#~ msgid "API Access"
-#~ msgstr "الوصول إلى API"
-
-#~ msgid "API Access (Test Keys)"
-#~ msgstr "الوصول إلى واجهة برمجة التطبيقات (مفاتيح الاختبار)"
-
 #: components/APIKeysList.tsx:560
 #: components/APIKeysList.tsx:724
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:384
-#~ msgid "API Key"
-#~ msgstr "مفتاح API"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:393
 #: components/Modals/CreateAPIKeyDesktop.tsx:406
-#~ msgid "API Key copied"
-#~ msgstr "تم نسخ مفتاح API"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:364
 #: components/Modals/CreateAPIKeyDesktop.tsx:375
-#~ msgid "API Key Generated"
-#~ msgstr "تم إنشاء مفتاح API"
-
 #: components/DeveloperSidebar.tsx:137
 #: pages/apikeys/index.tsx:349
 #: pages/apikeys/index.tsx:368
 #: pages/apikeys/index.tsx:386
 #: pages/billing/index.tsx:806
 #: pages/billing/upgrade.tsx:624
-#~ msgid "API Keys"
-#~ msgstr "مفاتيح API"
-
 #: pages/apikeys/index.tsx:394
-#~ msgid "API keys let you connect seamlessly with our APIs"
-#~ msgstr "تتيح لك مفاتيح API الاتصال بسلاسة مع واجهات برمجة التطبيقات الخاصة بنا"
-
 #: pages/apikeys/index.tsx:391
-#~ msgid "API Management"
-#~ msgstr "إدارة API"
-
 #: components/Modals/Profile.tsx:345
-#~ msgid "API Plan"
-#~ msgstr "خطة API"
-
 #: components/Landing/Products.tsx:157
 #: components/PdfToChat/Products.tsx:157
-#~ msgid "API Service for Developers"
-#~ msgstr "خدمة API للمطورين"
-
 #: utils/termsData.ts:36
-#~ msgid "App Permissions"
-#~ msgstr "أذونات التطبيق"
-
 #: components/Modals/ConversationHistoryDeleteModal.tsx:111
-#~ msgid "Are you sure you want to clear your conversation history?"
-#~ msgstr "هل أنت متأكد من أنك تريد مسح سجل محادثاتك؟"
-
 #: components/Modals/ConversationDeleteModal.tsx:111
-#~ msgid "Are you sure you want to delete this conversation?"
-#~ msgstr "هل أنت متأكد من أنك تريد حذف هذه المحادثة؟"
-
 #: components/Modals/OldDocumentDeleteModal.tsx:127
-#~ msgid "Are you sure you want to delete this document?"
-#~ msgstr "هل أنت متأكد أنك تريد حذف هذا المستند؟"
-
 #: components/Modals/DocumentDeleteModal.tsx:110
-#~ msgid "Are you sure you want to delete this document? The associated conversation will be deleted from our servers as well."
-#~ msgstr "هل أنت متأكد من أنك تريد حذف هذا المستند؟ سيتم حذف المحادثة المرتبطة به من خوادمنا أيضًا."
-
 #: components/Modals/DocumentSelectModal.tsx:758
-#~ msgid "Are you sure you want to delete this knowledge base?"
-#~ msgstr "هل أنت متأكد أنك تريد حذف هذه قاعدة المعرفة؟"
-
 #: components/Modals/Profile.tsx:248
-#~ msgid "Are you sure you want to delete your account? Deleting your account will result in the permanent loss of all your data."
-#~ msgstr "هل أنت متأكد أنك تريد حذف حسابك؟ حذف حسابك سيؤدي إلى فقدان دائم لجميع بياناتك."
-
 #: pages/billing/upgrade.tsx:908
-#~ msgid "Are you sure you want to downgrade to a free plan? You'll have access to your pro features until the end of your billing period on {0}"
-#~ msgstr "هل أنت متأكد من أنك تريد التخفيض إلى خطة مجانية؟ سيكون لديك إمكانية الوصول إلى ميزات المحترفين الخاصة بك حتى نهاية فترة الفوترة الخاصة بك في {0}"
-
 #: pages/settings/index.tsx:440
-#~ msgid "Are you sure you want to downgrade your account? You'll have access to your {userRole} features until the end of your billing period on {0}"
-#~ msgstr "هل أنت متأكد من أنك تريد تخفيض مستوى حسابك؟ سيكون لديك إمكانية الوصول إلى ميزات {userRole} الخاصة بك حتى نهاية فترة الفوترة الخاصة بك في {0}"
-
 #: components/PdfToChat/Guide.tsx:152
-#~ msgid "Ask"
-#~ msgstr "اسأل"
-
 #: pages/conversations/[[...params]].tsx:1279
-#~ msgid "Ask any question about your document"
-#~ msgstr "اطرح أي سؤال عن مستندك"
-
 #: pages/knowledge-base/[[...params]].tsx:1923
-#~ msgid "Ask any question about your knowledge base"
-#~ msgstr "سلني أي سؤال حول قاعدة المعرفة الخاصة بك"
-
 #: pages/conversations/[[...params]].tsx:1133
 #: pages/knowledge-base/[[...params]].tsx:1719
-#~ msgid "Ask me about {0}."
-#~ msgstr "اسألني عن {0}."
-
-#~ msgid "AskYourPDF"
-#~ msgstr "AskYourPDF"
-
 #: utils/termsData.ts:32
-#~ msgid "AskYourPDF allows you to import and view documents. You retain     full ownership and control over the content you import into the app. We do not claim ownership of your content, nor do we monitor or access it unless required by  applicable laws."
-#~ msgstr "تتيح لك AskYourPDF استيراد المستندات وعرضها. أنت تحتفظ بالملكية والتحكم الكاملين في المحتوى الذي تقوم باستيراده إلى التطبيق. لا ندعي ملكية محتواك، كما أننا لا نراقبه أو نصل إليه إلا إذا اقتضت القوانين المعمول بها ذلك."
-
 #: components/Api/Pricing.tsx:265
-#~ msgid "AskYourPDF API Pricing"
-#~ msgstr "تسعير واجهة برمجة تطبيقات AskYourPDF"
-
 #: components/Landing/Features.tsx:290
 #: components/PdfToChat/Features.tsx:315
-#~ msgid "AskYourPDF brings the magic of AI to your fingertips! Dive into smart navigation, no more endless scrolling or page skimming."
-#~ msgstr "تجلب AskYourPDF سحر الذكاء الاصطناعي إلى أطراف أصابعك! اغمر نفسك في التنقل الذكي، لا مزيد من التمرير أو تصفح الصفحات بلا نهاية."
-
 #: components/Extension/Methods.tsx:143
-#~ msgid "AskYourPDF Chrome extension lets you seamlessly have intelligent conversations with your PDF documents. Whether you're working together with others or making notes for yourself, the extension makes it quick and straightforward to extract valuable information, all without leaving the comfort of your browser."
-#~ msgstr "إمتداد AskYourPDF لـ Chrome يسمح لك بإجراء محادثات ذكية مع مستندات PDF الخاصة بك بسهولة. سواء كنت تعمل مع الآخرين أو تقوم بتدوين الملاحظات لنفسك، يجعل الإمتداد من السهل والسريع استخراج المعلومات القيمة، دون مغادرة متصفحك."
-
 #: components/PdfToChat/Discover.tsx:38
-#~ msgid "AskYourPDF gives researchers and academics the ability to speed up their work by quickly extracting data and insights from large PDF documents."
-#~ msgstr "يمنح AskYourPDF الباحثين والأكاديميين القدرة على تسريع عملهم عن طريق استخراج البيانات والرؤى بسرعة من مستندات PDF الكبيرة."
-
 #: utils/termsData.ts:62
-#~ msgid "AskYourPDF is provided on an \"as is\" and \"as available\" basis. We do not warrant that AskYourPDF will be uninterrupted, error-free, or free from downtime."
-#~ msgstr "يتم توفير AskYourPDF على أساس \"كما هو\" و\"كما هو متاح\". لا نضمن أن AskYourPDF سيكون بلا انقطاع أو خالي من الأخطاء أو خالي من أوقات التوقف."
-
 #: utils/faqData.tsx:31
-#~ msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See <0>here</0> for details]."
-#~ msgstr "يقدم AskYourPDF ثلاث خطط: Premium وPro وEnterprise. [انظر <0>هنا</0> للحصول على التفاصيل]."
-
 #: utils/faqData.tsx:29
-#~ msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See here (https://askyourpdf.com/settings) for details]."
-#~ msgstr "تقدم AskYourPDF ثلاثة خطط: بريميوم، برو، وأنتربرايز. [انظر هنا (https://askyourpdf.com/settings) للتفاصيل]."
-
 #: components/PdfToChat/ApiBanner.tsx:79
-#~ msgid "AskYourPDF Plugin for ChatGPT"
-#~ msgstr "إضافة AskYourPDF لـ ChatGPT"
-
 #: pages/knowledge-base/intro.tsx:260
-#~ msgid "AskYourPDF uses AI to scan all the documents within the knowledge base to provide answers based on the collective information they contain."
-#~ msgstr "يستخدم AskYourPDF الذكاء الاصطناعي لفحص جميع المستندات داخل قاعدة المعرفة لتقديم إجابات استناداً إلى المعلومات الجماعية التي تحتويها."
-
 #: pages/knowledge-base/intro.tsx:262
-#~ msgid "AskYourPDF uses AI to scan all the documents within the knowledge base to provide answers based on the collective information they contain. <0>Learn more</0>"
-#~ msgstr "يستخدم AskYourPDF الذكاء الاصطناعي لفحص جميع المستندات داخل قاعدة المعرفة لتقديم إجابات استناداً إلى المعلومات الجماعية التي تحتويها. <0>تعرف على المزيد</0>"
-
 #: pages/knowledge-base/intro.tsx:283
-#~ msgid "AskYourPDF will produce a consolidated answer based on the contents of both documents. What's even better is, you can prompt it to give you answers from on a specific document in your knowledge base."
-#~ msgstr "سيقدم AskYourPDF إجابة موحدة استناداً إلى محتوى كلتا المستندات. الأمر الأفضل هو أنه يمكنك تشغيله لإعطائك إجابات من مستند معين في قاعدة المعرفة الخاصة بك."
-
 #: components/Affiliate/Header.tsx:198
-#~ msgid "At AskYourPDF we cherish our community and think you should be rewarded for spreading the word about our platform's advantages. To earn 30% commission on all payments made by users you refer within the first 12 months, Join our affiliate program."
-#~ msgstr "في AskYourPDF نقدر مجتمعنا ونعتقد أنه يجب أن تكونمكافأة لنشر الكلمة حول مزايا منصتنا.لكسب عمولة 30٪ على جميع المدفوعات التي يقوم بها المستخدمون الذين قمت بالإحالة عليهم"
-
 #: pages/privacy/index.tsx:98
-#~ msgid "At AskYourPDF, we value and respect your control over your data. You can delete your uploaded document files from our service at any time, completely erasing them from our servers. To ensure the privacy of our free users, we go one step further by automatically deleting uploaded files a few hours after use. This helps us ensure that no residual data remains on our servers longer than necessary."
-#~ msgstr "في AskYourPDF، نحن نقدّر ونحترم تحكمك في بياناتك. يمكنك حذف ملفات المستندات التي قمت بتحميلها من خدمتنا في أي وقت، مما يؤدي إلى محوها تمامًا من خوادمنا. لضمان خصوصية مستخدمينا المجانيين، نذهب خطوة أبعد من ذلك من خلال حذف الملفات المرفوعة تلقائيًا بعد بضع ساعات من الاستخدام. يساعدنا هذا على التأكد من عدم بقاء أي بيانات متبقية على خوادمنا لفترة أطول مما يلزم."
-
 #: pages/privacy/index.tsx:43
-#~ msgid "At AskYourPDF, your privacy isn't just our responsibility – it's the foundation of the trust we hope to build with you. We are deeply committed to creating a platform where you can interact with your documents without compromising on your privacy. This Privacy Policy explains our practices in detail, outlining what data we collect, how we collect it, why we collect it, and how we ensure that your data is handled with the highest level of care."
-#~ msgstr "في AskYourPDF، خصوصيتك ليست مسؤوليتنا فحسب - بل هي أساس الثقة التي نأمل ببنائها معك. نحن ملتزمون بشدة بإنشاء منصة تتيح لك التفاعل مع مستنداتك دون المساس بخصوصيتك. يشرح سياسة الخصوصية هذه ممارساتنا بالتفصيل، موضحة البيانات التي نجمعها، وكيفية جمعها، ولماذا نجمعها، وكيف نضمن التعامل مع بياناتك بأعلى مستوى من العناية."
-
 #: components/source-tools/source-result/index.tsx:473
 msgid "Authors:"
 msgstr "المؤلفون:"
 
 #: utils/termsData.ts:41
-#~ msgid "Automatically Collected Information"
-#~ msgstr "المعلومات التي يتم جمعها تلقائيًا"
-
 #: components/Modals/Profile.tsx:292
-#~ msgid "Back to Homepage"
-#~ msgstr "العودة إلى الصفحة الرئيسية"
-
 #: components/literature-review/MainContent.tsx:343
 #: components/tools/MergePage.tsx:676
 #: components/tools/OcrPage.tsx:252
@@ -533,17 +257,8 @@ msgstr "العودة إلى الأدوات"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:449
 #: components/Modals/CreateAPIKeyDesktop.tsx:465
-#~ msgid "Before generating your API Key"
-#~ msgstr "قبل إنشاء مفتاح API الخاص بك"
-
 #: pages/chat/[[...docID]]/index.tsx:316
-#~ msgid "Begin a conversation with me by uploading a document. I'll respond with anything you need based on the document"
-#~ msgstr "ابدأ محادثة معي عن طريق تحميل مستند. سأرد عليك بأي شيء تحتاجه بناءً على المستند"
-
 #: components/PdfToChat/Guide.tsx:139
-#~ msgid "Begin by effortlessly uploading your PDF documents to our platform."
-#~ msgstr "ابدأ بسهولة بتحميل مستندات PDF الخاصة بك إلى منصتنا."
-
 #: components/literature-review/LiteratureMainBar.tsx:487
 msgid "Begin new review"
 msgstr ""
@@ -559,12 +274,6 @@ msgstr "ابدأ ببحث جديد"
 #: pages/billing/index.tsx:814
 #: pages/billing/upgrade.tsx:605
 #: pages/billing/upgrade.tsx:632
-#~ msgid "Billing"
-#~ msgstr "الفوترة"
-
-#~ msgid "BlockTechnology OÜ. All rights reserved. © {year}"
-#~ msgstr "BlockTechnology OÜ. جميع الحقوق محفوظة. © {year}"
-
 #: components/Footer.tsx:418
 msgid "BlockTechnology OÜ. All rights reserved. ©{year}"
 msgstr "شركة بلوك تكنولوجي أويه. جميع الحقوق محفوظة. ©{سنة}"
@@ -580,189 +289,63 @@ msgstr ""
 
 #: components/Landing/Products.tsx:150
 #: components/PdfToChat/Products.tsx:150
-#~ msgid "Browser Extension"
-#~ msgstr "امتداد المتصفح"
-
 #: components/Modals/ConversationFeedback.tsx:368
 #: components/Modals/ConversationFeedback.tsx:478
-#~ msgid "Bug"
-#~ msgstr "خلل"
-
 #: components/Api/Header.tsx:157
-#~ msgid "Build Better With The"
-#~ msgstr "بناء أفضل باستخدام الواجهة البرمجية"
-
 #: components/PdfToChat/Discover.tsx:48
-#~ msgid "Business analysts and professionals can extract valuable market insights and competitive intelligence from industry reports."
-#~ msgstr "يمكن لمحللي الأعمال والمحترفين استخراج رؤى سوقية قيمة واستخبارات تنافسية من تقارير الصناعة."
-
 #: components/PdfToChat/Discover.tsx:47
-#~ msgid "Business Intelligence"
-#~ msgstr "استخبارات الأعمال"
-
 #: components/BuyCredits.tsx:111
-#~ msgid "Buy Credit"
-#~ msgstr "شراء الائتمان"
-
 #: components/Modals/UnitsExceededModal.tsx:119
-#~ msgid "Buy Credits"
-#~ msgstr ""
-
 #: components/Conversations/CreditBalance.tsx:131
-#~ msgid "Buy More Credit"
-#~ msgstr "اشترِ المزيد من الائتمان "
-
-#~ msgid "Buy Plan"
-#~ msgstr "اشتر الخطة"
-
 #: utils/termsData.ts:12
-#~ msgid "By accessing or using AskYourPDF, you agree to be bound by these terms andconditions. If you do not agree with these terms and conditions, you must not use AskYourPDF."
-#~ msgstr "من خلال الوصول إلى AskYourPDF أو استخدامها، فإنك توافق على الالتزام بهذه الشروط والأحكام. إذا كنت لا توافق على هذه الشروط والأحكام، يجب عليك عدم استخدام AskYourPDF."
-
 #: pages/file-upload/index.tsx:390
-#~ msgid "By starting a conversation you agree with our data privacy policy and terms"
-#~ msgstr "من خلال بدء محادثة، فإنك توافق على سياسة خصوصية البيانات والشروط الخاصة بنا"
-
 #: components/PdfToChat/Discover.tsx:43
-#~ msgid "By streamlining case analysis and research, professionals can make legal documents more accessible and understandable using AskYourPDF."
-#~ msgstr "من خلال تبسيط تحليل القضايا والبحث، يمكن للمحترفين جعل الوثائق القانونية أكثر إمكانية الوصول وفهمًا باستخدام AskYourPDF."
-
 #: components/PdfToChat/Discover.tsx:33
-#~ msgid "By using AskYouPDF to swiftly access information within textbooks, research papers, and study materials, students may acquire a competitive advantage."
-#~ msgstr "باستخدام AskYouPDF للوصول بسرعة إلى المعلومات داخل الكتب الدراسية والأبحاث ومواد الدراسة، يمكن للطلاب اكتساب ميزة تنافسية."
-
 #: pages/privacy/index.tsx:167
-#~ msgid "By using AskYourPDF, you acknowledge that you have read, understood, and agreed to the practices as described in this Privacy Policy."
-#~ msgstr "من خلال استخدام AskYourPDF، فإنك تقر بأنك قد قرأت وفهمت ووافقت على الممارسات كما هو موضح في سياسة الخصوصية هذه."
-
-#~ msgid "By using AskYourPDF, you agree to receive periodic emails related to product updates, including but not limited to new features, enhancements, and changes to existing functionality. These emails aim to keep you informed about improvements and updates to the app that may affect your user experience. You have the option to unsubscribe from these emails at any time through the unsubscribe link provided in the email."
-#~ msgstr "من خلال استخدام AskYourPDF، أنت توافق على استقبال رسائل البريد الإلكتروني الدورية المتعلقة بتحديثات المنتج، بما في ذلك ولكن لا تقتصر على الميزات الجديدة، والتحسينات، والتغييرات على الوظائف الحالية. تهدف هذه الرسائل إلى إبقائك على علم بالتحسينات والتحديثات على التطبيق التي قد تؤثر على تجربتك كمستخدم. لديك الخيار لإلغاء الاشتراك من هذه الرسائل في أي وقت من خلال الرابط لإلغاء الاشتراك المقدم في البريد الإلكتروني."
-
 #: utils/faqData.tsx:81
-#~ msgid "Can I chat in any language?"
-#~ msgstr "هل يمكنني الدردشة بأي لغة؟"
-
 #: pages/chat/[[...docID]]/index.tsx:255
 #: utils/faqData.tsx:59
-#~ msgid "Can I chat with other users of the application?"
-#~ msgstr "هل يمكنني الدردشة مع مستخدمين آخرين للتطبيق؟"
-
 #: utils/faqData.tsx:86
-#~ msgid "Can I download the chat history?"
-#~ msgstr "هل يمكنني تنزيل سجل المحادثات؟"
-
 #: utils/faqData.tsx:101
-#~ msgid "Can I edit the document while using AskYourPDF?"
-#~ msgstr "هل يمكنني تعديل المستند أثناء استخدام AskYourPDF؟"
-
 #: pages/knowledge-base/intro.tsx:287
-#~ msgid "Can I modify my Knowledge Base?"
-#~ msgstr "هل يمكنني تعديل قاعدة المعرفة الخاصة بي؟"
-
 #: pages/chat/[[...docID]]/index.tsx:245
 #: pages/knowledge-base/intro.tsx:277
 #: utils/faqData.tsx:23
-#~ msgid "Can I upload any document?"
-#~ msgstr "هل يمكنني تحميل أي مستند؟"
-
 #: utils/faqData.tsx:117
-#~ msgid "Can I upload multiple documents at once?"
-#~ msgstr "هل يمكنني تحميل مستندات متعددة في وقت واحد؟"
-
-#~ msgid "Can I upload password-protected documents to AskYourPDF"
-#~ msgstr "هل يمكنني تحميل مستندات محمية بكلمة مرور إلى AskYourPDF؟"
-
 #: utils/faqData.tsx:123
-#~ msgid "Can I upload password-protected documents to AskYourPDF?"
-#~ msgstr "هل يمكنني رفع المستندات المحمية بكلمة مرور إلى AskYourPDF؟"
-
 #: utils/faqData.tsx:107
-#~ msgid "Can I use AskYourPDF on any device?"
-#~ msgstr "هل يمكنني استخدام AskYourPDF على أي جهاز؟"
-
 #: pages/knowledge-base/intro.tsx:292
-#~ msgid "Can I use the Knowledge Base with the AskYourPDF Plugin?"
-#~ msgstr "هل يمكنني استخدام قاعدة المعرفة مع إضافة AskYourPDF؟"
-
 #: components/source-tools/source-result/index.tsx:510
 msgid "Cancel"
 msgstr "إلغاء"
 
 #: pages/settings/index.tsx:577
-#~ msgid "Cancel Current Subscription"
-#~ msgstr "إلغاء الاشتراك الحالي"
-
 #: pages/billing/upgrade.tsx:761
-#~ msgid "Cancel Plan"
-#~ msgstr "إلغاء الخطة"
-
 #: pages/billing/index.tsx:905
-#~ msgid "Cancel Subscription"
-#~ msgstr "إلغاء الاشتراك"
-
 #: pages/billing/index.tsx:837
 #: pages/billing/upgrade.tsx:669
 #: pages/settings/index.tsx:632
 #: pages/settings/index.tsx:749
 #: pages/settings/index.tsx:841
-#~ msgid "Canceled"
-#~ msgstr "تم الإلغاء"
-
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:176
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:172
-#~ msgid "Card Number"
-#~ msgstr "رقم البطاقة"
-
 #: pages/knowledge-base/intro.tsx:288
-#~ msgid "Certainly, you have the flexibility to adjust your Knowledge Base as needed. You can add or remove documents at your convenience."
-#~ msgstr "بالتأكيد، لديك مرونة في ضبط قاعدة المعرفة الخاصة بك حسب الحاجة. يمكنك إضافة أو إزالة المستندات حسب رغبتك."
-
 #: components/Modals/Profile.tsx:146
-#~ msgid "Change Password"
-#~ msgstr "تغيير كلمة المرور"
-
 #: pages/privacy/index.tsx:137
-#~ msgid "Changes to the Privacy Policy"
-#~ msgstr "التغييرات على سياسة الخصوصية"
-
 #: utils/termsData.ts:76
-#~ msgid "Changes to these Terms and Conditions"
-#~ msgstr "التغييرات على هذه الشروط والأحكام"
-
 #: components/Footer.tsx:293
 msgid "Chat"
 msgstr "دردشة"
 
 #: components/Modals/PaymentModalContent.tsx:285
-#~ msgid "Chat longer with your documents"
-#~ msgstr "تحدث لفترة أطول مع مستنداتك"
-
 #: utils/faqData.tsx:130
-#~ msgid "Chat sessions remain available as long as the browser tab is open."
-#~ msgstr "تظل جلسات الدردشة متاحة طالما أن علامة التبويب في المستعرض مفتوحة."
-
 #: components/Extension/ExtensionHero.tsx:239
-#~ msgid "Chat with any PDF via our  <0>Chrome Extension</0>"
-#~ msgstr "تحدث مع أي مستند PDF عبر إمتداد Chrome الخاص بنا"
-
 #: components/Landing/ExtensionAnnouncement.tsx:124
 #: components/PdfToChat/ExtensionAnnouncement.tsx:124
-#~ msgid "Chat with any PDF via our <0/> <1>Chrome Extension</1>"
-#~ msgstr "تحدث مع أي ملف PDF عبر <0/> <1>امتداد Chrome</1> الخاص بنا"
-
 #: components/Landing/Products.tsx:143
 #: components/PdfToChat/Products.tsx:143
-#~ msgid "ChatGPT Plugin"
-#~ msgstr "إضافة ChatGPT"
-
 #: components/MainSidebar.tsx:611
-#~ msgid "check your payment method."
-#~ msgstr "تعذر تجديد اشتراكك لأنك."
-
 #: pages/billing/upgrade.tsx:695
-#~ msgid "Choose the preferred plan that suits your application"
-#~ msgstr "اختر الخطة المفضلة التي تناسب تطبيقك"
-
 #: components/Footer.tsx:274
 msgid "Chrome Extension"
 msgstr "امتداد كروم"
@@ -774,112 +357,52 @@ msgstr "امتداد كروم"
 #: components/PdfToChat/Plans.tsx:592
 #: components/PdfToChat/Plans.tsx:682
 #: pages/settings/index.tsx:655
-#~ msgid "Chrome Extension Access"
-#~ msgstr "إمكانية الوصول إلى امتداد Chrome"
-
 #: components/source-tools/source-result/index.tsx:466
 msgid "Cited by:"
 msgstr "مُستَنَد إلى:"
 
 #: components/Modals/ConversationHistoryDeleteModal.tsx:123
-#~ msgid "Clear"
-#~ msgstr "مسح"
-
 #: components/Modals/ConversationHistoryDeleteModal.tsx:108
-#~ msgid "Clear Conversation History"
-#~ msgstr "مسح سجل المحادثات"
-
 #: components/APIKeysList.tsx:671
-#~ msgid "Click the button below to get started"
-#~ msgstr "انقر على الزر أدناه للبدء"
-
 #: components/Modals/ConversationFeedback.tsx:351
 #: components/Modals/ConversationFeedback.tsx:461
-#~ msgid "Close"
-#~ msgstr "إغلاق"
-
 #: components/ToolsFooter.tsx:115
 msgid "Coming Soon"
 msgstr "قادم قريبًا"
 
 #: components/Modals/PaymentSuccessModal.tsx:163
-#~ msgid "Communicating with documents has never felt this easy using AskYourPDF."
-#~ msgstr "لم يسبق للتواصل مع المستندات أن شعر بهذه السهولة باستخدام AskYourPDF."
-
 #: components/Modals/PaymentBottomSheet.tsx:153
 #: components/Modals/PaymentModalDesktop.tsx:156
-#~ msgid "Communicating with documents has never felt this easy using ChatGPT"
-#~ msgstr "لم يسبق للتواصل مع المستندات أن شعر بهذه السهولة باستخدام ChatGPT"
-
 #: components/Modals/PaymentSuccessModal.tsx:208
-#~ msgid "Communicating with documents has never felt this easy using ChatGPT."
-#~ msgstr "لم يسبق للتواصل مع المستندات أن شعر بهذه السهولة باستخدام ChatGPT."
-
 #: components/Footer.tsx:334
 msgid "Company"
 msgstr "شركة"
 
 #: components/PdfToChat/MoreTools.tsx:39
-#~ msgid "Compress PDF Tool"
-#~ msgstr "أداة ضغط ملفات PDF"
-
 #: components/source-tools/source-content/index.tsx:259
 msgid "Configure search"
 msgstr "تكوين البحث"
 
 #: components/Modals/Profile.tsx:226
-#~ msgid "confirm password"
-#~ msgstr "تأكيد كلمة المرور"
-
 #: components/Modals/Profile.tsx:221
-#~ msgid "Confirm Password"
-#~ msgstr "تأكيد كلمة المرور"
-
 #: components/Modals/Profile.tsx:187
-#~ msgid "confirm password and new password don' match"
-#~ msgstr "تأكيد كلمة المرور وكلمة المرور الجديدة غير متطابقتين"
-
-#~ msgid "confirm password and new password don't match"
-#~ msgstr "كلمة المرور الجديدة وتأكيدها غير متطابقتين"
-
-#~ msgid "Contact us"
-#~ msgstr "تواصل معنا"
-
 #: components/Footer.tsx:354
 msgid "Contact Us"
 msgstr "اتصل بنا"
 
 #: components/Modals/PaymentModalContent.tsx:435
-#~ msgid "Contact Us For Enterprise Plan"
-#~ msgstr "تواصل معنا للحصول على خطة المؤسسات"
-
 #: components/source-tools/source-result/index.tsx:412
 msgid "Content"
 msgstr "المحتوى"
 
 #: pages/privacy/index.tsx:94
-#~ msgid "Control Over Your Data"
-#~ msgstr "التحكم في بياناتك"
-
 #: pages/conversations/[[...params]].tsx:906
 #: pages/knowledge-base/[[...params]].tsx:1419
-#~ msgid "Conversation deleted successfully"
-#~ msgstr "تم حذف المحادثة بنجاح"
-
 #: pages/conversations/[[...params]].tsx:936
 #: pages/knowledge-base/[[...params]].tsx:1508
-#~ msgid "Conversation history cleared successfully"
-#~ msgstr "تم مسح سجل المحادثات بنجاح"
-
 #: components/Modals/PaymentModalContent.tsx:327
-#~ msgid "Conversation Per Day"
-#~ msgstr "محادثة في اليوم"
-
 #: components/Landing/Plans.tsx:768
 #: components/PdfToChat/Plans.tsx:768
-#~ msgid "conversations"
-#~ msgstr "محادثات"
-
 #: components/AppSidebar.tsx:151
 #: components/Navbar.tsx:283
 #: components/Navbar.tsx:340
@@ -894,14 +417,8 @@ msgstr "المحادثات"
 #: components/PdfToChat/Plans.tsx:501
 #: components/PdfToChat/Plans.tsx:583
 #: components/PdfToChat/Plans.tsx:673
-#~ msgid "conversations per day"
-#~ msgstr "محادثة يوميا"
-
 #: components/Landing/Features.tsx:224
 #: components/PdfToChat/Features.tsx:230
-#~ msgid "Converse, Learn, Track"
-#~ msgstr "تحاور، تعلم، تتبع"
-
 #: components/Generator.tsx:349
 #: components/Generator.tsx:349
 #: components/literature-review/LiteratureMainBar.tsx:435
@@ -914,89 +431,35 @@ msgstr "تم النسخ"
 #: pages/documents/[[...id]]/index.tsx:883
 #: pages/knowledge-base/[[...params]].tsx:981
 #: pages/knowledge-base/[[...params]].tsx:1675
-#~ msgid "Copy ID"
-#~ msgstr "نسخ الهوية"
-
 #: components/SubscriptionGuard.tsx:29
-#~ msgid "Couldn't get your plan"
-#~ msgstr "لم نتمكن من العثور على خطتك"
-
 #: pages/knowledge-base/intro.tsx:347
-#~ msgid "Create a knowledge base by uploading a document. I'll respond with anything you need based on the document"
-#~ msgstr "قم بإنشاء قاعدة معرفية عن طريق تحميل مستند. سأرد على أي ما تحتاجه استناداً إلى المستند"
-
 #: components/KnowledgeBaseSidebar.tsx:552
 #: components/KnowledgeBaseSidebar.tsx:588
 #: components/MainSidebar.tsx:497
 #: components/MainSidebar.tsx:533
-#~ msgid "Create Account"
-#~ msgstr "إنشاء حساب"
-
 #: pages/documents/[[...id]]/index.tsx:596
 #: pages/knowledge-base/intro.tsx:383
-#~ msgid "Create Knowledge Base"
-#~ msgstr "إنشاء قاعدة المعرفة"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:364
 #: components/Modals/CreateAPIKeyDesktop.tsx:375
-#~ msgid "Create New API Key"
-#~ msgstr "إنشاء مفتاح API جديد"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:477
 #: components/Modals/CreateAPIKeyDesktop.tsx:493
-#~ msgid "Create New Key"
-#~ msgstr "إنشاء مفتاح جديد"
-
 #: components/KnowledgeBaseSidebar.tsx:738
 #: components/Modals/DocumentSelectModal.tsx:616
-#~ msgid "Create New Knowledge Base"
-#~ msgstr "إنشاء قاعدة معرفية جديدة"
-
 #: components/BuyCredits.tsx:107
-#~ msgid "credit"
-#~ msgstr "ائتمان"
-
 #: components/BuyCredits.tsx:40
-#~ msgid "Credit Purchase Unavailable for Free Users"
-#~ msgstr ""
-
 #: pages/settings/index.tsx:896
 #: pages/settings/index.tsx:904
-#~ msgid "Credits"
-#~ msgstr ""
-
 #: pages/settings/index.tsx:514
-#~ msgid "Current plan"
-#~ msgstr "الخطة الحالية"
-
 #: pages/billing/upgrade.tsx:649
-#~ msgid "Current Plan"
-#~ msgstr "الخطة الحالية"
-
 #: components/Api/Pricing.tsx:393
 #: pages/billing/upgrade.tsx:871
-#~ msgid "Custom and flexible pricing for high volume processing"
-#~ msgstr "تسعير مخصص ومرن لمعالجة أحجام كبيرة"
-
 #: components/Landing/Plans.tsx:753
 #: components/PdfToChat/Plans.tsx:753
-#~ msgid "Custom Max upload size"
-#~ msgstr "حجم تحميل مخصص أقصى"
-
 #: components/PdfToChat/SummarizeGuide.tsx:174
-#~ msgid "Customise Your Summary"
-#~ msgstr "قم بتخصيص ملخصك"
-
 #: components/Landing/Plans.tsx:776
 #: components/PdfToChat/Plans.tsx:776
-#~ msgid "Customizable Link"
-#~ msgstr "رابط قابل للتخصيص"
-
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:189
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:185
-#~ msgid "CVV"
-#~ msgstr "CVV"
-
 #: components/literature-review/LiteratureSideBar.tsx:383
 msgid "Date Range"
 msgstr "نطاق التاريخ"
@@ -1004,13 +467,7 @@ msgstr "نطاق التاريخ"
 #: components/Landing/Plans.tsx:780
 #: components/PdfToChat/Plans.tsx:780
 #: pages/settings/index.tsx:862
-#~ msgid "Dedicated 24/7 Support"
-#~ msgstr "دعم مخصص على مدار 24/7"
-
 #: components/Modals/PaymentModalContent.tsx:429
-#~ msgid "Dedicated Support"
-#~ msgstr "دعم مخصص"
-
 #: components/literature-review/LiteratureUpload.tsx:334
 #: components/tools/DocUploadNoFunc.tsx:260
 msgid "Delete"
@@ -1019,54 +476,27 @@ msgstr "حذف"
 #: components/Modals/Profile.tsx:245
 #: components/Modals/Profile.tsx:267
 #: components/Modals/Profile.tsx:366
-#~ msgid "Delete Account"
-#~ msgstr "حذف الحساب"
-
 #: components/Modals/ConversationDeleteModal.tsx:108
-#~ msgid "Delete Conversation"
-#~ msgstr "حذف المحادثة"
-
 #: components/AppSidebar.tsx:274
 msgid "Delete Doc"
 msgstr "حذف المستند"
 
 #: pages/delete/index.tsx:271
-#~ msgid "Delete document"
-#~ msgstr "حذف المستند"
-
 #: components/Modals/DocumentDeleteModal.tsx:107
 #: components/Modals/OldDocumentDeleteModal.tsx:124
 #: pages/documents/[[...id]]/index.tsx:994
-#~ msgid "Delete Document"
-#~ msgstr "حذف المستند"
-
 #: pages/delete/index.tsx:238
 #: pages/delete/index.tsx:245
 #: pages/documents/[[...id]]/index.tsx:794
 #: pages/knowledge-base/[[...params]].tsx:1430
-#~ msgid "Delete Failed"
-#~ msgstr "فشل الحذف"
-
 #: components/APIKeysList.tsx:542
 #: components/APIKeysList.tsx:706
-#~ msgid "Delete Key"
-#~ msgstr "حذف المفتاح"
-
 #: components/Modals/DocumentSelectModal.tsx:717
 #: components/Modals/DocumentSelectModal.tsx:755
 #: components/Modals/DocumentSelectModal.tsx:779
-#~ msgid "Delete Knowledge Base"
-#~ msgstr "حذف قاعدة المعرفة"
-
 #: components/Modals/DocumentSelectModal.tsx:424
 #: pages/knowledge-base/[[...params]].tsx:1419
-#~ msgid "Delete Success"
-#~ msgstr "نجاح الحذف"
-
 #: components/Modals/Profile.tsx:125
-#~ msgid "Deletion Failed"
-#~ msgstr "فشل الحذف"
-
 #: components/literature-review/LiteratureMainBar.tsx:379
 #: components/literature-review/LiteratureSideBar.tsx:438
 #: components/source-tools/source-content/index.tsx:229
@@ -1083,38 +513,14 @@ msgid "Developers"
 msgstr "المطورين"
 
 #: utils/termsData.ts:61
-#~ msgid "Disclaimer of Warranties"
-#~ msgstr "إخلاء المسؤولية من الضمانات"
-
 #: components/Landing/Features.tsx:232
 #: components/PdfToChat/Features.tsx:238
-#~ msgid "Discover a brand new way to interact with your documents on AskYourPDF."
-#~ msgstr "اكتشف طريقة جديدة تمامًا للتفاعل مع مستنداتك على AskYourPDF."
-
 #: components/PdfToChat/Discover.tsx:164
-#~ msgid "Discover how AskYouPDF can be applied to various scenarios"
-#~ msgstr "اكتشف كيف يمكن تطبيق AskYouPDF في مختلف السيناريوهات."
-
 #: components/PdfToChat/MoreTools.tsx:134
-#~ msgid "Discover More <0> Tools </0>"
-#~ msgstr "اكتشف المزيد من الأدوات"
-
-#~ msgid "Discover our unwavering commitment to safeguarding your data while using our PDF analysis features. Learn how we prioritize your privacy."
-#~ msgstr "اكتشف التزامنا الثابت بحماية بياناتك أثناء استخدامك لميزات تحليل ملفات PDF لدينا. تعرّف على كيفية إعطاء أولوية لخصوصيتك."
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:457
 #: components/Modals/CreateAPIKeyDesktop.tsx:473
-#~ msgid "Do not share the generated key with anyone."
-#~ msgstr "لا تشارك المفتاح المُنشأ مع أي شخص."
-
 #: components/APIKeysList.tsx:681
-#~ msgid "Do not use test keys on production server"
-#~ msgstr "لا تستخدم مفاتيح الاختبار على الخادم الإنتاجي"
-
 #: pages/upload/index.tsx:315
-#~ msgid "Doc ID Successfully Generated"
-#~ msgstr "تم إنشاء معرف المستند بنجاح"
-
 #: components/Navbar.tsx:303
 #: components/Navbar.tsx:360
 msgid "Docs"
@@ -1122,64 +528,28 @@ msgstr "المستندات"
 
 #: pages/delete/index.tsx:223
 #: pages/documents/[[...id]]/index.tsx:778
-#~ msgid "Document Deleted"
-#~ msgstr "تم حذف المستند"
-
 #: pages/delete/index.tsx:223
 #: pages/documents/[[...id]]/index.tsx:778
-#~ msgid "Document deleted successfully"
-#~ msgstr "تم حذف المستند بنجاح"
-
 #: pages/upload/index.tsx:296
-#~ msgid "Document Id"
-#~ msgstr "معرف المستند"
-
 #: pages/conversations/[[...params]].tsx:1085
 #: pages/documents/[[...id]]/index.tsx:574
 #: pages/documents/[[...id]]/index.tsx:877
-#~ msgid "Document ID Copied. You can use this ID with our ChatGPT Plugin"
-#~ msgstr ""
-
 #: components/Summarisation/SummariseUpload.tsx:556
-#~ msgid "Document Length Exceeds Limit"
-#~ msgstr "تجاوز طول المستند الحد"
-
 #: pages/delete/index.tsx:233
-#~ msgid "Document Not Found"
-#~ msgstr "المستند غير موجود"
-
 #: components/Landing/Plans.tsx:506
 #: components/PdfToChat/Plans.tsx:506
-#~ msgid "document per day"
-#~ msgstr "مستند في اليوم"
-
 #: components/AppSidebar.tsx:295
 msgid "Documentation"
 msgstr "التوثيق"
 
 #: components/MainSidebar.tsx:356
-#~ msgid "Documents"
-#~ msgstr "المستندات"
-
 #: pages/knowledge-base/intro.tsx:278
-#~ msgid "Documents natively supported by AskYourPDF can be seamlessly uploaded to the knowledge base."
-#~ msgstr "يمكن تحميل المستندات المدعومة بشكل طبيعي من قبل AskYourPDF بسهولة إلى قاعدة المعرفة."
-
 #: components/Landing/Plans.tsx:588
 #: components/Landing/Plans.tsx:678
 #: components/PdfToChat/Plans.tsx:588
 #: components/PdfToChat/Plans.tsx:678
-#~ msgid "documents per day"
-#~ msgstr "مستندات في اليوم"
-
 #: components/Modals/PaymentModalContent.tsx:324
 #: components/Modals/PaymentModalContent.tsx:366
-#~ msgid "Documents Upload/day"
-#~ msgstr "تحميل المستندات/اليوم"
-
-#~ msgid "Does AskYourPDF have any limitations on the number of documents that can be uploaded per day?"
-#~ msgstr "هل يوجد في AskYourPDF أية قيود على عدد المستندات التي يمكن تحميلها يوميًا؟"
-
 #: components/tools/MergePage.tsx:778
 #: components/tools/SplitPage.tsx:909
 msgid "Done"
@@ -1188,15 +558,9 @@ msgstr "منتهي"
 #: pages/billing/index.tsx:1141
 #: pages/billing/upgrade.tsx:936
 #: pages/settings/index.tsx:468
-#~ msgid "Downgrade"
-#~ msgstr "تخفيض المستوى"
-
 #: pages/billing/index.tsx:1112
 #: pages/billing/upgrade.tsx:905
 #: pages/settings/index.tsx:437
-#~ msgid "Downgrade Account"
-#~ msgstr "تخفيض مستوى الحساب"
-
 #: components/Navbar.tsx:317
 #: components/Navbar.tsx:374
 #: components/tools/ToolBarExt.tsx:254
@@ -1208,95 +572,43 @@ msgstr "تحميل"
 #: components/Extension/ExtensionHero.tsx:256
 #: components/Landing/ExtensionAnnouncement.tsx:141
 #: components/PdfToChat/ExtensionAnnouncement.tsx:141
-#~ msgid "Download Extension"
-#~ msgstr "تحميل الامتداد"
-
 #: components/PdfToChat/AppSection.tsx:147
-#~ msgid "Download Our <0>App</0>"
-#~ msgstr "قم بتنزيل تطبيقنا"
-
 #: components/Extension/Methods.tsx:170
-#~ msgid "Dropbox links"
-#~ msgstr "روابط Dropbox"
-
 #: components/Modals/DocumentSelectModal.tsx:593
-#~ msgid "e.g Exploring the Effects of Climate Change"
-#~ msgstr "مثال: استكشاف آثار تغير المناخ"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:388
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:436
 #: components/Modals/CreateAPIKeyDesktop.tsx:401
 #: components/Modals/CreateAPIKeyDesktop.tsx:451
-#~ msgid "e.g My Website API Key"
-#~ msgstr "مثلا: مفتاح API لموقعي"
-
 #: components/Affiliate/Header.tsx:194
-#~ msgid "Earn 30% Commission"
-#~ msgstr "اكسب عمولة 30%"
-
 #: components/Settings/LinkAccountCall.tsx:107
-#~ msgid "Easily access your subscription benefits on both mobile and web by linking your accounts. Click the link account button to unify your experience and enjoy AskYourPDF across all platforms."
-#~ msgstr "سهولة الوصول إلى مزايا اشتراكك على كل من الجوال والويب من خلال ربط حساباتك. انقر على زر ربط الحساب لتوحيد تجربتك والاستمتاع بـ AskYourPDF عبر جميع المنصات."
-
 #: pages/knowledge-base/[[...params]].tsx:1066
 #: pages/knowledge-base/[[...params]].tsx:1659
-#~ msgid "Edit Knowledge Base"
-#~ msgstr "تعديل قاعدة المعرفة"
-
 #: components/tools/SplitPage.tsx:805
 #: components/tools/ToolsSection.tsx:133
 msgid "Efficiently split, separate, and manage your PDF files using our superior free online PDF splitter."
 msgstr "تقسيم وفصل وإدارة ملفات PDF الخاصة بك بكفاءة باستخدام أداة تقسيم PDF المجانية عبر الإنترنت الفائقة لدينا"
 
 #: components/PdfToChat/Discover.tsx:37
-#~ msgid "Effortless Research"
-#~ msgstr "بحث بلا جهد"
-
-#: pages/tools/compress/index.tsx:506
-#~ msgid "Effortlessly compress PDF files while retaining their quality. Reduce file sizes for easier sharing, faster downloads, and efficient storage. The PDF Compression tool ensures that your documents remain clear and accessible, even after compression."
-#~ msgstr "ضغط ملفات PDF بسهولة مع الحفاظ على جودتها. قم بتقليل أحجام الملفات لتسهيل المشاركة والتنزيلات بشكل أسرع والتخزين الفعال. تضمن أداة ضغط PDF أن تظل مستنداتك واضحة ويمكن الوصول إليها، حتى بعد الضغط."
-
 #: components/Landing/Plans.tsx:528
 #: components/Landing/Plans.tsx:616
 #: components/PdfToChat/Plans.tsx:528
 #: components/PdfToChat/Plans.tsx:616
-#~ msgid "Elevate your document interaction with unlimited chats, full conversation history, and priority support."
-#~ msgstr "ارفع من مستوى تفاعلك مع المستندات مع محادثات غير محدودة وسجل كامل للمحادثات ودعم ذو أولوية."
-
 #: components/Modals/Profile.tsx:307
-#~ msgid "Email Address"
-#~ msgstr "البريد الإلكتروني"
-
 #: components/tools/ToolsSection.tsx:117
 #: pages/source-tool/index.tsx:248
 msgid "Enhance your research with our Source-Tool, which automatically cites and creates references for your academic text."
 msgstr "عزز بحثك باستخدام Source-Tool الخاص بنا، والذي يقوم تلقائيًا بذكر المصادر وإنشاء مراجع لنصك الأكاديمي."
 
 #: components/Settings/LinkAccountModal.tsx:146
-#~ msgid "Enter Mobile User ID"
-#~ msgstr "أدخل معرف المستخدم على الهاتف المحمول"
-
 #: components/KnowledgeBaseSidebar.tsx:366
 #: components/MainSidebar.tsx:330
 #: components/Modals/DocumentSelectModal.tsx:603
 #: components/Modals/SearchBottomSheet.tsx:116
-#~ msgid "Enter three or more characters"
-#~ msgstr "أدخل 3 أحرف أو أكثر"
-
 #: components/Settings/LinkAccountModal.tsx:138
-#~ msgid "Enter your mobile account ID to link your mobile account to your web account"
-#~ msgstr "أدخل معرف حساب الهاتف المحمول الخاص بك لربط حسابك المحمول بحسابك على الويب."
-
 #: components/Api/Pricing.tsx:389
 #: pages/billing/upgrade.tsx:867
 #: pages/settings/index.tsx:837
-#~ msgid "Enterprise plan"
-#~ msgstr "خطة المؤسسات"
-
 #: components/PdfToChat/Discover.tsx:58
-#~ msgid "Enthusiasts and curious minds can use AskYouPDF to explore topics of interest within digital books and resources."
-#~ msgstr "يمكن للهواة وعقول الفضوليين استخدام AskYouPDF لاستكشاف مواضيع الاهتمام داخل الكتب الرقمية والموارد."
-
 #: components/tools/DocUploadNoFunc.tsx:323
 #: pages/source-tool/index.tsx:206
 #: pages/source-tool/index.tsx:216
@@ -1304,65 +616,26 @@ msgid "Error"
 msgstr "خطأ"
 
 #: components/Modals/Profile.tsx:126
-#~ msgid "Error deleting your account: {errorMessage}"
-#~ msgstr "خطأ في حذف حسابك"
-
 #: components/Modals/ConversationFeedback.tsx:267
-#~ msgid "Error submitting your issue: {errorMessage}"
-#~ msgstr "حدث خطأ أثناء إرسال مشكلتك: {errorMessage}"
-
 #: components/PdfToChat/Features.tsx:205
-#~ msgid "Ever wished your documents could talk? With AskYourPDF, they can! Powered by ChatGPT we breathe life into your documents, making them interactive and engaging. No more endless scrolling or skimming - just upload, ask and uncover insights directly from your document"
-#~ msgstr "هل تمنيت يومًا أن تتحدث مستنداتك؟ مع AskYourPDF يمكنها ذلك! مدعومة بChatGPT نعطي الحياة لمستنداتك، مجعلين إياها تفاعلية وشائقة. لا مزيد من التمرير أو القراءة السريعة - ما عليك سوى التحميل والسؤال واكتشاف الأفكار مباشرة من مستندك"
-
 #: components/Landing/Features.tsx:199
-#~ msgid "Ever wished your documents could talk? With AskYourPDF, they can! Powered by ChatGPT we breathe life into your documents, making them interactive and engaging. No more endless scrolling or skimming – just upload, ask and uncover insights directly from your document"
-#~ msgstr "هل تمنيت يومًا أن تتحدث مستنداتك؟ مع AskYourPDF يمكنها ذلك! مدعومة بChatGPT نعطي الحياة لمستنداتك، مجعلين إياها تفاعلية وشائقة. لا مزيد من التمرير أو القراءة السريعة - ما عليك سوى التحميل والسؤال واكتشاف الأفكار مباشرة من مستندك"
-
 #: components/PdfToChat/MoreTools.tsx:139
-#~ msgid "Expanding Possibilities with Additional Resources"
-#~ msgstr "توسيع الإمكانيات مع موارد إضافية"
-
 #: components/Extension/Methods.tsx:127
-#~ msgid "Experience a new way to engage with your <0/> <1>documents </1>"
-#~ msgstr "اختبر طريقة جديدة للتفاعل مع مستنداتك"
-
 #: components/Extension/Download.tsx:172
-#~ msgid "Experience a new way to interact with your PDFs with our Chrome Extension"
-#~ msgstr " اختبر طريقة جديدة للتفاعل مع ملفات PDF الخاصة بك باستخدام إمتداد Chrome الخاص بنا"
-
 #: components/Api/Header.tsx:163
-#~ msgid "Experience Seamless Integration and Unparalleled PDF Processing Capabilities with AskYourPDF API"
-#~ msgstr "اختبر التكامل السلس وإمكانيات معالجة مستندات PDF الفريدة مع واجهة برمجة التطبيقات AskYourPDF"
-
 #: components/Landing/Plans.tsx:403
 #: components/PdfToChat/Plans.tsx:403
-#~ msgid "Experience the future of document interaction with AskYourPDF. Choose the plan that fits your needs and start engaging with your documents like never before:"
-#~ msgstr "جرّب مستقبل التفاعل مع المستندات مع AskYourPDF. اختر الخطة التي تناسب احتياجاتك وابدأ التفاعل مع مستنداتك كما لم تفعل من قبل:"
-
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:183
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:179
-#~ msgid "Expiry Date"
-#~ msgstr "تاريخ الانتهاء"
-
 #: components/Summarisation/SummariseMainBar.tsx:399
 #: components/Summarisation/SummariseSideBar.tsx:281
-#~ msgid "Explore Other Tools"
-#~ msgstr "استكشف أدوات أخرى"
-
 #: components/Landing/Products.tsx:173
 #: components/PdfToChat/Products.tsx:173
-#~ msgid "Explore our <0>products</0>"
-#~ msgstr "استكشف <0>منتجاتنا</0>"
-
 #: components/tools/MainPage.tsx:16
 msgid "Explore our Free Tools"
 msgstr "استكشف أدواتنا المجانية"
 
 #: components/PdfToChat/MoreTools.tsx:157
-#~ msgid "Explore Tools"
-#~ msgstr "استكشاف الأدوات"
-
 #: components/source-tools/source-result/index.tsx:433
 msgid "Export all"
 msgstr "تصدير الكل"
@@ -1373,9 +646,6 @@ msgstr "تصدير كـ"
 
 #: pages/conversations/[[...params]].tsx:1099
 #: pages/knowledge-base/[[...params]].tsx:1684
-#~ msgid "Export Chat as PDF"
-#~ msgstr "تصدير المحادثة كملف PDF"
-
 #: components/Navbar.tsx:310
 #: components/Navbar.tsx:367
 #: components/tools/ToolBarExt.tsx:249
@@ -1384,43 +654,16 @@ msgid "Extension"
 msgstr "امتداد"
 
 #: components/Modals/PaymentModalContent.tsx:290
-#~ msgid "Extensive Access"
-#~ msgstr "وصول موسع"
-
-#~ msgid "Extract key insights and create concise summaries using our AI Document Summarisation Tool."
-#~ msgstr "استخرج الرؤى الرئيسية وأنشئ ملخصات موجزة باستخدام أداة تلخيص المستندات الذكية لدينا."
-
 #: components/Summarisation/SummariseMainBar.tsx:392
-#~ msgid "Extract key insights and create concise summaries using our AI Document Summarisation Tool. (200 pages max)"
-#~ msgstr "استخرج الأفكار الرئيسية وأنشئ ملخصات موجزة باستخدام أداة تلخيص المستندات بالذكاء الاصطناعي الخاصة بنا. (200 صفحة كحد أقصى)"
-
 #: components/Modals/DocumentSelectModal.tsx:392
 #: components/Modals/DocumentSelectModal.tsx:413
 #: components/Modals/DocumentSelectModal.tsx:449
-#~ msgid "Failed"
-#~ msgstr "فشل"
-
 #: pages/conversations/[[...params]].tsx:951
 #: pages/knowledge-base/[[...params]].tsx:1523
-#~ msgid "Failed to clear conversation history"
-#~ msgstr "فشل في مسح سجل المحادثات"
-
 #: components/Modals/DocumentSelectModal.tsx:433
-#~ msgid "Failed to delete conversation"
-#~ msgstr "فشل في حذف المحادثة"
-
 #: pages/conversations/[[...params]].tsx:914
 #: pages/knowledge-base/[[...params]].tsx:1431
-#~ msgid "Failed to delete conversation. Please try again"
-#~ msgstr "فشل في حذف المحادثة. يرجى إعادة المحاولة"
-
 #: pages/documents/[[...id]]/index.tsx:795
-#~ msgid "Failed to delete document. Please try again"
-#~ msgstr "فشل في حذف المستند. يرجى إعادة المحاولة"
-
-#~ msgid "Failed to delete document. Please try again."
-#~ msgstr "فشل في حذف المستند. يرجى إعادة المحاولة"
-
 #: components/Generator.tsx:263
 #: components/literature-review/MainContent.tsx:292
 #: components/Modals/ExportSourceTools.tsx:231
@@ -1429,43 +672,22 @@ msgstr "فشل في تصدير PDF"
 
 #: pages/billing/index.tsx:1086
 #: pages/settings/index.tsx:1032
-#~ msgid "Failed to fetch billing history. Please try again."
-#~ msgstr "فشل في جلب سجل الفوترة. يرجى إعادة المحاولة."
-
 #: components/Settings/LinkAccountCall.tsx:88
-#~ msgid "Failed to link mobile account"
-#~ msgstr "فشل في ربط حساب الهاتف المحمول"
-
 #: pages/billing/index.tsx:684
 #: pages/billing/index.tsx:689
 #: pages/settings/index.tsx:303
 #: pages/settings/index.tsx:308
-#~ msgid "Failed to load subscriptions"
-#~ msgstr "فشل في تحميل الاشتراكات"
-
 #: components/literature-review/MainContent.tsx:277
 msgid "Failed to review text. Please try again"
 msgstr "لم يتمكن من مراجعة النص. الرجاء المحاولة مرة أخرى."
 
 #: pages/summarise/index.tsx:168
-#~ msgid "Failed to summarise document. Please try again"
-#~ msgstr "فشل في تلخيص المستند. الرجاء المحاولة مرة أخرى"
-
 #: pages/summarise/index.tsx:228
-#~ msgid "Failed to summarise text. Please try again"
-#~ msgstr "فشل في تلخيص النص. الرجاء المحاولة مرة أخرى"
-
 #: components/tools/DocUploadNoFunc.tsx:335
 msgid "Failed to upload file"
 msgstr "فشل في تحميل الملف"
 
 #: components/DocumentUpload.tsx:389
-#~ msgid "Failed to upload file. Try downloading the file and upload it manually."
-#~ msgstr "فشل في تحميل الملف. جرب تنزيل الملف وقم بتحميله يدويًا"
-
-#~ msgid "FAQ"
-#~ msgstr "الأسئلة المتكررة"
-
 #: components/Footer.tsx:349
 msgid "FAQs"
 msgstr "الأسئلة الشائعة"
@@ -1474,17 +696,11 @@ msgstr "الأسئلة الشائعة"
 msgid "Fetch document"
 msgstr "جلب المستند"
 
-#~ msgid "Fetching Conversations"
-#~ msgstr "جارٍ جلب المحادثات"
-
 #: components/tools/DocUploadNoFunc.tsx:415
 msgid "Fetching document"
 msgstr "جارٍ جلب المستند"
 
 #: pages/knowledge-base/intro.tsx:379
-#~ msgid "Fetching documents"
-#~ msgstr "جلب المستندات"
-
 #: components/literature-review/LiteratureSideBar.tsx:369
 msgid "Field of Study"
 msgstr "مجال الدراسة"
@@ -1495,9 +711,6 @@ msgstr "رفع الملف"
 
 #: components/DocumentUpload.tsx:379
 #: pages/upload/index.tsx:290
-#~ msgid "File upload failed"
-#~ msgstr "فشل تحميل الملف"
-
 #: components/literature-review/LiteratureUpload.tsx:398
 #: components/literature-review/LiteratureUpload.tsx:402
 #: components/tools/DocUploadNoFunc.tsx:333
@@ -1505,9 +718,6 @@ msgid "File Upload Failed"
 msgstr "فشل تحميل الملف"
 
 #: components/DocumentUpload.tsx:370
-#~ msgid "File uploaded successfully"
-#~ msgstr "تم تحميل الملف بنجاح"
-
 #: pages/book-title-generator/generate/index.tsx:68
 #: pages/book-title-generator/index.tsx:84
 #: pages/instagram-caption/generate/index.tsx:67
@@ -1522,83 +732,35 @@ msgstr "فشل تحميل الملف"
 #: pages/text-generator/index.tsx:83
 #: pages/thesis-statement/generate/index.tsx:63
 #: pages/thesis-statement/index.tsx:78
-#~ msgid "fill"
-#~ msgstr ""
-
 #: pages/essay-maker/generate/index.tsx:109
 #: pages/essay-maker/index.tsx:63
 msgid "Fill"
 msgstr "يَملأ"
 
 #: components/PdfToChat/SummarizeGuide.tsx:198
-#~ msgid "Finally, click the 'Summarise' button, and within moments, AskYourPDF will provide you with a customized summary of your document based on your settings and, if provided, your prompt."
-#~ msgstr "أخيرًا، انقر على زر \"تلخيص\"، وفي لحظات ستقدم لك AskYourPDF ملخصًا مخصصًا لمستندك استنادًا إلى إعداداتك و، إذا تم توفيرها، إشارتك."
-
 #: components/source-tools/source-content/index.tsx:266
 msgid "Find sources"
 msgstr "العثور على المصادر"
 
 #: components/Extension/Methods.tsx:173
-#~ msgid "For those who rely on Dropbox for their document storage, the AskYourPDF Chrome extension is a really helpful addition. Open any PDF link from Dropbox in Chrome, and the extension starts up, ready to help. With its intuitive interface, you can now work with your Dropbox documents more easily, making it a must-have tool for professionals and students alike."
-#~ msgstr "بالنسبة لأولئك الذين يعتمدون على Dropbox لتخزين مستنداتهم، إمتداد AskYourPDF لـ Chrome هو إضافة مفيدة حقًا. افتح أي رابط PDF من Dropbox في Chrome، ويبدأ الإمتداد في العمل مباشرة، جاهزًا للمساعدة. بفضل واجهته البديهية، يمكنك الآن العمل بسهولة مع مستندات Dropbox الخاصة بك، مما يجعله أداة ضرورية للمحترفين والطلاب على حد سواء."
-
 #: components/Summarisation/SummariseSideBar.tsx:325
-#~ msgid "Format"
-#~ msgstr "تنسيق"
-
 #: components/PdfToChat/Guide.tsx:155
-#~ msgid "Formulate your questions naturally, just as you would in a conversation."
-#~ msgstr "صياغة أسئلتك بشكل طبيعي، تمامًا كما تفعل في محادثة."
-
 #: components/Landing/MobileAppBanner.tsx:89
-#~ msgid "Free"
-#~ msgstr "مجانًا"
-
 #: components/Api/Pricing.tsx:274
-#~ msgid "Free Plan"
-#~ msgstr "خطة مجانية"
-
 #: pages/settings/index.tsx:549
-#~ msgid "Free Plan <0>$0/month</0>"
-#~ msgstr "الخطة المجانية <0>$0/شهرياً</0>"
-
 #: pages/settings/index.tsx:554
-#~ msgid "Free tier usage applicable - 100 page per document & 50 questions daily"
-#~ msgstr "ينطبق استخدام المستوى المجاني - 100 صفحة لكل مستند و50 سؤال يومياً"
-
 #: utils/faqData.tsx:65
-#~ msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
-#~ msgstr "يمكن للمستخدمين المجانيين رفع مستند واحد يوميًا. يمكن لمستخدمي Premium و Pro رفع 50 و 150 مستندًا يوميًا على التوالي. بالنسبة لعدد أعلى من التحميلات، يجب على المستخدمين الاتصال بنا للحصول على خطة الشركة."
-
 #: components/PdfToChat/LandingFaq.tsx:85
 #: pages/faq/index.tsx:66
-#~ msgid "Frequently Asked Questions"
-#~ msgstr "الأسئلة المتكررة"
-
 #: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
 msgstr "من مستنداتك"
 
 #: components/APIKeysList.tsx:674
-#~ msgid "Generate API Key"
-#~ msgstr "إنشاء مفتاح API"
-
 #: components/APIKeysList.tsx:575
 #: components/APIKeysList.tsx:739
-#~ msgid "Generated on"
-#~ msgstr "تم إنشاؤه في"
-
-#~ msgid "Generated on {0}"
-#~ msgstr "تم إنشاؤه في {0}"
-
 #: components/Landing/Hero.tsx:253
-#~ msgid "Get Our Plugin"
-#~ msgstr "احصل على إضافتنا"
-
 #: components/Affiliate/Features.tsx:153
-#~ msgid "Get Paid Commission"
-#~ msgstr "احصل على عمولتك"
-
 #: components/Navbar.tsx:414
 msgid "Get Started"
 msgstr "ابدأ"
@@ -1609,14 +771,8 @@ msgstr "البدء"
 
 #: components/Landing/Plans.tsx:717
 #: components/PdfToChat/Plans.tsx:717
-#~ msgid "Go all out on features! Get everything in the Pro Plan, plus priority document processing and access to new features."
-#~ msgstr "استمتع بكل المميزات! احصل على كل شيء في الخطة المحترفة، بالإضافة إلى أولوية معالجة المستندات وإمكانية الوصول إلى ميزات جديدة."
-
 #: components/Modals/PaymentModalContent.tsx:557
 #: components/Modals/UnitsExceededModal.tsx:124
-#~ msgid "Go back"
-#~ msgstr "عد للخلف"
-
 #: components/Modals/ConversationDeleteModal.tsx:120
 #: components/Modals/ConversationHistoryDeleteModal.tsx:120
 #: components/Modals/DocumentDeleteModal.tsx:122
@@ -1627,45 +783,24 @@ msgstr "البدء"
 #: pages/billing/upgrade.tsx:928
 #: pages/documents/[[...id]]/index.tsx:1013
 #: pages/settings/index.tsx:460
-#~ msgid "Go Back"
-#~ msgstr "عد للخلف"
-
 #: components/Extension/Methods.tsx:154
-#~ msgid "Google Drive Links"
-#~ msgstr "روابط Google Drive"
-
 #: utils/termsData.ts:71
-#~ msgid "Governing Law"
-#~ msgstr "القانون الحاكم"
-
 #: pages/settings/index.tsx:892
 #: pages/settings/index.tsx:900
-#~ msgid "GPT-4 Credit"
-#~ msgstr "ائتمان GPT-4"
-
 #: pages/source-tool/index.tsx:278
 msgid "Hang on! We’re looking for sources"
 msgstr "انتظر! نبحث عن المصادر"
 
 #: components/Modals/ConversationFeedback.tsx:369
 #: components/Modals/ConversationFeedback.tsx:479
-#~ msgid "Harmful Content"
-#~ msgstr "محتوى ضار"
-
 #: components/tools/ToolsSection.tsx:126
 msgid "Harness the power of our AI-driven Literature Review Assistant. Simplify your research process, produce structured overviews, and craft in-depth literature reviews to elevate your academic work."
 msgstr "استفد من قوة مساعد مراجعة الأدب المدعوم بالذكاء الاصطناعي لدينا. قم بتبسيط عملية البحث الخاصة بك، وإنشاء نظرات عامة منظمة، وصياغة مراجعات أدب متعمقة لرفع مستوى عملك الأكاديمي."
 
 #: components/Landing/Features.tsx:238
 #: components/PdfToChat/Features.tsx:244
-#~ msgid "Here, you give voice to your documents, turning them into engaging chat partners. What's more? You can effortlessly track and revisit all your conversations. Take control, ask questions, get answers, and never lose track of your learning. Ready to make your documents work for you?"
-#~ msgstr "هنا، تعطي صوتًا لمستنداتك، محولاً إياها إلى شركاء محادثة مشوّقين. وماذا عدا ذلك؟ يمكنك تتبع ومراجعة كل محادثاتك بسهولة. خذ التحكم، اطرح الأسئلة، احصل على إجابات، ولا تفقد أبدًا تعلّمك. هل أنت مستعد لجعل مستنداتك تعمل لصالحك؟"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:403
 #: components/Modals/CreateAPIKeyDesktop.tsx:416
-#~ msgid "Hey there, Just a quick reminder"
-#~ msgstr "مرحبًا، مجرد تذكير سريع"
-
 #: components/Navbar.tsx:278
 #: components/Navbar.tsx:335
 #: components/tools/ToolBarExt.tsx:234
@@ -1674,85 +809,25 @@ msgid "Home"
 msgstr "الرئيسية"
 
 #: utils/faqData.tsx:28
-#~ msgid "How does billing work?"
-#~ msgstr "كيف يعمل الفوترة؟"
-
 #: pages/chat/[[...docID]]/index.tsx:240
 #: pages/knowledge-base/intro.tsx:259
 #: utils/faqData.tsx:18
-#~ msgid "How does it work?"
-#~ msgstr "كيف يعمل؟"
-
 #: components/Affiliate/Features.tsx:112
-#~ msgid "How it Works"
-#~ msgstr "كيف يعمل"
-
 #: utils/faqData.tsx:129
-#~ msgid "How long are the chat sessions saved on AskYourPDF?"
-#~ msgstr "كم مدة حفظ جلسات الدردشة على AskYourPDF؟"
-
 #: components/PdfToChat/SummarizeGuide.tsx:135
-#~ msgid "How to <0> Summarize</0> a PDF File with  AI"
-#~ msgstr "كيفية <0> تلخيص</0> ملف PDF مع الذكاء الاصطناعي"
-
-#~ msgid "How to <0>Summarise</0> a PDF File with  AI"
-#~ msgstr "كيفية تلخيص ملف PDF باستخدام الذكاء الاصطناعي"
-
 #: pages/knowledge-base/intro.tsx:282
-#~ msgid "How will AskYourPDF respond if I have two documents with similar contents in my knowledge base?"
-#~ msgstr "كيف سيستجيب AskYourPDF إذا كان لدي مستندين بمحتوى مماثل في قاعدة المعرفة الخاصة بي؟"
-
 #: components/SearchResults.tsx:347
-#~ msgid "I could not find any results related to <0>\"{debouncedSearchTerm}\"</0>. Try searching for something else"
-#~ msgstr "لم أتمكن من العثور على أية نتائج متعلقة بـ <0>\"{debouncedSearchTerm}\"</0>. حاول البحث عن شيء آخر"
-
 #: pages/upload/index.tsx:303
-#~ msgid "ID Copied"
-#~ msgstr "تم نسخ المعرف"
-
 #: components/MobileHeader.tsx:123
-#~ msgid "ID Generator"
-#~ msgstr "مولد المعرفات"
-
 #: pages/documents/[[...id]]/index.tsx:921
-#~ msgid "ID:"
-#~ msgstr "المعرف:"
-
 #: utils/faqData.tsx:74
-#~ msgid "If I cancel my subscription, will I get a refund?"
-#~ msgstr "إذا قمت بإلغاء اشتراكي، هل سأحصل على استرداد؟"
-
 #: utils/faqData.tsx:92
-#~ msgid "If the answer is in the uploaded document, there's a high likelihood the AI will provide it. The AI is constantly learning, so if it doesn't have an answer, you can always rephrase or ask a different question."
-#~ msgstr "إذا كانت الإجابة في الوثيقة المُرفقة، فهناك احتمال كبير أن يقدمها الذكاء الاصطناعي. الذكاء الاصطناعي يتعلم باستمرار، لذلك إذا لم يكن لديه إجابة، يمكنك دائمًا إعادة صياغتها أو طرح سؤال مختلف."
-
-#~ msgid "If the answer lies in the uploaded document, then there’s high likelihood the AI will answer it correctly.Note that the AI is constantly learning, so if it cannot answer your question,you can always ask a different question."
-#~ msgstr "إذا كانت الإجابة موجودة في المستند المرفوع، فمن المرجح جدًا أن يجيب الذكاء الاصطناعي عليها بشكل صحيح. لاحظ أن الذكاء الاصطناعي في تعلم مستمر، لذلك إذا لم يتمكن من الإجابة على سؤالك، يمكنك دائمًا طرح سؤال مختلف."
-
 #: pages/settings/index.tsx:517
-#~ msgid "If you choose to downgrade at any point. Your subscription will be active until the end of your next billing cycle."
-#~ msgstr "إذا اخترت التخفيض في أي وقت، سيظل اشتراكك نشطًا حتى نهاية دورة الفوترة التالية الخاصة بك."
-
 #: utils/faqData.tsx:135
-#~ msgid "If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help!"
-#~ msgstr "إذا واجهت أي مشكلة أو كان لديك أسئلة أثناء استخدام AskYourPDF، يرجى الاتصال بفريق الدعم الخاص بنا: support@askyourpdf.com. هم هنا للمساعدة!"
-
 #: pages/privacy/index.tsx:159
-#~ msgid "If you have any questions or concerns about our privacy practices or this Privacy Policy, please don't hesitate to contact us. We value your opinions and look forward to hearing from you."
-#~ msgstr "إذا كانت لديك أي أسئلة أو مخاوف حول ممارسات الخصوصية لدينا أو سياسة الخصوصية هذه، فلا تتردد في الاتصال بنا. نحن نقدّر آراءك ونتطلع إلى سماعها منك."
-
 #: components/Extension/Methods.tsx:159
-#~ msgid "If you use Google Drive, the AskYourPDF Chrome extension is perfect for you. Just open a PDF from your Google Drive in Chrome, and the extension starts up on its own. It gives you the flexibility to engage with the document, get summaries, ask questions and receive answers in a flash."
-#~ msgstr "إذا كنت تستخدم Google Drive، فإمتداد AskYourPDF لـ Chrome مثالي بالنسبة لك. ما عليك سوى فتح ملف PDF من Google Drive الخاص بك في Chrome، وسيبدأ الإمتداد بالعمل تلقائيًا. يمنحك المرونة في التفاعل مع المستند، والحصول على ملخصات، وطرح الأسئلة والحصول على إجابات بسرعة."
-
 #: components/APIKeysList.tsx:609
-#~ msgid "If you wish to increase your monthly limits you can upgrade to a higher subscription plan"
-#~ msgstr "إذا كنت ترغب في زيادة الحدود الشهرية الخاصة بك، يمكنك الترقية إلى خطة اشتراك أعلى"
-
 #: utils/termsData.ts:37
-#~ msgid "In order to provide the intended functionality of our app, we may request certain permissions from you, such as access to your device's storage or file system. These permissions are solely for the purpose of allowing you to import and view documents stored on your device."
-#~ msgstr "من أجل توفير الوظيفة المقصودة من تطبيقنا، قد نطلب منك بعض الأذونات مثل الوصول إلى تخزين جهازك أو نظام الملفات. هذه الأذونات هي فقط لغرض السماح لك باستيراد وعرض المستندات المخزنة على جهازك."
-
 #: components/Landing/Plans.tsx:473
 #: components/Landing/Plans.tsx:555
 #: components/Landing/Plans.tsx:645
@@ -1761,21 +836,9 @@ msgstr "الرئيسية"
 #: components/PdfToChat/Plans.tsx:555
 #: components/PdfToChat/Plans.tsx:645
 #: components/PdfToChat/Plans.tsx:738
-#~ msgid "Includes"
-#~ msgstr "يشمل"
-
 #: pages/settings/index.tsx:638
-#~ msgid "Includes up to 2,500 pages per doc (max 30mb)"
-#~ msgstr "يشمل ما يصل إلى 2500 صفحة لكل مستند (حد أقصى 30 ميغابايت)"
-
 #: pages/settings/index.tsx:755
-#~ msgid "Includes up to 6,000 pages per doc (max 90mb)"
-#~ msgstr "يشمل ما يصل إلى 6000 صفحة لكل مستند (حد أقصى 90 ميغابايت)"
-
 #: components/Modals/ConversationFeedback.tsx:370
-#~ msgid "Incorrect Response"
-#~ msgstr "استجابة غير صحيحة"
-
 #: pages/story-generator/generate/index.tsx:110
 #: pages/story-generator/index.tsx:56
 msgid "input Key events/plot points"
@@ -1787,9 +850,6 @@ msgid "input Key Points to Cover"
 msgstr "إدخال النقاط الرئيسية التي يجب تغطيتها"
 
 #: pages/paragraph-generator/index.tsx:57
-#~ msgid "Input main idea/supporting points"
-#~ msgstr "إدخال الفكرة الرئيسية / نقاط الدعم"
-
 #: pages/story-generator/generate/index.tsx:109
 #: pages/story-generator/index.tsx:55
 msgid "Input Names and a brief description of the main characters"
@@ -1812,13 +872,7 @@ msgid "Input some line here to begin"
 msgstr "أدخل بعض الأسطر هنا لبدء"
 
 #: components/Summarisation/SummariseMainBar.tsx:457
-#~ msgid "Input some text here OR upload a document in the pane below to summarise"
-#~ msgstr "أدخل نصًا هنا أو قم بتحميل مستند في اللوحة أدناه للملخص"
-
 #: components/Summarisation/SummariseMainBar.tsx:456
-#~ msgid "Input some text here OR upload a document in the right pane to summarise"
-#~ msgstr "أدخل نصًا هنا أو قم بتحميل مستند في اللوحة اليمنى للملخص"
-
 #: pages/essay-maker/generate/index.tsx:102
 #: pages/essay-maker/index.tsx:52
 msgid "input Thesis Statement"
@@ -1831,121 +885,49 @@ msgstr "إدخال العنوان أو الموضوع"
 
 #: components/Landing/Features.tsx:265
 #: components/PdfToChat/Features.tsx:290
-#~ msgid "Insightful Conversations"
-#~ msgstr "محادثات مفيدة"
-
 #: pages/instagram-caption/generate/index.tsx:109
 #: pages/instagram-caption/index.tsx:71
 msgid "Instagram Caption Generator"
 msgstr "مولد التسمية التوضيحية انستغرام"
 
 #: components/Landing/Hero.tsx:257
-#~ msgid "Install directly on ChatGPT"
-#~ msgstr "قم بالتثبيت مباشرة على ChatGPT"
-
-#~ msgid "Instantly generate brief summaries that deliver crucial information, changing your document interaction into a streamlined efficient process."
-#~ msgstr "قم بإنشاء ملخصات موجزة على الفور تقدم معلومات حاسمة، مما يحول تفاعلك مع المستند إلى عملية فعالة وميسرة."
-
 #: components/Modals/DocumentSelectModal.tsx:458
 #: components/Modals/DocumentSelectModal.tsx:466
 #: components/Modals/DocumentSelectModal.tsx:482
 #: components/Modals/DocumentSelectModal.tsx:490
 #: components/Settings/LinkAccountCall.tsx:96
-#~ msgid "Invalid Entry"
-#~ msgstr "إدخال غير صالح"
-
 #: components/tools/DocUploadNoFunc.tsx:323
 msgid "Invalid Entry. Please try again"
 msgstr "إدخال غير صالح. يرجى إعادة المحاولة"
 
 #: pages/billing/index.tsx:1020
 #: pages/settings/index.tsx:130
-#~ msgid "Invoice"
-#~ msgstr "فاتورة"
-
 #: pages/billing/index.tsx:988
 #: pages/settings/index.tsx:997
-#~ msgid "Invoice History"
-#~ msgstr "سجل الفواتير"
-
 #: components/Footer.tsx:288
 msgid "iOS App"
 msgstr "تطبيق iOS"
 
 #: pages/chat/[[...docID]]/index.tsx:250
 #: utils/faqData.tsx:39
-#~ msgid "Is it necessary to create an account to use the application?"
-#~ msgstr "هل من الضروري إنشاء حساب لاستخدام التطبيق؟"
-
 #: utils/faqData.tsx:96
-#~ msgid "Is my data secure?"
-#~ msgstr "هل بياناتي آمنة؟"
-
 #: utils/faqData.tsx:69
-#~ msgid "Is the application free to use?"
-#~ msgstr "هل التطبيق مجاني الاستخدام؟"
-
 #: pages/knowledge-base/intro.tsx:297
-#~ msgid "Is the Knowledge Base service free or is there a separate charge?"
-#~ msgstr "هل خدمة قاعدة المعرفة مجانية أم هناك تكلفة منفصلة؟"
-
 #: utils/faqData.tsx:44
-#~ msgid "Is there a discount for students?"
-#~ msgstr "هل هناك خصم للطلاب؟"
-
 #: utils/faqData.tsx:64
-#~ msgid "Is there a limit to the number of documents I can upload?"
-#~ msgstr "هل هناك حد لعدد المستندات التي يمكنني تحميلها؟"
-
 #: utils/faqData.tsx:112
-#~ msgid "Is there a limit to the size of the document that can be uploaded?"
-#~ msgstr "هل هناك حد لحجم المستند الذي يمكن تحميله؟"
-
 #: components/Announcements.tsx:30
-#~ msgid "it to access AskYourPDF from anywhere."
-#~ msgstr "استخدمه للوصول إلى AskYourPDF من أي مكان."
-
 #: components/Landing/Hero.tsx:267
-#~ msgid "it's a <0>conversation</0>"
-#~ msgstr "إنها <0>محادثة</0>"
-
 #: utils/faqData.tsx:14
-#~ msgid "It's an application that lets you chat with any document you upload"
-#~ msgstr "إنها تطبيق يتيح لك الدردشة مع أي مستند تقوم برفعه"
-
 #: components/Affiliate/Features.tsx:127
-#~ msgid "It's easy to get started. Sign up for our Affiliate Programme to receive your unique referral link."
-#~ msgstr "من السهل البدء. سجل في برنامج الشركاء لدينا لتلقي رابط الإحالة الفريد الخاص بك."
-
 #: components/Landing/Hero.tsx:264
-#~ msgid "It's not just reading anymore"
-#~ msgstr "لم يعد مجرد قراءة"
-
 #: components/Affiliate/Header.tsx:209
-#~ msgid "Join Now"
-#~ msgstr "انضم الآن"
-
 #: components/Affiliate/Header.tsx:190
-#~ msgid "Join Our Affiliate Program and"
-#~ msgstr "انضم إلى برنامج الشركاء لدينا و"
-
 #: components/Affiliate/Join.tsx:94
-#~ msgid "Join our Affiliate Programme today and start earning for your referrals while sharing the benefits of AskYourPDF. As an AskYourPDF Affiliate, you can help your audience realize the full potential of their documents."
-#~ msgstr "انضم إلى برنامج الشركاء لدينا اليوم وابدأ في كسب الأموالمن خلال إحالاتك مع مشاركة فوائد AskYourPDF. كشريك فيAskYourPDF، يمكنك مساعدة جمهورك على تحقيق الإمكانات الكاملة"
-
 #: components/Affiliate/Join.tsx:91
-#~ msgid "Join us Today"
-#~ msgstr "انضم إلينا اليوم"
-
 #: components/Landing/Features.tsx:275
 #: components/PdfToChat/Features.tsx:300
-#~ msgid "Just upload and voila, your documents aren't just smart, they're your new best friends. Dive in, engage, and enjoy your most interactive reading experience yet!"
-#~ msgstr "فقط قم بالتحميل وها هي مستنداتك لم تعد ذكية فحسب، بل أصبحت أصدقاءك المقربين الجدد. انغمس في التفاعل معها واستمتع بأكثر تجربة قراءة تفاعلية حتى الآن!"
-
 #: components/APIKeysList.tsx:471
-#~ msgid "Key Deleted"
-#~ msgstr "تم حذف المفتاح"
-
 #: components/AppSidebar.tsx:179
 msgid "Knowledge Base"
 msgstr "قاعدة المعرفة"
@@ -1954,87 +936,31 @@ msgstr "قاعدة المعرفة"
 #: components/Modals/PaymentModalContent.tsx:378
 #: pages/settings/index.tsx:658
 #: pages/settings/index.tsx:781
-#~ msgid "Knowledge Base Access"
-#~ msgstr "وصول لقاعدة المعرفة"
-
 #: components/KnowledgeBaseSidebar.tsx:509
 #: components/Modals/SearchBottomSheet.tsx:180
-#~ msgid "Knowledge Base Conversations"
-#~ msgstr "محادثات قاعدة المعرفة"
-
-#~ msgid "Knowledge Base ID Copied"
-#~ msgstr "تم نسخ هوية قاعدة المعرفة"
-
 #: pages/knowledge-base/[[...params]].tsx:971
 #: pages/knowledge-base/[[...params]].tsx:1666
-#~ msgid "Knowledge Base ID Copied. You can use this ID with our ChatGPT Plugin"
-#~ msgstr "تم نسخ معرّف قاعدة المعرفة. يمكنك استخدام هذا المعرّف مع إضافة شات جي بي تي لدينا"
-
 #: components/PdfToChat/KnowledgeBaseServiceBanner.tsx:82
-#~ msgid "Knowledge Base Service"
-#~ msgstr "خدمة قاعدة المعرفة"
-
-#~ msgid "Leading Universities"
-#~ msgstr "الجامعات الرائدة"
-
 #: components/PdfToChat/ApiBanner.tsx:87
-#~ msgid "Learn More"
-#~ msgstr " تعرف أكثر"
-
 #: components/Landing/Features.tsx:307
 #: components/PdfToChat/Features.tsx:332
-#~ msgid "Learn Playfully"
-#~ msgstr "تعلّم بمرح"
-
 #: components/PdfToChat/Discover.tsx:42
-#~ msgid "Legal Clarity"
-#~ msgstr "وضوح قانوني"
-
 #: components/Summarisation/SummariseSideBar.tsx:296
-#~ msgid "Length"
-#~ msgstr "الطول"
-
 #: components/tools/ToolsSection.tsx:274
-#~ msgid "Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
-#~ msgstr "دع الذكاء الاصطناعي يقوم بالعمل لأنه يقسم مستندات PDF الخاصة بك إلى ملفات منفصلة، مما يوفر لك الوقت ويبسط مهام إدارة المستندات الخاصة بك."
-
+#: pages/tools/split/index.tsx:813
 #: components/tools/SplitPage.tsx:819
-#~ msgid "Let artificial intelligence do the work as it swiftly divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
-#~ msgstr "دع الذكاء الاصطناعي يقوم بالعمل لأنه يقسم مستندات PDF الخاصة بك بسرعة إلى ملفات منفصلة، مما يوفر لك الوقت ويبسط مهام إدارة المستندات الخاصة بك."
-
 #: components/Modals/PaymentBottomSheet.tsx:164
 #: components/Modals/PaymentModalDesktop.tsx:167
 #: components/Modals/PaymentSuccessModal.tsx:173
 #: components/Modals/PaymentSuccessModal.tsx:211
-#~ msgid "Let's Go"
-#~ msgstr "دعنا نبدأ"
-
 #: components/tools/ToolsSection.tsx:298
-#~ msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources of relevant to your needs."
-#~ msgstr "استفد من قوة الذكاء الاصطناعي لاكتشاف المصادر ذات الصلة باحتياجاتك وتحليلها والتوصية بها."
-
-#: pages/index.tsx:323
-#~ msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources relevant to your needs."
-#~ msgstr "استفد من قوة الذكاء الصناعي لاكتشاف وتحليل وتوصية مصادر ذات صلة بحاجتك."
-
+#: pages.index.tsx:323
 #: utils/termsData.ts:66
-#~ msgid "Limitation of Liability"
-#~ msgstr "التقييد من المسؤولية"
-
 #: components/Settings/LinkAccountCall.tsx:120
 #: components/Settings/LinkAccountModal.tsx:135
 #: components/Settings/LinkAccountModal.tsx:161
-#~ msgid "Link Account"
-#~ msgstr "ربط الحساب"
-
 #: components/Modals/ShareModal.tsx:189
-#~ msgid "Link copied"
-#~ msgstr "تم نسخ الرابط"
-
 #: components/Settings/LinkAccountCall.tsx:104
-#~ msgid "Link Your Mobile Account"
-#~ msgstr "ربط حساب الجوال الخاص بك"
-
 #: components/literature-review/LiteratureMainBar.tsx:435
 msgid "Literature Review copied"
 msgstr "مراجعة الأدبيات المنسوخة"
@@ -2044,21 +970,12 @@ msgstr "مراجعة الأدبيات المنسوخة"
 msgid "Literature Review Tool"
 msgstr "أداة استعراض الأدب"
 
-#~ msgid "Literature Review Writer Tool"
-#~ msgstr "أداة كتابة استعراض الأدب "
-
 #: components/KnowledgeBaseSidebar.tsx:565
 #: components/KnowledgeBaseSidebar.tsx:600
 #: components/MainSidebar.tsx:510
 #: components/MainSidebar.tsx:545
-#~ msgid "Log In"
-#~ msgstr "تسجيل الدخول"
-
 #: components/KnowledgeBaseSidebar.tsx:573
 #: components/MainSidebar.tsx:518
-#~ msgid "Login or create an account to have multiple conversations, access your chat history and manage your documents seamlessly"
-#~ msgstr "قم بتسجيل الدخول أو إنشاء حساب للقيام بمحادثات متعددة والوصول إلى سجل المحادثات وإدارة مستنداتك بسلاسة"
-
 #: components/AppSidebar.tsx:336
 msgid "Logout"
 msgstr "تسجيل الخروج"
@@ -2067,40 +984,19 @@ msgstr "تسجيل الخروج"
 #: components/Modals/PaymentModalContent.tsx:393
 #: components/PdfToChat/Plans.tsx:694
 #: pages/settings/index.tsx:775
-#~ msgid "Longer Reply Length"
-#~ msgstr "طول أكبر للرد"
-
 #: pages/paragraph-generator/generate/index.tsx:100
 #: pages/paragraph-generator/index.tsx:49
 msgid "Main idea"
 msgstr "الفكرة الرئيسية"
 
 #: components/Modals/Profile.tsx:335
-#~ msgid "Manage"
-#~ msgstr "إدارة"
-
 #: components/DeveloperSidebar.tsx:140
-#~ msgid "Manage & Create API Keys to connect your applications"
-#~ msgstr "إدارة وإنشاء مفاتيح API لتوصيل تطبيقاتك"
-
 #: pages/billing/index.tsx:970
 #: pages/settings/index.tsx:985
-#~ msgid "Manage Payment Method"
-#~ msgstr "إدارة طريقة الدفع"
-
 #: components/DeveloperSidebar.tsx:158
-#~ msgid "Manage payments for your developer account"
-#~ msgstr "إدارة المدفوعات لحساب المطور الخاص بك"
-
 #: components/KnowledgeBaseSidebar.tsx:668
 #: components/MainSidebar.tsx:623
-#~ msgid "Manage Subscription"
-#~ msgstr "إدارة الاشتراك"
-
 #: pages/settings/index.tsx:917
-#~ msgid "Manage your payment method and billing history"
-#~ msgstr "إدارة طريقة الدفع وسجل الفوترة الخاصة بك"
-
 #: components/Landing/Plans.tsx:479
 #: components/Landing/Plans.tsx:561
 #: components/Landing/Plans.tsx:651
@@ -2108,199 +1004,73 @@ msgstr "الفكرة الرئيسية"
 #: components/PdfToChat/Plans.tsx:479
 #: components/PdfToChat/Plans.tsx:561
 #: components/PdfToChat/Plans.tsx:651
-#~ msgid "max"
-#~ msgstr "حد أقصى"
-
 #: components/Landing/Plans.tsx:487
 #: components/Landing/Plans.tsx:569
 #: components/Landing/Plans.tsx:659
 #: components/PdfToChat/Plans.tsx:487
 #: components/PdfToChat/Plans.tsx:569
 #: components/PdfToChat/Plans.tsx:659
-#~ msgid "Max upload size"
-#~ msgstr "الحجم الأقصى للتحميل"
-
 #: pages/billing/upgrade.tsx:727
 #: pages/billing/upgrade.tsx:828
-#~ msgid "Maximum {0} documents per <0>month</0>"
-#~ msgstr "الحد الأقصى {0} من المستندات لكل <0>شهر</0>"
-
 #: components/literature-review/LiteratureMainBar.tsx:396
 #: components/source-tools/source-content/index.tsx:248
 msgid "Maximum of 10000 characters"
 msgstr "10000 حرف كحد أقصى"
 
 #: components/source-tools/source-content/index,tsx.tsx:248
-#~ msgid "Maximum of 300 characters"
-#~ msgstr "حد أقصى من 300 حرف"
-
 #: components/Modals/DocumentSelectModal.tsx:631
-#~ msgid "Maximum of 5 documents"
-#~ msgstr "الحد الأقصى لعدد الوثائق 5"
-
 #: components/Modals/PaymentModalContent.tsx:321
 #: components/Modals/PaymentModalContent.tsx:363
-#~ msgid "MB/Document"
-#~ msgstr "ميغابايت/مستند"
-
 #: components/tools/MergePage.tsx:812
 msgid "Merge Another"
 msgstr "دمج آخر"
 
 #: pages/tools/merge/index.tsx:691
-#~ msgid "Merge PDF"
-#~ msgstr "دمج قوات الدفاع الشعبي"
-
 #: components/PdfToChat/MoreTools.tsx:35
-#~ msgid "Merge PDF Tool"
-#~ msgstr "أداة دمج ملفات PDF"
-
 #: pages/conversations/[[...params]].tsx:1218
 #: pages/knowledge-base/[[...params]].tsx:1797
-#~ msgid "Message Copied"
-#~ msgstr "تم نسخ الرسالة"
-
 #: components/Landing/Products.tsx:136
 #: components/PdfToChat/Products.tsx:136
-#~ msgid "Mobile App"
-#~ msgstr "التطبيق المحمول"
-
 #: components/Landing/Plans.tsx:422
 #: components/Modals/PaymentModalContent.tsx:497
 #: components/PdfToChat/Plans.tsx:422
-#~ msgid "Monthly"
-#~ msgstr "شهريا"
-
-#~ msgid "Most Popular"
-#~ msgstr "الأكثر شعبية"
-
 #: components/Landing/Plans.tsx:604
 #: components/PdfToChat/Plans.tsx:604
-#~ msgid "Most popular and Efficient"
-#~ msgstr "الأكثر شعبية وكفاءة"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:431
 #: components/Modals/CreateAPIKeyDesktop.tsx:445
-#~ msgid "Name of API Key"
-#~ msgstr "اسم مفتاح API"
-
 #: components/Modals/DocumentSelectModal.tsx:586
-#~ msgid "Name of Knowledge Base"
-#~ msgstr "اسم قاعدة المعرفة"
-
 #: components/Modals/DocumentSelectModal.tsx:580
-#~ msgid "Name your Knowledge Base"
-#~ msgstr "قم بتسمية قاعدتك المعرفية"
-
 #: components/PdfToChat/LandingFaq.tsx:90
 #: pages/faq/index.tsx:67
-#~ msgid "Need help? Look through our FAQs for quick answers!"
-#~ msgstr "هل تحتاج مساعدة؟ تصفح الأسئلة الشائعة لدينا للحصول على إجابات سريعة!"
-
 #: components/APIKeysList.tsx:605
-#~ msgid "Need to increase your monthly limits?"
-#~ msgstr "هل تحتاج إلى زيادة حدودك الشهرية؟"
-
 #: components/Landing/Products.tsx:191
 #: components/Landing/Products.tsx:207
 #: components/PdfToChat/Products.tsx:191
 #: components/PdfToChat/Products.tsx:207
-#~ msgid "New"
-#~ msgstr "جديد"
-
 #: pages/apikeys/index.tsx:445
-#~ msgid "New API Key"
-#~ msgstr "مفتاح API جديد"
-
 #: pages/documents/[[...id]]/index.tsx:567
-#~ msgid "New Chat"
-#~ msgstr "محادثة جديدة"
-
 #: components/MainSidebar.tsx:691
 #: pages/documents/[[...id]]/index.tsx:985
-#~ msgid "New Conversation"
-#~ msgstr "محادثة جديدة"
-
 #: components/Modals/Profile.tsx:212
-#~ msgid "new password"
-#~ msgstr "كلمة المرور الجديدة"
-
 #: components/Modals/Profile.tsx:207
-#~ msgid "New Password"
-#~ msgstr "كلمة المرور الجديدة"
-
 #: components/Modals/DocumentSelectModal.tsx:698
-#~ msgid "Next"
-#~ msgstr "التالي"
-
 #: components/SearchResults.tsx:344
-#~ msgid "No results found"
-#~ msgstr "لم يتم العثور على نتائج"
-
 #: utils/faqData.tsx:102
-#~ msgid "No, documents cannot be edited within AskYourPDF. But this will be possible in the future."
-#~ msgstr "لا، لا يمكن تحرير المستندات داخل AskYourPDF. ولكن سيكون ذلك ممكنًا في المستقبل."
-
 #: utils/faqData.tsx:118
-#~ msgid "No, only one document can be uploaded at a time. But this will be possible in the future."
-#~ msgstr "لا، يمكن رفع مستند واحد فقط في وقت واحد. ولكن ذلك سيكون ممكنًا في المستقبل."
-
 #: utils/faqData.tsx:124
-#~ msgid "No, password-protected documents cannot be uploaded to AskYourPDF."
-#~ msgstr "لا، لا يمكن رفع المستندات المحمية بكلمة المرور إلى AskYourPDF."
-
 #: pages/chat/[[...docID]]/index.tsx:256
-#~ msgid "No, the chat interface is only for interacting with the content of the document"
-#~ msgstr "لا، واجهة المحادثة مخصصة فقط للتفاعل مع محتوى المستند"
-
 #: utils/faqData.tsx:60
-#~ msgid "No, the chat interface is solely for interacting with the content of the document."
-#~ msgstr "لا، واجهة الدردشة مخصصة فقط للتفاعل مع محتوى المستند."
-
-#~ msgid "No, there are no limitations on the number of documents that can be uploaded per day"
-#~ msgstr "لا، لا توجد أية قيود على عدد المستندات التي يمكن تحميلها يوميًا"
-
-#~ msgid "No, there is no limit to the number of documents you can upload. However, for now, the application only accepts one document upload per time."
-#~ msgstr "لا، لا يوجد حد لعدد المستندات التي يمكنك تحميلها. ومع ذلك، في الوقت الحالي، لا يقبل التطبيق سوى تحميل مستند واحد في كل مرة."
-
-#~ msgid "No, you can only upload one document at a time."
-#~ msgstr "لا، يمكنك تحميل مستند واحد فقط في كل مرة."
-
-#~ msgid "No, you cannot edit the document itself while using AskYourPDF."
-#~ msgstr "لا، لا يمكنك تعديل المستند نفسه أثناء استخدام AskYourPDF."
-
-#~ msgid "No, you cannot upload password-protected documents to AskYourPDF."
-#~ msgstr "لا، لا يمكنك تحميل مستندات محمية بكلمة مرور إلى AskYourPDF."
-
 #: pages/chat/[[...docID]]/index.tsx:251
-#~ msgid "No, you do not need to create an account to use the application, but there are restrictions."
-#~ msgstr "لا، لا تحتاج إلى إنشاء حساب لاستخدام التطبيق، ولكن هناك قيود."
-
 #: utils/faqData.tsx:40
-#~ msgid "No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."
-#~ msgstr "لا، ليس عليك إنشاء حساب لاستخدام التطبيق. ومع ذلك، هناك بعض القيود. لاستكشاف إمكانيات AskYourPDF الواسعة، ستحتاج إلى خطة مُحدَّثة."
-
 #: components/source-tools/source-result/index.tsx:540
 msgid "Not satisfied with your results?"
 msgstr "غير راضٍ عن نتائجك؟"
 
 #: components/Landing/AppSection.tsx:147
-#~ msgid "Now <0>Live</0>"
-#~ msgstr " الآن <0>مباشر</0>"
-
-#~ msgid "Number of Docs"
-#~ msgstr "عدد المستندات"
-
 #: components/APIKeysList.tsx:649
 #: components/APIKeysList.tsx:804
-#~ msgid "Number of Pages"
-#~ msgstr "عدد الصفحات"
-
 #: components/APIKeysList.tsx:635
 #: components/APIKeysList.tsx:790
-#~ msgid "Number of Questions"
-#~ msgstr "عدد الأسئلة"
-
 #: components/tools/OcrPage.tsx:250
 #: components/tools/ToolCommon.tsx:170
 #: components/tools/ToolsSection.tsx:146
@@ -2310,56 +1080,20 @@ msgstr "قارئ PDF بتقنية البصر الآلي"
 
 #: pages/settings/index.tsx:652
 #: pages/settings/index.tsx:772
-#~ msgid "OCR support"
-#~ msgstr "دعم OCR"
-
 #: components/Landing/Plans.tsx:690
 #: components/Modals/PaymentModalContent.tsx:336
 #: components/Modals/PaymentModalContent.tsx:390
 #: components/PdfToChat/Plans.tsx:690
-#~ msgid "OCR Support"
-#~ msgstr "دعم OCR"
-
-#~ msgid "OCR Support - Coming Soon"
-#~ msgstr "دعم OCR - قريبًا"
-
-#~ msgid "OCR support (Coming Soon)"
-#~ msgstr "دعم OCR (قادم قريبًا)"
-
 #: components/PdfToChat/MoreTools.tsx:27
-#~ msgid "OCR Tool"
-#~ msgstr "أداة OCR"
-
 #: components/Modals/Profile.tsx:197
-#~ msgid "old password"
-#~ msgstr "كلمة المرور القديمة"
-
 #: components/Modals/Profile.tsx:192
-#~ msgid "Old Password"
-#~ msgstr "كلمة المرور القديمة"
-
 #: components/APIKeysList.tsx:762
-#~ msgid "Once you exhaust your quota you will have to upgrade to a production account to keep using your service"
-#~ msgstr "بمجرد استنفاد حصتك، سيتعين عليك الترقية إلى حساب إنتاجي لمواصلة استخدام خدمتك"
-
 #: components/Affiliate/Features.tsx:141
-#~ msgid "Once you've signed up, begin sharing your referral link with your audience. Spread the word about AskYourPDF's strong document tools,  whether on a blog, a social media, or a professional network."
-#~ msgstr "بمجرد أن تسجل، ابدأ في مشاركة رابط الإحالة الخاص بكمع جمهورك. انشر كلمة حول أدوات AskYourPDF القوية للمستندات"
-
 #: components/SearchResults.tsx:268
-#~ msgid "or document"
-#~ msgstr "أو مستند"
-
 #: components/Modals/ConversationFeedback.tsx:371
 #: components/Modals/ConversationFeedback.tsx:480
-#~ msgid "Other"
-#~ msgstr "أخرى"
-
 #: components/Landing/Features.tsx:311
 #: components/PdfToChat/Features.tsx:336
-#~ msgid "Our AI-powered chat system not only provides you with accurate information but also fosters an enjoyable learning environment that keeps you coming back for more."
-#~ msgstr "نظام المحادثة المدعوم بالذكاء الاصطناعي لدينا لا يزودك فقط بمعلومات دقيقة ولكنه يعزز أيضًا بيئة تعلم ممتعة تجعلك تعود مرة أخرى."
-
 #: components/Waitlist.tsx:141
 msgid "Our API is Now Live"
 msgstr "واجهة برمجة التطبيقات الخاصة بنا متاحة الآن"
@@ -2369,9 +1103,6 @@ msgid "Our Knowledge Base is Now Live"
 msgstr "قاعدة معارفنا متاحة الآن"
 
 #: pages/privacy/index.tsx:129
-#~ msgid "Our Privacy Policy does not apply to services offered by other companies or individuals, including third-party services used in conjunction with AskYourPDF. We recommend that you review the privacy policies of any third-party services you may use."
-#~ msgstr "لا تنطبق سياسة الخصوصية الخاصة بنا على الخدمات التي تقدمها شركات أو أفراد آخرون، بما في ذلك خدمات الجهات الخارجية المستخدمة بالاقتران مع AskYourPDF. نوصي بمراجعة سياسات الخصوصية لأي خدمات جهات خارجية قد تستخدمها."
-
 #: components/literature-review/LiteratureMainBar.tsx:425
 msgid "Output"
 msgstr "الناتج"
@@ -2382,24 +1113,12 @@ msgstr "الناتج"
 #: components/PdfToChat/Plans.tsx:479
 #: components/PdfToChat/Plans.tsx:561
 #: components/PdfToChat/Plans.tsx:651
-#~ msgid "pages per document"
-#~ msgstr "صفحات لكل مستند"
-
 #: pages/documents/[[...id]]/index.tsx:950
-#~ msgid "Pages:"
-#~ msgstr "الصفحات:"
-
 #: components/Modals/PaymentModalContent.tsx:318
 #: components/Modals/PaymentModalContent.tsx:360
-#~ msgid "pages/Document"
-#~ msgstr "صفحات/مستند"
-
 #: pages/billing/index.tsx:1054
 #: pages/settings/index.tsx:98
 #: pages/settings/index.tsx:113
-#~ msgid "Paid"
-#~ msgstr "مدفوع"
-
 #: pages/paragraph-generator/generate/index.tsx:108
 #: pages/paragraph-generator/index.tsx:59
 msgid "Paragraph Generator"
@@ -2407,17 +1126,8 @@ msgstr "مولد الفقرة"
 
 #: pages/billing/index.tsx:925
 #: pages/settings/index.tsx:929
-#~ msgid "Payment Method"
-#~ msgstr "طريقة الدفع"
-
 #: pages/settings/index.tsx:914
-#~ msgid "Payment Method, Billing History & Usage"
-#~ msgstr "طريقة الدفع وسجل الفوترة والاستخدام"
-
 #: components/Extension/Methods.tsx:140
-#~ msgid "PDF and Other Document Formats"
-#~ msgstr "ملفات PDF وتنسيقات أخرى للمستندات"
-
 #: components/tools/ToolCommon.tsx:174
 #: components/ToolsFooter.tsx:86
 msgid "PDF Compressor"
@@ -2443,107 +1153,44 @@ msgstr "قوات الدفاع الشعبي للدردشة"
 
 #: components/Landing/Plans.tsx:455
 #: components/PdfToChat/Plans.tsx:455
-#~ msgid "Perfect for getting started! Experience the magic of AI-enhanced documents at no cost. Includes 100 chats per month."
-#~ msgstr "مثالية للبدء! جرّب سحر المستندات المعززة بالذكاء الاصطناعي مجانًا. تشمل 100 محادثة في الشهر."
-
 #: components/PdfToChat/Discover.tsx:57
-#~ msgid "Personal Knowledge"
-#~ msgstr "المعرفة الشخصية"
-
 #: pages/settings/index.tsx:507
-#~ msgid "Pick an account plan that fits your workflow."
-#~ msgstr "اختر خطة حساب تناسب تدفق عملك."
-
 #: components/Modals/Profile.tsx:320
 #: components/Modals/Profile.tsx:323
 #: pages/billing/index.tsx:833
 #: pages/billing/index.tsx:1075
 #: pages/billing/upgrade.tsx:665
 #: pages/settings/index.tsx:186
-#~ msgid "Plan"
-#~ msgstr "الخطة"
-
 #: components/Landing/Plans.tsx:398
 #: components/PdfToChat/Plans.tsx:398
-#~ msgid "Plans for <0>everyone</0>"
-#~ msgstr "خطط لل<0>الجميع</0>"
-
 #: components/Modals/DocumentSelectModal.tsx:483
-#~ msgid "Please confirm if you have selected any documents"
-#~ msgstr "يُرجى تأكيد ما إذا كنت قد اخترت أي وثائق"
-
 #: components/Modals/DocumentSelectModal.tsx:459
-#~ msgid "Please confirm if you have selected any documents or given the knowledge base a name"
-#~ msgstr "يُرجى تأكيد ما إذا كنت قد اخترت أي وثائق أم أعطيت قاعدة المعرفة اسمًا"
-
 #: pages/upload/index.tsx:317
-#~ msgid "Please copy the document ID above and paste it into the <0>ChatGPT UI</0> to have a conversation about this document."
-#~ msgstr "يرجى نسخ معرّف المستند أعلاه ولصقه في <0>واجهة مستخدم ChatGPT</0> لإجراء محادثة حول هذا المستند."
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:300
-#~ msgid "Please enter a API name"
-#~ msgstr "يرجى إدخال اسم API"
-
 #: components/Settings/LinkAccountCall.tsx:96
-#~ msgid "Please enter a valid device ID"
-#~ msgstr "الرجاء إدخال رقم جهاز صحيح"
-
 #: components/Modals/CreateAPIKeyDesktop.tsx:315
-#~ msgid "Please enter an API name"
-#~ msgstr "يرجى إدخال اسم API"
-
 #: components/literature-review/LiteratureSideBar.tsx:373
 #: components/literature-review/LiteratureSideBar.tsx:441
 msgid "Please enter instructions on how to review your text input OR document"
 msgstr "الرجاء إدخال تعليمات حول كيفية مراجعة مدخلات النص أو المستند"
 
 #: components/Summarisation/SummariseSideBar.tsx:366
-#~ msgid "Please enter instructions on how to summarise your text input OR document"
-#~ msgstr "الرجاء إدخال التعليمات حول كيفية تلخيص النص المدخل أو المستند"
-
 #: pages/delete/index.tsx:284
-#~ msgid "Please Enter Your Document ID"
-#~ msgstr "الرجاء إدخال معرف المستند الخاص بك"
-
 #: pages/delete/index.tsx:234
-#~ msgid "Please make sure you're deleting a document you uploaded anonymously"
-#~ msgstr "يرجى التأكد من أنك تقوم بحذف مستند قمت بتحميله بشكل مجهول"
-
 #: components/Modals/ConversationFeedback.tsx:388
 #: components/Modals/ConversationFeedback.tsx:497
-#~ msgid "Please provide details: (Optional)"
-#~ msgstr "الرجاء تقديم التفاصيل: (اختياري)"
-
 #: pages/billing/index.tsx:991
-#~ msgid "Please reach out to our team via <0>billing@askyourpdf.com</0> if you have any concerns about billing"
-#~ msgstr "يرجى التواصل مع فريقنا عبر <0>billing@askyourpdf.com</0> إذا كانت لديك أي مخاوف بشأن الفوترة"
-
 #: pages/settings/index.tsx:1000
-#~ msgid "Please reach out to our team via billing@askyourpdf.com if you have any concerns about billing"
-#~ msgstr "يرجى التواصل مع فريقنا عبر billing@askyourpdf.com إذا كانت لديك أي مخاوف بشأن الفوترة"
-
 #: pages/conversations/[[...params]].tsx:952
 #: pages/knowledge-base/[[...params]].tsx:1524
-#~ msgid "Please try again"
-#~ msgstr "يرجى إعادة المحاولة"
-
 #: pages/billing/index.tsx:960
 #: pages/settings/index.tsx:976
-#~ msgid "Please Wait"
-#~ msgstr "يرجى الانتظار"
-
 #: pages/poem-generator/generate/index.tsx:110
 #: pages/poem-generator/index.tsx:76
 msgid "Poem Generator"
 msgstr "مولد القصيدة"
 
-#~ msgid "Premium Plan <0>$4.99/month or $3.99/month (Billed Annually)</0>"
-#~ msgstr "الخطة المتميزة <0>$4.99/شهريًا أو $3.99/شهريًا (تفويتر سنوي)</0>"
-
 #: pages/settings/index.tsx:625
-#~ msgid "Premium Plan <0>$9.99/month or $6.99/month (Billed Annually)</0>"
-#~ msgstr "خطة بريميوم $9.99 شهريًا أو $6.99 شهريًا (تم فرض الفواتير سنويًا)"
-
 #: components/Navbar.tsx:297
 #: components/Navbar.tsx:354
 #: components/tools/ToolBarExt.tsx:244
@@ -2555,46 +1202,19 @@ msgstr "التسعير"
 #: components/Modals/PaymentModalContent.tsx:399
 #: components/PdfToChat/Plans.tsx:702
 #: pages/settings/index.tsx:778
-#~ msgid "Priority access to new features"
-#~ msgstr "أولوية الوصول إلى الميزات الجديدة"
-
 #: components/Landing/Plans.tsx:698
 #: components/Modals/PaymentModalContent.tsx:396
 #: components/PdfToChat/Plans.tsx:698
 #: pages/settings/index.tsx:769
-#~ msgid "Priority support"
-#~ msgstr "الدعم ذو الأولوية"
-
 #: utils/termsData.ts:46
-#~ msgid "Privacy"
-#~ msgstr "الخصوصية"
-
 #: components/Footer.tsx:344
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
 #: components/Api/Pricing.tsx:303
-#~ msgid "Pro Plan"
-#~ msgstr "خطة احترافية"
-
-#~ msgid "Pro Plan <0>$12.99/month or $7.99/month (Billed Annually)</0>"
-#~ msgstr "الخطة المحترفة <0>$12.99/شهريًا أو $7.99/شهريًا (تفويتر سنوي)</0>"
-
 #: pages/settings/index.tsx:743
-#~ msgid "Pro Plan <0>$14.99/month or $9.99/month (Billed Annually)</0>"
-#~ msgstr "خطة برو $14.99 شهريًا أو $9.99 شهريًا (تم فرض الفواتير سنويًا)"
-
-#~ msgid "Product Update Emails"
-#~ msgstr "رسائل تحديث المنتج"
-
 #: components/APIKeysList.tsx:482
-#~ msgid "production"
-#~ msgstr "الإنتاج"
-
 #: pages/apikeys/index.tsx:413
-#~ msgid "Production Keys"
-#~ msgstr "مفاتيح الإنتاج"
-
 #: components/Footer.tsx:260
 msgid "Products"
 msgstr "منتجات"
@@ -2604,21 +1224,12 @@ msgid "Profile"
 msgstr "الملف الشخصي"
 
 #: components/Summarisation/SummariseSideBar.tsx:363
-#~ msgid "Prompt"
-#~ msgstr "مؤشر"
-
 #: components/source-tools/source-result/index.tsx:480
 msgid "Publication Year:"
 msgstr "سنة النشر:"
 
 #: pages/settings/index.tsx:1136
-#~ msgid "Questions"
-#~ msgstr "الأسئلة"
-
 #: pages/settings/index.tsx:1171
-#~ msgid "Questions (Plugin)"
-#~ msgstr "الأسئلة (الإضافة)"
-
 #: components/Landing/Plans.tsx:496
 #: components/Landing/Plans.tsx:578
 #: components/Landing/Plans.tsx:668
@@ -2627,79 +1238,37 @@ msgstr "سنة النشر:"
 #: components/PdfToChat/Plans.tsx:578
 #: components/PdfToChat/Plans.tsx:668
 #: components/PdfToChat/Plans.tsx:763
-#~ msgid "questions per day"
-#~ msgstr "أسئلة يوميًا"
-
 #: components/Modals/PaymentModalContent.tsx:330
-#~ msgid "questions/day"
-#~ msgstr "أسئلة/يوم"
-
 #: pages/rap-generator/generate/index.tsx:111
 #: pages/rap-generator/index.tsx:61
 msgid "Rap Generator"
 msgstr "مولد الراب"
 
 #: pages/knowledge-base/[[...params]].tsx:1463
-#~ msgid "Reaction Failed to submit"
-#~ msgstr "فشلت عملية الرد"
-
 #: components/Api/Header.tsx:171
 #: components/APIKeysList.tsx:770
-#~ msgid "Read Documentation"
-#~ msgstr "قراءة التوثيق"
-
 #: components/tools/OcrPage.tsx:284
 msgid "Read OCR PDF"
 msgstr "قراءة التعرف الضوئي على الحروف PDF"
 
 #: components/PdfToChat/Guide.tsx:125
 #: components/PdfToChat/SummarizeGuide.tsx:141
-#~ msgid "Ready to harness the future of document interaction? Let's dive into how you can make the most of AskYouPDF's incredible features."
-#~ msgstr "هل أنتم مستعدون للاستفادة من مستقبل تفاعل المستندات؟ لنقم بالانغماس في كيفية الاستفادة القصوى من ميزات AskYouPDF الرائعة."
-
 #: components/PdfToChat/Guide.tsx:168
-#~ msgid "Receive Answers"
-#~ msgstr "استلم الإجابات"
-
 #: components/PdfToChat/SummarizeGuide.tsx:195
-#~ msgid "Receive Your Summary"
-#~ msgstr "استلم ملخصك"
-
 #: components/AppHeader.tsx:116
-#~ msgid "Renew"
-#~ msgstr "تجديد"
-
 #: pages/billing/upgrade.tsx:744
 #: pages/settings/index.tsx:567
-#~ msgid "Renew Canceled Plan"
-#~ msgstr "تجديد الخطة الملغاة"
-
 #: pages/billing/index.tsx:883
-#~ msgid "Renew Plan"
-#~ msgstr "تجديد الخطة"
-
 #: components/Modals/ConversationFeedback.tsx:358
 #: components/Modals/ConversationFeedback.tsx:468
-#~ msgid "Report an Issue"
-#~ msgstr "الإبلاغ عن مشكلة"
-
 #: components/literature-review/MainContent.tsx:280
 msgid "Request timed out. Please try again"
 msgstr "انتهت صلاحية الطلب. الرجاء المحاولة مرة أخرى"
 
 #: pages/privacy/index.tsx:38
-#~ msgid "Respecting Your Privacy: Our Commitment and Assurance"
-#~ msgstr "احترام خصوصيتك: التزامنا وضماننا"
-
 #: components/literature-review/MainContent.tsx:362
 msgid "Results for"
 msgstr "نتائج لـ"
-
-#~ msgid "Resume Chat"
-#~ msgstr "استئناف المحادثة"
-
-#~ msgid "Resume Conversation"
-#~ msgstr "استئناف المحادثة"
 
 #: components/literature-review/MainContent.tsx:272
 #: components/literature-review/MainContent.tsx:282
@@ -2714,19 +1283,10 @@ msgstr "مراجعة عملي"
 msgid "Review will be displayed here"
 msgstr "ستظهر المراجعة هنا"
 
-#~ msgid "save 25%"
-#~ msgstr "وفر 25٪"
-
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:195
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:191
-#~ msgid "Save Details"
-#~ msgstr "حفظ التفاصيل"
-
 #: components/Landing/Features.tsx:286
 #: components/PdfToChat/Features.tsx:311
-#~ msgid "Save Time"
-#~ msgstr "وفّر الوقت"
-
 #: components/literature-review/MainContent.tsx:350
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr "وفر الوقت والجهد مع كاتب مراجعة الأدبيات المدعوم من الذكاء الاصطناعي. قم بتبسيط البحث وإنشاء ملخصات منظمة وإنشاء مراجعات متماسكة وشاملة ترفع من مستوى عملك الأكاديمي. مدعوم من الذكاء الاصطناعي."
@@ -2739,104 +1299,42 @@ msgstr "رحّب بالمستندات التي تستجيب لك! مع AskYourPD
 msgid "Seamlessly cite, reference, edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
 msgstr "استشهد بالنص والرجوع إليه وتحريره وتقسيمه ودمجه وضغطه واستخراجه بسلاسة من ملفات PDF. استفد من قوة الذكاء الاصطناعي لتبسيط تفاعلات PDF مجانا"
 
+#: pages/tools/index.tsx:358
 #: components/tools/MainPage.tsx:17
-#~ msgid "Seamlessly edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
-#~ msgstr "قم بتحرير النص وتقسيمه ودمجه وضغطه واستخراجه من ملفات PDF بسلاسة. استغل قوة الذكاء الاصطناعي لتبسيط تفاعلات PDF الخاصة بك مجانًا"
-
 #: components/Modals/SearchBottomSheet.tsx:131
-#~ msgid "Search"
-#~ msgstr "بحث"
-
 #: components/SearchResults.tsx:368
-#~ msgid "Search Failed"
-#~ msgstr "فشل البحث"
-
 #: components/SearchResults.tsx:261
-#~ msgid "Search for any conversation"
-#~ msgstr "ابحث عن أي محادثة"
-
 #: pages/privacy/index.tsx:110
-#~ msgid "Security of Your Information"
-#~ msgstr "أمان معلوماتك"
-
 #: components/Api/Pricing.tsx:268
-#~ msgid "Select a preferred pricing plan to get started"
-#~ msgstr "حدد خطة التسعير المفضلة للبدء"
-
 #: components/source-tools/source-result/index.tsx:442
 msgid "Select all"
 msgstr "تحديد الكل"
 
 #: components/Modals/ConversationFeedback.tsx:363
 #: components/Modals/ConversationFeedback.tsx:473
-#~ msgid "Select an option"
-#~ msgstr "اختر خيارًا"
-
 #: components/Modals/DocumentSelectModal.tsx:628
-#~ msgid "Select Documents"
-#~ msgstr "حدد الوثائق"
-
 #: components/AppSidebar.tsx:310
 msgid "Settings"
 msgstr "الإعدادات"
 
 #: pages/conversations/[[...params]].tsx:1078
-#~ msgid "Share"
-#~ msgstr "مشاركة"
-
 #: components/Modals/PaymentModalContent.tsx:426
 #: pages/settings/index.tsx:649
 #: pages/settings/index.tsx:766
 #: pages/settings/index.tsx:859
-#~ msgid "Share Customizable link"
-#~ msgstr "مشاركة رابط قابل للتخصيص"
-
 #: components/Modals/ShareModal.tsx:180
-#~ msgid "Share this conversation"
-#~ msgstr "شارك هذه المحادثة"
-
 #: components/Modals/ShareModal.tsx:209
-#~ msgid "Share Via:"
-#~ msgstr "مشاركة عبر:"
-
 #: components/Affiliate/Features.tsx:137
-#~ msgid "Share Your Referral Link with Your Audience"
-#~ msgstr "شارك رابط الإحالة الخاص بك مع جمهورك"
-
 #: pages/chat/[[...docID]]/index.tsx:337
 #: pages/knowledge-base/intro.tsx:392
-#~ msgid "Short guides to get you started"
-#~ msgstr "أدلة مختصرة لبدء الاستخدام"
-
 #: components/Affiliate/Features.tsx:123
-#~ msgid "Sign Up for the Affiliate Program"
-#~ msgstr "سجل في برنامج الشركاء"
-
 #: components/Affiliate/Join.tsx:103
-#~ msgid "Sign Up Now"
-#~ msgstr "سجل الآن"
-
 #: pages/source-tool/index.tsx:240
-#~ msgid "Simplify your search, guaranteeing precision and trustworthiness with each query."
-#~ msgstr "بسط بحثك، مضمون الدقة والموثوقية مع كل استعلام."
-
 #: components/Modals/PaymentModal.tsx:49
 #: pages/documents/[[...id]]/index.tsx:772
-#~ msgid "Something went wrong. Please try again"
-#~ msgstr "حدث خطأ ما. يرجى إعادة المحاولة"
-
 #: components/Summarisation/SummariseUpload.tsx:557
-#~ msgid "Sorry, but this document has over {SUMMARY_MAX_PAGES} pages. Please select a document with fewer pages to continue."
-#~ msgstr "نأسف، ولكن هذا المستند يحتوي على أكثر من {SUMMARY_MAX_PAGES} صفحة. يُرجى اختيار مستند يحتوي على أقل صفحات للمتابعة."
-
 #: components/Summarisation/SummariseUpload.tsx:543
-#~ msgid "Sorry, but this document has over 200 pages. Please select a document with fewer pages to continue."
-#~ msgstr ""
-
 #: components/BuyCredits.tsx:41
-#~ msgid "Sorry, you can't buy credits as a free user. Upgrade your account to access this feature"
-#~ msgstr "معذرة، لكن هذا المستند يتجاوز 200 صفحة. يُرجى تحديد مستند يحتوي على عدد أقل من الصفحات للمتابعة"
-
 #: components/source-tools/source-result/index.tsx:491
 msgid "Source copied"
 msgstr "تم نسخ المصدر"
@@ -2858,203 +1356,88 @@ msgid "Split PDF"
 msgstr "تقسيم قوات الدفاع الشعبي"
 
 #: components/PdfToChat/MoreTools.tsx:31
-#~ msgid "Split PDF Tool"
-#~ msgstr "أداة تقسيم ملفات PDF"
-
 #: components/literature-review/LiteratureMainBar.tsx:479
 msgid "Start another review"
 msgstr "ابدأ مراجعة أخرى"
 
 #: pages/chat/[[...docID]]/index.tsx:329
 #: pages/file-upload/index.tsx:407
-#~ msgid "Start Conversation"
-#~ msgstr "بدء المحادثة"
-
 #: components/Navbar.tsx:415
 #: components/tools/ToolBarExt.tsx:325
 msgid "Start For Free"
 msgstr "ابدأ مجاناً"
 
 #: pages/chat/[[...docID]]/index.tsx:313
-#~ msgid "Start your first conversation"
-#~ msgstr "ابدأ أول محادثة لك"
-
 #: pages/knowledge-base/intro.tsx:344
-#~ msgid "Start your first knowledge base"
-#~ msgstr "ابدأ قاعدة المعرفة الخاصة بك الأولى"
-
 #: pages/billing/index.tsx:1043
 #: pages/settings/index.tsx:155
-#~ msgid "Status"
-#~ msgstr "الحالة"
-
 #: pages/story-generator/generate/index.tsx:115
 #: pages/story-generator/index.tsx:65
 msgid "Story Generator"
 msgstr "مولد القصص"
 
 #: components/tools/ToolsSection.tsx:267
-#~ msgid "Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work."
-#~ msgstr "تبسيط البحوث، وإعداد ملخصات منظمة، وإنشاء استعراضات متماسكة وشاملة
-رفع مستوى عملك الأكاديمي."
-
 #: components/Modals/ConversationFeedback.tsx:266
-#~ msgid "Submission Failed"
-#~ msgstr "فشلت الإرسال"
-
 #: components/Modals/ConversationFeedback.tsx:419
 #: components/Modals/ConversationFeedback.tsx:528
-#~ msgid "Submit"
-#~ msgstr "إرسال"
-
-#~ msgid "Submitting this report will send the current conversation to Anthropic and store with your feedback for future improvements to our models."
-#~ msgstr "سيقوم إرسال هذا التقرير بإرسال المحادثة الحالية إلى Anthropic وتخزينه مع ملاحظاتك لتحسين نماذجنا في المستقبل"
-
 #: components/Modals/ConversationFeedback.tsx:400
 #: components/Modals/ConversationFeedback.tsx:509
-#~ msgid "Submitting this report will send the current conversation to AskYourPDF and store with your feedback for future improvements to our models."
-#~ msgstr "سيرسل تقديم هذا التقرير المحادثة الحالية إلى AskYourPDF وتخزينها مع ملاحظاتك للتحسينات المستقبلية على نماذجنا."
-
 #: components/Modals/PaymentModalContent.tsx:536
-#~ msgid "Subscribe for"
-#~ msgstr "اشترك لـ"
-
 #: components/Modals/PaymentModalContent.tsx:352
 #: components/Modals/PaymentModalContent.tsx:409
-#~ msgid "Subscribe To"
-#~ msgstr "اشترك في"
-
 #: utils/faqData.tsx:75
-#~ msgid "Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."
-#~ msgstr "يمكن للمشتركين إلغاء اشتراكهم في أي وقت. ومع ذلك، لن يتم تقديم استرداد أموال لأي جزء غير مستخدم من فترة الاشتراك."
-
 #: utils/termsData.ts:57
-#~ msgid "Subscribers can cancel their subscriptions at any time, but no refunds will be provided for any unused portion of the subscription period."
-#~ msgstr "يمكن للمشتركين إلغاء اشتراكاتهم في أي وقت، ولكن لن يتم تقديم أي استرداد لأي جزء غير مستخدم من فترة الاشتراك."
-
 #: components/Modals/PaymentModal.tsx:48
-#~ msgid "Subscription Failed"
-#~ msgstr "فشل الاشتراك"
-
 #: utils/termsData.ts:56
-#~ msgid "Subscriptions and cancellations"
-#~ msgstr "الاشتراكات والإلغاءات"
-
 #: pages/conversations/[[...params]].tsx:935
 #: pages/documents/[[...id]]/index.tsx:764
 #: pages/knowledge-base/[[...params]].tsx:1507
-#~ msgid "Success"
-#~ msgstr "نجاح"
-
-#~ msgid "Sumarisation"
-#~ msgstr "تلخيص"
-
 #: components/AppSidebar.tsx:252
 msgid "Summarisation"
 msgstr "تلخيص"
 
 #: pages/settings/index.tsx:909
 #: pages/settings/index.tsx:917
-#~ msgid "Summarisation Credit"
-#~ msgstr "ائتمان التلخيص"
-
 #: components/Summarisation/SummariseMainBar.tsx:389
-#~ msgid "Summarise Documents"
-#~ msgstr "تلخيص المستندات"
-
 #: components/Modals/PaymentModalContent.tsx:342
 #: components/Modals/PaymentModalContent.tsx:381
 #: pages/settings/index.tsx:661
 #: pages/settings/index.tsx:784
-#~ msgid "Summarization Access"
-#~ msgstr "وصول للملخص"
-
 #: components/Summarisation/SummariseMainBar.tsx:406
-#~ msgid "Summary"
-#~ msgstr "الملخص"
-
 #: components/Summarisation/SummariseMainBar.tsx:413
-#~ msgid "Summary copied"
-#~ msgstr "تم نسخ الملخص"
-
 #: pages/summarise/index.tsx:163
 #: pages/summarise/index.tsx:175
 #: pages/summarise/index.tsx:223
 #: pages/summarise/index.tsx:235
-#~ msgid "Summary Failed"
-#~ msgstr "فشل الملخص"
-
 #: components/Summarisation/SummariseMainBar.tsx:445
-#~ msgid "Summary will be displayed here"
-#~ msgstr "سيتم عرض الملخص هنا"
-
 #: components/Landing/Features.tsx:194
 #: components/PdfToChat/Features.tsx:200
-#~ msgid "Supercharge Document <0/> <1>Interactions</1>"
-#~ msgstr "قوّي تفاعلات المستندات <0/> <1>مستندات</1>"
-
 #: components/Landing/Hero.tsx:298
-#~ msgid "Supported formats"
-#~ msgstr "التنسيقات المدعومة"
-
 #: components/tools/DocUploadNoFunc.tsx:390
 msgid "Supported formats: .pdf"
 msgstr "التنسيقات المدعومة: .pdf"
 
 #: components/DocumentUpload.tsx:446
-#~ msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf'"
-#~ msgstr "التنسيقات المدعومة: .pdf ، .txt ، .ppt ، .pptx ، .csv ، .epub ، .rtf"
-
 #: components/Summarisation/SummariseUpload.tsx:534
-#~ msgid "Supported formats: .pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', '.rtf' (max 200 pages)"
-#~ msgstr "التنسيقات المدعومة: .pdf، .txt، .ppt، .pptx، .csv، .epub، .rtf (حد أقصى 200 صفحة)"
-
 #: pages/paragraph-generator/generate/index.tsx:101
 #: pages/paragraph-generator/index.tsx:50
 msgid "Supporting points"
 msgstr "نقاط الدعم"
 
 #: pages/billing/index.tsx:866
-#~ msgid "Switch Plan"
-#~ msgstr "تبديل الخطة"
-
 #: pages/settings/index.tsx:676
-#~ msgid "Switch To Premium"
-#~ msgstr "التبديل إلى المتميز"
-
 #: pages/settings/index.tsx:798
-#~ msgid "Switch To Pro"
-#~ msgstr "التبديل إلى المحترف"
-
 #: components/Landing/AppSection.tsx:152
 #: components/PdfToChat/AppSection.tsx:152
-#~ msgid "Take your document chats on the go with AskYourPDF app! Chat, track, learn - anytime, anywhere. Available on iOS and Android."
-#~ msgstr "خذ محادثات مستنداتك معك باستخدام تطبيق AskYourPDF! تحدث، تتبع، تعلم - في أي وقت، في أي مكان. متوفر على iOS وأندرويد."
-
 #: components/PdfToChat/Discover.tsx:52
-#~ msgid "Technical Mastery"
-#~ msgstr "إتقان تقني"
-
 #: utils/termsData.ts:51
-#~ msgid "Termination"
-#~ msgstr "الإنهاء"
-
 #: components/Footer.tsx:339
 msgid "Terms & Conditions"
 msgstr "الشروط والأحكام"
 
 #: components/APIKeysList.tsx:482
-#~ msgid "test"
-#~ msgstr "اختبار"
-
 #: components/APIKeysList.tsx:682
-#~ msgid "Test API keys should only be used on staging or during development. Switch to production keys when you wish to go live"
-#~ msgstr "يجب استخدام مفاتيح API الاختبارية فقط على التجهيز أو أثناء التطوير. قم بالتبديل إلى مفاتيح الإنتاج عند الرغبة في الانتقال إلى الإنتاج"
-
 #: pages/apikeys/index.tsx:405
-#~ msgid "Test Keys"
-#~ msgstr "مفاتيح الاختبار"
-
 #: pages/text-generator/generate/index.tsx:108
 #: pages/text-generator/index.tsx:62
 msgid "Text Generator"
@@ -3062,74 +1445,26 @@ msgstr "مولد النص"
 
 #: components/Modals/ConversationFeedback.tsx:333
 #: components/Modals/ConversationFeedback.tsx:443
-#~ msgid "Thank You"
-#~ msgstr "شكرًا لك"
-
 #: pages/chat/[[...docID]]/index.tsx:241
 #: utils/faqData.tsx:19
-#~ msgid "The application uses artificial intelligence to analyze the content of the document and provide a chat interface for users to ask questions get answers."
-#~ msgstr "يستخدم التطبيق الذكاء الاصطناعي لتحليل محتوى المستند وتوفير واجهة محادثة للمستخدمين لطرح الأسئلة والحصول على إجابات."
-
 #: pages/knowledge-base/intro.tsx:255
-#~ msgid "The AskYourPDF Knowledge Base is a service that allows users to create a list or library of documents which then serves as a knowledge base. Users can then chat this knowledge base as if it were a single document and receive answers based on the information contained within those documents."
-#~ msgstr "قاعدة المعرفة لدى AskYourPDF هي خدمة تسمح للمستخدمين بإنشاء قائمة أو مكتبة من المستندات التي تعمل بمثابة قاعدة معرفية. يمكن للمستخدمين بعد ذلك التحدث مع هذه القاعدة المعرفية كما لو كانت مستندًا واحدًا واستقبال إجابات استنادًا إلى المعلومات الموجودة في تلك المستندات."
-
 #: components/PdfToChat/KnowledgeBaseServiceBanner.tsx:85
-#~ msgid "The AskYourPDF Knowledge Base service provides a platform for users to upload documents into one folder 📂 (knowledge base) from which they can ask questions and get answers based on those documents."
-#~ msgstr "خدمة قاعدة المعرفة في AskYourPDF توفر منصة للمستخدمين لرفع المستندات إلى مجلد واحد 📂 (قاعدة المعرفة) منه يمكنهم طرح الأسئلة والحصول على الإجابات استنادًا إلى تلك المستندات."
-
-#~ msgid "The chat session is available as long as the tab is open."
-#~ msgstr "تتوفر جلسة المحادثة طالما ظلت علامة التبويب مفتوحة."
-
 #: pages/privacy/index.tsx:55
-#~ msgid "The Information We Collect and Its Use"
-#~ msgstr "المعلومات التي نقوم بجمعها واستخدامها"
-
 #: pages/knowledge-base/intro.tsx:298
-#~ msgid "The Knowledge Base service is included at no additional cost for our Premium, Pro, and Enterprise plans."
-#~ msgstr "تم تضمين خدمة قاعدة المعرفة بدون تكلفة إضافية في خططنا للبريميوم والبرو والمؤسسة."
-
 #: utils/termsData.ts:72
-#~ msgid "These terms and conditions shall be governed by and construed in accordance with the laws of the country or state where it is used."
-#~ msgstr "تخضع هذه الشروط والأحكام لقوانين البلد أو الولاية التي يتم استخدامها فيها وتفسر وفقًا لها."
-
 #: pages/thesis-statement/generate/index.tsx:108
 #: pages/thesis-statement/index.tsx:58
 msgid "Thesis Statement Generator"
 msgstr "مولد بيان الأطروحة"
 
 #: pages/privacy/index.tsx:125
-#~ msgid "Third-Party Services"
-#~ msgstr "الخدمات من الجهات الخارجية"
-
 #: pages/chat/[[...docID]]/index.tsx:236
-#~ msgid "This application lets you chat with any document you upload."
-#~ msgstr "يتيح لك هذا التطبيق الدردشة مع أي مستند تقوم بتحميله."
-
 #: pages/subscription-error/index.tsx:163
-#~ msgid "This feature requires an active subscription. Click the button below to upgrade your account and access more features"
-#~ msgstr "هذه الميزة تتطلب اشتراكًا نشطًا. انقر على الزر أدناه لترقية حسابك والوصول إلى المزيد من المزايا"
-
 #: pages/billing/upgrade.tsx:674
-#~ msgid "This plan limits your quota to the maximum available for the {0} Plan. <0>Learn More</0>"
-#~ msgstr "تحدّد هذه الخطة حصتك إلى الحد الأقصى المتاح لخطة {0}. <0>اعرف المزيد</0>"
-
 #: components/APIKeysList.tsx:501
-#~ msgid "This quota sets the maximum number of API calls or actions you can perform within a given period. If you find your needs exceeding this limit, consider upgrading to one of our premium plans for additional quota and features."
-#~ msgstr "تحدد هذه الحصة الحد الأقصى لعدد مكالمات API أو الإجراءات التي يمكنك تنفيذها خلال فترة معينة. إذا وجدت احتياجاتك تتجاوز هذا الحد، فكر في الترقية إلى إحدى خططنا المميزة للحصول على حصة وميزات إضافية."
-
 #: components/PdfToChat/SummarizeGuide.tsx:155
-#~ msgid "To begin, upload the document to be summarised. This can be a PDF, text file, or any of the various document formats that are supported. <0/>After you've submitted the document, you'll have to wait a few moments while AskYourPDF processes it. Our AI system will analyze the material in order to extract important information."
-#~ msgstr " للبدء، قم بتحميل المستند الذي سيتم تلخيصه. يمكن أن يكون هذا ملف PDF، ملف نصي، أو أي من تنسيقات المستندات المتعددة التي تتم دعمها. <0/>بعد تقديم المستند، ستضطر إلى الانتظار بضع لحظات بينما يقوم AskYourPDF بمعالجته. سيقوم نظام الذكاء الاصطناعي لدينا بتحليل المواد لاستخراج المعلومات الهامة."
-
 #: pages/privacy/index.tsx:59
-#~ msgid "To provide the best possible experience on AskYourPDF, we collect certain types of data from our users:"
-#~ msgstr "لتوفير أفضل تجربة ممكنة على AskYourPDF، نقوم بجمع أنواع معينة من البيانات من مستخدمينا:"
-
 #: utils/termsData.ts:67
-#~ msgid "To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of AskYourPDF."
-#~ msgstr "إلى الحد الأقصى المسموح به قانونًا، لا نتحمل أية مسؤولية عن أية أضرار مباشرة أو غير مباشرة أو عرضية أو خاصة أو لاحقة ناتجة عن استخدامك AskYourPDF أو ذات صلة به."
-
 #: components/Navbar.tsx:289
 #: components/Navbar.tsx:346
 #: components/tools/MainPage.tsx:19
@@ -3138,29 +1473,18 @@ msgstr "أدوات"
 
 #: components/Landing/Products.tsx:178
 #: components/PdfToChat/Products.tsx:178
-#~ msgid "Tools we’ve built to improve your document experience"
-#~ msgstr "الأدوات التي قمنا ببنائها لتحسين تجربة مستنداتك"
-
 #: pages/rap-generator/generate/index.tsx:105
 msgid "Topic/Theme"
 msgstr "الموضوع/الموضوع"
 
 #: pages/settings/index.tsx:1051
-#~ msgid "Track your Usage"
-#~ msgstr "تتبع استخدامك"
-
+#: pages/tools/ocr/index.tsx:505
 #: components/tools/OcrPage.tsx:251
 #: components/tools/ToolsSection.tsx:147
 msgid "Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader."
 msgstr "قم بتحويل ملفات PDF الممسوحة ضوئيًا أو المستندة إلى الصور إلى نص قابل للتحرير والبحث باستخدام قارئ OCR PDF الذي يعمل بالذكاء الاصطناعي."
 
-#~ msgid "Trusted By"
-#~ msgstr "يثق بها"
-
 #: components/PdfToChat/Universities.tsx:92
-#~ msgid "Trusted By <0> Leading Universities </0>"
-#~ msgstr "تم الثقة بها من قبل الجامعات الرائدة"
-
 #: components/tools/ToolsWaitlist.tsx:150
 #: components/Waitlist.tsx:151
 msgid "Try it Now"
@@ -3168,109 +1492,40 @@ msgstr "جرّبه الآن"
 
 #: components/Announcements.tsx:19
 #: components/Announcements.tsx:25
-#~ msgid "Try it out now"
-#~ msgstr " جربها الآن"
-
 #: components/SearchResults.tsx:264
-#~ msgid "Type what you want to search for in the search box, you can filter by conversation"
-#~ msgstr "اكتب ما تريد البحث عنه في مربع البحث، يمكنك تصفية النتائج حسب المحادثة"
-
 #: pages/conversations/[[...params]].tsx:1057
 #: pages/knowledge-base/[[...params]].tsx:1635
-#~ msgid "Typing..."
-#~ msgstr "جارٍ الكتابة..."
-
 #: pages/delete/index.tsx:239
 #: pages/delete/index.tsx:246
-#~ msgid "Unable to Delete document, please make sure you're deleting a document you uploaded anonymously"
-#~ msgstr "غير قادر على حذف المستند، يرجى التأكد من أنك تقوم بحذف مستند قمت بتحميله بشكل مجهول."
-
 #: components/Modals/UnitsExceededModal.tsx:105
-#~ msgid "Units Exceeded"
-#~ msgstr "الوحدات التي تم تجاوزها"
-
 #: components/Landing/Features.tsx:269
 #: components/PdfToChat/Features.tsx:294
-#~ msgid "Unleash the chat power in your documents! Turn them into friendly Chatbot's,ready to share knowledge and insights."
-#~ msgstr "أطلق قوة المحادثة الكامنة في مستنداتك! حوّلها إلى Chatbot ودودة، مستعدة لمشاركة المعرفة والأفكار."
-
 #: components/Landing/Plans.tsx:686
 #: components/Modals/PaymentModalContent.tsx:384
 #: components/PdfToChat/Plans.tsx:686
-#~ msgid "Unlimited ChatGPT Plugin Question"
-#~ msgstr "أسئلة غير محدودة لإضافة ChatGPT"
-
 #: components/Modals/PaymentModalContent.tsx:369
-#~ msgid "Unlimited Conversation Per Day"
-#~ msgstr "محادثات غير محدودة يوميًا"
-
 #: components/Modals/PaymentModalContent.tsx:420
 #: pages/settings/index.tsx:853
-#~ msgid "Unlimited doc uploads a day"
-#~ msgstr "تحميل مستندات غير محدود يوميًا"
-
 #: components/Landing/Plans.tsx:772
 #: components/PdfToChat/Plans.tsx:772
-#~ msgid "Unlimited documents per day"
-#~ msgstr "مستندات غير محدودة يوميًا"
-
 #: pages/settings/index.tsx:850
-#~ msgid "Unlimited file size"
-#~ msgstr "حجم ملف غير محدود"
-
 #: components/Modals/PaymentModalContent.tsx:417
 #: pages/settings/index.tsx:847
-#~ msgid "Unlimited pages"
-#~ msgstr "صفحات غير محدودة"
-
 #: components/Landing/Plans.tsx:744
 #: components/PdfToChat/Plans.tsx:744
-#~ msgid "Unlimited pages per document"
-#~ msgstr "صفحات غير محدودة لكل مستند"
-
 #: components/Modals/PaymentModalContent.tsx:423
 #: pages/settings/index.tsx:763
 #: pages/settings/index.tsx:856
-#~ msgid "Unlimited questions / day"
-#~ msgstr "أسئلة غير محدودة / يوميًا"
-
 #: components/Modals/PaymentModalContent.tsx:372
-#~ msgid "Unlimited questions/day"
-#~ msgstr "أسئلة غير محدودة / يوميًا"
-
-#~ msgid "Unlock the Possibilities of <0> AskYouPDF </0>"
-#~ msgstr "فتح إمكانيات <0>AskYourPDF</0>"
-
 #: components/PdfToChat/Discover.tsx:159
-#~ msgid "Unlock the Possibilities of <0> AskYourPDF </0>"
-#~ msgstr "فتح إمكانيات AskYouPDF"
-
 #: pages/billing/index.tsx:1061
 #: pages/settings/index.tsx:83
-#~ msgid "Unpaid"
-#~ msgstr "غير مدفوع"
-
 #: components/Modals/Profile.tsx:235
-#~ msgid "Update"
-#~ msgstr "تحديث"
-
 #: components/Modals/DocumentSelectModal.tsx:721
-#~ msgid "Update Knowledge Base"
-#~ msgstr "تحديث قاعدة المعرفة"
-
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:162
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:158
-#~ msgid "Update Payment Method"
-#~ msgstr "تحديث طريقة الدفع"
-
 #: components/Modals/DocumentSelectModal.tsx:402
-#~ msgid "Update Success"
-#~ msgstr "نجاح التحديث"
-
 #: pages/billing/index.tsx:976
-#~ msgid "Update your payment method"
-#~ msgstr "قم بتحديث طريقة الدفع الخاصة بك"
-
 #: components/AppHeader.tsx:105
 #: components/KnowledgeBaseSidebar.tsx:630
 #: components/KnowledgeBaseSidebar.tsx:647
@@ -3278,66 +1533,33 @@ msgstr "جرّبه الآن"
 #: components/MainSidebar.tsx:592
 #: pages/file-upload/index.tsx:353
 #: pages/subscription-error/index.tsx:176
-#~ msgid "Upgrade"
-#~ msgstr "ترقية"
-
 #: components/APIKeysList.tsx:618
 #: components/APIKeysList.tsx:775
 #: pages/billing/upgrade.tsx:691
-#~ msgid "Upgrade Account"
-#~ msgstr "ترقية الحساب"
-
 #: components/APIKeysList.tsx:511
-#~ msgid "Upgrade Developer Account"
-#~ msgstr "ترقية حساب المطور"
-
 #: components/Modals/PaymentModalContent.tsx:587
 #: components/Modals/PaymentModalContent.tsx:601
-#~ msgid "Upgrade now for increased upload limits and enhanced ChatGPT conversations"
-#~ msgstr "قم بالترقية الآن للحصول على حدود تحميل أكبر ومحادثات ChatGPT محسّنة"
-
 #: components/Api/Pricing.tsx:319
 #: components/Api/Pricing.tsx:374
 #: pages/billing/index.tsx:867
 #: pages/billing/upgrade.tsx:785
 #: pages/billing/upgrade.tsx:851
-#~ msgid "Upgrade Plan"
-#~ msgstr "ترقية الخطة"
-
 #: components/KnowledgeBaseSidebar.tsx:638
 #: components/MainSidebar.tsx:583
 #: pages/file-upload/index.tsx:335
-#~ msgid "Upgrade to access more features"
-#~ msgstr "قم بالترقية للوصول إلى مزيد من المميزات"
-
 #: pages/settings/index.tsx:688
 #: pages/settings/index.tsx:699
-#~ msgid "Upgrade To Premium"
-#~ msgstr "الترقية إلى المتميز"
-
 #: pages/settings/index.tsx:810
 #: pages/settings/index.tsx:821
-#~ msgid "Upgrade To Pro"
-#~ msgstr "الترقية إلى المحترف"
-
 #: components/Modals/PaymentModalContent.tsx:584
 #: components/Modals/PaymentModalContent.tsx:598
-#~ msgid "Upgrade your content"
-#~ msgstr "قم بترقية محتواك"
-
 #: components/PdfToChat/Guide.tsx:136
 #: components/PdfToChat/SummarizeGuide.tsx:152
-#~ msgid "Upload"
-#~ msgstr "تحميل"
-
 #: components/AppSidebar.tsx:222
 msgid "Upload Doc"
 msgstr "تحميل المستند"
 
 #: pages/upload/index.tsx:250
-#~ msgid "Upload document"
-#~ msgstr "تحميل المستند"
-
 #: components/tools/DocUploadNoFunc.tsx:357
 msgid "Upload Document"
 msgstr "تحميل المستند"
@@ -3351,90 +1573,39 @@ msgid "Upload From URL"
 msgstr "التحميل من رابط"
 
 #: components/Modals/PaymentModalContent.tsx:280
-#~ msgid "Upload larger documents"
-#~ msgstr "تحميل مستندات أكبر حجمًا"
-
 #: components/literature-review/LiteratureUpload.tsx:485
 msgid "Upload New Document"
 msgstr "تحميل وثيقة جديدة"
 
 #: components/DocumentUpload.tsx:370
-#~ msgid "Upload Success"
-#~ msgstr "نجاح التحميل"
-
 #: components/literature-review/LiteratureMainBar.tsx:366
 #: components/source-tools/source-content/index.tsx:216
 msgid "Upload text file"
 msgstr "تحميل ملف نصي"
 
 #: pages/file-upload/index.tsx:360
-#~ msgid "Upload your document"
-#~ msgstr "قم بتحميل مستندك"
-
 #: pages/documents/[[...id]]/index.tsx:533
 #: pages/knowledge-base/[[...params]].tsx:1032
-#~ msgid "Uploaded"
-#~ msgstr "تم التحميل"
-
 #: pages/settings/index.tsx:1058
-#~ msgid "Uploaded Docs"
-#~ msgstr "المستندات المرفوعة"
-
 #: pages/documents/[[...id]]/index.tsx:938
-#~ msgid "Uploaded:"
-#~ msgstr "تم التحميل:"
-
 #: utils/termsData.ts:21
-#~ msgid "Uploading documents"
-#~ msgstr "تحميل المستندات"
-
 #: pages/settings/index.tsx:1048
-#~ msgid "Usage"
-#~ msgstr "الاستخدام"
-
 #: utils/termsData.ts:16
-#~ msgid "Use of AskYourPDF"
-#~ msgstr "استخدام AskYourPDF"
-
 #: components/Modals/OldDocumentDeleteModal.tsx:132
-#~ msgid "Use this method only to delete anonymous uploads or files from our old plugin, not personal account documents."
-#~ msgstr "استخدم هذا الطريقة فقط لحذف التحميلات المجهولة أو الملفات من إضافتنا القديمة، وليس لحذف مستندات الحساب الشخصي."
-
 #: components/APIKeysList.tsx:642
 #: components/APIKeysList.tsx:656
 #: components/APIKeysList.tsx:797
 #: components/APIKeysList.tsx:809
-#~ msgid "Used"
-#~ msgstr "مستخدم"
-
 #: utils/termsData.ts:26
-#~ msgid "User Conduct"
-#~ msgstr "سلوك المستخدم"
-
 #: utils/termsData.ts:31
-#~ msgid "User Content"
-#~ msgstr "محتوى المستخدم"
-
 #: components/Landing/MobileAppBanner.tsx:94
-#~ msgid "View App"
-#~ msgstr "عرض التطبيق"
-
 #: pages/conversations/[[...params]].tsx:1142
-#~ msgid "View Doc"
-#~ msgstr "عرض المستند"
-
 #: pages/apikeys/index.tsx:342
 #: pages/billing/index.tsx:780
 #: pages/billing/upgrade.tsx:598
-#~ msgid "View Docs"
-#~ msgstr "عرض المستندات"
-
 #: pages/apikeys/index.tsx:356
 #: pages/billing/index.tsx:794
 #: pages/billing/upgrade.tsx:612
-#~ msgid "View Documentation"
-#~ msgstr "عرض التوثيق"
-
 #: components/literature-review/MainContent.tsx:227
 #: pages/book-title-generator/generate/index.tsx:47
 #: pages/book-title-generator/generate/index.tsx:55
@@ -3490,316 +1661,101 @@ msgstr "تحميل ملف نصي"
 msgid "Warning"
 msgstr ""
 
-#~ msgid "Warning:"
-#~ msgstr "تحذير:"
-
 #: components/Waitlist.tsx:144
 msgid "We are making AskYourPDF API open for developers to build applications and services."
 msgstr "نجعل واجهة برمجة تطبيقات AskYourPDF مفتوحة للمطورين لبناء التطبيقات والخدمات."
 
 #: components/Announcements.tsx:29
-#~ msgid "We just launched our Browser extension."
-#~ msgstr "لقد قمنا للتو بإطلاق امتداد المتصفح الخاص بنا."
-
 #: utils/termsData.ts:52
-#~ msgid "We may terminate your use of AskYourPDF at any time for any reason, including if we believe that you have violated these terms and conditions."
-#~ msgstr "يجوز لنا إنهاء استخدامك لـ AskYourPDF في أي وقت لأي سبب، بما في ذلك إذا اعتقدنا أنك انتهكت هذه الشروط والأحكام."
-
 #: utils/termsData.ts:77
-#~ msgid "We reserve the right to modify these terms and conditions at any time without prior notice. Your continued use of AskYourPDF after any changes to these terms and conditions constitutes your acceptance of the revised terms and conditions."
-#~ msgstr "نحتفظ بالحق في تعديل هذه الشروط والأحكام في أي وقت دون إشعار مسبق. استمرار استخدامك AskYourPDF بعد أي تغييرات على هذه الشروط والأحكام يشكل قبولك للشروط والأحكام المنقحة."
-
 #: pages/privacy/index.tsx:140
-#~ msgid "We reserve the right to update or amend this Privacy Policy at any time to reflect changes in our practices or services, or changes in the law. We will notify you of any significant changes and encourage you to review this policy periodically to stay informed."
-#~ msgstr "نحتفظ بالحق في تحديث أو تعديل سياسة الخصوصية هذه في أي وقت لتعكس التغييرات في ممارساتنا أو خدماتنا، أو التغييرات في القانون. سنقوم بإشعارك بأي تغييرات هامة ونشجعك على مراجعة هذه السياسة بشكل دوري للبقاء على علم."
-
 #: pages/chat/[[...docID]]/index.tsx:246
-#~ msgid "We support multiple document formats ('.pdf', '.txt', '.ppt', '.pptx', '.csv','.epub', '.rtf')"
-#~ msgstr "ندعم عدة تنسيقات للمستندات ('.pdf' ، '.txt' ، '.ppt' ، '.pptx' ، '.csv' ، '.epub' ، '.rtf')"
-
 #: utils/faqData.tsx:24
-#~ msgid "We support multiple document formats: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", and \".rtf\"."
-#~ msgstr "نحن ندعم العديد من تنسيقات المستندات: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", و \".rtf\"."
-
 #: pages/billing/index.tsx:977
-#~ msgid "We tried to renew your subscription but we couldn't because of a payment issue, please check your payment method to avoid service disruption"
-#~ msgstr "حاولنا تجديد اشتراكك ولكن لم نتمكن من ذلك بسبب مشكلة في الدفع، يرجى التحقق من طريقة الدفع لتجنب تعطل الخدمة"
-
 #: pages/privacy/index.tsx:114
-#~ msgid "We understand the sensitivity of your personal information and implement strict security measures to safeguard it. We store your information on secure servers, and access is strictly limited to a small number of authorized personnel who are required to keep the information confidential. Furthermore, we review and update our security measures on a regular basis."
-#~ msgstr "ندرك حساسية معلوماتك الشخصية ونطبق إجراءات أمنية صارمة لحمايتها. نخزن معلوماتك على خوادم آمنة، ويقتصر الوصول إليها بشدة على عدد قليل من الموظفين المصرح لهم الذين مطالبون بالمحافظة على سرية المعلومات. بالإضافة إلى ذلك، نراجع إجراءات الأمن الخاصة بنا ونحدثها على أساس منتظم."
-
 #: components/PdfToChat/Features.tsx:276
-#~ msgid "We're committed to enhancing your PDF interaction experience and providing you with powerful tools that simplify the way you work with documents."
-#~ msgstr " نحن ملتزمون بتعزيز تجربتك في التفاعل مع ملفات PDF وتزويدك بأدوات قوية تبسط الطريقة التي تعمل بها مع المستندات."
-
 #: components/Landing/Products.tsx:129
 #: components/PdfToChat/Products.tsx:129
-#~ msgid "Website"
-#~ msgstr "الموقع الإلكتروني"
-
 #: pages/terms/index.tsx:47
-#~ msgid "Welcome to AskYourPDF, Please read these terms and conditions carefully as they govern your use of the product"
-#~ msgstr "مرحبًا بك في AskYourPDF، يرجى قراءة هذه الشروط والأحكام بعناية حيث إنها تحكم استخدامك للمنتج"
-
 #: utils/faqData.tsx:134
-#~ msgid "What if I have a question or a problem while using AskYourPDF?"
-#~ msgstr "ماذا لو كان لدي سؤال أو مشكلة أثناء استخدام AskYourPDF؟"
-
 #: utils/faqData.tsx:91
-#~ msgid "What if I have a question that the AI can't answer?"
-#~ msgstr "ماذا لو كان لدي سؤال لا يستطيع الذكاء الاصطناعي الإجابة عليه؟"
-
 #: pages/knowledge-base/intro.tsx:254
-#~ msgid "What is AskYourPDF Knowledge Base about?"
-#~ msgstr "ما هي قاعدة المعرفة لـ AskYourPDF؟"
-
 #: utils/faqData.tsx:13
-#~ msgid "What is AskYourPDF?"
-#~ msgstr "ما هو AskYourPDF؟"
-
 #: pages/chat/[[...docID]]/index.tsx:235
-#~ msgid "What is this application about?"
-#~ msgstr "ما هذا التطبيق؟"
-
 #: components/Landing/Testimonial.tsx:139
 #: components/PdfToChat/Testimonial.tsx:139
-#~ msgid "What people say <0>about us</0>"
-#~ msgstr "ما يقوله الناس <0>عنا</0>"
-
 #: components/Modals/ConversationFeedback.tsx:393
 #: components/Modals/ConversationFeedback.tsx:502
-#~ msgid "What was unsatisfying about this response?"
-#~ msgstr "ما الذي لم يكن مرضيًا في هذا الرد؟"
-
 #: utils/termsData.ts:42
-#~ msgid "When you use our app, we may collect certain information automatically, such as technical information about your device, app usage statistics, and crash reports. This information is collected in an anonymized and aggregated form and is used to improve our app's performance, user experience, and overall quality."
-#~ msgstr "عند استخدامك لتطبيقنا، قد نقوم بجمع بعض المعلومات تلقائيًا، مثل المعلومات التقنية حول جهازك وإحصائيات استخدام التطبيق وتقارير الأعطال. يتم جمع هذه المعلومات بشكل مجهول الهوية ومجمع وتُستخدم لتحسين أداء تطبيقنا وتجربة المستخدم والجودة العامة."
-
 #: components/PdfToChat/Features.tsx:271
-#~ msgid "Why Choose <0>Us</0>"
-#~ msgstr " لماذا تختارنا"
-
 #: components/PdfToChat/Discover.tsx:53
-#~ msgid "With AskYourPDF technical specialists and engineers are able to quickly retrieve crucial knowledge from technical manuals and paperwork."
-#~ msgstr "باستخدام AskYourPDF، يمكن للمتخصصين التقنيين والمهندسين استرداد المعرفة الحاسمة بسرعة من الكتيبات التقنية والأوراق الإدارية."
-
 #: components/tools/MergePage.tsx:675
 #: components/tools/ToolsSection.tsx:140
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 msgstr "من خلال الدمج الآلي الذكي لدينا، يتم توحيد ملفات PDF الخاصة بك بسلاسة في مستند واحد متماسك مع الحفاظ على الجودة والتنسيق"
 
+#: pages/tools/merge/index.tsx:697
 #: components/tools/MergePage.tsx:690
 #: components/tools/ToolsSection.tsx:281
-#~ msgid "With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
-#~ msgstr "من خلال الدمج الذكي والآلي، يتم توحيد ملفات PDF الخاصة بك بسلاسة في مستند واحد متماسك مع الحفاظ على الجودة والتنسيق."
-
 #: components/PdfToChat/Guide.tsx:171
-#~ msgid "Witness AI-driven comprehension as AskYouPDF analyzes your PDF and provides instant, insightful answers."
-#~ msgstr "شاهد الفهم المدعوم بالذكاء الاصطناعي حيث يحلل AskYouPDF ملف PDF الخاص بك ويقدم إجابات فورية ومفيدة."
-
 #: components/Modals/PaymentModalContent.tsx:516
-#~ msgid "Yearly"
-#~ msgstr "سنويًا"
-
-#~ msgid "Yes, AskYourPDF is accessible from any device with an internet connection."
-#~ msgstr "نعم، يمكن الوصول إلى AskYourPDF من أي جهاز متصل بالإنترنت."
-
 #: utils/faqData.tsx:108
-#~ msgid "Yes, AskYourPDF is accessible from any device with standard browsers and an internet connection."
-#~ msgstr "نعم، يمكن الوصول إلى AskYourPDF من أي جهاز يحتوي على متصفحات قياسية واتصال بالإنترنت."
-
-#~ msgid "Yes, AskYourPDF is multilingual and lets you chat in any language of your choice."
-#~ msgstr "نعم، AskYourPDF متعدد اللغات ويتيح لك الدردشة بأي لغة تختارها."
-
 #: utils/faqData.tsx:82
-#~ msgid "Yes, AskYourPDF is multilingual and supports chatting in any language of your choice."
-#~ msgstr "نعم، AskYourPDF متعدد اللغات ويدعم الدردشة باللغة التي تختارها."
-
 #: utils/faqData.tsx:87
-#~ msgid "Yes, chat history can be downloaded."
-#~ msgstr "نعم، يمكن تنزيل سجل الدردشة."
-
 #: utils/faqData.tsx:47
-#~ msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at <0>billing@askyourpdf.com</0> with details of your educational institution and enrolment."
-#~ msgstr "نعم، ومع ذلك، لا توجد حاليًا عملية تقديم طلبات تلقائية. سنزودك بقسيمة خصم إذا اتصلت بنا على <0>billing@askyourpdf.com</0> مع تفاصيل مؤسستك التعليمية والتسجيل."
-
 #: utils/faqData.tsx:45
-#~ msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at billing@askyourpdf.com with details of your educational institution and enrolment."
-#~ msgstr "نعم، ومع ذلك، ليس هناك حالياً عملية آلية لتقديم الطلب. سنقدم لك قسيمة خصم إذا اتصلت بنا على billing@askyourpdf.com مع تفاصيل مؤسستك التعليمية والتسجيل."
-
-#~ msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF."
-#~ msgstr "نعم، التطبيق مجاني للاستخدام، ولكن مع بعض القيود. يتطلب الوصول إلى إمكانيات AskYourPDF الواسعة الحصول على خطة مُحدَّثة."
-
 #: utils/faqData.tsx:70
-#~ msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF. Documents uploaded by Free users remain in our database for a maximum of 90 days before removal."
-#~ msgstr " نعم، التطبيق مجاني للاستخدام، ولكن مع بعض القيود. يتطلب خطة ترقية لاستكشاف قدرات AskYourPDF الواسعة. تظل الوثائق التي تم تحميلها من قبل المستخدمين المجانيين في قاعدة البيانات لدينا لمدة تصل إلى 90 يومًا قبل إزالتها."
-
-#~ msgid "Yes, the application is free to use."
-#~ msgstr "نعم، التطبيق مجاني الاستخدام."
-
 #: utils/faqData.tsx:113
-#~ msgid "Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."
-#~ msgstr "نعم، الحد الأقصى لحجم الملف لرفع المستندات هو 15 ميجابايت للمستخدمين المجانين. ومع ذلك، يمكن لمستخدمي Premium و Pro رفع ملفات تصل إلى 30 ميجابايت و 90 ميجابايت على التوالي. بالنسبة لملفات أكبر الحجم، يجب على المستخدمين الاتصال بنا للحصول على خطة الشركة."
-
-#~ msgid "Yes, the maximum limit of the document that can be uploaded is 20mb."
-#~ msgstr "نعم، الحد الأقصى لحجم المستند الذي يمكن تحميله هو 20 ميغابايت."
-
-#~ msgid "Yes, you can download the chat history."
-#~ msgstr "نعم، يمكنك تنزيل سجل المحادثات."
-
-#~ msgid "Yes, your data is secure and the application uses industry-standard (SSL encryption) security measures to protect your information."
-#~ msgstr "نعم، بياناتك آمنة ويستخدم التطبيق إجراءات أمنية معيارية في الصناعة (تشفير SSL) لحماية معلوماتك."
-
 #: utils/termsData.ts:27
-#~ msgid "You are solely responsible for your conduct on AskYourPDF. You must not engage in any conduct that is illegal, defamatory, threatening, or abusive. You must not upload any documents that infringe the intellectual property rights of  others."
-#~ msgstr "أنت المسؤول الوحيد عن سلوكك على AskYourPDF. يجب عليك عدم الانخراط في أي سلوك غير قانوني أو تشهيري أو مهدد أو مسيء. يجب عليك عدم تحميل أي مستندات تنتهك الحقوق الفكرية للآخرين."
-
 #: pages/documents/[[...id]]/index.tsx:757
-#~ msgid "You can no longer share your chat with this document"
-#~ msgstr "لم يعد بإمكانك مشاركة محادثتك مع هذا المستند"
-
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"
 msgstr "يمكنك الآن الدردشة مع مستندات متعددة في وقت واحد باستخدام قاعدة معرفتنا"
 
 #: components/Announcements.tsx:17
-#~ msgid "You can now chat with multiple documents at once. Using our knowledge Base."
-#~ msgstr "يمكنك الآن الدردشة مع عدة وثائق في وقت واحد. باستخدام قاعدة المعرفة لدينا."
-
 #: components/Announcements.tsx:23
-#~ msgid "You can now generate detailed summaries of your documents."
-#~ msgstr "يمكنك الآن إنشاء ملخصات مفصلة لمستنداتك."
-
 #: pages/documents/[[...id]]/index.tsx:756
-#~ msgid "You can now share your chat with this document"
-#~ msgstr "يمكنك الآن مشاركة محادثتك مع هذا المستند"
-
 #: components/KnowledgeBaseSidebar.tsx:680
 #: components/KnowledgeBaseSidebar.tsx:696
 #: components/KnowledgeBaseSidebar.tsx:713
 #: components/MainSidebar.tsx:635
 #: components/MainSidebar.tsx:651
 #: components/MainSidebar.tsx:668
-#~ msgid "You have exceeded the conversation limits for your account. Please try again tomorrow."
-#~ msgstr "لقد تجاوزت حدود المحادثات لحسابك. يرجى إعادة المحاولة غدًا."
-
 #: components/KnowledgeBaseSidebar.tsx:613
 #: components/MainSidebar.tsx:558
-#~ msgid "You have exceeded the conversation limits of a free account. Please try again tomorrow."
-#~ msgstr "لقد تجاوزت حدود المحادثات لحساب مجاني. يرجى إعادة المحاولة غدًا."
-
 #: components/KnowledgeBaseSidebar.tsx:536
 #: components/MainSidebar.tsx:481
-#~ msgid "You have exceeded your conversation limit. Login or create an account to create more conversations."
-#~ msgstr "لقد تجاوزت حد المحادثات الخاص بك. قم بتسجيل الدخول أو إنشاء حساب لإجراء المزيد من المحادثات."
-
 #: components/Modals/UnitsExceededModal.tsx:108
-#~ msgid "You have have used up your available {product} units. Please purchase more units."
-#~ msgstr "لقد استخدمت وحدات {المنتج} المتاحة لديك. الرجاء شراء المزيد من الوحدات."
-
 #: components/Modals/DocumentSelectModal.tsx:467
 #: components/Modals/DocumentSelectModal.tsx:491
-#~ msgid "You have selected more than 5 documents"
-#~ msgstr "لقد اخترت أكثر من 5 وثائق"
-
 #: utils/termsData.ts:22
-#~ msgid "You may upload documents to AskYourPDF for the purpose of discussing them with other users. You must not upload any documents that are illegal, defamatory, obscene, or otherwise objectionable."
-#~ msgstr "يجوز لك تحميل مستندات إلى AskYourPDF بهدف مناقشتها مع مستخدمين آخرين. يجب عليك عدم تحميل أي مستندات غير قانونية أو تشهيرية أو فاضحة أو مسيئة بطريقة أخرى."
-
 #: utils/termsData.ts:17
-#~ msgid "You may use AskYourPDF for personal or non-commercial purposes only. You must not use AskYourPDF for any illegal or unauthorized purpose."
-#~ msgstr "يجوز لك استخدام AskYourPDF للأغراض الشخصية أو غير التجارية فقط. يحظر عليك استخدام AskYourPDF لأي غرض غير قانوني أو غير مصرح به."
-
-#~ msgid "You need to upgrade your account to create {0} keys"
-#~ msgstr "تحتاج إلى ترقية حسابك لإنشاء {0} مفاتيح"
-
 #: components/SubscriptionGuard.tsx:30
-#~ msgid "You tried accessing a premium feature, however an error occurred while fetching your plan. Please try again"
-#~ msgstr "حاولت الوصول إلى ميزة مميزة، ولكن حدث خطأ أثناء جلب خطتك. يرجى المحاولة مرة أخرى"
-
 #: pages/delete/index.tsx:275
-#~ msgid "You'll be able to delete any document you no longer want on this dashboard. Just input the <0>Doc ID</0> and delete the document."
-#~ msgstr "من حذف أي مستند لم تعد ترغب فيه على لوحة التحكم هذه. فقط أدخل معرف المستند واحذفه."
-
 #: pages/file-upload/index.tsx:363
-#~ msgid "You'll be able to start a conversation based on the document uploaded. You can upgrade your account to increase your limits"
-#~ msgstr "ستتمكن من بدء محادثة بناءً على المستند المحمّل. يمكنك ترقية حسابك لزيادة حدودك"
-
 #: components/Affiliate/Features.tsx:157
-#~ msgid "You'll get  30% commission on every paying client who signs up through your referral link for the first 12 months. You will be able to withdraw your money once you have earned a minimum of $100 in commission. We want to make certain that your contributions are properly recognized."
-#~ msgstr "ستحصل على عمولة 30٪ على كل عميل مدفوع يسجلعبر رابط الإحالة الخاص بك لمدة 12 شهرًا أولى.ستتمكن من سحب أموالك عندما تكسب ما لا يقل عن 100 دولار"
-
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:404
 #: components/Modals/CreateAPIKeyDesktop.tsx:417
-#~ msgid "You'll only see this key once, so please make sure to copy it and keep it safe"
-#~ msgstr "سترى هذا المفتاح مرة واحدة فقط، لذلك يرجى التأكد من نسخه والاحتفاظ به في مكان آمن"
-
 #: pages/subscription-error/index.tsx:160
-#~ msgid "You're not subscribed"
-#~ msgstr "أنت غير مشترك"
-
 #: components/APIKeysList.tsx:497
-#~ msgid "You're on the Free Plan. Your quota will be limited to the free plan quota"
-#~ msgstr "أنت على الخطة المجانية. ستكون حصتك محدودة بحصة الخطة المجانية"
-
 #: components/Modals/Profile.tsx:277
-#~ msgid "Your Account has been Deleted"
-#~ msgstr "تم حذف حسابك"
-
 #: components/Modals/Profile.tsx:280
-#~ msgid "Your account has been successfully deleted. We're sorry to see you go, but if you ever change your mind, we'll be here to welcome you back. Thank you for being a part of our community."
-#~ msgstr "تم حذف حسابك بنجاح. نأسف لرؤيتك ترحل، ولكن إذا قررت يومًا ما التراجع عن ذلك، سنكون هنا لاستقبالك مرة أخرى. شكرًا لك على كونك جزءًا من مجتمعنا."
-
 #: components/Modals/CreateAPIKeyDesktop.tsx:387
-#~ msgid "Your API Key has been generated successfully"
-#~ msgstr "تم إنشاء مفتاح API الخاص بك بنجاح"
-
 #: pages/privacy/index.tsx:149
-#~ msgid "Your continued use of AskYourPDF services after any changes to this Privacy Policy signifies your acceptance of our practices as set out in the revised policy."
-#~ msgstr "يدل استمرار استخدامك لخدمات AskYourPDF بعد أي تغييرات على سياسة الخصوصية هذه على قبولك لممارساتنا كما هو مبين في السياسة المنقحة."
-
 #: pages/tools/ocr/index.tsx:520
-#~ msgid "Your converted file is ready"
-#~ msgstr "الملف المحول الخاص بك جاهز"
-
 #: pages/lyrics-generator/generate/index.tsx:109
 #: pages/lyrics-generator/index.tsx:66
 msgid "Your creative companion on your musical journey, create lyrics that tell your unique story"
 msgstr "رفيقك الإبداعي في رحلتك الموسيقية، ابتكر كلمات تحكي قصتك الفريدة"
 
-#~ msgid "Your document is private"
-#~ msgstr "مستندك خاص"
-
-#~ msgid "Your document is public"
-#~ msgstr "مستندك عام"
-
 #: components/Landing/Features.tsx:297
 #: components/PdfToChat/Features.tsx:322
-#~ msgid "Your documents transform into interactive buddies, ready to help you understand and engage in an instant!"
-#~ msgstr "تتحول مستنداتك إلى رفاق تفاعليين، مستعدين لمساعدتك على الفهم والانخراط في لحظة!"
-
 #: components/Modals/ConversationFeedback.tsx:343
 #: components/Modals/ConversationFeedback.tsx:453
-#~ msgid "Your feedback is crucial for improving our user experience and our team is actively working to resolve the issue. We truly appreciate your contribution to improving our platform."
-#~ msgstr "ملاحظاتك ضرورية لتحسين تجربة المستخدم لدينا، وفريقنا يعمل بجد لحل المشكلة. نقدر حقاً مساهمتك في تحسين منصتنا."
-
 #: components/PdfToChat/Guide.tsx:120
-#~ msgid "Your Guide to Effortless PDF <0> Interaction </0>"
-#~ msgstr "دليلك للتفاعل السهل مع ملفات PDF"
-
 #: components/Modals/DocumentSelectModal.tsx:425
-#~ msgid "Your knowledge base has been deleted"
-#~ msgstr "تم حذف قاعدة المعرفة الخاصة بك"
-
 #: components/Modals/DocumentSelectModal.tsx:403
-#~ msgid "Your knowledge base has been updated"
-#~ msgstr "تم تحديث قاعدة المعرفة الخاصة بك"
-
 #: components/Settings/AccountLinkedSuccessModal.tsx:69
-#~ msgid "Your mobile and web accounts are now linked, giving you access to your subscription benefits on both platforms. Enjoy the unified AskYourPDF experience across all your devices."
-#~ msgstr "تم ربط حساباتك على الهاتف المحمول والويب الآن، مما يمنحك الوصول إلى فوائد الاشتراك على كلا النظامين. استمتع بتجربة AskYourPDF الموحدة عبر جميع أجهزتك."
-
 #: components/tools/MergePage.tsx:779
 msgid "Your PDF is ready"
 msgstr "ملف PDF الخاص بك جاهز"
@@ -3809,22 +1765,7 @@ msgid "Your PDFs are ready"
 msgstr "ملفات PDF الخاصة بك جاهزة"
 
 #: utils/termsData.ts:47
-#~ msgid "Your privacy is important to us. Please see our privacy policy for information on how we collect, use, and protect your personal information."
-#~ msgstr "خصوصيتك مهمة بالنسبة لنا. يرجى الاطلاع على سياسة الخصوصية الخاصة بنا للحصول على معلومات حول كيفية جمعنا واستخدامنا وحمايتنا لمعلوماتك الشخصية."
-
 #: components/literature-review/LiteratureMainBar.tsx:462
 msgid "Your Review is being generated"
 msgstr "يتم إنشاء مراجعتك"
 
-#: components/MainSidebar.tsx:606
-#~ msgid "Your subscription could not be renewed because billing failed. Please"
-#~ msgstr "الفوترة فشلت. يرجى التحقق من طريقة الدفع الخاصة بك"
-
-#: components/KnowledgeBaseSidebar.tsx:659
-#~ msgid "Your subscription could not be renewed because billing failed. Please check your payment method"
-#~ msgstr "لم يتمكن تجديد اشتراكك بسبب فشل الفوترة. يرجى التحقق من وسيلة الدفع الخاصة بك."
-
-#: components/Summarisation/SummariseMainBar.tsx:307
-#: components/Summarisation/SummariseMainBar.tsx:439
-#~ msgid "Your summary is being generated"
-#~ msgstr "يتم إنشاء ملخصك الآن"
