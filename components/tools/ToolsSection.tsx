@@ -194,7 +194,7 @@ const ToolsSection = () => {
             </Trans>
           </Tdesc>
         </ToolComp>
-        <ToolComp href="lyrics">
+        <ToolComp href="lyrics-generator">
           <Image src={LyricsIcon} alt="" />
           <Thead>
             <Trans>AI Lyrics Generator</Trans>
@@ -206,7 +206,7 @@ const ToolsSection = () => {
             </Trans>
           </Tdesc>
         </ToolComp>
-        <ToolComp href="poem">
+        <ToolComp href="poem-generator">
           <Image src={PoemIcon} alt="" />
           <Thead>
             <Trans>AI Poem Generator </Trans>
@@ -218,7 +218,7 @@ const ToolsSection = () => {
             </Trans>
           </Tdesc>
         </ToolComp>
-        <ToolComp href="insta">
+        <ToolComp href="instagram-caption-generator">
           <Image src={InstaIcon} alt="" />
           <Thead>
             <Trans>AI Instagram Caption Generator</Trans>
@@ -231,7 +231,7 @@ const ToolsSection = () => {
             </Trans>
           </Tdesc>
         </ToolComp>
-        <ToolComp href="rap">
+        <ToolComp href="rap-generator">
           <Image src={RapIcon} alt="" />
           <Thead>
             <Trans>AI Rap Generator</Trans>
@@ -243,7 +243,7 @@ const ToolsSection = () => {
             </Trans>
           </Tdesc>
         </ToolComp>
-        <ToolComp href="book">
+        <ToolComp href="book-title-generator">
           <Image src={BookIcon} alt="" />
           <Thead>
             <Trans>AI Book Title Generator </Trans>
@@ -256,7 +256,7 @@ const ToolsSection = () => {
             </Trans>
           </Tdesc>
         </ToolComp>
-        <ToolComp href="story">
+        <ToolComp href="story-generator">
           <Image src={StoryIcon} alt="" />
           <Thead>
             <Trans>AI Story Generator</Trans>
@@ -269,7 +269,7 @@ const ToolsSection = () => {
             </Trans>
           </Tdesc>
         </ToolComp>
-        <ToolComp href="thesis">
+        <ToolComp href="thesis-statement">
           <Image src={ThesisIcon} alt="" />
           <Thead>
             <Trans>AI Thesis Statement Generator</Trans>
@@ -282,7 +282,7 @@ const ToolsSection = () => {
             </Trans>
           </Tdesc>
         </ToolComp>
-        <ToolComp href="essay">
+        <ToolComp href="essay-maker">
           <Image src={EssayIcon} alt="" />
           <Thead>
             <Trans>AI Essay Maker</Trans>
@@ -295,7 +295,7 @@ const ToolsSection = () => {
             </Trans>
           </Tdesc>
         </ToolComp>
-        <ToolComp href="para">
+        <ToolComp href="paragraph-generator">
           <Image src={ParagraphIcon} alt="" />
           <Thead>
             <Trans>AI Paragraph Generator</Trans>
@@ -308,7 +308,7 @@ const ToolsSection = () => {
             </Trans>
           </Tdesc>
         </ToolComp>
-        <ToolComp href="text">
+        <ToolComp href="text-generator">
           <Image src={TextIcon} alt="" />
           <Thead>
             <Trans>AI Text Generator</Trans>
