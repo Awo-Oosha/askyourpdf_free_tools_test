@@ -218,7 +218,7 @@ const ToolsSection = () => {
             </Trans>
           </Tdesc>
         </ToolComp>
-        <ToolComp href="instagram-caption-generator">
+        <ToolComp href="instagram-caption">
           <Image src={InstaIcon} alt="" />
           <Thead>
             <Trans>AI Instagram Caption Generator</Trans>
