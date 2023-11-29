@@ -5,11 +5,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
 "Project-Id-Version: ayp\n"
-"Language: zh-Hans\n"
+"Language: de\n"
 
 #: components/Modals/SourceToolsConfiguration.tsx:411
 msgid "{0}"
-msgstr ""
+msgstr "{0}"
 
 #: components/Api/Pricing.tsx:291
 #: components/Api/Pricing.tsx:355
@@ -20,7 +20,7 @@ msgstr ""
 #: pages/settings/index.tsx:946
 #: components/literature-review/LiteratureUpload.tsx:399
 msgid "{0} file upload failed"
-msgstr "{0} 文件上传失败"
+msgstr "{0} Datei-Upload fehlgeschlagen"
 
 #: components/Api/Pricing.tsx:284
 #: components/Api/Pricing.tsx:348
@@ -37,7 +37,7 @@ msgstr "{0} 文件上传失败"
 #: pages/privacy/index.tsx:84
 #: components/tools/DocUploadNoFunc.tsx:385
 msgid "<0>Click to upload</0> or drag and drop"
-msgstr "<0>点击上传</0>或拖放"
+msgstr "<0>Klicken Sie zum Hochladen</0> oder ziehen Sie Dateien hierhin"
 
 #: components/Modals/OldDocumentDeleteModal.tsx:132
 #: pages/upload/index.tsx:252
@@ -66,83 +66,83 @@ msgstr "<0>点击上传</0>或拖放"
 #: components/PdfToChat/ExtensionAnnouncement.tsx:129
 #: components/literature-review/LiteratureSideBar.tsx:434
 msgid "Advanced Parameters"
-msgstr "高级参数"
+msgstr "Erweiterte Parameter"
 
 #: components/literature-review/LiteratureMainBar.tsx:407
 msgid "Advanced settings"
-msgstr "高级设置"
+msgstr "Erweiterte Einstellungen"
 
 #: components/Footer.tsx:364
 msgid "Affiliate Program"
-msgstr "联盟计划"
+msgstr "Partnerprogramm"
 
 #: components/PdfToChat/SummarizeGuide.tsx:177
 #: pages/book-title-generator/generate/index.tsx:111
 #: pages/book-title-generator/index.tsx:58
 msgid "AI Book Title Generator"
-msgstr "人工智能书名生成器"
+msgstr "AI Buchtitel-Generator"
 
 #: pages/essay-maker/generate/index.tsx:108
 #: pages/essay-maker/index.tsx:62
 msgid "AI Essay Maker"
-msgstr "人工智能论文生成器"
+msgstr "rAI-Aufsatzerstelle"
 
 #: pages/instagram-caption/generate/index.tsx:108
 #: pages/instagram-caption/index.tsx:70
 msgid "AI Instagram Caption Generator"
-msgstr "人工智能 Instagram 标题生成器"
+msgstr "AI Instagram Bildunterschriften-Generator"
 
 #: components/tools/ToolsSection.tsx:125
 msgid "AI Literature Review Generator"
-msgstr "人工智能文献综述生成器"
+msgstr "AI-Literaturübersichts-Generator"
 
 #: components/Footer.tsx:308
 msgid "AI Literature Review Writer"
-msgstr "人工智能文献综述写作"
+msgstr "AI-Literaturbericht-Autor"
 
 #: components/literature-review/MainContent.tsx:347
 msgid "AI Literature Review Writer Tool"
-msgstr "人工智能文献综述写作工具"
+msgstr "AI Literaturübersicht Schreibwerkzeug"
 
 #: pages/lyrics-generator/generate/index.tsx:108
 #: pages/lyrics-generator/index.tsx:65
 msgid "AI Lyrics Generator"
-msgstr "人工智能歌词生成器"
+msgstr "AI-Liedtext-Generator"
 
 #: pages/paragraph-generator/generate/index.tsx:107
 #: pages/paragraph-generator/index.tsx:58
 msgid "AI Paragraph Generator"
-msgstr "人工智能段落生成器"
+msgstr "KI-Absatzgenerator"
 
 #: pages/poem-generator/generate/index.tsx:109
 #: pages/poem-generator/index.tsx:75
 msgid "AI Poem Generator"
-msgstr "人工智能诗歌生成器"
+msgstr "KI-Gedichtgenerator"
 
 #: pages/rap-generator/generate/index.tsx:110
 #: pages/rap-generator/index.tsx:60
 msgid "AI Rap Generator"
-msgstr "人工智能说唱生成器"
+msgstr "KI-Rap-Generator"
 
 #: components/tools/ToolsSection.tsx:114
 #: pages/source-tool/index.tsx:245
 msgid "AI Source Finder"
-msgstr "人工智能资源搜索器"
+msgstr "KI-Quellenfinder"
 
 #: pages/story-generator/generate/index.tsx:114
 #: pages/story-generator/index.tsx:64
 msgid "AI Story Generator"
-msgstr "人工智能故事生成器"
+msgstr "KI-Geschichtengenerator"
 
 #: pages/text-generator/generate/index.tsx:107
 #: pages/text-generator/index.tsx:61
 msgid "AI Text Generator"
-msgstr "人工智能文本生成器"
+msgstr "KI-Textgenerator"
 
 #: pages/thesis-statement/generate/index.tsx:107
 #: pages/thesis-statement/index.tsx:57
 msgid "AI Thesis Statement Generator"
-msgstr "人工智能论文陈述生成器"
+msgstr "KI-Abschlusserklärungsgenerator"
 
 #: components/Landing/Features.tsx:227
 #: components/PdfToChat/Features.tsx:233
@@ -155,7 +155,7 @@ msgstr "人工智能论文陈述生成器"
 #: components/literature-review/MainContent.tsx:292
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "An error occurred"
-msgstr "发生错误"
+msgstr "Es ist ein Fehler aufgetreten"
 
 #: components/Modals/DocumentSelectModal.tsx:393
 #: components/Modals/DocumentSelectModal.tsx:434
@@ -169,17 +169,17 @@ msgstr "发生错误"
 #: pages/source-tool/index.tsx:206
 #: pages/source-tool/index.tsx:216
 msgid "An error occurred. Please try again"
-msgstr "发生错误。请重试"
+msgstr "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut"
 
 #: components/literature-review/LiteratureUpload.tsx:575
 msgid "Analysing Document"
-msgstr "分析文档"
+msgstr "Dokument wird analysiert"
 
 #: components/APIKeysList.tsx:591
 #: components/APIKeysList.tsx:754
 #: components/Footer.tsx:283
 msgid "Android App"
-msgstr "安卓应用"
+msgstr "Android-App"
 
 #: components/Landing/Plans.tsx:432
 #: components/PdfToChat/Plans.tsx:432
@@ -243,7 +243,7 @@ msgstr "API"
 #: pages/privacy/index.tsx:43
 #: components/source-tools/source-result/index.tsx:473
 msgid "Authors:"
-msgstr "作者："
+msgstr "Autoren:"
 
 #: utils/termsData.ts:41
 #: components/Modals/Profile.tsx:292
@@ -253,7 +253,7 @@ msgstr "作者："
 #: components/tools/SplitPage.tsx:806
 #: pages/source-tool/index.tsx:241
 msgid "Back to tools"
-msgstr "返回工具"
+msgstr "Zurück zu den Tools"
 
 #: components/Modals/CreateAPIKeyBottomSheet.tsx:449
 #: components/Modals/CreateAPIKeyDesktop.tsx:465
@@ -261,11 +261,11 @@ msgstr "返回工具"
 #: components/PdfToChat/Guide.tsx:139
 #: components/literature-review/LiteratureMainBar.tsx:487
 msgid "Begin new review"
-msgstr "开始新的审查"
+msgstr "Beginn einer neuen Überprüfung"
 
 #: components/source-tools/source-result/index.tsx:548
 msgid "Begin new search"
-msgstr "开始新搜索"
+msgstr "Neue Suche beginnen"
 
 #: components/DeveloperSidebar.tsx:155
 #: pages/apikeys/index.tsx:376
@@ -276,16 +276,16 @@ msgstr "开始新搜索"
 #: pages/billing/upgrade.tsx:632
 #: components/Footer.tsx:418
 msgid "BlockTechnology OÜ. All rights reserved. ©{year}"
-msgstr "BlockTechnology OÜ。保留所有权利。©{年份}"
+msgstr "BlockTechnology OÜ. Alle Rechte vorbehalten. ©{year}"
 
 #: components/Footer.tsx:359
 msgid "Blog"
-msgstr "博客"
+msgstr "Blog"
 
 #: pages/book-title-generator/generate/index.tsx:112
 #: pages/book-title-generator/index.tsx:59
 msgid "Book Title Generator"
-msgstr "书名生成器"
+msgstr "Buchtitel-Generator"
 
 #: components/Landing/Products.tsx:150
 #: components/PdfToChat/Products.tsx:150
@@ -317,7 +317,7 @@ msgstr "书名生成器"
 #: pages/knowledge-base/intro.tsx:292
 #: components/source-tools/source-result/index.tsx:510
 msgid "Cancel"
-msgstr "取消"
+msgstr "Abbrechen"
 
 #: pages/settings/index.tsx:577
 #: pages/billing/upgrade.tsx:761
@@ -335,7 +335,7 @@ msgstr "取消"
 #: utils/termsData.ts:76
 #: components/Footer.tsx:293
 msgid "Chat"
-msgstr "聊天"
+msgstr "Chat"
 
 #: components/Modals/PaymentModalContent.tsx:285
 #: utils/faqData.tsx:130
@@ -348,7 +348,7 @@ msgstr "聊天"
 #: pages/billing/upgrade.tsx:695
 #: components/Footer.tsx:274
 msgid "Chrome Extension"
-msgstr "Chrome扩展"
+msgstr "Chrome-Erweiterung"
 
 #: components/Landing/Plans.tsx:592
 #: components/Landing/Plans.tsx:682
@@ -359,7 +359,7 @@ msgstr "Chrome扩展"
 #: pages/settings/index.tsx:655
 #: components/source-tools/source-result/index.tsx:466
 msgid "Cited by:"
-msgstr "引用者："
+msgstr "Zitiert von:"
 
 #: components/Modals/ConversationHistoryDeleteModal.tsx:123
 #: components/Modals/ConversationHistoryDeleteModal.tsx:108
@@ -368,7 +368,7 @@ msgstr "引用者："
 #: components/Modals/ConversationFeedback.tsx:461
 #: components/ToolsFooter.tsx:115
 msgid "Coming Soon"
-msgstr "即将推出"
+msgstr "Demnächst verfügbar"
 
 #: components/Modals/PaymentSuccessModal.tsx:163
 #: components/Modals/PaymentBottomSheet.tsx:153
@@ -376,24 +376,24 @@ msgstr "即将推出"
 #: components/Modals/PaymentSuccessModal.tsx:208
 #: components/Footer.tsx:334
 msgid "Company"
-msgstr "公司"
+msgstr "Unternehmen"
 
 #: components/PdfToChat/MoreTools.tsx:39
 #: components/source-tools/source-content/index.tsx:259
 msgid "Configure search"
-msgstr "配置搜索"
+msgstr "Suche konfigurieren"
 
 #: components/Modals/Profile.tsx:226
 #: components/Modals/Profile.tsx:221
 #: components/Modals/Profile.tsx:187
 #: components/Footer.tsx:354
 msgid "Contact Us"
-msgstr "联系我们"
+msgstr "Kontaktieren Sie uns"
 
 #: components/Modals/PaymentModalContent.tsx:435
 #: components/source-tools/source-result/index.tsx:412
 msgid "Content"
-msgstr "内容"
+msgstr "Inhalt"
 
 #: pages/privacy/index.tsx:94
 #: pages/conversations/[[...params]].tsx:906
@@ -409,7 +409,7 @@ msgstr "内容"
 #: components/tools/ToolBarExt.tsx:239
 #: components/tools/ToolBarExt.tsx:273
 msgid "Conversations"
-msgstr "对话"
+msgstr "Konversationen"
 
 #: components/Landing/Plans.tsx:501
 #: components/Landing/Plans.tsx:583
@@ -424,7 +424,7 @@ msgstr "对话"
 #: components/literature-review/LiteratureMainBar.tsx:435
 #: components/source-tools/source-result/index.tsx:491
 msgid "Copied"
-msgstr "已复制"
+msgstr "Kopiert"
 
 #: pages/conversations/[[...params]].tsx:1091
 #: pages/documents/[[...id]]/index.tsx:584
@@ -462,7 +462,7 @@ msgstr "已复制"
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:185
 #: components/literature-review/LiteratureSideBar.tsx:383
 msgid "Date Range"
-msgstr "日期范围"
+msgstr "Datumsbereich"
 
 #: components/Landing/Plans.tsx:780
 #: components/PdfToChat/Plans.tsx:780
@@ -471,7 +471,7 @@ msgstr "日期范围"
 #: components/literature-review/LiteratureUpload.tsx:334
 #: components/tools/DocUploadNoFunc.tsx:260
 msgid "Delete"
-msgstr "删除"
+msgstr "Löschen"
 
 #: components/Modals/Profile.tsx:245
 #: components/Modals/Profile.tsx:267
@@ -479,7 +479,7 @@ msgstr "删除"
 #: components/Modals/ConversationDeleteModal.tsx:108
 #: components/AppSidebar.tsx:274
 msgid "Delete Doc"
-msgstr "删除文档"
+msgstr "Dokument löschen"
 
 #: pages/delete/index.tsx:271
 #: components/Modals/DocumentDeleteModal.tsx:107
@@ -501,16 +501,16 @@ msgstr "删除文档"
 #: components/literature-review/LiteratureSideBar.tsx:438
 #: components/source-tools/source-content/index.tsx:229
 msgid "Description"
-msgstr "描述"
+msgstr "Beschreibung"
 
 #: components/Footer.tsx:321
 msgid "Developer Docs"
-msgstr "开发者文档"
+msgstr "Entwicklerdokumentation"
 
 #: components/AppSidebar.tsx:202
 #: components/Footer.tsx:316
 msgid "Developers"
-msgstr "开发者"
+msgstr "Entwickler"
 
 #: utils/termsData.ts:61
 #: components/Landing/Features.tsx:232
@@ -524,7 +524,7 @@ msgstr "开发者"
 #: components/Navbar.tsx:303
 #: components/Navbar.tsx:360
 msgid "Docs"
-msgstr "文档"
+msgstr "Dokumente"
 
 #: pages/delete/index.tsx:223
 #: pages/documents/[[...id]]/index.tsx:778
@@ -540,7 +540,7 @@ msgstr "文档"
 #: components/PdfToChat/Plans.tsx:506
 #: components/AppSidebar.tsx:295
 msgid "Documentation"
-msgstr "文档"
+msgstr "Dokumentation"
 
 #: components/MainSidebar.tsx:356
 #: pages/knowledge-base/intro.tsx:278
@@ -553,7 +553,7 @@ msgstr "文档"
 #: components/tools/MergePage.tsx:778
 #: components/tools/SplitPage.tsx:909
 msgid "Done"
-msgstr "完成"
+msgstr "Erledigt"
 
 #: pages/billing/index.tsx:1141
 #: pages/billing/upgrade.tsx:936
@@ -566,7 +566,7 @@ msgstr "完成"
 #: components/tools/ToolBarExt.tsx:254
 #: components/tools/ToolBarExt.tsx:288
 msgid "Download"
-msgstr "下载"
+msgstr "Herunterladen"
 
 #: components/Extension/Download.tsx:182
 #: components/Extension/ExtensionHero.tsx:256
@@ -586,7 +586,7 @@ msgstr "下载"
 #: components/tools/SplitPage.tsx:805
 #: components/tools/ToolsSection.tsx:133
 msgid "Efficiently split, separate, and manage your PDF files using our superior free online PDF splitter."
-msgstr "高效地拆分、分离和管理您的PDF文件，使用我们卓越的免费在线PDF拆分工具。"
+msgstr "Effizientes Aufteilen, Trennen und Verwalten von PDF-Dateien mit unserem kostenlosen Online-PDF-Splitter"
 
 #: components/PdfToChat/Discover.tsx:37
 #: components/Landing/Plans.tsx:528
@@ -597,7 +597,7 @@ msgstr "高效地拆分、分离和管理您的PDF文件，使用我们卓越的
 #: components/tools/ToolsSection.tsx:117
 #: pages/source-tool/index.tsx:248
 msgid "Enhance your research with our Source-Tool, which automatically cites and creates references for your academic text."
-msgstr "增强您的研究，使用我们的源工具，该工具可以自动为您的学术文本引用和创建参考文献。"
+msgstr "Verbessern Sie Ihre Recherche mit unserem Source-Tool, das automatisch Zitate und Referenzen für Ihren wissenschaftlichen Text erstellt."
 
 #: components/Settings/LinkAccountModal.tsx:146
 #: components/KnowledgeBaseSidebar.tsx:366
@@ -613,7 +613,7 @@ msgstr "增强您的研究，使用我们的源工具，该工具可以自动为
 #: pages/source-tool/index.tsx:206
 #: pages/source-tool/index.tsx:216
 msgid "Error"
-msgstr "错误"
+msgstr "Fehler"
 
 #: components/Modals/Profile.tsx:126
 #: components/Modals/ConversationFeedback.tsx:267
@@ -633,16 +633,16 @@ msgstr "错误"
 #: components/PdfToChat/Products.tsx:173
 #: components/tools/MainPage.tsx:16
 msgid "Explore our Free Tools"
-msgstr "探索我们的免费工具。"
+msgstr "Entdecken Sie unsere kostenlosen Tools"
 
 #: components/PdfToChat/MoreTools.tsx:157
 #: components/source-tools/source-result/index.tsx:433
 msgid "Export all"
-msgstr "全部导出"
+msgstr "Alles exportieren"
 
 #: components/source-tools/source-result/index.tsx:521
 msgid "Export As"
-msgstr "导出为"
+msgstr "Exportieren als"
 
 #: pages/conversations/[[...params]].tsx:1099
 #: pages/knowledge-base/[[...params]].tsx:1684
@@ -651,7 +651,7 @@ msgstr "导出为"
 #: components/tools/ToolBarExt.tsx:249
 #: components/tools/ToolBarExt.tsx:283
 msgid "Extension"
-msgstr "扩展"
+msgstr "Erweiterung"
 
 #: components/Modals/PaymentModalContent.tsx:290
 #: components/Summarisation/SummariseMainBar.tsx:392
@@ -668,7 +668,7 @@ msgstr "扩展"
 #: components/literature-review/MainContent.tsx:292
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "Failed to export PDF"
-msgstr "导出 PDF 失败"
+msgstr "Export als PDF fehlgeschlagen"
 
 #: pages/billing/index.tsx:1086
 #: pages/settings/index.tsx:1032
@@ -679,35 +679,35 @@ msgstr "导出 PDF 失败"
 #: pages/settings/index.tsx:308
 #: components/literature-review/MainContent.tsx:277
 msgid "Failed to review text. Please try again"
-msgstr "审核文本失败。请重试"
+msgstr "Der Text konnte nicht überprüft werden. Bitte versuchen Sie es erneut"
 
 #: pages/summarise/index.tsx:168
 #: pages/summarise/index.tsx:228
 #: components/tools/DocUploadNoFunc.tsx:335
 msgid "Failed to upload file"
-msgstr "上传文件失败"
+msgstr "Datei konnte nicht hochgeladen werden"
 
 #: components/DocumentUpload.tsx:389
 #: components/Footer.tsx:349
 msgid "FAQs"
-msgstr "常见问题解答"
+msgstr "Häufig gestellte Fragen (FAQ)"
 
 #: components/tools/DocUploadNoFunc.tsx:418
 msgid "Fetch document"
-msgstr "获取文档"
+msgstr "Dokument abrufen"
 
 #: components/tools/DocUploadNoFunc.tsx:415
 msgid "Fetching document"
-msgstr "获取文档"
+msgstr "Dokument wird abgerufen"
 
 #: pages/knowledge-base/intro.tsx:379
 #: components/literature-review/LiteratureSideBar.tsx:369
 msgid "Field of Study"
-msgstr "研究领域"
+msgstr "Studienfeld"
 
 #: components/Footer.tsx:298
 msgid "File Upload"
-msgstr "上传文件"
+msgstr "Datei hochladen"
 
 #: components/DocumentUpload.tsx:379
 #: pages/upload/index.tsx:290
@@ -715,7 +715,7 @@ msgstr "上传文件"
 #: components/literature-review/LiteratureUpload.tsx:402
 #: components/tools/DocUploadNoFunc.tsx:333
 msgid "File Upload Failed"
-msgstr "文件上传失败"
+msgstr "Datei-Upload fehlgeschlagen"
 
 #: components/DocumentUpload.tsx:370
 #: pages/book-title-generator/generate/index.tsx:68
@@ -735,12 +735,12 @@ msgstr "文件上传失败"
 #: pages/essay-maker/generate/index.tsx:109
 #: pages/essay-maker/index.tsx:63
 msgid "Fill"
-msgstr ""
+msgstr "Fill"
 
 #: components/PdfToChat/SummarizeGuide.tsx:198
 #: components/source-tools/source-content/index.tsx:266
 msgid "Find sources"
-msgstr "查找资源"
+msgstr "Quellen finden"
 
 #: components/Extension/Methods.tsx:173
 #: components/Summarisation/SummariseSideBar.tsx:325
@@ -754,7 +754,7 @@ msgstr "查找资源"
 #: pages/faq/index.tsx:66
 #: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
-msgstr "来自您的文件"
+msgstr "Aus Ihren Dokumenten"
 
 #: components/APIKeysList.tsx:674
 #: components/APIKeysList.tsx:575
@@ -763,11 +763,11 @@ msgstr "来自您的文件"
 #: components/Affiliate/Features.tsx:153
 #: components/Navbar.tsx:414
 msgid "Get Started"
-msgstr "开始使用"
+msgstr "Loslegen"
 
 #: components/Footer.tsx:326
 msgid "Getting Started"
-msgstr "开始使用"
+msgstr "Erste Schritte"
 
 #: components/Landing/Plans.tsx:717
 #: components/PdfToChat/Plans.tsx:717
@@ -789,13 +789,13 @@ msgstr "开始使用"
 #: pages/settings/index.tsx:900
 #: pages/source-tool/index.tsx:278
 msgid "Hang on! We’re looking for sources"
-msgstr "稍等！我们正在查找资源"
+msgstr "Warten Sie! Wir suchen nach Quellen"
 
 #: components/Modals/ConversationFeedback.tsx:369
 #: components/Modals/ConversationFeedback.tsx:479
 #: components/tools/ToolsSection.tsx:126
 msgid "Harness the power of our AI-driven Literature Review Assistant. Simplify your research process, produce structured overviews, and craft in-depth literature reviews to elevate your academic work."
-msgstr "利用我们基于人工智能的文献综述助手释放力量。简化您的研究过程，生成结构化概述，并撰写深入的文献综述，提升您的学术工作水平。"
+msgstr "Nutzen Sie die Leistungsfähigkeit unseres KI-gesteuerten Literaturübersichtsassistenten. Vereinfachen Sie Ihren Forschungsprozess, erstellen Sie strukturierte Übersichten und verfassen Sie ausführliche Literaturübersichten, um Ihre akademische Arbeit zu verbessern."
 
 #: components/Landing/Features.tsx:238
 #: components/PdfToChat/Features.tsx:244
@@ -806,7 +806,7 @@ msgstr "利用我们基于人工智能的文献综述助手释放力量。简化
 #: components/tools/ToolBarExt.tsx:234
 #: components/tools/ToolBarExt.tsx:268
 msgid "Home"
-msgstr "首页"
+msgstr "Startseite"
 
 #: utils/faqData.tsx:28
 #: pages/chat/[[...docID]]/index.tsx:240
@@ -842,18 +842,18 @@ msgstr "首页"
 #: pages/story-generator/generate/index.tsx:110
 #: pages/story-generator/index.tsx:56
 msgid "input Key events/plot points"
-msgstr "输入关键事件/情节点"
+msgstr "Eingabe Schlüsselereignisse/Handlungspunkte"
 
 #: pages/essay-maker/generate/index.tsx:103
 #: pages/essay-maker/index.tsx:53
 msgid "input Key Points to Cover"
-msgstr "输入要点"
+msgstr "Eingabe zu behandelnde Schlüsselpunkte"
 
 #: pages/paragraph-generator/index.tsx:57
 #: pages/story-generator/generate/index.tsx:109
 #: pages/story-generator/index.tsx:55
 msgid "Input Names and a brief description of the main characters"
-msgstr "输入主要人物的姓名和简介"
+msgstr "Eingabe Namen und eine kurze Beschreibung der Hauptfiguren"
 
 #: pages/book-title-generator/generate/index.tsx:106
 #: pages/book-title-generator/index.tsx:51
@@ -869,26 +869,26 @@ msgstr "输入主要人物的姓名和简介"
 #: pages/thesis-statement/generate/index.tsx:102
 #: pages/thesis-statement/index.tsx:50
 msgid "Input some line here to begin"
-msgstr "在此输入一行开始"
+msgstr "Geben Sie hier eine Zeile ein, um zu beginnen"
 
 #: components/Summarisation/SummariseMainBar.tsx:457
 #: components/Summarisation/SummariseMainBar.tsx:456
 #: pages/essay-maker/generate/index.tsx:102
 #: pages/essay-maker/index.tsx:52
 msgid "input Thesis Statement"
-msgstr "输入论文声明"
+msgstr "Eingabe Thesenpapier"
 
 #: pages/essay-maker/generate/index.tsx:101
 #: pages/essay-maker/index.tsx:51
 msgid "Input Title or Topic"
-msgstr "输入标题或主题"
+msgstr "Eingabe Titel oder Thema"
 
 #: components/Landing/Features.tsx:265
 #: components/PdfToChat/Features.tsx:290
 #: pages/instagram-caption/generate/index.tsx:109
 #: pages/instagram-caption/index.tsx:71
 msgid "Instagram Caption Generator"
-msgstr "Instagram标题生成器"
+msgstr "Instagram Bildunterschriften-Generator"
 
 #: components/Landing/Hero.tsx:257
 #: components/Modals/DocumentSelectModal.tsx:458
@@ -898,7 +898,7 @@ msgstr "Instagram标题生成器"
 #: components/Settings/LinkAccountCall.tsx:96
 #: components/tools/DocUploadNoFunc.tsx:323
 msgid "Invalid Entry. Please try again"
-msgstr "无效输入。请重试"
+msgstr "Ungültige Eingabe. Bitte versuchen Sie es erneut"
 
 #: pages/billing/index.tsx:1020
 #: pages/settings/index.tsx:130
@@ -906,7 +906,7 @@ msgstr "无效输入。请重试"
 #: pages/settings/index.tsx:997
 #: components/Footer.tsx:288
 msgid "iOS App"
-msgstr "iOS应用"
+msgstr "iOS-App"
 
 #: pages/chat/[[...docID]]/index.tsx:250
 #: utils/faqData.tsx:39
@@ -930,7 +930,7 @@ msgstr "iOS应用"
 #: components/APIKeysList.tsx:471
 #: components/AppSidebar.tsx:179
 msgid "Knowledge Base"
-msgstr "知识库"
+msgstr "Wissensdatenbank"
 
 #: components/Modals/PaymentModalContent.tsx:339
 #: components/Modals/PaymentModalContent.tsx:378
@@ -963,12 +963,12 @@ msgstr "知识库"
 #: components/Settings/LinkAccountCall.tsx:104
 #: components/literature-review/LiteratureMainBar.tsx:435
 msgid "Literature Review copied"
-msgstr "抄袭文献综述"
+msgstr "Literaturübersicht kopiert"
 
 #: components/tools/ToolCommon.tsx:158
 #: components/ToolsFooter.tsx:78
 msgid "Literature Review Tool"
-msgstr "文献评论工具"
+msgstr "Literaturübersicht-Tool"
 
 #: components/KnowledgeBaseSidebar.tsx:565
 #: components/KnowledgeBaseSidebar.tsx:600
@@ -978,7 +978,7 @@ msgstr "文献评论工具"
 #: components/MainSidebar.tsx:518
 #: components/AppSidebar.tsx:336
 msgid "Logout"
-msgstr "登出"
+msgstr "Abmelden"
 
 #: components/Landing/Plans.tsx:694
 #: components/Modals/PaymentModalContent.tsx:393
@@ -987,7 +987,7 @@ msgstr "登出"
 #: pages/paragraph-generator/generate/index.tsx:100
 #: pages/paragraph-generator/index.tsx:49
 msgid "Main idea"
-msgstr "主旨"
+msgstr "Grundgedanke"
 
 #: components/Modals/Profile.tsx:335
 #: components/DeveloperSidebar.tsx:140
@@ -1015,7 +1015,7 @@ msgstr "主旨"
 #: components/literature-review/LiteratureMainBar.tsx:396
 #: components/source-tools/source-content/index.tsx:248
 msgid "Maximum of 10000 characters"
-msgstr "最多 10000 个字符"
+msgstr "Maximal 10000 Zeichen"
 
 #: components/source-tools/source-content/index,tsx.tsx:248
 #: components/Modals/DocumentSelectModal.tsx:631
@@ -1023,7 +1023,7 @@ msgstr "最多 10000 个字符"
 #: components/Modals/PaymentModalContent.tsx:363
 #: components/tools/MergePage.tsx:812
 msgid "Merge Another"
-msgstr "合并另一个"
+msgstr "Andere zusammenführen"
 
 #: pages/tools/merge/index.tsx:691
 #: components/PdfToChat/MoreTools.tsx:35
@@ -1064,7 +1064,7 @@ msgstr "合并另一个"
 #: utils/faqData.tsx:40
 #: components/source-tools/source-result/index.tsx:540
 msgid "Not satisfied with your results?"
-msgstr "对结果不满意？"
+msgstr "Nicht zufrieden mit Ihren Ergebnissen?"
 
 #: components/Landing/AppSection.tsx:147
 #: components/APIKeysList.tsx:649
@@ -1076,7 +1076,7 @@ msgstr "对结果不满意？"
 #: components/tools/ToolsSection.tsx:146
 #: components/ToolsFooter.tsx:94
 msgid "OCR PDF Reader"
-msgstr "OCR PDF阅读器"
+msgstr "OCR PDF-Reader"
 
 #: pages/settings/index.tsx:652
 #: pages/settings/index.tsx:772
@@ -1096,16 +1096,16 @@ msgstr "OCR PDF阅读器"
 #: components/PdfToChat/Features.tsx:336
 #: components/Waitlist.tsx:141
 msgid "Our API is Now Live"
-msgstr "我们的API现已上线"
+msgstr "Unsere API ist jetzt live"
 
 #: components/tools/ToolsWaitlist.tsx:141
 msgid "Our Knowledge Base is Now Live"
-msgstr "我们的知识库现已上线"
+msgstr "Unsere Wissensdatenbank ist jetzt live"
 
 #: pages/privacy/index.tsx:129
 #: components/literature-review/LiteratureMainBar.tsx:425
 msgid "Output"
-msgstr "输出"
+msgstr "Ausgabe"
 
 #: components/Landing/Plans.tsx:479
 #: components/Landing/Plans.tsx:561
@@ -1122,7 +1122,7 @@ msgstr "输出"
 #: pages/paragraph-generator/generate/index.tsx:108
 #: pages/paragraph-generator/index.tsx:59
 msgid "Paragraph Generator"
-msgstr "段落生成器"
+msgstr "Absatz-Generator"
 
 #: pages/billing/index.tsx:925
 #: pages/settings/index.tsx:929
@@ -1131,25 +1131,25 @@ msgstr "段落生成器"
 #: components/tools/ToolCommon.tsx:174
 #: components/ToolsFooter.tsx:86
 msgid "PDF Compressor"
-msgstr "PDF压缩器"
+msgstr "PDF-Kompressor"
 
 #: components/tools/MergePage.tsx:674
 #: components/tools/ToolCommon.tsx:166
 #: components/tools/ToolsSection.tsx:139
 #: components/ToolsFooter.tsx:90
 msgid "PDF Merger"
-msgstr "PDF合并器"
+msgstr "PDF-Merger"
 
 #: components/tools/SplitPage.tsx:804
 #: components/tools/ToolCommon.tsx:162
 #: components/tools/ToolsSection.tsx:132
 #: components/ToolsFooter.tsx:82
 msgid "PDF Splitter"
-msgstr "PDF拆分器"
+msgstr "PDF-Splitter"
 
 #: components/Footer.tsx:303
 msgid "PDF To Chat"
-msgstr "PDF聊天"
+msgstr "PDF zum Chatten"
 
 #: components/Landing/Plans.tsx:455
 #: components/PdfToChat/Plans.tsx:455
@@ -1172,7 +1172,7 @@ msgstr "PDF聊天"
 #: components/literature-review/LiteratureSideBar.tsx:373
 #: components/literature-review/LiteratureSideBar.tsx:441
 msgid "Please enter instructions on how to review your text input OR document"
-msgstr "请提供有关如何审查文本输入或文档的说明"
+msgstr "Bitte geben Sie Anweisungen zur Überprüfung Ihres Texteingabe- oder Dokumentationsvorgangs ein"
 
 #: components/Summarisation/SummariseSideBar.tsx:366
 #: pages/delete/index.tsx:284
@@ -1188,7 +1188,7 @@ msgstr "请提供有关如何审查文本输入或文档的说明"
 #: pages/poem-generator/generate/index.tsx:110
 #: pages/poem-generator/index.tsx:76
 msgid "Poem Generator"
-msgstr "诗歌生成器"
+msgstr "Gedicht-Generator"
 
 #: pages/settings/index.tsx:625
 #: components/Navbar.tsx:297
@@ -1196,7 +1196,7 @@ msgstr "诗歌生成器"
 #: components/tools/ToolBarExt.tsx:244
 #: components/tools/ToolBarExt.tsx:278
 msgid "Pricing"
-msgstr "价格"
+msgstr "Preise"
 
 #: components/Landing/Plans.tsx:702
 #: components/Modals/PaymentModalContent.tsx:399
@@ -1209,7 +1209,7 @@ msgstr "价格"
 #: utils/termsData.ts:46
 #: components/Footer.tsx:344
 msgid "Privacy Policy"
-msgstr "隐私政策"
+msgstr "Datenschutzrichtlinie"
 
 #: components/Api/Pricing.tsx:303
 #: pages/settings/index.tsx:743
@@ -1217,16 +1217,16 @@ msgstr "隐私政策"
 #: pages/apikeys/index.tsx:413
 #: components/Footer.tsx:260
 msgid "Products"
-msgstr "产品"
+msgstr "Produkte"
 
 #: components/AppSidebar.tsx:321
 msgid "Profile"
-msgstr "个人资料"
+msgstr "Profil"
 
 #: components/Summarisation/SummariseSideBar.tsx:363
 #: components/source-tools/source-result/index.tsx:480
 msgid "Publication Year:"
-msgstr "出版年份："
+msgstr "Erscheinungsjahr:"
 
 #: pages/settings/index.tsx:1136
 #: pages/settings/index.tsx:1171
@@ -1242,14 +1242,14 @@ msgstr "出版年份："
 #: pages/rap-generator/generate/index.tsx:111
 #: pages/rap-generator/index.tsx:61
 msgid "Rap Generator"
-msgstr "说唱生成器"
+msgstr "Rap Generator"
 
 #: pages/knowledge-base/[[...params]].tsx:1463
 #: components/Api/Header.tsx:171
 #: components/APIKeysList.tsx:770
 #: components/tools/OcrPage.tsx:284
 msgid "Read OCR PDF"
-msgstr "阅读OCR PDF"
+msgstr "OCR-PDF lesen"
 
 #: components/PdfToChat/Guide.tsx:125
 #: components/PdfToChat/SummarizeGuide.tsx:141
@@ -1263,25 +1263,25 @@ msgstr "阅读OCR PDF"
 #: components/Modals/ConversationFeedback.tsx:468
 #: components/literature-review/MainContent.tsx:280
 msgid "Request timed out. Please try again"
-msgstr "请求超时。请重试"
+msgstr "Anfrage abgelaufen. Bitte versuchen Sie es erneut"
 
 #: pages/privacy/index.tsx:38
 #: components/literature-review/MainContent.tsx:362
 msgid "Results for"
-msgstr " 结果为"
+msgstr "Ergebnisse für"
 
 #: components/literature-review/MainContent.tsx:272
 #: components/literature-review/MainContent.tsx:282
 msgid "Review Failed"
-msgstr "审查失败"
+msgstr "Überprüfung fehlgeschlagen"
 
 #: components/literature-review/LiteratureMainBar.tsx:414
 msgid "Review my work"
-msgstr "回顾我的工作"
+msgstr "Überprüfen Sie meine Arbeit"
 
 #: components/literature-review/LiteratureMainBar.tsx:468
 msgid "Review will be displayed here"
-msgstr "评论将显示在这里"
+msgstr "Die Überprüfung wird hier angezeigt"
 
 #: components/Modals/UpdatePaymentMethodBottomSheet.tsx:195
 #: components/Modals/UpdatePaymentMethodDesktop.tsx:191
@@ -1289,15 +1289,15 @@ msgstr "评论将显示在这里"
 #: components/PdfToChat/Features.tsx:311
 #: components/literature-review/MainContent.tsx:350
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
-msgstr "使用人工智能驱动的文献综述写作工具，省时省力。简化研究，生成结构化摘要，并创建连贯而全面的综述，从而提升您的学术成果。人工智能助您一臂之力。"
+msgstr "Sparen Sie Zeit und Mühe mit einem KI-gesteuerten Literature Review Writer. Optimieren Sie Ihre Recherchen, erstellen Sie strukturierte Zusammenfassungen und verfassen Sie zusammenhängende und umfassende Rezensionen, die Ihre akademische Arbeit aufwerten. Unterstützt durch KI"
 
 #: components/Footer.tsx:208
 msgid "Say hello to documents that respond to you! With AskYourPDF, your reading isn't just simple, it's fun!"
-msgstr "问候那些回复您的文档吧!有了AskYourPDF,您的阅读不仅简单,还很有趣!"
+msgstr "Begrüßen Sie Dokumente, die auf Sie reagieren! Mit AskYourPDF ist das Lesen nicht nur einfach, sondern auch spaßig!"
 
 #: components/tools/MainPage.tsx:17
 msgid "Seamlessly cite, reference, edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
-msgstr "无缝引用、参考、编辑、拆分、合并、压缩和从PDF中提取文本。利用人工智能的力量免费简化您的PDF交互。"
+msgstr "Nahtlos zitieren, referenzieren, bearbeiten, teilen, zusammenführen, komprimieren und Text aus PDFs extrahieren. Nutzen Sie die Leistung der KI, um Ihre PDF-Interaktionen kostenlos zu vereinfachen"
 
 #: pages/tools/index.tsx:358
 #: components/tools/MainPage.tsx:17
@@ -1308,14 +1308,14 @@ msgstr "无缝引用、参考、编辑、拆分、合并、压缩和从PDF中提
 #: components/Api/Pricing.tsx:268
 #: components/source-tools/source-result/index.tsx:442
 msgid "Select all"
-msgstr "全选"
+msgstr "Alles auswählen"
 
 #: components/Modals/ConversationFeedback.tsx:363
 #: components/Modals/ConversationFeedback.tsx:473
 #: components/Modals/DocumentSelectModal.tsx:628
 #: components/AppSidebar.tsx:310
 msgid "Settings"
-msgstr "设置"
+msgstr "Einstellungen"
 
 #: pages/conversations/[[...params]].tsx:1078
 #: components/Modals/PaymentModalContent.tsx:426
@@ -1337,35 +1337,35 @@ msgstr "设置"
 #: components/BuyCredits.tsx:41
 #: components/source-tools/source-result/index.tsx:491
 msgid "Source copied"
-msgstr "复制的来源"
+msgstr "Quelle kopiert"
 
 #: components/tools/ToolCommon.tsx:178
 msgid "Source Tool"
-msgstr "源工具"
+msgstr "Quellwerkzeug"
 
 #: components/source-tools/source-result/index.tsx:422
 msgid "Sources found"
-msgstr "找到的资源"
+msgstr "Quellen gefunden"
 
 #: components/tools/SplitPage.tsx:923
 msgid "Split Another"
-msgstr "拆分另一个"
+msgstr "Andere teilen"
 
 #: components/tools/SplitPage.tsx:840
 msgid "Split PDF"
-msgstr "拆分PDF"
+msgstr "PDF teilen"
 
 #: components/PdfToChat/MoreTools.tsx:31
 #: components/literature-review/LiteratureMainBar.tsx:479
 msgid "Start another review"
-msgstr "开始另一次审查"
+msgstr ""
 
 #: pages/chat/[[...docID]]/index.tsx:329
 #: pages/file-upload/index.tsx:407
 #: components/Navbar.tsx:415
 #: components/tools/ToolBarExt.tsx:325
 msgid "Start For Free"
-msgstr "免费开始"
+msgstr "Kostenlos Starten"
 
 #: pages/chat/[[...docID]]/index.tsx:313
 #: pages/knowledge-base/intro.tsx:344
@@ -1374,7 +1374,7 @@ msgstr "免费开始"
 #: pages/story-generator/generate/index.tsx:115
 #: pages/story-generator/index.tsx:65
 msgid "Story Generator"
-msgstr "故事生成器"
+msgstr "Geschichten-Generator"
 
 #: components/tools/ToolsSection.tsx:267
 #: components/Modals/ConversationFeedback.tsx:266
@@ -1394,7 +1394,7 @@ msgstr "故事生成器"
 #: pages/knowledge-base/[[...params]].tsx:1507
 #: components/AppSidebar.tsx:252
 msgid "Summarisation"
-msgstr "摘要"
+msgstr "Zusammenfassung"
 
 #: pages/settings/index.tsx:909
 #: pages/settings/index.tsx:917
@@ -1415,14 +1415,14 @@ msgstr "摘要"
 #: components/Landing/Hero.tsx:298
 #: components/tools/DocUploadNoFunc.tsx:390
 msgid "Supported formats: .pdf"
-msgstr "支持的格式： .pdf"
+msgstr "Unterstützte Formate: .pdf"
 
 #: components/DocumentUpload.tsx:446
 #: components/Summarisation/SummariseUpload.tsx:534
 #: pages/paragraph-generator/generate/index.tsx:101
 #: pages/paragraph-generator/index.tsx:50
 msgid "Supporting points"
-msgstr "支持点"
+msgstr "Unterstützende Punkte"
 
 #: pages/billing/index.tsx:866
 #: pages/settings/index.tsx:676
@@ -1433,7 +1433,7 @@ msgstr "支持点"
 #: utils/termsData.ts:51
 #: components/Footer.tsx:339
 msgid "Terms & Conditions"
-msgstr "条款和条件"
+msgstr "Geschäftsbedingungen"
 
 #: components/APIKeysList.tsx:482
 #: components/APIKeysList.tsx:682
@@ -1441,7 +1441,7 @@ msgstr "条款和条件"
 #: pages/text-generator/generate/index.tsx:108
 #: pages/text-generator/index.tsx:62
 msgid "Text Generator"
-msgstr "文本生成器"
+msgstr "Text Generator"
 
 #: components/Modals/ConversationFeedback.tsx:333
 #: components/Modals/ConversationFeedback.tsx:443
@@ -1455,7 +1455,7 @@ msgstr "文本生成器"
 #: pages/thesis-statement/generate/index.tsx:108
 #: pages/thesis-statement/index.tsx:58
 msgid "Thesis Statement Generator"
-msgstr "论文陈述生成器"
+msgstr "Hausarbeitsthema-Generator"
 
 #: pages/privacy/index.tsx:125
 #: pages/chat/[[...docID]]/index.tsx:236
@@ -1469,26 +1469,26 @@ msgstr "论文陈述生成器"
 #: components/Navbar.tsx:346
 #: components/tools/MainPage.tsx:19
 msgid "Tools"
-msgstr "工具"
+msgstr "Werkzeuge"
 
 #: components/Landing/Products.tsx:178
 #: components/PdfToChat/Products.tsx:178
 #: pages/rap-generator/generate/index.tsx:105
 msgid "Topic/Theme"
-msgstr "主题"
+msgstr "Thema/Motiv"
 
 #: pages/settings/index.tsx:1051
 #: pages/tools/ocr/index.tsx:505
 #: components/tools/OcrPage.tsx:251
 #: components/tools/ToolsSection.tsx:147
 msgid "Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader."
-msgstr "利用我们基于人工智能的OCR PDF阅读器，将扫描或基于图像的PDF文档转化为可编辑和可搜索的文本。"
+msgstr "Verwandeln Sie gescannte oder bildbasierte PDFs mit unserem KI-gestützten OCR-PDF-Reader in bearbeitbaren und durchsuchbaren Text."
 
 #: components/PdfToChat/Universities.tsx:92
 #: components/tools/ToolsWaitlist.tsx:150
 #: components/Waitlist.tsx:151
 msgid "Try it Now"
-msgstr "立即试用"
+msgstr "Jetzt ausprobieren"
 
 #: components/Announcements.tsx:19
 #: components/Announcements.tsx:25
@@ -1557,31 +1557,31 @@ msgstr "立即试用"
 #: components/PdfToChat/SummarizeGuide.tsx:152
 #: components/AppSidebar.tsx:222
 msgid "Upload Doc"
-msgstr "上传文档"
+msgstr "Dokument hochladen"
 
 #: pages/upload/index.tsx:250
 #: components/tools/DocUploadNoFunc.tsx:357
 msgid "Upload Document"
-msgstr "上传文档"
+msgstr "Dokument hochladen"
 
 #: components/tools/DocUploadNoFunc.tsx:335
 msgid "Upload failed"
-msgstr "上传失败"
+msgstr "Hochladen fehlgeschlagen"
 
 #: components/tools/DocUploadNoFunc.tsx:371
 msgid "Upload From URL"
-msgstr "从URL上传"
+msgstr "Aus URL hochladen"
 
 #: components/Modals/PaymentModalContent.tsx:280
 #: components/literature-review/LiteratureUpload.tsx:485
 msgid "Upload New Document"
-msgstr "上传新文档"
+msgstr "Neues Dokument hochladen"
 
 #: components/DocumentUpload.tsx:370
 #: components/literature-review/LiteratureMainBar.tsx:366
 #: components/source-tools/source-content/index.tsx:216
 msgid "Upload text file"
-msgstr "上传文本文件"
+msgstr "Textdatei hochladen"
 
 #: pages/file-upload/index.tsx:360
 #: pages/documents/[[...id]]/index.tsx:533
@@ -1659,11 +1659,11 @@ msgstr "上传文本文件"
 #: pages/thesis-statement/index.tsx:64
 #: pages/thesis-statement/index.tsx:72
 msgid "Warning"
-msgstr "警告:"
+msgstr "Warnung"
 
 #: components/Waitlist.tsx:144
 msgid "We are making AskYourPDF API open for developers to build applications and services."
-msgstr "我们正在开放AskYourPDF API,供开发者构建应用程序和服务。"
+msgstr "Wir öffnen die AskYourPDF API für Entwickler, um Anwendungen und Dienste zu erstellen."
 
 #: components/Announcements.tsx:29
 #: utils/termsData.ts:52
@@ -1692,7 +1692,7 @@ msgstr "我们正在开放AskYourPDF API,供开发者构建应用程序和服务
 #: components/tools/MergePage.tsx:675
 #: components/tools/ToolsSection.tsx:140
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
-msgstr "有了我们的智能自动合并功能，您的 PDF 文件可以无缝地统一成一个具有凝聚力的文档，同时保持质量和格式 。"
+msgstr "Mit unserer intelligenten, automatischen Zusammenführung werden Ihre PDFs nahtlos zu einem einzigen, zusammenhängenden Dokument vereint, wobei Qualität und Formatierung erhalten bleiben."
 
 #: pages/tools/merge/index.tsx:697
 #: components/tools/MergePage.tsx:690
@@ -1710,7 +1710,7 @@ msgstr "有了我们的智能自动合并功能，您的 PDF 文件可以无缝�
 #: pages/documents/[[...id]]/index.tsx:757
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"
-msgstr "您现在可以使用我们的知识库同时与多个文档聊天"
+msgstr "Sie können jetzt über unsere Wissensdatenbank mit mehreren Dokumenten gleichzeitig chatten"
 
 #: components/Announcements.tsx:17
 #: components/Announcements.tsx:23
@@ -1746,7 +1746,7 @@ msgstr "您现在可以使用我们的知识库同时与多个文档聊天"
 #: pages/lyrics-generator/generate/index.tsx:109
 #: pages/lyrics-generator/index.tsx:66
 msgid "Your creative companion on your musical journey, create lyrics that tell your unique story"
-msgstr "您在音乐之旅中的创作伙伴，创作歌词，讲述您独特的故事"
+msgstr ""
 
 #: components/Landing/Features.tsx:297
 #: components/PdfToChat/Features.tsx:322
@@ -1758,14 +1758,14 @@ msgstr "您在音乐之旅中的创作伙伴，创作歌词，讲述您独特的
 #: components/Settings/AccountLinkedSuccessModal.tsx:69
 #: components/tools/MergePage.tsx:779
 msgid "Your PDF is ready"
-msgstr "您的 PDF 已准备就绪"
+msgstr "Ihr PDF ist fertig"
 
 #: components/tools/SplitPage.tsx:910
 msgid "Your PDFs are ready"
-msgstr "您的 PDF 文件已准备就绪"
+msgstr "Ihre PDFs sind fertig"
 
 #: utils/termsData.ts:47
 #: components/literature-review/LiteratureMainBar.tsx:462
 msgid "Your Review is being generated"
-msgstr "您的评论正在生成中"
+msgstr "Ihre Überprüfung wird erstellt"
 
