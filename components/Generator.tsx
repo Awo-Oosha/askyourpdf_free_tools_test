@@ -26,7 +26,6 @@ width:100%;
 min-height:100%;
 padding:50px;
 box-sizing:border-box;
-padding-left:150px;
 @media screen and (max-width:900px){
     padding-left:0px;
     padding:20px;
@@ -34,7 +33,7 @@ padding-left:150px;
 `;
 const Title = styled.div`
 color: var(--gray-900, #101828);
-font-family: Satoshi;
+font-family: var(--font-satoshi);;
 font-size: 40px;
 font-style: normal;
 font-weight: 700;
@@ -46,13 +45,12 @@ margin-bottom:6px;
 
 const SubTitle = styled.div`
 color: #000;
-font-family: Satoshi;
+font-family: var(--font-satoshi);;
 font-size: 13px;
 font-style: normal;
 font-weight: 400;
 line-height: 20px; /* 153.846% */
 color: var(--gray-900, #101828);
-font-family: Satoshi;
 border-radius: 8px;
 border: 1px solid #D0D5DD;
 padding: 8px 16px;
@@ -88,7 +86,7 @@ border-radius: 8px;
 border: 2px solid #D0D5DD;
 box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 color: black;
-font-family: Satoshi;
+font-family: var(--font-satoshi);;
 font-size: 16px;
 font-weight:400;
 font-style: normal;
@@ -140,7 +138,7 @@ background: var(--theme-dark-icons-primary, #FFF);
 `;
 const GenTitle = styled.div`
 color: #000;
-font-family: Satoshi;
+font-family: var(--font-satoshi);;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -153,7 +151,7 @@ align-items:center;
 `;
 const LabelTitle = styled.div`
 color: #000;
-font-family: Satoshi;
+font-family: var(--font-satoshi);;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -172,7 +170,7 @@ gap: 11px;
 flex-shrink: 0;
 border:0;
 color:white;
-font-family:Satoshi;
+font-family:var(--font-satoshi);;
 width:100%;
 font-style: normal;
 font-weight: 700;
@@ -180,7 +178,7 @@ font-weight: 700;
 const MarkDownView = styled.div`
 width:100%;
 padding:14px;
-font-family:Satoshi;
+font-family:var(--font-satoshi);;
 box-sizing:border-box;
 white-space: pre-wrap;
 
@@ -315,7 +313,6 @@ const Generator = ({title,description,fields,buttonText,buttonFunction,selectOpt
     }
 
 return(<div>
-<AppSidebar/>
 <MobileHeader/>
 <Body>
 <Title>{title}</Title>

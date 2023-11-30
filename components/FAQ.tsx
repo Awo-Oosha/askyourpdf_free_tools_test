@@ -25,7 +25,7 @@ box-sizing:border-box;
 const Title = styled.div`
 color: var(--primary-900, #2F2B43);
 text-align: center;
-font-family: Satoshi;
+font-family: var(--font-satoshi);;
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
@@ -39,7 +39,7 @@ text-align:center;
 const SubTitle = styled.div`
 color: var(--alpha-black-60, rgba(47, 43, 67, 0.60));
 text-align: center;
-font-family: Satoshi;
+font-family: var(--font-satoshi);;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -78,7 +78,7 @@ input{
     
     span{
      color: var(--gray-900, #101828);
-    font-family: Satoshi;
+    font-family: var(--font-satoshi);;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -95,7 +95,7 @@ input{
 .answer{
 display:none;
 color: var(--gray-500, #667085);
-font-family: Satoshi;
+font-family: var(--font-satoshi);;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;

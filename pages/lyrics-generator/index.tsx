@@ -31,22 +31,22 @@ export const options: any = [
     {
         name: "Select Genre",
         data: [
-            { label: "Pop", key: "pop", onClick: (key: any) => {} },
-            { label: "Rock", key: "rock", onClick: (key: any) => {} },
-            { label: "Hip Hop", key: "hiphop", onClick: (key: any) => {} },
-            { label: "Electronic", key: "electronic", onClick: (key: any) => {} },
-            { label: "R&B", key: "rnb", onClick: (key: any) => {} },
+            { label: "Pop", key: "Pop", onClick: (key: any) => {} },
+            { label: "Rock", key: "Rock", onClick: (key: any) => {} },
+            { label: "Hip Hop", key: "Hip Hop", onClick: (key: any) => {} },
+            { label: "Electronic", key: "Electronic", onClick: (key: any) => {} },
+            { label: "R&B", key: "R&B", onClick: (key: any) => {} },
             // Add more genres as needed
         ]
     },
     {
         name: "Select Mood",
         data: [
-            { label: "Happy", key: "happy", onClick: (key: any) => {} },
-            { label: "Sad", key: "sad", onClick: (key: any) => {} },
-            { label: "Energetic", key: "energetic", onClick: (key: any) => {} },
-            { label: "Chill", key: "chill", onClick: (key: any) => {} },
-            { label: "Romantic", key: "romantic", onClick: (key: any) => {} },
+            { label: "Happy", key: "Happy", onClick: (key: any) => {} },
+            { label: "Sad", key: "Sad", onClick: (key: any) => {} },
+            { label: "Energetic", key: "Energetic", onClick: (key: any) => {} },
+            { label: "Chill", key: "Chill", onClick: (key: any) => {} },
+            { label: "Romantic", key: "Romantic", onClick: (key: any) => {} },
             // Add more moods as needed
         ]
     }
@@ -76,14 +76,7 @@ const LyricsGenerator = () => {
                   ); 
                 return null;
             }
-            if(items.length<2){
-                alerts.error(
-                    t`Warning`,
-                    "Please select genre and mood",
-                    2000
-                  ); 
-                return null;
-            }
+           
             routerData(text,items,"./lyrics-generator/generate");
         }}
         selectOptions={options} 

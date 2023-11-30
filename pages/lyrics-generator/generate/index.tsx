@@ -49,17 +49,10 @@ const LyricsGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<2){
-        alerts.error(
-            t`Warning`,
-            "Please select genre and mood",
-            2000
-          ); 
-        return null;
-    }
+   
     const newParam:any = {
-        "GENRE":parameters[0],
-        "MOOD":parameters[1],
+        "GENRE":parameters[0] || '',
+        "MOOD":parameters[1] || '',
     }
     
     setGeneratedContent("");

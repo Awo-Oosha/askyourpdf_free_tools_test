@@ -182,7 +182,7 @@ border-radius: 8px;
 border: 2px solid #EDB01A;
 box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 color: #EDB01A;
-font-family: Satoshi;
+font-family: var(--font-satoshi);;
 font-size: 16px;
 font-weight:400;
 font-style: normal;
