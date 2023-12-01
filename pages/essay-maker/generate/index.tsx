@@ -92,14 +92,12 @@ setGeneratedContent(nwText);
    
     const textfields:any=[
         {placeholder:t`Input Title or Topic`,height:"70px"},
-        {placeholder:t`input Thesis Statement  `,height:"70px"},
-        {placeholder:t`input Key Points to Cover `,height:"70px"},
         
     ];
 return(<div>
 <Generator
 title={t`AI Essay Maker`} 
-description={t`Fill`}
+description={t`AI Essay Maker`}
 fields={textfields }
 buttonText={"Generate Essay"}
  generationTitle={"Generated Essay"}

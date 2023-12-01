@@ -45,8 +45,9 @@ export const options:any = [
     ]}
     ,
     {name:"Hashtags Preferences",data:[
-        {label:"Include Hashtag or not",key:"Include Hashtag or not",  onClick:(key:any)=>{}},
-        {label:"Specific Hashtags",key:"Specific Hashtags",onClick:(key:any)=>{}},
+        {label:"Clear",key:"",  onClick:(key:any)=>{}},
+        {label:"Include Hashtag",key:JSON.stringify({type:"object",title:"Hashtag Prefrence",desc:"Add hastags below",default:""}),  onClick:(key:any)=>{}},
+        
         
     ]}
     ,
@@ -76,14 +77,7 @@ const InstagramCaptionGenerator = () => {
                   ); 
                 return null;
             }
-            if(items.length<4){
-                alerts.error(
-                    t`Warning`,
-                    "Please select type,mood,hastag prefrence",
-                    2000
-                  ); 
-                return null;
-            }
+        
             routerData(text,items,"./instagram-caption/generate");
         }}
         selectOptions={options} 

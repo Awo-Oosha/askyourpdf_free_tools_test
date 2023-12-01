@@ -70,14 +70,6 @@ const RapGenerator = () => {
                   ); 
                 return null;
             }
-            if(items.length<3){
-                alerts.error(
-                    t`Warning`,
-                    "Please select style, tempo and complexity",
-                    2000
-                  ); 
-                return null;
-            }
             routerData(text,items,"./rap-generator/generate");
         }}
         selectOptions={options} 

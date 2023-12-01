@@ -68,14 +68,6 @@ const ParagraphGenerator = () => {
                   ); 
                 return null;
             }
-            if(items.length<2){
-                alerts.error(
-                    t`Warning`,
-                    "Please select purpose and toon",
-                    2000
-                  ); 
-                return null;
-            }
             routerData(text,items,"./paragraph-generator/generate");
         }}
         selectOptions={options} 

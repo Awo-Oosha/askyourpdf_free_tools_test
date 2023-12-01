@@ -75,7 +75,7 @@ export const options: any = [
     {
         name: "Chorus/Verse Structure",
         data: [
-            { label: "1", key: "Happy", onClick: (key: any) => {} },
+            { label: "Happy", key: "Happy", onClick: (key: any) => {} },
             { label: "Sad", key: "Sad", onClick: (key: any) => {} },
             { label: "Energetic", key: "Energetic", onClick: (key: any) => {} },
             { label: "Chill", key: "Chill", onClick: (key: any) => {} },

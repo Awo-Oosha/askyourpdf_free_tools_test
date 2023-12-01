@@ -29,7 +29,14 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
 export const options:any = [
     {name:"Select Genre",data:[
-        {label:"Dynamic",key:"dynamic",  onClick:(key:any)=>{}},
+        {label:"Fiction",key:"Fiction",  onClick:(key:any)=>{}},
+        {label:"Non-Fiction",key:"Non-Fiction",  onClick:(key:any)=>{}},
+        {label:"Misery",key:"Misery",  onClick:(key:any)=>{}},
+        {label:"Novel",key:"Novel",  onClick:(key:any)=>{}},
+        {label:"Thriller",key:"Thriller",  onClick:(key:any)=>{}},
+        {label:"Fantasy",key:"Fantasy",  onClick:(key:any)=>{}},
+        {label:"Sci-Fi",key:"Sci-Fi",  onClick:(key:any)=>{}},
+        {label:"Narrative",key:"Narrative",  onClick:(key:any)=>{}},
     ]},
     {name:"Select Target Audience ",data:[
         {label:"Children",key:"Children",  onClick:(key:any)=>{}},
@@ -38,9 +45,9 @@ export const options:any = [
     ]}
     ,
     {name:"Mood/Tone",data:[
-        {label:"Professional",key:"formal",  onClick:(key:any)=>{}},
-        {label:"Casual",key:"casual",  onClick:(key:any)=>{}},
-        {label:"Technical",key:"tenchnical",  onClick:(key:any)=>{}},
+        {label:"Professional",key:"Professional",  onClick:(key:any)=>{}},
+        {label:"Casual",key:"Casual",  onClick:(key:any)=>{}},
+        {label:"Technical",key:"Tenchnical",  onClick:(key:any)=>{}},
     ]}
     
 ];
@@ -68,14 +75,7 @@ const BookTitleGenerator = () => {
                   ); 
                 return null;
             }
-            if(items.length<3){
-                alerts.error(
-                    t`Warning`,
-                    "Please select genre,audience and toon",
-                    2000
-                  ); 
-                return null;
-            }
+            
              routerData(text,items,"./book-title-generator/generate");
         }}
         selectOptions={options} 

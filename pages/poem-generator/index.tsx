@@ -79,14 +79,6 @@ const PoemGenerator = () => {
                   ); 
                 return null;
             }
-            if(items.length<4){
-                alerts.error(
-                    t`Warning`,
-                    "Please select type, mood,scheme and length",
-                    2000
-                  ); 
-                return null;
-            }
             routerData(text,items,"./poem-generator/generate");
         }}
         selectOptions={options} 

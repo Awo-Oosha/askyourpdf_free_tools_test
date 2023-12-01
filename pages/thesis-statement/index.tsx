@@ -33,11 +33,6 @@ export const options:any = [
         {label:"Argumentative",key:"Argumentative",  onClick:(key:any)=>{}},
         {label:"Analytical",key:"Analytical",onClick:(key:any)=>{}},
         {label:"Expository",key:"Expository",onClick:(key:any)=>{}},
-    ]},
-    {name:"Fill ",data:[
-        {label:"fill 1",key:"fill1",  onClick:(key:any)=>{}},
-        {label:"fill 2",key:"fill2",onClick:(key:any)=>{}},
-        {label:"fill 3",key:"fill3",onClick:(key:any)=>{}},
     ]}
     
 ];
@@ -67,14 +62,7 @@ const ThesisStatementGenerator = () => {
                   ); 
                 return null;
             }
-            if(items.length<2){
-                alerts.error(
-                    t`Warning`,
-                    "Please select paper type and fill",
-                    2000
-                  ); 
-                return null;
-            }
+          
             routerData(text,items,"./thesis-statement/generate");
         }}
         selectOptions={options} 

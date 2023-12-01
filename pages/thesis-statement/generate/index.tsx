@@ -50,8 +50,7 @@ const ThesisStatementGeneratorSub = ()=>{
     }
    
     const newParam:any = {
-        "TYPE_OF_PAPER":parameters[0] || '',
-        "FILL":parameters[1] || '',
+        "TYPE_OF_PAPER":parameters[0] || ''
         
     }
     

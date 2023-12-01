@@ -182,18 +182,6 @@ const ToolsSection = () => {
             </Trans>
           </Tdesc>
         </ToolComp>
-        <ToolComp href="pdf-comp">
-          <Image src={CompressIcon} alt="" />
-          <Thead>
-            <Trans>PDF Compressor</Trans>
-          </Thead>
-          <Tdesc>
-            <Trans>
-              Effortlessly shrink PDFs for quicker sharing and storage, while
-              preserving quality, all with the precision of AI.
-            </Trans>
-          </Tdesc>
-        </ToolComp>
         <ToolComp href="lyrics-generator">
           <Image src={LyricsIcon} alt="" />
           <Thead>

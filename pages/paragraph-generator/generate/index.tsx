@@ -90,8 +90,7 @@ setGeneratedContent(nwText);
   },[setPreviousData,previousData])
 
     const textfields:any=[
-        {placeholder:t`Main idea`,height:"90px"},
-        {placeholder:t` Supporting points`,height:"90px"},
+        {placeholder:t`Main idea`,height:"90px"}
 
     ];
 
