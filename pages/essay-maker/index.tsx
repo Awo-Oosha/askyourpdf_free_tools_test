@@ -38,6 +38,7 @@ export const options:any = [
         {label:"Expository",key:"Expository",onClick:(key:any)=>{}},
     ]},
     {name:"No of Paragraphs",data:[
+        {label:"Clear",key:"",  onClick:(key:any)=>{}},
         {label:"1",key:"1",  onClick:(key:any)=>{}},
         {label:"2",key:"2",onClick:(key:any)=>{}},
         {label:"3",key:"3",onClick:(key:any)=>{}},
@@ -49,8 +50,7 @@ const EssayMaker = () => {
    
     const textfields:any=[
         {placeholder:t`Input Title or Topic`,height:"70px"},
-        {placeholder:t`input Thesis Statement  `,height:"70px"},
-        {placeholder:t`input Key Points to Cover `,height:"70px"},
+        
         
     ];
 
@@ -60,7 +60,7 @@ const EssayMaker = () => {
         <Hero 
         image={LyricsGen} 
         title={t`AI Essay Maker`} 
-        description={t`Fill`}
+        description={t`AI Essay Maker`}
         fields={textfields }
         buttonText={"Generate Essay"}
         buttonFunction={(text:any,items:any)=>{
@@ -72,14 +72,7 @@ const EssayMaker = () => {
                   ); 
                 return null;
             }
-            if(items.length<2){
-                alerts.error(
-                    t`Warning`,
-                    "Please select type and paragraphs",
-                    2000
-                  ); 
-                return null;
-            }
+            
             routerData(text,items,"./essay-maker/generate");
         }}
         selectOptions={options} 

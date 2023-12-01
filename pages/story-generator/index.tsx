@@ -28,24 +28,17 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 };
 
 export const options:any = [
-    {name:" Genre",data:[
-        {label:"Fantasy",key:"str",  onClick:(key:any)=>{}},
-        {label:"Sci-Fi",key:"str2",onClick:(key:any)=>{}},
-        {label:"Mystery",key:"str3",onClick:(key:any)=>{}},
-        {label:"Horror",key:"str4",onClick:(key:any)=>{}},
-        {label:"Romance",key:"str5",onClick:(key:any)=>{}},
-        {label:"Comedy",key:"str6",onClick:(key:any)=>{}},
-    ]},
+   
     {name:"Length",data:[
-        {label:"Short story",key:"str",  onClick:(key:any)=>{}},
-        {label:"Novella",key:"str2",onClick:(key:any)=>{}},
-        {label:"Full length",key:"str3",onClick:(key:any)=>{}},
+        {label:"Short story",key:"Short story",  onClick:(key:any)=>{}},
+        {label:"Novella",key:"Novella",onClick:(key:any)=>{}},
+        {label:"Full length",key:"Full length",onClick:(key:any)=>{}},
     ]}
     ,
     {name:" Settings",data:[
-        {label:"Time",key:"str",  onClick:(key:any)=>{}},
-        {label:"Period",key:"str2",onClick:(key:any)=>{}},
-        {label:"Location",key:"str3",onClick:(key:any)=>{}},
+        {label:"Time",key:"Time",  onClick:(key:any)=>{}},
+        {label:"Period",key:"Period",onClick:(key:any)=>{}},
+        {label:"Location",key:"Location",onClick:(key:any)=>{}},
     ]}
 ];
 const StoryGenerator = () => {
@@ -53,7 +46,7 @@ const StoryGenerator = () => {
 
     const textfields:any=[
         {placeholder:t`Input Names and a brief description of the main characters`,height:"70px"},
-        {placeholder:t`input Key events/plot points `,height:"70px"},
+       
     ];
 
     const faqs= FAQDATA;
@@ -74,14 +67,7 @@ const StoryGenerator = () => {
                   ); 
                 return null;
             }
-            if(items.length<3){
-                alerts.error(
-                    t`Warning`,
-                    "Please select genre, length and settings",
-                    2000
-                  ); 
-                return null;
-            }
+            
             routerData(text,items,"./story-generator/generate");
         }}
         selectOptions={options} 

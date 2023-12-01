@@ -48,17 +48,9 @@ const ThesisStatementGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<2){
-        alerts.error(
-            t`Warning`,
-            "Please select type of paper",
-            2000
-          ); 
-        return null;
-    }
+   
     const newParam:any = {
-        "TYPE_OF_PAPER":parameters[0],
-        "FILL":parameters[1],
+        "TYPE_OF_PAPER":parameters[0] || ''
         
     }
     

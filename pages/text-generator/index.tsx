@@ -41,8 +41,9 @@ export const options:any = [
     ]}
     ,
     {name:"Select Length",data:[
-        {label:"Word Limit",key:"Word Limit",  onClick:(key:any)=>{}},
-        {label:"Character Limit",key:"Character Limit",onClick:(key:any)=>{}},
+        {label:"Clear",key:"",  onClick:(key:any)=>{}},
+        {label:"Word Limit",key:JSON.stringify({type:"object",title:"Word Limit",desc:"enter word limit",default:"",append:"WORD-LIMIT"}),  onClick:(key:any)=>{}},
+        {label:"Character Limit",key:JSON.stringify({type:"object",title:"Character Limit",desc:"enter character limit",default:"",append:"CHAR-LIMIT"}),onClick:(key:any)=>{}},
         
     ]}
 ];
@@ -71,14 +72,7 @@ const TextGenerator = () => {
                   ); 
                 return null;
             }
-            if(items.length<3){
-                alerts.error(
-                    t`Warning`,
-                    "Please select purpose, tone and length",
-                    2000
-                  ); 
-                return null;
-            }
+            
             routerData(text,items,"./text-generator/generate");
         }}
         selectOptions={options} 

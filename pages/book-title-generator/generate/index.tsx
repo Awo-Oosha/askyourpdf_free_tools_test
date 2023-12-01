@@ -50,18 +50,11 @@ const BookTitleGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<3){
-        alerts.error(
-            t`Warning`,
-            "Please select the genre, target audience and mood",
-            2000
-          ); 
-        return null;
-    }
+    
     const newParam:any = {
-        "GENRE":parameters[0],
-        "TARGET_AUDIENCE":parameters[1],
-        "MOOD/TONE":parameters[2],
+        "GENRE":parameters[0] || '',
+        "TARGET_AUDIENCE":parameters[1] || '',
+        "MOOD/TONE":parameters[2] || '',
     }
     
     setGeneratedContent("");

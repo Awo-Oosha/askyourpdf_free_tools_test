@@ -49,18 +49,11 @@ const TextGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<3){
-        alerts.error(
-            t`Warning`,
-            "Please select the purpose theme and length",
-            2000
-          ); 
-        return null;
-    }
+  
     const newParam:any = {
-        "PURPOSE":parameters[0],
-        "TONE":parameters[1],
-        "LENGTH":parameters[2],
+        "PURPOSE":parameters[0] || '',
+        "TONE":parameters[1] || '',
+        "LENGTH":parameters[2] || '',
     }
     
     setGeneratedContent("");

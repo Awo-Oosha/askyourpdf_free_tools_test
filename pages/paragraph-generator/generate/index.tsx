@@ -48,17 +48,10 @@ const ParagraphGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<2){
-        alerts.error(
-            t`Warning`,
-            "Please select the ton and purpose",
-            2000
-          ); 
-        return null;
-    }
+  
     const newParam:any = {
-        "TONE":parameters[0],
-        "PURPOSE":parameters[1],
+        "TONE":parameters[0] || '',
+        "PURPOSE":parameters[1] || '',
     }
     
     setGeneratedContent("");
@@ -97,8 +90,7 @@ setGeneratedContent(nwText);
   },[setPreviousData,previousData])
 
     const textfields:any=[
-        {placeholder:t`Main idea`,height:"90px"},
-        {placeholder:t` Supporting points`,height:"90px"},
+        {placeholder:t`Main idea`,height:"90px"}
 
     ];
 

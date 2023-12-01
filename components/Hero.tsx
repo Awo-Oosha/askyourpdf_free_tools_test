@@ -12,6 +12,7 @@ import { useMedia } from "react-use";
 import { CaretDown } from "@phosphor-icons/react/dist/ssr";
 import type {MenuProps} from 'antd';
 import {Dropdown} from 'antd';
+import { ContentModal } from "./Modals/ContentModal";
 
 const HeroContainer = styled.section<{ $backgroundImage?: string }>`
   background-color: #141314;
@@ -223,12 +224,25 @@ export default function Hero({image,title,description,fields,buttonText,buttonFu
   const [textData,setTextData] = useState([]);
   let tempChange:any = [];
   const [selectedItem, setSelectedItem] = useState([]);
-  
+  const [showDialog,setShowdialog]= useState(false);
+  const [currentIndex,setCurrentIndex]= useState(0);
+  const [currentHeading,setCurrentHeading]= useState("");
+  const [currentDesc,setCurrentDesc]= useState("");
+  const [currentApp,setCurrentApp]= useState("");
   const handleTextAreaChange = (event:any, index:number) => {
     const newTextData:any = [...textData];
     newTextData[index] = event.target.value;
     setTextData(newTextData);
   };
+ const setOptionKey=(key:any,index:number)=>{
+  const ns:any = [...selectedItem];
+  if(key!==""){
+    ns[index]=key;
+  }else{
+    ns[index]=undefined;
+  }
+  setSelectedItem(ns);
+ }
  
   const OptionsList = ()=>{
  
@@ -236,9 +250,29 @@ export default function Hero({image,title,description,fields,buttonText,buttonFu
     selectOptions.forEach((element:any,index:number)=> {
   
       const items: MenuProps['items'] = element.data;
-      const onClick: MenuProps['onClick'] = ({key})=>{
-        const ns:any = [...selectedItem];;
-        ns[index]=key;
+      const onClick: MenuProps['onClick'] = ({key}:{key:any})=>{
+       let keyVal:any = key;
+       try {
+        keyVal = JSON.parse(key);
+        setCurrentIndex(index);
+        setCurrentHeading(keyVal.title);
+        setCurrentDesc(keyVal.desc);
+        if(keyVal.append){
+          setCurrentApp(keyVal.append);
+        }
+        setShowdialog(true);
+        keyVal = keyVal.default;
+      } catch (e: any) {
+      }
+
+
+        const ns:any = [...selectedItem];
+        if(keyVal!==""){
+        ns[index]=keyVal;
+        }else{
+          ns[index]=undefined;
+        }
+        
         setSelectedItem(ns);
       };
 
@@ -256,6 +290,7 @@ export default function Hero({image,title,description,fields,buttonText,buttonFu
     )
   }
   return (
+    <>
       <HeroContainer ref={ref}>
           <div className="heroImage">
               {isSmallScreen && (
@@ -305,5 +340,7 @@ export default function Hero({image,title,description,fields,buttonText,buttonFu
           </Container>
         
       </HeroContainer>
+      <ContentModal append={currentApp} header={currentHeading} description={currentDesc} open={showDialog} setOpen={setShowdialog} returnFunction={setOptionKey} cindex={currentIndex}/>
+      </>
   );
 }

@@ -27,18 +27,18 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     };
 };
 export const options:any = [
-    {name:"Select Purpose",data:[
-        {label:"Informative",key:"Informative",  onClick:(key:any)=>{}},
-        {label:"Persuasive",key:"Persuasive",onClick:(key:any)=>{}},
-        {label:"Descriptive",key:"Descriptive",onClick:(key:any)=>{}},
-        {label:"Narrative",key:"Narrative",onClick:(key:any)=>{}},
-    ]},
-    {name:"Select Tone",data:[
-        {label:"Formal",key:"Formal",  onClick:(key:any)=>{}},
-        {label:"Informal",key:"Informal",onClick:(key:any)=>{}},
-        {label:"Professional",key:"Professional",onClick:(key:any)=>{}},
-        {label:"Casual",key:"Casual",onClick:(key:any)=>{}},
-    ]}
+    // {name:"Select Purpose",data:[
+    //     {label:"Informative",key:"Informative",  onClick:(key:any)=>{}},
+    //     {label:"Persuasive",key:"Persuasive",onClick:(key:any)=>{}},
+    //     {label:"Descriptive",key:"Descriptive",onClick:(key:any)=>{}},
+    //     {label:"Narrative",key:"Narrative",onClick:(key:any)=>{}},
+    // ]},
+    // {name:"Select Tone",data:[
+    //     {label:"Formal",key:"Formal",  onClick:(key:any)=>{}},
+    //     {label:"Informal",key:"Informal",onClick:(key:any)=>{}},
+    //     {label:"Professional",key:"Professional",onClick:(key:any)=>{}},
+    //     {label:"Casual",key:"Casual",onClick:(key:any)=>{}},
+    // ]}
     
 ];
 
@@ -46,8 +46,8 @@ const ParagraphGenerator = () => {
     const router = useRouter();
   
     const textfields:any=[
-        {placeholder:t`Main idea`,height:"90px"},
-        {placeholder:t` Supporting points`,height:"90px"},
+        {placeholder:t`Input Main idea/Supporting points`,height:"90px"},
+       
 
     ];
     const faqs= FAQDATA;
@@ -64,14 +64,6 @@ const ParagraphGenerator = () => {
                 alerts.error(
                     t`Warning`,
                     "Please enter some text",
-                    2000
-                  ); 
-                return null;
-            }
-            if(items.length<2){
-                alerts.error(
-                    t`Warning`,
-                    "Please select purpose and toon",
                     2000
                   ); 
                 return null;

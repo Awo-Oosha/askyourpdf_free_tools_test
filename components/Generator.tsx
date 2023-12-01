@@ -20,6 +20,7 @@ import Spinner from "./Spinner";
 import { usePDF } from "@react-pdf/renderer";
 import { ToolsPDFExport } from "./ToolsPDFExport";
 import ReactGA from "react-ga4";
+import { ContentModal } from "./Modals/ContentModal";
 
 const Body = styled.div`
 width:100%;
@@ -278,22 +279,56 @@ const Generator = ({title,description,fields,buttonText,buttonFunction,selectOpt
     };
     const [textData,setTextData] = useState([]);
     const [selectedItem, setSelectedItem] = useState([]);
+    const [showDialog,setShowdialog]= useState(false);
+    const [currentIndex,setCurrentIndex]= useState(0);
+    const [currentHeading,setCurrentHeading]= useState("");
+    const [currentDesc,setCurrentDesc]= useState("");
+    const [currentApp,setCurrentApp]= useState("");
+
     function handleTextAreaChange(event:any,index:number) {
       const newTextData:any = [...textData];
     newTextData[index] = event.target.value;
     setTextData(newTextData);
     }
-  
+  const setOptionKey=(key:any,index:number)=>{
+  const ns:any = [...selectedItem];
+  if(key!==""){
+    ns[index]=key;
+  }else{
+    ns[index]=undefined;
+  }
+  setSelectedItem(ns);
+ }
     const OptionsList = ()=>{
    
       let btns:any = [];
       selectOptions.forEach((element:any,index:number)=> {
     
         const items: MenuProps['items'] = element.data;
-        const onClick: MenuProps['onClick'] = ({key})=>{
-          const ns:any = [...selectedItem];
-          ns[index]=key;
-          setSelectedItem(ns);
+        const onClick: MenuProps['onClick'] = ({key}:{key:any})=>{
+          let keyVal:any = key;
+          try {
+            keyVal = JSON.parse(key);
+            setCurrentIndex(index);
+            setCurrentHeading(keyVal.title);
+            setCurrentDesc(keyVal.desc);
+            if(keyVal.append){
+              setCurrentApp(keyVal.append);
+            }
+            setShowdialog(true);
+            keyVal = keyVal.default;
+         } catch (e: any) {
+         }
+   
+   
+           const ns:any = [...selectedItem];
+           if(keyVal!==""){
+           ns[index]=keyVal;
+           }else{
+             ns[index]=undefined;
+           }
+           
+           setSelectedItem(ns);
         };
   
        btns.push(
@@ -373,6 +408,7 @@ return(<div>
     </DividerLast>
 </Divider>
 </Body>
+<ContentModal header={currentHeading} description={currentDesc} open={showDialog} setOpen={setShowdialog} returnFunction={setOptionKey} cindex={currentIndex} append={currentApp}/>
 
 </div>)
 }
