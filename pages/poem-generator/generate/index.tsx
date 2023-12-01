@@ -50,19 +50,12 @@ const PoemGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<4){
-        alerts.error(
-            t`Warning`,
-            "Please select the style,mood,themes and length",
-            2000
-          ); 
-        return null;
-    }
+    
     const newParam:any = {
-        "STYLE":parameters[0],
-        "MOOD":parameters[1],
-        "THEMES":parameters[2],
-        "LENGTH":parameters[3],
+        "STYLE":parameters[0] || '',
+        "MOOD":parameters[1] || '',
+        "THEMES":parameters[2] || '',
+        "LENGTH":parameters[3] || '',
     }
     
     setGeneratedContent("");

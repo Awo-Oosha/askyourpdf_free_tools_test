@@ -49,17 +49,10 @@ const EssayMakerSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<2){
-        alerts.error(
-            t`Warning`,
-            "Please select the type and no of paragraphs",
-            2000
-          ); 
-        return null;
-    }
+    
     const newParam:any = {
-        "TYPE":parameters[0],
-        "PARAGRAPH":parameters[1],
+        "TYPE":parameters[0] || '',
+        "PARAGRAPH":parameters[1] || '',
     }
     
     setGeneratedContent("");

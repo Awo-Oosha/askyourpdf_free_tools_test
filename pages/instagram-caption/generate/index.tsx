@@ -50,18 +50,11 @@ const InstagramCaptionGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<3){
-        alerts.error(
-            t`Warning`,
-            "Please select the type post , mood and the hashtags preferences",
-            2000
-          ); 
-        return null;
-    }
+   
     const newParam:any = {
-        "TYPE_OF_POST":parameters[0],
-        "MOOD":parameters[1],
-        "HASHTAGS_PREFERENCES":parameters[2],
+        "TYPE_OF_POST":parameters[0] || '',
+        "MOOD":parameters[1] || '',
+        "HASHTAGS_PREFERENCES":parameters[2] || '',
     }
     
     setGeneratedContent("");

@@ -51,18 +51,11 @@ const RapGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<3){
-        alerts.error(
-            t`Warning`,
-            "Please select the style , best tempo and the complexity",
-            2000
-          ); 
-        return null;
-    }
+    
     const newParam:any = {
-        "STYLE":parameters[0],
-        "BEST_TEMPO":parameters[1],
-        "COMPLEXITY":parameters[2],
+        "STYLE":parameters[0] || '',
+        "BEST_TEMPO":parameters[1] || '',
+        "COMPLEXITY":parameters[2] || '',
         
     }
     

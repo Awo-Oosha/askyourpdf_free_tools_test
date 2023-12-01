@@ -51,18 +51,11 @@ const StoryGeneratorSub = ()=>{
           ); 
         return null;
     }
-    if(parameters.length<3){
-        alerts.error(
-            t`Warning`,
-            "Please select genre, length and settings",
-            2000
-          ); 
-        return null;
-    }
+   
     const newParam:any = {
-        "GENRE":parameters[0],
-        "LENGTH":parameters[1],
-        "SETTINGS":parameters[2],
+        "GENRE":parameters[0] || '',
+        "LENGTH":parameters[1] || '',
+        "SETTINGS":parameters[2] || '',
     }
     
     setGeneratedContent("");
