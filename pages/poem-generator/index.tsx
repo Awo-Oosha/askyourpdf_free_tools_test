@@ -47,13 +47,7 @@ export const options:any = [
         {label:"Time",key:"Time",onClick:(key:any)=>{}},
     ]}
     ,
-    {name:"Rhyming Scheme",data:[
-        {label:"ABAB",key:"ABAB",  onClick:(key:any)=>{}},
-        {label:"AABB",key:"AABB",onClick:(key:any)=>{}},
-       
-    ]}
-
-    ,
+   
     {name:"Length",data:[
         {label:"1",key:"1",  onClick:(key:any)=>{}},
         {label:"2",key:"2",onClick:(key:any)=>{}},

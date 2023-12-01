@@ -36,6 +36,7 @@ export const options: any = [
             { label: "Hip Hop", key: "Hip Hop", onClick: (key: any) => {} },
             { label: "Electronic", key: "Electronic", onClick: (key: any) => {} },
             { label: "R&B", key: "R&B", onClick: (key: any) => {} },
+            { label: "Afro Beat", key: "Afro Beat", onClick: (key: any) => {} },
             // Add more genres as needed
         ]
     },
@@ -49,7 +50,41 @@ export const options: any = [
             { label: "Romantic", key: "Romantic", onClick: (key: any) => {} },
             // Add more moods as needed
         ]
+    },
+    {
+        name: "Select Theme",
+        data: [
+            { label: "Love ", key: "Love", onClick: (key: any) => {} },
+            { label: "Betrayal", key: "Betrayal", onClick: (key: any) => {} },
+            { label: "Success", key: "Success", onClick: (key: any) => {} },
+            
+            // Add more moods as needed
+        ]
+    },
+    {
+        name: "Artist Style",
+        data: [
+            { label: "JayZ", key: "JayZ", onClick: (key: any) => {} },
+            { label: "Beyonce", key: "Beyonce", onClick: (key: any) => {} },
+            { label: "Kendrick Lamar", key: "Kendrick Lamar", onClick: (key: any) => {} },
+            { label: "Burna Boy", key: "Burna Boy", onClick: (key: any) => {} },
+            { label: "Bad bunny", key: "Bad Bunny", onClick: (key: any) => {} },
+            // Add more moods as needed
+        ]
+    },
+    {
+        name: "Chorus/Verse Structure",
+        data: [
+            { label: "1", key: "Happy", onClick: (key: any) => {} },
+            { label: "Sad", key: "Sad", onClick: (key: any) => {} },
+            { label: "Energetic", key: "Energetic", onClick: (key: any) => {} },
+            { label: "Chill", key: "Chill", onClick: (key: any) => {} },
+            { label: "Romantic", key: "Romantic", onClick: (key: any) => {} },
+            // Add more moods as needed
+        ]
     }
+
+    
 ];
 
 const LyricsGenerator = () => {

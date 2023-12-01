@@ -50,11 +50,7 @@ export const options:any = [
         
     ]}
     ,
-    {name:"Mention Preferences",data:[
-        {label:"Include Mentions or not",key:"Include Mentions or not",  onClick:(key:any)=>{}},
-        {label:" Who to Mention",key:"Who to Mention",onClick:(key:any)=>{}},
-        
-    ]}
+    
 ];
 const InstagramCaptionGenerator = () => {
     const router = useRouter();
