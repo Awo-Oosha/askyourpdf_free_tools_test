@@ -1,10 +1,10 @@
 export const path = Object.freeze({
     tools: "/tools",
-    literatureReview: "/tools/literature-review-writer",
-    sourceTool: "/tools/source-tool",
-    ocr: "/tools/ocr",
-    merge: "/tools/merge",
-    split: "/tools/split",
+    literatureReview: "/literature-review-writer",
+    sourceTool: "/source-tool",
+    ocr: "/ocr",
+    merge: "/merge",
+    split: "/split",
     apiPricing:"/api-pricing",
     FAQs: "/faq",
     PrivacyPolicy: "/privacy",
@@ -24,6 +24,17 @@ export const path = Object.freeze({
     summarise: "/summarise",
     pdfToChat: "/pdf-to-chat",
     affiliateProgram: "/affiliate-program",
+    lyrics: "/lyrics-generator",
+    rap: "/rap-generator",
+    instagram: "/instagram-generator",
+    poem: "/poem-generator",
+    thesis: "/thesis-statement",
+    story: "/story-generator",
+    book: "/book-title-generator",
+    essay: "/essay-maker",
+    text: "/text-generator",
+    paragraph: "/paragraph-generator"
+
 });
 
 const DEFAULT_DESCRIPTION =
