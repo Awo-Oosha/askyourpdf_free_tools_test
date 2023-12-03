@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import styled from 'styled-components';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -7,7 +7,6 @@ import { MessageDescriptor } from '@/types/localization';
 import { UrlObject } from 'url';
 
 interface tool_type {
-  key: number,
   icon: any,
   title: MessageDescriptor,
   desc: MessageDescriptor,
@@ -67,28 +66,18 @@ const ToolDesc = styled.p`
 `;
 
 
-const ToolCard = ({key, icon, title, desc, link} : tool_type) => {
+const ToolCard = ({icon, title, desc, link} : tool_type) => {
 
   const { i18n } = useLingui();
-  const [target, setTarget] = useState("_self");
-
-  useEffect(() => {
-    if (title.message !== undefined && title.message) {
-      if (title.message.startsWith("AI")) {
-        setTarget("_blank")
-        console.log(title.message.startsWith('AI'))
-      }
-    }
-  }, [title])
 
   return (
-    <ToolList key={key}>
+    <ToolList>
       <div className='container'>
         <ToolIconContainer>
-          <Image src={icon} alt={icon.name} width={54} height={54} />
+          <Image src={icon} alt={"icon"} width={54} height={54} />
         </ToolIconContainer>
 
-        <ToolTitle href={link} target={target} >
+        <ToolTitle href={link} target={title.message?.startsWith("AI") ? "_blank" : "_self"} >
           {i18n._(title)}
         </ToolTitle>
 
