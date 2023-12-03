@@ -7,7 +7,7 @@ import { MessageDescriptor } from '@/types/localization';
 import { UrlObject } from 'url';
 
 interface tool_type {
-  key: any,
+  key: number,
   icon: any,
   title: MessageDescriptor,
   desc: MessageDescriptor,
@@ -73,9 +73,11 @@ const ToolCard = ({key, icon, title, desc, link} : tool_type) => {
   const [target, setTarget] = useState("_self");
 
   useEffect(() => {
-    if (title.message && title.message !== undefined && title.message.startsWith("AI")) {
-      setTarget("_blank")
-      console.log(title.message.startsWith('AI'))
+    if (title.message !== undefined && title.message) {
+      if (title.message.startsWith("AI")) {
+        setTarget("_blank")
+        console.log(title.message.startsWith('AI'))
+      }
     }
   }, [title])
 

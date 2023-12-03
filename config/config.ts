@@ -332,7 +332,7 @@ export const FAQDATA = [
     {question:"What is AskYourPDF?",answer:"It's an application that lets you chat with any document you upload"},
     {question:"Can I chat in any language?",answer:"Yes, AskYourPDF is multilingual and supports chatting in any language of your choice."},
     {question:"How does it work?",answer:"The application uses artificial intelligence to analyze the content of the document and provide a chat interface for users to ask questions get answers."},
-   {question:"Can I download the chat history?",answer:"Yes, chat history can be downloaded."},
+    {question:"Can I download the chat history?",answer:"Yes, chat history can be downloaded."},
     {question:"Can I upload any document?",answer:""},
     {question:"What if I have a question that the AI can't answer?",answer:" If the answer is in the uploaded document, there's a high likelihood the AI will provide it. The AI is constantly learning, so if it doesn't have an answer, you can always rephrase or ask a different question."},
     {question:"How does billing work?",answer:"AskYourPDF offers three plans: Premium, Pro and Enterprise. "},
