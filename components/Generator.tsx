@@ -403,7 +403,7 @@ return(<div>
         }
         <MarkDownView>
             {content}
-            </MarkDownView>
+          </MarkDownView>
         </div>
     </DividerLast>
 </Divider>

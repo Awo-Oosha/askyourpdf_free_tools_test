@@ -18,7 +18,7 @@ import { useRouter } from "next/router";
 const Generator = dynamic(() => import('@/components/Generator'), {
   ssr: false,
   loading:()=>{
-    return (<FullLoader/>);
+    return null;
   }
 }); 
 

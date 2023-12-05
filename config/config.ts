@@ -349,3 +349,35 @@ export const FAQDATA = [
     {question:"What if I have a question or a problem while using AskYourPDF?",answer:" If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help! "},
     {question:"What does 'additional credits may be required' mean in the pricing section?",answer:"The summarisation service, GPT4 and Claude 2, operate on a credit-based system; while initial credits are provided complimentary as part of your subscription, additional credits may need to be purchased once these are exhausted. All credit purchases are final, non-refundable, and must be used exclusively for the Summarization Service, GPT4, or Claude 2."},
 ]
+
+
+export const GENERATOR_PARAMETERS = {
+        rap_generator : [
+            {
+                type: 'SELECT_TYPE',
+                place_holder: 'Select Style',
+                options: [
+                    { value: 'Old School', label: 'Old School'},
+                    { value: 'Trap', label: 'Trap'},
+                    { value: 'Gangstar', label: 'Gangstar'},
+                ],
+            },
+            {
+                type: 'SELECT_BEST_TEMPO',
+                place_holder: 'Select Best Tempo',
+                options: [
+                    { value: 'fast', label: 'Fast'},
+                    { value: 'medium', label: 'Medium'},
+                    { value: 'slow', label: 'Slow'},
+                ]
+            },
+            {
+                type: 'COMPLEXITY',
+                place_holder: 'Select Complexity',
+                options: [
+                    { value: 'simplicity of words', label: 'Simplicity Of Words'},
+                    { value: 'complex vocabulary', label: 'Complex Vocabulary'},
+                ]
+            }
+        ]
+    };
