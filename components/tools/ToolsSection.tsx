@@ -87,7 +87,7 @@ const ToolsSection = () => {
         </div>
 
 
-        <div>
+        {/* <div>
           <ButtomCard>
             {FreeToolsData.filter(item => !item.title.message?.startsWith("AI")).map((item, key) => (
               <div key={key}>
@@ -96,7 +96,7 @@ const ToolsSection = () => {
               </div>
             ))}
           </ButtomCard>
-        </div>
+        </div> */}
       </ToolListContainer>
     </Wrapper>
   );
