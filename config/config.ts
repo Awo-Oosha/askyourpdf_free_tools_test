@@ -417,6 +417,33 @@ export const GENERATOR_PARAMETERS = {
                     { value: "Technical", label: "Tenchnical" },
                 ]
             }
+        ],
+
+        essay_maker : [
+            {
+                type: "TYPE",
+                place_holder: "Select Type",
+                options: [
+                    {value: "Argumentative", label: "Argumentative"},
+                    {value: "Descriptive", label: "Descriptive"},
+                    {value: "Narrative", label: "Narrative"},
+                    {value: "Expository", label: "Expository"},
+            ]},
+            {
+                type: "PARAGRAPH",
+                place_holder: "Number of Paragraphs",
+                options: [
+                    {value: "Clear", label: ""},
+                    {value: "1", label: "One"},
+                    {value: "2", label: "Two"},
+                    {value: "3", label: "Three"},
+                    {value: "4", label: "Four"},
+                    {value: "5", label: "Five"},
+                    {value: "6", label: "Six"},
+                    {value: "7", label: "Seven"},
+                    {value: "8", label: "Eight"},
+                ]
+            }
         ]
     };
 

@@ -81,7 +81,8 @@ const { mutate, isLoading } = useMutation(
       generateResult={generatedResult}
       pdfTitle={'Rap'}
       isLoading={isLoading}
-      lang = {setLanguage}   
+      lang = {setLanguage}
+      cta_title={t`Generate Rap`}      
     />
   );
 };

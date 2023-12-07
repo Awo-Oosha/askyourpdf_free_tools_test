@@ -47,7 +47,7 @@ const { mutate, isLoading } = useMutation(
       throw new Error('generateInput and generateParameters cannot be empty');
 
     }
-    await GenerateCall('BOOK_TITLE_GENERATOR', generateInput, generateParameters);
+    await GenerateCall('ESSAY_WRITER', generateInput, generateParameters);
 
     setGenerateInput("");
   },
@@ -67,22 +67,22 @@ const { mutate, isLoading } = useMutation(
 
   return (
     <Generator
-      header={t`AI Book Title Generator`}
-      subheader={t`Book Title Generator`}
-      desc={t`Fill in the field (s) below to generate your book title`}
-      mainBarDesc={t`Book Title Generator`}
+      header={t`AI Essay Maker`}
+      subheader={t`Essay Maker`}
+      desc={t`Fill in the field (s) below to generate your Essay`}
+      mainBarDesc={t`Essay Maker`}
       inputValue={generateInput}
       setInputValue={(e: React.ChangeEvent<HTMLInputElement>) => setGenerateInput(e.target.value)}
       params={generateParameters}
       setparams={setGenerateParameters}
-      generatorOptions={GENERATOR_PARAMETERS.book_title_generator}
+      generatorOptions={GENERATOR_PARAMETERS.essay_maker}
       generateClick={handleGenerateClick}
       paramsChange={handleParameterChange}
       generateResult={generatedResult}
-      pdfTitle={t`Book Title`}
+      pdfTitle={t`Essay`}
       isLoading={isLoading}
       lang = {setLanguage}
-      cta_title={t`Generate Book Title`}   
+      cta_title={t`Generate Essay`}      
     />
   );
 };

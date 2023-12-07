@@ -72,7 +72,8 @@ const SideBar = ({
   generatorOptions, 
   generateClick, 
   paramsChange, 
-  isLoading 
+  isLoading,
+  cta_title 
 }: any) => {
   
   return (
@@ -96,6 +97,7 @@ const SideBar = ({
         <GenerateCTA
           handleGenerateClick={generateClick}
           isLoading={isLoading}
+          cta_title={cta_title}
         />
       </InnerContainer>
     </Container>

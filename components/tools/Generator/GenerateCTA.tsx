@@ -24,10 +24,10 @@ const Button = styled.button`
 `;
 
 
-const GenerateCTA = ({ handleGenerateClick, isLoading }: any) => {
+const GenerateCTA = ({ handleGenerateClick, isLoading, cta_title }: any) => {
   return (
     <Button onClick={handleGenerateClick} disabled={isLoading}>
-      Generate Rap
+      {cta_title}
       {isLoading ?
         <Spinner
           style={{ width: '20px', height: '20px' }}

@@ -88,7 +88,8 @@ const Generator = ({
   generateResult,
   pdfTitle,
   isLoading,
-  lang 
+  lang,
+  cta_title 
 }:any) => {
 
   return (
@@ -112,6 +113,7 @@ const Generator = ({
             generateClick={generateClick}
             paramsChange={paramsChange}
             isLoading={isLoading}
+            cta_title = {cta_title}
           />
           <GeneratorMainBar
             generateResult={generateResult}
