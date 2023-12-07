@@ -1,18 +1,15 @@
-import React, {ChangeEvent, useEffect, useRef, useState} from "react";
+import React from "react";
 import LyricsGen from "@/img/AI-Paragraph- Generator.png";
-import {alerts} from "@/utils/alerts";
 import {t, Trans} from "@lingui/macro";
-import {GetStaticPaths, GetStaticProps} from "next";
+import { GetStaticProps } from "next";
 import {loadCatalog} from "@/utils/i18n";
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
+import Hero from "@/components/FreeLanding/Hero";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {FAQDATA , MAIN_APP_URL} from "@/config/config";
-import {useRouter} from "next/router";
-import {routerData } from "@/services/libtools";
+import { GENERATOR_PARAMETERS } from "@/config/config";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadCatalog(ctx.locale!);
@@ -27,64 +24,26 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     };
 };
 
-export const options:any = [
-    {name:"Select Genre",data:[
-        {label:"Fiction",key:"Fiction",  onClick:(key:any)=>{}},
-        {label:"Non-Fiction",key:"Non-Fiction",  onClick:(key:any)=>{}},
-        {label:"Misery",key:"Misery",  onClick:(key:any)=>{}},
-        {label:"Novel",key:"Novel",  onClick:(key:any)=>{}},
-        {label:"Thriller",key:"Thriller",  onClick:(key:any)=>{}},
-        {label:"Fantasy",key:"Fantasy",  onClick:(key:any)=>{}},
-        {label:"Sci-Fi",key:"Sci-Fi",  onClick:(key:any)=>{}},
-        {label:"Narrative",key:"Narrative",  onClick:(key:any)=>{}},
-    ]},
-    {name:"Select Target Audience ",data:[
-        {label:"Children",key:"Children",  onClick:(key:any)=>{}},
-        {label:"YA",key:"YA",onClick:(key:any)=>{}},
-        {label:"Adults",key:"Adults",onClick:(key:any)=>{}},
-    ]}
-    ,
-    {name:"Mood/Tone",data:[
-        {label:"Professional",key:"Professional",  onClick:(key:any)=>{}},
-        {label:"Casual",key:"Casual",  onClick:(key:any)=>{}},
-        {label:"Technical",key:"Tenchnical",  onClick:(key:any)=>{}},
-    ]}
-    
-];
+
 const BookTitleGenerator = () => {
-    const router = useRouter();
-
-    const textfields:any=[
-        {placeholder:t`Input some line here to begin`,height:"90px"},
-    ];
     const faqs= FAQDATA;
-    return (<div>
-        <Navbar/>
-        <Hero 
-        image={LyricsGen} 
-        title={t`AI Book Title Generator`} 
-        description={t`Book Title Generator`}
-        fields={textfields}
-        buttonText={"Generate Book"}
-        buttonFunction={(text:any,items:any)=>{
-            if(text[0]==''  || text[0]==null){
-                alerts.error(
-                    t`Warning`,
-                    "Please enter some text",
-                    2000
-                  ); 
-                return null;
-            }
-            
-             routerData(text,items,"./book-title-generator/generate");
-        }}
-        selectOptions={options} 
-        />
-        <FAQ data={faqs}/>
-        <Footer/>
-
-    </div>);
- 
+    return (
+        <div>
+            <Navbar />
+            <Hero
+                generator="BOOK_TITLE_GENERATOR"
+                params={GENERATOR_PARAMETERS.book_title_generator}
+                title={t`AI Book Title Generator`}
+                desc={t`Book Title Generator `}
+                img={LyricsGen}
+                placeholder={t`Input some line here to begin `}
+                routerPath={'book-title-generator/generate'}
+                CtaTitle={t`Generate Book`}
+            />
+            <FAQ data={faqs} />
+            <Footer />
+        </div>
+    );
 };
 
 export default BookTitleGenerator;

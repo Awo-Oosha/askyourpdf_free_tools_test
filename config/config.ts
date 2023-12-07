@@ -379,6 +379,44 @@ export const GENERATOR_PARAMETERS = {
                     { value: 'complex vocabulary', label: 'Complex Vocabulary'},
                 ]
             }
+        ],
+
+        book_title_generator : [
+            {
+                type: "GENRE",
+                place_holder: "Select Genre",
+                options : [
+                    { value: "Fiction", label: "Fiction" },
+                    { value: "Non-Fiction", label: "Non-Fiction" },
+                    { value: "Misery", label: "Misery" },
+                    { value: "Novel", label: "Novel" },
+                    { value: "Thriller", label: "Thriller" },
+                    { value: "Fantasy", label: "Fantasy" },
+                    { value: "Sci-Fi", label: "Sci-Fi" },
+                    { value: "Narrative", label: "Narrative" },
+                ]
+            },
+
+            {
+
+                type: "TARGET_AUDIENCE",
+                place_holder:"Select Target Audience ",
+                options : [
+                    { value: "Children", label: "Children" },
+                    { value: "YA", label: "YA" },
+                    { value: "Adults", label: "Adults" },
+                ]
+            }
+            ,
+            {
+                type:"MOOD/TONE",
+                place_holder:"Mood/Tone",
+                options : [
+                    { value: "Professional", label: "Professional" },
+                    { value: "Casual", label: "Casual" },
+                    { value: "Technical", label: "Tenchnical" },
+                ]
+            }
         ]
     };
 
