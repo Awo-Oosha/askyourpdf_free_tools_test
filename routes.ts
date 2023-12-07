@@ -26,7 +26,7 @@ export const path = Object.freeze({
     affiliateProgram: "/affiliate-program",
     lyrics: "/lyrics-generator",
     rap: "/rap-generator",
-    instagram: "/instagram-generator",
+    instagram: "/instagram-caption",
     poem: "/poem-generator",
     thesis: "/thesis-statement",
     story: "/story-generator",

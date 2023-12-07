@@ -433,7 +433,7 @@ export const GENERATOR_PARAMETERS = {
                 type: "PARAGRAPH",
                 place_holder: "Number of Paragraphs",
                 options: [
-                    {value: "Clear", label: ""},
+                    {value: "", label: "Clear"},
                     {value: "1", label: "One"},
                     {value: "2", label: "Two"},
                     {value: "3", label: "Three"},
@@ -448,6 +448,7 @@ export const GENERATOR_PARAMETERS = {
 
         instagram_caption: [
             {
+                type: "TYPE_OF_POST",
                 place_holder:"Select Type of Post",
                 options: [
                         {value : "Travel", label:"Travel",  },
@@ -456,6 +457,7 @@ export const GENERATOR_PARAMETERS = {
                     ]
                 },
             {
+                type: "Mood",
                 place_holder:"Select Mood ",
                 options: [
                         {value : "Funny", label:"Funny",  },
@@ -467,10 +469,11 @@ export const GENERATOR_PARAMETERS = {
                 }
             ,
             {
+                type: "HASHTAGS_PREFERENCES",
                 place_holder:"Hashtags Preferences",
                 options: [
-                        {value : "Clear", label:"",  },
-                        {value : "Include Hashtag", label:JSON.stringify({type:"object",title:"Hashtag Prefrence",desc:"Add hastags below",default:""}),  },
+                        {value : "", label: "Clear",  },
+                        {value : "Include Hashtag", label: "Include Hashtag"},
                 ]
             }
         ]
