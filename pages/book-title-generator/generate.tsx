@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import dynamic from 'next/dynamic';
 import useGenerateInput from '@/hooks/useGenerator';
 import { GENERATOR_PARAMETERS } from '@/config/config';
 import { alerts } from '@/utils/alerts';
 import { useMutation } from 'react-query';
-import { Trans, t } from '@lingui/macro';
-import { ChatLocales } from "@/config/config";
+import { t } from '@lingui/macro';
 
 
 interface IndexProps { }

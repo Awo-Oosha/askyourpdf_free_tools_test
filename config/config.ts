@@ -444,6 +444,35 @@ export const GENERATOR_PARAMETERS = {
                     {value: "8", label: "Eight"},
                 ]
             }
+        ],
+
+        instagram_caption: [
+            {
+                place_holder:"Select Type of Post",
+                options: [
+                        {value : "Travel", label:"Travel",  },
+                        {value : "Food", label:"Food",},
+                        {value : "Passion", label:"Passion",},
+                    ]
+                },
+            {
+                place_holder:"Select Mood ",
+                options: [
+                        {value : "Funny", label:"Funny",  },
+                        {value : "Inspirational", label:"Inspirational",},
+                        {value : "Casual", label:"Casual",},
+                        {value : "Serious", label:"Serious",},
+
+                    ]
+                }
+            ,
+            {
+                place_holder:"Hashtags Preferences",
+                options: [
+                        {value : "Clear", label:"",  },
+                        {value : "Include Hashtag", label:JSON.stringify({type:"object",title:"Hashtag Prefrence",desc:"Add hastags below",default:""}),  },
+                ]
+            }
         ]
     };
 
