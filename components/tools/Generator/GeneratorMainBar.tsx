@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from 'react'
-import styled, {keyframes} from 'styled-components';
+import React, { useState, useEffect, useLayoutEffect } from 'react'
+import styled, { keyframes } from 'styled-components';
 import CopyIcon from "@/img/CopyIcon.svg?url";
 import Export from "@/img/Export-r.svg?url";
 import Image from 'next/image';
@@ -10,7 +10,7 @@ import { covertToItalics, getCurrentTimestamp, removeMarkdown } from "@/utils/ut
 import { ToolsPDFExport } from "@/components/ToolsPDFExport";
 import { usePDF } from "@react-pdf/renderer";
 import Spinner from '@/components/Spinner';
-
+import { useRouter } from 'next/router';
 
 
 
@@ -117,6 +117,8 @@ const LoadState = styled.div`
 
 const GenerateContentBody = styled.div`
   padding: 30px 24px;
+  max-height: 400px; 
+  overflow-y: auto; 
   
   div {
     color: #667085;
@@ -125,25 +127,72 @@ const GenerateContentBody = styled.div`
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
 
     pre {
       color: #667085;
-      font-family: var(--font-inter);
+      font-family: var(--font-satoshi);
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      white-space: pre-wrap;
     }
   }
 
   @media (max-width: 992px) {
     min-height: 300px;
   }
+
+  &::-webkit-scrollbar {
+    width: 2px !important;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #000; 
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #d3d3d3; 
+    border-radius: 4px;
+  }
 `;
 
 
-const GeneratorMainBar = ({ generateResult, pdfTitle, isLoading }: any) => {
+
+
+const GeneratorMainBar = ({ generateResult, pdfTitle, isLoading, mainBarDesc }: any) => {
   let title = pdfTitle;
+
+  const router = useRouter();
+
+  const [apiData, setApiData] = useState<any>();
+
+  useEffect(() => {
+    // Retrieve the API data from the query parameters
+    const dataFromQuery: string | undefined | string[] = router.query.data;
+
+    if (dataFromQuery && !generateResult) {
+      if (Array.isArray(dataFromQuery)) {
+        // Handle the case where apiData is an array 
+        setApiData(JSON.parse(dataFromQuery[0]));
+      } else {
+        // Handle the case where apiData is a string
+        setApiData(JSON.parse(dataFromQuery));
+      }
+    } else if (generateResult !== dataFromQuery) {
+      router.replace({
+        query: "",
+      })
+      setApiData(generateResult)
+    }
+  }, [generateResult, router.query.data]);
+
   const [instance, updateInstance] = usePDF({
     document: ToolsPDFExport(
       covertToItalics(removeMarkdown(generateResult)),
@@ -181,7 +230,7 @@ const GeneratorMainBar = ({ generateResult, pdfTitle, isLoading }: any) => {
   return (
     <Container>
       <Heading>
-        <span>Generate Rap</span>
+        <span>{mainBarDesc}</span>
         <GenerateActions>
           <div className="copyAndExport">
             <CopyToClipboard
@@ -197,7 +246,7 @@ const GeneratorMainBar = ({ generateResult, pdfTitle, isLoading }: any) => {
             <button
               className="export"
               onClick={exportPDF}
-              >
+            >
               PDF <Image src={Export} alt="" />
             </button>
           </div>
@@ -209,10 +258,10 @@ const GeneratorMainBar = ({ generateResult, pdfTitle, isLoading }: any) => {
           {isLoading ? (
             <LoadState>
               <Spinner style={{ width: '50px', height: '50px' }} />
-              <p><Trans>Generating Request...</Trans></p>
+              <p><Trans>Generating...</Trans></p>
             </LoadState>
           ) : (
-            <pre>{generateResult}</pre>
+            <pre>{apiData}</pre>
           )}
         </div>
       </GenerateContentBody>

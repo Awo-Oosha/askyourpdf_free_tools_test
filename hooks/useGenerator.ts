@@ -1,27 +1,36 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { TOOLS_GEN_URL } from "@/config/config";
+import { ChatLocales } from "@/config/config";
+import { useRouter } from "next/router";
+import { alerts } from "@/utils/alerts";
 
 
 
 function useGenerateInput() {
   const [generateInput, setGenerateInput] = useState<any>(null);
   const [generateParameters, setGenerateParameters] = useState<any>({});
-  const [generatedResult, setGeneratedResult] = useState<string>("")
-  
+  const [generatedResult, setGeneratedResult] = useState<string>("");
+  const [language, setLanguage] = useState<any>(null);
+  const langValue = ChatLocales[language];
 
-
+  useEffect(() => {
+    if(language === null || undefined) {
+      setLanguage("ENGLISH")
+    } 
+  }, [language]) 
 async function GenerateCall(
-  action: string,
+  action: any,
   text: string,
   parameters: {},
-  language?: string
 ) {
+
+
   const data = {
     action: action,
     text: text,
     parameters: parameters,
     model_temperature: 1,
-    language: language,
+    language: langValue,
   };
 
   try {
@@ -39,14 +48,15 @@ async function GenerateCall(
     }
 
     const responseData = await response.text();
-    // console.log(responseData)
-    setGeneratedResult(responseData)
-    // console.log('POST request successful:', responseData);
+    setGeneratedResult(responseData);
+    
+    return { success: true, data: responseData };
   } catch (error) {
-    console.error('Error in generateCall:', (error as Error).message);
+    console.error('Error in GenerateCall:', (error as Error).message);
+    alerts.error('Error in Generating', (error as Error).message)
+    return { success: false, error: (error as Error).message };
   }
 }
-
 
   return {
     generateInput,
@@ -55,7 +65,9 @@ async function GenerateCall(
     setGenerateParameters,
     GenerateCall,
     generatedResult,
-    setGeneratedResult
+    setGeneratedResult,
+    setLanguage,
+    language
   };
 }
 

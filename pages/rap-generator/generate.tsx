@@ -5,10 +5,7 @@ import { GENERATOR_PARAMETERS } from '@/config/config';
 import { alerts } from '@/utils/alerts';
 import { useMutation } from 'react-query';
 import { Trans, t } from '@lingui/macro';
-
-
-
-
+import { ChatLocales } from "@/config/config";
 
 
 interface IndexProps { }
@@ -19,20 +16,19 @@ const Generator = dynamic(() => import('@/components/tools/Generator/Generator')
 });
 
 const Index: React.FC<IndexProps> = () => {
+  //  Custom hooks
   const {
     generateInput,
     setGenerateInput,
     generateParameters,
     setGenerateParameters,
     generatedResult, 
-    GenerateCall
+    GenerateCall,
+    setLanguage
 
   } = useGenerateInput();
 
-  useEffect(() => {
-    console.log(generateInput);
-  }, [generateInput]);
-
+  // Generate Page Parameters
   const handleParameterChange = (type: string, generateParameter: any) => {
     setGenerateParameters((prevState: any) => ({
       ...prevState,
@@ -51,7 +47,7 @@ const { mutate, isLoading } = useMutation(
       throw new Error('generateInput and generateParameters cannot be empty');
 
     }
-    await GenerateCall('LYRICS_GENERATOR', generateInput, generateParameters, 'ENGLISH');
+    await GenerateCall('LYRICS_GENERATOR', generateInput, generateParameters);
 
     setGenerateInput("");
   },
@@ -74,6 +70,7 @@ const { mutate, isLoading } = useMutation(
       header="AI Rap Generator"
       subheader="Rap Generator"
       desc="Fill in the field (s) below to generate your Rap"
+      mainBarDesc = "Rap Generator"
       inputValue={generateInput}
       setInputValue={(e: React.ChangeEvent<HTMLInputElement>) => setGenerateInput(e.target.value)}
       params={generateParameters}
@@ -83,7 +80,8 @@ const { mutate, isLoading } = useMutation(
       paramsChange={handleParameterChange}
       generateResult={generatedResult}
       pdfTitle={'Rap'}
-      isLoading={isLoading}   
+      isLoading={isLoading}
+      lang = {setLanguage}   
     />
   );
 };

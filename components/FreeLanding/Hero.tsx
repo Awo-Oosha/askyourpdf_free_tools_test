@@ -1,19 +1,19 @@
-import React, { useState, useRef, Fragment, use } from "react";
+import React, { useRef, Fragment, useEffect } from "react";
 import { Container } from "../../styles/styles";
 import styled from "styled-components";
 import HeroImage from "../../img/Hero.webp";
 import { LandingFlexCol } from "../../styles/landing";
 import { Trans } from "@lingui/macro";
 import Image from "next/image";
-import dynamic from "next/dynamic";
 import { useMedia } from "react-use";
-import LyricsGen from "@/img/AI-Rap-Generator.png";
-import { GENERATOR_PARAMETERS } from "@/config/config";
 import { Select } from "antd";
 import useGenerateInput from "@/hooks/useGenerator";
 import { alerts } from "@/utils/alerts";
 import { useMutation } from "react-query";
 import { useRouter } from "next/router";
+import Spinner from "../Spinner";
+
+
 
 const HeroContainer = styled.section<{ $backgroundImage?: string }>`
   background-color: #141314;
@@ -131,7 +131,8 @@ const HeroText = styled.div`
 
 const ParametersContainer = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  width: 100%;
   justify-content: center;
   align-items: center;
   gap: 40px;
@@ -141,42 +142,63 @@ const ParametersContainer = styled.div`
     border: 2px solid #EDB01A;
     color: #EDB01A;
     background: transparent;
-    min-width: 150px;
+    min-width: 100%;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-    font-family: var(--font-inter);
+    font-family: var(--font-satoshi);
 
-    .ant-select-selector{
+
+    &:hover,
+    &:focus {
+      border-color: #EDB01A; // Set the border color on hover or focus
+      box-shadow: none; // Remove box shadow on hover or focus
+    }
+
+    .ant-select-selector {
       background: transparent;
       color: #EDB01A !important;
-      border-color: #000;
+      border: none;
       font-size: 14px !important;
     }
 
-    .ant-select-selection-search{
+    .ant-select-selection-search,
+    .ant-select-selection-search-input,
+    .ant-select-selection-placeholder {
       color: #EDB01A !important;
-    }
-    .ant-select-selection-search-input{
-      color: #EDB01A !important;
-    }
-    .ant-select-selection-placeholder{ 
-      color: #EDB01A;
-      font-size: 14px !important;
     }
 
-    .ant-select-arrow{.anticon {svg{fill: #EDB01A;}}}
+    .ant-select-arrow {
+      .anticon {
+        svg {
+          fill: #EDB01A;
+        }
+      }
+    }
+  }
+  @media (min-width: 992px) {
+    flex-direction: row;
+
+    .select {
+      min-width: 200px;
+    }
   }
 `;
+
 
 const ParametersTitle = styled.div``
 
 const HeroHeadImage = styled.div`
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
 
   img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+
+  @media (min-width: 992px) {
+    width: 100px;
+    height: 100px;
   }
 `;
 
@@ -189,10 +211,11 @@ const Input = styled.textarea`
   padding: 11px 12px;
   resize: none;
   color: #fff;
+  font-family: var(--font-satoshi);
 
   &::placeholder {
     color: #667085;
-    font-family: var(--font-inter);
+    font-family: var(--font-satoshi);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -207,12 +230,12 @@ const InputContainer = styled.div`
 `;
 
 const CTA = styled.button`
-  cursor: pointer;
+  cursor: ${(props) => props.disabled ? 'not-allowed' : 'pointer'};
   border: none;
   border-radius: 12px;
-  background: #EDB01A;
+  background: ${(props) => props.disabled ? '#000' : '#EDB01A'};
   box-shadow: 0px -1px 0px 0px rgba(47, 43, 67, 0.10) inset, 0px 1px 3px 0px rgba(47, 43, 67, 0.10);
-  color: #000;
+  color: ${(props) => props.disabled ? '#FFF' : '#000'};
   text-align: center;
   font-family: var(--font-satoshi);
   font-size: 14px;
@@ -220,17 +243,51 @@ const CTA = styled.button`
   font-weight: 700;
   line-height: 24px; /* 150% */
   letter-spacing: -0.16px;
-  padding: 12px 20px;
+  padding: 12px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all 0.5s ease;
 `;
 
 
-export default function Hero() {
+export default function Hero(
+  {
+  generator, 
+  title, 
+  desc, 
+  img, 
+  params, 
+  placeholder,
+  routerPath,
+  CtaTitle
+}:{
+    generator: string,
+    title: string,
+    desc: string,
+    img: any,
+    params: any,
+    placeholder: string,
+    routerPath: any,
+    CtaTitle: string,
+  }) {
+
   const ref = useRef(null);
 
   const isSmallScreen = useMedia('(min-width: 576px)', false);
 
-  const { generateInput, setGenerateInput, generateParameters, setGenerateParameters, GenerateCall, generatedResult, setGeneratedResult} = useGenerateInput();
+  const { 
+    generateInput, 
+    setGenerateInput, 
+    generateParameters, 
+    setGenerateParameters, 
+    GenerateCall, 
+    generatedResult} = useGenerateInput();
+  
   const router = useRouter()
+
+  // Grabs Select Parameters for request
   const handleParameterChange = (type: string, generateParameter: any) => {
     setGenerateParameters((prevState: any) => ({
       ...prevState,
@@ -238,7 +295,8 @@ export default function Hero() {
     }));
   };
 
-
+  
+  // Api request
   const { mutate, isLoading } = useMutation(
     'generateDocument',
     async () => {
@@ -246,16 +304,12 @@ export default function Hero() {
       if (!generateInput) {
         alerts.error('Generate Failed', 'The text field cannot be empty. Please try again.');
 
-        throw new Error('generateInput and generateParameters cannot be empty');
+        // throw new Error('generateInput and generateParameters cannot be empty');
 
       }
-      await GenerateCall('LYRICS_GENERATOR', generateInput, generateParameters, 'ENGLISH');
+      await GenerateCall( generator, generateInput, generateParameters);
       
-      localStorage.setItem('home_response', generatedResult);
-      console.log(generatedResult)
-
       setGenerateInput("");
-
       
     },
     {
@@ -266,13 +320,22 @@ export default function Hero() {
     }
   );
 
+// Grabs Index response
 
+  useEffect(() => {
+    if (generatedResult !== "" && generatedResult !== undefined && generatedResult !== null) {
+      router.push({
+        pathname: routerPath,
+        query: { data: JSON.stringify(generatedResult) },
+      });
+    }
+  }, [generatedResult, router])
+
+
+  // Handles Hero CTA Click
   const handleGenerateClick = () => {
-
     mutate()
     // Trigger the mutation
-    console.log(generateInput)
-    console.log(generateParameters)
   };
 
   return (
@@ -292,27 +355,27 @@ export default function Hero() {
                   
                   <HeroText>
                     <HeroHeadImage>
-                      <Image src={LyricsGen} alt="" />
+                      <Image src={img} alt="" />
                     </HeroHeadImage>
                       
                       <h1>
-                        <Trans>Rap Generator</Trans>
+                        <Trans>{title}</Trans>
                       </h1>
                       <p>
-                        Rap Generator
+                        {desc}
                       </p>
                   </HeroText>
 
                   <InputContainer>
                     <Input
-                      placeholder='Input some line here to begin '
+                      placeholder={placeholder}
                       value={generateInput}
                       onChange={(e) => setGenerateInput(e.target.value)}
                     />
                   </InputContainer>
 
                   <ParametersContainer>
-                    {GENERATOR_PARAMETERS.rap_generator.map((item: any, key: any) => (
+                    {params.map((item: any, key: any) => (
                       <Fragment key={key}>
                         {/* <ParametersTitle>{item.place_holder}</ParametersTitle> */}
                         <Select
@@ -328,9 +391,10 @@ export default function Hero() {
                     ))}
                   </ParametersContainer>
                   
-                  <CTA onClick={handleGenerateClick}>
-                    Generate Rap
-                  </CTA>
+                  <CTA onClick={handleGenerateClick} disabled={isLoading}>
+                    {CtaTitle}
+                    {isLoading ? (<Spinner style={{width: '20px', height: '20px'}} />) : null}
+                   </CTA>
               </Wrapper>
           </Container>
       </HeroContainer>

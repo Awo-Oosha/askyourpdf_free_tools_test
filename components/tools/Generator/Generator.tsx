@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import GeneratorSideBar from "./GeneratorSideBar";
 import GeneratorMainBar from './GeneratorMainBar';
 import MobileHeader from '@/components/MobileHeader';
+import LanguageSelect from './LanguageSelect';
 
 
 const Wrapper = styled.section`
@@ -25,20 +26,39 @@ const Header = styled.div`
   flex-direction: column;
   gap: 20px;
   
-  h2, p {
+  h2 {
     color: #101828;
-    font-family: var(--font-satoshi);
-    font-size: 40px;
+    font-size: 21px;
     font-style: normal;
     font-weight: 700;
     line-height: 28px; 
+    font-family: var(--font-satoshi);
   }
 
   p {
+    font-family: var(--font-satoshi);
     font-size: 14px;
     padding: 8px 16px;
     border-radius: 8px;
     border: 1px solid #D0D5DD;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    color: #101828;
+
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media (min-width: 992px) {
+    h2 {
+      font-size: 40px;
+    }
   }
 `;
 
@@ -48,7 +68,8 @@ const GeneratorBody = styled.div`
   gap: 21px;
   margin-top: 20px;
   height: 100%;
-  
+  width: 100%;
+    
   @media (min-width: 992px) {
     flex-direction: row;
   }
@@ -58,6 +79,7 @@ const Generator = ({
   header, 
   subheader, 
   desc,
+  mainBarDesc,
   inputValue,
   setInputValue,
   generatorOptions,
@@ -65,7 +87,8 @@ const Generator = ({
   paramsChange,
   generateResult,
   pdfTitle,
-  isLoading 
+  isLoading,
+  lang 
 }:any) => {
 
   return (
@@ -73,7 +96,10 @@ const Generator = ({
       <MobileHeader />
       <Wrapper>
         <Header>
-          <h2> {header} </h2>
+          <div className='top'>
+            <h2> {header} </h2>
+            <LanguageSelect lang={lang} />
+          </div>
           <p> {subheader} </p>
         </Header>
 
@@ -91,6 +117,7 @@ const Generator = ({
             generateResult={generateResult}
             pdfTitle={pdfTitle}
             isLoading={isLoading}
+            mainBarDesc={mainBarDesc}
           />
         </GeneratorBody>
       </Wrapper>

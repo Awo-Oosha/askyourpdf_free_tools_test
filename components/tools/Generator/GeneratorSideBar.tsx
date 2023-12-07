@@ -38,10 +38,11 @@ const Input = styled.textarea`
   background: #FFF;
   padding: 11px 12px;
   resize: none;
+  font-family: var(--font-satoshi);
 
   &::placeholder {
     color: #667085;
-    font-family: var(--font-inter);
+    font-family: var(--font-satoshi);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -64,7 +65,16 @@ const InnerContainer = styled.div`
   width: 90%;
 `;
 
-const SideBar = ({ desc, inputValue, setInputValue, generatorOptions, generateClick, paramsChange, isLoading }: any) => {
+const SideBar = ({ 
+  desc, 
+  inputValue, 
+  setInputValue, 
+  generatorOptions, 
+  generateClick, 
+  paramsChange, 
+  isLoading 
+}: any) => {
+  
   return (
     <Container>
       <InnerContainer className='innerContainer'>
