@@ -1,5 +1,5 @@
 import React from "react";
-import LyricsGen from "@/img/AI-Paragraph- Generator.png";
+import LyricsGen from "@/img/AI-Paragraph-Generator.png";
 import {t, Trans} from "@lingui/macro";
 import { GetStaticProps } from "next";
 import {loadCatalog} from "@/utils/i18n";
