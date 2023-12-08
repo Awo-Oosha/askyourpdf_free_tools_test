@@ -24,9 +24,9 @@ export function useLinguiInit(messages: Messages) {
   const locale = router.locale || router.defaultLocale!;
   const isClient = typeof window !== "undefined";
 
-  if (!isClient && locale !== i18n.locale) {
-    i18n.loadAndActivate({ locale, messages });
-  }
+  // if (!isClient && locale !== i18n.locale) {
+  //   i18n.loadAndActivate({ locale, messages });
+  // }
   if (isClient && i18n.locale === undefined) {
     i18n.loadAndActivate({ locale, messages });
   }
