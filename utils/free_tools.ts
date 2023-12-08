@@ -34,42 +34,42 @@ interface free_tools_data {
 export const FreeToolsData : free_tools_data[] = [
   {
     icon: EyeIcon,
-    target: "_self",
+    target: "_blank",
     title: msg`Literature Review Tool`,
     desc: msg`Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work.`,
     link: path.literatureReview
   },
   {
     icon: SplitIcon,
-    target: "_self",
+    target: "_blank",
     title: msg`PDF Splitter`,
     desc: msg`Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks.`,
     link: path.split
   },
   {
     icon: MergeIcon,
-    target: "_self",
+    target: "_blank",
     title: msg`PDF Merger`,
     desc: msg`With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting.`,
     link: path.merge
   },
   {
     icon: CompressIcon,
-    target: "_self",
+    target: "_blank",
     title: msg`PDF Compressor`,
     desc: msg`Effortlessly shrink PDFs for quicker sharing and storage, while preserving quality, all with the precision of AI.`,
     link: ""
   },
   {
     icon: ScanIcon,
-    target: "_self",
+    target: "_blank",
     title: msg`OCR PDF Reader`,
     desc: msg`Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader.`,
     link: path.ocr
   },
   {
     icon: SourceIcon,
-    target: "_self",
+    target: "_blank",
     title: msg`Source Tool`,
     desc: msg`Leverage the power of artificial intelligence to discover, analyse, and recommend sources of relevant to your needs.`,
     link: path.sourceTool

@@ -32,6 +32,22 @@ const ToolList = styled.div`
     padding-left: 25px;
     padding-right: 25px;
     width: 100%;
+
+    a {
+      text-decoration: none;
+      position: relative;
+      border-radius: 16px;
+      background: #F9FAFB;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 8px;
+      max-width: 100%;
+      min-height: 200px;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
   }
 
   @media (min-width: 992px) {
@@ -39,7 +55,7 @@ const ToolList = styled.div`
   }
 `;
 
-const ToolTitle = styled(Link)`
+const ToolTitle = styled.div`
   color: #101828;
   font-family: var(--font-satoshi);
   font-size: 19.844px;
@@ -47,7 +63,6 @@ const ToolTitle = styled(Link)`
   font-weight: 700;
   line-height: 30px;
   padding-top: 16px;
-  text-decoration: none;
 `;
 
 const ToolIconContainer = styled.div`
@@ -75,17 +90,19 @@ const ToolCard = ({icon, target, title, desc, link} : tool_type) => {
   return (
     <ToolList>
       <div className='container'>
-        <ToolIconContainer>
-          <Image src={icon} alt={"icon"} width={54} height={54} />
-        </ToolIconContainer>
+        <Link href={link} target={target} >
+          <ToolIconContainer>
+            <Image src={icon} alt={"icon"} width={54} height={54} />
+          </ToolIconContainer>
 
-        <ToolTitle href={link} target={target} >
-          {i18n._(title)}
-        </ToolTitle>
+          <ToolTitle>
+            {i18n._(title)}
+          </ToolTitle>
 
-        <ToolDesc>
-          {i18n._(desc)}
-        </ToolDesc>
+          <ToolDesc>
+            {i18n._(desc)}
+          </ToolDesc>
+        </Link>
       </div>
     </ToolList>
   )
