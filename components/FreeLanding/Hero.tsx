@@ -221,12 +221,17 @@ const Input = styled.textarea`
     font-weight: 400;
     line-height: 20px;
   }
+  @media (min-width: 992px) {
+    width: 70%;
+  }
 `;
 
 const InputContainer = styled.div`
   width: 100%;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 `;
 
 const CTA = styled.button`
