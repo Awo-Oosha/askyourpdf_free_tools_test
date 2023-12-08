@@ -5,8 +5,6 @@ import { GENERATOR_PARAMETERS } from '@/config/config';
 import { alerts } from '@/utils/alerts';
 import { useMutation } from 'react-query';
 import { Trans, t } from '@lingui/macro';
-import { ChatLocales } from "@/config/config";
-
 
 interface IndexProps { }
 
@@ -22,7 +20,7 @@ const Index: React.FC<IndexProps> = () => {
     setGenerateInput,
     generateParameters,
     setGenerateParameters,
-    generatedResult, 
+    generatedResult,
     GenerateCall,
     setLanguage
 
@@ -36,28 +34,28 @@ const Index: React.FC<IndexProps> = () => {
     }));
   };
 
-  
-const { mutate, isLoading } = useMutation(
-  'generateDocument',
-  async () => {
 
-    if (!generateInput) {
-      alerts.error('Generate Failed', 'The text field cannot be empty. Please try again.');
+  const { mutate, isLoading } = useMutation(
+    'generateDocument',
+    async () => {
 
-      throw new Error('generateInput and generateParameters cannot be empty');
+      if (!generateInput) {
+        alerts.error('Generate Failed', 'The text field cannot be empty. Please try again.');
 
-    }
-    await GenerateCall('LYRICS_GENERATOR', generateInput, generateParameters);
+        throw new Error('generateInput and generateParameters cannot be empty');
 
-    setGenerateInput("");
-  },
-  {
-    onError: (error) => {
-      console.error('Error in GenerateCall:', error);
-      alerts.error('Generate Failed', 'Unable to generate document. Please try again.');
+      }
+      await GenerateCall('STORY_GENERATOR', generateInput, generateParameters);
+
+      setGenerateInput("");
     },
-  }
-);
+    {
+      onError: (error) => {
+        console.error('Error in GenerateCall:', error);
+        alerts.error('Generate Failed', 'Unable to generate document. Please try again.');
+      },
+    }
+  );
 
 
   const handleGenerateClick = () => {
@@ -67,22 +65,23 @@ const { mutate, isLoading } = useMutation(
 
   return (
     <Generator
-      header={t`AI Rap Generator`}
-      subheader={t`Rap Generator`}
-      desc={t`Fill in the field (s) below to generate your Rap`}
-      mainBarDesc = {t`Generate Rap`}
+      header={t`AI Story Generator`}
+      subheader={t`Story Generator`}
+      desc={t`Fill in the field (s) below to generate your story`}
+      mainBarDesc={t`Generate story`}
       inputValue={generateInput}
       setInputValue={(e: React.ChangeEvent<HTMLInputElement>) => setGenerateInput(e.target.value)}
       params={generateParameters}
       setparams={setGenerateParameters}
-      generatorOptions={GENERATOR_PARAMETERS.rap_generator}
+      generatorOptions={GENERATOR_PARAMETERS.story_generator}
       generateClick={handleGenerateClick}
       paramsChange={handleParameterChange}
       generateResult={generatedResult}
-      pdfTitle={'Rap'}
+      pdfTitle={t`story`}
       isLoading={isLoading}
-      lang = {setLanguage}
-      cta_title={t`Generate Rap`}      
+      lang={setLanguage}
+      cta_title={t`Generate story`}
+      placeholder={t`Input Character Names and a brief description of the main characters`}
     />
   );
 };

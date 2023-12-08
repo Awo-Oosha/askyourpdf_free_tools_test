@@ -7,7 +7,6 @@ import { useMutation } from 'react-query';
 import { Trans, t } from '@lingui/macro';
 import { ChatLocales } from "@/config/config";
 
-
 interface IndexProps { }
 
 const Generator = dynamic(() => import('@/components/tools/Generator/Generator'), {
@@ -67,22 +66,23 @@ const { mutate, isLoading } = useMutation(
 
   return (
     <Generator
-      header={t`AI Rap Generator`}
-      subheader={t`Rap Generator`}
-      desc={t`Fill in the field (s) below to generate your Rap`}
-      mainBarDesc = {t`Generate Rap`}
+      header={t`AI Lyrics Generator`}
+      subheader={t`Your creative companion on your musical journey, create lyrics that tell your unique story`}
+      desc={t`Fill in the field (s) below to generate your Lyrics`}
+      mainBarDesc={t`Generate Lyrics`}
       inputValue={generateInput}
       setInputValue={(e: React.ChangeEvent<HTMLInputElement>) => setGenerateInput(e.target.value)}
       params={generateParameters}
       setparams={setGenerateParameters}
-      generatorOptions={GENERATOR_PARAMETERS.rap_generator}
+      generatorOptions={GENERATOR_PARAMETERS.lyrics_generator}
       generateClick={handleGenerateClick}
       paramsChange={handleParameterChange}
       generateResult={generatedResult}
-      pdfTitle={'Rap'}
+      pdfTitle={t`Lyrics`}
       isLoading={isLoading}
       lang = {setLanguage}
-      cta_title={t`Generate Rap`}      
+      cta_title={t`Generate Lyrics`}
+      placeholder={t`Theme / Topic`}      
     />
   );
 };

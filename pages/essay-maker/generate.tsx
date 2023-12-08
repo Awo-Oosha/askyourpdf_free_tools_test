@@ -82,7 +82,8 @@ const { mutate, isLoading } = useMutation(
       pdfTitle={t`Essay`}
       isLoading={isLoading}
       lang = {setLanguage}
-      cta_title={t`Generate Essay`}      
+      cta_title={t`Generate Essay`}
+      placeholder={t`Title or Topic`}      
     />
   );
 };

@@ -1,19 +1,16 @@
 import React, {ChangeEvent, useEffect, useRef, useState} from "react";
 import LyricsGen from "@/img/Ai-Text-Generator.png";
-import {alerts} from "@/utils/alerts";
-import {t, Trans} from "@lingui/macro";
-import {GetStaticPaths, GetStaticProps} from "next";
-import {loadCatalog} from "@/utils/i18n";
-import Image from "next/image";
+import { t, Trans } from "@lingui/macro";
+import { GetStaticProps } from "next";
+import { loadCatalog } from "@/utils/i18n";
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
+import Hero from "@/components/FreeLanding/Hero";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
-import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
-import {FAQDATA, MAIN_APP_URL} from "@/config/config";
-import {Filter, getSourceInformation, getSources} from "@/services/tools";
-import {useRouter} from "next/router";
-import {routerData } from "@/services/libtools";
+import { PAGE_DESCRIPTION, PAGE_TITLE, path } from "@/routes";
+import { FAQDATA, MAIN_APP_URL } from "@/config/config";
+import { GENERATOR_PARAMETERS } from "@/config/config";
+
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadCatalog(ctx.locale!);
     return {
@@ -27,60 +24,26 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     };
 };
 
-export const options:any = [
-    {name:"Select Purpose ",data:[
-        {label:"General Content",key:"General Content",  onClick:(key:any)=>{}},
-        {label:"Marketing",key:"Marketing",onClick:(key:any)=>{}},
-        {label:"Educatonal",key:"Educational",onClick:(key:any)=>{}},
-        {label:"Fictional",key:"Fictional",onClick:(key:any)=>{}},
-    ]},
-    {name:"Select Tone ",data:[
-        {label:"Professional",key:"Professional",  onClick:(key:any)=>{}},
-        {label:"Casual",key:"Casual",onClick:(key:any)=>{}},
-        {label:"Technical",key:"Technical",onClick:(key:any)=>{}},
-    ]}
-    ,
-    {name:"Select Length",data:[
-        {label:"Clear",key:"",  onClick:(key:any)=>{}},
-        {label:"Word Limit",key:JSON.stringify({type:"object",title:"Word Limit",desc:"enter word limit",default:"",append:"WORD-LIMIT"}),  onClick:(key:any)=>{}},
-        {label:"Character Limit",key:JSON.stringify({type:"object",title:"Character Limit",desc:"enter character limit",default:"",append:"CHAR-LIMIT"}),onClick:(key:any)=>{}},
-        
-    ]}
-];
-const TextGenerator = () => {
-    const router = useRouter();
-   
-    const textfields:any=[
-        {placeholder:t`Input some line here to begin`,height:"90px"},
-    ];
-   
-    const faqs= FAQDATA;
-    return (<div>
-        <Navbar/>
-        <Hero 
-        image={LyricsGen} 
-        title={t`AI Text Generator`} 
-        description={t`Text Generator`}
-        fields={textfields}
-        buttonText={"Generate Text"}
-        buttonFunction={(text:any,items:any)=>{
-            if(text[0]=='' || text[0]==null){
-                alerts.error(
-                    t`Warning`,
-                    "Please enter some text",
-                    2000
-                  ); 
-                return null;
-            }
-            
-            routerData(text,items,"./text-generator/generate");
-        }}
-        selectOptions={options} 
-        />
-        <FAQ data={faqs}/>
-        <Footer/>
 
-    </div>);
+const TextGenerator = () => {
+    const faqs= FAQDATA;
+    return (
+        <div>
+            <Navbar />
+            <Hero
+                generator="TEXT_GENERATOR"
+                params={GENERATOR_PARAMETERS.text_generator}
+                title={t`AI Text Generator`}
+                desc={t`Text Generator `}
+                img={LyricsGen}
+                placeholder={t`Input some line here to begin `}
+                routerPath={'text-generator/generate'}
+                CtaTitle={t`Generate Text `}
+            />
+            <FAQ data={faqs} />
+            <Footer />
+        </div>
+    );
  
 };
 

@@ -6,64 +6,33 @@ msgstr ""
 "X-Generator: POEditor.com\n"
 "Project-Id-Version: ayp\n"
 "Language: es\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
 #: components/Modals/SourceToolsConfiguration.tsx:411
 msgid "{0}"
 msgstr ""
 
-#: components/Api/Pricing.tsx:291
-#: components/Api/Pricing.tsx:355
-#: pages/billing/index.tsx:852
-#: pages/billing/upgrade.tsx:720
-#: pages/billing/upgrade.tsx:821
-#: pages/billing/index.tsx:934
-#: pages/settings/index.tsx:946
 #: components/literature-review/LiteratureUpload.tsx:399
 msgid "{0} file upload failed"
 msgstr "la carga del archivo {0} falló"
 
-#: components/Api/Pricing.tsx:284
-#: components/Api/Pricing.tsx:348
-#: pages/billing/index.tsx:846
-#: pages/billing/upgrade.tsx:713
-#: pages/billing/upgrade.tsx:814
-#: pages/settings/index.tsx:1075
-#: pages/settings/index.tsx:1110
-#: pages/settings/index.tsx:1155
-#: pages/settings/index.tsx:1192
-#: pages/knowledge-base/[[...params]].tsx:1463
-#: pages/privacy/index.tsx:66
-#: pages/privacy/index.tsx:75
-#: pages/privacy/index.tsx:84
+#: components/FreeLanding/Hero.tsx:362
+msgid "{title}"
+msgstr ""
+
 #: components/tools/DocUploadNoFunc.tsx:385
 msgid "<0>Click to upload</0> or drag and drop"
 msgstr "<0>Haga clic para cargar</0> o arrastre y suelte"
 
-#: components/Modals/OldDocumentDeleteModal.tsx:132
-#: pages/upload/index.tsx:252
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:462
-#: components/Modals/CreateAPIKeyDesktop.tsx:478
-#: pages/billing/index.tsx:842
-#: pages/billing/upgrade.tsx:707
-#: pages/billing/upgrade.tsx:799
-#: components/Api/Pricing.tsx:277
-#: components/Api/Pricing.tsx:333
-#: pages/settings/index.tsx:646
-#: pages/settings/index.tsx:760
-#: pages/settings/index.tsx:643
-#: components/PdfToChat/ApiBanner.tsx:82
-#: pages/knowledge-base/intro.tsx:293
 #: utils/faqData.tsx:97
-#: components/PdfToChat/Discover.tsx:32
-#: utils/termsData.ts:11
-#: pages/settings/index.tsx:504
-#: components/Modals/PaymentBottomSheet.tsx:150
-#: components/Modals/PaymentModalDesktop.tsx:153
-#: components/Settings/AccountLinkedSuccessModal.tsx:66
-#: components/Extension/Download.tsx:169
-#: components/Extension/ExtensionHero.tsx:244
-#: components/Landing/ExtensionAnnouncement.tsx:129
-#: components/PdfToChat/ExtensionAnnouncement.tsx:129
+msgid "Absolutely. Data privacy is our top priority. The application employs industry-standard SSL encryption to ensure the protection of your information."
+msgstr ""
+
 #: components/literature-review/LiteratureSideBar.tsx:434
 msgid "Advanced Parameters"
 msgstr "Parámetros avanzados"
@@ -76,25 +45,30 @@ msgstr ""
 msgid "Affiliate Program"
 msgstr "Programa de afiliados"
 
-#: components/PdfToChat/SummarizeGuide.tsx:177
-#: pages/book-title-generator/generate/index.tsx:111
-#: pages/book-title-generator/index.tsx:58
+#: pages/book-title-generator/generate.tsx:69
+#: pages/book-title-generator/index.tsx:36
+#: utils/free_tools.ts:96
 msgid "AI Book Title Generator"
 msgstr "Generador AI de títulos de libros"
 
-#: pages/essay-maker/generate/index.tsx:108
-#: pages/essay-maker/index.tsx:62
+#: pages/essay-maker/generate.tsx:70
+#: utils/free_tools.ts:114
 msgid "AI Essay Maker"
 msgstr "Creador de ensayos con IA"
 
-#: pages/instagram-caption/generate/index.tsx:108
-#: pages/instagram-caption/index.tsx:70
+#: pages/essay-maker/index.tsx:36
+msgid "AI Essay Writer"
+msgstr ""
+
+#: pages/instagram-caption/generate.tsx:68
+#: pages/instagram-caption/index.tsx:36
+#: utils/free_tools.ts:84
 msgid "AI Instagram Caption Generator"
 msgstr "Generador de subtítulos de Instagram por IA"
 
 #: components/tools/ToolsSection.tsx:125
-msgid "AI Literature Review Generator"
-msgstr "Generador de reseñas bibliográficas sobre IA"
+#~ msgid "AI Literature Review Generator"
+#~ msgstr "Generador de reseñas bibliográficas sobre IA"
 
 #: components/Footer.tsx:308
 msgid "AI Literature Review Writer"
@@ -104,68 +78,58 @@ msgstr "Redactor de reseñas bibliográficas sobre AI"
 msgid "AI Literature Review Writer Tool"
 msgstr "Herramienta de escritura de revisiones de literatura con IA"
 
-#: pages/lyrics-generator/generate/index.tsx:108
-#: pages/lyrics-generator/index.tsx:65
+#: pages/lyrics-generator/generate.tsx:69
+#: pages/lyrics-generator/index.tsx:36
+#: utils/free_tools.ts:72
 msgid "AI Lyrics Generator"
 msgstr "Generador de letras de canciones AI"
 
-#: pages/paragraph-generator/generate/index.tsx:107
-#: pages/paragraph-generator/index.tsx:58
+#: pages/paragraph-generator/generate.tsx:68
+#: pages/paragraph-generator/index.tsx:37
+#: utils/free_tools.ts:120
 msgid "AI Paragraph Generator"
 msgstr "Generador de párrafos IA"
 
-#: pages/poem-generator/generate/index.tsx:109
-#: pages/poem-generator/index.tsx:75
+#: pages/poem-generator/generate.tsx:68
+#: pages/poem-generator/index.tsx:37
+#: utils/free_tools.ts:78
 msgid "AI Poem Generator"
 msgstr "Generador de poemas AI"
 
-#: pages/rap-generator/generate/index.tsx:110
-#: pages/rap-generator/index.tsx:60
+#: pages/rap-generator/generate.tsx:70
+#: pages/rap-generator/index.tsx:36
+#: utils/free_tools.ts:90
 msgid "AI Rap Generator"
 msgstr "Generador de rap por IA"
 
-#: components/tools/ToolsSection.tsx:114
 #: pages/source-tool/index.tsx:245
 msgid "AI Source Finder"
 msgstr "Buscador de fuentes AI"
 
-#: pages/story-generator/generate/index.tsx:114
-#: pages/story-generator/index.tsx:64
+#: pages/story-generator/generate.tsx:68
+#: pages/story-generator/index.tsx:37
+#: utils/free_tools.ts:102
 msgid "AI Story Generator"
 msgstr "Generador de historias AI"
 
-#: pages/text-generator/generate/index.tsx:107
-#: pages/text-generator/index.tsx:61
+#: pages/text-generator/generate.tsx:68
+#: pages/text-generator/index.tsx:36
+#: utils/free_tools.ts:126
 msgid "AI Text Generator"
 msgstr "Generador de texto A"
 
-#: pages/thesis-statement/generate/index.tsx:107
-#: pages/thesis-statement/index.tsx:57
+#: pages/thesis-statement/generate.tsx:68
+#: pages/thesis-statement/index.tsx:36
+#: utils/free_tools.ts:108
 msgid "AI Thesis Statement Generator"
 msgstr "Generador de enunciados de tesis sobre IA"
 
-#: components/Landing/Features.tsx:227
-#: components/PdfToChat/Features.tsx:233
-#: pages/documents/[[...id]]/index.tsx:969
-#: pages/billing/index.tsx:1069
-#: pages/settings/index.tsx:170
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:316
-#: components/Modals/CreateAPIKeyDesktop.tsx:331
-#: components/Generator.tsx:263
+#: components/Generator.tsx:262
 #: components/literature-review/MainContent.tsx:292
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "An error occurred"
 msgstr "Ha ocurrido un error"
 
-#: components/Modals/DocumentSelectModal.tsx:393
-#: components/Modals/DocumentSelectModal.tsx:434
-#: components/Modals/DocumentSelectModal.tsx:450
-#: components/Settings/LinkAccountCall.tsx:86
-#: pages/documents/[[...id]]/index.tsx:699
-#: pages/billing/index.tsx:690
-#: pages/settings/index.tsx:309
-#: components/SearchResults.tsx:371
-#: components/Modals/DocumentSelectModal.tsx:414
 #: pages/source-tool/index.tsx:206
 #: pages/source-tool/index.tsx:216
 msgid "An error occurred. Please try again"
@@ -175,15 +139,10 @@ msgstr "Ha ocurrido un error. Inténtalo de nuevo"
 msgid "Analysing Document"
 msgstr "Analizando Documento"
 
-#: components/APIKeysList.tsx:591
-#: components/APIKeysList.tsx:754
 #: components/Footer.tsx:283
 msgid "Android App"
 msgstr "Aplicación de Android"
 
-#: components/Landing/Plans.tsx:432
-#: components/PdfToChat/Plans.tsx:432
-#: components/Modals/ShareModal.tsx:201
 #: components/Footer.tsx:265
 #: components/Navbar.tsx:325
 #: components/Navbar.tsx:382
@@ -192,61 +151,18 @@ msgstr "Aplicación de Android"
 msgid "API"
 msgstr "API"
 
-#: components/Modals/PaymentModalContent.tsx:387
-#: components/APIKeysList.tsx:560
-#: components/APIKeysList.tsx:724
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:384
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:393
-#: components/Modals/CreateAPIKeyDesktop.tsx:406
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:364
-#: components/Modals/CreateAPIKeyDesktop.tsx:375
-#: components/DeveloperSidebar.tsx:137
-#: pages/apikeys/index.tsx:349
-#: pages/apikeys/index.tsx:368
-#: pages/apikeys/index.tsx:386
-#: pages/billing/index.tsx:806
-#: pages/billing/upgrade.tsx:624
-#: pages/apikeys/index.tsx:394
-#: pages/apikeys/index.tsx:391
-#: components/Modals/Profile.tsx:345
-#: components/Landing/Products.tsx:157
-#: components/PdfToChat/Products.tsx:157
-#: utils/termsData.ts:36
-#: components/Modals/ConversationHistoryDeleteModal.tsx:111
-#: components/Modals/ConversationDeleteModal.tsx:111
-#: components/Modals/OldDocumentDeleteModal.tsx:127
-#: components/Modals/DocumentDeleteModal.tsx:110
-#: components/Modals/DocumentSelectModal.tsx:758
-#: components/Modals/Profile.tsx:248
-#: pages/billing/upgrade.tsx:908
-#: pages/settings/index.tsx:440
-#: components/PdfToChat/Guide.tsx:152
-#: pages/conversations/[[...params]].tsx:1279
-#: pages/knowledge-base/[[...params]].tsx:1923
-#: pages/conversations/[[...params]].tsx:1133
-#: pages/knowledge-base/[[...params]].tsx:1719
-#: utils/termsData.ts:32
-#: components/Api/Pricing.tsx:265
-#: components/Landing/Features.tsx:290
-#: components/PdfToChat/Features.tsx:315
-#: components/Extension/Methods.tsx:143
-#: components/PdfToChat/Discover.tsx:38
-#: utils/termsData.ts:62
 #: utils/faqData.tsx:31
+msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See <0>here</0> for details]."
+msgstr ""
+
 #: utils/faqData.tsx:29
-#: components/PdfToChat/ApiBanner.tsx:79
-#: pages/knowledge-base/intro.tsx:260
-#: pages/knowledge-base/intro.tsx:262
-#: pages/knowledge-base/intro.tsx:283
-#: components/Affiliate/Header.tsx:198
-#: pages/privacy/index.tsx:98
-#: pages/privacy/index.tsx:43
+msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See here (https://askyourpdf.com/settings) for details]."
+msgstr ""
+
 #: components/source-tools/source-result/index.tsx:473
 msgid "Authors:"
 msgstr "Autores:"
 
-#: utils/termsData.ts:41
-#: components/Modals/Profile.tsx:292
 #: components/literature-review/MainContent.tsx:343
 #: components/tools/MergePage.tsx:676
 #: components/tools/OcrPage.tsx:252
@@ -255,10 +171,6 @@ msgstr "Autores:"
 msgid "Back to tools"
 msgstr "Volver a las herramientas"
 
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:449
-#: components/Modals/CreateAPIKeyDesktop.tsx:465
-#: pages/chat/[[...docID]]/index.tsx:316
-#: components/PdfToChat/Guide.tsx:139
 #: components/literature-review/LiteratureMainBar.tsx:487
 msgid "Begin new review"
 msgstr "Comenzar nueva revisión"
@@ -267,13 +179,6 @@ msgstr "Comenzar nueva revisión"
 msgid "Begin new search"
 msgstr "Comenzar una nueva búsqueda"
 
-#: components/DeveloperSidebar.tsx:155
-#: pages/apikeys/index.tsx:376
-#: pages/apikeys/index.tsx:386
-#: pages/billing/index.tsx:787
-#: pages/billing/index.tsx:814
-#: pages/billing/upgrade.tsx:605
-#: pages/billing/upgrade.tsx:632
 #: components/Footer.tsx:418
 msgid "BlockTechnology OÜ. All rights reserved. ©{year}"
 msgstr "BlockTechnology OÜ. Todos los derechos reservados. ©{year}"
@@ -282,127 +187,88 @@ msgstr "BlockTechnology OÜ. Todos los derechos reservados. ©{year}"
 msgid "Blog"
 msgstr "Blog"
 
-#: pages/book-title-generator/generate/index.tsx:112
-#: pages/book-title-generator/index.tsx:59
+#: pages/book-title-generator/generate.tsx:81
+msgid "Book Title"
+msgstr ""
+
+#: pages/book-title-generator/generate.tsx:70
+#: pages/book-title-generator/generate.tsx:72
+#: pages/book-title-generator/index.tsx:37
 msgid "Book Title Generator"
 msgstr "Generador de títulos de libros"
 
-#: components/Landing/Products.tsx:150
-#: components/PdfToChat/Products.tsx:150
-#: components/Modals/ConversationFeedback.tsx:368
-#: components/Modals/ConversationFeedback.tsx:478
-#: components/Api/Header.tsx:157
-#: components/PdfToChat/Discover.tsx:48
-#: components/PdfToChat/Discover.tsx:47
-#: components/BuyCredits.tsx:111
-#: components/Modals/UnitsExceededModal.tsx:119
-#: components/Conversations/CreditBalance.tsx:131
-#: utils/termsData.ts:12
-#: pages/file-upload/index.tsx:390
-#: components/PdfToChat/Discover.tsx:43
-#: components/PdfToChat/Discover.tsx:33
-#: pages/privacy/index.tsx:167
 #: utils/faqData.tsx:81
-#: pages/chat/[[...docID]]/index.tsx:255
+msgid "Can I chat in any language?"
+msgstr ""
+
 #: utils/faqData.tsx:59
+msgid "Can I chat with other users of the application?"
+msgstr ""
+
 #: utils/faqData.tsx:86
+msgid "Can I download the chat history?"
+msgstr ""
+
 #: utils/faqData.tsx:101
-#: pages/knowledge-base/intro.tsx:287
-#: pages/chat/[[...docID]]/index.tsx:245
-#: pages/knowledge-base/intro.tsx:277
+msgid "Can I edit the document while using AskYourPDF?"
+msgstr ""
+
 #: utils/faqData.tsx:23
+msgid "Can I upload any document?"
+msgstr ""
+
 #: utils/faqData.tsx:117
+msgid "Can I upload multiple documents at once?"
+msgstr ""
+
 #: utils/faqData.tsx:123
+msgid "Can I upload password-protected documents to AskYourPDF?"
+msgstr ""
+
 #: utils/faqData.tsx:107
-#: pages/knowledge-base/intro.tsx:292
+msgid "Can I use AskYourPDF on any device?"
+msgstr ""
+
 #: components/source-tools/source-result/index.tsx:510
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: pages/settings/index.tsx:577
-#: pages/billing/upgrade.tsx:761
-#: pages/billing/index.tsx:905
-#: pages/billing/index.tsx:837
-#: pages/billing/upgrade.tsx:669
-#: pages/settings/index.tsx:632
-#: pages/settings/index.tsx:749
-#: pages/settings/index.tsx:841
-#: components/Modals/UpdatePaymentMethodBottomSheet.tsx:176
-#: components/Modals/UpdatePaymentMethodDesktop.tsx:172
-#: pages/knowledge-base/intro.tsx:288
-#: components/Modals/Profile.tsx:146
-#: pages/privacy/index.tsx:137
-#: utils/termsData.ts:76
 #: components/Footer.tsx:293
 msgid "Chat"
 msgstr "Chat"
 
-#: components/Modals/PaymentModalContent.tsx:285
 #: utils/faqData.tsx:130
-#: components/Extension/ExtensionHero.tsx:239
-#: components/Landing/ExtensionAnnouncement.tsx:124
-#: components/PdfToChat/ExtensionAnnouncement.tsx:124
-#: components/Landing/Products.tsx:143
-#: components/PdfToChat/Products.tsx:143
-#: components/MainSidebar.tsx:611
-#: pages/billing/upgrade.tsx:695
+msgid "Chat sessions remain available as long as the browser tab is open."
+msgstr ""
+
 #: components/Footer.tsx:274
 msgid "Chrome Extension"
 msgstr "Extensión de Chrome"
 
-#: components/Landing/Plans.tsx:592
-#: components/Landing/Plans.tsx:682
-#: components/Modals/PaymentModalContent.tsx:333
-#: components/Modals/PaymentModalContent.tsx:375
-#: components/PdfToChat/Plans.tsx:592
-#: components/PdfToChat/Plans.tsx:682
-#: pages/settings/index.tsx:655
 #: components/source-tools/source-result/index.tsx:466
 msgid "Cited by:"
 msgstr "Citado por:"
 
-#: components/Modals/ConversationHistoryDeleteModal.tsx:123
-#: components/Modals/ConversationHistoryDeleteModal.tsx:108
-#: components/APIKeysList.tsx:671
-#: components/Modals/ConversationFeedback.tsx:351
-#: components/Modals/ConversationFeedback.tsx:461
 #: components/ToolsFooter.tsx:115
 msgid "Coming Soon"
 msgstr "Próximamente"
 
-#: components/Modals/PaymentSuccessModal.tsx:163
-#: components/Modals/PaymentBottomSheet.tsx:153
-#: components/Modals/PaymentModalDesktop.tsx:156
-#: components/Modals/PaymentSuccessModal.tsx:208
 #: components/Footer.tsx:334
 msgid "Company"
 msgstr "Empresa"
 
-#: components/PdfToChat/MoreTools.tsx:39
 #: components/source-tools/source-content/index.tsx:259
 msgid "Configure search"
 msgstr "Configurar búsqueda"
 
-#: components/Modals/Profile.tsx:226
-#: components/Modals/Profile.tsx:221
-#: components/Modals/Profile.tsx:187
 #: components/Footer.tsx:354
 msgid "Contact Us"
 msgstr "Contáctenos"
 
-#: components/Modals/PaymentModalContent.tsx:435
 #: components/source-tools/source-result/index.tsx:412
 msgid "Content"
 msgstr "Contenido"
 
-#: pages/privacy/index.tsx:94
-#: pages/conversations/[[...params]].tsx:906
-#: pages/knowledge-base/[[...params]].tsx:1419
-#: pages/conversations/[[...params]].tsx:936
-#: pages/knowledge-base/[[...params]].tsx:1508
-#: components/Modals/PaymentModalContent.tsx:327
-#: components/Landing/Plans.tsx:768
-#: components/PdfToChat/Plans.tsx:768
 #: components/AppSidebar.tsx:151
 #: components/Navbar.tsx:283
 #: components/Navbar.tsx:340
@@ -411,92 +277,32 @@ msgstr "Contenido"
 msgid "Conversations"
 msgstr "Conversaciones"
 
-#: components/Landing/Plans.tsx:501
-#: components/Landing/Plans.tsx:583
-#: components/Landing/Plans.tsx:673
-#: components/PdfToChat/Plans.tsx:501
-#: components/PdfToChat/Plans.tsx:583
-#: components/PdfToChat/Plans.tsx:673
-#: components/Landing/Features.tsx:224
-#: components/PdfToChat/Features.tsx:230
-#: components/Generator.tsx:349
-#: components/Generator.tsx:349
+#: components/Generator.tsx:381
+#: components/Generator.tsx:381
 #: components/literature-review/LiteratureMainBar.tsx:435
 #: components/source-tools/source-result/index.tsx:491
+#: components/tools/Generator/GeneratorMainBar.tsx:239
+#: components/tools/Generator/GeneratorMainBar.tsx:239
 msgid "Copied"
 msgstr "Copiado"
 
-#: pages/conversations/[[...params]].tsx:1091
-#: pages/documents/[[...id]]/index.tsx:584
-#: pages/documents/[[...id]]/index.tsx:883
-#: pages/knowledge-base/[[...params]].tsx:981
-#: pages/knowledge-base/[[...params]].tsx:1675
-#: components/SubscriptionGuard.tsx:29
-#: pages/knowledge-base/intro.tsx:347
-#: components/KnowledgeBaseSidebar.tsx:552
-#: components/KnowledgeBaseSidebar.tsx:588
-#: components/MainSidebar.tsx:497
-#: components/MainSidebar.tsx:533
-#: pages/documents/[[...id]]/index.tsx:596
-#: pages/knowledge-base/intro.tsx:383
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:364
-#: components/Modals/CreateAPIKeyDesktop.tsx:375
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:477
-#: components/Modals/CreateAPIKeyDesktop.tsx:493
-#: components/KnowledgeBaseSidebar.tsx:738
-#: components/Modals/DocumentSelectModal.tsx:616
-#: components/BuyCredits.tsx:107
-#: components/BuyCredits.tsx:40
-#: pages/settings/index.tsx:896
-#: pages/settings/index.tsx:904
-#: pages/settings/index.tsx:514
-#: pages/billing/upgrade.tsx:649
-#: components/Api/Pricing.tsx:393
-#: pages/billing/upgrade.tsx:871
-#: components/Landing/Plans.tsx:753
-#: components/PdfToChat/Plans.tsx:753
-#: components/PdfToChat/SummarizeGuide.tsx:174
-#: components/Landing/Plans.tsx:776
-#: components/PdfToChat/Plans.tsx:776
-#: components/Modals/UpdatePaymentMethodBottomSheet.tsx:189
-#: components/Modals/UpdatePaymentMethodDesktop.tsx:185
+#: utils/free_tools.ts:79
+msgid "Craft personalized and enchanting verses effortlessly with our AI Poem Generator. Unleash creativity in just a click."
+msgstr ""
+
 #: components/literature-review/LiteratureSideBar.tsx:383
 msgid "Date Range"
 msgstr "Rango de fechas"
 
-#: components/Landing/Plans.tsx:780
-#: components/PdfToChat/Plans.tsx:780
-#: pages/settings/index.tsx:862
-#: components/Modals/PaymentModalContent.tsx:429
 #: components/literature-review/LiteratureUpload.tsx:334
 #: components/tools/DocUploadNoFunc.tsx:260
 msgid "Delete"
 msgstr "Eliminar"
 
-#: components/Modals/Profile.tsx:245
-#: components/Modals/Profile.tsx:267
-#: components/Modals/Profile.tsx:366
-#: components/Modals/ConversationDeleteModal.tsx:108
 #: components/AppSidebar.tsx:274
 msgid "Delete Doc"
 msgstr "Eliminar documento"
 
-#: pages/delete/index.tsx:271
-#: components/Modals/DocumentDeleteModal.tsx:107
-#: components/Modals/OldDocumentDeleteModal.tsx:124
-#: pages/documents/[[...id]]/index.tsx:994
-#: pages/delete/index.tsx:238
-#: pages/delete/index.tsx:245
-#: pages/documents/[[...id]]/index.tsx:794
-#: pages/knowledge-base/[[...params]].tsx:1430
-#: components/APIKeysList.tsx:542
-#: components/APIKeysList.tsx:706
-#: components/Modals/DocumentSelectModal.tsx:717
-#: components/Modals/DocumentSelectModal.tsx:755
-#: components/Modals/DocumentSelectModal.tsx:779
-#: components/Modals/DocumentSelectModal.tsx:424
-#: pages/knowledge-base/[[...params]].tsx:1419
-#: components/Modals/Profile.tsx:125
 #: components/literature-review/LiteratureMainBar.tsx:379
 #: components/literature-review/LiteratureSideBar.tsx:438
 #: components/source-tools/source-content/index.tsx:229
@@ -512,55 +318,20 @@ msgstr "Documentación para desarrolladores"
 msgid "Developers"
 msgstr "Desarrolladores"
 
-#: utils/termsData.ts:61
-#: components/Landing/Features.tsx:232
-#: components/PdfToChat/Features.tsx:238
-#: components/PdfToChat/Discover.tsx:164
-#: components/PdfToChat/MoreTools.tsx:134
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:457
-#: components/Modals/CreateAPIKeyDesktop.tsx:473
-#: components/APIKeysList.tsx:681
-#: pages/upload/index.tsx:315
 #: components/Navbar.tsx:303
 #: components/Navbar.tsx:360
 msgid "Docs"
 msgstr "Docs"
 
-#: pages/delete/index.tsx:223
-#: pages/documents/[[...id]]/index.tsx:778
-#: pages/delete/index.tsx:223
-#: pages/documents/[[...id]]/index.tsx:778
-#: pages/upload/index.tsx:296
-#: pages/conversations/[[...params]].tsx:1085
-#: pages/documents/[[...id]]/index.tsx:574
-#: pages/documents/[[...id]]/index.tsx:877
-#: components/Summarisation/SummariseUpload.tsx:556
-#: pages/delete/index.tsx:233
-#: components/Landing/Plans.tsx:506
-#: components/PdfToChat/Plans.tsx:506
 #: components/AppSidebar.tsx:295
 msgid "Documentation"
 msgstr "Documentación"
 
-#: components/MainSidebar.tsx:356
-#: pages/knowledge-base/intro.tsx:278
-#: components/Landing/Plans.tsx:588
-#: components/Landing/Plans.tsx:678
-#: components/PdfToChat/Plans.tsx:588
-#: components/PdfToChat/Plans.tsx:678
-#: components/Modals/PaymentModalContent.tsx:324
-#: components/Modals/PaymentModalContent.tsx:366
 #: components/tools/MergePage.tsx:778
 #: components/tools/SplitPage.tsx:909
 msgid "Done"
 msgstr "Hecho"
 
-#: pages/billing/index.tsx:1141
-#: pages/billing/upgrade.tsx:936
-#: pages/settings/index.tsx:468
-#: pages/billing/index.tsx:1112
-#: pages/billing/upgrade.tsx:905
-#: pages/settings/index.tsx:437
 #: components/Navbar.tsx:317
 #: components/Navbar.tsx:374
 #: components/tools/ToolBarExt.tsx:254
@@ -568,74 +339,45 @@ msgstr "Hecho"
 msgid "Download"
 msgstr "Descargar"
 
-#: components/Extension/Download.tsx:182
-#: components/Extension/ExtensionHero.tsx:256
-#: components/Landing/ExtensionAnnouncement.tsx:141
-#: components/PdfToChat/ExtensionAnnouncement.tsx:141
-#: components/PdfToChat/AppSection.tsx:147
-#: components/Extension/Methods.tsx:170
-#: components/Modals/DocumentSelectModal.tsx:593
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:388
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:436
-#: components/Modals/CreateAPIKeyDesktop.tsx:401
-#: components/Modals/CreateAPIKeyDesktop.tsx:451
-#: components/Affiliate/Header.tsx:194
-#: components/Settings/LinkAccountCall.tsx:107
-#: pages/knowledge-base/[[...params]].tsx:1066
-#: pages/knowledge-base/[[...params]].tsx:1659
 #: components/tools/SplitPage.tsx:805
-#: components/tools/ToolsSection.tsx:133
 msgid "Efficiently split, separate, and manage your PDF files using our superior free online PDF splitter."
 msgstr "Divida, separe y gestione eficazmente sus archivos PDF con nuestro divisor de PDF gratuito en línea de calidad superior\"."
 
-#: components/PdfToChat/Discover.tsx:37
-#: components/Landing/Plans.tsx:528
-#: components/Landing/Plans.tsx:616
-#: components/PdfToChat/Plans.tsx:528
-#: components/PdfToChat/Plans.tsx:616
-#: components/Modals/Profile.tsx:307
-#: components/tools/ToolsSection.tsx:117
+#: utils/free_tools.ts:115
+msgid "Effortlessly generate well-structured essays with our AI Essay Maker. Elevate your writing with clear arguments and compelling content."
+msgstr ""
+
+#: utils/free_tools.ts:55
+msgid "Effortlessly shrink PDFs for quicker sharing and storage, while preserving quality, all with the precision of AI."
+msgstr ""
+
 #: pages/source-tool/index.tsx:248
 msgid "Enhance your research with our Source-Tool, which automatically cites and creates references for your academic text."
 msgstr "Mejore su investigación con nuestra herramienta de fuentes, que cita y crea referencias automáticamente para su texto académico\"."
 
-#: components/Settings/LinkAccountModal.tsx:146
-#: components/KnowledgeBaseSidebar.tsx:366
-#: components/MainSidebar.tsx:330
-#: components/Modals/DocumentSelectModal.tsx:603
-#: components/Modals/SearchBottomSheet.tsx:116
-#: components/Settings/LinkAccountModal.tsx:138
-#: components/Api/Pricing.tsx:389
-#: pages/billing/upgrade.tsx:867
-#: pages/settings/index.tsx:837
-#: components/PdfToChat/Discover.tsx:58
 #: components/tools/DocUploadNoFunc.tsx:323
 #: pages/source-tool/index.tsx:206
 #: pages/source-tool/index.tsx:216
 msgid "Error"
 msgstr "Error"
 
-#: components/Modals/Profile.tsx:126
-#: components/Modals/ConversationFeedback.tsx:267
-#: components/PdfToChat/Features.tsx:205
-#: components/Landing/Features.tsx:199
-#: components/PdfToChat/MoreTools.tsx:139
-#: components/Extension/Methods.tsx:127
-#: components/Extension/Download.tsx:172
-#: components/Api/Header.tsx:163
-#: components/Landing/Plans.tsx:403
-#: components/PdfToChat/Plans.tsx:403
-#: components/Modals/UpdatePaymentMethodBottomSheet.tsx:183
-#: components/Modals/UpdatePaymentMethodDesktop.tsx:179
-#: components/Summarisation/SummariseMainBar.tsx:399
-#: components/Summarisation/SummariseSideBar.tsx:281
-#: components/Landing/Products.tsx:173
-#: components/PdfToChat/Products.tsx:173
+#: pages/essay-maker/generate.tsx:82
+msgid "Essay"
+msgstr ""
+
+#: pages/essay-maker/generate.tsx:71
+#: pages/essay-maker/generate.tsx:73
+msgid "Essay Maker"
+msgstr ""
+
+#: pages/essay-maker/index.tsx:37
+msgid "Essay Writer"
+msgstr ""
+
 #: components/tools/MainPage.tsx:16
 msgid "Explore our Free Tools"
 msgstr "Explora nuestras herramientas gratuitas"
 
-#: components/PdfToChat/MoreTools.tsx:157
 #: components/source-tools/source-result/index.tsx:433
 msgid "Export all"
 msgstr "Exportar todo"
@@ -644,8 +386,6 @@ msgstr "Exportar todo"
 msgid "Export As"
 msgstr "Exportar como"
 
-#: pages/conversations/[[...params]].tsx:1099
-#: pages/knowledge-base/[[...params]].tsx:1684
 #: components/Navbar.tsx:310
 #: components/Navbar.tsx:367
 #: components/tools/ToolBarExt.tsx:249
@@ -653,41 +393,24 @@ msgstr "Exportar como"
 msgid "Extension"
 msgstr "Extensión"
 
-#: components/Modals/PaymentModalContent.tsx:290
-#: components/Summarisation/SummariseMainBar.tsx:392
-#: components/Modals/DocumentSelectModal.tsx:392
-#: components/Modals/DocumentSelectModal.tsx:413
-#: components/Modals/DocumentSelectModal.tsx:449
-#: pages/conversations/[[...params]].tsx:951
-#: pages/knowledge-base/[[...params]].tsx:1523
-#: components/Modals/DocumentSelectModal.tsx:433
-#: pages/conversations/[[...params]].tsx:914
-#: pages/knowledge-base/[[...params]].tsx:1431
-#: pages/documents/[[...id]]/index.tsx:795
-#: components/Generator.tsx:263
+#: components/Generator.tsx:262
 #: components/literature-review/MainContent.tsx:292
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "Failed to export PDF"
 msgstr "No se pudo exportar el PDF"
 
-#: pages/billing/index.tsx:1086
-#: pages/settings/index.tsx:1032
-#: components/Settings/LinkAccountCall.tsx:88
-#: pages/billing/index.tsx:684
-#: pages/billing/index.tsx:689
-#: pages/settings/index.tsx:303
-#: pages/settings/index.tsx:308
+#: components/tools/Generator/GeneratorMainBar.tsx:215
+msgid "Failed to export PDF. Please try again."
+msgstr ""
+
 #: components/literature-review/MainContent.tsx:277
 msgid "Failed to review text. Please try again"
 msgstr "Error al revisar el texto. Por favor, inténtelo de nuevo"
 
-#: pages/summarise/index.tsx:168
-#: pages/summarise/index.tsx:228
 #: components/tools/DocUploadNoFunc.tsx:335
 msgid "Failed to upload file"
 msgstr "No se pudo cargar el archivo"
 
-#: components/DocumentUpload.tsx:389
 #: components/Footer.tsx:349
 msgid "FAQs"
 msgstr "Preguntas frecuentes"
@@ -700,7 +423,6 @@ msgstr "Obtener documento"
 msgid "Fetching document"
 msgstr "Obteniendo documento"
 
-#: pages/knowledge-base/intro.tsx:379
 #: components/literature-review/LiteratureSideBar.tsx:369
 msgid "Field of Study"
 msgstr "Campo de estudio"
@@ -709,8 +431,6 @@ msgstr "Campo de estudio"
 msgid "File Upload"
 msgstr "Cargar archivo"
 
-#: components/DocumentUpload.tsx:379
-#: pages/upload/index.tsx:290
 #: components/literature-review/LiteratureUpload.tsx:398
 #: components/literature-review/LiteratureUpload.tsx:402
 #: components/tools/DocUploadNoFunc.tsx:333
@@ -734,33 +454,142 @@ msgstr "Falló la carga del archivo"
 #: pages/thesis-statement/index.tsx:78
 #: pages/essay-maker/generate/index.tsx:109
 #: pages/essay-maker/index.tsx:63
-msgid "Fill"
-msgstr "Llenar"
+#~ msgid "Fill"
+#~ msgstr "Llenar"
 
-#: components/PdfToChat/SummarizeGuide.tsx:198
+#: pages/book-title-generator/generate.tsx:71
+msgid "Fill in the field (s) below to generate your book title"
+msgstr ""
+
+#: pages/essay-maker/generate.tsx:72
+msgid "Fill in the field (s) below to generate your Essay"
+msgstr ""
+
+#: pages/instagram-caption/generate.tsx:70
+msgid "Fill in the field (s) below to generate your instagram caption"
+msgstr ""
+
+#: pages/lyrics-generator/generate.tsx:71
+msgid "Fill in the field (s) below to generate your Lyrics"
+msgstr ""
+
+#: pages/paragraph-generator/generate.tsx:70
+msgid "Fill in the field (s) below to generate your paragraph"
+msgstr ""
+
+#: pages/poem-generator/generate.tsx:70
+msgid "Fill in the field (s) below to generate your poem"
+msgstr ""
+
+#: pages/rap-generator/generate.tsx:72
+msgid "Fill in the field (s) below to generate your Rap"
+msgstr ""
+
+#: pages/story-generator/generate.tsx:70
+msgid "Fill in the field (s) below to generate your story"
+msgstr ""
+
+#: pages/text-generator/generate.tsx:70
+msgid "Fill in the field (s) below to generate your text"
+msgstr ""
+
+#: pages/thesis-statement/generate.tsx:70
+msgid "Fill in the field (s) below to generate your thesis"
+msgstr ""
+
 #: components/source-tools/source-content/index.tsx:266
 msgid "Find sources"
 msgstr "Encontrar fuentes"
 
-#: components/Extension/Methods.tsx:173
-#: components/Summarisation/SummariseSideBar.tsx:325
-#: components/PdfToChat/Guide.tsx:155
-#: components/Landing/MobileAppBanner.tsx:89
-#: components/Api/Pricing.tsx:274
-#: pages/settings/index.tsx:549
-#: pages/settings/index.tsx:554
 #: utils/faqData.tsx:65
-#: components/PdfToChat/LandingFaq.tsx:85
-#: pages/faq/index.tsx:66
+msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
+msgstr ""
+
 #: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
 msgstr "Desde sus documentos"
 
-#: components/APIKeysList.tsx:674
-#: components/APIKeysList.tsx:575
-#: components/APIKeysList.tsx:739
-#: components/Landing/Hero.tsx:253
-#: components/Affiliate/Features.tsx:153
+#: utils/free_tools.ts:97
+msgid "Fuel your literary imagination with our AI Book Title Generator. Discover captivating titles for your next literary masterpiece effortlessly."
+msgstr ""
+
+#: pages/book-title-generator/index.tsx:41
+msgid "Generate Book"
+msgstr ""
+
+#: pages/book-title-generator/generate.tsx:84
+msgid "Generate Book Title"
+msgstr ""
+
+#: pages/essay-maker/generate.tsx:85
+#: pages/essay-maker/index.tsx:41
+msgid "Generate Essay"
+msgstr ""
+
+#: pages/instagram-caption/index.tsx:41
+msgid "Generate Instagram caption"
+msgstr ""
+
+#: pages/instagram-caption/generate.tsx:71
+#: pages/instagram-caption/generate.tsx:83
+msgid "Generate Instagram Caption"
+msgstr ""
+
+#: pages/lyrics-generator/generate.tsx:72
+#: pages/lyrics-generator/generate.tsx:84
+#: pages/lyrics-generator/index.tsx:41
+msgid "Generate Lyrics"
+msgstr ""
+
+#: pages/paragraph-generator/generate.tsx:71
+#: pages/paragraph-generator/generate.tsx:83
+#: pages/paragraph-generator/index.tsx:42
+msgid "Generate Paragraph"
+msgstr ""
+
+#: pages/poem-generator/generate.tsx:71
+#: pages/poem-generator/generate.tsx:83
+#: pages/poem-generator/index.tsx:42
+msgid "Generate Poem"
+msgstr ""
+
+#: pages/rap-generator/generate.tsx:73
+#: pages/rap-generator/generate.tsx:85
+#: pages/rap-generator/index.tsx:41
+msgid "Generate Rap"
+msgstr ""
+
+#: pages/story-generator/generate.tsx:71
+#: pages/story-generator/generate.tsx:83
+msgid "Generate story"
+msgstr ""
+
+#: pages/story-generator/index.tsx:42
+msgid "Generate Story"
+msgstr ""
+
+#: pages/text-generator/generate.tsx:71
+msgid "Generate text"
+msgstr ""
+
+#: pages/text-generator/generate.tsx:83
+#: pages/text-generator/index.tsx:41
+msgid "Generate Text"
+msgstr ""
+
+#: pages/thesis-statement/generate.tsx:83
+#: pages/thesis-statement/index.tsx:41
+msgid "Generate Thesis"
+msgstr ""
+
+#: pages/thesis-statement/generate.tsx:71
+msgid "Generate thesis statement"
+msgstr ""
+
+#: components/tools/Generator/GeneratorMainBar.tsx:261
+msgid "Generating..."
+msgstr ""
+
 #: components/Navbar.tsx:414
 msgid "Get Started"
 msgstr "Empezar"
@@ -769,24 +598,6 @@ msgstr "Empezar"
 msgid "Getting Started"
 msgstr "Empezando"
 
-#: components/Landing/Plans.tsx:717
-#: components/PdfToChat/Plans.tsx:717
-#: components/Modals/PaymentModalContent.tsx:557
-#: components/Modals/UnitsExceededModal.tsx:124
-#: components/Modals/ConversationDeleteModal.tsx:120
-#: components/Modals/ConversationHistoryDeleteModal.tsx:120
-#: components/Modals/DocumentDeleteModal.tsx:122
-#: components/Modals/DocumentSelectModal.tsx:768
-#: components/Modals/OldDocumentDeleteModal.tsx:144
-#: components/Modals/Profile.tsx:258
-#: pages/billing/index.tsx:1133
-#: pages/billing/upgrade.tsx:928
-#: pages/documents/[[...id]]/index.tsx:1013
-#: pages/settings/index.tsx:460
-#: components/Extension/Methods.tsx:154
-#: utils/termsData.ts:71
-#: pages/settings/index.tsx:892
-#: pages/settings/index.tsx:900
 #: pages/source-tool/index.tsx:278
 msgid "Hang on! We’re looking for sources"
 msgstr "¡Espera! Estamos buscando fuentes"
@@ -794,19 +605,43 @@ msgstr "¡Espera! Estamos buscando fuentes"
 #: components/Modals/ConversationFeedback.tsx:369
 #: components/Modals/ConversationFeedback.tsx:479
 #: components/tools/ToolsSection.tsx:126
-msgid "Harness the power of our AI-driven Literature Review Assistant. Simplify your research process, produce structured overviews, and craft in-depth literature reviews to elevate your academic work."
-msgstr "Aprovecha el poder de nuestro asistente de revisión bibliográfica basado en IA. Simplifica tu proceso de investigación, produce resúmenes estructurados y elabora revisiones bibliográficas en profundidad para elevar tu trabajo académico\"."
+#~ msgid "Harness the power of our AI-driven Literature Review Assistant. Simplify your research process, produce structured overviews, and craft in-depth literature reviews to elevate your academic work."
+#~ msgstr "Aprovecha el poder de nuestro asistente de revisión bibliográfica basado en IA. Simplifica tu proceso de investigación, produce resúmenes estructurados y elabora revisiones bibliográficas en profundidad para elevar tu trabajo académico\"."
 
-#: components/Landing/Features.tsx:238
-#: components/PdfToChat/Features.tsx:244
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:403
-#: components/Modals/CreateAPIKeyDesktop.tsx:416
 #: components/Navbar.tsx:278
 #: components/Navbar.tsx:335
 #: components/tools/ToolBarExt.tsx:234
 #: components/tools/ToolBarExt.tsx:268
 msgid "Home"
 msgstr "Inicio"
+
+#: utils/faqData.tsx:28
+msgid "How does billing work?"
+msgstr ""
+
+#: utils/faqData.tsx:18
+msgid "How does it work?"
+msgstr ""
+
+#: utils/faqData.tsx:129
+msgid "How long are the chat sessions saved on AskYourPDF?"
+msgstr ""
+
+#: utils/faqData.tsx:74
+msgid "If I cancel my subscription, will I get a refund?"
+msgstr ""
+
+#: utils/faqData.tsx:92
+msgid "If the answer is in the uploaded document, there's a high likelihood the AI will provide it. The AI is constantly learning, so if it doesn't have an answer, you can always rephrase or ask a different question."
+msgstr ""
+
+#: utils/faqData.tsx:135
+msgid "If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help!"
+msgstr ""
+
+#: pages/story-generator/generate.tsx:84
+msgid "Input Character Names and a brief description of the main characters"
+msgstr ""
 
 #: utils/faqData.tsx:28
 #: pages/chat/[[...docID]]/index.tsx:240
@@ -841,33 +676,32 @@ msgstr "Inicio"
 #: components/Modals/ConversationFeedback.tsx:370
 #: pages/story-generator/generate/index.tsx:110
 #: pages/story-generator/index.tsx:56
-msgid "input Key events/plot points"
-msgstr "entrada Eventos clave/puntos de la trama"
+#~ msgid "input Key events/plot points"
+#~ msgstr "entrada Eventos clave/puntos de la trama"
 
 #: pages/essay-maker/generate/index.tsx:103
 #: pages/essay-maker/index.tsx:53
-msgid "input Key Points to Cover"
-msgstr "entrada Puntos clave a tratar"
+#~ msgid "input Key Points to Cover"
+#~ msgstr "entrada Puntos clave a tratar"
+
+#: pages/paragraph-generator/index.tsx:40
+msgid "Input main idea/supporting points"
+msgstr ""
 
 #: pages/paragraph-generator/index.tsx:57
 #: pages/story-generator/generate/index.tsx:109
 #: pages/story-generator/index.tsx:55
-msgid "Input Names and a brief description of the main characters"
-msgstr "Introduzca los nombres y una breve descripción de los personajes principales"
+#~ msgid "Input Names and a brief description of the main characters"
+#~ msgstr "Introduzca los nombres y una breve descripción de los personajes principales"
 
-#: pages/book-title-generator/generate/index.tsx:106
-#: pages/book-title-generator/index.tsx:51
-#: pages/instagram-caption/generate/index.tsx:103
-#: pages/instagram-caption/index.tsx:63
-#: pages/lyrics-generator/generate/index.tsx:103
-#: pages/lyrics-generator/index.tsx:58
-#: pages/poem-generator/generate/index.tsx:104
-#: pages/poem-generator/index.tsx:67
-#: pages/rap-generator/index.tsx:53
-#: pages/text-generator/generate/index.tsx:102
-#: pages/text-generator/index.tsx:53
-#: pages/thesis-statement/generate/index.tsx:102
-#: pages/thesis-statement/index.tsx:50
+#: pages/book-title-generator/index.tsx:39
+#: pages/essay-maker/index.tsx:39
+#: pages/instagram-caption/index.tsx:39
+#: pages/lyrics-generator/index.tsx:39
+#: pages/poem-generator/index.tsx:40
+#: pages/rap-generator/index.tsx:39
+#: pages/text-generator/index.tsx:39
+#: pages/thesis-statement/index.tsx:39
 msgid "Input some line here to begin"
 msgstr "Introduzca alguna línea aquí para empezar"
 
@@ -875,110 +709,96 @@ msgstr "Introduzca alguna línea aquí para empezar"
 #: components/Summarisation/SummariseMainBar.tsx:456
 #: pages/essay-maker/generate/index.tsx:102
 #: pages/essay-maker/index.tsx:52
-msgid "input Thesis Statement"
-msgstr "Enunciado de la tesis de entrada"
+#~ msgid "input Thesis Statement"
+#~ msgstr "Enunciado de la tesis de entrada"
 
 #: pages/essay-maker/generate/index.tsx:101
 #: pages/essay-maker/index.tsx:51
-msgid "Input Title or Topic"
-msgstr "Título o tema de entrada"
+#~ msgid "Input Title or Topic"
+#~ msgstr "Título o tema de entrada"
 
-#: components/Landing/Features.tsx:265
-#: components/PdfToChat/Features.tsx:290
-#: pages/instagram-caption/generate/index.tsx:109
-#: pages/instagram-caption/index.tsx:71
+#: pages/story-generator/index.tsx:40
+msgid "InputNames and a brief description of the main characters"
+msgstr ""
+
+#: pages/instagram-caption/generate.tsx:80
+msgid "Instagram Caption"
+msgstr ""
+
+#: pages/instagram-caption/generate.tsx:69
+#: pages/instagram-caption/index.tsx:37
 msgid "Instagram Caption Generator"
 msgstr "Generador de pies de foto de Instagram"
 
-#: components/Landing/Hero.tsx:257
-#: components/Modals/DocumentSelectModal.tsx:458
-#: components/Modals/DocumentSelectModal.tsx:466
-#: components/Modals/DocumentSelectModal.tsx:482
-#: components/Modals/DocumentSelectModal.tsx:490
-#: components/Settings/LinkAccountCall.tsx:96
+#: utils/free_tools.ts:85
+msgid "Instantly enhance your Instagram posts with our AI Caption Generator. Elevate your captions effortlessly for the perfect social media presence."
+msgstr ""
+
 #: components/tools/DocUploadNoFunc.tsx:323
 msgid "Invalid Entry. Please try again"
 msgstr "Entrada inválida. Inténtalo de nuevo"
 
-#: pages/billing/index.tsx:1020
-#: pages/settings/index.tsx:130
-#: pages/billing/index.tsx:988
-#: pages/settings/index.tsx:997
 #: components/Footer.tsx:288
 msgid "iOS App"
 msgstr "Aplicación iOS"
 
-#: pages/chat/[[...docID]]/index.tsx:250
 #: utils/faqData.tsx:39
+msgid "Is it necessary to create an account to use the application?"
+msgstr ""
+
 #: utils/faqData.tsx:96
+msgid "Is my data secure?"
+msgstr ""
+
 #: utils/faqData.tsx:69
-#: pages/knowledge-base/intro.tsx:297
+msgid "Is the application free to use?"
+msgstr ""
+
 #: utils/faqData.tsx:44
+msgid "Is there a discount for students?"
+msgstr ""
+
 #: utils/faqData.tsx:64
+msgid "Is there a limit to the number of documents I can upload?"
+msgstr ""
+
 #: utils/faqData.tsx:112
-#: components/Announcements.tsx:30
-#: components/Landing/Hero.tsx:267
+msgid "Is there a limit to the size of the document that can be uploaded?"
+msgstr ""
+
 #: utils/faqData.tsx:14
-#: components/Affiliate/Features.tsx:127
-#: components/Landing/Hero.tsx:264
-#: components/Affiliate/Header.tsx:209
-#: components/Affiliate/Header.tsx:190
-#: components/Affiliate/Join.tsx:94
-#: components/Affiliate/Join.tsx:91
-#: components/Landing/Features.tsx:275
-#: components/PdfToChat/Features.tsx:300
-#: components/APIKeysList.tsx:471
+msgid "It's an application that lets you chat with any document you upload"
+msgstr ""
+
 #: components/AppSidebar.tsx:179
 msgid "Knowledge Base"
 msgstr "Base de Conocimientos"
 
-#: components/Modals/PaymentModalContent.tsx:339
-#: components/Modals/PaymentModalContent.tsx:378
-#: pages/settings/index.tsx:658
-#: pages/settings/index.tsx:781
-#: components/KnowledgeBaseSidebar.tsx:509
-#: components/Modals/SearchBottomSheet.tsx:180
-#: pages/knowledge-base/[[...params]].tsx:971
-#: pages/knowledge-base/[[...params]].tsx:1666
-#: components/PdfToChat/KnowledgeBaseServiceBanner.tsx:82
-#: components/PdfToChat/ApiBanner.tsx:87
-#: components/Landing/Features.tsx:307
-#: components/PdfToChat/Features.tsx:332
-#: components/PdfToChat/Discover.tsx:42
-#: components/Summarisation/SummariseSideBar.tsx:296
-#: components/tools/ToolsSection.tsx:274
-#: pages/tools/split/index.tsx:813
-#: components/tools/SplitPage.tsx:819
-#: components/Modals/PaymentBottomSheet.tsx:164
-#: components/Modals/PaymentModalDesktop.tsx:167
-#: components/Modals/PaymentSuccessModal.tsx:173
-#: components/Modals/PaymentSuccessModal.tsx:211
-#: components/tools/ToolsSection.tsx:298
-#: pages.index.tsx:323
-#: utils/termsData.ts:66
-#: components/Settings/LinkAccountCall.tsx:120
-#: components/Settings/LinkAccountModal.tsx:135
-#: components/Settings/LinkAccountModal.tsx:161
-#: components/Modals/ShareModal.tsx:189
-#: components/Settings/LinkAccountCall.tsx:104
+#: utils/free_tools.ts:43
+msgid "Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
+msgstr ""
+
+#: utils/free_tools.ts:67
+msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources of relevant to your needs."
+msgstr ""
+
 #: components/literature-review/LiteratureMainBar.tsx:435
 msgid "Literature Review copied"
 msgstr "Revisión bibliográfica copiada"
 
 #: components/tools/ToolCommon.tsx:158
 #: components/ToolsFooter.tsx:78
+#: utils/free_tools.ts:36
 msgid "Literature Review Tool"
 msgstr "Herramienta de revisión de literatura"
 
-#: components/KnowledgeBaseSidebar.tsx:565
-#: components/KnowledgeBaseSidebar.tsx:600
-#: components/MainSidebar.tsx:510
-#: components/MainSidebar.tsx:545
-#: components/KnowledgeBaseSidebar.tsx:573
-#: components/MainSidebar.tsx:518
 #: components/AppSidebar.tsx:336
 msgid "Logout"
 msgstr "Cerrar sesiónHere is the translation to Spanish for the additional strings:```"
+
+#: pages/lyrics-generator/generate.tsx:81
+msgid "Lyrics"
+msgstr ""
 
 #: components/Landing/Plans.tsx:694
 #: components/Modals/PaymentModalContent.tsx:393
@@ -986,114 +806,53 @@ msgstr "Cerrar sesiónHere is the translation to Spanish for the additional stri
 #: pages/settings/index.tsx:775
 #: pages/paragraph-generator/generate/index.tsx:100
 #: pages/paragraph-generator/index.tsx:49
-msgid "Main idea"
-msgstr "La idea principal"
+#~ msgid "Main idea"
+#~ msgstr "La idea principal"
 
-#: components/Modals/Profile.tsx:335
-#: components/DeveloperSidebar.tsx:140
-#: pages/billing/index.tsx:970
-#: pages/settings/index.tsx:985
-#: components/DeveloperSidebar.tsx:158
-#: components/KnowledgeBaseSidebar.tsx:668
-#: components/MainSidebar.tsx:623
-#: pages/settings/index.tsx:917
-#: components/Landing/Plans.tsx:479
-#: components/Landing/Plans.tsx:561
-#: components/Landing/Plans.tsx:651
-#: components/Modals/PaymentModalContent.tsx:417
-#: components/PdfToChat/Plans.tsx:479
-#: components/PdfToChat/Plans.tsx:561
-#: components/PdfToChat/Plans.tsx:651
-#: components/Landing/Plans.tsx:487
-#: components/Landing/Plans.tsx:569
-#: components/Landing/Plans.tsx:659
-#: components/PdfToChat/Plans.tsx:487
-#: components/PdfToChat/Plans.tsx:569
-#: components/PdfToChat/Plans.tsx:659
-#: pages/billing/upgrade.tsx:727
-#: pages/billing/upgrade.tsx:828
+#: pages/paragraph-generator/generate.tsx:84
+msgid "Main idea/supporting points"
+msgstr ""
+
 #: components/literature-review/LiteratureMainBar.tsx:396
 #: components/source-tools/source-content/index.tsx:248
 msgid "Maximum of 10000 characters"
 msgstr "Máximo de 10000 caracteres"
 
-#: components/source-tools/source-content/index,tsx.tsx:248
-#: components/Modals/DocumentSelectModal.tsx:631
-#: components/Modals/PaymentModalContent.tsx:321
-#: components/Modals/PaymentModalContent.tsx:363
 #: components/tools/MergePage.tsx:812
 msgid "Merge Another"
 msgstr "Fusionar otro"
 
-#: pages/tools/merge/index.tsx:691
-#: components/PdfToChat/MoreTools.tsx:35
-#: pages/conversations/[[...params]].tsx:1218
-#: pages/knowledge-base/[[...params]].tsx:1797
-#: components/Landing/Products.tsx:136
-#: components/PdfToChat/Products.tsx:136
-#: components/Landing/Plans.tsx:422
-#: components/Modals/PaymentModalContent.tsx:497
-#: components/PdfToChat/Plans.tsx:422
-#: components/Landing/Plans.tsx:604
-#: components/PdfToChat/Plans.tsx:604
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:431
-#: components/Modals/CreateAPIKeyDesktop.tsx:445
-#: components/Modals/DocumentSelectModal.tsx:586
-#: components/Modals/DocumentSelectModal.tsx:580
-#: components/PdfToChat/LandingFaq.tsx:90
-#: pages/faq/index.tsx:67
-#: components/APIKeysList.tsx:605
-#: components/Landing/Products.tsx:191
-#: components/Landing/Products.tsx:207
-#: components/PdfToChat/Products.tsx:191
-#: components/PdfToChat/Products.tsx:207
-#: pages/apikeys/index.tsx:445
-#: pages/documents/[[...id]]/index.tsx:567
-#: components/MainSidebar.tsx:691
-#: pages/documents/[[...id]]/index.tsx:985
-#: components/Modals/Profile.tsx:212
-#: components/Modals/Profile.tsx:207
-#: components/Modals/DocumentSelectModal.tsx:698
-#: components/SearchResults.tsx:344
 #: utils/faqData.tsx:102
+msgid "No, documents cannot be edited within AskYourPDF. But this will be possible in the future."
+msgstr ""
+
 #: utils/faqData.tsx:118
+msgid "No, only one document can be uploaded at a time. But this will be possible in the future."
+msgstr ""
+
 #: utils/faqData.tsx:124
-#: pages/chat/[[...docID]]/index.tsx:256
+msgid "No, password-protected documents cannot be uploaded to AskYourPDF."
+msgstr ""
+
 #: utils/faqData.tsx:60
-#: pages/chat/[[...docID]]/index.tsx:251
+msgid "No, the chat interface is solely for interacting with the content of the document."
+msgstr ""
+
 #: utils/faqData.tsx:40
+msgid "No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."
+msgstr ""
+
 #: components/source-tools/source-result/index.tsx:540
 msgid "Not satisfied with your results?"
 msgstr "¿No está satisfecho con sus resultados?"
 
-#: components/Landing/AppSection.tsx:147
-#: components/APIKeysList.tsx:649
-#: components/APIKeysList.tsx:804
-#: components/APIKeysList.tsx:635
-#: components/APIKeysList.tsx:790
 #: components/tools/OcrPage.tsx:250
 #: components/tools/ToolCommon.tsx:170
-#: components/tools/ToolsSection.tsx:146
 #: components/ToolsFooter.tsx:94
+#: utils/free_tools.ts:60
 msgid "OCR PDF Reader"
 msgstr "Lector OCR de PDF"
 
-#: pages/settings/index.tsx:652
-#: pages/settings/index.tsx:772
-#: components/Landing/Plans.tsx:690
-#: components/Modals/PaymentModalContent.tsx:336
-#: components/Modals/PaymentModalContent.tsx:390
-#: components/PdfToChat/Plans.tsx:690
-#: components/PdfToChat/MoreTools.tsx:27
-#: components/Modals/Profile.tsx:197
-#: components/Modals/Profile.tsx:192
-#: components/APIKeysList.tsx:762
-#: components/Affiliate/Features.tsx:141
-#: components/SearchResults.tsx:268
-#: components/Modals/ConversationFeedback.tsx:371
-#: components/Modals/ConversationFeedback.tsx:480
-#: components/Landing/Features.tsx:311
-#: components/PdfToChat/Features.tsx:336
 #: components/Waitlist.tsx:141
 msgid "Our API is Now Live"
 msgstr "Nuestra API ya está en vivo"
@@ -1102,48 +861,40 @@ msgstr "Nuestra API ya está en vivo"
 msgid "Our Knowledge Base is Now Live"
 msgstr "Nuestra base de conocimientos ya está activa"
 
-#: pages/privacy/index.tsx:129
 #: components/literature-review/LiteratureMainBar.tsx:425
 msgid "Output"
 msgstr "Salida"
 
-#: components/Landing/Plans.tsx:479
-#: components/Landing/Plans.tsx:561
-#: components/Landing/Plans.tsx:651
-#: components/PdfToChat/Plans.tsx:479
-#: components/PdfToChat/Plans.tsx:561
-#: components/PdfToChat/Plans.tsx:651
-#: pages/documents/[[...id]]/index.tsx:950
-#: components/Modals/PaymentModalContent.tsx:318
-#: components/Modals/PaymentModalContent.tsx:360
-#: pages/billing/index.tsx:1054
-#: pages/settings/index.tsx:98
-#: pages/settings/index.tsx:113
-#: pages/paragraph-generator/generate/index.tsx:108
-#: pages/paragraph-generator/index.tsx:59
+#: pages/paragraph-generator/generate.tsx:80
+msgid "Paragraph"
+msgstr ""
+
+#: pages/paragraph-generator/generate.tsx:69
+#: pages/paragraph-generator/index.tsx:38
 msgid "Paragraph Generator"
 msgstr "Generador de párrafos"
 
-#: pages/billing/index.tsx:925
-#: pages/settings/index.tsx:929
-#: pages/settings/index.tsx:914
-#: components/Extension/Methods.tsx:140
 #: components/tools/ToolCommon.tsx:174
 #: components/ToolsFooter.tsx:86
+#: utils/free_tools.ts:54
 msgid "PDF Compressor"
 msgstr "Compresor de PDF"
 
+#: components/tools/Generator/GeneratorMainBar.tsx:215
+msgid "PDF Export Failed"
+msgstr ""
+
 #: components/tools/MergePage.tsx:674
 #: components/tools/ToolCommon.tsx:166
-#: components/tools/ToolsSection.tsx:139
 #: components/ToolsFooter.tsx:90
+#: utils/free_tools.ts:48
 msgid "PDF Merger"
 msgstr "Agregador de PDF"
 
 #: components/tools/SplitPage.tsx:804
 #: components/tools/ToolCommon.tsx:162
-#: components/tools/ToolsSection.tsx:132
 #: components/ToolsFooter.tsx:82
+#: utils/free_tools.ts:42
 msgid "PDF Splitter"
 msgstr "Separador de PDF"
 
@@ -1151,46 +902,20 @@ msgstr "Separador de PDF"
 msgid "PDF To Chat"
 msgstr "PDF para chatear"
 
-#: components/Landing/Plans.tsx:455
-#: components/PdfToChat/Plans.tsx:455
-#: components/PdfToChat/Discover.tsx:57
-#: pages/settings/index.tsx:507
-#: components/Modals/Profile.tsx:320
-#: components/Modals/Profile.tsx:323
-#: pages/billing/index.tsx:833
-#: pages/billing/index.tsx:1075
-#: pages/billing/upgrade.tsx:665
-#: pages/settings/index.tsx:186
-#: components/Landing/Plans.tsx:398
-#: components/PdfToChat/Plans.tsx:398
-#: components/Modals/DocumentSelectModal.tsx:483
-#: components/Modals/DocumentSelectModal.tsx:459
-#: pages/upload/index.tsx:317
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:300
-#: components/Settings/LinkAccountCall.tsx:96
-#: components/Modals/CreateAPIKeyDesktop.tsx:315
 #: components/literature-review/LiteratureSideBar.tsx:373
 #: components/literature-review/LiteratureSideBar.tsx:441
 msgid "Please enter instructions on how to review your text input OR document"
 msgstr "Ingrese instrucciones sobre cómo revisar su entrada de texto O documento"
 
-#: components/Summarisation/SummariseSideBar.tsx:366
-#: pages/delete/index.tsx:284
-#: pages/delete/index.tsx:234
-#: components/Modals/ConversationFeedback.tsx:388
-#: components/Modals/ConversationFeedback.tsx:497
-#: pages/billing/index.tsx:991
-#: pages/settings/index.tsx:1000
-#: pages/conversations/[[...params]].tsx:952
-#: pages/knowledge-base/[[...params]].tsx:1524
-#: pages/billing/index.tsx:960
-#: pages/settings/index.tsx:976
-#: pages/poem-generator/generate/index.tsx:110
-#: pages/poem-generator/index.tsx:76
+#: pages/poem-generator/generate.tsx:80
+msgid "poem"
+msgstr ""
+
+#: pages/poem-generator/generate.tsx:69
+#: pages/poem-generator/index.tsx:38
 msgid "Poem Generator"
 msgstr "Generador de poemas"
 
-#: pages/settings/index.tsx:625
 #: components/Navbar.tsx:297
 #: components/Navbar.tsx:354
 #: components/tools/ToolBarExt.tsx:244
@@ -1198,23 +923,10 @@ msgstr "Generador de poemas"
 msgid "Pricing"
 msgstr "Precios"
 
-#: components/Landing/Plans.tsx:702
-#: components/Modals/PaymentModalContent.tsx:399
-#: components/PdfToChat/Plans.tsx:702
-#: pages/settings/index.tsx:778
-#: components/Landing/Plans.tsx:698
-#: components/Modals/PaymentModalContent.tsx:396
-#: components/PdfToChat/Plans.tsx:698
-#: pages/settings/index.tsx:769
-#: utils/termsData.ts:46
 #: components/Footer.tsx:344
 msgid "Privacy Policy"
 msgstr "Política de privacidad"
 
-#: components/Api/Pricing.tsx:303
-#: pages/settings/index.tsx:743
-#: components/APIKeysList.tsx:482
-#: pages/apikeys/index.tsx:413
 #: components/Footer.tsx:260
 msgid "Products"
 msgstr "Productos"
@@ -1223,49 +935,23 @@ msgstr "Productos"
 msgid "Profile"
 msgstr "Perfil"
 
-#: components/Summarisation/SummariseSideBar.tsx:363
 #: components/source-tools/source-result/index.tsx:480
 msgid "Publication Year:"
 msgstr "Año de publicación:"
 
-#: pages/settings/index.tsx:1136
-#: pages/settings/index.tsx:1171
-#: components/Landing/Plans.tsx:496
-#: components/Landing/Plans.tsx:578
-#: components/Landing/Plans.tsx:668
-#: components/Landing/Plans.tsx:763
-#: components/PdfToChat/Plans.tsx:496
-#: components/PdfToChat/Plans.tsx:578
-#: components/PdfToChat/Plans.tsx:668
-#: components/PdfToChat/Plans.tsx:763
-#: components/Modals/PaymentModalContent.tsx:330
-#: pages/rap-generator/generate/index.tsx:111
-#: pages/rap-generator/index.tsx:61
+#: pages/rap-generator/generate.tsx:71
+#: pages/rap-generator/index.tsx:37
 msgid "Rap Generator"
 msgstr "Generador de Rap"
 
-#: pages/knowledge-base/[[...params]].tsx:1463
-#: components/Api/Header.tsx:171
-#: components/APIKeysList.tsx:770
 #: components/tools/OcrPage.tsx:284
 msgid "Read OCR PDF"
 msgstr "Leer PDF OCR"
 
-#: components/PdfToChat/Guide.tsx:125
-#: components/PdfToChat/SummarizeGuide.tsx:141
-#: components/PdfToChat/Guide.tsx:168
-#: components/PdfToChat/SummarizeGuide.tsx:195
-#: components/AppHeader.tsx:116
-#: pages/billing/upgrade.tsx:744
-#: pages/settings/index.tsx:567
-#: pages/billing/index.tsx:883
-#: components/Modals/ConversationFeedback.tsx:358
-#: components/Modals/ConversationFeedback.tsx:468
 #: components/literature-review/MainContent.tsx:280
 msgid "Request timed out. Please try again"
 msgstr "Solicitud agotada. Por favor, inténtelo de nuevo"
 
-#: pages/privacy/index.tsx:38
 #: components/literature-review/MainContent.tsx:362
 msgid "Results for"
 msgstr "Resultados para"
@@ -1283,10 +969,6 @@ msgstr "Revisar mi trabajo"
 msgid "Review will be displayed here"
 msgstr "La revisión se mostrará aquí"
 
-#: components/Modals/UpdatePaymentMethodBottomSheet.tsx:195
-#: components/Modals/UpdatePaymentMethodDesktop.tsx:191
-#: components/Landing/Features.tsx:286
-#: components/PdfToChat/Features.tsx:311
 #: components/literature-review/MainContent.tsx:350
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr "Ahorre tiempo y esfuerzo con un redactor de reseñas bibliográficas basado en inteligencia artificial. Agilice la investigación, genere resúmenes estructurados y cree revisiones cohesivas y exhaustivas que eleven su trabajo académico. Potenciado por IA\"."
@@ -1299,47 +981,24 @@ msgstr "¡Saluda a los documentos que te responden! Con AskYourPDF, tu lectura n
 msgid "Seamlessly cite, reference, edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
 msgstr "Cite, haga referencia, edite, divida, fusione, comprima y extraiga texto de PDF sin problemas. Aproveche el poder de la IA para simplificar sus interacciones con PDF de forma gratuita\"."
 
-#: pages/tools/index.tsx:358
-#: components/tools/MainPage.tsx:17
-#: components/Modals/SearchBottomSheet.tsx:131
-#: components/SearchResults.tsx:368
-#: components/SearchResults.tsx:261
-#: pages/privacy/index.tsx:110
-#: components/Api/Pricing.tsx:268
 #: components/source-tools/source-result/index.tsx:442
 msgid "Select all"
 msgstr "Seleccionar todo"
 
-#: components/Modals/ConversationFeedback.tsx:363
-#: components/Modals/ConversationFeedback.tsx:473
-#: components/Modals/DocumentSelectModal.tsx:628
 #: components/AppSidebar.tsx:310
 msgid "Settings"
 msgstr "Configuración"
 
-#: pages/conversations/[[...params]].tsx:1078
-#: components/Modals/PaymentModalContent.tsx:426
-#: pages/settings/index.tsx:649
-#: pages/settings/index.tsx:766
-#: pages/settings/index.tsx:859
-#: components/Modals/ShareModal.tsx:180
-#: components/Modals/ShareModal.tsx:209
-#: components/Affiliate/Features.tsx:137
-#: pages/chat/[[...docID]]/index.tsx:337
-#: pages/knowledge-base/intro.tsx:392
-#: components/Affiliate/Features.tsx:123
-#: components/Affiliate/Join.tsx:103
-#: pages/source-tool/index.tsx:240
-#: components/Modals/PaymentModal.tsx:49
-#: pages/documents/[[...id]]/index.tsx:772
-#: components/Summarisation/SummariseUpload.tsx:557
-#: components/Summarisation/SummariseUpload.tsx:543
-#: components/BuyCredits.tsx:41
+#: utils/free_tools.ts:109
+msgid "Simplify your academic writing. Let our AI Thesis Statement Generator craft concise, impactful thesis statements for your research effortlessly."
+msgstr ""
+
 #: components/source-tools/source-result/index.tsx:491
 msgid "Source copied"
 msgstr "Fuente copiada"
 
 #: components/tools/ToolCommon.tsx:178
+#: utils/free_tools.ts:66
 msgid "Source Tool"
 msgstr "Herramienta de Fuente"
 
@@ -1355,64 +1014,40 @@ msgstr "dividir otro"
 msgid "Split PDF"
 msgstr "Dividir PDF"
 
-#: components/PdfToChat/MoreTools.tsx:31
 #: components/literature-review/LiteratureMainBar.tsx:479
 msgid "Start another review"
 msgstr "Empezar otra revisión"
 
-#: pages/chat/[[...docID]]/index.tsx:329
-#: pages/file-upload/index.tsx:407
 #: components/Navbar.tsx:415
 #: components/tools/ToolBarExt.tsx:325
 msgid "Start For Free"
 msgstr "Comenzar Gratis"
 
-#: pages/chat/[[...docID]]/index.tsx:313
-#: pages/knowledge-base/intro.tsx:344
-#: pages/billing/index.tsx:1043
-#: pages/settings/index.tsx:155
-#: pages/story-generator/generate/index.tsx:115
-#: pages/story-generator/index.tsx:65
+#: pages/story-generator/generate.tsx:80
+msgid "story"
+msgstr ""
+
+#: pages/story-generator/generate.tsx:69
+#: pages/story-generator/index.tsx:38
 msgid "Story Generator"
 msgstr "Generador de historias"
 
-#: components/tools/ToolsSection.tsx:267
-#: components/Modals/ConversationFeedback.tsx:266
-#: components/Modals/ConversationFeedback.tsx:419
-#: components/Modals/ConversationFeedback.tsx:528
-#: components/Modals/ConversationFeedback.tsx:400
-#: components/Modals/ConversationFeedback.tsx:509
-#: components/Modals/PaymentModalContent.tsx:536
-#: components/Modals/PaymentModalContent.tsx:352
-#: components/Modals/PaymentModalContent.tsx:409
+#: utils/free_tools.ts:37
+msgid "Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work."
+msgstr ""
+
+#: utils/free_tools.ts:121
+msgid "Streamline your writing. Our AI Paragraph Generator crafts concise and coherent paragraphs, enhancing the clarity and impact of your content."
+msgstr ""
+
 #: utils/faqData.tsx:75
-#: utils/termsData.ts:57
-#: components/Modals/PaymentModal.tsx:48
-#: utils/termsData.ts:56
-#: pages/conversations/[[...params]].tsx:935
-#: pages/documents/[[...id]]/index.tsx:764
-#: pages/knowledge-base/[[...params]].tsx:1507
+msgid "Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."
+msgstr ""
+
 #: components/AppSidebar.tsx:252
 msgid "Summarisation"
 msgstr "Resumen"
 
-#: pages/settings/index.tsx:909
-#: pages/settings/index.tsx:917
-#: components/Summarisation/SummariseMainBar.tsx:389
-#: components/Modals/PaymentModalContent.tsx:342
-#: components/Modals/PaymentModalContent.tsx:381
-#: pages/settings/index.tsx:661
-#: pages/settings/index.tsx:784
-#: components/Summarisation/SummariseMainBar.tsx:406
-#: components/Summarisation/SummariseMainBar.tsx:413
-#: pages/summarise/index.tsx:163
-#: pages/summarise/index.tsx:175
-#: pages/summarise/index.tsx:223
-#: pages/summarise/index.tsx:235
-#: components/Summarisation/SummariseMainBar.tsx:445
-#: components/Landing/Features.tsx:194
-#: components/PdfToChat/Features.tsx:200
-#: components/Landing/Hero.tsx:298
 #: components/tools/DocUploadNoFunc.tsx:390
 msgid "Supported formats: .pdf"
 msgstr "Formatos admitidos: .pdf"
@@ -1421,50 +1056,52 @@ msgstr "Formatos admitidos: .pdf"
 #: components/Summarisation/SummariseUpload.tsx:534
 #: pages/paragraph-generator/generate/index.tsx:101
 #: pages/paragraph-generator/index.tsx:50
-msgid "Supporting points"
-msgstr "Puntos de apoyo"
+#~ msgid "Supporting points"
+#~ msgstr "Puntos de apoyo"
 
-#: pages/billing/index.tsx:866
-#: pages/settings/index.tsx:676
-#: pages/settings/index.tsx:798
-#: components/Landing/AppSection.tsx:152
-#: components/PdfToChat/AppSection.tsx:152
-#: components/PdfToChat/Discover.tsx:52
-#: utils/termsData.ts:51
 #: components/Footer.tsx:339
 msgid "Terms & Conditions"
 msgstr "Términos y condiciones"
 
-#: components/APIKeysList.tsx:482
-#: components/APIKeysList.tsx:682
-#: pages/apikeys/index.tsx:405
-#: pages/text-generator/generate/index.tsx:108
-#: pages/text-generator/index.tsx:62
+#: pages/text-generator/generate.tsx:80
+msgid "text"
+msgstr ""
+
+#: pages/text-generator/generate.tsx:69
+#: pages/text-generator/index.tsx:37
 msgid "Text Generator"
 msgstr "Generador de texto"
 
-#: components/Modals/ConversationFeedback.tsx:333
-#: components/Modals/ConversationFeedback.tsx:443
-#: pages/chat/[[...docID]]/index.tsx:241
 #: utils/faqData.tsx:19
-#: pages/knowledge-base/intro.tsx:255
-#: components/PdfToChat/KnowledgeBaseServiceBanner.tsx:85
-#: pages/privacy/index.tsx:55
-#: pages/knowledge-base/intro.tsx:298
-#: utils/termsData.ts:72
-#: pages/thesis-statement/generate/index.tsx:108
-#: pages/thesis-statement/index.tsx:58
+msgid "The application uses artificial intelligence to analyze the content of the document and provide a chat interface for users to ask questions get answers."
+msgstr ""
+
+#: utils/faqData.tsx:140
+msgid "The summarisation service, GPT4 and Claude 2, operate on a credit-based system; while initial credits are provided complimentary as part of your subscription, additional credits may need to be purchased once these are exhausted. All credit purchases are final, non-refundable, and must be used exclusively for the Summarization Service, GPT4, or Claude 2."
+msgstr ""
+
+#: pages/book-title-generator/generate.tsx:85
+#: pages/instagram-caption/generate.tsx:84
+#: pages/lyrics-generator/generate.tsx:85
+#: pages/text-generator/generate.tsx:84
+#: pages/thesis-statement/generate.tsx:84
+msgid "Theme / Topic"
+msgstr ""
+
+#: pages/thesis-statement/generate.tsx:80
+msgid "Thesis"
+msgstr ""
+
+#: pages/thesis-statement/generate.tsx:69
+#: pages/thesis-statement/index.tsx:37
 msgid "Thesis Statement Generator"
 msgstr ""
 
-#: pages/privacy/index.tsx:125
-#: pages/chat/[[...docID]]/index.tsx:236
-#: pages/subscription-error/index.tsx:163
-#: pages/billing/upgrade.tsx:674
-#: components/APIKeysList.tsx:501
-#: components/PdfToChat/SummarizeGuide.tsx:155
-#: pages/privacy/index.tsx:59
-#: utils/termsData.ts:67
+#: pages/essay-maker/generate.tsx:86
+#: pages/poem-generator/generate.tsx:84
+msgid "Title or Topic"
+msgstr ""
+
 #: components/Navbar.tsx:289
 #: components/Navbar.tsx:346
 #: components/tools/MainPage.tsx:19
@@ -1474,92 +1111,35 @@ msgstr "Herramientas"
 #: components/Landing/Products.tsx:178
 #: components/PdfToChat/Products.tsx:178
 #: pages/rap-generator/generate/index.tsx:105
-msgid "Topic/Theme"
-msgstr "Tema"
+#~ msgid "Topic/Theme"
+#~ msgstr "Tema"
 
-#: pages/settings/index.tsx:1051
-#: pages/tools/ocr/index.tsx:505
+#: utils/free_tools.ts:127
+msgid "Transform ideas into text effortlessly. Our AI Text Generator crafts diverse and engaging content, making creativity and productivity seamless."
+msgstr ""
+
 #: components/tools/OcrPage.tsx:251
-#: components/tools/ToolsSection.tsx:147
+#: utils/free_tools.ts:61
 msgid "Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader."
 msgstr "Transforme archivos PDF escaneados o basados en imágenes en texto editable y con capacidad de búsqueda con nuestro lector de PDF OCR con tecnología de inteligencia artificial."
 
-#: components/PdfToChat/Universities.tsx:92
 #: components/tools/ToolsWaitlist.tsx:150
 #: components/Waitlist.tsx:151
 msgid "Try it Now"
 msgstr "Pruébalo ahora"
 
-#: components/Announcements.tsx:19
-#: components/Announcements.tsx:25
-#: components/SearchResults.tsx:264
-#: pages/conversations/[[...params]].tsx:1057
-#: pages/knowledge-base/[[...params]].tsx:1635
-#: pages/delete/index.tsx:239
-#: pages/delete/index.tsx:246
-#: components/Modals/UnitsExceededModal.tsx:105
-#: components/Landing/Features.tsx:269
-#: components/PdfToChat/Features.tsx:294
-#: components/Landing/Plans.tsx:686
-#: components/Modals/PaymentModalContent.tsx:384
-#: components/PdfToChat/Plans.tsx:686
-#: components/Modals/PaymentModalContent.tsx:369
-#: components/Modals/PaymentModalContent.tsx:420
-#: pages/settings/index.tsx:853
-#: components/Landing/Plans.tsx:772
-#: components/PdfToChat/Plans.tsx:772
-#: pages/settings/index.tsx:850
-#: components/Modals/PaymentModalContent.tsx:417
-#: pages/settings/index.tsx:847
-#: components/Landing/Plans.tsx:744
-#: components/PdfToChat/Plans.tsx:744
-#: components/Modals/PaymentModalContent.tsx:423
-#: pages/settings/index.tsx:763
-#: pages/settings/index.tsx:856
-#: components/Modals/PaymentModalContent.tsx:372
-#: components/PdfToChat/Discover.tsx:159
-#: pages/billing/index.tsx:1061
-#: pages/settings/index.tsx:83
-#: components/Modals/Profile.tsx:235
-#: components/Modals/DocumentSelectModal.tsx:721
-#: components/Modals/UpdatePaymentMethodBottomSheet.tsx:162
-#: components/Modals/UpdatePaymentMethodDesktop.tsx:158
-#: components/Modals/DocumentSelectModal.tsx:402
-#: pages/billing/index.tsx:976
-#: components/AppHeader.tsx:105
-#: components/KnowledgeBaseSidebar.tsx:630
-#: components/KnowledgeBaseSidebar.tsx:647
-#: components/MainSidebar.tsx:575
-#: components/MainSidebar.tsx:592
-#: pages/file-upload/index.tsx:353
-#: pages/subscription-error/index.tsx:176
-#: components/APIKeysList.tsx:618
-#: components/APIKeysList.tsx:775
-#: pages/billing/upgrade.tsx:691
-#: components/APIKeysList.tsx:511
-#: components/Modals/PaymentModalContent.tsx:587
-#: components/Modals/PaymentModalContent.tsx:601
-#: components/Api/Pricing.tsx:319
-#: components/Api/Pricing.tsx:374
-#: pages/billing/index.tsx:867
-#: pages/billing/upgrade.tsx:785
-#: pages/billing/upgrade.tsx:851
-#: components/KnowledgeBaseSidebar.tsx:638
-#: components/MainSidebar.tsx:583
-#: pages/file-upload/index.tsx:335
-#: pages/settings/index.tsx:688
-#: pages/settings/index.tsx:699
-#: pages/settings/index.tsx:810
-#: pages/settings/index.tsx:821
-#: components/Modals/PaymentModalContent.tsx:584
-#: components/Modals/PaymentModalContent.tsx:598
-#: components/PdfToChat/Guide.tsx:136
-#: components/PdfToChat/SummarizeGuide.tsx:152
+#: utils/free_tools.ts:103
+msgid "Unleash limitless creativity with our AI Story Generator. Craft unique tales, explore diverse genres, and bring your narratives to life."
+msgstr ""
+
+#: utils/free_tools.ts:91
+msgid "Unleash lyrical brilliance with our AI Rap Generator. Elevate your flow with personalized, AI-crafted rhymes. Ignite your rap game."
+msgstr ""
+
 #: components/AppSidebar.tsx:222
 msgid "Upload Doc"
 msgstr "Subir documento"
 
-#: pages/upload/index.tsx:250
 #: components/tools/DocUploadNoFunc.tsx:357
 msgid "Upload Document"
 msgstr "Subir documento"
@@ -1572,92 +1152,17 @@ msgstr "Carga fallida"
 msgid "Upload From URL"
 msgstr "Subir desde URL"
 
-#: components/Modals/PaymentModalContent.tsx:280
 #: components/literature-review/LiteratureUpload.tsx:485
 msgid "Upload New Document"
 msgstr "Subir Nuevo Documento"
 
-#: components/DocumentUpload.tsx:370
 #: components/literature-review/LiteratureMainBar.tsx:366
 #: components/source-tools/source-content/index.tsx:216
 msgid "Upload text file"
 msgstr "Cargar archivo de texto"
 
-#: pages/file-upload/index.tsx:360
-#: pages/documents/[[...id]]/index.tsx:533
-#: pages/knowledge-base/[[...params]].tsx:1032
-#: pages/settings/index.tsx:1058
-#: pages/documents/[[...id]]/index.tsx:938
-#: utils/termsData.ts:21
-#: pages/settings/index.tsx:1048
-#: utils/termsData.ts:16
-#: components/Modals/OldDocumentDeleteModal.tsx:132
-#: components/APIKeysList.tsx:642
-#: components/APIKeysList.tsx:656
-#: components/APIKeysList.tsx:797
-#: components/APIKeysList.tsx:809
-#: utils/termsData.ts:26
-#: utils/termsData.ts:31
-#: components/Landing/MobileAppBanner.tsx:94
-#: pages/conversations/[[...params]].tsx:1142
-#: pages/apikeys/index.tsx:342
-#: pages/billing/index.tsx:780
-#: pages/billing/upgrade.tsx:598
-#: pages/apikeys/index.tsx:356
-#: pages/billing/index.tsx:794
-#: pages/billing/upgrade.tsx:612
 #: components/literature-review/MainContent.tsx:227
-#: pages/book-title-generator/generate/index.tsx:47
-#: pages/book-title-generator/generate/index.tsx:55
-#: pages/book-title-generator/generate/index.tsx:124
-#: pages/book-title-generator/index.tsx:65
-#: pages/book-title-generator/index.tsx:73
-#: pages/essay-maker/generate/index.tsx:46
-#: pages/essay-maker/generate/index.tsx:54
-#: pages/essay-maker/generate/index.tsx:120
-#: pages/essay-maker/index.tsx:69
-#: pages/essay-maker/index.tsx:77
-#: pages/instagram-caption/generate/index.tsx:47
-#: pages/instagram-caption/generate/index.tsx:55
-#: pages/instagram-caption/generate/index.tsx:120
-#: pages/instagram-caption/index.tsx:77
-#: pages/instagram-caption/index.tsx:85
-#: pages/lyrics-generator/generate/index.tsx:46
-#: pages/lyrics-generator/generate/index.tsx:54
-#: pages/lyrics-generator/generate/index.tsx:121
-#: pages/lyrics-generator/index.tsx:73
-#: pages/lyrics-generator/index.tsx:81
-#: pages/paragraph-generator/generate/index.tsx:45
-#: pages/paragraph-generator/generate/index.tsx:53
-#: pages/paragraph-generator/generate/index.tsx:119
-#: pages/paragraph-generator/index.tsx:65
-#: pages/paragraph-generator/index.tsx:73
-#: pages/poem-generator/generate/index.tsx:47
-#: pages/poem-generator/generate/index.tsx:55
-#: pages/poem-generator/generate/index.tsx:122
-#: pages/poem-generator/index.tsx:82
-#: pages/poem-generator/index.tsx:90
-#: pages/rap-generator/generate/index.tsx:48
-#: pages/rap-generator/generate/index.tsx:56
-#: pages/rap-generator/generate/index.tsx:123
-#: pages/rap-generator/index.tsx:67
-#: pages/rap-generator/index.tsx:75
 #: pages/source-tool/index.tsx:181
-#: pages/story-generator/generate/index.tsx:48
-#: pages/story-generator/generate/index.tsx:56
-#: pages/story-generator/generate/index.tsx:127
-#: pages/story-generator/index.tsx:71
-#: pages/story-generator/index.tsx:79
-#: pages/text-generator/generate/index.tsx:46
-#: pages/text-generator/generate/index.tsx:54
-#: pages/text-generator/generate/index.tsx:119
-#: pages/text-generator/index.tsx:68
-#: pages/text-generator/index.tsx:76
-#: pages/thesis-statement/generate/index.tsx:45
-#: pages/thesis-statement/generate/index.tsx:53
-#: pages/thesis-statement/generate/index.tsx:119
-#: pages/thesis-statement/index.tsx:64
-#: pages/thesis-statement/index.tsx:72
 msgid "Warning"
 msgstr "Advertencia"
 
@@ -1665,97 +1170,72 @@ msgstr "Advertencia"
 msgid "We are making AskYourPDF API open for developers to build applications and services."
 msgstr "Estamos haciendo que la API de AskYourPDF esté abierta para que los desarrolladores creen aplicaciones y servicios."
 
-#: components/Announcements.tsx:29
-#: utils/termsData.ts:52
-#: utils/termsData.ts:77
-#: pages/privacy/index.tsx:140
-#: pages/chat/[[...docID]]/index.tsx:246
 #: utils/faqData.tsx:24
-#: pages/billing/index.tsx:977
-#: pages/privacy/index.tsx:114
-#: components/PdfToChat/Features.tsx:276
-#: components/Landing/Products.tsx:129
-#: components/PdfToChat/Products.tsx:129
-#: pages/terms/index.tsx:47
+msgid "We support multiple document formats: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", and \".rtf\"."
+msgstr ""
+
+#: utils/faqData.tsx:139
+msgid "What does \"additional credits may be required\" mean in the pricing section?"
+msgstr ""
+
 #: utils/faqData.tsx:134
+msgid "What if I have a question or a problem while using AskYourPDF?"
+msgstr ""
+
 #: utils/faqData.tsx:91
-#: pages/knowledge-base/intro.tsx:254
+msgid "What if I have a question that the AI can't answer?"
+msgstr ""
+
 #: utils/faqData.tsx:13
-#: pages/chat/[[...docID]]/index.tsx:235
-#: components/Landing/Testimonial.tsx:139
-#: components/PdfToChat/Testimonial.tsx:139
-#: components/Modals/ConversationFeedback.tsx:393
-#: components/Modals/ConversationFeedback.tsx:502
-#: utils/termsData.ts:42
-#: components/PdfToChat/Features.tsx:271
-#: components/PdfToChat/Discover.tsx:53
+msgid "What is AskYourPDF?"
+msgstr ""
+
 #: components/tools/MergePage.tsx:675
-#: components/tools/ToolsSection.tsx:140
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 msgstr "Con nuestra fusión inteligente y automatizada, sus PDF se unifican a la perfección en un único documento cohesionado, manteniendo la calidad y el formato\"."
 
-#: pages/tools/merge/index.tsx:697
-#: components/tools/MergePage.tsx:690
-#: components/tools/ToolsSection.tsx:281
-#: components/PdfToChat/Guide.tsx:171
-#: components/Modals/PaymentModalContent.tsx:516
+#: utils/free_tools.ts:49
+msgid "With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
+msgstr ""
+
 #: utils/faqData.tsx:108
+msgid "Yes, AskYourPDF is accessible from any device with standard browsers and an internet connection."
+msgstr ""
+
 #: utils/faqData.tsx:82
+msgid "Yes, AskYourPDF is multilingual and supports chatting in any language of your choice."
+msgstr ""
+
 #: utils/faqData.tsx:87
+msgid "Yes, chat history can be downloaded."
+msgstr ""
+
 #: utils/faqData.tsx:47
+msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at <0>billing@askyourpdf.com</0> with details of your educational institution and enrolment."
+msgstr ""
+
 #: utils/faqData.tsx:45
+msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at billing@askyourpdf.com with details of your educational institution and enrolment."
+msgstr ""
+
 #: utils/faqData.tsx:70
+msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF. Documents uploaded by Free users remain in our database for a maximum of 90 days before removal."
+msgstr ""
+
 #: utils/faqData.tsx:113
-#: utils/termsData.ts:27
-#: pages/documents/[[...id]]/index.tsx:757
+msgid "Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."
+msgstr ""
+
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"
 msgstr "Ahora puedes chatear con varios documentos a la vez utilizando nuestra base de conocimientos"
 
-#: components/Announcements.tsx:17
-#: components/Announcements.tsx:23
-#: pages/documents/[[...id]]/index.tsx:756
-#: components/KnowledgeBaseSidebar.tsx:680
-#: components/KnowledgeBaseSidebar.tsx:696
-#: components/KnowledgeBaseSidebar.tsx:713
-#: components/MainSidebar.tsx:635
-#: components/MainSidebar.tsx:651
-#: components/MainSidebar.tsx:668
-#: components/KnowledgeBaseSidebar.tsx:613
-#: components/MainSidebar.tsx:558
-#: components/KnowledgeBaseSidebar.tsx:536
-#: components/MainSidebar.tsx:481
-#: components/Modals/UnitsExceededModal.tsx:108
-#: components/Modals/DocumentSelectModal.tsx:467
-#: components/Modals/DocumentSelectModal.tsx:491
-#: utils/termsData.ts:22
-#: utils/termsData.ts:17
-#: components/SubscriptionGuard.tsx:30
-#: pages/delete/index.tsx:275
-#: pages/file-upload/index.tsx:363
-#: components/Affiliate/Features.tsx:157
-#: components/Modals/CreateAPIKeyBottomSheet.tsx:404
-#: components/Modals/CreateAPIKeyDesktop.tsx:417
-#: pages/subscription-error/index.tsx:160
-#: components/APIKeysList.tsx:497
-#: components/Modals/Profile.tsx:277
-#: components/Modals/Profile.tsx:280
-#: components/Modals/CreateAPIKeyDesktop.tsx:387
-#: pages/privacy/index.tsx:149
-#: pages/tools/ocr/index.tsx:520
-#: pages/lyrics-generator/generate/index.tsx:109
-#: pages/lyrics-generator/index.tsx:66
+#: pages/lyrics-generator/generate.tsx:70
+#: pages/lyrics-generator/index.tsx:37
+#: utils/free_tools.ts:73
 msgid "Your creative companion on your musical journey, create lyrics that tell your unique story"
 msgstr "Tu compañero creativo en tu viaje musical, crea letras que cuenten tu historia única"
 
-#: components/Landing/Features.tsx:297
-#: components/PdfToChat/Features.tsx:322
-#: components/Modals/ConversationFeedback.tsx:343
-#: components/Modals/ConversationFeedback.tsx:453
-#: components/PdfToChat/Guide.tsx:120
-#: components/Modals/DocumentSelectModal.tsx:425
-#: components/Modals/DocumentSelectModal.tsx:403
-#: components/Settings/AccountLinkedSuccessModal.tsx:69
 #: components/tools/MergePage.tsx:779
 msgid "Your PDF is ready"
 msgstr "Tu PDF está listo"
@@ -1764,8 +1244,6 @@ msgstr "Tu PDF está listo"
 msgid "Your PDFs are ready"
 msgstr "Tus archivos PDF están listos"
 
-#: utils/termsData.ts:47
 #: components/literature-review/LiteratureMainBar.tsx:462
 msgid "Your Review is being generated"
 msgstr "Se está generando su revisión"
-

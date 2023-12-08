@@ -1,17 +1,11 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 2023-12-08 15:33+0100\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: ayp\n"
-"Language: ko\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Plural-Forms: \n"
+"X-Generator: @lingui/cli\n"
+"Language: de\n"
 
 #: components/Modals/SourceToolsConfiguration.tsx:411
 msgid "{0}"
@@ -19,7 +13,7 @@ msgstr ""
 
 #: components/literature-review/LiteratureUpload.tsx:399
 msgid "{0} file upload failed"
-msgstr "{0} 파일 업로드 실패"
+msgstr ""
 
 #: components/FreeLanding/Hero.tsx:362
 msgid "{title}"
@@ -27,7 +21,7 @@ msgstr ""
 
 #: components/tools/DocUploadNoFunc.tsx:385
 msgid "<0>Click to upload</0> or drag and drop"
-msgstr "<0>클릭하여 업로드</0> 또는 드래그 앤 드롭"
+msgstr ""
 
 #: utils/faqData.tsx:97
 msgid "Absolutely. Data privacy is our top priority. The application employs industry-standard SSL encryption to ensure the protection of your information."
@@ -35,26 +29,26 @@ msgstr ""
 
 #: components/literature-review/LiteratureSideBar.tsx:434
 msgid "Advanced Parameters"
-msgstr "고급 매개변수"
+msgstr ""
 
 #: components/literature-review/LiteratureMainBar.tsx:407
 msgid "Advanced settings"
-msgstr "고급 설정"
+msgstr ""
 
 #: components/Footer.tsx:364
 msgid "Affiliate Program"
-msgstr "제휴 프로그램"
+msgstr ""
 
 #: pages/book-title-generator/generate.tsx:69
 #: pages/book-title-generator/index.tsx:36
 #: utils/free_tools.ts:96
 msgid "AI Book Title Generator"
-msgstr "AI 도서 제목 생성기"
+msgstr ""
 
 #: pages/essay-maker/generate.tsx:70
 #: utils/free_tools.ts:114
 msgid "AI Essay Maker"
-msgstr "AI 에세이 메이커"
+msgstr ""
 
 #: pages/essay-maker/index.tsx:36
 msgid "AI Essay Writer"
@@ -64,15 +58,11 @@ msgstr ""
 #: pages/instagram-caption/index.tsx:36
 #: utils/free_tools.ts:84
 msgid "AI Instagram Caption Generator"
-msgstr "AI 인스타그램 캡션 생성기"
-
-#: components/tools/ToolsSection.tsx:125
-#~ msgid "AI Literature Review Generator"
-#~ msgstr "AI 문헌 검토 생성기"
+msgstr ""
 
 #: components/Footer.tsx:308
 msgid "AI Literature Review Writer"
-msgstr "AI 문학 리뷰 작성자"
+msgstr ""
 
 #: components/literature-review/MainContent.tsx:347
 msgid "AI Literature Review Writer Tool"
@@ -82,66 +72,66 @@ msgstr ""
 #: pages/lyrics-generator/index.tsx:36
 #: utils/free_tools.ts:72
 msgid "AI Lyrics Generator"
-msgstr "AI 문헌 검토 작성자 도구"
+msgstr ""
 
 #: pages/paragraph-generator/generate.tsx:68
 #: pages/paragraph-generator/index.tsx:37
 #: utils/free_tools.ts:120
 msgid "AI Paragraph Generator"
-msgstr "AI 문단 생성기"
+msgstr ""
 
 #: pages/poem-generator/generate.tsx:68
 #: pages/poem-generator/index.tsx:37
 #: utils/free_tools.ts:78
 msgid "AI Poem Generator"
-msgstr "AI 시 생성기"
+msgstr ""
 
 #: pages/rap-generator/generate.tsx:70
 #: pages/rap-generator/index.tsx:36
 #: utils/free_tools.ts:90
 msgid "AI Rap Generator"
-msgstr "AI 랩 생성기"
+msgstr ""
 
 #: pages/source-tool/index.tsx:245
 msgid "AI Source Finder"
-msgstr "AI 소스 찾기"
+msgstr ""
 
 #: pages/story-generator/generate.tsx:68
 #: pages/story-generator/index.tsx:37
 #: utils/free_tools.ts:102
 msgid "AI Story Generator"
-msgstr "AI 스토리 생성기"
+msgstr ""
 
 #: pages/text-generator/generate.tsx:68
 #: pages/text-generator/index.tsx:36
 #: utils/free_tools.ts:126
 msgid "AI Text Generator"
-msgstr "AI 텍스트 생성기"
+msgstr ""
 
 #: pages/thesis-statement/generate.tsx:68
 #: pages/thesis-statement/index.tsx:36
 #: utils/free_tools.ts:108
 msgid "AI Thesis Statement Generator"
-msgstr "AI 논문 문장 생성기"
+msgstr ""
 
 #: components/Generator.tsx:262
 #: components/literature-review/MainContent.tsx:292
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "An error occurred"
-msgstr "오류가 발생했습니다"
+msgstr ""
 
 #: pages/source-tool/index.tsx:206
 #: pages/source-tool/index.tsx:216
 msgid "An error occurred. Please try again"
-msgstr "오류가 발생했습니다. 다시 시도해 주세요"
+msgstr ""
 
 #: components/literature-review/LiteratureUpload.tsx:575
 msgid "Analysing Document"
-msgstr "문서 분석 중"
+msgstr ""
 
 #: components/Footer.tsx:283
 msgid "Android App"
-msgstr "안드로이드 앱"
+msgstr ""
 
 #: components/Footer.tsx:265
 #: components/Navbar.tsx:325
@@ -149,7 +139,7 @@ msgstr "안드로이드 앱"
 #: components/tools/ToolBarExt.tsx:259
 #: components/tools/ToolBarExt.tsx:293
 msgid "API"
-msgstr "API"
+msgstr ""
 
 #: utils/faqData.tsx:31
 msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See <0>here</0> for details]."
@@ -161,7 +151,7 @@ msgstr ""
 
 #: components/source-tools/source-result/index.tsx:473
 msgid "Authors:"
-msgstr "저자:"
+msgstr ""
 
 #: components/literature-review/MainContent.tsx:343
 #: components/tools/MergePage.tsx:676
@@ -169,23 +159,23 @@ msgstr "저자:"
 #: components/tools/SplitPage.tsx:806
 #: pages/source-tool/index.tsx:241
 msgid "Back to tools"
-msgstr "도구로 돌아가기"
+msgstr ""
 
 #: components/literature-review/LiteratureMainBar.tsx:487
 msgid "Begin new review"
-msgstr "새 리뷰 시작"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:548
 msgid "Begin new search"
-msgstr "새로운 검색 시작"
+msgstr ""
 
 #: components/Footer.tsx:418
 msgid "BlockTechnology OÜ. All rights reserved. ©{year}"
-msgstr "BlockTechnology OÜ. 모든 권리 보유. ©{year}"
+msgstr ""
 
 #: components/Footer.tsx:359
 msgid "Blog"
-msgstr "블로그"
+msgstr ""
 
 #: pages/book-title-generator/generate.tsx:81
 msgid "Book Title"
@@ -195,7 +185,7 @@ msgstr ""
 #: pages/book-title-generator/generate.tsx:72
 #: pages/book-title-generator/index.tsx:37
 msgid "Book Title Generator"
-msgstr "책 제목 생성기"
+msgstr ""
 
 #: utils/faqData.tsx:81
 msgid "Can I chat in any language?"
@@ -231,11 +221,11 @@ msgstr ""
 
 #: components/source-tools/source-result/index.tsx:510
 msgid "Cancel"
-msgstr "취소"
+msgstr ""
 
 #: components/Footer.tsx:293
 msgid "Chat"
-msgstr "채팅"
+msgstr ""
 
 #: utils/faqData.tsx:130
 msgid "Chat sessions remain available as long as the browser tab is open."
@@ -243,31 +233,31 @@ msgstr ""
 
 #: components/Footer.tsx:274
 msgid "Chrome Extension"
-msgstr "크롬 확장 프로그램"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:466
 msgid "Cited by:"
-msgstr "인용자:"
+msgstr ""
 
 #: components/ToolsFooter.tsx:115
 msgid "Coming Soon"
-msgstr "곧 출시"
+msgstr ""
 
 #: components/Footer.tsx:334
 msgid "Company"
-msgstr "회사"
+msgstr ""
 
 #: components/source-tools/source-content/index.tsx:259
 msgid "Configure search"
-msgstr "검색 구성"
+msgstr ""
 
 #: components/Footer.tsx:354
 msgid "Contact Us"
-msgstr "문의하기"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:412
 msgid "Content"
-msgstr "콘텐츠"
+msgstr ""
 
 #: components/AppSidebar.tsx:151
 #: components/Navbar.tsx:283
@@ -275,7 +265,7 @@ msgstr "콘텐츠"
 #: components/tools/ToolBarExt.tsx:239
 #: components/tools/ToolBarExt.tsx:273
 msgid "Conversations"
-msgstr "대화"
+msgstr ""
 
 #: components/Generator.tsx:381
 #: components/Generator.tsx:381
@@ -284,7 +274,7 @@ msgstr "대화"
 #: components/tools/Generator/GeneratorMainBar.tsx:239
 #: components/tools/Generator/GeneratorMainBar.tsx:239
 msgid "Copied"
-msgstr "복사됨"
+msgstr ""
 
 #: utils/free_tools.ts:79
 msgid "Craft personalized and enchanting verses effortlessly with our AI Poem Generator. Unleash creativity in just a click."
@@ -292,56 +282,56 @@ msgstr ""
 
 #: components/literature-review/LiteratureSideBar.tsx:383
 msgid "Date Range"
-msgstr "날짜 범위"
+msgstr ""
 
 #: components/literature-review/LiteratureUpload.tsx:334
 #: components/tools/DocUploadNoFunc.tsx:260
 msgid "Delete"
-msgstr "삭제"
+msgstr ""
 
 #: components/AppSidebar.tsx:274
 msgid "Delete Doc"
-msgstr "문서 삭제"
+msgstr ""
 
 #: components/literature-review/LiteratureMainBar.tsx:379
 #: components/literature-review/LiteratureSideBar.tsx:438
 #: components/source-tools/source-content/index.tsx:229
 msgid "Description"
-msgstr "설명"
+msgstr ""
 
 #: components/Footer.tsx:321
 msgid "Developer Docs"
-msgstr "개발자 문서"
+msgstr ""
 
 #: components/AppSidebar.tsx:202
 #: components/Footer.tsx:316
 msgid "Developers"
-msgstr "개발자"
+msgstr ""
 
 #: components/Navbar.tsx:303
 #: components/Navbar.tsx:360
 msgid "Docs"
-msgstr "문서"
+msgstr ""
 
 #: components/AppSidebar.tsx:295
 msgid "Documentation"
-msgstr "문서"
+msgstr ""
 
 #: components/tools/MergePage.tsx:778
 #: components/tools/SplitPage.tsx:909
 msgid "Done"
-msgstr "완료"
+msgstr ""
 
 #: components/Navbar.tsx:317
 #: components/Navbar.tsx:374
 #: components/tools/ToolBarExt.tsx:254
 #: components/tools/ToolBarExt.tsx:288
 msgid "Download"
-msgstr "다운로드"
+msgstr ""
 
 #: components/tools/SplitPage.tsx:805
 msgid "Efficiently split, separate, and manage your PDF files using our superior free online PDF splitter."
-msgstr "우수한 무료 온라인 PDF 분할기를 사용하여 PDF 파일을 효율적으로 분할, 분리 및 관리하세요."
+msgstr ""
 
 #: utils/free_tools.ts:115
 msgid "Effortlessly generate well-structured essays with our AI Essay Maker. Elevate your writing with clear arguments and compelling content."
@@ -353,13 +343,13 @@ msgstr ""
 
 #: pages/source-tool/index.tsx:248
 msgid "Enhance your research with our Source-Tool, which automatically cites and creates references for your academic text."
-msgstr "학술 텍스트에 대한 참고 문헌을 자동으로 인용하고 생성하는 출처 도구로 연구를 강화하세요."
+msgstr ""
 
 #: components/tools/DocUploadNoFunc.tsx:323
 #: pages/source-tool/index.tsx:206
 #: pages/source-tool/index.tsx:216
 msgid "Error"
-msgstr "오류"
+msgstr ""
 
 #: pages/essay-maker/generate.tsx:82
 msgid "Essay"
@@ -376,28 +366,28 @@ msgstr ""
 
 #: components/tools/MainPage.tsx:16
 msgid "Explore our Free Tools"
-msgstr "무료 도구 살펴보기"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:433
 msgid "Export all"
-msgstr "모두 내보내기"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:521
 msgid "Export As"
-msgstr "내보내기 형식"
+msgstr ""
 
 #: components/Navbar.tsx:310
 #: components/Navbar.tsx:367
 #: components/tools/ToolBarExt.tsx:249
 #: components/tools/ToolBarExt.tsx:283
 msgid "Extension"
-msgstr "확장"
+msgstr ""
 
 #: components/Generator.tsx:262
 #: components/literature-review/MainContent.tsx:292
 #: components/Modals/ExportSourceTools.tsx:231
 msgid "Failed to export PDF"
-msgstr "PDF 내보내기를 실패했습니다"
+msgstr ""
 
 #: components/tools/Generator/GeneratorMainBar.tsx:215
 msgid "Failed to export PDF. Please try again."
@@ -405,57 +395,37 @@ msgstr ""
 
 #: components/literature-review/MainContent.tsx:277
 msgid "Failed to review text. Please try again"
-msgstr "텍스트를 검토하지 못했습니다. 다시 시도해 주세요."
+msgstr ""
 
 #: components/tools/DocUploadNoFunc.tsx:335
 msgid "Failed to upload file"
-msgstr "파일 업로드에 실패했습니다"
+msgstr ""
 
 #: components/Footer.tsx:349
 msgid "FAQs"
-msgstr "자주 묻는 질문"
+msgstr ""
 
 #: components/tools/DocUploadNoFunc.tsx:418
 msgid "Fetch document"
-msgstr "문서 가져오기"
+msgstr ""
 
 #: components/tools/DocUploadNoFunc.tsx:415
 msgid "Fetching document"
-msgstr "문서 가져오는 중"
+msgstr ""
 
 #: components/literature-review/LiteratureSideBar.tsx:369
 msgid "Field of Study"
-msgstr "연구 분야"
+msgstr ""
 
 #: components/Footer.tsx:298
 msgid "File Upload"
-msgstr "파일 업로드"
+msgstr ""
 
 #: components/literature-review/LiteratureUpload.tsx:398
 #: components/literature-review/LiteratureUpload.tsx:402
 #: components/tools/DocUploadNoFunc.tsx:333
 msgid "File Upload Failed"
-msgstr "파일 업로드 실패"
-
-#: components/DocumentUpload.tsx:370
-#: pages/book-title-generator/generate/index.tsx:68
-#: pages/book-title-generator/index.tsx:84
-#: pages/instagram-caption/generate/index.tsx:67
-#: pages/instagram-caption/index.tsx:85
-#: pages/paragraph-generator/generate/index.tsx:62
-#: pages/paragraph-generator/index.tsx:77
-#: pages/poem-generator/generate/index.tsx:74
-#: pages/poem-generator/index.tsx:89
-#: pages/rap-generator/generate/index.tsx:69
-#: pages/rap-generator/index.tsx:84
-#: pages/text-generator/generate/index.tsx:68
-#: pages/text-generator/index.tsx:83
-#: pages/thesis-statement/generate/index.tsx:63
-#: pages/thesis-statement/index.tsx:78
-#: pages/essay-maker/generate/index.tsx:109
-#: pages/essay-maker/index.tsx:63
-#~ msgid "Fill"
-#~ msgstr ""
+msgstr ""
 
 #: pages/book-title-generator/generate.tsx:71
 msgid "Fill in the field (s) below to generate your book title"
@@ -499,7 +469,7 @@ msgstr ""
 
 #: components/source-tools/source-content/index.tsx:266
 msgid "Find sources"
-msgstr "소스 찾기"
+msgstr ""
 
 #: utils/faqData.tsx:65
 msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
@@ -507,7 +477,7 @@ msgstr ""
 
 #: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
-msgstr "문서에서"
+msgstr ""
 
 #: utils/free_tools.ts:97
 msgid "Fuel your literary imagination with our AI Book Title Generator. Discover captivating titles for your next literary masterpiece effortlessly."
@@ -592,28 +562,22 @@ msgstr ""
 
 #: components/Navbar.tsx:414
 msgid "Get Started"
-msgstr "시작하기"
+msgstr ""
 
 #: components/Footer.tsx:326
 msgid "Getting Started"
-msgstr "시작하기"
+msgstr ""
 
 #: pages/source-tool/index.tsx:278
 msgid "Hang on! We’re looking for sources"
-msgstr "기다려주세요! 소스를 찾고 있습니다"
-
-#: components/Modals/ConversationFeedback.tsx:369
-#: components/Modals/ConversationFeedback.tsx:479
-#: components/tools/ToolsSection.tsx:126
-#~ msgid "Harness the power of our AI-driven Literature Review Assistant. Simplify your research process, produce structured overviews, and craft in-depth literature reviews to elevate your academic work."
-#~ msgstr "AI 기반 문헌 검토 도우미의 힘을 활용하세요. 연구 프로세스를 간소화하고, 구조화된 개요를 작성하고, 심도 있는 문헌 리뷰를 작성하여 학술적 성과를 높일 수 있습니다."
+msgstr ""
 
 #: components/Navbar.tsx:278
 #: components/Navbar.tsx:335
 #: components/tools/ToolBarExt.tsx:234
 #: components/tools/ToolBarExt.tsx:268
 msgid "Home"
-msgstr "홈"
+msgstr ""
 
 #: utils/faqData.tsx:28
 msgid "How does billing work?"
@@ -643,56 +607,9 @@ msgstr ""
 msgid "Input Character Names and a brief description of the main characters"
 msgstr ""
 
-#: utils/faqData.tsx:28
-#: pages/chat/[[...docID]]/index.tsx:240
-#: pages/knowledge-base/intro.tsx:259
-#: utils/faqData.tsx:18
-#: components/Affiliate/Features.tsx:112
-#: utils/faqData.tsx:129
-#: components/PdfToChat/SummarizeGuide.tsx:135
-#: pages/knowledge-base/intro.tsx:282
-#: components/SearchResults.tsx:347
-#: pages/upload/index.tsx:303
-#: components/MobileHeader.tsx:123
-#: pages/documents/[[...id]]/index.tsx:921
-#: utils/faqData.tsx:74
-#: utils/faqData.tsx:92
-#: pages/settings/index.tsx:517
-#: utils/faqData.tsx:135
-#: pages/privacy/index.tsx:159
-#: components/Extension/Methods.tsx:159
-#: components/APIKeysList.tsx:609
-#: utils/termsData.ts:37
-#: components/Landing/Plans.tsx:473
-#: components/Landing/Plans.tsx:555
-#: components/Landing/Plans.tsx:645
-#: components/Landing/Plans.tsx:738
-#: components/PdfToChat/Plans.tsx:473
-#: components/PdfToChat/Plans.tsx:555
-#: components/PdfToChat/Plans.tsx:645
-#: components/PdfToChat/Plans.tsx:738
-#: pages/settings/index.tsx:638
-#: pages/settings/index.tsx:755
-#: components/Modals/ConversationFeedback.tsx:370
-#: pages/story-generator/generate/index.tsx:110
-#: pages/story-generator/index.tsx:56
-#~ msgid "input Key events/plot points"
-#~ msgstr "주요 이벤트/플롯 포인트 입력"
-
-#: pages/essay-maker/generate/index.tsx:103
-#: pages/essay-maker/index.tsx:53
-#~ msgid "input Key Points to Cover"
-#~ msgstr "입력해야 할 핵심 사항"
-
 #: pages/paragraph-generator/index.tsx:40
 msgid "Input main idea/supporting points"
 msgstr ""
-
-#: pages/paragraph-generator/index.tsx:57
-#: pages/story-generator/generate/index.tsx:109
-#: pages/story-generator/index.tsx:55
-#~ msgid "Input Names and a brief description of the main characters"
-#~ msgstr "입력 이름과 주인공에 대한 간략한 설명"
 
 #: pages/book-title-generator/index.tsx:39
 #: pages/essay-maker/index.tsx:39
@@ -703,19 +620,7 @@ msgstr ""
 #: pages/text-generator/index.tsx:39
 #: pages/thesis-statement/index.tsx:39
 msgid "Input some line here to begin"
-msgstr "시작하려면 여기에 몇 줄을 입력하세요."
-
-#: components/Summarisation/SummariseMainBar.tsx:457
-#: components/Summarisation/SummariseMainBar.tsx:456
-#: pages/essay-maker/generate/index.tsx:102
-#: pages/essay-maker/index.tsx:52
-#~ msgid "input Thesis Statement"
-#~ msgstr "입력 논문 문"
-
-#: pages/essay-maker/generate/index.tsx:101
-#: pages/essay-maker/index.tsx:51
-#~ msgid "Input Title or Topic"
-#~ msgstr "제목 또는 주제 입력"
+msgstr ""
 
 #: pages/story-generator/index.tsx:40
 msgid "InputNames and a brief description of the main characters"
@@ -728,7 +633,7 @@ msgstr ""
 #: pages/instagram-caption/generate.tsx:69
 #: pages/instagram-caption/index.tsx:37
 msgid "Instagram Caption Generator"
-msgstr "인스타그램 캡션 생성기"
+msgstr ""
 
 #: utils/free_tools.ts:85
 msgid "Instantly enhance your Instagram posts with our AI Caption Generator. Elevate your captions effortlessly for the perfect social media presence."
@@ -736,11 +641,11 @@ msgstr ""
 
 #: components/tools/DocUploadNoFunc.tsx:323
 msgid "Invalid Entry. Please try again"
-msgstr "잘못 입력하였습니다. 다시 시도하세요"
+msgstr ""
 
 #: components/Footer.tsx:288
 msgid "iOS App"
-msgstr "iOS 앱"
+msgstr ""
 
 #: utils/faqData.tsx:39
 msgid "Is it necessary to create an account to use the application?"
@@ -772,7 +677,7 @@ msgstr ""
 
 #: components/AppSidebar.tsx:179
 msgid "Knowledge Base"
-msgstr "ナレッジベース"
+msgstr ""
 
 #: utils/free_tools.ts:43
 msgid "Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
@@ -784,30 +689,21 @@ msgstr ""
 
 #: components/literature-review/LiteratureMainBar.tsx:435
 msgid "Literature Review copied"
-msgstr "문헌 검토 복사"
+msgstr ""
 
 #: components/tools/ToolCommon.tsx:158
 #: components/ToolsFooter.tsx:78
 #: utils/free_tools.ts:36
 msgid "Literature Review Tool"
-msgstr "문헌 고찰 도구"
+msgstr ""
 
 #: components/AppSidebar.tsx:336
 msgid "Logout"
-msgstr "로그아웃"
+msgstr ""
 
 #: pages/lyrics-generator/generate.tsx:81
 msgid "Lyrics"
 msgstr ""
-
-#: components/Landing/Plans.tsx:694
-#: components/Modals/PaymentModalContent.tsx:393
-#: components/PdfToChat/Plans.tsx:694
-#: pages/settings/index.tsx:775
-#: pages/paragraph-generator/generate/index.tsx:100
-#: pages/paragraph-generator/index.tsx:49
-#~ msgid "Main idea"
-#~ msgstr "주요 아이디어"
 
 #: pages/paragraph-generator/generate.tsx:84
 msgid "Main idea/supporting points"
@@ -816,11 +712,11 @@ msgstr ""
 #: components/literature-review/LiteratureMainBar.tsx:396
 #: components/source-tools/source-content/index.tsx:248
 msgid "Maximum of 10000 characters"
-msgstr "최대 10000자"
+msgstr ""
 
 #: components/tools/MergePage.tsx:812
 msgid "Merge Another"
-msgstr "다른 병합"
+msgstr ""
 
 #: utils/faqData.tsx:102
 msgid "No, documents cannot be edited within AskYourPDF. But this will be possible in the future."
@@ -844,26 +740,26 @@ msgstr ""
 
 #: components/source-tools/source-result/index.tsx:540
 msgid "Not satisfied with your results?"
-msgstr "결과에 만족하지 못하셨나요?"
+msgstr ""
 
 #: components/tools/OcrPage.tsx:250
 #: components/tools/ToolCommon.tsx:170
 #: components/ToolsFooter.tsx:94
 #: utils/free_tools.ts:60
 msgid "OCR PDF Reader"
-msgstr "OCR PDF 리더"
+msgstr ""
 
 #: components/Waitlist.tsx:141
 msgid "Our API is Now Live"
-msgstr "API 서비스 시작"
+msgstr ""
 
 #: components/tools/ToolsWaitlist.tsx:141
 msgid "Our Knowledge Base is Now Live"
-msgstr "기술 자료가 공개되었습니다."
+msgstr ""
 
 #: components/literature-review/LiteratureMainBar.tsx:425
 msgid "Output"
-msgstr "출력"
+msgstr ""
 
 #: pages/paragraph-generator/generate.tsx:80
 msgid "Paragraph"
@@ -872,13 +768,13 @@ msgstr ""
 #: pages/paragraph-generator/generate.tsx:69
 #: pages/paragraph-generator/index.tsx:38
 msgid "Paragraph Generator"
-msgstr "단락 생성기"
+msgstr ""
 
 #: components/tools/ToolCommon.tsx:174
 #: components/ToolsFooter.tsx:86
 #: utils/free_tools.ts:54
 msgid "PDF Compressor"
-msgstr "PDF 압축 도구"
+msgstr ""
 
 #: components/tools/Generator/GeneratorMainBar.tsx:215
 msgid "PDF Export Failed"
@@ -889,23 +785,23 @@ msgstr ""
 #: components/ToolsFooter.tsx:90
 #: utils/free_tools.ts:48
 msgid "PDF Merger"
-msgstr "PDF 병합 도구"
+msgstr ""
 
 #: components/tools/SplitPage.tsx:804
 #: components/tools/ToolCommon.tsx:162
 #: components/ToolsFooter.tsx:82
 #: utils/free_tools.ts:42
 msgid "PDF Splitter"
-msgstr "PDF 분리 도구"
+msgstr ""
 
 #: components/Footer.tsx:303
 msgid "PDF To Chat"
-msgstr "채팅용 PDF"
+msgstr ""
 
 #: components/literature-review/LiteratureSideBar.tsx:373
 #: components/literature-review/LiteratureSideBar.tsx:441
 msgid "Please enter instructions on how to review your text input OR document"
-msgstr "텍스트 입력 또는 문서를 검토하는 방법에 대한 지침을 입력하세요"
+msgstr ""
 
 #: pages/poem-generator/generate.tsx:80
 msgid "poem"
@@ -914,80 +810,80 @@ msgstr ""
 #: pages/poem-generator/generate.tsx:69
 #: pages/poem-generator/index.tsx:38
 msgid "Poem Generator"
-msgstr "시 생성기"
+msgstr ""
 
 #: components/Navbar.tsx:297
 #: components/Navbar.tsx:354
 #: components/tools/ToolBarExt.tsx:244
 #: components/tools/ToolBarExt.tsx:278
 msgid "Pricing"
-msgstr "요금"
+msgstr ""
 
 #: components/Footer.tsx:344
 msgid "Privacy Policy"
-msgstr "개인정보처리방침"
+msgstr ""
 
 #: components/Footer.tsx:260
 msgid "Products"
-msgstr "제품"
+msgstr ""
 
 #: components/AppSidebar.tsx:321
 msgid "Profile"
-msgstr "프로필"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:480
 msgid "Publication Year:"
-msgstr "발행 연도:"
+msgstr ""
 
 #: pages/rap-generator/generate.tsx:71
 #: pages/rap-generator/index.tsx:37
 msgid "Rap Generator"
-msgstr "랩 생성기"
+msgstr ""
 
 #: components/tools/OcrPage.tsx:284
 msgid "Read OCR PDF"
-msgstr "OCR PDF 읽기"
+msgstr ""
 
 #: components/literature-review/MainContent.tsx:280
 msgid "Request timed out. Please try again"
-msgstr "요청 시간이 초과되었습니다. 다시 시도해주세요"
+msgstr ""
 
 #: components/literature-review/MainContent.tsx:362
 msgid "Results for"
-msgstr " 결과물"
+msgstr ""
 
 #: components/literature-review/MainContent.tsx:272
 #: components/literature-review/MainContent.tsx:282
 msgid "Review Failed"
-msgstr "검토 실패"
+msgstr ""
 
 #: components/literature-review/LiteratureMainBar.tsx:414
 msgid "Review my work"
-msgstr "내 작업 검토"
+msgstr ""
 
 #: components/literature-review/LiteratureMainBar.tsx:468
 msgid "Review will be displayed here"
-msgstr "리뷰가 여기에 표시됩니다"
+msgstr ""
 
 #: components/literature-review/MainContent.tsx:350
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
-msgstr "AI 기반 문헌 리뷰 작성기로 시간과 노력을 절약하세요. 연구를 간소화하고, 구조화된 요약을 생성하고, 학술적 작업의 수준을 높여주는 응집력 있고 종합적인 리뷰를 작성하세요. AI로 구동됩니다."
+msgstr ""
 
 #: components/Footer.tsx:208
 msgid "Say hello to documents that respond to you! With AskYourPDF, your reading isn't just simple, it's fun!"
-msgstr "당신에게 응답하는 문서와 안녕! AskYourPDF로 읽기는 간편할 뿐만 아니라 재미있습니다!"
+msgstr ""
 
 #: components/tools/MainPage.tsx:17
 msgid "Seamlessly cite, reference, edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
-msgstr "PDF에서 텍스트를 원활하게 인용, 참조, 편집, 분할, 병합, 압축, 추출할 수 있습니다. AI의 강력한 기능을 활용하여 PDF 상호 작용을 무료로 간소화하세요."
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:442
 msgid "Select all"
-msgstr "모두 선택"
+msgstr ""
 
 #: components/AppSidebar.tsx:310
 msgid "Settings"
-msgstr "설정"
+msgstr ""
 
 #: utils/free_tools.ts:109
 msgid "Simplify your academic writing. Let our AI Thesis Statement Generator craft concise, impactful thesis statements for your research effortlessly."
@@ -995,33 +891,33 @@ msgstr ""
 
 #: components/source-tools/source-result/index.tsx:491
 msgid "Source copied"
-msgstr "소스 복사"
+msgstr ""
 
 #: components/tools/ToolCommon.tsx:178
 #: utils/free_tools.ts:66
 msgid "Source Tool"
-msgstr "소스 도구"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:422
 msgid "Sources found"
-msgstr "찾은 소스"
+msgstr ""
 
 #: components/tools/SplitPage.tsx:923
 msgid "Split Another"
-msgstr "또 다른 분할"
+msgstr ""
 
 #: components/tools/SplitPage.tsx:840
 msgid "Split PDF"
-msgstr "PDF 분할"
+msgstr ""
 
 #: components/literature-review/LiteratureMainBar.tsx:479
 msgid "Start another review"
-msgstr "다른 리뷰 시작하기"
+msgstr ""
 
 #: components/Navbar.tsx:415
 #: components/tools/ToolBarExt.tsx:325
 msgid "Start For Free"
-msgstr "무료로 시작하기"
+msgstr ""
 
 #: pages/story-generator/generate.tsx:80
 msgid "story"
@@ -1030,7 +926,7 @@ msgstr ""
 #: pages/story-generator/generate.tsx:69
 #: pages/story-generator/index.tsx:38
 msgid "Story Generator"
-msgstr "스토리 생성기"
+msgstr ""
 
 #: utils/free_tools.ts:37
 msgid "Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work."
@@ -1046,22 +942,15 @@ msgstr ""
 
 #: components/AppSidebar.tsx:252
 msgid "Summarisation"
-msgstr "요약"
+msgstr ""
 
 #: components/tools/DocUploadNoFunc.tsx:390
 msgid "Supported formats: .pdf"
-msgstr "지원되는 형식: .pdf"
-
-#: components/DocumentUpload.tsx:446
-#: components/Summarisation/SummariseUpload.tsx:534
-#: pages/paragraph-generator/generate/index.tsx:101
-#: pages/paragraph-generator/index.tsx:50
-#~ msgid "Supporting points"
-#~ msgstr "지원 포인트"
+msgstr ""
 
 #: components/Footer.tsx:339
 msgid "Terms & Conditions"
-msgstr "이용약관"
+msgstr ""
 
 #: pages/text-generator/generate.tsx:80
 msgid "text"
@@ -1070,7 +959,7 @@ msgstr ""
 #: pages/text-generator/generate.tsx:69
 #: pages/text-generator/index.tsx:37
 msgid "Text Generator"
-msgstr "텍스트 생성기"
+msgstr ""
 
 #: utils/faqData.tsx:19
 msgid "The application uses artificial intelligence to analyze the content of the document and provide a chat interface for users to ask questions get answers."
@@ -1095,7 +984,7 @@ msgstr ""
 #: pages/thesis-statement/generate.tsx:69
 #: pages/thesis-statement/index.tsx:37
 msgid "Thesis Statement Generator"
-msgstr "논문 문장 생성기"
+msgstr ""
 
 #: pages/essay-maker/generate.tsx:86
 #: pages/poem-generator/generate.tsx:84
@@ -1106,13 +995,7 @@ msgstr ""
 #: components/Navbar.tsx:346
 #: components/tools/MainPage.tsx:19
 msgid "Tools"
-msgstr "도구"
-
-#: components/Landing/Products.tsx:178
-#: components/PdfToChat/Products.tsx:178
-#: pages/rap-generator/generate/index.tsx:105
-#~ msgid "Topic/Theme"
-#~ msgstr "주제/테마"
+msgstr ""
 
 #: utils/free_tools.ts:127
 msgid "Transform ideas into text effortlessly. Our AI Text Generator crafts diverse and engaging content, making creativity and productivity seamless."
@@ -1121,12 +1004,12 @@ msgstr ""
 #: components/tools/OcrPage.tsx:251
 #: utils/free_tools.ts:61
 msgid "Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader."
-msgstr "AI 기반 OCR PDF 리더를 사용하여 스캔 또는 이미지 기반 PDF를 편집 및 검색 가능한 텍스트로 변환하세요."
+msgstr ""
 
 #: components/tools/ToolsWaitlist.tsx:150
 #: components/Waitlist.tsx:151
 msgid "Try it Now"
-msgstr "지금 시도하기"
+msgstr ""
 
 #: utils/free_tools.ts:103
 msgid "Unleash limitless creativity with our AI Story Generator. Craft unique tales, explore diverse genres, and bring your narratives to life."
@@ -1138,37 +1021,37 @@ msgstr ""
 
 #: components/AppSidebar.tsx:222
 msgid "Upload Doc"
-msgstr "문서 업로드"
+msgstr ""
 
 #: components/tools/DocUploadNoFunc.tsx:357
 msgid "Upload Document"
-msgstr "문서 업로드"
+msgstr ""
 
 #: components/tools/DocUploadNoFunc.tsx:335
 msgid "Upload failed"
-msgstr "업로드 실패"
+msgstr ""
 
 #: components/tools/DocUploadNoFunc.tsx:371
 msgid "Upload From URL"
-msgstr "URL에서 업로드"
+msgstr ""
 
 #: components/literature-review/LiteratureUpload.tsx:485
 msgid "Upload New Document"
-msgstr "新しいドキュメントをアップロードする"
+msgstr ""
 
 #: components/literature-review/LiteratureMainBar.tsx:366
 #: components/source-tools/source-content/index.tsx:216
 msgid "Upload text file"
-msgstr "텍스트 파일 업로드"
+msgstr ""
 
 #: components/literature-review/MainContent.tsx:227
 #: pages/source-tool/index.tsx:181
 msgid "Warning"
-msgstr "경고:"
+msgstr ""
 
 #: components/Waitlist.tsx:144
 msgid "We are making AskYourPDF API open for developers to build applications and services."
-msgstr "AskYourPDF API를 개발자가 애플리케이션과 서비스를 구축할 수 있도록 오픈하고 있습니다."
+msgstr ""
 
 #: utils/faqData.tsx:24
 msgid "We support multiple document formats: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", and \".rtf\"."
@@ -1192,7 +1075,7 @@ msgstr ""
 
 #: components/tools/MergePage.tsx:675
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
-msgstr "스마트한 자동 병합 기능을 사용하면 품질과 서식을 유지하면서 PDF를 하나의 일관된 문서로 원활하게 통합할 수 있습니다."
+msgstr ""
 
 #: utils/free_tools.ts:49
 msgid "With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
@@ -1228,22 +1111,22 @@ msgstr ""
 
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"
-msgstr "이제 지식창고를 사용하여 여러 문서와 한 번에 채팅할 수 있습니다."
+msgstr ""
 
 #: pages/lyrics-generator/generate.tsx:70
 #: pages/lyrics-generator/index.tsx:37
 #: utils/free_tools.ts:73
 msgid "Your creative companion on your musical journey, create lyrics that tell your unique story"
-msgstr "음악 여정의 창의적인 동반자, 나만의 이야기를 담은 가사를 만들어보세요."
+msgstr ""
 
 #: components/tools/MergePage.tsx:779
 msgid "Your PDF is ready"
-msgstr "PDF가 준비되었습니다"
+msgstr ""
 
 #: components/tools/SplitPage.tsx:910
 msgid "Your PDFs are ready"
-msgstr "PDF가 준비되었습니다"
+msgstr ""
 
 #: components/literature-review/LiteratureMainBar.tsx:462
 msgid "Your Review is being generated"
-msgstr "귀하의 리뷰가 생성 중입니다"
+msgstr ""

@@ -26,13 +26,17 @@ const Container = styled.div`
     &:focus {
       box-shadow: none; // Remove box shadow on hover or focus
     }
-
     .ant-select-selector {
       background: transparent;
       color: #000 !important;
-      border: 1px solid #000;
+      border: 2px solid #D0D5DD !important;
       font-size: 14px !important;
       font-family: var(--font-satoshi) !important;
+
+      &:hover {
+              border: 4px solid #green !important;
+
+      }
     }
 
     .ant-select-selection-search,
@@ -70,20 +74,26 @@ const Parameters = ({ generatorOptions, paramsChange }: any) => {
 
   return (
     <Container>
-      {generatorOptions.map((item: any, key: any) => (
-        <Fragment key={key}>
-          <ParameterTitle>{item.place_holder}</ParameterTitle>
-          <Select
-            key={key}
-            placeholder={item.place_holder}
-            value={generateParameters[item.type]}
-            size="large"
-            onChange={(generateParameter) => paramsChange(item.type, generateParameter)}
-            options={item.options}
-            className='select'
-          />
-        </Fragment>
-      ))}
+      {generatorOptions === null ? (
+        <></>
+      ) : (
+        <>
+            {generatorOptions.map((item: any, key: any) => (
+              <Fragment key={key}>
+                <ParameterTitle>{item.place_holder}</ParameterTitle>
+                <Select
+                  key={key}
+                  placeholder={item.place_holder}
+                  value={generateParameters[item.type]}
+                  size="large"
+                  onChange={(generateParameter) => paramsChange(item.type, generateParameter)}
+                  options={item.options}
+                  className='select'
+                />
+              </Fragment>
+            ))}
+        </>
+      )}
     </Container>
   );
 };

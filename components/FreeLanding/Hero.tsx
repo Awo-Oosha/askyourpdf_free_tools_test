@@ -375,20 +375,26 @@ export default function Hero(
                   </InputContainer>
 
                   <ParametersContainer>
-                    {params.map((item: any, key: any) => (
-                      <Fragment key={key}>
-                        {/* <ParametersTitle>{item.place_holder}</ParametersTitle> */}
-                        <Select
-                          key={key}
-                          placeholder={item.place_holder}
-                          value={generateParameters[item.type]}
-                          size="large"
-                          onChange={(generateParameter) => handleParameterChange(item.type, generateParameter)}
-                          options={item.options}
-                          className='select'
-                        />
-                      </Fragment>
-                    ))}
+                    {params === null ? (
+                      <></>
+                    ) : (
+                      <>
+                        {params.map((item: any, key: any) => (
+                          <Fragment key={key}>
+                            {/* <ParameterTitle>{item.place_holder}</ParameterTitle> */}
+                            <Select
+                              key={key}
+                              placeholder={item.place_holder}
+                              value={generateParameters[item.type]}
+                              size="large"
+                              onChange={(generateParameter) => handleParameterChange(item.type, generateParameter)}
+                              options={item.options}
+                              className='select'
+                            />
+                          </Fragment>
+                        ))}
+                      </>
+                    )}
                   </ParametersContainer>
                   
                   <CTA onClick={handleGenerateClick} disabled={isLoading}>

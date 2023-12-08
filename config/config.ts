@@ -433,7 +433,7 @@ export const GENERATOR_PARAMETERS = {
                 type: "PARAGRAPH",
                 place_holder: "Number of Paragraphs",
                 options: [
-                    {value: "", label: "Clear"},
+                    {value: null, label: "Number of Paragraphs"},
                     {value: "1", label: "One"},
                     {value: "2", label: "Two"},
                     {value: "3", label: "Three"},
@@ -472,8 +472,170 @@ export const GENERATOR_PARAMETERS = {
                 type: "HASHTAGS_PREFERENCES",
                 place_holder:"Hashtags Preferences",
                 options: [
-                        {value : "", label: "Clear",  },
+                        {value : "", label: "Hashtags Preferences",  },
                         {value : "Include Hashtag", label: "Include Hashtag"},
+                ]
+            }
+        ],
+
+        lyrics_generator: [
+            {   type: "GENRE",
+                place_holder: "Select Genre",
+                options: [
+                    { value: "Pop", label: "Pop"},
+                    { value: "Rock", label: "Rock"},
+                    { value: "Hip Hop", label: "Hip Hop"},
+                    { value: "Electronic", label: "Electronic"},
+                    { value: "R&B", label: "R&B"},
+                    { value: "Afro Beat", label: "Afro Beat"},
+                    // Add more genres as needed
+                ]
+            },
+            {   type: "MOOD",
+                place_holder: "Select Mood",
+                options: [
+                    { value: "Happy", label: "Happy"},
+                    { value: "Sad", label: "Sad"},
+                    { value: "Energetic", label: "Energetic"},
+                    { value: "Chill", label: "Chill"},
+                    { value: "Romantic", label: "Romantic"},
+                    // Add more moods as needed
+                ]
+            },
+            {   type: "THEME",
+                place_holder: "Select Theme",
+                options: [
+                    { value: "Love ", label: "Love"},
+                    { value: "Betrayal", label: "Betrayal"},
+                    { value: "Success", label: "Success"},
+                    
+                    // Add more moods as needed
+                ]
+            },
+            {
+                type: "STYLE",
+                place_holder: "Artist Style",
+                options: [
+                    { value: "JayZ", label: "JayZ"},
+                    { value: "Beyonce", label: "Beyonce"},
+                    { value: "Kendrick Lamar", label: "Kendrick Lamar"},
+                    { value: "Burna Boy", label: "Burna Boy"},
+                    { value: "Bad bunny", label: "Bad Bunny"},
+                    // Add more moods as needed
+                ]
+            }
+        ],
+        
+        paragraph_generator: null,
+
+        poem_generator: [
+            {   
+                type: "STYLE",
+                place_holder: "Select Style",
+                options: [
+                    {value: "Sonnet", label: "Sonnet",  },
+                    {value: "Haiku", label: "Haiku",},
+                    {value: "Limerick", label: "Limerick",},
+                    {value: "Free Verse", label: "Free Verse",},
+                ]
+            },
+            {   
+                type: "MOOD",
+                place_holder: "Select Mood",
+                options: [
+                    {value: "Romantic", label: "Romantic",  },
+                    {value: "Melancholic", label: "Melancholic",},
+                    {value: "Joyful", label: "Joyful",},
+                ]
+            },
+            {   
+                type: "THEME",
+                place_holder: "Select Themes",
+                options: [
+                    {value: "Nature", label: "Nature",  },
+                    {value: "Love", label: "Love",},
+                    {value: "Death", label: "Death",},
+                    {value: "Time", label: "Time",},
+                ]
+            },
+            {   
+                type: "LENGTH",
+                place_holder: "Length",
+                options: [
+                    {value: null, label: "Length"},
+                    {value: "Very Short", label: "Very Short"},
+                    {value: "Short", label: "Short"},
+                    {value: "Medium", label: "Medium"},
+                    {value: "Long", label: "Long"},
+                    {value: "Very Long", label: "Very Long"},
+                ]
+            }
+        ],
+
+        story_generator: [
+            {
+                type: "LENGTH",
+                place_holder: "Length",
+                options: [
+                    {value: "Short story", label: "Short story", },
+                    {value: "Novella", label: "Novella"},
+                    {value: "Full length", label: "Full length"},
+                ]
+            },
+            {
+                type: "SETTINGS",
+                place_holder: " Settings",
+                options: [
+                    {value: "Time", label: "Time", },
+                    {value: "Period", label: "Period"},
+                    {value: "Location", label: "Location"},
+                ]
+            }
+        ],
+        
+        text_generator: [
+            {
+                type: "PURPOSE",
+                place_holder: "Select Purpose ",
+                options: [
+                    {value: "General Content", label: "General Content"},
+                    {value: "Marketing", label: "Marketing"},
+                    {value: "Educatonal", label: "Educational"},
+                    {value: "Fictional", label: "Fictional"},
+                ]
+            },
+            {
+                type: "TONE",
+                place_holder: "Select Tone ",
+                options: [
+                    {value: "Professional", label: "Professional"},
+                    {value: "Casual", label: "Casual"},
+                    {value: "Technical", label: "Technical"},
+                ]
+            }
+            ,
+            {
+                type: "LENGHT",
+                place_holder: "Select Length",
+                options: [
+                    {value: null, label: "Select Length"},
+                    {value: "Very Short", label: "Very Short"},
+                    {value: "Short", label: "Short"},
+                    {value: "Medium", label: "Medium"},
+                    {value: "Long", label: "Long"},
+                    {value: "Very Long", label: "Very Long"},
+                ]
+            }
+        ],
+
+        thesis_generator: [
+            {
+                type: "TYPE_OF_PAPER",
+                place_holder:"Select Type of Paper",
+                options:[
+                    {value: "Argumentative", label:"Argumentative"},
+                    {value: "Analytical", label:"Analytical"},
+                    {value: "Expository", label:"Expository"},
                 ]
             }
         ]

@@ -73,7 +73,8 @@ const SideBar = ({
   generateClick, 
   paramsChange, 
   isLoading,
-  cta_title 
+  cta_title,
+  placeholder 
 }: any) => {
   
   return (
@@ -83,7 +84,7 @@ const SideBar = ({
 
         <InputContainer>
           <Input
-            placeholder='Topic / Theme'
+            placeholder={placeholder}
             value={inputValue}
             onChange={setInputValue}
           />

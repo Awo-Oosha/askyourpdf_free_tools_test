@@ -1,18 +1,16 @@
 import React, {ChangeEvent, useEffect, useRef, useState} from "react";
 import ParaGen from "@/img/AI-Paragraph- Generator.png";
 import {alerts} from "@/utils/alerts";
-import {t, Trans} from "@lingui/macro";
-import {GetStaticPaths, GetStaticProps} from "next";
-import {loadCatalog} from "@/utils/i18n";
-import Image from "next/image";
+import { t, Trans } from "@lingui/macro";
+import { GetStaticProps } from "next";
+import { loadCatalog } from "@/utils/i18n";
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
+import Hero from "@/components/FreeLanding/Hero";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
-import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
-import {FAQDATA, MAIN_APP_URL} from "@/config/config";
-import {useRouter} from "next/router";
-import {routerData } from "@/services/libtools";
+import { PAGE_DESCRIPTION, PAGE_TITLE, path } from "@/routes";
+import { FAQDATA, MAIN_APP_URL } from "@/config/config";
+import { GENERATOR_PARAMETERS } from "@/config/config";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadCatalog(ctx.locale!);
@@ -26,57 +24,27 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
         },
     };
 };
-export const options:any = [
-    // {name:"Select Purpose",data:[
-    //     {label:"Informative",key:"Informative",  onClick:(key:any)=>{}},
-    //     {label:"Persuasive",key:"Persuasive",onClick:(key:any)=>{}},
-    //     {label:"Descriptive",key:"Descriptive",onClick:(key:any)=>{}},
-    //     {label:"Narrative",key:"Narrative",onClick:(key:any)=>{}},
-    // ]},
-    // {name:"Select Tone",data:[
-    //     {label:"Formal",key:"Formal",  onClick:(key:any)=>{}},
-    //     {label:"Informal",key:"Informal",onClick:(key:any)=>{}},
-    //     {label:"Professional",key:"Professional",onClick:(key:any)=>{}},
-    //     {label:"Casual",key:"Casual",onClick:(key:any)=>{}},
-    // ]}
-    
-];
+
 
 const ParagraphGenerator = () => {
-    const router = useRouter();
-  
-    const textfields:any=[
-        {placeholder:t`Input Main idea/Supporting points`,height:"90px"},
-       
-
-    ];
     const faqs= FAQDATA;
-    return (<div>
-        <Navbar/>
-        <Hero 
-        image={ParaGen} 
-        title={t`AI Paragraph Generator`} 
-        description={t`Paragraph Generator`}
-        fields={textfields}
-        buttonText={"Generate Paragraph"}
-        buttonFunction={(text:any,items:any)=>{
-            if(text[0]=='' || text[0]==null){
-                alerts.error(
-                    t`Warning`,
-                    "Please enter some text",
-                    2000
-                  ); 
-                return null;
-            }
-            routerData(text,items,"./paragraph-generator/generate");
-        }}
-        selectOptions={options} 
-        />
-        <FAQ data={faqs}/>
-        <Footer/>
-
-    </div>);
- 
+    return(
+        <div>
+            <Navbar />
+            <Hero
+                generator="PARAGRAPH_WRITER"
+                params={GENERATOR_PARAMETERS.paragraph_generator}
+                title={t`AI Paragraph Generator`}
+                desc={t`Paragraph Generator `}
+                img={ParaGen}
+                placeholder={t`Input main idea/supporting points`}
+                routerPath={'paragraph-generator/generate'}
+                CtaTitle={t`Generate Paragraph`}
+            />
+            <FAQ data={faqs} />
+            <Footer />
+        </div>
+    );
 };
 
 export default ParagraphGenerator;

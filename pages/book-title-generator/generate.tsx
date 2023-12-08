@@ -81,7 +81,8 @@ const { mutate, isLoading } = useMutation(
       pdfTitle={t`Book Title`}
       isLoading={isLoading}
       lang = {setLanguage}
-      cta_title={t`Generate Book Title`}   
+      cta_title={t`Generate Book Title`}
+      placeholder ={t`Theme / Topic`}   
     />
   );
 };

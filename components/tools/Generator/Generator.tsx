@@ -16,7 +16,7 @@ const Wrapper = styled.section`
 
   @media screen and (min-width:992px){
       padding: 20px 50px;
-      height: 100vh;
+      min-height: 100vh;
       padding: 50px;
   }
 `;
@@ -89,7 +89,8 @@ const Generator = ({
   pdfTitle,
   isLoading,
   lang,
-  cta_title 
+  cta_title,
+  placeholder 
 }:any) => {
 
   return (
@@ -114,6 +115,7 @@ const Generator = ({
             paramsChange={paramsChange}
             isLoading={isLoading}
             cta_title = {cta_title}
+            placeholder={placeholder}
           />
           <GeneratorMainBar
             generateResult={generateResult}
