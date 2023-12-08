@@ -16,7 +16,7 @@ interface tool_type {
 
 const ToolList = styled.div`
   padding: 32px 0;
-
+  width: 100%;
   .container {
     position: relative;
     border-radius: 16px;
@@ -30,6 +30,7 @@ const ToolList = styled.div`
     min-height: 200px;
     padding-left: 25px;
     padding-right: 25px;
+    width: 100%;
   }
 
   @media (min-width: 992px) {
@@ -77,7 +78,7 @@ const ToolCard = ({icon, title, desc, link} : tool_type) => {
           <Image src={icon} alt={"icon"} width={54} height={54} />
         </ToolIconContainer>
 
-        <ToolTitle href={link} target={title.message?.startsWith("AI") ? "_blank" : "_self"} >
+        <ToolTitle href={link} target={title.message?.startsWith("AI") ? "_blank" : "_parent"} >
           {i18n._(title)}
         </ToolTitle>
 
