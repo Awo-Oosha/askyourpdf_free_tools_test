@@ -9,6 +9,7 @@ import { UrlObject } from 'url';
 interface tool_type {
   icon: any,
   title: MessageDescriptor,
+  target: string,
   desc: MessageDescriptor,
   link: UrlObject | string
 }
@@ -67,7 +68,7 @@ const ToolDesc = styled.p`
 `;
 
 
-const ToolCard = ({icon, title, desc, link} : tool_type) => {
+const ToolCard = ({icon, target, title, desc, link} : tool_type) => {
 
   const { i18n } = useLingui();
 
@@ -78,7 +79,7 @@ const ToolCard = ({icon, title, desc, link} : tool_type) => {
           <Image src={icon} alt={"icon"} width={54} height={54} />
         </ToolIconContainer>
 
-        <ToolTitle href={link} target={title.message?.startsWith("AI") ? "_blank" : "_parent"} >
+        <ToolTitle href={link} target={target} >
           {i18n._(title)}
         </ToolTitle>
 

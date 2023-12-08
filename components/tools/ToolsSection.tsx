@@ -79,6 +79,7 @@ const ToolsSection = () => {
             <ToolCard
               key={key}
               icon={item.icon}
+              target={item.target}
               title={item.title}
               desc={item.desc}
               link={item.link}
