@@ -1,5 +1,5 @@
 import React, {ChangeEvent, useEffect, useRef, useState} from "react";
-import ParaGen from "@/img/AI-Paragraph- Generator.png";
+import ParaGen from "@/img/AI-Paragraph-Generator.png";
 import { t, Trans } from "@lingui/macro";
 import { GetStaticProps } from "next";
 import { loadCatalog } from "@/utils/i18n";
