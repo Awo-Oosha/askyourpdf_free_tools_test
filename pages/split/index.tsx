@@ -9,7 +9,7 @@ import FullLoader from "@/components/tools/FullLoader";
 const SplitPage = dynamic(() => import('@/components/tools/SplitPage'), {
   ssr: false,
   loading:()=>{
-    return (<FullLoader/>);
+    return null;
   }
 });
 

@@ -222,7 +222,7 @@ const Input = styled.textarea`
     line-height: 20px;
   }
   @media (min-width: 992px) {
-    width: 70%;
+    width: 80%;
   }
 `;
 

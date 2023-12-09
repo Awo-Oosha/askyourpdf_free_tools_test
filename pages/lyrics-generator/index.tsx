@@ -5,11 +5,11 @@ import { GetStaticProps } from "next";
 import { loadCatalog } from "@/utils/i18n";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/FreeLanding/Hero";
-import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import { PAGE_DESCRIPTION, PAGE_TITLE, path } from "@/routes";
-import { FAQDATA, MAIN_APP_URL } from "@/config/config";
+import { MAIN_APP_URL } from "@/config/config";
 import { GENERATOR_PARAMETERS } from "@/config/config";
+import LandingFAQ from "@/components/FreeLanding/ToolsFaq";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadCatalog(ctx.locale!);
@@ -26,7 +26,6 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
 
 const LyricsGenerator = () => {
-    const faqs= FAQDATA;
     return (
         <div>
             <Navbar />
@@ -40,7 +39,7 @@ const LyricsGenerator = () => {
                 routerPath={'lyrics-generator/generate'}
                 CtaTitle={t`Generate Lyrics`}
             />
-            <FAQ data={faqs} />
+            <LandingFAQ />
             <Footer />
         </div>
     );

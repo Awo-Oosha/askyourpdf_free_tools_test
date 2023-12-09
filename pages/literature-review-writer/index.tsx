@@ -8,7 +8,7 @@ import {MAIN_APP_URL} from "@/config/config";
 const Content = dynamic(() => import('@/components/literature-review/MainContent'), {
   ssr: false,
   loading:()=>{
-    return(<FullLoader/>);
+    return null;
   }
 });
 

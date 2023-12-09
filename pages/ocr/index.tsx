@@ -9,7 +9,7 @@ import FullLoader from "@/components/tools/FullLoader";
 const OcrPage = dynamic(() => import('@/components/tools/OcrPage'), {
   ssr: false,
   loading:()=>{
-    return (<FullLoader/>);
+    return null;
   }
 });
 

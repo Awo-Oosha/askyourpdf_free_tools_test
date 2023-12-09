@@ -9,7 +9,7 @@ import FullLoader from "@/components/tools/FullLoader";
 const MergePage = dynamic(() => import('@/components/tools/MergePage'), {
   ssr: false,
   loading:()=>{
-    return (<FullLoader/>);
+    return null;
   }
 });
 
