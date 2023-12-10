@@ -36,7 +36,7 @@ const StoryGenerator = () => {
                 title={t`AI Story Generator`}
                 desc={t`Story Generator `}
                 img={LyricsGen}
-                placeholder={t`InputNames and a brief description of the main characters`}
+                placeholder={t`Input names and a brief description of the main characters`}
                 routerPath={'story-generator/generate'}
                 CtaTitle={t`Generate Story`}
             />
