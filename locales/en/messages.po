@@ -21,7 +21,7 @@ msgstr "{0}"
 msgid "{0} file upload failed"
 msgstr "{0} file upload failed"
 
-#: components/FreeLanding/Hero.tsx:362
+#: components/FreeLanding/Hero.tsx:367
 msgid "{title}"
 msgstr "{title}"
 
@@ -46,13 +46,13 @@ msgid "Affiliate Program"
 msgstr "Affiliate Program"
 
 #: pages/book-title-generator/generate.tsx:69
-#: pages/book-title-generator/index.tsx:36
-#: utils/free_tools.ts:96
+#: pages/book-title-generator/index.tsx:35
+#: utils/free_tools.ts:108
 msgid "AI Book Title Generator"
 msgstr "AI Book Title Generator"
 
 #: pages/essay-maker/generate.tsx:70
-#: utils/free_tools.ts:114
+#: utils/free_tools.ts:129
 msgid "AI Essay Maker"
 msgstr "AI Essay Maker"
 
@@ -61,8 +61,8 @@ msgid "AI Essay Writer"
 msgstr "AI Essay Writer"
 
 #: pages/instagram-caption/generate.tsx:68
-#: pages/instagram-caption/index.tsx:36
-#: utils/free_tools.ts:84
+#: pages/instagram-caption/index.tsx:35
+#: utils/free_tools.ts:94
 msgid "AI Instagram Caption Generator"
 msgstr "AI Instagram Caption Generator"
 
@@ -79,26 +79,26 @@ msgid "AI Literature Review Writer Tool"
 msgstr "AI Literature Review Writer Tool"
 
 #: pages/lyrics-generator/generate.tsx:69
-#: pages/lyrics-generator/index.tsx:36
-#: utils/free_tools.ts:72
+#: pages/lyrics-generator/index.tsx:35
+#: utils/free_tools.ts:80
 msgid "AI Lyrics Generator"
 msgstr "AI Lyrics Generator"
 
 #: pages/paragraph-generator/generate.tsx:68
-#: pages/paragraph-generator/index.tsx:37
-#: utils/free_tools.ts:120
+#: pages/paragraph-generator/index.tsx:35
+#: utils/free_tools.ts:136
 msgid "AI Paragraph Generator"
 msgstr "AI Paragraph Generator"
 
 #: pages/poem-generator/generate.tsx:68
-#: pages/poem-generator/index.tsx:37
-#: utils/free_tools.ts:78
+#: pages/poem-generator/index.tsx:35
+#: utils/free_tools.ts:87
 msgid "AI Poem Generator"
 msgstr "AI Poem Generator"
 
 #: pages/rap-generator/generate.tsx:70
-#: pages/rap-generator/index.tsx:36
-#: utils/free_tools.ts:90
+#: pages/rap-generator/index.tsx:35
+#: utils/free_tools.ts:101
 msgid "AI Rap Generator"
 msgstr "AI Rap Generator"
 
@@ -107,20 +107,20 @@ msgid "AI Source Finder"
 msgstr "AI Source Finder"
 
 #: pages/story-generator/generate.tsx:68
-#: pages/story-generator/index.tsx:37
-#: utils/free_tools.ts:102
+#: pages/story-generator/index.tsx:36
+#: utils/free_tools.ts:115
 msgid "AI Story Generator"
 msgstr "AI Story Generator"
 
 #: pages/text-generator/generate.tsx:68
-#: pages/text-generator/index.tsx:36
-#: utils/free_tools.ts:126
+#: pages/text-generator/index.tsx:35
+#: utils/free_tools.ts:143
 msgid "AI Text Generator"
 msgstr "AI Text Generator"
 
 #: pages/thesis-statement/generate.tsx:68
-#: pages/thesis-statement/index.tsx:36
-#: utils/free_tools.ts:108
+#: pages/thesis-statement/index.tsx:35
+#: utils/free_tools.ts:122
 msgid "AI Thesis Statement Generator"
 msgstr "AI Thesis Statement Generator"
 
@@ -193,7 +193,7 @@ msgstr "Book Title"
 
 #: pages/book-title-generator/generate.tsx:70
 #: pages/book-title-generator/generate.tsx:72
-#: pages/book-title-generator/index.tsx:37
+#: pages/book-title-generator/index.tsx:36
 msgid "Book Title Generator"
 msgstr "Book Title Generator"
 
@@ -286,7 +286,7 @@ msgstr "Conversations"
 msgid "Copied"
 msgstr "Copied"
 
-#: utils/free_tools.ts:79
+#: utils/free_tools.ts:88
 msgid "Craft personalized and enchanting verses effortlessly with our AI Poem Generator. Unleash creativity in just a click."
 msgstr "Craft personalized and enchanting verses effortlessly with our AI Poem Generator. Unleash creativity in just a click."
 
@@ -343,11 +343,11 @@ msgstr "Download"
 msgid "Efficiently split, separate, and manage your PDF files using our superior free online PDF splitter."
 msgstr "Efficiently split, separate, and manage your PDF files using our superior free online PDF splitter."
 
-#: utils/free_tools.ts:115
+#: utils/free_tools.ts:130
 msgid "Effortlessly generate well-structured essays with our AI Essay Maker. Elevate your writing with clear arguments and compelling content."
 msgstr "Effortlessly generate well-structured essays with our AI Essay Maker. Elevate your writing with clear arguments and compelling content."
 
-#: utils/free_tools.ts:55
+#: utils/free_tools.ts:60
 msgid "Effortlessly shrink PDFs for quicker sharing and storage, while preserving quality, all with the precision of AI."
 msgstr "Effortlessly shrink PDFs for quicker sharing and storage, while preserving quality, all with the precision of AI."
 
@@ -505,15 +505,19 @@ msgstr "Find sources"
 msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
 msgstr "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
 
+#: components/FreeLanding/ToolsFaq.tsx:85
+msgid "Frequently Asked Questions"
+msgstr "Frequently Asked Questions"
+
 #: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
 msgstr "From Your Documents"
 
-#: utils/free_tools.ts:97
+#: utils/free_tools.ts:109
 msgid "Fuel your literary imagination with our AI Book Title Generator. Discover captivating titles for your next literary masterpiece effortlessly."
 msgstr "Fuel your literary imagination with our AI Book Title Generator. Discover captivating titles for your next literary masterpiece effortlessly."
 
-#: pages/book-title-generator/index.tsx:41
+#: pages/book-title-generator/index.tsx:40
 msgid "Generate Book"
 msgstr "Generate Book"
 
@@ -526,7 +530,7 @@ msgstr "Generate Book Title"
 msgid "Generate Essay"
 msgstr "Generate Essay"
 
-#: pages/instagram-caption/index.tsx:41
+#: pages/instagram-caption/index.tsx:40
 msgid "Generate Instagram caption"
 msgstr "Generate Instagram caption"
 
@@ -537,25 +541,25 @@ msgstr "Generate Instagram Caption"
 
 #: pages/lyrics-generator/generate.tsx:72
 #: pages/lyrics-generator/generate.tsx:84
-#: pages/lyrics-generator/index.tsx:41
+#: pages/lyrics-generator/index.tsx:40
 msgid "Generate Lyrics"
 msgstr "Generate Lyrics"
 
 #: pages/paragraph-generator/generate.tsx:71
 #: pages/paragraph-generator/generate.tsx:83
-#: pages/paragraph-generator/index.tsx:42
+#: pages/paragraph-generator/index.tsx:40
 msgid "Generate Paragraph"
 msgstr "Generate Paragraph"
 
 #: pages/poem-generator/generate.tsx:71
 #: pages/poem-generator/generate.tsx:83
-#: pages/poem-generator/index.tsx:42
+#: pages/poem-generator/index.tsx:40
 msgid "Generate Poem"
 msgstr "Generate Poem"
 
 #: pages/rap-generator/generate.tsx:73
 #: pages/rap-generator/generate.tsx:85
-#: pages/rap-generator/index.tsx:41
+#: pages/rap-generator/index.tsx:40
 msgid "Generate Rap"
 msgstr "Generate Rap"
 
@@ -564,7 +568,7 @@ msgstr "Generate Rap"
 msgid "Generate story"
 msgstr "Generate story"
 
-#: pages/story-generator/index.tsx:42
+#: pages/story-generator/index.tsx:41
 msgid "Generate Story"
 msgstr "Generate Story"
 
@@ -573,12 +577,12 @@ msgid "Generate text"
 msgstr "Generate text"
 
 #: pages/text-generator/generate.tsx:83
-#: pages/text-generator/index.tsx:41
+#: pages/text-generator/index.tsx:40
 msgid "Generate Text"
 msgstr "Generate Text"
 
 #: pages/thesis-statement/generate.tsx:83
-#: pages/thesis-statement/index.tsx:41
+#: pages/thesis-statement/index.tsx:40
 msgid "Generate Thesis"
 msgstr "Generate Thesis"
 
@@ -684,7 +688,7 @@ msgstr "Input Character Names and a brief description of the main characters"
 #~ msgid "input Key Points to Cover"
 #~ msgstr "input Key Points to Cover"
 
-#: pages/paragraph-generator/index.tsx:40
+#: pages/paragraph-generator/index.tsx:38
 msgid "Input main idea/supporting points"
 msgstr "Input main idea/supporting points"
 
@@ -694,14 +698,14 @@ msgstr "Input main idea/supporting points"
 #~ msgid "Input Names and a brief description of the main characters"
 #~ msgstr "Input Names and a brief description of the main characters"
 
-#: pages/book-title-generator/index.tsx:39
+#: pages/book-title-generator/index.tsx:38
 #: pages/essay-maker/index.tsx:39
-#: pages/instagram-caption/index.tsx:39
-#: pages/lyrics-generator/index.tsx:39
-#: pages/poem-generator/index.tsx:40
-#: pages/rap-generator/index.tsx:39
-#: pages/text-generator/index.tsx:39
-#: pages/thesis-statement/index.tsx:39
+#: pages/instagram-caption/index.tsx:38
+#: pages/lyrics-generator/index.tsx:38
+#: pages/poem-generator/index.tsx:38
+#: pages/rap-generator/index.tsx:38
+#: pages/text-generator/index.tsx:38
+#: pages/thesis-statement/index.tsx:38
 msgid "Input some line here to begin"
 msgstr "Input some line here to begin"
 
@@ -717,7 +721,7 @@ msgstr "Input some line here to begin"
 #~ msgid "Input Title or Topic"
 #~ msgstr "Input Title or Topic"
 
-#: pages/story-generator/index.tsx:40
+#: pages/story-generator/index.tsx:39
 msgid "InputNames and a brief description of the main characters"
 msgstr "InputNames and a brief description of the main characters"
 
@@ -726,11 +730,11 @@ msgid "Instagram Caption"
 msgstr "Instagram Caption"
 
 #: pages/instagram-caption/generate.tsx:69
-#: pages/instagram-caption/index.tsx:37
+#: pages/instagram-caption/index.tsx:36
 msgid "Instagram Caption Generator"
 msgstr "Instagram Caption Generator"
 
-#: utils/free_tools.ts:85
+#: utils/free_tools.ts:95
 msgid "Instantly enhance your Instagram posts with our AI Caption Generator. Elevate your captions effortlessly for the perfect social media presence."
 msgstr "Instantly enhance your Instagram posts with our AI Caption Generator. Elevate your captions effortlessly for the perfect social media presence."
 
@@ -774,11 +778,11 @@ msgstr "It's an application that lets you chat with any document you upload"
 msgid "Knowledge Base"
 msgstr "Knowledge Base"
 
-#: utils/free_tools.ts:43
+#: utils/free_tools.ts:46
 msgid "Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
 msgstr "Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
 
-#: utils/free_tools.ts:67
+#: utils/free_tools.ts:74
 msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources of relevant to your needs."
 msgstr "Leverage the power of artificial intelligence to discover, analyse, and recommend sources of relevant to your needs."
 
@@ -788,7 +792,7 @@ msgstr "Literature Review copied"
 
 #: components/tools/ToolCommon.tsx:158
 #: components/ToolsFooter.tsx:78
-#: utils/free_tools.ts:36
+#: utils/free_tools.ts:38
 msgid "Literature Review Tool"
 msgstr "Literature Review Tool"
 
@@ -822,6 +826,10 @@ msgstr "Maximum of 10000 characters"
 msgid "Merge Another"
 msgstr "Merge Another"
 
+#: components/FreeLanding/ToolsFaq.tsx:90
+msgid "Need help? Look through our FAQs for quick answers!"
+msgstr "Need help? Look through our FAQs for quick answers!"
+
 #: utils/faqData.tsx:102
 msgid "No, documents cannot be edited within AskYourPDF. But this will be possible in the future."
 msgstr "No, documents cannot be edited within AskYourPDF. But this will be possible in the future."
@@ -849,7 +857,7 @@ msgstr "Not satisfied with your results?"
 #: components/tools/OcrPage.tsx:250
 #: components/tools/ToolCommon.tsx:170
 #: components/ToolsFooter.tsx:94
-#: utils/free_tools.ts:60
+#: utils/free_tools.ts:66
 msgid "OCR PDF Reader"
 msgstr "OCR PDF Reader"
 
@@ -870,13 +878,13 @@ msgid "Paragraph"
 msgstr "Paragraph"
 
 #: pages/paragraph-generator/generate.tsx:69
-#: pages/paragraph-generator/index.tsx:38
+#: pages/paragraph-generator/index.tsx:36
 msgid "Paragraph Generator"
 msgstr "Paragraph Generator"
 
 #: components/tools/ToolCommon.tsx:174
 #: components/ToolsFooter.tsx:86
-#: utils/free_tools.ts:54
+#: utils/free_tools.ts:59
 msgid "PDF Compressor"
 msgstr "PDF Compressor"
 
@@ -887,14 +895,14 @@ msgstr "PDF Export Failed"
 #: components/tools/MergePage.tsx:674
 #: components/tools/ToolCommon.tsx:166
 #: components/ToolsFooter.tsx:90
-#: utils/free_tools.ts:48
+#: utils/free_tools.ts:52
 msgid "PDF Merger"
 msgstr "PDF Merger"
 
 #: components/tools/SplitPage.tsx:804
 #: components/tools/ToolCommon.tsx:162
 #: components/ToolsFooter.tsx:82
-#: utils/free_tools.ts:42
+#: utils/free_tools.ts:45
 msgid "PDF Splitter"
 msgstr "PDF Splitter"
 
@@ -912,7 +920,7 @@ msgid "poem"
 msgstr "poem"
 
 #: pages/poem-generator/generate.tsx:69
-#: pages/poem-generator/index.tsx:38
+#: pages/poem-generator/index.tsx:36
 msgid "Poem Generator"
 msgstr "Poem Generator"
 
@@ -940,7 +948,7 @@ msgid "Publication Year:"
 msgstr "Publication Year:"
 
 #: pages/rap-generator/generate.tsx:71
-#: pages/rap-generator/index.tsx:37
+#: pages/rap-generator/index.tsx:36
 msgid "Rap Generator"
 msgstr "Rap Generator"
 
@@ -989,7 +997,7 @@ msgstr "Select all"
 msgid "Settings"
 msgstr "Settings"
 
-#: utils/free_tools.ts:109
+#: utils/free_tools.ts:123
 msgid "Simplify your academic writing. Let our AI Thesis Statement Generator craft concise, impactful thesis statements for your research effortlessly."
 msgstr "Simplify your academic writing. Let our AI Thesis Statement Generator craft concise, impactful thesis statements for your research effortlessly."
 
@@ -998,7 +1006,7 @@ msgid "Source copied"
 msgstr "Source copied"
 
 #: components/tools/ToolCommon.tsx:178
-#: utils/free_tools.ts:66
+#: utils/free_tools.ts:73
 msgid "Source Tool"
 msgstr "Source Tool"
 
@@ -1028,15 +1036,15 @@ msgid "story"
 msgstr "story"
 
 #: pages/story-generator/generate.tsx:69
-#: pages/story-generator/index.tsx:38
+#: pages/story-generator/index.tsx:37
 msgid "Story Generator"
 msgstr "Story Generator"
 
-#: utils/free_tools.ts:37
+#: utils/free_tools.ts:39
 msgid "Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work."
 msgstr "Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work."
 
-#: utils/free_tools.ts:121
+#: utils/free_tools.ts:137
 msgid "Streamline your writing. Our AI Paragraph Generator crafts concise and coherent paragraphs, enhancing the clarity and impact of your content."
 msgstr "Streamline your writing. Our AI Paragraph Generator crafts concise and coherent paragraphs, enhancing the clarity and impact of your content."
 
@@ -1068,7 +1076,7 @@ msgid "text"
 msgstr "text"
 
 #: pages/text-generator/generate.tsx:69
-#: pages/text-generator/index.tsx:37
+#: pages/text-generator/index.tsx:36
 msgid "Text Generator"
 msgstr "Text Generator"
 
@@ -1093,7 +1101,7 @@ msgid "Thesis"
 msgstr "Thesis"
 
 #: pages/thesis-statement/generate.tsx:69
-#: pages/thesis-statement/index.tsx:37
+#: pages/thesis-statement/index.tsx:36
 msgid "Thesis Statement Generator"
 msgstr "Thesis Statement Generator"
 
@@ -1114,12 +1122,12 @@ msgstr "Tools"
 #~ msgid "Topic/Theme"
 #~ msgstr "Topic/Theme"
 
-#: utils/free_tools.ts:127
+#: utils/free_tools.ts:144
 msgid "Transform ideas into text effortlessly. Our AI Text Generator crafts diverse and engaging content, making creativity and productivity seamless."
 msgstr "Transform ideas into text effortlessly. Our AI Text Generator crafts diverse and engaging content, making creativity and productivity seamless."
 
 #: components/tools/OcrPage.tsx:251
-#: utils/free_tools.ts:61
+#: utils/free_tools.ts:67
 msgid "Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader."
 msgstr "Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader."
 
@@ -1128,11 +1136,11 @@ msgstr "Transform scanned or image-based PDFs into editable and searchable text 
 msgid "Try it Now"
 msgstr "Try it Now"
 
-#: utils/free_tools.ts:103
+#: utils/free_tools.ts:116
 msgid "Unleash limitless creativity with our AI Story Generator. Craft unique tales, explore diverse genres, and bring your narratives to life."
 msgstr "Unleash limitless creativity with our AI Story Generator. Craft unique tales, explore diverse genres, and bring your narratives to life."
 
-#: utils/free_tools.ts:91
+#: utils/free_tools.ts:102
 msgid "Unleash lyrical brilliance with our AI Rap Generator. Elevate your flow with personalized, AI-crafted rhymes. Ignite your rap game."
 msgstr "Unleash lyrical brilliance with our AI Rap Generator. Elevate your flow with personalized, AI-crafted rhymes. Ignite your rap game."
 
@@ -1194,7 +1202,7 @@ msgstr "What is AskYourPDF?"
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 msgstr "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 
-#: utils/free_tools.ts:49
+#: utils/free_tools.ts:53
 msgid "With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 msgstr "With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 
@@ -1231,8 +1239,8 @@ msgid "You can now chat with multiple documents at once using our knowledge base
 msgstr "You can now chat with multiple documents at once using our knowledge base"
 
 #: pages/lyrics-generator/generate.tsx:70
-#: pages/lyrics-generator/index.tsx:37
-#: utils/free_tools.ts:73
+#: pages/lyrics-generator/index.tsx:36
+#: utils/free_tools.ts:81
 msgid "Your creative companion on your musical journey, create lyrics that tell your unique story"
 msgstr "Your creative companion on your musical journey, create lyrics that tell your unique story"
 
