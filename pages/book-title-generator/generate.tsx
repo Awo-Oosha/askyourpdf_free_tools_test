@@ -4,7 +4,24 @@ import useGenerateInput from '@/hooks/useGenerator';
 import { GENERATOR_PARAMETERS } from '@/config/config';
 import { msg } from '@lingui/macro';
 import { useLingui } from '@lingui/react';
+import { PAGE_DESCRIPTION, PAGE_TITLE, path } from "@/routes";
+import { MAIN_APP_URL } from "@/config/config";
+import { GetStaticProps } from "next";
+import { loadCatalog } from "@/utils/i18n";
 
+
+export const getStaticProps: GetStaticProps = async (ctx) => {
+  const translation = await loadCatalog(ctx.locale!);
+  return {
+    props: {
+      translation,
+      description: PAGE_DESCRIPTION[path.sourceTool],
+      canonicalUrl: `${MAIN_APP_URL}${path.sourceTool}`,
+      title: PAGE_TITLE[path.sourceTool],
+      imageUrl: "/6201447e-3545-4eb4-334d-cadf31496100/public"
+    },
+  };
+};
 
 interface IndexProps { }
 

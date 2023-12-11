@@ -328,55 +328,33 @@ export const successMessages = {
         body: msg`Communicating with documents has never felt this easy using AskYourPDF`,
     }
 }
-export const FAQDATA = [
-    {question:"What is AskYourPDF?",answer:"It's an application that lets you chat with any document you upload"},
-    {question:"Can I chat in any language?",answer:"Yes, AskYourPDF is multilingual and supports chatting in any language of your choice."},
-    {question:"How does it work?",answer:"The application uses artificial intelligence to analyze the content of the document and provide a chat interface for users to ask questions get answers."},
-    {question:"Can I download the chat history?",answer:"Yes, chat history can be downloaded."},
-    {question:"Can I upload any document?", answer: 'We support multiple document formats: ".pdf", ".txt", ".ppt", ".pptx", ".csv", ".epub", and ".rtf".',},
-    {question:"What if I have a question that the AI can't answer?",answer:" If the answer is in the uploaded document, there's a high likelihood the AI will provide it. The AI is constantly learning, so if it doesn't have an answer, you can always rephrase or ask a different question."},
-    {question:"How does billing work?",answer:"AskYourPDF offers three plans: Premium, Pro and Enterprise. "},
-    {question:"Is my data secure?",answer:"Absolutely. Data privacy is our top priority. The application employs industry-standard SSL encryption to ensure the protection of your information."},
-    {question:"Is it necessary to create an account to use the application?",answer:"No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."},
-    {question:"Can I edit the document while using AskYourPDF?",answer:"No, documents cannot be edited within AskYourPDF. But this will be possible in the future."},
-    {question:"Can I chat with other users of the application?",answer:"No, the chat interface is solely for interacting with the content of the document."},
-    {question:"Is there a limit to the size of the document that can be uploaded?",answer:"Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."},
-    {question:"Is there a limit to the number of documents I can upload?",answer:"Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."},
-    {question:"Can I upload multiple documents at once?",answer:"No, only one document can be uploaded at a time. But this will be possible in the future."},
-    {question:"Is the application free to use?",answer:"Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF. Documents uploaded by Free users remain in our database for a maximum of 90 days before removal."},
-    {question:"If I cancel my subscription, will I get a refund?",answer:"Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."},
-    {question:"How long are the chat sessions saved on AskYourPDF?",answer:"Chat sessions remain available as long as the browser tab is open."},
-    {question:"What if I have a question or a problem while using AskYourPDF?",answer:" If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help! "},
-    {question:"What does 'additional credits may be required' mean in the pricing section?",answer:"The summarisation service, GPT4 and Claude 2, operate on a credit-based system; while initial credits are provided complimentary as part of your subscription, additional credits may need to be purchased once these are exhausted. All credit purchases are final, non-refundable, and must be used exclusively for the Summarization Service, GPT4, or Claude 2."},
-]
-
 
 export const GENERATOR_PARAMETERS = {
         rap_generator : [
             {
                 type: 'SELECT_TYPE',
-                place_holder: 'Select Style',
+                place_holder: msg`Select Style`,
                 options: [
-                    { value: 'Old School', label: 'Old School'},
-                    { value: 'Trap', label: 'Trap'},
-                    { value: 'Gangstar', label: 'Gangstar'},
+                    { value: 'Old School', label: msg`Old School`},
+                    { value: 'Trap', label: msg`Trap`},
+                    { value: 'Gangstar', label: msg`Gangstar`},
                 ],
             },
             {
                 type: 'SELECT_BEST_TEMPO',
-                place_holder: 'Select Best Tempo',
+                place_holder: msg`Select Best Tempo`,
                 options: [
-                    { value: 'fast', label: 'Fast'},
-                    { value: 'medium', label: 'Medium'},
-                    { value: 'slow', label: 'Slow'},
+                    { value: 'fast', label: msg`Fast`},
+                    { value: 'medium', label: msg`Medium`},
+                    { value: 'slow', label: msg`Slow`},
                 ]
             },
             {
                 type: 'COMPLEXITY',
-                place_holder: 'Select Complexity',
+                place_holder: msg`Select Complexity`,
                 options: [
-                    { value: 'simplicity of words', label: 'Simplicity Of Words'},
-                    { value: 'complex vocabulary', label: 'Complex Vocabulary'},
+                    { value: 'simplicity of words', label: msg`Simplicity Of Words`},
+                    { value: 'complex vocabulary', label: msg`Complex Vocabulary`},
                 ]
             }
         ],
@@ -384,16 +362,16 @@ export const GENERATOR_PARAMETERS = {
         book_title_generator : [
             {
                 type: "GENRE",
-                place_holder: "Select Genre",
+                place_holder: msg`Select Genre`,
                 options : [
-                    { value: "Fiction", label: "Fiction" },
-                    { value: "Non-Fiction", label: "Non-Fiction" },
-                    { value: "Misery", label: "Misery" },
-                    { value: "Novel", label: "Novel" },
-                    { value: "Thriller", label: "Thriller" },
-                    { value: "Fantasy", label: "Fantasy" },
-                    { value: "Sci-Fi", label: "Sci-Fi" },
-                    { value: "Narrative", label: "Narrative" },
+                    { value: "Fiction", label: msg`Fiction` },
+                    { value: "Non-Fiction", label: msg`Non-Fiction` },
+                    { value: "Misery", label: msg`Misery` },
+                    { value: "Novel", label: msg`Novel` },
+                    { value: "Thriller", label: msg`Thriller` },
+                    { value: "Fantasy", label: msg`Fantasy` },
+                    { value: "Sci-Fi", label: msg`Sci-Fi` },
+                    { value: "Narrative", label: msg`Narrative` },
                 ]
             },
 
@@ -402,19 +380,19 @@ export const GENERATOR_PARAMETERS = {
                 type: "TARGET_AUDIENCE",
                 place_holder:"Select Target Audience ",
                 options : [
-                    { value: "Children", label: "Children" },
-                    { value: "YA", label: "YA" },
-                    { value: "Adults", label: "Adults" },
+                    { value: "Children", label: msg`Children` },
+                    { value: "YA", label: msg`YA` },
+                    { value: "Adults", label: msg`Adults` },
                 ]
             }
             ,
             {
                 type:"MOOD/TONE",
-                place_holder:"Mood/Tone",
+                place_holder: msg`Mood/Tone`,
                 options : [
-                    { value: "Professional", label: "Professional" },
-                    { value: "Casual", label: "Casual" },
-                    { value: "Technical", label: "Tenchnical" },
+                    { value: "Professional", label: msg`Professional` },
+                    { value: "Casual", label: msg`Casual` },
+                    { value: "Technical", label: msg`Tenchnical` },
                 ]
             }
         ],
@@ -422,26 +400,26 @@ export const GENERATOR_PARAMETERS = {
         essay_maker : [
             {
                 type: "TYPE",
-                place_holder: "Select Type",
+                place_holder: msg`Select Type`,
                 options: [
-                    {value: "Argumentative", label: "Argumentative"},
-                    {value: "Descriptive", label: "Descriptive"},
-                    {value: "Narrative", label: "Narrative"},
-                    {value: "Expository", label: "Expository"},
+                    {value: "Argumentative", label: msg`Argumentative` },
+                    {value: "Descriptive", label: msg`Descriptive` },
+                    {value: "Narrative", label: msg`Narrative` },
+                    {value: "Expository", label: msg`Expository` },
             ]},
             {
                 type: "PARAGRAPH",
-                place_holder: "Number of Paragraphs",
+                place_holder: msg`Number of Paragraphs`,
                 options: [
-                    {value: null, label: "Number of Paragraphs"},
-                    {value: "1", label: "One"},
-                    {value: "2", label: "Two"},
-                    {value: "3", label: "Three"},
-                    {value: "4", label: "Four"},
-                    {value: "5", label: "Five"},
-                    {value: "6", label: "Six"},
-                    {value: "7", label: "Seven"},
-                    {value: "8", label: "Eight"},
+                    {value: null, label: msg`Number of Paragraphs` },
+                    {value: "1", label: msg`One` },
+                    {value: "2", label: msg`Two` },
+                    {value: "3", label: msg`Three` },
+                    {value: "4", label: msg`Four` },
+                    {value: "5", label: msg`Five` },
+                    {value: "6", label: msg`Six` },
+                    {value: "7", label: msg`Seven` },
+                    {value: "8", label: msg`Eight` },
                 ]
             }
         ],
@@ -451,76 +429,76 @@ export const GENERATOR_PARAMETERS = {
                 type: "TYPE_OF_POST",
                 place_holder:"Select Type of Post",
                 options: [
-                        {value : "Travel", label:"Travel",  },
-                        {value : "Food", label:"Food",},
-                        {value : "Passion", label:"Passion",},
+                        {value : "Travel", label: msg`Travel` },
+                        {value : "Food", label: msg`Food` },
+                        {value : "Passion", label: msg`Passion` },
                     ]
                 },
             {
                 type: "Mood",
-                place_holder:"Select Mood ",
+                place_holder: msg`Select Mood `,
                 options: [
-                        {value : "Funny", label:"Funny",  },
-                        {value : "Inspirational", label:"Inspirational",},
-                        {value : "Casual", label:"Casual",},
-                        {value : "Serious", label:"Serious",},
+                        {value : "Funny", label: msg`Funny` },
+                        {value : "Inspirational", label: msg`Inspirational` },
+                        {value : "Casual", label: msg`Casual` },
+                        {value : "Serious", label: msg`Serious` },
 
                     ]
                 }
             ,
             {
                 type: "HASHTAGS_PREFERENCES",
-                place_holder:"Hashtags Preferences",
+                place_holder: msg`Hashtags Preferences`,
                 options: [
-                        {value : "", label: "Hashtags Preferences",  },
-                        {value : "Include Hashtag", label: "Include Hashtag"},
+                        {value : "", label: msg`Hashtags Preferences` },
+                        {value : "Include Hashtag", label: msg`Include Hashtag` },
                 ]
             }
         ],
 
         lyrics_generator: [
             {   type: "GENRE",
-                place_holder: "Select Genre",
+                place_holder: msg`Select Genre`,
                 options: [
-                    { value: "Pop", label: "Pop"},
-                    { value: "Rock", label: "Rock"},
-                    { value: "Hip Hop", label: "Hip Hop"},
-                    { value: "Electronic", label: "Electronic"},
-                    { value: "R&B", label: "R&B"},
-                    { value: "Afro Beat", label: "Afro Beat"},
+                    { value: "Pop", label: msg`Pop` },
+                    { value: "Rock", label: msg`Rock` },
+                    { value: "Hip Hop", label: msg`Hip Hop` },
+                    { value: "Electronic", label: msg`Electronic` },
+                    { value: "R&B", label: msg`R&B` },
+                    { value: "Afro Beat", label: msg`Afro Beat` },
                     // Add more genres as needed
                 ]
             },
             {   type: "MOOD",
-                place_holder: "Select Mood",
+                place_holder: msg`Select Mood`,
                 options: [
-                    { value: "Happy", label: "Happy"},
-                    { value: "Sad", label: "Sad"},
-                    { value: "Energetic", label: "Energetic"},
-                    { value: "Chill", label: "Chill"},
-                    { value: "Romantic", label: "Romantic"},
+                    { value: "Happy", label: msg`Happy` },
+                    { value: "Sad", label: msg`Sad` },
+                    { value: "Energetic", label: msg`Energetic` },
+                    { value: "Chill", label: msg`Chill` },
+                    { value: "Romantic", label: msg`Romantic` },
                     // Add more moods as needed
                 ]
             },
             {   type: "THEME",
-                place_holder: "Select Theme",
+                place_holder: msg`Select Theme`,
                 options: [
-                    { value: "Love ", label: "Love"},
-                    { value: "Betrayal", label: "Betrayal"},
-                    { value: "Success", label: "Success"},
+                    { value: "Love ", label: msg`Love` },
+                    { value: "Betrayal", label: msg`Betrayal` },
+                    { value: "Success", label: msg`Success` },
                     
                     // Add more moods as needed
                 ]
             },
             {
                 type: "STYLE",
-                place_holder: "Artist Style",
+                place_holder: msg`Artist Style`,
                 options: [
-                    { value: "JayZ", label: "JayZ"},
-                    { value: "Beyonce", label: "Beyonce"},
-                    { value: "Kendrick Lamar", label: "Kendrick Lamar"},
-                    { value: "Burna Boy", label: "Burna Boy"},
-                    { value: "Bad bunny", label: "Bad Bunny"},
+                    { value: "JayZ", label: msg`JayZ` },
+                    { value: "Beyonce", label: msg`Beyonce` },
+                    { value: "Kendrick Lamar", label: msg`Kendrick Lamar` },
+                    { value: "Burna Boy", label: msg`Burna Boy` },
+                    { value: "Bad bunny", label: msg`Bad Bunny` },
                     // Add more moods as needed
                 ]
             }
@@ -531,43 +509,43 @@ export const GENERATOR_PARAMETERS = {
         poem_generator: [
             {   
                 type: "STYLE",
-                place_holder: "Select Style",
+                place_holder: msg`Select Style`,
                 options: [
-                    {value: "Sonnet", label: "Sonnet",  },
-                    {value: "Haiku", label: "Haiku",},
-                    {value: "Limerick", label: "Limerick",},
-                    {value: "Free Verse", label: "Free Verse",},
+                    {value: "Sonnet", label: msg`Sonnet` },
+                    {value: "Haiku", label: msg`Haiku` },
+                    {value: "Limerick", label: msg`Limerick` },
+                    {value: "Free Verse", label: msg`Free Verse` },
                 ]
             },
             {   
                 type: "MOOD",
-                place_holder: "Select Mood",
+                place_holder: msg`Select Mood`,
                 options: [
-                    {value: "Romantic", label: "Romantic",  },
-                    {value: "Melancholic", label: "Melancholic",},
-                    {value: "Joyful", label: "Joyful",},
+                    {value: "Romantic", label: msg`Romantic` },
+                    {value: "Melancholic", label: msg`Melancholic` },
+                    {value: "Joyful", label: msg`Joyful` },
                 ]
             },
             {   
                 type: "THEME",
-                place_holder: "Select Themes",
+                place_holder: msg`Select Themes`,
                 options: [
-                    {value: "Nature", label: "Nature",  },
-                    {value: "Love", label: "Love",},
-                    {value: "Death", label: "Death",},
-                    {value: "Time", label: "Time",},
+                    {value: "Nature", label: msg`Nature` },
+                    {value: "Love", label: msg`Love` },
+                    {value: "Death", label: msg`Death` },
+                    {value: "Time", label: msg`Time` },
                 ]
             },
             {   
                 type: "LENGTH",
-                place_holder: "Length",
+                place_holder: msg`Length`,
                 options: [
-                    {value: null, label: "Length"},
-                    {value: "Very Short", label: "Very Short"},
-                    {value: "Short", label: "Short"},
-                    {value: "Medium", label: "Medium"},
-                    {value: "Long", label: "Long"},
-                    {value: "Very Long", label: "Very Long"},
+                    {value: null, label: msg`Length` },
+                    {value: "Very Short", label: msg`Very Short` },
+                    {value: "Short", label: msg`Short` },
+                    {value: "Medium", label: msg`Medium` },
+                    {value: "Long", label: msg`Long` },
+                    {value: "Very Long", label: msg`Very Long` },
                 ]
             }
         ],
@@ -575,20 +553,20 @@ export const GENERATOR_PARAMETERS = {
         story_generator: [
             {
                 type: "LENGTH",
-                place_holder: "Length",
+                place_holder: msg`Length`,
                 options: [
-                    {value: "Short story", label: "Short story", },
-                    {value: "Novella", label: "Novella"},
-                    {value: "Full length", label: "Full length"},
+                    {value: "Short story", label: msg`Short story` },
+                    {value: "Novella", label: msg`Novella` },
+                    {value: "Full length", label: msg`Full length` },
                 ]
             },
             {
                 type: "SETTINGS",
-                place_holder: " Settings",
+                place_holder: msg` Settings`,
                 options: [
-                    {value: "Time", label: "Time", },
-                    {value: "Period", label: "Period"},
-                    {value: "Location", label: "Location"},
+                    {value: "Time", label: msg`Time` },
+                    {value: "Period", label: msg`Period` },
+                    {value: "Location", label: msg`Location` },
                 ]
             }
         ],
@@ -596,34 +574,34 @@ export const GENERATOR_PARAMETERS = {
         text_generator: [
             {
                 type: "PURPOSE",
-                place_holder: "Select Purpose ",
+                place_holder: msg`Select Purpose `,
                 options: [
-                    {value: "General Content", label: "General Content"},
-                    {value: "Marketing", label: "Marketing"},
-                    {value: "Educatonal", label: "Educational"},
-                    {value: "Fictional", label: "Fictional"},
+                    {value: "General Content", label: msg`General Content` },
+                    {value: "Marketing", label: msg`Marketing` },
+                    {value: "Educatonal", label: msg`Educational` },
+                    {value: "Fictional", label: msg`Fictional` },
                 ]
             },
             {
                 type: "TONE",
-                place_holder: "Select Tone ",
+                place_holder: msg`Select Tone `,
                 options: [
-                    {value: "Professional", label: "Professional"},
-                    {value: "Casual", label: "Casual"},
-                    {value: "Technical", label: "Technical"},
+                    {value: "Professional", label: msg`Professional` },
+                    {value: "Casual", label: msg`Casual` },
+                    {value: "Technical", label: msg`Technical` },
                 ]
             }
             ,
             {
                 type: "LENGHT",
-                place_holder: "Select Length",
+                place_holder: msg`Select Length`,
                 options: [
-                    {value: null, label: "Select Length"},
-                    {value: "Very Short", label: "Very Short"},
-                    {value: "Short", label: "Short"},
-                    {value: "Medium", label: "Medium"},
-                    {value: "Long", label: "Long"},
-                    {value: "Very Long", label: "Very Long"},
+                    {value: null, label: msg`Select Length` },
+                    {value: "Very Short", label: msg`Very Short` },
+                    {value: "Short", label: msg`Short` },
+                    {value: "Medium", label: msg`Medium` },
+                    {value: "Long", label: msg`Long` },
+                    {value: "Very Long", label: msg`Very Long` },
                 ]
             }
         ],
@@ -631,11 +609,11 @@ export const GENERATOR_PARAMETERS = {
         thesis_generator: [
             {
                 type: "TYPE_OF_PAPER",
-                place_holder:"Select Type of Paper",
+                place_holder: msg`Select Type of Paper`,
                 options:[
-                    {value: "Argumentative", label:"Argumentative"},
-                    {value: "Analytical", label:"Analytical"},
-                    {value: "Expository", label:"Expository"},
+                    {value: "Argumentative", label: msg`Argumentative` },
+                    {value: "Analytical", label: msg`Analytical` },
+                    {value: "Expository", label: msg`Expository` },
                 ]
             }
         ]

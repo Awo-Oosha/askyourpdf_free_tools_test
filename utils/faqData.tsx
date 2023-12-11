@@ -115,8 +115,7 @@ export const faqArrays: {
       {
         id: 18,
         Question: msg`Can I upload multiple documents at once?`,
-        answer: msg`No, only one document can be uploaded at a time. But this will be possible in the future.
-`,
+        answer: msg`Yes.`,
       },
       {
         id: 19,

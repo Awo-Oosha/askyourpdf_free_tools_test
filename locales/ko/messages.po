@@ -22,8 +22,8 @@ msgid "{0} file upload failed"
 msgstr "{0} 파일 업로드 실패"
 
 #: components/FreeLanding/Hero.tsx:367
-msgid "{title}"
-msgstr ""
+#~ msgid "{title}"
+#~ msgstr ""
 
 #: components/tools/DocUploadNoFunc.tsx:385
 msgid "<0>Click to upload</0> or drag and drop"
@@ -32,6 +32,15 @@ msgstr "<0>클릭하여 업로드</0> 또는 드래그 앤 드롭"
 #: utils/faqData.tsx:97
 msgid "Absolutely. Data privacy is our top priority. The application employs industry-standard SSL encryption to ensure the protection of your information."
 msgstr "물론입니다. 데이터 개인 정보 보호는 우리의 최우선 과제입니다. 해당 응용 프로그램은 정보를 보호하기 위해 업계 표준 SSL 암호화를 사용합니다."
+
+#: config/config.ts:319
+#: config/config.ts:323
+msgid "Account Upgraded"
+msgstr ""
+
+#: config/config.ts:385
+msgid "Adults"
+msgstr "어른"
 
 #: components/literature-review/LiteratureSideBar.tsx:434
 msgid "Advanced Parameters"
@@ -45,23 +54,27 @@ msgstr "고급 설정"
 msgid "Affiliate Program"
 msgstr "제휴 프로그램"
 
-#: pages/book-title-generator/generate.tsx:69
-#: pages/book-title-generator/index.tsx:35
+#: config/config.ts:468
+msgid "Afro Beat"
+msgstr "아프로 비트"
+
+#: pages/book-title-generator/generate.tsx:56
+#: pages/book-title-generator/index.tsx:37
 #: utils/free_tools.ts:108
 msgid "AI Book Title Generator"
 msgstr "AI 도서 제목 생성기"
 
-#: pages/essay-maker/generate.tsx:70
+#: pages/essay-maker/generate.tsx:57
 #: utils/free_tools.ts:129
 msgid "AI Essay Maker"
 msgstr "AI 에세이 메이커"
 
-#: pages/essay-maker/index.tsx:36
+#: pages/essay-maker/index.tsx:38
 msgid "AI Essay Writer"
 msgstr "AI 에세이 작가"
 
-#: pages/instagram-caption/generate.tsx:68
-#: pages/instagram-caption/index.tsx:35
+#: pages/instagram-caption/generate.tsx:56
+#: pages/instagram-caption/index.tsx:37
 #: utils/free_tools.ts:94
 msgid "AI Instagram Caption Generator"
 msgstr "AI 인스타그램 캡션 생성기"
@@ -78,26 +91,26 @@ msgstr "AI 문학 리뷰 작성자"
 msgid "AI Literature Review Writer Tool"
 msgstr ""
 
-#: pages/lyrics-generator/generate.tsx:69
-#: pages/lyrics-generator/index.tsx:35
+#: pages/lyrics-generator/generate.tsx:56
+#: pages/lyrics-generator/index.tsx:37
 #: utils/free_tools.ts:80
 msgid "AI Lyrics Generator"
 msgstr "AI 문헌 검토 작성자 도구"
 
-#: pages/paragraph-generator/generate.tsx:68
-#: pages/paragraph-generator/index.tsx:35
+#: pages/paragraph-generator/generate.tsx:56
+#: pages/paragraph-generator/index.tsx:37
 #: utils/free_tools.ts:136
 msgid "AI Paragraph Generator"
 msgstr "AI 문단 생성기"
 
-#: pages/poem-generator/generate.tsx:68
-#: pages/poem-generator/index.tsx:35
+#: pages/poem-generator/generate.tsx:56
+#: pages/poem-generator/index.tsx:37
 #: utils/free_tools.ts:87
 msgid "AI Poem Generator"
 msgstr "AI 시 생성기"
 
-#: pages/rap-generator/generate.tsx:70
-#: pages/rap-generator/index.tsx:35
+#: pages/rap-generator/generate.tsx:57
+#: pages/rap-generator/index.tsx:39
 #: utils/free_tools.ts:101
 msgid "AI Rap Generator"
 msgstr "AI 랩 생성기"
@@ -106,20 +119,20 @@ msgstr "AI 랩 생성기"
 msgid "AI Source Finder"
 msgstr "AI 소스 찾기"
 
-#: pages/story-generator/generate.tsx:68
-#: pages/story-generator/index.tsx:36
+#: pages/story-generator/generate.tsx:56
+#: pages/story-generator/index.tsx:39
 #: utils/free_tools.ts:115
 msgid "AI Story Generator"
 msgstr "AI 스토리 생성기"
 
-#: pages/text-generator/generate.tsx:68
-#: pages/text-generator/index.tsx:35
+#: pages/text-generator/generate.tsx:56
+#: pages/text-generator/index.tsx:38
 #: utils/free_tools.ts:143
 msgid "AI Text Generator"
 msgstr "AI 텍스트 생성기"
 
-#: pages/thesis-statement/generate.tsx:68
-#: pages/thesis-statement/index.tsx:35
+#: pages/thesis-statement/generate.tsx:56
+#: pages/thesis-statement/index.tsx:38
 #: utils/free_tools.ts:122
 msgid "AI Thesis Statement Generator"
 msgstr "AI 논문 문장 생성기"
@@ -139,6 +152,10 @@ msgstr "오류가 발생했습니다. 다시 시도해 주세요"
 msgid "Analysing Document"
 msgstr "문서 분석 중"
 
+#: config/config.ts:615
+msgid "Analytical"
+msgstr "분석적인"
+
 #: components/Footer.tsx:283
 msgid "Android App"
 msgstr "안드로이드 앱"
@@ -150,6 +167,15 @@ msgstr "안드로이드 앱"
 #: components/tools/ToolBarExt.tsx:293
 msgid "API"
 msgstr "API"
+
+#: config/config.ts:405
+#: config/config.ts:614
+msgid "Argumentative"
+msgstr "논쟁적인"
+
+#: config/config.ts:495
+msgid "Artist Style"
+msgstr "예술가 스타일"
 
 #: utils/faqData.tsx:31
 msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See <0>here</0> for details]."
@@ -171,6 +197,10 @@ msgstr "저자:"
 msgid "Back to tools"
 msgstr "도구로 돌아가기"
 
+#: config/config.ts:501
+msgid "Bad Bunny"
+msgstr ""
+
 #: components/literature-review/LiteratureMainBar.tsx:487
 msgid "Begin new review"
 msgstr "새 리뷰 시작"
@@ -178,6 +208,14 @@ msgstr "새 리뷰 시작"
 #: components/source-tools/source-result/index.tsx:548
 msgid "Begin new search"
 msgstr "새로운 검색 시작"
+
+#: config/config.ts:487
+msgid "Betrayal"
+msgstr "배신"
+
+#: config/config.ts:498
+msgid "Beyonce"
+msgstr ""
 
 #: components/Footer.tsx:418
 msgid "BlockTechnology OÜ. All rights reserved. ©{year}"
@@ -187,15 +225,19 @@ msgstr "BlockTechnology OÜ. 모든 권리 보유. ©{year}"
 msgid "Blog"
 msgstr "블로그"
 
-#: pages/book-title-generator/generate.tsx:81
+#: pages/book-title-generator/generate.tsx:68
 msgid "Book Title"
 msgstr "책 제목"
 
-#: pages/book-title-generator/generate.tsx:70
-#: pages/book-title-generator/generate.tsx:72
-#: pages/book-title-generator/index.tsx:36
+#: pages/book-title-generator/generate.tsx:57
+#: pages/book-title-generator/generate.tsx:59
+#: pages/book-title-generator/index.tsx:38
 msgid "Book Title Generator"
 msgstr "책 제목 생성기"
+
+#: config/config.ts:500
+msgid "Burna Boy"
+msgstr ""
 
 #: utils/faqData.tsx:81
 msgid "Can I chat in any language?"
@@ -233,6 +275,12 @@ msgstr "AskYourPDF를 어떤 기기에서도 사용할 수 있습니까?"
 msgid "Cancel"
 msgstr "취소"
 
+#: config/config.ts:394
+#: config/config.ts:443
+#: config/config.ts:590
+msgid "Casual"
+msgstr "캐주얼"
+
 #: components/Footer.tsx:293
 msgid "Chat"
 msgstr "채팅"
@@ -240,6 +288,14 @@ msgstr "채팅"
 #: utils/faqData.tsx:130
 msgid "Chat sessions remain available as long as the browser tab is open."
 msgstr "브라우저 탭이 열려 있는 동안 채팅 세션을 계속 사용할 수 있습니다."
+
+#: config/config.ts:383
+msgid "Children"
+msgstr "어린이"
+
+#: config/config.ts:478
+msgid "Chill"
+msgstr "차분한"
 
 #: components/Footer.tsx:274
 msgid "Chrome Extension"
@@ -253,9 +309,19 @@ msgstr "인용자:"
 msgid "Coming Soon"
 msgstr "곧 출시"
 
+#: config/config.ts:320
+#: config/config.ts:324
+#: config/config.ts:328
+msgid "Communicating with documents has never felt this easy using AskYourPDF"
+msgstr ""
+
 #: components/Footer.tsx:334
 msgid "Company"
 msgstr "회사"
+
+#: config/config.ts:357
+msgid "Complex Vocabulary"
+msgstr "복잡한 어휘"
 
 #: components/source-tools/source-content/index.tsx:259
 msgid "Configure search"
@@ -294,6 +360,10 @@ msgstr " Crie versos personalizados e encantadores sem esforço com nosso Gerado
 msgid "Date Range"
 msgstr "날짜 범위"
 
+#: config/config.ts:535
+msgid "Death"
+msgstr "죽음"
+
 #: components/literature-review/LiteratureUpload.tsx:334
 #: components/tools/DocUploadNoFunc.tsx:260
 msgid "Delete"
@@ -308,6 +378,10 @@ msgstr "문서 삭제"
 #: components/source-tools/source-content/index.tsx:229
 msgid "Description"
 msgstr "설명"
+
+#: config/config.ts:406
+msgid "Descriptive"
+msgstr "서술적인"
 
 #: components/Footer.tsx:321
 msgid "Developer Docs"
@@ -339,6 +413,10 @@ msgstr "완료"
 msgid "Download"
 msgstr "다운로드"
 
+#: config/config.ts:581
+msgid "Educational"
+msgstr "교육적인"
+
 #: components/tools/SplitPage.tsx:805
 msgid "Efficiently split, separate, and manage your PDF files using our superior free online PDF splitter."
 msgstr "우수한 무료 온라인 PDF 분할기를 사용하여 PDF 파일을 효율적으로 분할, 분리 및 관리하세요."
@@ -351,6 +429,18 @@ msgstr "우리의 AI 에세이 메이커로 손쉽게 구조화된 수필을 작
 msgid "Effortlessly shrink PDFs for quicker sharing and storage, while preserving quality, all with the precision of AI."
 msgstr "AI의 정확성을 유지하면서 PDF를 손쉽게 줄여서 더 빠르게 공유하고 저장하세요."
 
+#: config/config.ts:422
+msgid "Eight"
+msgstr "여덟"
+
+#: config/config.ts:466
+msgid "Electronic"
+msgstr "전자 음악"
+
+#: config/config.ts:477
+msgid "Energetic"
+msgstr "에너제틱"
+
 #: pages/source-tool/index.tsx:248
 msgid "Enhance your research with our Source-Tool, which automatically cites and creates references for your academic text."
 msgstr "학술 텍스트에 대한 참고 문헌을 자동으로 인용하고 생성하는 출처 도구로 연구를 강화하세요."
@@ -361,18 +451,18 @@ msgstr "학술 텍스트에 대한 참고 문헌을 자동으로 인용하고 �
 msgid "Error"
 msgstr "오류"
 
-#: pages/essay-maker/generate.tsx:82
+#: pages/essay-maker/generate.tsx:69
 msgid "Essay"
-msgstr ""
+msgstr "에세이"
 
-#: pages/essay-maker/generate.tsx:71
-#: pages/essay-maker/generate.tsx:73
+#: pages/essay-maker/generate.tsx:58
+#: pages/essay-maker/generate.tsx:60
 msgid "Essay Maker"
-msgstr ""
+msgstr "에세이 생성기"
 
-#: pages/essay-maker/index.tsx:37
+#: pages/essay-maker/index.tsx:39
 msgid "Essay Writer"
-msgstr ""
+msgstr "에세이 작성기"
 
 #: components/tools/MainPage.tsx:16
 msgid "Explore our Free Tools"
@@ -385,6 +475,11 @@ msgstr "모두 내보내기"
 #: components/source-tools/source-result/index.tsx:521
 msgid "Export As"
 msgstr "내보내기 형식"
+
+#: config/config.ts:408
+#: config/config.ts:616
+msgid "Expository"
+msgstr "설명적인"
 
 #: components/Navbar.tsx:310
 #: components/Navbar.tsx:367
@@ -411,9 +506,17 @@ msgstr "텍스트를 검토하지 못했습니다. 다시 시도해 주세요."
 msgid "Failed to upload file"
 msgstr "파일 업로드에 실패했습니다"
 
+#: config/config.ts:372
+msgid "Fantasy"
+msgstr "환상"
+
 #: components/Footer.tsx:349
 msgid "FAQs"
 msgstr "자주 묻는 질문"
+
+#: config/config.ts:347
+msgid "Fast"
+msgstr "빠름"
 
 #: components/tools/DocUploadNoFunc.tsx:418
 msgid "Fetch document"
@@ -422,6 +525,14 @@ msgstr "문서 가져오기"
 #: components/tools/DocUploadNoFunc.tsx:415
 msgid "Fetching document"
 msgstr "문서 가져오는 중"
+
+#: config/config.ts:367
+msgid "Fiction"
+msgstr "픽션"
+
+#: config/config.ts:582
+msgid "Fictional"
+msgstr "허구의"
 
 #: components/literature-review/LiteratureSideBar.tsx:369
 msgid "Field of Study"
@@ -457,43 +568,43 @@ msgstr "파일 업로드 실패"
 #~ msgid "Fill"
 #~ msgstr ""
 
-#: pages/book-title-generator/generate.tsx:71
+#: pages/book-title-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your book title"
 msgstr "책 제목을 생성하려면 아래의 필드(들)를 채우세요."
 
-#: pages/essay-maker/generate.tsx:72
+#: pages/essay-maker/generate.tsx:59
 msgid "Fill in the field (s) below to generate your Essay"
 msgstr "에세이를 생성하려면 아래의 필드(들)를 채우세요."
 
-#: pages/instagram-caption/generate.tsx:70
+#: pages/instagram-caption/generate.tsx:58
 msgid "Fill in the field (s) below to generate your instagram caption"
 msgstr "Instagram 캡션을 생성하려면 아래의 필드(들)를 채우세요."
 
-#: pages/lyrics-generator/generate.tsx:71
+#: pages/lyrics-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your Lyrics"
 msgstr "가사를 생성하려면 아래의 필드(들)를 채우세요."
 
-#: pages/paragraph-generator/generate.tsx:70
+#: pages/paragraph-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your paragraph"
 msgstr "단락을 생성하려면 아래의 필드(들)를 채우세요."
 
-#: pages/poem-generator/generate.tsx:70
+#: pages/poem-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your poem"
 msgstr " 시를 생성하려면 아래의 필드(들)를 채우세요."
 
-#: pages/rap-generator/generate.tsx:72
+#: pages/rap-generator/generate.tsx:59
 msgid "Fill in the field (s) below to generate your Rap"
 msgstr " 랩을 생성하려면 아래의 필드(들)를 채우세요."
 
-#: pages/story-generator/generate.tsx:70
+#: pages/story-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your story"
 msgstr "이야기를 생성하려면 아래의 필드(들)를 채우세요."
 
-#: pages/text-generator/generate.tsx:70
+#: pages/text-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your text"
 msgstr "텍스트를 생성하려면 아래의 필드(들)를 채우세요."
 
-#: pages/thesis-statement/generate.tsx:70
+#: pages/thesis-statement/generate.tsx:58
 msgid "Fill in the field (s) below to generate your thesis"
 msgstr "논문을 생성하려면 아래의 필드(들)를 채우세요."
 
@@ -501,9 +612,25 @@ msgstr "논문을 생성하려면 아래의 필드(들)를 채우세요."
 msgid "Find sources"
 msgstr "소스 찾기"
 
+#: config/config.ts:419
+msgid "Five"
+msgstr "다섯"
+
+#: config/config.ts:433
+msgid "Food"
+msgstr "음식"
+
+#: config/config.ts:418
+msgid "Four"
+msgstr "네"
+
 #: utils/faqData.tsx:65
 msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
 msgstr "무료 사용자는 하루에 1개의 문서를 업로드할 수 있습니다. 프리미엄 및 프로 사용자는 각각 하루에 50개 및 150개의 문서를 업로드할 수 있습니다. 더 많은 업로드 수는 엔터프라이즈 플랜에 대한 문의가 필요합니다."
+
+#: config/config.ts:517
+msgid "Free Verse"
+msgstr "자유 시"
 
 #: components/FreeLanding/ToolsFaq.tsx:85
 msgid "Frequently Asked Questions"
@@ -517,76 +644,92 @@ msgstr "문서에서"
 msgid "Fuel your literary imagination with our AI Book Title Generator. Discover captivating titles for your next literary masterpiece effortlessly."
 msgstr "우리의 AI 책 제목 생성기로 문학적 상상력에 기름을 붓습니다. 다가올 문학 작품을 위한 매혹적인 제목을 손쉽게 발견하세요."
 
-#: pages/book-title-generator/index.tsx:40
+#: config/config.ts:560
+msgid "Full length"
+msgstr "전체 길이"
+
+#: config/config.ts:441
+msgid "Funny"
+msgstr "웃긴"
+
+#: config/config.ts:340
+msgid "Gangstar"
+msgstr "갱스터"
+
+#: config/config.ts:579
+msgid "General Content"
+msgstr "일반 콘텐츠"
+
+#: pages/book-title-generator/index.tsx:42
 msgid "Generate Book"
 msgstr "책 생성"
 
-#: pages/book-title-generator/generate.tsx:84
+#: pages/book-title-generator/generate.tsx:71
 msgid "Generate Book Title"
 msgstr "책 제목 생성"
 
-#: pages/essay-maker/generate.tsx:85
-#: pages/essay-maker/index.tsx:41
+#: pages/essay-maker/generate.tsx:72
+#: pages/essay-maker/index.tsx:43
 msgid "Generate Essay"
 msgstr "에세이 생성"
 
-#: pages/instagram-caption/index.tsx:40
+#: pages/instagram-caption/index.tsx:42
 msgid "Generate Instagram caption"
 msgstr "Instagram 캡션 생성"
 
+#: pages/instagram-caption/generate.tsx:59
 #: pages/instagram-caption/generate.tsx:71
-#: pages/instagram-caption/generate.tsx:83
 msgid "Generate Instagram Caption"
 msgstr "Instagram 캡션 생성"
 
-#: pages/lyrics-generator/generate.tsx:72
-#: pages/lyrics-generator/generate.tsx:84
-#: pages/lyrics-generator/index.tsx:40
+#: pages/lyrics-generator/generate.tsx:59
+#: pages/lyrics-generator/generate.tsx:71
+#: pages/lyrics-generator/index.tsx:42
 msgid "Generate Lyrics"
 msgstr "가사 생성"
 
+#: pages/paragraph-generator/generate.tsx:59
 #: pages/paragraph-generator/generate.tsx:71
-#: pages/paragraph-generator/generate.tsx:83
-#: pages/paragraph-generator/index.tsx:40
+#: pages/paragraph-generator/index.tsx:42
 msgid "Generate Paragraph"
 msgstr "단락 생성"
 
+#: pages/poem-generator/generate.tsx:59
 #: pages/poem-generator/generate.tsx:71
-#: pages/poem-generator/generate.tsx:83
-#: pages/poem-generator/index.tsx:40
+#: pages/poem-generator/index.tsx:42
 msgid "Generate Poem"
 msgstr "시 생성"
 
-#: pages/rap-generator/generate.tsx:73
-#: pages/rap-generator/generate.tsx:85
-#: pages/rap-generator/index.tsx:40
+#: pages/rap-generator/generate.tsx:60
+#: pages/rap-generator/generate.tsx:72
+#: pages/rap-generator/index.tsx:44
 msgid "Generate Rap"
 msgstr "랩 생성"
 
+#: pages/story-generator/generate.tsx:59
 #: pages/story-generator/generate.tsx:71
-#: pages/story-generator/generate.tsx:83
 msgid "Generate story"
 msgstr "이야기 생성"
 
-#: pages/story-generator/index.tsx:41
+#: pages/story-generator/index.tsx:44
 msgid "Generate Story"
 msgstr "이야기 생성"
 
-#: pages/text-generator/generate.tsx:71
+#: pages/text-generator/generate.tsx:59
 msgid "Generate text"
 msgstr "텍스트 생성"
 
-#: pages/text-generator/generate.tsx:83
-#: pages/text-generator/index.tsx:40
+#: pages/text-generator/generate.tsx:71
+#: pages/text-generator/index.tsx:43
 msgid "Generate Text"
 msgstr "텍스트 생성"
 
-#: pages/thesis-statement/generate.tsx:83
-#: pages/thesis-statement/index.tsx:40
+#: pages/thesis-statement/generate.tsx:71
+#: pages/thesis-statement/index.tsx:43
 msgid "Generate Thesis"
 msgstr "논문 생성"
 
-#: pages/thesis-statement/generate.tsx:71
+#: pages/thesis-statement/generate.tsx:59
 msgid "Generate thesis statement"
 msgstr "논문 주장 생성"
 
@@ -602,15 +745,32 @@ msgstr "시작하기"
 msgid "Getting Started"
 msgstr "시작하기"
 
+#: config/config.ts:515
+msgid "Haiku"
+msgstr ""
+
 #: pages/source-tool/index.tsx:278
 msgid "Hang on! We’re looking for sources"
 msgstr "기다려주세요! 소스를 찾고 있습니다"
+
+#: config/config.ts:475
+msgid "Happy"
+msgstr "행복한"
 
 #: components/Modals/ConversationFeedback.tsx:369
 #: components/Modals/ConversationFeedback.tsx:479
 #: components/tools/ToolsSection.tsx:126
 #~ msgid "Harness the power of our AI-driven Literature Review Assistant. Simplify your research process, produce structured overviews, and craft in-depth literature reviews to elevate your academic work."
 #~ msgstr "AI 기반 문헌 검토 도우미의 힘을 활용하세요. 연구 프로세스를 간소화하고, 구조화된 개요를 작성하고, 심도 있는 문헌 리뷰를 작성하여 학술적 성과를 높일 수 있습니다."
+
+#: config/config.ts:451
+#: config/config.ts:453
+msgid "Hashtags Preferences"
+msgstr "해시태그 환경 설정"
+
+#: config/config.ts:465
+msgid "Hip Hop"
+msgstr ""
 
 #: components/Navbar.tsx:278
 #: components/Navbar.tsx:335
@@ -643,7 +803,11 @@ msgstr "답변이 업로드된 문서에 있으면 AI가 답변을 제공할 가
 msgid "If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help!"
 msgstr "AskYourPDF 사용 중에 문제가 발생하거나 질문이 있으면 지원팀에 문의하십시오: support@askyourpdf.com. 그들은 도움을 드리기 위해 여기에 있습니다!"
 
-#: pages/story-generator/generate.tsx:84
+#: config/config.ts:454
+msgid "Include Hashtag"
+msgstr "해시태그 포함"
+
+#: pages/story-generator/generate.tsx:72
 msgid "Input Character Names and a brief description of the main characters"
 msgstr "캐릭터 이름과 주요 캐릭터에 대한 간단한 설명을 입력하세요"
 
@@ -688,9 +852,13 @@ msgstr "캐릭터 이름과 주요 캐릭터에 대한 간단한 설명을 입�
 #~ msgid "input Key Points to Cover"
 #~ msgstr "입력해야 할 핵심 사항"
 
-#: pages/paragraph-generator/index.tsx:38
+#: pages/paragraph-generator/index.tsx:40
 msgid "Input main idea/supporting points"
 msgstr "주요 아이디어/지원 포인트 입력"
+
+#: pages/story-generator/index.tsx:42
+msgid "Input names and a brief description of the main characters"
+msgstr ""
 
 #: pages/paragraph-generator/index.tsx:57
 #: pages/story-generator/generate/index.tsx:109
@@ -698,14 +866,14 @@ msgstr "주요 아이디어/지원 포인트 입력"
 #~ msgid "Input Names and a brief description of the main characters"
 #~ msgstr "입력 이름과 주인공에 대한 간략한 설명"
 
-#: pages/book-title-generator/index.tsx:38
-#: pages/essay-maker/index.tsx:39
-#: pages/instagram-caption/index.tsx:38
-#: pages/lyrics-generator/index.tsx:38
-#: pages/poem-generator/index.tsx:38
-#: pages/rap-generator/index.tsx:38
-#: pages/text-generator/index.tsx:38
-#: pages/thesis-statement/index.tsx:38
+#: pages/book-title-generator/index.tsx:40
+#: pages/essay-maker/index.tsx:41
+#: pages/instagram-caption/index.tsx:40
+#: pages/lyrics-generator/index.tsx:40
+#: pages/poem-generator/index.tsx:40
+#: pages/rap-generator/index.tsx:42
+#: pages/text-generator/index.tsx:41
+#: pages/thesis-statement/index.tsx:41
 msgid "Input some line here to begin"
 msgstr "시작하려면 여기에 몇 줄을 입력하세요."
 
@@ -722,15 +890,19 @@ msgstr "시작하려면 여기에 몇 줄을 입력하세요."
 #~ msgstr "제목 또는 주제 입력"
 
 #: pages/story-generator/index.tsx:39
-msgid "InputNames and a brief description of the main characters"
-msgstr "주요 캐릭터의 이름과 간단한 설명을 입력하세요"
+#~ msgid "InputNames and a brief description of the main characters"
+#~ msgstr "주요 캐릭터의 이름과 간단한 설명을 입력하세요"
 
-#: pages/instagram-caption/generate.tsx:80
+#: config/config.ts:442
+msgid "Inspirational"
+msgstr "영감을 주는"
+
+#: pages/instagram-caption/generate.tsx:68
 msgid "Instagram Caption"
 msgstr "인스타그램 캡션"
 
-#: pages/instagram-caption/generate.tsx:69
-#: pages/instagram-caption/index.tsx:36
+#: pages/instagram-caption/generate.tsx:57
+#: pages/instagram-caption/index.tsx:38
 msgid "Instagram Caption Generator"
 msgstr "인스타그램 캡션 생성기"
 
@@ -774,9 +946,27 @@ msgstr "업로드할 수 있는 문서 크기 제한이 있나요?"
 msgid "It's an application that lets you chat with any document you upload"
 msgstr "업로드하는 모든 문서와 채팅할 수 있는 응용 프로그램입니다."
 
+#: config/config.ts:497
+msgid "JayZ"
+msgstr ""
+
+#: config/config.ts:526
+msgid "Joyful"
+msgstr "기쁜"
+
+#: config/config.ts:499
+msgid "Kendrick Lamar"
+msgstr ""
+
 #: components/AppSidebar.tsx:179
 msgid "Knowledge Base"
 msgstr "ナレッジベース"
+
+#: config/config.ts:541
+#: config/config.ts:543
+#: config/config.ts:556
+msgid "Length"
+msgstr "길이"
 
 #: utils/free_tools.ts:46
 msgid "Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
@@ -785,6 +975,10 @@ msgstr " 인공 지능이 작업을 처리하도록 하여 PDF 문서를 별도�
 #: utils/free_tools.ts:74
 msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources of relevant to your needs."
 msgstr "인공 지능의 힘을 활용하여 귀하의 요구 사항에 관련된 소스를 발견하고 분석하며 추천하세요."
+
+#: config/config.ts:516
+msgid "Limerick"
+msgstr ""
 
 #: components/literature-review/LiteratureMainBar.tsx:435
 msgid "Literature Review copied"
@@ -796,11 +990,25 @@ msgstr "문헌 검토 복사"
 msgid "Literature Review Tool"
 msgstr "문헌 고찰 도구"
 
+#: config/config.ts:569
+msgid "Location"
+msgstr "위치"
+
 #: components/AppSidebar.tsx:336
 msgid "Logout"
 msgstr "로그아웃"
 
-#: pages/lyrics-generator/generate.tsx:81
+#: config/config.ts:547
+#: config/config.ts:603
+msgid "Long"
+msgstr "긴"
+
+#: config/config.ts:486
+#: config/config.ts:534
+msgid "Love"
+msgstr "사랑"
+
+#: pages/lyrics-generator/generate.tsx:68
 msgid "Lyrics"
 msgstr "가사 "
 
@@ -813,18 +1021,49 @@ msgstr "가사 "
 #~ msgid "Main idea"
 #~ msgstr "주요 아이디어"
 
-#: pages/paragraph-generator/generate.tsx:84
+#: pages/paragraph-generator/generate.tsx:72
 msgid "Main idea/supporting points"
-msgstr ""
+msgstr "주요 아이디어/지원 포인트"
+
+#: config/config.ts:580
+msgid "Marketing"
+msgstr "마케팅"
 
 #: components/literature-review/LiteratureMainBar.tsx:396
 #: components/source-tools/source-content/index.tsx:248
 msgid "Maximum of 10000 characters"
 msgstr "최대 10000자"
 
+#: config/config.ts:348
+#: config/config.ts:546
+#: config/config.ts:602
+msgid "Medium"
+msgstr "중간"
+
+#: config/config.ts:525
+msgid "Melancholic"
+msgstr ""
+
 #: components/tools/MergePage.tsx:812
 msgid "Merge Another"
 msgstr "다른 병합"
+
+#: config/config.ts:369
+msgid "Misery"
+msgstr "불행"
+
+#: config/config.ts:391
+msgid "Mood/Tone"
+msgstr "분위기/톤"
+
+#: config/config.ts:374
+#: config/config.ts:407
+msgid "Narrative"
+msgstr "이야기"
+
+#: config/config.ts:533
+msgid "Nature"
+msgstr "자연"
 
 #: components/FreeLanding/ToolsFaq.tsx:90
 msgid "Need help? Look through our FAQs for quick answers!"
@@ -850,10 +1089,26 @@ msgstr "아니요, 채팅 인터페이스는 문서 내용과 상호 작용하�
 msgid "No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."
 msgstr "아니요, 응용 프로그램을 사용하려면 계정을 만들 필요가 없습니다. 그러나 몇 가지 제한 사항이 있습니다. AskYourPDF의 다양한 기능을 탐험하려면 업그레이드된 요금제가 필요합니다."
 
+#: config/config.ts:368
+msgid "Non-Fiction"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:540
 msgid "Not satisfied with your results?"
 msgstr "결과에 만족하지 못하셨나요?"
+
+#: config/config.ts:370
+msgid "Novel"
+msgstr ""
+
+#: config/config.ts:559
+msgid "Novella"
+msgstr ""
+
+#: config/config.ts:412
+#: config/config.ts:414
+msgid "Number of Paragraphs"
+msgstr "문단 수"
 
 #: components/tools/OcrPage.tsx:250
 #: components/tools/ToolCommon.tsx:170
@@ -861,6 +1116,14 @@ msgstr "결과에 만족하지 못하셨나요?"
 #: utils/free_tools.ts:66
 msgid "OCR PDF Reader"
 msgstr "OCR PDF 리더"
+
+#: config/config.ts:338
+msgid "Old School"
+msgstr "올드 스쿨"
+
+#: config/config.ts:415
+msgid "One"
+msgstr "하나"
 
 #: components/Waitlist.tsx:141
 msgid "Our API is Now Live"
@@ -874,14 +1137,18 @@ msgstr "기술 자료가 공개되었습니다."
 msgid "Output"
 msgstr "출력"
 
-#: pages/paragraph-generator/generate.tsx:80
+#: pages/paragraph-generator/generate.tsx:68
 msgid "Paragraph"
 msgstr ""
 
-#: pages/paragraph-generator/generate.tsx:69
-#: pages/paragraph-generator/index.tsx:36
+#: pages/paragraph-generator/generate.tsx:57
+#: pages/paragraph-generator/index.tsx:38
 msgid "Paragraph Generator"
 msgstr "단락 생성기"
+
+#: config/config.ts:434
+msgid "Passion"
+msgstr "열정"
 
 #: components/tools/ToolCommon.tsx:174
 #: components/ToolsFooter.tsx:86
@@ -911,19 +1178,27 @@ msgstr "PDF 분리 도구"
 msgid "PDF To Chat"
 msgstr "채팅용 PDF"
 
+#: config/config.ts:568
+msgid "Period"
+msgstr "기간"
+
 #: components/literature-review/LiteratureSideBar.tsx:373
 #: components/literature-review/LiteratureSideBar.tsx:441
 msgid "Please enter instructions on how to review your text input OR document"
 msgstr "텍스트 입력 또는 문서를 검토하는 방법에 대한 지침을 입력하세요"
 
-#: pages/poem-generator/generate.tsx:80
+#: pages/poem-generator/generate.tsx:68
 msgid "poem"
 msgstr ""
 
-#: pages/poem-generator/generate.tsx:69
-#: pages/poem-generator/index.tsx:36
+#: pages/poem-generator/generate.tsx:57
+#: pages/poem-generator/index.tsx:38
 msgid "Poem Generator"
 msgstr "시 생성기"
+
+#: config/config.ts:463
+msgid "Pop"
+msgstr ""
 
 #: components/Navbar.tsx:297
 #: components/Navbar.tsx:354
@@ -940,6 +1215,11 @@ msgstr "개인정보처리방침"
 msgid "Products"
 msgstr "제품"
 
+#: config/config.ts:393
+#: config/config.ts:589
+msgid "Professional"
+msgstr "전문적인"
+
 #: components/AppSidebar.tsx:321
 msgid "Profile"
 msgstr "프로필"
@@ -948,8 +1228,16 @@ msgstr "프로필"
 msgid "Publication Year:"
 msgstr "발행 연도:"
 
-#: pages/rap-generator/generate.tsx:71
-#: pages/rap-generator/index.tsx:36
+#: config/config.ts:327
+msgid "Purchase Successful"
+msgstr ""
+
+#: config/config.ts:467
+msgid "R&B"
+msgstr ""
+
+#: pages/rap-generator/generate.tsx:58
+#: pages/rap-generator/index.tsx:40
 msgid "Rap Generator"
 msgstr "랩 생성기"
 
@@ -978,6 +1266,19 @@ msgstr "내 작업 검토"
 msgid "Review will be displayed here"
 msgstr "리뷰가 여기에 표시됩니다"
 
+#: config/config.ts:464
+msgid "Rock"
+msgstr ""
+
+#: config/config.ts:479
+#: config/config.ts:524
+msgid "Romantic"
+msgstr "로맨틱"
+
+#: config/config.ts:476
+msgid "Sad"
+msgstr "슬픈"
+
 #: components/literature-review/MainContent.tsx:350
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr "AI 기반 문헌 리뷰 작성기로 시간과 노력을 절약하세요. 연구를 간소화하고, 구조화된 요약을 생성하고, 학술적 작업의 수준을 높여주는 응집력 있고 종합적인 리뷰를 작성하세요. AI로 구동됩니다."
@@ -985,6 +1286,10 @@ msgstr "AI 기반 문헌 리뷰 작성기로 시간과 노력을 절약하세요
 #: components/Footer.tsx:208
 msgid "Say hello to documents that respond to you! With AskYourPDF, your reading isn't just simple, it's fun!"
 msgstr "당신에게 응답하는 문서와 안녕! AskYourPDF로 읽기는 간편할 뿐만 아니라 재미있습니다!"
+
+#: config/config.ts:373
+msgid "Sci-Fi"
+msgstr ""
 
 #: components/tools/MainPage.tsx:17
 msgid "Seamlessly cite, reference, edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
@@ -994,13 +1299,101 @@ msgstr "PDF에서 텍스트를 원활하게 인용, 참조, 편집, 분할, 병�
 msgid "Select all"
 msgstr "모두 선택"
 
+#: config/config.ts:345
+msgid "Select Best Tempo"
+msgstr "최적의 템포 선택"
+
+#: config/config.ts:354
+msgid "Select Complexity"
+msgstr "복잡도 선택"
+
+#: config/config.ts:365
+#: config/config.ts:461
+msgid "Select Genre"
+msgstr "장르 선택"
+
+#: config/config.ts:597
+#: config/config.ts:599
+msgid "Select Length"
+msgstr "길이 선택"
+
+#: config/config.ts:439
+#: config/config.ts:473
+#: config/config.ts:522
+msgid "Select Mood"
+msgstr "기분 선택"
+
+#: config/config.ts:577
+msgid "Select Purpose"
+msgstr "목적 선택"
+
+#: config/config.ts:336
+#: config/config.ts:512
+msgid "Select Style"
+msgstr "스타일 선택"
+
+#: config/config.ts:484
+msgid "Select Theme"
+msgstr "테마 선택"
+
+#: config/config.ts:531
+msgid "Select Themes"
+msgstr "테마 선택"
+
+#: config/config.ts:587
+msgid "Select Tone"
+msgstr "톤 선택"
+
+#: config/config.ts:403
+msgid "Select Type"
+msgstr "유형 선택"
+
+#: config/config.ts:612
+msgid "Select Type of Paper"
+msgstr "종이 유형 선택"
+
+#: config/config.ts:444
+msgid "Serious"
+msgstr "진지한"
+
 #: components/AppSidebar.tsx:310
+#: config/config.ts:565
 msgid "Settings"
 msgstr "설정"
+
+#: config/config.ts:421
+msgid "Seven"
+msgstr "일곱"
+
+#: config/config.ts:545
+#: config/config.ts:601
+msgid "Short"
+msgstr "짧은"
+
+#: config/config.ts:558
+msgid "Short story"
+msgstr "짧은 이야기"
+
+#: config/config.ts:356
+msgid "Simplicity Of Words"
+msgstr "단어의 간결함"
+
 
 #: utils/free_tools.ts:123
 msgid "Simplify your academic writing. Let our AI Thesis Statement Generator craft concise, impactful thesis statements for your research effortlessly."
 msgstr "학문적인 글쓰기를 간소화하세요. 우리의 AI 논문 주제 생성기가 귀하의 연구를 위한 간결하고 효과적인 주제 선언을 손쉽게 만들어 드립니다."
+
+#: config/config.ts:420
+msgid "Six"
+msgstr "여섯"
+
+#: config/config.ts:349
+msgid "Slow"
+msgstr "느린"
+
+#: config/config.ts:514
+msgid "Sonnet"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:491
 msgid "Source copied"
@@ -1032,12 +1425,12 @@ msgstr "다른 리뷰 시작하기"
 msgid "Start For Free"
 msgstr "무료로 시작하기"
 
-#: pages/story-generator/generate.tsx:80
+#: pages/story-generator/generate.tsx:68
 msgid "story"
 msgstr ""
 
-#: pages/story-generator/generate.tsx:69
-#: pages/story-generator/index.tsx:37
+#: pages/story-generator/generate.tsx:57
+#: pages/story-generator/index.tsx:40
 msgid "Story Generator"
 msgstr "스토리 생성기"
 
@@ -1053,6 +1446,9 @@ msgstr " 글쓰기를 간소화하세요. 우리의 AI 단락 생성기가 간�
 msgid "Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."
 msgstr "구독자는 언제든지 구독을 취소할 수 있습니다. 그러나 구독 기간의 사용되지 않은 부분에 대해서는 환불이 제공되지 않습니다."
 
+#: config/config.ts:488
+msgid "Success"
+msgstr ""
 
 #: components/AppSidebar.tsx:252
 msgid "Summarisation"
@@ -1069,16 +1465,24 @@ msgstr "지원되는 형식: .pdf"
 #~ msgid "Supporting points"
 #~ msgstr "지원 포인트"
 
+#: config/config.ts:591
+msgid "Technical"
+msgstr "기술적인"
+
+#: config/config.ts:395
+msgid "Technical"
+msgstr "기술적인"
+
 #: components/Footer.tsx:339
 msgid "Terms & Conditions"
 msgstr "이용약관"
 
-#: pages/text-generator/generate.tsx:80
+#: pages/text-generator/generate.tsx:68
 msgid "text"
 msgstr ""
 
-#: pages/text-generator/generate.tsx:69
-#: pages/text-generator/index.tsx:36
+#: pages/text-generator/generate.tsx:57
+#: pages/text-generator/index.tsx:39
 msgid "Text Generator"
 msgstr "텍스트 생성기"
 
@@ -1090,26 +1494,39 @@ msgstr "이 어플리케이션은 문서의 내용을 분석하고 사용자가 
 msgid "The summarisation service, GPT4 and Claude 2, operate on a credit-based system; while initial credits are provided complimentary as part of your subscription, additional credits may need to be purchased once these are exhausted. All credit purchases are final, non-refundable, and must be used exclusively for the Summarization Service, GPT4, or Claude 2."
 msgstr "요약 서비스, GPT4 및 Claude 2는 크레딧 기반 시스템에서 작동합니다. 초기 크레딧은 구독의 일부로 무료로 제공되지만, 이를 모두 사용한 후에는 추가 크레딧을 구매해야 할 수 있습니다. 모든 크레딧 구매는 최종적이며, 환불이 불가능하며, 요약 서비스, GPT4 또는 Claude 2 전용으로 사용해야 합니다."
 
-
-#: pages/book-title-generator/generate.tsx:85
-#: pages/instagram-caption/generate.tsx:84
-#: pages/lyrics-generator/generate.tsx:85
-#: pages/text-generator/generate.tsx:84
-#: pages/thesis-statement/generate.tsx:84
+#: pages/book-title-generator/generate.tsx:72
+#: pages/instagram-caption/generate.tsx:72
+#: pages/lyrics-generator/generate.tsx:72
+#: pages/rap-generator/generate.tsx:73
+#: pages/text-generator/generate.tsx:72
+#: pages/thesis-statement/generate.tsx:72
 msgid "Theme / Topic"
 msgstr "주제 "
 
-#: pages/thesis-statement/generate.tsx:80
+#: pages/thesis-statement/generate.tsx:68
 msgid "Thesis"
 msgstr ""
 
-#: pages/thesis-statement/generate.tsx:69
-#: pages/thesis-statement/index.tsx:36
+#: pages/thesis-statement/generate.tsx:57
+#: pages/thesis-statement/index.tsx:39
 msgid "Thesis Statement Generator"
 msgstr "논문 문장 생성기"
 
-#: pages/essay-maker/generate.tsx:86
-#: pages/poem-generator/generate.tsx:84
+#: config/config.ts:417
+msgid "Three"
+msgstr "세"
+
+#: config/config.ts:371
+msgid "Thriller"
+msgstr "스릴러"
+
+#: config/config.ts:536
+#: config/config.ts:567
+msgid "Time"
+msgstr "시간"
+
+#: pages/essay-maker/generate.tsx:73
+#: pages/poem-generator/generate.tsx:72
 msgid "Title or Topic"
 msgstr " 제목 또는 주제"
 
@@ -1134,10 +1551,22 @@ msgstr "아이디어를 손쉽게 텍스트로 변환하세요. 우리의 AI 텍
 msgid "Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader."
 msgstr "AI 기반 OCR PDF 리더를 사용하여 스캔 또는 이미지 기반 PDF를 편집 및 검색 가능한 텍스트로 변환하세요."
 
+#: config/config.ts:339
+msgid "Trap"
+msgstr "덫"
+
+#: config/config.ts:432
+msgid "Travel"
+msgstr "여행"
+
 #: components/tools/ToolsWaitlist.tsx:150
 #: components/Waitlist.tsx:151
 msgid "Try it Now"
 msgstr "지금 시도하기"
+
+#: config/config.ts:416
+msgid "Two"
+msgstr "둘"
 
 #: utils/free_tools.ts:116
 msgid "Unleash limitless creativity with our AI Story Generator. Craft unique tales, explore diverse genres, and bring your narratives to life."
@@ -1172,6 +1601,16 @@ msgstr "新しいドキュメントをアップロードする"
 msgid "Upload text file"
 msgstr "텍스트 파일 업로드"
 
+#: config/config.ts:548
+#: config/config.ts:604
+msgid "Very Long"
+msgstr "아주 긴"
+
+#: config/config.ts:544
+#: config/config.ts:600
+msgid "Very Short"
+msgstr "아주 짧은"
+
 #: components/literature-review/MainContent.tsx:227
 #: pages/source-tool/index.tsx:181
 msgid "Warning"
@@ -1201,7 +1640,6 @@ msgstr "AI가 답할 수 없는 질문이 있으면 어떻게 됩니까?"
 msgid "What is AskYourPDF?"
 msgstr "AskYourPDF는 무엇인가요?"
 
-
 #: components/tools/MergePage.tsx:675
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 msgstr "스마트한 자동 병합 기능을 사용하면 품질과 서식을 유지하면서 PDF를 하나의 일관된 문서로 원활하게 통합할 수 있습니다."
@@ -1209,6 +1647,10 @@ msgstr "스마트한 자동 병합 기능을 사용하면 품질과 서식을 �
 #: utils/free_tools.ts:53
 msgid "With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 msgstr "스마트하고 자동화된 병합으로 PDF 문서들이 품질과 서식을 유지하면서 하나로 통합되어 통일된 문서가 됩니다."
+
+#: config/config.ts:384
+msgid "YA"
+msgstr ""
 
 #: utils/faqData.tsx:108
 msgid "Yes, AskYourPDF is accessible from any device with standard browsers and an internet connection."
@@ -1238,13 +1680,12 @@ msgstr "네, 어플리케이션은 무료로 사용할 수 있지만 일부 제�
 msgid "Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."
 msgstr "네, 무료 사용자의 문서 업로드 최대 파일 크기는 15MB입니다. 그러나 프리미엄 및 프로 사용자는 각각 30MB 및 90MB까지 업로드할 수 있습니다. 더 큰 파일 크기의 경우 사용자는 엔터프라이즈 플랜에 대해 문의해야 합니다."
 
-
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"
 msgstr "이제 지식창고를 사용하여 여러 문서와 한 번에 채팅할 수 있습니다."
 
-#: pages/lyrics-generator/generate.tsx:70
-#: pages/lyrics-generator/index.tsx:36
+#: pages/lyrics-generator/generate.tsx:57
+#: pages/lyrics-generator/index.tsx:38
 #: utils/free_tools.ts:81
 msgid "Your creative companion on your musical journey, create lyrics that tell your unique story"
 msgstr "음악 여정의 창의적인 동반자, 나만의 이야기를 담은 가사를 만들어보세요."

@@ -2,6 +2,7 @@ import React, { Fragment, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { Select } from 'antd';
 import useGenerateInput from '@/hooks/useGenerator';
+import { useLingui } from '@lingui/react';
 
 const Container = styled.div`
   width: 100%;
@@ -71,6 +72,7 @@ const ParameterTitle = styled.div`
 const Parameters = ({ generatorOptions, paramsChange }: any) => {
 
   const { generateParameters } = useGenerateInput();
+  const { i18n } = useLingui();
 
   return (
     <Container>
@@ -80,14 +82,17 @@ const Parameters = ({ generatorOptions, paramsChange }: any) => {
         <>
             {generatorOptions.map((item: any, key: any) => (
               <Fragment key={key}>
-                <ParameterTitle>{item.place_holder}</ParameterTitle>
+                <ParameterTitle>{i18n._(item.place_holder)}</ParameterTitle>
                 <Select
                   key={key}
-                  placeholder={item.place_holder}
+                  placeholder={i18n._(item.place_holder)}
                   value={generateParameters[item.type]}
                   size="large"
                   onChange={(generateParameter) => paramsChange(item.type, generateParameter)}
-                  options={item.options}
+                  options={item.options.map((option: any) => ({
+                    ...option,
+                    label: i18n._(option.label),
+                  }))}
                   className='select'
                 />
               </Fragment>

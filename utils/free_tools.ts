@@ -53,13 +53,13 @@ export const FreeToolsData : free_tools_data[] = [
     desc: msg`With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting.`,
     link: path.merge
   },
-  {
-    icon: CompressIcon,
-    target: "_blank",
-    title: msg`PDF Compressor`,
-    desc: msg`Effortlessly shrink PDFs for quicker sharing and storage, while preserving quality, all with the precision of AI.`,
-    link: ""
-  },
+  // {
+  //   icon: CompressIcon,
+  //   target: "_blank",
+  //   title: msg`PDF Compressor`,
+  //   desc: msg`Effortlessly shrink PDFs for quicker sharing and storage, while preserving quality, all with the precision of AI.`,
+  //   link: ""
+  // },
   {
     icon: ScanIcon,
     target: "_blank",

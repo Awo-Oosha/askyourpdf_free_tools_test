@@ -22,8 +22,8 @@ msgid "{0} file upload failed"
 msgstr "{0} ファイルのアップロードに失敗しました"
 
 #: components/FreeLanding/Hero.tsx:367
-msgid "{title}"
-msgstr ""
+#~ msgid "{title}"
+#~ msgstr ""
 
 #: components/tools/DocUploadNoFunc.tsx:385
 msgid "<0>Click to upload</0> or drag and drop"
@@ -32,6 +32,15 @@ msgstr "<0>クリックしてアップロード</0>またはドラッグアン�
 #: utils/faqData.tsx:97
 msgid "Absolutely. Data privacy is our top priority. The application employs industry-standard SSL encryption to ensure the protection of your information."
 msgstr " 完全です。データのプライバシーは当社の最優先事項です。アプリケーションは業界標準のSSL暗号化を使用して、お客様の情報を保護します。"
+
+#: config/config.ts:319
+#: config/config.ts:323
+msgid "Account Upgraded"
+msgstr ""
+
+#: config/config.ts:385
+msgid "Adults"
+msgstr "大人"
 
 #: components/literature-review/LiteratureSideBar.tsx:434
 msgid "Advanced Parameters"
@@ -45,23 +54,27 @@ msgstr "詳細設定"
 msgid "Affiliate Program"
 msgstr "アフィリエイトプログラム"
 
-#: pages/book-title-generator/generate.tsx:69
-#: pages/book-title-generator/index.tsx:35
+#: config/config.ts:468
+msgid "Afro Beat"
+msgstr "アフロビート"
+
+#: pages/book-title-generator/generate.tsx:56
+#: pages/book-title-generator/index.tsx:37
 #: utils/free_tools.ts:108
 msgid "AI Book Title Generator"
 msgstr "AIブックタイトル・ジェネレーター"
 
-#: pages/essay-maker/generate.tsx:70
+#: pages/essay-maker/generate.tsx:57
 #: utils/free_tools.ts:129
 msgid "AI Essay Maker"
 msgstr "AIエッセイメーカー"
 
-#: pages/essay-maker/index.tsx:36
+#: pages/essay-maker/index.tsx:38
 msgid "AI Essay Writer"
 msgstr "AIエッセイライター"
 
-#: pages/instagram-caption/generate.tsx:68
-#: pages/instagram-caption/index.tsx:35
+#: pages/instagram-caption/generate.tsx:56
+#: pages/instagram-caption/index.tsx:37
 #: utils/free_tools.ts:94
 msgid "AI Instagram Caption Generator"
 msgstr "AIインスタグラム・キャプション・ジェネレーター"
@@ -78,26 +91,26 @@ msgstr "AI文献レビュー作成ツール"
 msgid "AI Literature Review Writer Tool"
 msgstr "AI文献レビュー作成ツール"
 
-#: pages/lyrics-generator/generate.tsx:69
-#: pages/lyrics-generator/index.tsx:35
+#: pages/lyrics-generator/generate.tsx:56
+#: pages/lyrics-generator/index.tsx:37
 #: utils/free_tools.ts:80
 msgid "AI Lyrics Generator"
 msgstr "AI歌詞ジェネレーター"
 
-#: pages/paragraph-generator/generate.tsx:68
-#: pages/paragraph-generator/index.tsx:35
+#: pages/paragraph-generator/generate.tsx:56
+#: pages/paragraph-generator/index.tsx:37
 #: utils/free_tools.ts:136
 msgid "AI Paragraph Generator"
 msgstr "AIパラグラフ・ジェネレーター"
 
-#: pages/poem-generator/generate.tsx:68
-#: pages/poem-generator/index.tsx:35
+#: pages/poem-generator/generate.tsx:56
+#: pages/poem-generator/index.tsx:37
 #: utils/free_tools.ts:87
 msgid "AI Poem Generator"
 msgstr "AI詩ジェネレーター"
 
-#: pages/rap-generator/generate.tsx:70
-#: pages/rap-generator/index.tsx:35
+#: pages/rap-generator/generate.tsx:57
+#: pages/rap-generator/index.tsx:39
 #: utils/free_tools.ts:101
 msgid "AI Rap Generator"
 msgstr "AIラップ・ジェネレーター"
@@ -106,20 +119,20 @@ msgstr "AIラップ・ジェネレーター"
 msgid "AI Source Finder"
 msgstr "AIソース・ファインダー"
 
-#: pages/story-generator/generate.tsx:68
-#: pages/story-generator/index.tsx:36
+#: pages/story-generator/generate.tsx:56
+#: pages/story-generator/index.tsx:39
 #: utils/free_tools.ts:115
 msgid "AI Story Generator"
 msgstr "AIストーリージェネレーター"
 
-#: pages/text-generator/generate.tsx:68
-#: pages/text-generator/index.tsx:35
+#: pages/text-generator/generate.tsx:56
+#: pages/text-generator/index.tsx:38
 #: utils/free_tools.ts:143
 msgid "AI Text Generator"
 msgstr "AIテキストジェネレーター"
 
-#: pages/thesis-statement/generate.tsx:68
-#: pages/thesis-statement/index.tsx:35
+#: pages/thesis-statement/generate.tsx:56
+#: pages/thesis-statement/index.tsx:38
 #: utils/free_tools.ts:122
 msgid "AI Thesis Statement Generator"
 msgstr "AI論文ジェネレーター"
@@ -139,6 +152,10 @@ msgstr "エラーが発生しました。もう一度お試しください"
 msgid "Analysing Document"
 msgstr "ドキュメントを分析しています"
 
+#: config/config.ts:615
+msgid "Analytical"
+msgstr "分析的"
+
 #: components/Footer.tsx:283
 msgid "Android App"
 msgstr "Androidアプリ"
@@ -150,6 +167,15 @@ msgstr "Androidアプリ"
 #: components/tools/ToolBarExt.tsx:293
 msgid "API"
 msgstr "API"
+
+#: config/config.ts:405
+#: config/config.ts:614
+msgid "Argumentative"
+msgstr "議論的な"
+
+#: config/config.ts:495
+msgid "Artist Style"
+msgstr "芸術家のスタイル"
 
 #: utils/faqData.tsx:31
 msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See <0>here</0> for details]."
@@ -171,6 +197,10 @@ msgstr "著者："
 msgid "Back to tools"
 msgstr "ツールに戻る"
 
+#: config/config.ts:501
+msgid "Bad Bunny"
+msgstr ""
+
 #: components/literature-review/LiteratureMainBar.tsx:487
 msgid "Begin new review"
 msgstr "新しいレビューを始める"
@@ -178,6 +208,14 @@ msgstr "新しいレビューを始める"
 #: components/source-tools/source-result/index.tsx:548
 msgid "Begin new search"
 msgstr "新しい検索を開始"
+
+#: config/config.ts:487
+msgid "Betrayal"
+msgstr "裏切り"
+
+#: config/config.ts:498
+msgid "Beyonce"
+msgstr ""
 
 #: components/Footer.tsx:418
 msgid "BlockTechnology OÜ. All rights reserved. ©{year}"
@@ -187,15 +225,19 @@ msgstr "BlockTechnology OÜ. すべての権利を保有します。 ©{year}"
 msgid "Blog"
 msgstr "ブログ"
 
-#: pages/book-title-generator/generate.tsx:81
+#: pages/book-title-generator/generate.tsx:68
 msgid "Book Title"
 msgstr "書籍のタイトル"
 
-#: pages/book-title-generator/generate.tsx:70
-#: pages/book-title-generator/generate.tsx:72
-#: pages/book-title-generator/index.tsx:36
+#: pages/book-title-generator/generate.tsx:57
+#: pages/book-title-generator/generate.tsx:59
+#: pages/book-title-generator/index.tsx:38
 msgid "Book Title Generator"
 msgstr "書籍名ジェネレーター"
+
+#: config/config.ts:500
+msgid "Burna Boy"
+msgstr ""
 
 #: utils/faqData.tsx:81
 msgid "Can I chat in any language?"
@@ -233,6 +275,12 @@ msgstr "AskYourPDFをどのデバイスでも使用できますか？"
 msgid "Cancel"
 msgstr "キャンセル"
 
+#: config/config.ts:394
+#: config/config.ts:443
+#: config/config.ts:590
+msgid "Casual"
+msgstr "カジュアル"
+
 #: components/Footer.tsx:293
 msgid "Chat"
 msgstr "チャット"
@@ -240,6 +288,14 @@ msgstr "チャット"
 #: utils/faqData.tsx:130
 msgid "Chat sessions remain available as long as the browser tab is open."
 msgstr "ブラウザのタブが開いている限り、チャットセッションは利用可能です。"
+
+#: config/config.ts:383
+msgid "Children"
+msgstr "子供たち"
+
+#: config/config.ts:478
+msgid "Chill"
+msgstr "リラックス"
 
 #: components/Footer.tsx:274
 msgid "Chrome Extension"
@@ -253,9 +309,19 @@ msgstr "引用元："
 msgid "Coming Soon"
 msgstr "近日公開"
 
+#: config/config.ts:320
+#: config/config.ts:324
+#: config/config.ts:328
+msgid "Communicating with documents has never felt this easy using AskYourPDF"
+msgstr ""
+
 #: components/Footer.tsx:334
 msgid "Company"
 msgstr "会社"
+
+#: config/config.ts:357
+msgid "Complex Vocabulary"
+msgstr "複雑な語彙"
 
 #: components/source-tools/source-content/index.tsx:259
 msgid "Configure search"
@@ -294,6 +360,10 @@ msgstr "우리의 AI 시 생성기를 사용하여 손쉽게 맞춤형이고 매
 msgid "Date Range"
 msgstr "日付範囲"
 
+#: config/config.ts:535
+msgid "Death"
+msgstr "死亡"
+
 #: components/literature-review/LiteratureUpload.tsx:334
 #: components/tools/DocUploadNoFunc.tsx:260
 msgid "Delete"
@@ -308,6 +378,10 @@ msgstr "ドキュメントを削除"
 #: components/source-tools/source-content/index.tsx:229
 msgid "Description"
 msgstr "説明"
+
+#: config/config.ts:406
+msgid "Descriptive"
+msgstr "記述的"
 
 #: components/Footer.tsx:321
 msgid "Developer Docs"
@@ -339,6 +413,10 @@ msgstr "終わり"
 msgid "Download"
 msgstr "ダウンロード"
 
+#: config/config.ts:581
+msgid "Educational"
+msgstr "教育的"
+
 #: components/tools/SplitPage.tsx:805
 msgid "Efficiently split, separate, and manage your PDF files using our superior free online PDF splitter."
 msgstr "PDFファイルを効率的に分割、分離、管理できます。"
@@ -351,6 +429,18 @@ msgstr "弊社のAIエッセイメーカーを使用して、簡単に構造化�
 msgid "Effortlessly shrink PDFs for quicker sharing and storage, while preserving quality, all with the precision of AI."
 msgstr "PDFを簡単に縮小して共有と保存を迅速に行い、品質を保持する。すべてがAIの精度で実現します。"
 
+#: config/config.ts:422
+msgid "Eight"
+msgstr "八"
+
+#: config/config.ts:466
+msgid "Electronic"
+msgstr "エレクトロニック"
+
+#: config/config.ts:477
+msgid "Energetic"
+msgstr "エネルギッシュ"
+
 #: pages/source-tool/index.tsx:248
 msgid "Enhance your research with our Source-Tool, which automatically cites and creates references for your academic text."
 msgstr "学術的なテキストを自動的に引用し、参考文献を作成するSource-Toolを使用して、研究を強化しましょう。"
@@ -361,18 +451,18 @@ msgstr "学術的なテキストを自動的に引用し、参考文献を作成
 msgid "Error"
 msgstr "エラー"
 
-#: pages/essay-maker/generate.tsx:82
+#: pages/essay-maker/generate.tsx:69
 msgid "Essay"
-msgstr ""
+msgstr "エッセイ"
 
-#: pages/essay-maker/generate.tsx:71
-#: pages/essay-maker/generate.tsx:73
+#: pages/essay-maker/generate.tsx:58
+#: pages/essay-maker/generate.tsx:60
 msgid "Essay Maker"
-msgstr ""
+msgstr "エッセイメーカー"
 
-#: pages/essay-maker/index.tsx:37
+#: pages/essay-maker/index.tsx:39
 msgid "Essay Writer"
-msgstr ""
+msgstr "エッセイライター"
 
 #: components/tools/MainPage.tsx:16
 msgid "Explore our Free Tools"
@@ -385,6 +475,11 @@ msgstr "すべてエクスポート"
 #: components/source-tools/source-result/index.tsx:521
 msgid "Export As"
 msgstr "エクスポート形式"
+
+#: config/config.ts:408
+#: config/config.ts:616
+msgid "Expository"
+msgstr "説明的"
 
 #: components/Navbar.tsx:310
 #: components/Navbar.tsx:367
@@ -411,9 +506,17 @@ msgstr "テキストのレビューに失敗しました。もう一度お試し
 msgid "Failed to upload file"
 msgstr "ファイルのアップロードに失敗しました"
 
+#: config/config.ts:372
+msgid "Fantasy"
+msgstr "ファンタジー"
+
 #: components/Footer.tsx:349
 msgid "FAQs"
 msgstr "よくある質問"
+
+#: config/config.ts:347
+msgid "Fast"
+msgstr "高速"
 
 #: components/tools/DocUploadNoFunc.tsx:418
 msgid "Fetch document"
@@ -422,6 +525,14 @@ msgstr "ドキュメントを取得中"
 #: components/tools/DocUploadNoFunc.tsx:415
 msgid "Fetching document"
 msgstr "ドキュメントを取得中"
+
+#: config/config.ts:367
+msgid "Fiction"
+msgstr "フィクション"
+
+#: config/config.ts:582
+msgid "Fictional"
+msgstr "架空の"
 
 #: components/literature-review/LiteratureSideBar.tsx:369
 msgid "Field of Study"
@@ -457,43 +568,43 @@ msgstr "ファイルのアップロードに失敗しました"
 #~ msgid "Fill"
 #~ msgstr ""
 
-#: pages/book-title-generator/generate.tsx:71
+#: pages/book-title-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your book title"
 msgstr "以下のフィールドに入力して、あなたの本のタイトルを生成してください。"
 
-#: pages/essay-maker/generate.tsx:72
+#: pages/essay-maker/generate.tsx:59
 msgid "Fill in the field (s) below to generate your Essay"
 msgstr "以下のフィールドに入力して、あなたのエッセイを生成してください。"
 
-#: pages/instagram-caption/generate.tsx:70
+#: pages/instagram-caption/generate.tsx:58
 msgid "Fill in the field (s) below to generate your instagram caption"
 msgstr "以下のフィールドに入力して、あなたのInstagramキャプションを生成してください。"
 
-#: pages/lyrics-generator/generate.tsx:71
+#: pages/lyrics-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your Lyrics"
 msgstr " 以下のフィールドに入力して、あなたの歌詞を生成してください。"
 
-#: pages/paragraph-generator/generate.tsx:70
+#: pages/paragraph-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your paragraph"
 msgstr "以下のフィールドに入力して、あなたの段落を生成してください。"
 
-#: pages/poem-generator/generate.tsx:70
+#: pages/poem-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your poem"
 msgstr "以下のフィールドに入力して、あなたの詩を生成してください。"
 
-#: pages/rap-generator/generate.tsx:72
+#: pages/rap-generator/generate.tsx:59
 msgid "Fill in the field (s) below to generate your Rap"
 msgstr "以下のフィールドに入力して、あなたの物語を生成してください。"
 
-#: pages/story-generator/generate.tsx:70
+#: pages/story-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your story"
 msgstr "以下のフィールドに入力して、あなたのラップを生成してください。"
 
-#: pages/text-generator/generate.tsx:70
+#: pages/text-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your text"
 msgstr "以下のフィールドに入力して、あなたのテキストを生成してください。"
 
-#: pages/thesis-statement/generate.tsx:70
+#: pages/thesis-statement/generate.tsx:58
 msgid "Fill in the field (s) below to generate your thesis"
 msgstr "以下のフィールドに入力して、あなたの論文を生成してください。"
 
@@ -501,9 +612,25 @@ msgstr "以下のフィールドに入力して、あなたの論文を生成し
 msgid "Find sources"
 msgstr "ソースを検索"
 
+#: config/config.ts:419
+msgid "Five"
+msgstr "五"
+
+#: config/config.ts:433
+msgid "Food"
+msgstr "食べ物"
+
+#: config/config.ts:418
+msgid "Four"
+msgstr "四"
+
 #: utils/faqData.tsx:65
 msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
 msgstr "無料ユーザーは1日1つの文書をアップロードできます。PremiumとProのユーザーは、それぞれ1日50と150の文書をアップロードできます。アップロード数を増やす場合は、エンタープライズプランについてお問い合わせください。"
+
+#: config/config.ts:517
+msgid "Free Verse"
+msgstr "自由詩"
 
 #: components/FreeLanding/ToolsFaq.tsx:85
 msgid "Frequently Asked Questions"
@@ -517,76 +644,92 @@ msgstr "あなたの文書から"
 msgid "Fuel your literary imagination with our AI Book Title Generator. Discover captivating titles for your next literary masterpiece effortlessly."
 msgstr " 弊社のAIブックタイトルジェネレーターで文学的な想像力を刺激しましょう。次の文学的な傑作のために魅力的なタイトルを簡単に発見します。"
 
-#: pages/book-title-generator/index.tsx:40
+#: config/config.ts:560
+msgid "Full length"
+msgstr "フルレングス"
+
+#: config/config.ts:441
+msgid "Funny"
+msgstr "面白い"
+
+#: config/config.ts:340
+msgid "Gangstar"
+msgstr "ギャングスター"
+
+#: config/config.ts:579
+msgid "General Content"
+msgstr "一般的なコンテンツ"
+
+#: pages/book-title-generator/index.tsx:42
 msgid "Generate Book"
 msgstr "本を生成する"
 
-#: pages/book-title-generator/generate.tsx:84
+#: pages/book-title-generator/generate.tsx:71
 msgid "Generate Book Title"
 msgstr "書籍タイトルを生成する"
 
-#: pages/essay-maker/generate.tsx:85
-#: pages/essay-maker/index.tsx:41
+#: pages/essay-maker/generate.tsx:72
+#: pages/essay-maker/index.tsx:43
 msgid "Generate Essay"
 msgstr "エッセイを生成する"
 
-#: pages/instagram-caption/index.tsx:40
+#: pages/instagram-caption/index.tsx:42
 msgid "Generate Instagram caption"
 msgstr "nstagramキャプションを生成する"
 
+#: pages/instagram-caption/generate.tsx:59
 #: pages/instagram-caption/generate.tsx:71
-#: pages/instagram-caption/generate.tsx:83
 msgid "Generate Instagram Caption"
-msgstr "nstagramキャプションを生成する"
+msgstr "Instagramキャプションを生成する"
 
-#: pages/lyrics-generator/generate.tsx:72
-#: pages/lyrics-generator/generate.tsx:84
-#: pages/lyrics-generator/index.tsx:40
+#: pages/lyrics-generator/generate.tsx:59
+#: pages/lyrics-generator/generate.tsx:71
+#: pages/lyrics-generator/index.tsx:42
 msgid "Generate Lyrics"
 msgstr "歌詞を生成する"
 
+#: pages/paragraph-generator/generate.tsx:59
 #: pages/paragraph-generator/generate.tsx:71
-#: pages/paragraph-generator/generate.tsx:83
-#: pages/paragraph-generator/index.tsx:40
+#: pages/paragraph-generator/index.tsx:42
 msgid "Generate Paragraph"
 msgstr "段落を生成する"
 
+#: pages/poem-generator/generate.tsx:59
 #: pages/poem-generator/generate.tsx:71
-#: pages/poem-generator/generate.tsx:83
-#: pages/poem-generator/index.tsx:40
+#: pages/poem-generator/index.tsx:42
 msgid "Generate Poem"
 msgstr " 詩を生成する"
 
-#: pages/rap-generator/generate.tsx:73
-#: pages/rap-generator/generate.tsx:85
-#: pages/rap-generator/index.tsx:40
+#: pages/rap-generator/generate.tsx:60
+#: pages/rap-generator/generate.tsx:72
+#: pages/rap-generator/index.tsx:44
 msgid "Generate Rap"
 msgstr "ラップを生成する"
 
+#: pages/story-generator/generate.tsx:59
 #: pages/story-generator/generate.tsx:71
-#: pages/story-generator/generate.tsx:83
 msgid "Generate story"
 msgstr "物語を生成する "
 
-#: pages/story-generator/index.tsx:41
+#: pages/story-generator/index.tsx:44
 msgid "Generate Story"
 msgstr "物語を生成する "
 
-#: pages/text-generator/generate.tsx:71
+#: pages/text-generator/generate.tsx:59
 msgid "Generate text"
 msgstr "テキストを生成する"
 
-#: pages/text-generator/generate.tsx:83
-#: pages/text-generator/index.tsx:40
+#: pages/text-generator/generate.tsx:71
+#: pages/text-generator/index.tsx:43
 msgid "Generate Text"
 msgstr "テキストを生成する"
 
-#: pages/thesis-statement/generate.tsx:83
-#: pages/thesis-statement/index.tsx:40
+#: pages/thesis-statement/generate.tsx:71
+#: pages/thesis-statement/index.tsx:43
 msgid "Generate Thesis"
 msgstr " 論文を生成する"
 
-#: pages/thesis-statement/generate.tsx:71
+#: pages/thesis-statement/generate.tsx:59
 msgid "Generate thesis statement"
 msgstr " 論文の主張を生成する"
 
@@ -602,15 +745,32 @@ msgstr "はじめる"
 msgid "Getting Started"
 msgstr "はじめに"
 
+#: config/config.ts:515
+msgid "Haiku"
+msgstr ""
+
 #: pages/source-tool/index.tsx:278
 msgid "Hang on! We’re looking for sources"
 msgstr "お待ちください！ソースを探しています"
+
+#: config/config.ts:475
+msgid "Happy"
+msgstr "幸せ"
 
 #: components/Modals/ConversationFeedback.tsx:369
 #: components/Modals/ConversationFeedback.tsx:479
 #: components/tools/ToolsSection.tsx:126
 #~ msgid "Harness the power of our AI-driven Literature Review Assistant. Simplify your research process, produce structured overviews, and craft in-depth literature reviews to elevate your academic work."
 #~ msgstr "AIを活用した文献レビューアシスタント。研究プロセスを簡素化し、構造化された概要を作成し、詳細な文献レビューを作成することで、学術研究を向上させます。"
+
+#: config/config.ts:451
+#: config/config.ts:453
+msgid "Hashtags Preferences"
+msgstr "ハッシュタグの設定"
+
+#: config/config.ts:465
+msgid "Hip Hop"
+msgstr ""
 
 #: components/Navbar.tsx:278
 #: components/Navbar.tsx:335
@@ -637,13 +797,17 @@ msgstr "サブスクリプションを解約した場合、返金は受けられ
 
 #: utils/faqData.tsx:92
 msgid "If the answer is in the uploaded document, there's a high likelihood the AI will provide it. The AI is constantly learning, so if it doesn't have an answer, you can always rephrase or ask a different question."
-msgstr  "答えがアップロードされた文書にある場合、AI がそれを提供する可能性が高いです。AI は常に学習しているので、答えがない場合は、常に言い換えたり、別の質問をすることができます。"
+msgstr "答えがアップロードされた文書にある場合、AI がそれを提供する可能性が高いです。AI は常に学習しているので、答えがない場合は、常に言い換えたり、別の質問をすることができます。"
 
 #: utils/faqData.tsx:135
 msgid "If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help!"
 msgstr "AskYourPDFの使用中に問題が発生したり質問がある場合は、サポートチームにお問い合わせください：support@askyourpdf.com。彼らはお手伝いいたします！"
 
-#: pages/story-generator/generate.tsx:84
+#: config/config.ts:454
+msgid "Include Hashtag"
+msgstr "ハッシュタグを含める"
+
+#: pages/story-generator/generate.tsx:72
 msgid "Input Character Names and a brief description of the main characters"
 msgstr "キャラクターの名前と主要なキャラクターの簡単な説明を入力してください "
 
@@ -688,9 +852,13 @@ msgstr "キャラクターの名前と主要なキャラクターの簡単な説
 #~ msgid "input Key Points to Cover"
 #~ msgstr "インプット・キーポイント"
 
-#: pages/paragraph-generator/index.tsx:38
+#: pages/paragraph-generator/index.tsx:40
 msgid "Input main idea/supporting points"
 msgstr "メインアイディア/サポートポイントを入力"
+
+#: pages/story-generator/index.tsx:42
+msgid "Input names and a brief description of the main characters"
+msgstr ""
 
 #: pages/paragraph-generator/index.tsx:57
 #: pages/story-generator/generate/index.tsx:109
@@ -698,14 +866,14 @@ msgstr "メインアイディア/サポートポイントを入力"
 #~ msgid "Input Names and a brief description of the main characters"
 #~ msgstr "入力 主要人物の名前と簡単な説明"
 
-#: pages/book-title-generator/index.tsx:38
-#: pages/essay-maker/index.tsx:39
-#: pages/instagram-caption/index.tsx:38
-#: pages/lyrics-generator/index.tsx:38
-#: pages/poem-generator/index.tsx:38
-#: pages/rap-generator/index.tsx:38
-#: pages/text-generator/index.tsx:38
-#: pages/thesis-statement/index.tsx:38
+#: pages/book-title-generator/index.tsx:40
+#: pages/essay-maker/index.tsx:41
+#: pages/instagram-caption/index.tsx:40
+#: pages/lyrics-generator/index.tsx:40
+#: pages/poem-generator/index.tsx:40
+#: pages/rap-generator/index.tsx:42
+#: pages/text-generator/index.tsx:41
+#: pages/thesis-statement/index.tsx:41
 msgid "Input some line here to begin"
 msgstr "ここに行を入力して始める"
 
@@ -722,15 +890,19 @@ msgstr "ここに行を入力して始める"
 #~ msgstr "入力 タイトルまたはトピック"
 
 #: pages/story-generator/index.tsx:39
-msgid "InputNames and a brief description of the main characters"
-msgstr " 主要なキャラクターの名前と簡単な説明を入力してください"
+#~ msgid "InputNames and a brief description of the main characters"
+#~ msgstr " 主要なキャラクターの名前と簡単な説明を入力してください"
 
-#: pages/instagram-caption/generate.tsx:80
+#: config/config.ts:442
+msgid "Inspirational"
+msgstr "インスピレーション"
+
+#: pages/instagram-caption/generate.tsx:68
 msgid "Instagram Caption"
 msgstr "インスタグラムキャプション"
 
-#: pages/instagram-caption/generate.tsx:69
-#: pages/instagram-caption/index.tsx:36
+#: pages/instagram-caption/generate.tsx:57
+#: pages/instagram-caption/index.tsx:38
 msgid "Instagram Caption Generator"
 msgstr "インスタグラム・キャプション・ジェネレーター"
 
@@ -774,9 +946,27 @@ msgstr "アップロードできるドキュメントのサイズに制限はあ
 msgid "It's an application that lets you chat with any document you upload"
 msgstr "アップロードしたドキュメントとチャットできるアプリケーションです。"
 
+#: config/config.ts:497
+msgid "JayZ"
+msgstr ""
+
+#: config/config.ts:526
+msgid "Joyful"
+msgstr "Joyeux"
+
+#: config/config.ts:499
+msgid "Kendrick Lamar"
+msgstr ""
+
 #: components/AppSidebar.tsx:179
 msgid "Knowledge Base"
 msgstr "ナレッジベース"
+
+#: config/config.ts:541
+#: config/config.ts:543
+#: config/config.ts:556
+msgid "Length"
+msgstr "長さ"
 
 #: utils/free_tools.ts:46
 msgid "Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
@@ -785,6 +975,10 @@ msgstr "人工知能に作業を任せ、PDFドキュメントを別々のファ
 #: utils/free_tools.ts:74
 msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources of relevant to your needs."
 msgstr "人工知能の力を活用して、あなたのニーズに関連する情報源を発見し、分析し、お勧めします。"
+
+#: config/config.ts:516
+msgid "Limerick"
+msgstr ""
 
 #: components/literature-review/LiteratureMainBar.tsx:435
 msgid "Literature Review copied"
@@ -796,11 +990,25 @@ msgstr "文献レビュー"
 msgid "Literature Review Tool"
 msgstr "文献レビューツール"
 
+#: config/config.ts:569
+msgid "Location"
+msgstr "場所"
+
 #: components/AppSidebar.tsx:336
 msgid "Logout"
 msgstr "ログアウト"
 
-#: pages/lyrics-generator/generate.tsx:81
+#: config/config.ts:547
+#: config/config.ts:603
+msgid "Long"
+msgstr "長い"
+
+#: config/config.ts:486
+#: config/config.ts:534
+msgid "Love"
+msgstr "愛"
+
+#: pages/lyrics-generator/generate.tsx:68
 msgid "Lyrics"
 msgstr "歌詞"
 
@@ -813,18 +1021,49 @@ msgstr "歌詞"
 #~ msgid "Main idea"
 #~ msgstr "主旨"
 
-#: pages/paragraph-generator/generate.tsx:84
+#: pages/paragraph-generator/generate.tsx:72
 msgid "Main idea/supporting points"
-msgstr ""
+msgstr "主なアイデア/サポートポイント"
+
+#: config/config.ts:580
+msgid "Marketing"
+msgstr "マーケティング"
 
 #: components/literature-review/LiteratureMainBar.tsx:396
 #: components/source-tools/source-content/index.tsx:248
 msgid "Maximum of 10000 characters"
 msgstr ""
 
+#: config/config.ts:348
+#: config/config.ts:546
+#: config/config.ts:602
+msgid "Medium"
+msgstr "中"
+
+#: config/config.ts:525
+msgid "Melancholic"
+msgstr ""
+
 #: components/tools/MergePage.tsx:812
 msgid "Merge Another"
 msgstr "別のものをマージ"
+
+#: config/config.ts:369
+msgid "Misery"
+msgstr "悲惨さ"
+
+#: config/config.ts:391
+msgid "Mood/Tone"
+msgstr "ムード/トーン"
+
+#: config/config.ts:374
+#: config/config.ts:407
+msgid "Narrative"
+msgstr "物語"
+
+#: config/config.ts:533
+msgid "Nature"
+msgstr "自然"
 
 #: components/FreeLanding/ToolsFaq.tsx:90
 msgid "Need help? Look through our FAQs for quick answers!"
@@ -850,10 +1089,26 @@ msgstr "いいえ、チャットインターフェースは文書のコンテン
 msgid "No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."
 msgstr "いいえ、アプリを使用するためにはアカウントを作成する必要はありません。ただし、いくつかの制約があります。AskYourPDFの広範な機能を探索するには、アップグレードされたプランが必要です。"
 
+#: config/config.ts:368
+msgid "Non-Fiction"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:540
 msgid "Not satisfied with your results?"
 msgstr "結果に満足していませんか？"
+
+#: config/config.ts:370
+msgid "Novel"
+msgstr ""
+
+#: config/config.ts:559
+msgid "Novella"
+msgstr ""
+
+#: config/config.ts:412
+#: config/config.ts:414
+msgid "Number of Paragraphs"
+msgstr "段落の数"
 
 #: components/tools/OcrPage.tsx:250
 #: components/tools/ToolCommon.tsx:170
@@ -861,6 +1116,14 @@ msgstr "結果に満足していませんか？"
 #: utils/free_tools.ts:66
 msgid "OCR PDF Reader"
 msgstr "OCR PDFリーダー"
+
+#: config/config.ts:338
+msgid "Old School"
+msgstr "オールドスクール"
+
+#: config/config.ts:415
+msgid "One"
+msgstr "一つ"
 
 #: components/Waitlist.tsx:141
 msgid "Our API is Now Live"
@@ -874,14 +1137,18 @@ msgstr "ナレッジ・ベースが稼動"
 msgid "Output"
 msgstr "出力"
 
-#: pages/paragraph-generator/generate.tsx:80
+#: pages/paragraph-generator/generate.tsx:68
 msgid "Paragraph"
 msgstr ""
 
-#: pages/paragraph-generator/generate.tsx:69
-#: pages/paragraph-generator/index.tsx:36
+#: pages/paragraph-generator/generate.tsx:57
+#: pages/paragraph-generator/index.tsx:38
 msgid "Paragraph Generator"
 msgstr "パラグラフ・ジェネレーター"
+
+#: config/config.ts:434
+msgid "Passion"
+msgstr "情熱"
 
 #: components/tools/ToolCommon.tsx:174
 #: components/ToolsFooter.tsx:86
@@ -911,19 +1178,27 @@ msgstr "PDF分割ツール"
 msgid "PDF To Chat"
 msgstr "PDFからチャットへ"
 
+#: config/config.ts:568
+msgid "Period"
+msgstr "期間"
+
 #: components/literature-review/LiteratureSideBar.tsx:373
 #: components/literature-review/LiteratureSideBar.tsx:441
 msgid "Please enter instructions on how to review your text input OR document"
 msgstr "テキスト入力またはドキュメントのレビュー方法についての指示を入力してください"
 
-#: pages/poem-generator/generate.tsx:80
+#: pages/poem-generator/generate.tsx:68
 msgid "poem"
 msgstr ""
 
-#: pages/poem-generator/generate.tsx:69
-#: pages/poem-generator/index.tsx:36
+#: pages/poem-generator/generate.tsx:57
+#: pages/poem-generator/index.tsx:38
 msgid "Poem Generator"
 msgstr "詩ジェネレーター"
+
+#: config/config.ts:463
+msgid "Pop"
+msgstr ""
 
 #: components/Navbar.tsx:297
 #: components/Navbar.tsx:354
@@ -940,6 +1215,11 @@ msgstr "プライバシーポリシー"
 msgid "Products"
 msgstr "製品"
 
+#: config/config.ts:393
+#: config/config.ts:589
+msgid "Professional"
+msgstr "プロフェッショナル"
+
 #: components/AppSidebar.tsx:321
 msgid "Profile"
 msgstr "プロフィール"
@@ -948,8 +1228,16 @@ msgstr "プロフィール"
 msgid "Publication Year:"
 msgstr "出版年："
 
-#: pages/rap-generator/generate.tsx:71
-#: pages/rap-generator/index.tsx:36
+#: config/config.ts:327
+msgid "Purchase Successful"
+msgstr ""
+
+#: config/config.ts:467
+msgid "R&B"
+msgstr ""
+
+#: pages/rap-generator/generate.tsx:58
+#: pages/rap-generator/index.tsx:40
 msgid "Rap Generator"
 msgstr "ラップ・ジェネレーター"
 
@@ -978,6 +1266,19 @@ msgstr "私の仕事を見直す"
 msgid "Review will be displayed here"
 msgstr "ここにレビューが表示されます"
 
+#: config/config.ts:464
+msgid "Rock"
+msgstr ""
+
+#: config/config.ts:479
+#: config/config.ts:524
+msgid "Romantic"
+msgstr "ロマンチック"
+
+#: config/config.ts:476
+msgid "Sad"
+msgstr "悲しい"
+
 #: components/literature-review/MainContent.tsx:350
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr "AI搭載の文献レビューライターで時間と労力を節約。研究を効率化し、構造化された要約を作成し、学術的な仕事を向上させるまとまりのある包括的なレビューを作成します。AIを搭載。"
@@ -985,6 +1286,10 @@ msgstr "AI搭載の文献レビューライターで時間と労力を節約。�
 #: components/Footer.tsx:208
 msgid "Say hello to documents that respond to you! With AskYourPDF, your reading isn't just simple, it's fun!"
 msgstr "あなたに反応するドキュメントをご紹介します! AskYourPDFで、読書は単に簡単なだけでなく、楽しくなります!"
+
+#: config/config.ts:373
+msgid "Sci-Fi"
+msgstr ""
 
 #: components/tools/MainPage.tsx:17
 msgid "Seamlessly cite, reference, edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
@@ -994,13 +1299,100 @@ msgstr "引用、参照、編集、分割、結合、圧縮、PDFからのテキ
 msgid "Select all"
 msgstr "すべて選択"
 
+#: config/config.ts:345
+msgid "Select Best Tempo"
+msgstr "最適なテンポを選択"
+
+#: config/config.ts:354
+msgid "Select Complexity"
+msgstr "複雑さを選択"
+
+#: config/config.ts:365
+#: config/config.ts:461
+msgid "Select Genre"
+msgstr "ジャンルを選択"
+
+#: config/config.ts:597
+#: config/config.ts:599
+msgid "Select Length"
+msgstr "長さを選択"
+
+#: config/config.ts:439
+#: config/config.ts:473
+#: config/config.ts:522
+msgid "Select Mood"
+msgstr "ムードを選択"
+
+#: config/config.ts:577
+msgid "Select Purpose"
+msgstr "目的を選択"
+
+#: config/config.ts:336
+#: config/config.ts:512
+msgid "Select Style"
+msgstr "スタイルを選択"
+
+#: config/config.ts:484
+msgid "Select Theme"
+msgstr "テーマを選択"
+
+#: config/config.ts:531
+msgid "Select Themes"
+msgstr "テーマを選択"
+
+#: config/config.ts:587
+msgid "Select Tone"
+msgstr "トーンを選択"
+
+#: config/config.ts:403
+msgid "Select Type"
+msgstr "タイプを選択"
+
+#: config/config.ts:612
+msgid "Select Type of Paper"
+msgstr "用紙のタイプを選択"
+
+#: config/config.ts:444
+msgid "Serious"
+msgstr "真剣"
+
 #: components/AppSidebar.tsx:310
+#: config/config.ts:565
 msgid "Settings"
 msgstr "設定"
+
+#: config/config.ts:421
+msgid "Seven"
+msgstr "七"
+
+#: config/config.ts:545
+#: config/config.ts:601
+msgid "Short"
+msgstr "短い"
+
+#: config/config.ts:558
+msgid "Short story"
+msgstr "短編小説"
+
+#: config/config.ts:356
+msgid "Simplicity Of Words"
+msgstr "言葉の単純さ"
 
 #: utils/free_tools.ts:123
 msgid "Simplify your academic writing. Let our AI Thesis Statement Generator craft concise, impactful thesis statements for your research effortlessly."
 msgstr "アカデミックな執筆を簡素化しましょう。弊社のAI論文声明ジェネレーターが研究のために簡潔で影響力のある論文声明を簡単に作成します。"
+
+#: config/config.ts:420
+msgid "Six"
+msgstr "六"
+
+#: config/config.ts:349
+msgid "Slow"
+msgstr "遅い"
+
+#: config/config.ts:514
+msgid "Sonnet"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:491
 msgid "Source copied"
@@ -1032,12 +1424,12 @@ msgstr "別のレビューを開始する"
 msgid "Start For Free"
 msgstr "無料で開始"
 
-#: pages/story-generator/generate.tsx:80
+#: pages/story-generator/generate.tsx:68
 msgid "story"
 msgstr ""
 
-#: pages/story-generator/generate.tsx:69
-#: pages/story-generator/index.tsx:37
+#: pages/story-generator/generate.tsx:57
+#: pages/story-generator/index.tsx:40
 msgid "Story Generator"
 msgstr "ストーリージェネレーター"
 
@@ -1053,6 +1445,9 @@ msgstr "あなたの執筆を効率化します。弊社のAI段落ジェネレ�
 msgid "Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."
 msgstr "購読者はいつでも購読をキャンセルできます。ただし、購読期間の未使用部分に対しては払い戻しは行われません。"
 
+#: config/config.ts:488
+msgid "Success"
+msgstr ""
 
 #: components/AppSidebar.tsx:252
 msgid "Summarisation"
@@ -1069,16 +1464,24 @@ msgstr ""
 #~ msgid "Supporting points"
 #~ msgstr "サポートポイント"
 
+#: config/config.ts:591
+msgid "Technical"
+msgstr "テクニカル"
+
+#: config/config.ts:395
+msgid "Technical"
+msgstr "テクニカル"
+
 #: components/Footer.tsx:339
 msgid "Terms & Conditions"
 msgstr "利用規約"
 
-#: pages/text-generator/generate.tsx:80
+#: pages/text-generator/generate.tsx:68
 msgid "text"
 msgstr ""
 
-#: pages/text-generator/generate.tsx:69
-#: pages/text-generator/index.tsx:36
+#: pages/text-generator/generate.tsx:57
+#: pages/text-generator/index.tsx:39
 msgid "Text Generator"
 msgstr "テキストジェネレーター"
 
@@ -1090,26 +1493,39 @@ msgstr "このアプリケーションは人工知能を使用して文書のコ
 msgid "The summarisation service, GPT4 and Claude 2, operate on a credit-based system; while initial credits are provided complimentary as part of your subscription, additional credits may need to be purchased once these are exhausted. All credit purchases are final, non-refundable, and must be used exclusively for the Summarization Service, GPT4, or Claude 2."
 msgstr "要約サービス、GPT4、およびClaude 2は、クレジットベースのシステムで動作します。初期クレジットは無料で提供されますが、これらが使い果たされると追加のクレジットを購入する必要があるかもしれません。すべてのクレジットの購入は最終的であり、払い戻しはできません。要約サービス、GPT4、またはClaude 2専用に使用する必要があります。"
 
-
-#: pages/book-title-generator/generate.tsx:85
-#: pages/instagram-caption/generate.tsx:84
-#: pages/lyrics-generator/generate.tsx:85
-#: pages/text-generator/generate.tsx:84
-#: pages/thesis-statement/generate.tsx:84
+#: pages/book-title-generator/generate.tsx:72
+#: pages/instagram-caption/generate.tsx:72
+#: pages/lyrics-generator/generate.tsx:72
+#: pages/rap-generator/generate.tsx:73
+#: pages/text-generator/generate.tsx:72
+#: pages/thesis-statement/generate.tsx:72
 msgid "Theme / Topic"
 msgstr ": テーマ"
 
-#: pages/thesis-statement/generate.tsx:80
+#: pages/thesis-statement/generate.tsx:68
 msgid "Thesis"
 msgstr ""
 
-#: pages/thesis-statement/generate.tsx:69
-#: pages/thesis-statement/index.tsx:36
+#: pages/thesis-statement/generate.tsx:57
+#: pages/thesis-statement/index.tsx:39
 msgid "Thesis Statement Generator"
 msgstr "テーゼ・ステートメント・ジェネレーター"
 
-#: pages/essay-maker/generate.tsx:86
-#: pages/poem-generator/generate.tsx:84
+#: config/config.ts:417
+msgid "Three"
+msgstr "三"
+
+#: config/config.ts:371
+msgid "Thriller"
+msgstr "スリラー"
+
+#: config/config.ts:536
+#: config/config.ts:567
+msgid "Time"
+msgstr "時間"
+
+#: pages/essay-maker/generate.tsx:73
+#: pages/poem-generator/generate.tsx:72
 msgid "Title or Topic"
 msgstr "タイトルまたはトピック"
 
@@ -1134,10 +1550,22 @@ msgstr " 思いをテキストに変えましょう。弊社のAIテキストジ
 msgid "Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader."
 msgstr "AI を活用した OCR PDF リーダーを使用して、スキャンした PDF または画像ベースの PDF を編集可能で検索可能なテキストに変換します。"
 
+#: config/config.ts:339
+msgid "Trap"
+msgstr "トラップ"
+
+#: config/config.ts:432
+msgid "Travel"
+msgstr "旅行"
+
 #: components/tools/ToolsWaitlist.tsx:150
 #: components/Waitlist.tsx:151
 msgid "Try it Now"
 msgstr "今すぐお試しください"
+
+#: config/config.ts:416
+msgid "Two"
+msgstr "二つ"
 
 #: utils/free_tools.ts:116
 msgid "Unleash limitless creativity with our AI Story Generator. Craft unique tales, explore diverse genres, and bring your narratives to life."
@@ -1172,6 +1600,16 @@ msgstr "新しいドキュメントをアップロードする"
 msgid "Upload text file"
 msgstr "テキストファイルをアップロード"
 
+#: config/config.ts:548
+#: config/config.ts:604
+msgid "Very Long"
+msgstr "非常に長い"
+
+#: config/config.ts:544
+#: config/config.ts:600
+msgid "Very Short"
+msgstr "非常に短い"
+
 #: components/literature-review/MainContent.tsx:227
 #: pages/source-tool/index.tsx:181
 msgid "Warning"
@@ -1201,7 +1639,6 @@ msgstr "AIが答えられない質問がある場合はどうなりますか？"
 msgid "What is AskYourPDF?"
 msgstr "AskYourPDFとは何ですか？"
 
-
 #: components/tools/MergePage.tsx:675
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 msgstr "スマートな自動マージにより、品質とフォーマットを維持しながら、PDFをシームレスに1つのまとまりのあるドキュメントに統合します。"
@@ -1210,9 +1647,13 @@ msgstr "スマートな自動マージにより、品質とフォーマットを
 msgid "With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 msgstr "スマートで自動化されたマージにより、品質とフォーマットを維持しつつ、PDFがシームレスに1つの一貫したドキュメントに統合されます。"
 
+#: config/config.ts:384
+msgid "YA"
+msgstr ""
+
 #: utils/faqData.tsx:108
 msgid "Yes, AskYourPDF is accessible from any device with standard browsers and an internet connection."
-msgstr ""はい、AskYourPDF は標準ブラウザとインターネット接続を備えたすべてのデバイスからアクセスできます。"
+msgstr "\"はい、AskYourPDF は標準ブラウザとインターネット接続を備えたすべてのデバイスからアクセスできます。"
 
 #: utils/faqData.tsx:82
 msgid "Yes, AskYourPDF is multilingual and supports chatting in any language of your choice."
@@ -1238,13 +1679,12 @@ msgstr "はい、アプリケーションは無料で利用できますが、一
 msgid "Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."
 msgstr "はい、ドキュメントのアップロードの最大ファイルサイズは無料ユーザーに対して15MBです。ただし、プレミアムおよびプロユーザーはそれぞれ30MBおよび90MBまでアップロードできます。より大きなファイルサイズについては、ユーザーはエンタープライズプランについてお問い合わせいただく必要があります。"
 
-
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"
 msgstr "ナレッジベースを使って、一度に複数のドキュメントとチャットできるようになりました。"
 
-#: pages/lyrics-generator/generate.tsx:70
-#: pages/lyrics-generator/index.tsx:36
+#: pages/lyrics-generator/generate.tsx:57
+#: pages/lyrics-generator/index.tsx:38
 #: utils/free_tools.ts:81
 msgid "Your creative companion on your musical journey, create lyrics that tell your unique story"
 msgstr ""

@@ -3,7 +3,6 @@ import { Container } from "../../styles/styles";
 import styled from "styled-components";
 import HeroImage from "../../img/Hero.webp";
 import { LandingFlexCol } from "../../styles/landing";
-import { Trans } from "@lingui/macro";
 import Image from "next/image";
 import { useMedia } from "react-use";
 import { Select } from "antd";
@@ -12,7 +11,7 @@ import { alerts } from "@/utils/alerts";
 import { useMutation } from "react-query";
 import { useRouter } from "next/router";
 import Spinner from "../Spinner";
-
+import { useLingui } from "@lingui/react";
 
 
 const HeroContainer = styled.section<{ $backgroundImage?: string }>`
@@ -343,6 +342,7 @@ export default function Hero(
     // Trigger the mutation
   };
 
+  const { i18n } = useLingui()
   return (
       <HeroContainer ref={ref}>
           <div className="heroImage">
@@ -389,11 +389,14 @@ export default function Hero(
                             {/* <ParameterTitle>{item.place_holder}</ParameterTitle> */}
                             <Select
                               key={key}
-                              placeholder={item.place_holder}
+                              placeholder={i18n._(item.place_holder)}
                               value={generateParameters[item.type]}
                               size="large"
                               onChange={(generateParameter) => handleParameterChange(item.type, generateParameter)}
-                              options={item.options}
+                              options={item.options.map((option: any) => ({
+                                ...option,
+                                label: i18n._(option.label),
+                              }))}
                               className='select'
                             />
                           </Fragment>

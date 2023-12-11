@@ -22,8 +22,8 @@ msgid "{0} file upload failed"
 msgstr "فشل تحميل ملف {0}"
 
 #: components/FreeLanding/Hero.tsx:367
-msgid "{title}"
-msgstr ""
+#~ msgid "{title}"
+#~ msgstr ""
 
 #: components/tools/DocUploadNoFunc.tsx:385
 msgid "<0>Click to upload</0> or drag and drop"
@@ -32,6 +32,15 @@ msgstr "<0>اضغط للتحميل</0> أو اسحب وأفلت"
 #: utils/faqData.tsx:97
 msgid "Absolutely. Data privacy is our top priority. The application employs industry-standard SSL encryption to ensure the protection of your information."
 msgstr "بالتأكيد. الخصوصية الخاصة بالبيانات هي أولويتنا الرئيسية. يستخدم التطبيق تشفير SSL القياسي في الصناعة لضمان حماية معلوماتك."
+
+#: config/config.ts:319
+#: config/config.ts:323
+msgid "Account Upgraded"
+msgstr ""
+
+#: config/config.ts:385
+msgid "Adults"
+msgstr "البالغين"
 
 #: components/literature-review/LiteratureSideBar.tsx:434
 msgid "Advanced Parameters"
@@ -45,23 +54,27 @@ msgstr "إعدادات متقدمة"
 msgid "Affiliate Program"
 msgstr "برنامج الشراكة التابعة"
 
-#: pages/book-title-generator/generate.tsx:69
-#: pages/book-title-generator/index.tsx:35
+#: config/config.ts:468
+msgid "Afro Beat"
+msgstr "أفرو بيت"
+
+#: pages/book-title-generator/generate.tsx:56
+#: pages/book-title-generator/index.tsx:37
 #: utils/free_tools.ts:108
 msgid "AI Book Title Generator"
 msgstr "مولد عناوين الكتب بالذكاء الاصطناعي"
 
-#: pages/essay-maker/generate.tsx:70
+#: pages/essay-maker/generate.tsx:57
 #: utils/free_tools.ts:129
 msgid "AI Essay Maker"
 msgstr "صانع المقالات بالذكاء الاصطناعي"
 
-#: pages/essay-maker/index.tsx:36
+#: pages/essay-maker/index.tsx:38
 msgid "AI Essay Writer"
 msgstr "كاتب مقال ذكاء صناعي"
 
-#: pages/instagram-caption/generate.tsx:68
-#: pages/instagram-caption/index.tsx:35
+#: pages/instagram-caption/generate.tsx:56
+#: pages/instagram-caption/index.tsx:37
 #: utils/free_tools.ts:94
 msgid "AI Instagram Caption Generator"
 msgstr "مولد عناوين انستغرام بالذكاء الاصطناعي"
@@ -78,26 +91,26 @@ msgstr "كاتب المراجعة الأدبية بالذكاء الاصطناع
 msgid "AI Literature Review Writer Tool"
 msgstr "أداة كتابة مراجعة الأدب بالذكاء الاصطناعي"
 
-#: pages/lyrics-generator/generate.tsx:69
-#: pages/lyrics-generator/index.tsx:35
+#: pages/lyrics-generator/generate.tsx:56
+#: pages/lyrics-generator/index.tsx:37
 #: utils/free_tools.ts:80
 msgid "AI Lyrics Generator"
 msgstr "مولد كلمات الأغاني بالذكاء الاصطناعي"
 
-#: pages/paragraph-generator/generate.tsx:68
-#: pages/paragraph-generator/index.tsx:35
+#: pages/paragraph-generator/generate.tsx:56
+#: pages/paragraph-generator/index.tsx:37
 #: utils/free_tools.ts:136
 msgid "AI Paragraph Generator"
 msgstr "مولّد فقرات الذكاء الاصطناعي."
 
-#: pages/poem-generator/generate.tsx:68
-#: pages/poem-generator/index.tsx:35
+#: pages/poem-generator/generate.tsx:56
+#: pages/poem-generator/index.tsx:37
 #: utils/free_tools.ts:87
 msgid "AI Poem Generator"
 msgstr "مولد الشعر بالذكاء الاصطناعي"
 
-#: pages/rap-generator/generate.tsx:70
-#: pages/rap-generator/index.tsx:35
+#: pages/rap-generator/generate.tsx:57
+#: pages/rap-generator/index.tsx:39
 #: utils/free_tools.ts:101
 msgid "AI Rap Generator"
 msgstr "مولد موسيقى الراب بالذكاء الاصطناعي"
@@ -106,20 +119,20 @@ msgstr "مولد موسيقى الراب بالذكاء الاصطناعي"
 msgid "AI Source Finder"
 msgstr "مصدر الذكاء الاصطناعي"
 
-#: pages/story-generator/generate.tsx:68
-#: pages/story-generator/index.tsx:36
+#: pages/story-generator/generate.tsx:56
+#: pages/story-generator/index.tsx:39
 #: utils/free_tools.ts:115
 msgid "AI Story Generator"
 msgstr "مولد قصص الذكاء الاصطناعي"
 
-#: pages/text-generator/generate.tsx:68
-#: pages/text-generator/index.tsx:35
+#: pages/text-generator/generate.tsx:56
+#: pages/text-generator/index.tsx:38
 #: utils/free_tools.ts:143
 msgid "AI Text Generator"
 msgstr "مولد نص الذكاء الاصطناعي"
 
-#: pages/thesis-statement/generate.tsx:68
-#: pages/thesis-statement/index.tsx:35
+#: pages/thesis-statement/generate.tsx:56
+#: pages/thesis-statement/index.tsx:38
 #: utils/free_tools.ts:122
 msgid "AI Thesis Statement Generator"
 msgstr "مولد بيان أطروحة الذكاء الاصطناعي"
@@ -139,6 +152,10 @@ msgstr "حدث خطأ. يرجى إعادة المحاولة"
 msgid "Analysing Document"
 msgstr "تحليل المستند"
 
+#: config/config.ts:615
+msgid "Analytical"
+msgstr "تحليلي"
+
 #: components/Footer.tsx:283
 msgid "Android App"
 msgstr "تطبيق أندرويد"
@@ -150,6 +167,15 @@ msgstr "تطبيق أندرويد"
 #: components/tools/ToolBarExt.tsx:293
 msgid "API"
 msgstr "API"
+
+#: config/config.ts:405
+#: config/config.ts:614
+msgid "Argumentative"
+msgstr "جدلي"
+
+#: config/config.ts:495
+msgid "Artist Style"
+msgstr "أسلوب الفنان"
 
 #: utils/faqData.tsx:31
 msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See <0>here</0> for details]."
@@ -171,6 +197,10 @@ msgstr "المؤلفون:"
 msgid "Back to tools"
 msgstr "العودة إلى الأدوات"
 
+#: config/config.ts:501
+msgid "Bad Bunny"
+msgstr ""
+
 #: components/literature-review/LiteratureMainBar.tsx:487
 msgid "Begin new review"
 msgstr ""
@@ -178,6 +208,14 @@ msgstr ""
 #: components/source-tools/source-result/index.tsx:548
 msgid "Begin new search"
 msgstr "ابدأ ببحث جديد"
+
+#: config/config.ts:487
+msgid "Betrayal"
+msgstr "خيانة"
+
+#: config/config.ts:498
+msgid "Beyonce"
+msgstr ""
 
 #: components/Footer.tsx:418
 msgid "BlockTechnology OÜ. All rights reserved. ©{year}"
@@ -187,15 +225,19 @@ msgstr "شركة بلوك تكنولوجي أويه. جميع الحقوق مح�
 msgid "Blog"
 msgstr "مدونة"
 
-#: pages/book-title-generator/generate.tsx:81
+#: pages/book-title-generator/generate.tsx:68
 msgid "Book Title"
 msgstr "عنوان الكتاب"
 
-#: pages/book-title-generator/generate.tsx:70
-#: pages/book-title-generator/generate.tsx:72
-#: pages/book-title-generator/index.tsx:36
+#: pages/book-title-generator/generate.tsx:57
+#: pages/book-title-generator/generate.tsx:59
+#: pages/book-title-generator/index.tsx:38
 msgid "Book Title Generator"
 msgstr "مُولِّد عناوين الكتب"
+
+#: config/config.ts:500
+msgid "Burna Boy"
+msgstr ""
 
 #: utils/faqData.tsx:81
 msgid "Can I chat in any language?"
@@ -233,6 +275,12 @@ msgstr "هل يمكنني استخدام AskYourPDF على أي جهاز؟"
 msgid "Cancel"
 msgstr "إلغاء"
 
+#: config/config.ts:394
+#: config/config.ts:443
+#: config/config.ts:590
+msgid "Casual"
+msgstr "عارضة"
+
 #: components/Footer.tsx:293
 msgid "Chat"
 msgstr "دردشة"
@@ -240,6 +288,14 @@ msgstr "دردشة"
 #: utils/faqData.tsx:130
 msgid "Chat sessions remain available as long as the browser tab is open."
 msgstr "تظل جلسات الدردشة متاحة طالما أن علامة تبويب المتصفح مفتوحة."
+
+#: config/config.ts:383
+msgid "Children"
+msgstr "أطفال"
+
+#: config/config.ts:478
+msgid "Chill"
+msgstr "هادئ"
 
 #: components/Footer.tsx:274
 msgid "Chrome Extension"
@@ -253,9 +309,19 @@ msgstr "مُستَنَد إلى:"
 msgid "Coming Soon"
 msgstr "قادم قريبًا"
 
+#: config/config.ts:320
+#: config/config.ts:324
+#: config/config.ts:328
+msgid "Communicating with documents has never felt this easy using AskYourPDF"
+msgstr ""
+
 #: components/Footer.tsx:334
 msgid "Company"
 msgstr "شركة"
+
+#: config/config.ts:357
+msgid "Complex Vocabulary"
+msgstr "مفردات معقدة"
 
 #: components/source-tools/source-content/index.tsx:259
 msgid "Configure search"
@@ -294,6 +360,10 @@ msgstr " صاغ قصائد شخصية وساحرة بكل سهولة مع مول
 msgid "Date Range"
 msgstr "نطاق التاريخ"
 
+#: config/config.ts:535
+msgid "Death"
+msgstr "الموت"
+
 #: components/literature-review/LiteratureUpload.tsx:334
 #: components/tools/DocUploadNoFunc.tsx:260
 msgid "Delete"
@@ -308,6 +378,10 @@ msgstr "حذف المستند"
 #: components/source-tools/source-content/index.tsx:229
 msgid "Description"
 msgstr "الوصف"
+
+#: config/config.ts:406
+msgid "Descriptive"
+msgstr "وصفي"
 
 #: components/Footer.tsx:321
 msgid "Developer Docs"
@@ -339,6 +413,10 @@ msgstr "منتهي"
 msgid "Download"
 msgstr "تحميل"
 
+#: config/config.ts:581
+msgid "Educational"
+msgstr "تعليمي"
+
 #: components/tools/SplitPage.tsx:805
 msgid "Efficiently split, separate, and manage your PDF files using our superior free online PDF splitter."
 msgstr "تقسيم وفصل وإدارة ملفات PDF الخاصة بك بكفاءة باستخدام أداة تقسيم PDF المجانية عبر الإنترنت الفائقة لدينا"
@@ -351,6 +429,18 @@ msgstr "قم بإنشاء مقالات منظمة بسهولة مع مولد م�
 msgid "Effortlessly shrink PDFs for quicker sharing and storage, while preserving quality, all with the precision of AI."
 msgstr "اختصر ملفات PDF بسهولة لمشاركتها وتخزينها بشكل أسرع، مع الحفاظ على الجودة، كل ذلك بدقة الذكاء الاصطناعي."
 
+#: config/config.ts:422
+msgid "Eight"
+msgstr "ثمانية"
+
+#: config/config.ts:466
+msgid "Electronic"
+msgstr "إلكتروني"
+
+#: config/config.ts:477
+msgid "Energetic"
+msgstr "نشيط"
+
 #: pages/source-tool/index.tsx:248
 msgid "Enhance your research with our Source-Tool, which automatically cites and creates references for your academic text."
 msgstr "عزز بحثك باستخدام Source-Tool الخاص بنا، والذي يقوم تلقائيًا بذكر المصادر وإنشاء مراجع لنصك الأكاديمي."
@@ -361,18 +451,18 @@ msgstr "عزز بحثك باستخدام Source-Tool الخاص بنا، وال�
 msgid "Error"
 msgstr "خطأ"
 
-#: pages/essay-maker/generate.tsx:82
+#: pages/essay-maker/generate.tsx:69
 msgid "Essay"
-msgstr ""
+msgstr "مقال"
 
-#: pages/essay-maker/generate.tsx:71
-#: pages/essay-maker/generate.tsx:73
+#: pages/essay-maker/generate.tsx:58
+#: pages/essay-maker/generate.tsx:60
 msgid "Essay Maker"
-msgstr ""
+msgstr "مولِّد المقالات"
 
-#: pages/essay-maker/index.tsx:37
+#: pages/essay-maker/index.tsx:39
 msgid "Essay Writer"
-msgstr ""
+msgstr "كاتب المقالات"
 
 #: components/tools/MainPage.tsx:16
 msgid "Explore our Free Tools"
@@ -385,6 +475,11 @@ msgstr "تصدير الكل"
 #: components/source-tools/source-result/index.tsx:521
 msgid "Export As"
 msgstr "تصدير كـ"
+
+#: config/config.ts:408
+#: config/config.ts:616
+msgid "Expository"
+msgstr "توضيحي"
 
 #: components/Navbar.tsx:310
 #: components/Navbar.tsx:367
@@ -411,9 +506,17 @@ msgstr "لم يتمكن من مراجعة النص. الرجاء المحاول�
 msgid "Failed to upload file"
 msgstr "فشل في تحميل الملف"
 
+#: config/config.ts:372
+msgid "Fantasy"
+msgstr "خيال"
+
 #: components/Footer.tsx:349
 msgid "FAQs"
 msgstr "الأسئلة الشائعة"
+
+#: config/config.ts:347
+msgid "Fast"
+msgstr "سريع"
 
 #: components/tools/DocUploadNoFunc.tsx:418
 msgid "Fetch document"
@@ -422,6 +525,14 @@ msgstr "جلب المستند"
 #: components/tools/DocUploadNoFunc.tsx:415
 msgid "Fetching document"
 msgstr "جارٍ جلب المستند"
+
+#: config/config.ts:367
+msgid "Fiction"
+msgstr "خيال"
+
+#: config/config.ts:582
+msgid "Fictional"
+msgstr "خيالي"
 
 #: components/literature-review/LiteratureSideBar.tsx:369
 msgid "Field of Study"
@@ -457,43 +568,43 @@ msgstr "فشل تحميل الملف"
 #~ msgid "Fill"
 #~ msgstr "يَملأ"
 
-#: pages/book-title-generator/generate.tsx:71
+#: pages/book-title-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your book title"
 msgstr "قم بملء الحقل (أو الحقول) أدناه لإنشاء عنوان كتابك"
 
-#: pages/essay-maker/generate.tsx:72
+#: pages/essay-maker/generate.tsx:59
 msgid "Fill in the field (s) below to generate your Essay"
 msgstr "قم بملء الحقل (أو الحقول) أدناه لإنشاء مقالتك"
 
-#: pages/instagram-caption/generate.tsx:70
+#: pages/instagram-caption/generate.tsx:58
 msgid "Fill in the field (s) below to generate your instagram caption"
 msgstr "قم بملء الحقل (أو الحقول) أدناه لإنشاء تسمية توضيحية لإنستغرامك"
 
-#: pages/lyrics-generator/generate.tsx:71
+#: pages/lyrics-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your Lyrics"
 msgstr "قم بملء الحقل (أو الحقول) أدناه لإنشاء كلمات الأغنية الخاصة بك"
 
-#: pages/paragraph-generator/generate.tsx:70
+#: pages/paragraph-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your paragraph"
 msgstr "قم بملء الحقل (أو الحقول) أدناه لإنشاء فقرتك"
 
-#: pages/poem-generator/generate.tsx:70
+#: pages/poem-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your poem"
 msgstr "قم بملء الحقل (أو الحقول) أدناه لإنشاء قصيدتك"
 
-#: pages/rap-generator/generate.tsx:72
+#: pages/rap-generator/generate.tsx:59
 msgid "Fill in the field (s) below to generate your Rap"
 msgstr "قم بملء الحقل (أو الحقول) أدناه لإنشاء رابك"
 
-#: pages/story-generator/generate.tsx:70
+#: pages/story-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your story"
 msgstr "قم بملء الحقل (أو الحقول) أدناه لإنشاء قصتك"
 
-#: pages/text-generator/generate.tsx:70
+#: pages/text-generator/generate.tsx:58
 msgid "Fill in the field (s) below to generate your text"
 msgstr "قم بملء الحقل (أو الحقول) أدناه لإنشاء نصك"
 
-#: pages/thesis-statement/generate.tsx:70
+#: pages/thesis-statement/generate.tsx:58
 msgid "Fill in the field (s) below to generate your thesis"
 msgstr "قم بملء الحقل (أو الحقول) أدناه لإنشاء أطروحتك"
 
@@ -501,9 +612,25 @@ msgstr "قم بملء الحقل (أو الحقول) أدناه لإنشاء أ�
 msgid "Find sources"
 msgstr "العثور على المصادر"
 
+#: config/config.ts:419
+msgid "Five"
+msgstr "خمسة"
+
+#: config/config.ts:433
+msgid "Food"
+msgstr "طعام"
+
+#: config/config.ts:418
+msgid "Four"
+msgstr "أربعة"
+
 #: utils/faqData.tsx:65
 msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
 msgstr "يمكن للمستخدمين المجانيين تحميل مستند واحد يوميًا. يمكن للمستخدمين المميزين والمحترفين تحميل 50 و 150 مستندًا يوميًا على التوالي. لعدد أكبر من عمليات التحميل، يحتاج المستخدمون إلى الاتصال بنا للحصول على خطة المؤسسة."
+
+#: config/config.ts:517
+msgid "Free Verse"
+msgstr "شعر حر"
 
 #: components/FreeLanding/ToolsFaq.tsx:85
 msgid "Frequently Asked Questions"
@@ -517,76 +644,92 @@ msgstr "من مستنداتك"
 msgid "Fuel your literary imagination with our AI Book Title Generator. Discover captivating titles for your next literary masterpiece effortlessly."
 msgstr "زود خيالك الأدبي مع مولد عناوين الكتب الذكي لدينا. اكتشف عناوين مثيرة لاستخدامها في رائعتك الأدبية القادمة بسهولة."
 
-#: pages/book-title-generator/index.tsx:40
+#: config/config.ts:560
+msgid "Full length"
+msgstr "طول كامل"
+
+#: config/config.ts:441
+msgid "Funny"
+msgstr "مضحك"
+
+#: config/config.ts:340
+msgid "Gangstar"
+msgstr "عصابات"
+
+#: config/config.ts:579
+msgid "General Content"
+msgstr "محتوى عام"
+
+#: pages/book-title-generator/index.tsx:42
 msgid "Generate Book"
 msgstr "إنشاء كتاب"
 
-#: pages/book-title-generator/generate.tsx:84
+#: pages/book-title-generator/generate.tsx:71
 msgid "Generate Book Title"
 msgstr "إنشاء عنوان الكتاب"
 
-#: pages/essay-maker/generate.tsx:85
-#: pages/essay-maker/index.tsx:41
+#: pages/essay-maker/generate.tsx:72
+#: pages/essay-maker/index.tsx:43
 msgid "Generate Essay"
-msgstr ""
+msgstr "إنشاء مقال"
 
-#: pages/instagram-caption/index.tsx:40
+#: pages/instagram-caption/index.tsx:42
 msgid "Generate Instagram caption"
 msgstr "إنشاء تسمية توضيحية لإنستغرامك"
 
+#: pages/instagram-caption/generate.tsx:59
 #: pages/instagram-caption/generate.tsx:71
-#: pages/instagram-caption/generate.tsx:83
 msgid "Generate Instagram Caption"
 msgstr "إنشاء تسمية توضيحية لإنستغرامك"
 
-#: pages/lyrics-generator/generate.tsx:72
-#: pages/lyrics-generator/generate.tsx:84
-#: pages/lyrics-generator/index.tsx:40
+#: pages/lyrics-generator/generate.tsx:59
+#: pages/lyrics-generator/generate.tsx:71
+#: pages/lyrics-generator/index.tsx:42
 msgid "Generate Lyrics"
 msgstr " إنشاء كلمات الأغنية"
 
+#: pages/paragraph-generator/generate.tsx:59
 #: pages/paragraph-generator/generate.tsx:71
-#: pages/paragraph-generator/generate.tsx:83
-#: pages/paragraph-generator/index.tsx:40
+#: pages/paragraph-generator/index.tsx:42
 msgid "Generate Paragraph"
 msgstr "إنشاء فقرة"
 
+#: pages/poem-generator/generate.tsx:59
 #: pages/poem-generator/generate.tsx:71
-#: pages/poem-generator/generate.tsx:83
-#: pages/poem-generator/index.tsx:40
+#: pages/poem-generator/index.tsx:42
 msgid "Generate Poem"
 msgstr " إنشاء قصيدة"
 
-#: pages/rap-generator/generate.tsx:73
-#: pages/rap-generator/generate.tsx:85
-#: pages/rap-generator/index.tsx:40
+#: pages/rap-generator/generate.tsx:60
+#: pages/rap-generator/generate.tsx:72
+#: pages/rap-generator/index.tsx:44
 msgid "Generate Rap"
 msgstr "إنشاء راب"
 
+#: pages/story-generator/generate.tsx:59
 #: pages/story-generator/generate.tsx:71
-#: pages/story-generator/generate.tsx:83
 msgid "Generate story"
 msgstr "إنشاء قصة"
 
-#: pages/story-generator/index.tsx:41
+#: pages/story-generator/index.tsx:44
 msgid "Generate Story"
 msgstr "إنشاء قصة"
 
-#: pages/text-generator/generate.tsx:71
+#: pages/text-generator/generate.tsx:59
 msgid "Generate text"
 msgstr "إنشاء نص"
 
-#: pages/text-generator/generate.tsx:83
-#: pages/text-generator/index.tsx:40
+#: pages/text-generator/generate.tsx:71
+#: pages/text-generator/index.tsx:43
 msgid "Generate Text"
 msgstr "إنشاء نص"
 
-#: pages/thesis-statement/generate.tsx:83
-#: pages/thesis-statement/index.tsx:40
+#: pages/thesis-statement/generate.tsx:71
+#: pages/thesis-statement/index.tsx:43
 msgid "Generate Thesis"
 msgstr "إنشاء أطروحة"
 
-#: pages/thesis-statement/generate.tsx:71
+#: pages/thesis-statement/generate.tsx:59
 msgid "Generate thesis statement"
 msgstr "إنشاء بيان الأطروحة"
 
@@ -602,15 +745,32 @@ msgstr "ابدأ"
 msgid "Getting Started"
 msgstr "البدء"
 
+#: config/config.ts:515
+msgid "Haiku"
+msgstr ""
+
 #: pages/source-tool/index.tsx:278
 msgid "Hang on! We’re looking for sources"
 msgstr "انتظر! نبحث عن المصادر"
+
+#: config/config.ts:475
+msgid "Happy"
+msgstr "سعيد"
 
 #: components/Modals/ConversationFeedback.tsx:369
 #: components/Modals/ConversationFeedback.tsx:479
 #: components/tools/ToolsSection.tsx:126
 #~ msgid "Harness the power of our AI-driven Literature Review Assistant. Simplify your research process, produce structured overviews, and craft in-depth literature reviews to elevate your academic work."
 #~ msgstr "استفد من قوة مساعد مراجعة الأدب المدعوم بالذكاء الاصطناعي لدينا. قم بتبسيط عملية البحث الخاصة بك، وإنشاء نظرات عامة منظمة، وصياغة مراجعات أدب متعمقة لرفع مستوى عملك الأكاديمي."
+
+#: config/config.ts:451
+#: config/config.ts:453
+msgid "Hashtags Preferences"
+msgstr "تفضيلات الوسوم"
+
+#: config/config.ts:465
+msgid "Hip Hop"
+msgstr ""
 
 #: components/Navbar.tsx:278
 #: components/Navbar.tsx:335
@@ -641,9 +801,13 @@ msgstr "إذا كانت الإجابة موجودة في المستند الذي
 
 #: utils/faqData.tsx:135
 msgid "If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help!"
-msgstr  "إذا واجهت أي مشاكل أو كانت لديك أسئلة أثناء استخدام AskYourPDF، يرجى الاتصال بفريق الدعم لدينا: support@askyourpdf.com. هم هنا للمساعدة!"
+msgstr "إذا واجهت أي مشاكل أو كانت لديك أسئلة أثناء استخدام AskYourPDF، يرجى الاتصال بفريق الدعم لدينا: support@askyourpdf.com. هم هنا للمساعدة!"
 
-#: pages/story-generator/generate.tsx:84
+#: config/config.ts:454
+msgid "Include Hashtag"
+msgstr "تضمين وسم"
+
+#: pages/story-generator/generate.tsx:72
 msgid "Input Character Names and a brief description of the main characters"
 msgstr " أدخل أسماء الشخصيات ووصفاً موجزاً للشخصيات الرئيسية"
 
@@ -688,9 +852,13 @@ msgstr " أدخل أسماء الشخصيات ووصفاً موجزاً للشخ
 #~ msgid "input Key Points to Cover"
 #~ msgstr "إدخال النقاط الرئيسية التي يجب تغطيتها"
 
-#: pages/paragraph-generator/index.tsx:38
+#: pages/paragraph-generator/index.tsx:40
 msgid "Input main idea/supporting points"
 msgstr "أدخل الفكرة الرئيسية / النقاط الداعمة"
+
+#: pages/story-generator/index.tsx:42
+msgid "Input names and a brief description of the main characters"
+msgstr ""
 
 #: pages/paragraph-generator/index.tsx:57
 #: pages/story-generator/generate/index.tsx:109
@@ -698,14 +866,14 @@ msgstr "أدخل الفكرة الرئيسية / النقاط الداعمة"
 #~ msgid "Input Names and a brief description of the main characters"
 #~ msgstr "إدخال الأسماء ووصفًا موجزًا للشخصيات الرئيسية"
 
-#: pages/book-title-generator/index.tsx:38
-#: pages/essay-maker/index.tsx:39
-#: pages/instagram-caption/index.tsx:38
-#: pages/lyrics-generator/index.tsx:38
-#: pages/poem-generator/index.tsx:38
-#: pages/rap-generator/index.tsx:38
-#: pages/text-generator/index.tsx:38
-#: pages/thesis-statement/index.tsx:38
+#: pages/book-title-generator/index.tsx:40
+#: pages/essay-maker/index.tsx:41
+#: pages/instagram-caption/index.tsx:40
+#: pages/lyrics-generator/index.tsx:40
+#: pages/poem-generator/index.tsx:40
+#: pages/rap-generator/index.tsx:42
+#: pages/text-generator/index.tsx:41
+#: pages/thesis-statement/index.tsx:41
 msgid "Input some line here to begin"
 msgstr "أدخل بعض الأسطر هنا لبدء"
 
@@ -722,15 +890,19 @@ msgstr "أدخل بعض الأسطر هنا لبدء"
 #~ msgstr "إدخال العنوان أو الموضوع"
 
 #: pages/story-generator/index.tsx:39
-msgid "InputNames and a brief description of the main characters"
-msgstr "أدخل أسماء الشخصيات ووصفًا موجزًا للشخصيات الرئيسية"
+#~ msgid "Input names and a brief description of the main characters"
+#~ msgstr "أدخل أسماء الشخصيات ووصفًا موجزًا للشخصيات الرئيسية"
 
-#: pages/instagram-caption/generate.tsx:80
+#: config/config.ts:442
+msgid "Inspirational"
+msgstr "ملهم"
+
+#: pages/instagram-caption/generate.tsx:68
 msgid "Instagram Caption"
 msgstr "تسمية إنستجرام"
 
-#: pages/instagram-caption/generate.tsx:69
-#: pages/instagram-caption/index.tsx:36
+#: pages/instagram-caption/generate.tsx:57
+#: pages/instagram-caption/index.tsx:38
 msgid "Instagram Caption Generator"
 msgstr "مولد التسمية التوضيحية انستغرام"
 
@@ -774,9 +946,27 @@ msgstr "هل يوجد حد لحجم المستند الذي يمكن تحميل�
 msgid "It's an application that lets you chat with any document you upload"
 msgstr "إنه تطبيق يتيح لك الدردشة مع أي مستند تقوم بتحميله"
 
+#: config/config.ts:497
+msgid "JayZ"
+msgstr ""
+
+#: config/config.ts:526
+msgid "Joyful"
+msgstr "فرح"
+
+#: config/config.ts:499
+msgid "Kendrick Lamar"
+msgstr ""
+
 #: components/AppSidebar.tsx:179
 msgid "Knowledge Base"
 msgstr "قاعدة المعرفة"
+
+#: config/config.ts:541
+#: config/config.ts:543
+#: config/config.ts:556
+msgid "Length"
+msgstr "الطول"
 
 #: utils/free_tools.ts:46
 msgid "Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks."
@@ -785,6 +975,10 @@ msgstr "دع الذكاء الاصطناعي يقوم بالعمل حيث يقس
 #: utils/free_tools.ts:74
 msgid "Leverage the power of artificial intelligence to discover, analyse, and recommend sources of relevant to your needs."
 msgstr "استفد من قوة الذكاء الاصطناعي لاكتشاف وتحليل وتوصية بمصادر ذات صلة بحاجاتك."
+
+#: config/config.ts:516
+msgid "Limerick"
+msgstr ""
 
 #: components/literature-review/LiteratureMainBar.tsx:435
 msgid "Literature Review copied"
@@ -796,11 +990,25 @@ msgstr "مراجعة الأدبيات المنسوخة"
 msgid "Literature Review Tool"
 msgstr "أداة استعراض الأدب"
 
+#: config/config.ts:569
+msgid "Location"
+msgstr "الموقع"
+
 #: components/AppSidebar.tsx:336
 msgid "Logout"
 msgstr "تسجيل الخروج"
 
-#: pages/lyrics-generator/generate.tsx:81
+#: config/config.ts:547
+#: config/config.ts:603
+msgid "Long"
+msgstr "طويل"
+
+#: config/config.ts:486
+#: config/config.ts:534
+msgid "Love"
+msgstr "حب"
+
+#: pages/lyrics-generator/generate.tsx:68
 msgid "Lyrics"
 msgstr "كلمات الأغاني"
 
@@ -813,18 +1021,50 @@ msgstr "كلمات الأغاني"
 #~ msgid "Main idea"
 #~ msgstr "الفكرة الرئيسية"
 
-#: pages/paragraph-generator/generate.tsx:84
+#: pages/paragraph-generator/generate.tsx:72
 msgid "Main idea/supporting points"
-msgstr ""
+msgstr "الفكرة الرئيسية/النقاط الداعمة"
+
+#: config/config.ts:580
+msgid "Marketing"
+msgstr "تسويق"
+
 
 #: components/literature-review/LiteratureMainBar.tsx:396
 #: components/source-tools/source-content/index.tsx:248
 msgid "Maximum of 10000 characters"
 msgstr "10000 حرف كحد أقصى"
 
+#: config/config.ts:348
+#: config/config.ts:546
+#: config/config.ts:602
+msgid "Medium"
+msgstr "متوسط"
+
+#: config/config.ts:525
+msgid "Melancholic"
+msgstr ""
+
 #: components/tools/MergePage.tsx:812
 msgid "Merge Another"
 msgstr "دمج آخر"
+
+#: config/config.ts:369
+msgid "Misery"
+msgstr "بؤس"
+
+#: config/config.ts:391
+msgid "Mood/Tone"
+msgstr "المزاج/اللحن"
+
+#: config/config.ts:374
+#: config/config.ts:407
+msgid "Narrative"
+msgstr "سرد"
+
+#: config/config.ts:533
+msgid "Nature"
+msgstr "طبيعة"
 
 #: components/FreeLanding/ToolsFaq.tsx:90
 msgid "Need help? Look through our FAQs for quick answers!"
@@ -838,6 +1078,7 @@ msgstr "لا، لا يمكن تحرير المستندات داخل AskYourPDF. 
 msgid "No, only one document can be uploaded at a time. But this will be possible in the future."
 msgstr "لا، لا يمكن تحميل سوى مستند واحد في كل مرة. ولكن هذا سيكون ممكنا في المستقبل."
 
+#: utils/faqData.tsx:124
 msgid "No, password-protected documents cannot be uploaded to AskYourPDF."
 msgstr "لا يمكن تحميل المستندات المحمية بكلمة مرور إلى AskYourPDF."
 
@@ -849,10 +1090,26 @@ msgstr "لا، واجهة الدردشة مخصصة فقط للتفاعل مع �
 msgid "No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."
 msgstr "لا، لا تحتاج إلى إنشاء حساب لاستخدام التطبيق. ولكن هناك بعض القيود. لاستكشاف قدرات AskYourPDF الواسعة، ستحتاج إلى خطة محدثة."
 
+#: config/config.ts:368
+msgid "Non-Fiction"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:540
 msgid "Not satisfied with your results?"
 msgstr "غير راضٍ عن نتائجك؟"
+
+#: config/config.ts:370
+msgid "Novel"
+msgstr ""
+
+#: config/config.ts:559
+msgid "Novella"
+msgstr ""
+
+#: config/config.ts:412
+#: config/config.ts:414
+msgid "Number of Paragraphs"
+msgstr "عدد الفقرات"
 
 #: components/tools/OcrPage.tsx:250
 #: components/tools/ToolCommon.tsx:170
@@ -860,6 +1117,14 @@ msgstr "غير راضٍ عن نتائجك؟"
 #: utils/free_tools.ts:66
 msgid "OCR PDF Reader"
 msgstr "قارئ PDF بتقنية البصر الآلي"
+
+#: config/config.ts:338
+msgid "Old School"
+msgstr "قديم المدرسة"
+
+#: config/config.ts:415
+msgid "One"
+msgstr "واحد"
 
 #: components/Waitlist.tsx:141
 msgid "Our API is Now Live"
@@ -873,14 +1138,18 @@ msgstr "قاعدة معارفنا متاحة الآن"
 msgid "Output"
 msgstr "الناتج"
 
-#: pages/paragraph-generator/generate.tsx:80
+#: pages/paragraph-generator/generate.tsx:68
 msgid "Paragraph"
 msgstr "فقرة"
 
-#: pages/paragraph-generator/generate.tsx:69
-#: pages/paragraph-generator/index.tsx:36
+#: pages/paragraph-generator/generate.tsx:57
+#: pages/paragraph-generator/index.tsx:38
 msgid "Paragraph Generator"
 msgstr "مولد الفقرة"
+
+#: config/config.ts:434
+msgid "Passion"
+msgstr "شغف"
 
 #: components/tools/ToolCommon.tsx:174
 #: components/ToolsFooter.tsx:86
@@ -910,19 +1179,27 @@ msgstr "فاصل PDF"
 msgid "PDF To Chat"
 msgstr "قوات الدفاع الشعبي للدردشة"
 
+#: config/config.ts:568
+msgid "Period"
+msgstr "فترة"
+
 #: components/literature-review/LiteratureSideBar.tsx:373
 #: components/literature-review/LiteratureSideBar.tsx:441
 msgid "Please enter instructions on how to review your text input OR document"
 msgstr "الرجاء إدخال تعليمات حول كيفية مراجعة مدخلات النص أو المستند"
 
-#: pages/poem-generator/generate.tsx:80
+#: pages/poem-generator/generate.tsx:68
 msgid "poem"
 msgstr ""
 
-#: pages/poem-generator/generate.tsx:69
-#: pages/poem-generator/index.tsx:36
+#: pages/poem-generator/generate.tsx:57
+#: pages/poem-generator/index.tsx:38
 msgid "Poem Generator"
 msgstr "مولد القصيدة"
+
+#: config/config.ts:463
+msgid "Pop"
+msgstr ""
 
 #: components/Navbar.tsx:297
 #: components/Navbar.tsx:354
@@ -939,6 +1216,11 @@ msgstr "سياسة الخصوصية"
 msgid "Products"
 msgstr "منتجات"
 
+#: config/config.ts:393
+#: config/config.ts:589
+msgid "Professional"
+msgstr "احترافي"
+
 #: components/AppSidebar.tsx:321
 msgid "Profile"
 msgstr "الملف الشخصي"
@@ -947,8 +1229,16 @@ msgstr "الملف الشخصي"
 msgid "Publication Year:"
 msgstr "سنة النشر:"
 
-#: pages/rap-generator/generate.tsx:71
-#: pages/rap-generator/index.tsx:36
+#: config/config.ts:327
+msgid "Purchase Successful"
+msgstr ""
+
+#: config/config.ts:467
+msgid "R&B"
+msgstr ""
+
+#: pages/rap-generator/generate.tsx:58
+#: pages/rap-generator/index.tsx:40
 msgid "Rap Generator"
 msgstr "مولد الراب"
 
@@ -977,6 +1267,19 @@ msgstr "مراجعة عملي"
 msgid "Review will be displayed here"
 msgstr "ستظهر المراجعة هنا"
 
+#: config/config.ts:464
+msgid "Rock"
+msgstr ""
+
+#: config/config.ts:479
+#: config/config.ts:524
+msgid "Romantic"
+msgstr "رومانسي"
+
+#: config/config.ts:476
+msgid "Sad"
+msgstr "حزين"
+
 #: components/literature-review/MainContent.tsx:350
 msgid "Save Time and Effort with an AI-Powered Literature Review Writer. Streamline research, generate structured summaries, and create cohesive and comprehensive reviews that elevate your academic work. Powered by AI."
 msgstr "وفر الوقت والجهد مع كاتب مراجعة الأدبيات المدعوم من الذكاء الاصطناعي. قم بتبسيط البحث وإنشاء ملخصات منظمة وإنشاء مراجعات متماسكة وشاملة ترفع من مستوى عملك الأكاديمي. مدعوم من الذكاء الاصطناعي."
@@ -984,6 +1287,10 @@ msgstr "وفر الوقت والجهد مع كاتب مراجعة الأدبيا
 #: components/Footer.tsx:208
 msgid "Say hello to documents that respond to you! With AskYourPDF, your reading isn't just simple, it's fun!"
 msgstr "رحّب بالمستندات التي تستجيب لك! مع AskYourPDF، لن تكون قراءتك بسيطة فحسب، بل ممتعة!"
+
+#: config/config.ts:373
+msgid "Sci-Fi"
+msgstr ""
 
 #: components/tools/MainPage.tsx:17
 msgid "Seamlessly cite, reference, edit, split, merge, compress, and extract text from PDFs. Harness the power of AI to simplify your PDF interactions for free"
@@ -993,13 +1300,122 @@ msgstr "استشهد بالنص والرجوع إليه وتحريره وتقس�
 msgid "Select all"
 msgstr "تحديد الكل"
 
+#: config/config.ts:345
+msgid "Select Best Tempo"
+msgstr "اختر أفضل إيقاع"
+
+#: config/config.ts:354
+msgid "Select Complexity"
+msgstr "اختر التعقيد"
+
+#: config/config.ts:365
+#: config/config.ts:461
+msgid "Select Genre"
+msgstr "اختر النوع"
+
+#: config/config.ts:597
+#: config/config.ts:599
+msgid "Select Length"
+msgstr "اختر الطول"
+
+#: config/config.ts:439
+#: config/config.ts:473
+#: config/config.ts:522
+msgid "Select Mood"
+msgstr "اختر المزاج"
+
+#: config/config.ts:577
+msgid "Select Purpose"
+msgstr "اختر الغرض"
+
+#: config/config.ts:336
+#: config/config.ts:512
+msgid "Select Style"
+msgstr "اختر الأسلوب"
+
+#: config/config.ts:484
+msgid "Select Theme"
+msgstr "اختر الموضوع"
+
+#: config/config.ts:531
+msgid "Select Themes"
+msgstr "اختر المواضيع"
+
+#: config/config.ts:587
+msgid "Select Tone"
+msgstr "اختر اللحن"
+
+#: config/config.ts:403
+msgid "Select Type"
+msgstr "اختر النوع"
+
+#: config/config.ts:612
+msgid "Select Type of Paper"
+msgstr "اختر نوع الورقة"
+
+#: config/config.ts:444
+msgid "Serious"
+msgstr "جاد"
+
 #: components/AppSidebar.tsx:310
+#: config/config.ts:565
 msgid "Settings"
 msgstr "الإعدادات"
+
+#: config/config.ts:421
+msgid "Seven"
+msgstr "سبعة"
+
+#: config/config.ts:545
+#: config/config.ts:601
+msgid "Short"
+msgstr "قصير"
+
+#: config/config.ts:558
+msgid "Short story"
+msgstr "قصة قصيرة"
+
+#: config/config.ts:356
+msgid "Simplicity Of Words"
+msgstr "بساطة الكلمات"
+
+#: components/AppSidebar.tsx:310
+#: config/config.ts:565
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: config/config.ts:421
+msgid "Seven"
+msgstr ""
+
+#: config/config.ts:545
+#: config/config.ts:601
+msgid "Short"
+msgstr ""
+
+#: config/config.ts:558
+msgid "Short story"
+msgstr ""
+
+#: config/config.ts:356
+msgid "Simplicity Of Words"
+msgstr ""
 
 #: utils/free_tools.ts:123
 msgid "Simplify your academic writing. Let our AI Thesis Statement Generator craft concise, impactful thesis statements for your research effortlessly."
 msgstr "بسهولة البساطة في كتابتك الأكاديمية. دع مولد عبارة الرسالة الذكية لدينا يصاغ بيانات الرسالة بإيجاز وبتأثير لأبحاثك بسهولة."
+
+#: config/config.ts:420
+msgid "Six"
+msgstr "ستة"
+
+#: config/config.ts:349
+msgid "Slow"
+msgstr "بطيء"
+
+#: config/config.ts:514
+msgid "Sonnet"
+msgstr ""
 
 #: components/source-tools/source-result/index.tsx:491
 msgid "Source copied"
@@ -1031,12 +1447,12 @@ msgstr "ابدأ مراجعة أخرى"
 msgid "Start For Free"
 msgstr "ابدأ مجاناً"
 
-#: pages/story-generator/generate.tsx:80
+#: pages/story-generator/generate.tsx:68
 msgid "story"
-msgstr ""
+msgstr "قصة"
 
-#: pages/story-generator/generate.tsx:69
-#: pages/story-generator/index.tsx:37
+#: pages/story-generator/generate.tsx:57
+#: pages/story-generator/index.tsx:40
 msgid "Story Generator"
 msgstr "مولد القصص"
 
@@ -1052,6 +1468,9 @@ msgstr " نبسط كتابتك. يصاغ مولد الفقرة بالذكاء ا
 msgid "Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."
 msgstr "يمكن للمشتركين إلغاء اشتراكهم في أي وقت. ومع ذلك، لن يتم توفير أي استرداد لأي جزء غير مستخدم من فترة الاشتراك."
 
+#: config/config.ts:488
+msgid "Success"
+msgstr ""
 
 #: components/AppSidebar.tsx:252
 msgid "Summarisation"
@@ -1068,16 +1487,25 @@ msgstr "التنسيقات المدعومة: .pdf"
 #~ msgid "Supporting points"
 #~ msgstr "نقاط الدعم"
 
+#: config/config.ts:591
+msgid "Technical"
+msgstr "تقني"
+
+#: config/config.ts:395
+msgid "Technical"
+msgstr "تقني"
+
+
 #: components/Footer.tsx:339
 msgid "Terms & Conditions"
 msgstr "الشروط والأحكام"
 
-#: pages/text-generator/generate.tsx:80
+#: pages/text-generator/generate.tsx:68
 msgid "text"
 msgstr ""
 
-#: pages/text-generator/generate.tsx:69
-#: pages/text-generator/index.tsx:36
+#: pages/text-generator/generate.tsx:57
+#: pages/text-generator/index.tsx:39
 msgid "Text Generator"
 msgstr "مولد النص"
 
@@ -1089,26 +1517,39 @@ msgstr "تستخدم التطبيق الذكاء الاصطناعي لتحليل
 msgid "The summarisation service, GPT4 and Claude 2, operate on a credit-based system; while initial credits are provided complimentary as part of your subscription, additional credits may need to be purchased once these are exhausted. All credit purchases are final, non-refundable, and must be used exclusively for the Summarization Service, GPT4, or Claude 2."
 msgstr "يعتمد خدمة التلخيص و GPT4 و Claude 2 على نظام يعتمد على الائتمان. في حين يتم توفير الرصيد الأولي كميزة ترحيبية كجزء من اشتراكك، قد تحتاج إلى شراء رصيد إضافي مرة واحدة يتم استنفاده. جميع عمليات شراء الرصيد نهائية ولا يمكن استردادها، ويجب استخدامها حصرياً لخدمة التلخيص أو GPT4 أو Claude 2."
 
-
-#: pages/book-title-generator/generate.tsx:85
-#: pages/instagram-caption/generate.tsx:84
-#: pages/lyrics-generator/generate.tsx:85
-#: pages/text-generator/generate.tsx:84
-#: pages/thesis-statement/generate.tsx:84
+#: pages/book-title-generator/generate.tsx:72
+#: pages/instagram-caption/generate.tsx:72
+#: pages/lyrics-generator/generate.tsx:72
+#: pages/rap-generator/generate.tsx:73
+#: pages/text-generator/generate.tsx:72
+#: pages/thesis-statement/generate.tsx:72
 msgid "Theme / Topic"
 msgstr "موضوع"
 
-#: pages/thesis-statement/generate.tsx:80
+#: pages/thesis-statement/generate.tsx:68
 msgid "Thesis"
 msgstr ""
 
-#: pages/thesis-statement/generate.tsx:69
-#: pages/thesis-statement/index.tsx:36
+#: pages/thesis-statement/generate.tsx:57
+#: pages/thesis-statement/index.tsx:39
 msgid "Thesis Statement Generator"
 msgstr "مولد بيان الأطروحة"
 
-#: pages/essay-maker/generate.tsx:86
-#: pages/poem-generator/generate.tsx:84
+#: config/config.ts:417
+msgid "Three"
+msgstr "ثلاثة"
+
+#: config/config.ts:371
+msgid "Thriller"
+msgstr "الإثارة"
+
+#: config/config.ts:536
+#: config/config.ts:567
+msgid "Time"
+msgstr "الوقت"
+
+#: pages/essay-maker/generate.tsx:73
+#: pages/poem-generator/generate.tsx:72
 msgid "Title or Topic"
 msgstr "مولد العبارة الرئيسية"
 
@@ -1133,10 +1574,22 @@ msgstr "حوّل الأفكار إلى نصوص بسهولة. يصاغ مولد 
 msgid "Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader."
 msgstr "قم بتحويل ملفات PDF الممسوحة ضوئيًا أو المستندة إلى الصور إلى نص قابل للتحرير والبحث باستخدام قارئ OCR PDF الذي يعمل بالذكاء الاصطناعي."
 
+#: config/config.ts:339
+msgid "Trap"
+msgstr "فخ"
+
+#: config/config.ts:432
+msgid "Travel"
+msgstr "السفر"
+
 #: components/tools/ToolsWaitlist.tsx:150
 #: components/Waitlist.tsx:151
 msgid "Try it Now"
 msgstr "جرّبه الآن"
+
+#: config/config.ts:416
+msgid "Two"
+msgstr "اثنان"
 
 #: utils/free_tools.ts:116
 msgid "Unleash limitless creativity with our AI Story Generator. Craft unique tales, explore diverse genres, and bring your narratives to life."
@@ -1171,6 +1624,16 @@ msgstr "تحميل وثيقة جديدة"
 msgid "Upload text file"
 msgstr "تحميل ملف نصي"
 
+#: config/config.ts:548
+#: config/config.ts:604
+msgid "Very Long"
+msgstr "طويل جدًا"
+
+#: config/config.ts:544
+#: config/config.ts:600
+msgid "Very Short"
+msgstr "قصير جدًا"
+
 #: components/literature-review/MainContent.tsx:227
 #: pages/source-tool/index.tsx:181
 msgid "Warning"
@@ -1200,7 +1663,6 @@ msgstr "ماذا لو كان لدي سؤال لا يستطيع الذكاء ال
 msgid "What is AskYourPDF?"
 msgstr "ما هو AskYourPDF؟"
 
-
 #: components/tools/MergePage.tsx:675
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 msgstr "من خلال الدمج الآلي الذكي لدينا، يتم توحيد ملفات PDF الخاصة بك بسلاسة في مستند واحد متماسك مع الحفاظ على الجودة والتنسيق"
@@ -1208,6 +1670,10 @@ msgstr "من خلال الدمج الآلي الذكي لدينا، يتم تو�
 #: utils/free_tools.ts:53
 msgid "With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
 msgstr "مع الدمج الذكي والآلي، يتم دمج ملفات PDF الخاصة بك بسهولة في مستند واحد متكامل بسلاسة مع الحفاظ على الجودة والتنسيق."
+
+#: config/config.ts:384
+msgid "YA"
+msgstr ""
 
 #: utils/faqData.tsx:108
 msgid "Yes, AskYourPDF is accessible from any device with standard browsers and an internet connection."
@@ -1237,13 +1703,12 @@ msgstr "نعم، التطبيق مجاني للاستخدام، ولكن مع ب
 msgid "Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."
 msgstr "نعم، الحد الأقصى لحجم الملف لتحميل المستندات هو 15 ميجابايت للمستخدمين المجانين. ومع ذلك، يمكن للمستخدمين البريميوم والبرو تحميل ملفات تصل إلى 30 ميجابايت و 90 ميجابايت على التوالي. بالنسبة لحجم الملفات الأكبر، يجب على المستخدمين الاتصال بنا للحصول على خطة الشركة."
 
-
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"
 msgstr "يمكنك الآن الدردشة مع مستندات متعددة في وقت واحد باستخدام قاعدة معرفتنا"
 
-#: pages/lyrics-generator/generate.tsx:70
-#: pages/lyrics-generator/index.tsx:36
+#: pages/lyrics-generator/generate.tsx:57
+#: pages/lyrics-generator/index.tsx:38
 #: utils/free_tools.ts:81
 msgid "Your creative companion on your musical journey, create lyrics that tell your unique story"
 msgstr "رفيقك الإبداعي في رحلتك الموسيقية، ابتكر كلمات تحكي قصتك الفريدة"
