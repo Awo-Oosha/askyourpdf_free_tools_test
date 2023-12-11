@@ -1,6 +1,8 @@
 import React from "react";
 import LyricsGen from "@/img/AI-Rap-Generator.png";
 import { t, Trans } from "@lingui/macro";
+import { msg } from "@lingui/macro";
+import { useLingui } from "@lingui/react";
 import { GetStaticProps } from "next";
 import { loadCatalog } from "@/utils/i18n";
 import Navbar from "@/components/Navbar";
@@ -26,18 +28,20 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
 
 const RapGenerator = () => {
+    const { _ } = useLingui();
+
     return (
         <div>
             <Navbar />
             <Hero
-                generator="LYRICS_GENERATOR"
+                generator="RAP_GENERATOR"
                 params={GENERATOR_PARAMETERS.rap_generator}
-                title={t`AI Rap Generator`}
-                desc={t`Rap Generator`}
+                title={_(msg`AI Rap Generator`)}
+                desc={_(msg`Rap Generator`)}
                 img={LyricsGen}
-                placeholder={t`Input some line here to begin `}
+                placeholder={_(msg`Input some line here to begin `)}
                 routerPath={'rap-generator/generate'}
-                CtaTitle = {t`Generate Rap`}
+                CtaTitle = {_(msg`Generate Rap`)}
             />
             <LandingFAQ />
             <Footer />

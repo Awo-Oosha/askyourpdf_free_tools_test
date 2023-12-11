@@ -1,6 +1,6 @@
 import React, {ChangeEvent, useEffect, useRef, useState} from "react";
 import LyricsGen from "@/img/AI-story-.png";
-import {t, Trans} from "@lingui/macro";
+import {msg} from "@lingui/macro";
 import {GetStaticProps} from "next";
 import {loadCatalog} from "@/utils/i18n";
 import Navbar from "@/components/Navbar";
@@ -10,6 +10,7 @@ import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
 import { GENERATOR_PARAMETERS } from "@/config/config";
 import LandingFAQ from "@/components/FreeLanding/ToolsFaq";
+import { useLingui } from "@lingui/react";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadCatalog(ctx.locale!);
@@ -27,18 +28,20 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
 
 const StoryGenerator = () => {
+    const { _ } = useLingui();
+
     return (
         <div>
             <Navbar />
             <Hero
                 generator="STORY_GENERATOR"
                 params={GENERATOR_PARAMETERS.story_generator}
-                title={t`AI Story Generator`}
-                desc={t`Story Generator `}
+                title={_(msg`AI Story Generator`)}
+                desc={_(msg`Story Generator `)}
                 img={LyricsGen}
-                placeholder={t`Input names and a brief description of the main characters`}
+                placeholder={_(msg`Input names and a brief description of the main characters`)}
                 routerPath={'story-generator/generate'}
-                CtaTitle={t`Generate Story`}
+                CtaTitle={_(msg`Generate Story`)}
             />
             <LandingFAQ />
             <Footer />

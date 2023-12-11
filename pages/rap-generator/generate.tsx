@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useLayoutEffect } from 'react';
 import dynamic from 'next/dynamic';
 import useGenerateInput from '@/hooks/useGenerator';
 import { GENERATOR_PARAMETERS } from '@/config/config';
-import { alerts } from '@/utils/alerts';
-import { useMutation } from 'react-query';
 import { Trans, t } from '@lingui/macro';
 import { ChatLocales } from "@/config/config";
 
@@ -22,48 +20,18 @@ const Index: React.FC<IndexProps> = () => {
     setGenerateInput,
     generateParameters,
     setGenerateParameters,
-    generatedResult, 
-    GenerateCall,
-    setLanguage
+    generatedResult,
+    setLanguage,
+    handleParameterChange,
+    isLoading,
+    handleGenerateClick,
+    setGenerateAction
 
   } = useGenerateInput();
 
-  // Generate Page Parameters
-  const handleParameterChange = (type: string, generateParameter: any) => {
-    setGenerateParameters((prevState: any) => ({
-      ...prevState,
-      [type]: generateParameter,
-    }));
-  };
-
-  
-const { mutate, isLoading } = useMutation(
-  'generateDocument',
-  async () => {
-
-    if (!generateInput) {
-      alerts.error('Generate Failed', 'The text field cannot be empty. Please try again.');
-
-      throw new Error('generateInput and generateParameters cannot be empty');
-
-    }
-    await GenerateCall('LYRICS_GENERATOR', generateInput, generateParameters);
-
-    setGenerateInput("");
-  },
-  {
-    onError: (error) => {
-      console.error('Error in GenerateCall:', error);
-      alerts.error('Generate Failed', 'Unable to generate document. Please try again.');
-    },
-  }
-);
-
-
-  const handleGenerateClick = () => {
-    // Trigger the mutation
-    mutate();
-  };
+  useLayoutEffect(() => {
+    setGenerateAction("RAP_GENERATOR")
+  }, [setGenerateAction])
 
   return (
     <Generator

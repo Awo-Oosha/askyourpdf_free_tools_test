@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import dynamic from 'next/dynamic';
 import useGenerateInput from '@/hooks/useGenerator';
 import { GENERATOR_PARAMETERS } from '@/config/config';
-import { alerts } from '@/utils/alerts';
-import { useMutation } from 'react-query';
-import { t } from '@lingui/macro';
+import { msg } from '@lingui/macro';
+import { useLingui } from '@lingui/react';
 
 
 interface IndexProps { }
@@ -22,54 +21,25 @@ const Index: React.FC<IndexProps> = () => {
     generateParameters,
     setGenerateParameters,
     generatedResult, 
-    GenerateCall,
-    setLanguage
+    setLanguage,
+    handleParameterChange,
+    isLoading,
+    handleGenerateClick,
+    setGenerateAction
 
   } = useGenerateInput();
+  useLayoutEffect(() => {
+    setGenerateAction("BOOK_TITLE_GENERATOR")
+  },[setGenerateAction])
 
-  // Generate Page Parameters
-  const handleParameterChange = (type: string, generateParameter: any) => {
-    setGenerateParameters((prevState: any) => ({
-      ...prevState,
-      [type]: generateParameter,
-    }));
-  };
-
-  
-const { mutate, isLoading } = useMutation(
-  'generateDocument',
-  async () => {
-
-    if (!generateInput) {
-      alerts.error('Generate Failed', 'The text field cannot be empty. Please try again.');
-
-      throw new Error('generateInput and generateParameters cannot be empty');
-
-    }
-    await GenerateCall('BOOK_TITLE_GENERATOR', generateInput, generateParameters);
-
-    setGenerateInput("");
-  },
-  {
-    onError: (error) => {
-      console.error('Error in GenerateCall:', error);
-      alerts.error('Generate Failed', 'Unable to generate document. Please try again.');
-    },
-  }
-);
-
-
-  const handleGenerateClick = () => {
-    // Trigger the mutation
-    mutate();
-  };
+  const { _ } = useLingui();
 
   return (
     <Generator
-      header={t`AI Book Title Generator`}
-      subheader={t`Book Title Generator`}
-      desc={t`Fill in the field (s) below to generate your book title`}
-      mainBarDesc={t`Book Title Generator`}
+      header={_(msg`AI Book Title Generator`)}
+      subheader={_(msg`Book Title Generator`)}
+      desc={_(msg`Fill in the field (s) below to generate your book title`)}
+      mainBarDesc={_(msg`Book Title Generator`)}
       inputValue={generateInput}
       setInputValue={(e: React.ChangeEvent<HTMLInputElement>) => setGenerateInput(e.target.value)}
       params={generateParameters}
@@ -78,11 +48,11 @@ const { mutate, isLoading } = useMutation(
       generateClick={handleGenerateClick}
       paramsChange={handleParameterChange}
       generateResult={generatedResult}
-      pdfTitle={t`Book Title`}
+      pdfTitle={_(msg`Book Title`)}
       isLoading={isLoading}
       lang = {setLanguage}
-      cta_title={t`Generate Book Title`}
-      placeholder ={t`Theme / Topic`}   
+      cta_title={_(msg`Generate Book Title`)}
+      placeholder ={_(msg`Theme / Topic`)}
     />
   );
 };

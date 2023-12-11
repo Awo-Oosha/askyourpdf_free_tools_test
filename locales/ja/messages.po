@@ -157,7 +157,7 @@ msgstr " skYourPDFでは、Premium、Pro、Enterpriseの3つのプランが提�
 
 #: utils/faqData.tsx:29
 msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See here (https://askyourpdf.com/settings) for details]."
-msgstr ""
+msgstr "AskYourPDFでは、Premium、Pro、Enterpriseの3つのプランが提供されています。[詳細は<0>こちら</0>を参照してください]。"
 
 #: components/source-tools/source-result/index.tsx:473
 msgid "Authors:"
@@ -199,35 +199,35 @@ msgstr "書籍名ジェネレーター"
 
 #: utils/faqData.tsx:81
 msgid "Can I chat in any language?"
-msgstr ""
+msgstr "どんな言語でチャットできますか？"
 
 #: utils/faqData.tsx:59
 msgid "Can I chat with other users of the application?"
-msgstr ""
+msgstr "アプリの他のユーザーとチャットできますか？"
 
 #: utils/faqData.tsx:86
 msgid "Can I download the chat history?"
-msgstr ""
+msgstr "チャット履歴をダウンロードできますか？"
 
 #: utils/faqData.tsx:101
 msgid "Can I edit the document while using AskYourPDF?"
-msgstr ""
+msgstr "AskYourPDFを使用しながらドキュメントを編集できますか？"
 
 #: utils/faqData.tsx:23
 msgid "Can I upload any document?"
-msgstr ""
+msgstr "どのドキュメントでもアップロードできますか？"
 
 #: utils/faqData.tsx:117
 msgid "Can I upload multiple documents at once?"
-msgstr ""
+msgstr "複数の文書を一度にアップロードできますか？"
 
 #: utils/faqData.tsx:123
 msgid "Can I upload password-protected documents to AskYourPDF?"
-msgstr ""
+msgstr "パスワードで保護された文書をAskYourPDFにアップロードできますか？"
 
 #: utils/faqData.tsx:107
 msgid "Can I use AskYourPDF on any device?"
-msgstr ""
+msgstr "AskYourPDFをどのデバイスでも使用できますか？"
 
 #: components/source-tools/source-result/index.tsx:510
 msgid "Cancel"
@@ -239,7 +239,7 @@ msgstr "チャット"
 
 #: utils/faqData.tsx:130
 msgid "Chat sessions remain available as long as the browser tab is open."
-msgstr ""
+msgstr "ブラウザのタブが開いている限り、チャットセッションは利用可能です。"
 
 #: components/Footer.tsx:274
 msgid "Chrome Extension"
@@ -503,11 +503,11 @@ msgstr "ソースを検索"
 
 #: utils/faqData.tsx:65
 msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
-msgstr ""
+msgstr "無料ユーザーは1日1つの文書をアップロードできます。PremiumとProのユーザーは、それぞれ1日50と150の文書をアップロードできます。アップロード数を増やす場合は、エンタープライズプランについてお問い合わせください。"
 
 #: components/FreeLanding/ToolsFaq.tsx:85
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "よく寄せられる質問"
 
 #: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
@@ -621,27 +621,27 @@ msgstr "ホーム"
 
 #: utils/faqData.tsx:28
 msgid "How does billing work?"
-msgstr ""
+msgstr "請求はどのように機能しますか？"
 
 #: utils/faqData.tsx:18
 msgid "How does it work?"
-msgstr ""
+msgstr "どのように機能しますか？"
 
 #: utils/faqData.tsx:129
 msgid "How long are the chat sessions saved on AskYourPDF?"
-msgstr ""
+msgstr "AskYourPDF でチャットセッションはどのくらい保存されますか？"
 
 #: utils/faqData.tsx:74
 msgid "If I cancel my subscription, will I get a refund?"
-msgstr ""
+msgstr "サブスクリプションを解約した場合、返金は受けられますか？"
 
 #: utils/faqData.tsx:92
 msgid "If the answer is in the uploaded document, there's a high likelihood the AI will provide it. The AI is constantly learning, so if it doesn't have an answer, you can always rephrase or ask a different question."
-msgstr ""
+msgstr  "答えがアップロードされた文書にある場合、AI がそれを提供する可能性が高いです。AI は常に学習しているので、答えがない場合は、常に言い換えたり、別の質問をすることができます。"
 
 #: utils/faqData.tsx:135
 msgid "If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help!"
-msgstr ""
+msgstr "AskYourPDFの使用中に問題が発生したり質問がある場合は、サポートチームにお問い合わせください：support@askyourpdf.com。彼らはお手伝いいたします！"
 
 #: pages/story-generator/generate.tsx:84
 msgid "Input Character Names and a brief description of the main characters"
@@ -748,31 +748,31 @@ msgstr "iOSアプリ"
 
 #: utils/faqData.tsx:39
 msgid "Is it necessary to create an account to use the application?"
-msgstr ""
+msgstr "アプリケーションを使用するためにアカウントを作成する必要はありますか？"
 
 #: utils/faqData.tsx:96
 msgid "Is my data secure?"
-msgstr ""
+msgstr "私のデータは安全ですか？"
 
 #: utils/faqData.tsx:69
 msgid "Is the application free to use?"
-msgstr ""
+msgstr "アプリケーションは無料で使用できますか？"
 
 #: utils/faqData.tsx:44
 msgid "Is there a discount for students?"
-msgstr ""
+msgstr "学生割引はありますか？"
 
 #: utils/faqData.tsx:64
 msgid "Is there a limit to the number of documents I can upload?"
-msgstr ""
+msgstr "アップロードできるドキュメントの数に制限はありますか？"
 
 #: utils/faqData.tsx:112
 msgid "Is there a limit to the size of the document that can be uploaded?"
-msgstr ""
+msgstr "アップロードできるドキュメントのサイズに制限はありますか？"
 
 #: utils/faqData.tsx:14
 msgid "It's an application that lets you chat with any document you upload"
-msgstr ""
+msgstr "アップロードしたドキュメントとチャットできるアプリケーションです。"
 
 #: components/AppSidebar.tsx:179
 msgid "Knowledge Base"
@@ -828,27 +828,28 @@ msgstr "別のものをマージ"
 
 #: components/FreeLanding/ToolsFaq.tsx:90
 msgid "Need help? Look through our FAQs for quick answers!"
-msgstr ""
+msgstr "ヘルプが必要ですか？ FAQ を参照して、すぐに回答を見つけてください！"
 
 #: utils/faqData.tsx:102
 msgid "No, documents cannot be edited within AskYourPDF. But this will be possible in the future."
-msgstr ""
+msgstr "いいえ、AskYourPDF 内ではドキュメントを編集できません。ただし、これは将来可能になる予定です。"
 
 #: utils/faqData.tsx:118
 msgid "No, only one document can be uploaded at a time. But this will be possible in the future."
-msgstr ""
+msgstr "いいえ、一度に 1 つのドキュメントのみをアップロードできます。ただし、これは将来可能になる予定です。"
 
 #: utils/faqData.tsx:124
 msgid "No, password-protected documents cannot be uploaded to AskYourPDF."
-msgstr ""
+msgstr "いいえ、パスワードで保護された文書はAskYourPDFにアップロードできません。"
 
 #: utils/faqData.tsx:60
 msgid "No, the chat interface is solely for interacting with the content of the document."
-msgstr ""
+msgstr "いいえ、チャットインターフェースは文書のコンテンツとの対話のみが可能です。"
 
 #: utils/faqData.tsx:40
 msgid "No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."
-msgstr ""
+msgstr "いいえ、アプリを使用するためにはアカウントを作成する必要はありません。ただし、いくつかの制約があります。AskYourPDFの広範な機能を探索するには、アップグレードされたプランが必要です。"
+
 
 #: components/source-tools/source-result/index.tsx:540
 msgid "Not satisfied with your results?"
@@ -1050,7 +1051,8 @@ msgstr "あなたの執筆を効率化します。弊社のAI段落ジェネレ�
 
 #: utils/faqData.tsx:75
 msgid "Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."
-msgstr ""
+msgstr "購読者はいつでも購読をキャンセルできます。ただし、購読期間の未使用部分に対しては払い戻しは行われません。"
+
 
 #: components/AppSidebar.tsx:252
 msgid "Summarisation"
@@ -1082,11 +1084,12 @@ msgstr "テキストジェネレーター"
 
 #: utils/faqData.tsx:19
 msgid "The application uses artificial intelligence to analyze the content of the document and provide a chat interface for users to ask questions get answers."
-msgstr ""
+msgstr "このアプリケーションは人工知能を使用して文書のコンテンツを分析し、ユーザーが質問をして回答を得るためのチャットインターフェースを提供します。"
 
 #: utils/faqData.tsx:140
 msgid "The summarisation service, GPT4 and Claude 2, operate on a credit-based system; while initial credits are provided complimentary as part of your subscription, additional credits may need to be purchased once these are exhausted. All credit purchases are final, non-refundable, and must be used exclusively for the Summarization Service, GPT4, or Claude 2."
-msgstr ""
+msgstr "要約サービス、GPT4、およびClaude 2は、クレジットベースのシステムで動作します。初期クレジットは無料で提供されますが、これらが使い果たされると追加のクレジットを購入する必要があるかもしれません。すべてのクレジットの購入は最終的であり、払い戻しはできません。要約サービス、GPT4、またはClaude 2専用に使用する必要があります。"
+
 
 #: pages/book-title-generator/generate.tsx:85
 #: pages/instagram-caption/generate.tsx:84
@@ -1180,23 +1183,24 @@ msgstr "AskYourPDF APIをオープンにし、開発者がアプリケーショ�
 
 #: utils/faqData.tsx:24
 msgid "We support multiple document formats: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", and \".rtf\"."
-msgstr ""
+msgstr "複数のドキュメント形式に対応しています: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", および \".rtf\"."
 
 #: utils/faqData.tsx:139
 msgid "What does \"additional credits may be required\" mean in the pricing section?"
-msgstr ""
+msgstr "価格セクションの \"追加のクレジットが必要かもしれません\" とはどういう意味ですか？"
 
 #: utils/faqData.tsx:134
 msgid "What if I have a question or a problem while using AskYourPDF?"
-msgstr ""
+msgstr "AskYourPDFを使用している間に質問や問題がある場合はどうなりますか？"
 
 #: utils/faqData.tsx:91
 msgid "What if I have a question that the AI can't answer?"
-msgstr ""
+msgstr "AIが答えられない質問がある場合はどうなりますか？"
 
 #: utils/faqData.tsx:13
 msgid "What is AskYourPDF?"
-msgstr ""
+msgstr "AskYourPDFとは何ですか？"
+
 
 #: components/tools/MergePage.tsx:675
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
@@ -1208,31 +1212,32 @@ msgstr "スマートで自動化されたマージにより、品質とフォー
 
 #: utils/faqData.tsx:108
 msgid "Yes, AskYourPDF is accessible from any device with standard browsers and an internet connection."
-msgstr ""
+msgstr ""はい、AskYourPDF は標準ブラウザとインターネット接続を備えたすべてのデバイスからアクセスできます。"
 
 #: utils/faqData.tsx:82
 msgid "Yes, AskYourPDF is multilingual and supports chatting in any language of your choice."
-msgstr ""
+msgstr "はい、AskYourPDF は多言語対応で、選択した言語でのチャットをサポートしています。"
 
 #: utils/faqData.tsx:87
 msgid "Yes, chat history can be downloaded."
-msgstr ""
+msgstr "はい、チャット履歴はダウンロードできます。"
 
 #: utils/faqData.tsx:47
 msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at <0>billing@askyourpdf.com</0> with details of your educational institution and enrolment."
-msgstr ""
+msgstr "はい、ただし、現在は自動申請プロセスはありません。教育機関と登録の詳細を<b>billing@askyourpdf.com</b>でお知らせいただければ、割引クーポンを提供いたします。"
 
 #: utils/faqData.tsx:45
 msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at billing@askyourpdf.com with details of your educational institution and enrolment."
-msgstr ""
+msgstr "はい、ただし、現在は自動申請プロセスはありません。教育機関と登録の詳細を<b>billing@askyourpdf.com</b>でお知らせいただければ、割引クーポンを提供いたします。"
 
 #: utils/faqData.tsx:70
 msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF. Documents uploaded by Free users remain in our database for a maximum of 90 days before removal."
-msgstr ""
+msgstr "はい、アプリケーションは無料で利用できますが、一部の制限があります。AskYourPDFの広範な機能を探索するには、アップグレードされたプランが必要です。無料ユーザーがアップロードしたドキュメントは、削除される前に最大で90日間データベースに残ります。"
 
 #: utils/faqData.tsx:113
 msgid "Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."
-msgstr ""
+msgstr "はい、ドキュメントのアップロードの最大ファイルサイズは無料ユーザーに対して15MBです。ただし、プレミアムおよびプロユーザーはそれぞれ30MBおよび90MBまでアップロードできます。より大きなファイルサイズについては、ユーザーはエンタープライズプランについてお問い合わせいただく必要があります。"
+
 
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"

@@ -1,6 +1,6 @@
 import React from "react";
 import LyricsGen from "@/img/AI-instagram-caption-generator.png";
-import {t, Trans} from "@lingui/macro";
+import { msg } from "@lingui/macro";
 import {GetStaticProps} from "next";
 import {loadCatalog} from "@/utils/i18n";
 import Navbar from "@/components/Navbar";
@@ -10,6 +10,7 @@ import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
 import { GENERATOR_PARAMETERS } from "@/config/config";
 import LandingFAQ from "@/components/FreeLanding/ToolsFaq";
+import { useLingui } from "@lingui/react";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadCatalog(ctx.locale!);
@@ -26,18 +27,19 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
 
 const InstagramCaptionGenerator = () => {
+    const { _ } = useLingui();
     return (
         <div>
             <Navbar />
             <Hero
                 generator="INSTAGRAM_CAPTION"
                 params={GENERATOR_PARAMETERS.instagram_caption}
-                title={t`AI Instagram Caption Generator`}
-                desc={t`Instagram Caption Generator `}
+                title={_(msg`AI Instagram Caption Generator`)}
+                desc={_(msg`Instagram Caption Generator `)}
                 img={LyricsGen}
-                placeholder={t`Input some line here to begin `}
+                placeholder={_(msg`Input some line here to begin `)}
                 routerPath={'instagram-caption/generate'}
-                CtaTitle={t`Generate Instagram caption`}
+                CtaTitle={_(msg`Generate Instagram caption`)}
             />
             <LandingFAQ />
             <Footer />

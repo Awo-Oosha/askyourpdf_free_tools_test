@@ -3,7 +3,8 @@ import Radio from "antd/es/radio/radio";
 import { Dropdown, Grid } from "antd";
 import styled from "styled-components";
 import { ChatLocales } from "@/config/config";
-
+import { ArrowDownOutlined } from '@ant-design/icons';
+ 
 const LanguageSelectorRadio = styled(Radio)`
   text-transform: Capitalize;
   .ant-radio {
@@ -87,7 +88,7 @@ export default function LanguageSelect({lang} : any) {
         }}
       >
           <CTA>
-            {locale} 
+            {locale} <ArrowDownOutlined style={{ fontSize: '20px'}}/>
           </CTA>
       </Dropdown>
     </>

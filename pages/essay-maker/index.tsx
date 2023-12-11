@@ -1,6 +1,6 @@
 import React from "react";
 import LyricsGen from "@/img/AI-essay-maker.png";
-import {t, Trans} from "@lingui/macro";
+import { msg } from "@lingui/macro";
 import {GetStaticProps} from "next";
 import {loadCatalog} from "@/utils/i18n";
 import Navbar from "@/components/Navbar";
@@ -10,6 +10,7 @@ import {PAGE_DESCRIPTION, PAGE_TITLE, path} from "@/routes";
 import {MAIN_APP_URL} from "@/config/config";
 import { GENERATOR_PARAMETERS } from "@/config/config";
 import LandingFAQ from "@/components/FreeLanding/ToolsFaq";
+import { useLingui } from "@lingui/react";
 
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -27,18 +28,19 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
 
 const EssayMaker = () => {
+    const { _ } = useLingui();
     return (
         <div>
             <Navbar />
             <Hero
                 generator="ESSAY_WRITER"
                 params={GENERATOR_PARAMETERS.essay_maker}
-                title={t`AI Essay Writer`}
-                desc={t`Essay Writer`}
+                title={_(msg`AI Essay Writer`)}
+                desc={_(msg`Essay Writer`)}
                 img={LyricsGen}
-                placeholder={t`Input some line here to begin `}
+                placeholder={_(msg`Input some line here to begin `)}
                 routerPath={'essay-maker/generate'}
-                CtaTitle={t`Generate Essay`}
+                CtaTitle={_(msg`Generate Essay`)}
             />
             <LandingFAQ />
             <Footer />

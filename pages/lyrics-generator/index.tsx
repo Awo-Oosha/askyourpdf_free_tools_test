@@ -1,6 +1,6 @@
 import React, {ChangeEvent, useEffect, useRef, useState} from "react";
 import LyricsGen from "@/img/tools/lyricsGen.png";
-import { t, Trans } from "@lingui/macro";
+import { msg } from "@lingui/macro";
 import { GetStaticProps } from "next";
 import { loadCatalog } from "@/utils/i18n";
 import Navbar from "@/components/Navbar";
@@ -10,6 +10,7 @@ import { PAGE_DESCRIPTION, PAGE_TITLE, path } from "@/routes";
 import { MAIN_APP_URL } from "@/config/config";
 import { GENERATOR_PARAMETERS } from "@/config/config";
 import LandingFAQ from "@/components/FreeLanding/ToolsFaq";
+import { useLingui } from "@lingui/react";
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadCatalog(ctx.locale!);
@@ -26,18 +27,19 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
 
 const LyricsGenerator = () => {
+    const { _ } = useLingui();
     return (
         <div>
             <Navbar />
             <Hero
                 generator="LYRICS_GENERATOR"
                 params={GENERATOR_PARAMETERS.lyrics_generator}
-                title={t`AI Lyrics Generator`}
-                desc={t`Your creative companion on your musical journey, create lyrics that tell your unique story`}
+                title={_(msg`AI Lyrics Generator`)}
+                desc={_(msg`Your creative companion on your musical journey, create lyrics that tell your unique story`)}
                 img={LyricsGen}
-                placeholder={t`Input some line here to begin `}
+                placeholder={_(msg`Input some line here to begin `)}
                 routerPath={'lyrics-generator/generate'}
-                CtaTitle={t`Generate Lyrics`}
+                CtaTitle={_(msg`Generate Lyrics`)}
             />
             <LandingFAQ />
             <Footer />

@@ -153,11 +153,11 @@ msgstr "API"
 
 #: utils/faqData.tsx:31
 msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See <0>here</0> for details]."
-msgstr ""
+msgstr "skYourPDF는 프리미엄, 프로, 엔터프라이즈 세 가지 플랜을 제공합니다. [자세한 내용은 <0>여기</0> 참조]."
 
 #: utils/faqData.tsx:29
 msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See here (https://askyourpdf.com/settings) for details]."
-msgstr ""
+msgstr "AskYourPDF는 프리미엄, 프로, 엔터프라이즈 세 가지 플랜을 제공합니다. [자세한 내용은 <0>여기</0> 참조]."
 
 #: components/source-tools/source-result/index.tsx:473
 msgid "Authors:"
@@ -199,35 +199,35 @@ msgstr "책 제목 생성기"
 
 #: utils/faqData.tsx:81
 msgid "Can I chat in any language?"
-msgstr ""
+msgstr "모든 언어로 채팅할 수 있나요?"
 
 #: utils/faqData.tsx:59
 msgid "Can I chat with other users of the application?"
-msgstr ""
+msgstr "이 어플리케이션의 다른 사용자와 채팅할 수 있나요?"
 
 #: utils/faqData.tsx:86
 msgid "Can I download the chat history?"
-msgstr ""
+msgstr "채팅 기록을 다운로드할 수 있나요?"
 
 #: utils/faqData.tsx:101
 msgid "Can I edit the document while using AskYourPDF?"
-msgstr ""
+msgstr "AskYourPDF를 사용하면서 문서를 편집할 수 있나요?"
 
 #: utils/faqData.tsx:23
 msgid "Can I upload any document?"
-msgstr ""
+msgstr "어떤 문서든 업로드할 수 있나요?"
 
 #: utils/faqData.tsx:117
 msgid "Can I upload multiple documents at once?"
-msgstr ""
+msgstr "여러 문서를 한 번에 업로드할 수 있습니까?"
 
 #: utils/faqData.tsx:123
 msgid "Can I upload password-protected documents to AskYourPDF?"
-msgstr ""
+msgstr "AskYourPDF에 암호로 보호된 문서를 업로드할 수 있습니까?"
 
 #: utils/faqData.tsx:107
 msgid "Can I use AskYourPDF on any device?"
-msgstr ""
+msgstr "AskYourPDF를 어떤 기기에서도 사용할 수 있습니까?"
 
 #: components/source-tools/source-result/index.tsx:510
 msgid "Cancel"
@@ -239,7 +239,7 @@ msgstr "채팅"
 
 #: utils/faqData.tsx:130
 msgid "Chat sessions remain available as long as the browser tab is open."
-msgstr ""
+msgstr "브라우저 탭이 열려 있는 동안 채팅 세션을 계속 사용할 수 있습니다."
 
 #: components/Footer.tsx:274
 msgid "Chrome Extension"
@@ -503,11 +503,11 @@ msgstr "소스 찾기"
 
 #: utils/faqData.tsx:65
 msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
-msgstr ""
+msgstr "무료 사용자는 하루에 1개의 문서를 업로드할 수 있습니다. 프리미엄 및 프로 사용자는 각각 하루에 50개 및 150개의 문서를 업로드할 수 있습니다. 더 많은 업로드 수는 엔터프라이즈 플랜에 대한 문의가 필요합니다."
 
 #: components/FreeLanding/ToolsFaq.tsx:85
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "자주 묻는 질문"
 
 #: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
@@ -621,27 +621,27 @@ msgstr "홈"
 
 #: utils/faqData.tsx:28
 msgid "How does billing work?"
-msgstr ""
+msgstr "청구 방식은 어떻게 되나요?"
 
 #: utils/faqData.tsx:18
 msgid "How does it work?"
-msgstr ""
+msgstr "어떻게 작동합니까?"
 
 #: utils/faqData.tsx:129
 msgid "How long are the chat sessions saved on AskYourPDF?"
-msgstr ""
+msgstr "AskYourPDF에서 채팅 세션은 얼마나 오래 저장되나요?"
 
 #: utils/faqData.tsx:74
 msgid "If I cancel my subscription, will I get a refund?"
-msgstr ""
+msgstr "구독을 취소하면 환불을 받을 수 있나요?"
 
 #: utils/faqData.tsx:92
 msgid "If the answer is in the uploaded document, there's a high likelihood the AI will provide it. The AI is constantly learning, so if it doesn't have an answer, you can always rephrase or ask a different question."
-msgstr ""
+msgstr "답변이 업로드된 문서에 있으면 AI가 답변을 제공할 가능성이 높습니다. AI는 끊임없이 학습하고 있으므로 답변이 없는 경우 언제든지 질문을 다시 말하거나 다른 질문을 할 수 있습니다."
 
 #: utils/faqData.tsx:135
 msgid "If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help!"
-msgstr ""
+msgstr "AskYourPDF 사용 중에 문제가 발생하거나 질문이 있으면 지원팀에 문의하십시오: support@askyourpdf.com. 그들은 도움을 드리기 위해 여기에 있습니다!"
 
 #: pages/story-generator/generate.tsx:84
 msgid "Input Character Names and a brief description of the main characters"
@@ -748,31 +748,31 @@ msgstr "iOS 앱"
 
 #: utils/faqData.tsx:39
 msgid "Is it necessary to create an account to use the application?"
-msgstr ""
+msgstr "애플리케이션을 사용하려면 계정을 만들어야 합니까?"
 
 #: utils/faqData.tsx:96
 msgid "Is my data secure?"
-msgstr ""
+msgstr "데이터는 안전합니까?"
 
 #: utils/faqData.tsx:69
 msgid "Is the application free to use?"
-msgstr ""
+msgstr "애플리케이션은 무료로 사용할 수 있습니까?"
 
 #: utils/faqData.tsx:44
 msgid "Is there a discount for students?"
-msgstr ""
+msgstr "학생 할인은 있나요?"
 
 #: utils/faqData.tsx:64
 msgid "Is there a limit to the number of documents I can upload?"
-msgstr ""
+msgstr "업로드할 수 있는 문서 수 제한이 있나요?"
 
 #: utils/faqData.tsx:112
 msgid "Is there a limit to the size of the document that can be uploaded?"
-msgstr ""
+msgstr "업로드할 수 있는 문서 크기 제한이 있나요?"
 
 #: utils/faqData.tsx:14
 msgid "It's an application that lets you chat with any document you upload"
-msgstr ""
+msgstr "업로드하는 모든 문서와 채팅할 수 있는 응용 프로그램입니다."
 
 #: components/AppSidebar.tsx:179
 msgid "Knowledge Base"
@@ -828,27 +828,28 @@ msgstr "다른 병합"
 
 #: components/FreeLanding/ToolsFaq.tsx:90
 msgid "Need help? Look through our FAQs for quick answers!"
-msgstr ""
+msgstr "도움이 필요하신가요? 빠른 답변을 위해 FAQ를 살펴보세요!"
 
 #: utils/faqData.tsx:102
 msgid "No, documents cannot be edited within AskYourPDF. But this will be possible in the future."
-msgstr ""
+msgstr "아니요, AskYourPDF에서는 문서를 편집할 수 없습니다. 하지만 이 기능은 향후 가능할 예정입니다."
 
 #: utils/faqData.tsx:118
 msgid "No, only one document can be uploaded at a time. But this will be possible in the future."
-msgstr ""
+msgstr "아니요, 한 번에 하나의 문서만 업로드할 수 있습니다. 하지만 이것은 향후 가능할 예정입니다."
 
 #: utils/faqData.tsx:124
 msgid "No, password-protected documents cannot be uploaded to AskYourPDF."
-msgstr ""
+msgstr "아니요, 암호로 보호된 문서는 AskYourPDF에 업로드할 수 없습니다."
 
 #: utils/faqData.tsx:60
 msgid "No, the chat interface is solely for interacting with the content of the document."
-msgstr ""
+msgstr "아니요, 채팅 인터페이스는 문서 내용과 상호 작용하는 데만 사용됩니다."
 
 #: utils/faqData.tsx:40
 msgid "No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."
-msgstr ""
+msgstr "아니요, 응용 프로그램을 사용하려면 계정을 만들 필요가 없습니다. 그러나 몇 가지 제한 사항이 있습니다. AskYourPDF의 다양한 기능을 탐험하려면 업그레이드된 요금제가 필요합니다."
+
 
 #: components/source-tools/source-result/index.tsx:540
 msgid "Not satisfied with your results?"
@@ -1050,7 +1051,8 @@ msgstr " 글쓰기를 간소화하세요. 우리의 AI 단락 생성기가 간�
 
 #: utils/faqData.tsx:75
 msgid "Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."
-msgstr ""
+msgstr "구독자는 언제든지 구독을 취소할 수 있습니다. 그러나 구독 기간의 사용되지 않은 부분에 대해서는 환불이 제공되지 않습니다."
+
 
 #: components/AppSidebar.tsx:252
 msgid "Summarisation"
@@ -1082,11 +1084,12 @@ msgstr "텍스트 생성기"
 
 #: utils/faqData.tsx:19
 msgid "The application uses artificial intelligence to analyze the content of the document and provide a chat interface for users to ask questions get answers."
-msgstr ""
+msgstr "이 어플리케이션은 문서의 내용을 분석하고 사용자가 질문하고 답변을 받을 수 있는 채팅 인터페이스를 제공하기 위해 인공 지능을 사용합니다."
 
 #: utils/faqData.tsx:140
 msgid "The summarisation service, GPT4 and Claude 2, operate on a credit-based system; while initial credits are provided complimentary as part of your subscription, additional credits may need to be purchased once these are exhausted. All credit purchases are final, non-refundable, and must be used exclusively for the Summarization Service, GPT4, or Claude 2."
-msgstr ""
+msgstr "요약 서비스, GPT4 및 Claude 2는 크레딧 기반 시스템에서 작동합니다. 초기 크레딧은 구독의 일부로 무료로 제공되지만, 이를 모두 사용한 후에는 추가 크레딧을 구매해야 할 수 있습니다. 모든 크레딧 구매는 최종적이며, 환불이 불가능하며, 요약 서비스, GPT4 또는 Claude 2 전용으로 사용해야 합니다."
+
 
 #: pages/book-title-generator/generate.tsx:85
 #: pages/instagram-caption/generate.tsx:84
@@ -1180,23 +1183,24 @@ msgstr "AskYourPDF API를 개발자가 애플리케이션과 서비스를 구축
 
 #: utils/faqData.tsx:24
 msgid "We support multiple document formats: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", and \".rtf\"."
-msgstr ""
+msgstr "\".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", 및 \".rtf\". 등 다양한 문서 형식을 지원합니다."
 
 #: utils/faqData.tsx:139
 msgid "What does \"additional credits may be required\" mean in the pricing section?"
-msgstr ""
+msgstr "가격 섹션에서 \"추가 크레딧이 필요할 수 있음\"이란 무엇을 의미하나요?"
 
 #: utils/faqData.tsx:134
 msgid "What if I have a question or a problem while using AskYourPDF?"
-msgstr ""
+msgstr "AskYourPDF를 사용하는 동안 질문이나 문제가 있으면 어떻게 됩니까?"
 
 #: utils/faqData.tsx:91
 msgid "What if I have a question that the AI can't answer?"
-msgstr ""
+msgstr "AI가 답할 수 없는 질문이 있으면 어떻게 됩니까?"
 
 #: utils/faqData.tsx:13
 msgid "What is AskYourPDF?"
-msgstr ""
+msgstr "AskYourPDF는 무엇인가요?"
+
 
 #: components/tools/MergePage.tsx:675
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
@@ -1208,31 +1212,32 @@ msgstr "스마트하고 자동화된 병합으로 PDF 문서들이 품질과 서
 
 #: utils/faqData.tsx:108
 msgid "Yes, AskYourPDF is accessible from any device with standard browsers and an internet connection."
-msgstr ""
+msgstr "예, AskYourPDF는 표준 브라우저와 인터넷 연결이 있는 모든 장치에서 액세스할 수 있습니다."
 
 #: utils/faqData.tsx:82
 msgid "Yes, AskYourPDF is multilingual and supports chatting in any language of your choice."
-msgstr ""
+msgstr "예, AskYourPDF는 다국어 지원이며 선택한 언어로 채팅할 수 있습니다."
 
 #: utils/faqData.tsx:87
 msgid "Yes, chat history can be downloaded."
-msgstr ""
+msgstr "예, 채팅 기록을 다운로드할 수 있습니다."
 
 #: utils/faqData.tsx:47
 msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at <0>billing@askyourpdf.com</0> with details of your educational institution and enrolment."
-msgstr ""
+msgstr "네, 그러나 현재 자동 신청 프로세스는 없습니다. 교육 기관 및 등록 세부 정보를 <0>billing@askyourpdf.com</0>로 연락 주시면 할인 쿠폰을 제공해 드리겠습니다."
 
 #: utils/faqData.tsx:45
 msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at billing@askyourpdf.com with details of your educational institution and enrolment."
-msgstr ""
+msgstr "네, 그러나 현재 자동 신청 프로세스는 없습니다. 교육 기관 및 등록 세부 정보를 billing@askyourpdf.com로 연락 주시면 할인 쿠폰을 제공해 드리겠습니다."
 
 #: utils/faqData.tsx:70
 msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF. Documents uploaded by Free users remain in our database for a maximum of 90 days before removal."
-msgstr ""
+msgstr "네, 어플리케이션은 무료로 사용할 수 있지만 일부 제한이 있습니다. AskYourPDF의 다양한 기능을 탐험하려면 업그레이드된 플랜이 필요합니다. 무료 사용자가 업로드 한 문서는 삭제되기 전에 최대 90 일간 데이터베이스에 유지됩니다."
 
 #: utils/faqData.tsx:113
 msgid "Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."
-msgstr ""
+msgstr "네, 무료 사용자의 문서 업로드 최대 파일 크기는 15MB입니다. 그러나 프리미엄 및 프로 사용자는 각각 30MB 및 90MB까지 업로드할 수 있습니다. 더 큰 파일 크기의 경우 사용자는 엔터프라이즈 플랜에 대해 문의해야 합니다."
+
 
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"

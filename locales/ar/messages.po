@@ -157,7 +157,7 @@ msgstr "تقدم skYourPDF ثلاث خطط: Premium و Pro و Enterprise. [ان�
 
 #: utils/faqData.tsx:29
 msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See here (https://askyourpdf.com/settings) for details]."
-msgstr ""
+msgstr "تقدم AskYourPDF ثلاث خطط: Premium و Pro و Enterprise. [انظر <0>هنا</0> للتفاصيل]."
 
 #: components/source-tools/source-result/index.tsx:473
 msgid "Authors:"
@@ -199,35 +199,35 @@ msgstr "مُولِّد عناوين الكتب"
 
 #: utils/faqData.tsx:81
 msgid "Can I chat in any language?"
-msgstr ""
+msgstr "هل يمكنني الدردشة بأي لغة؟"
 
 #: utils/faqData.tsx:59
 msgid "Can I chat with other users of the application?"
-msgstr ""
+msgstr "هل يمكنني الدردشة مع مستخدمين آخرين في التطبيق؟"
 
 #: utils/faqData.tsx:86
 msgid "Can I download the chat history?"
-msgstr ""
+msgstr "هل يمكنني تحميل سجل المحادثات؟"
 
 #: utils/faqData.tsx:101
 msgid "Can I edit the document while using AskYourPDF?"
-msgstr ""
+msgstr "هل يمكنني تحرير المستند أثناء استخدام AskYourPDF؟"
 
 #: utils/faqData.tsx:23
 msgid "Can I upload any document?"
-msgstr ""
+msgstr "هل يمكنني تحميل أي مستند؟"
 
 #: utils/faqData.tsx:117
 msgid "Can I upload multiple documents at once?"
-msgstr ""
+msgstr "هل يمكنني تحميل مستندات متعددة في وقت واحد؟"
 
 #: utils/faqData.tsx:123
 msgid "Can I upload password-protected documents to AskYourPDF?"
-msgstr ""
+msgstr "هل يمكنني تحميل مستندات محمية بكلمة مرور إلى AskYourPDF؟"
 
 #: utils/faqData.tsx:107
 msgid "Can I use AskYourPDF on any device?"
-msgstr ""
+msgstr "هل يمكنني استخدام AskYourPDF على أي جهاز؟"
 
 #: components/source-tools/source-result/index.tsx:510
 msgid "Cancel"
@@ -239,7 +239,7 @@ msgstr "دردشة"
 
 #: utils/faqData.tsx:130
 msgid "Chat sessions remain available as long as the browser tab is open."
-msgstr ""
+msgstr "تظل جلسات الدردشة متاحة طالما أن علامة تبويب المتصفح مفتوحة."
 
 #: components/Footer.tsx:274
 msgid "Chrome Extension"
@@ -503,11 +503,11 @@ msgstr "العثور على المصادر"
 
 #: utils/faqData.tsx:65
 msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
-msgstr ""
+msgstr "يمكن للمستخدمين المجانيين تحميل مستند واحد يوميًا. يمكن للمستخدمين المميزين والمحترفين تحميل 50 و 150 مستندًا يوميًا على التوالي. لعدد أكبر من عمليات التحميل، يحتاج المستخدمون إلى الاتصال بنا للحصول على خطة المؤسسة."
 
 #: components/FreeLanding/ToolsFaq.tsx:85
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "الأسئلة المتداولة"
 
 #: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
@@ -621,27 +621,27 @@ msgstr "الرئيسية"
 
 #: utils/faqData.tsx:28
 msgid "How does billing work?"
-msgstr ""
+msgstr "كيف يعمل الفوترة؟"
 
 #: utils/faqData.tsx:18
 msgid "How does it work?"
-msgstr ""
+msgstr "كيف تعمل؟"
 
 #: utils/faqData.tsx:129
 msgid "How long are the chat sessions saved on AskYourPDF?"
-msgstr ""
+msgstr "كم من الوقت يتم حفظ جلسات الدردشة على AskYourPDF؟"
 
 #: utils/faqData.tsx:74
 msgid "If I cancel my subscription, will I get a refund?"
-msgstr ""
+msgstr "إذا ألغيت اشتراكي، هل سأحصل على استرداد؟"
 
 #: utils/faqData.tsx:92
 msgid "If the answer is in the uploaded document, there's a high likelihood the AI will provide it. The AI is constantly learning, so if it doesn't have an answer, you can always rephrase or ask a different question."
-msgstr ""
+msgstr "إذا كانت الإجابة موجودة في المستند الذي تم تحميله، فهناك احتمال كبير أن تقدمها الذكاء الاصطناعي. يتعلم الذكاء الاصطناعي باستمرار، لذلك إذا لم يكن لديه إجابة، يمكنك دائمًا إعادة صياغة السؤال أو طرح سؤال مختلف."
 
 #: utils/faqData.tsx:135
 msgid "If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help!"
-msgstr ""
+msgstr  "إذا واجهت أي مشاكل أو كانت لديك أسئلة أثناء استخدام AskYourPDF، يرجى الاتصال بفريق الدعم لدينا: support@askyourpdf.com. هم هنا للمساعدة!"
 
 #: pages/story-generator/generate.tsx:84
 msgid "Input Character Names and a brief description of the main characters"
@@ -748,31 +748,31 @@ msgstr "تطبيق iOS"
 
 #: utils/faqData.tsx:39
 msgid "Is it necessary to create an account to use the application?"
-msgstr ""
+msgstr "هل من الضروري إنشاء حساب لاستخدام التطبيق؟"
 
 #: utils/faqData.tsx:96
 msgid "Is my data secure?"
-msgstr ""
+msgstr "هل بياناتي آمنة؟"
 
 #: utils/faqData.tsx:69
 msgid "Is the application free to use?"
-msgstr ""
+msgstr "هل التطبيق مجاني للاستخدام؟"
 
 #: utils/faqData.tsx:44
 msgid "Is there a discount for students?"
-msgstr ""
+msgstr "هل هناك خصم للطلاب؟"
 
 #: utils/faqData.tsx:64
 msgid "Is there a limit to the number of documents I can upload?"
-msgstr ""
+msgstr "هل يوجد حد لعدد المستندات التي يمكنني تحميلها؟"
 
 #: utils/faqData.tsx:112
 msgid "Is there a limit to the size of the document that can be uploaded?"
-msgstr ""
+msgstr "هل يوجد حد لحجم المستند الذي يمكن تحميله؟"
 
 #: utils/faqData.tsx:14
 msgid "It's an application that lets you chat with any document you upload"
-msgstr ""
+msgstr "إنه تطبيق يتيح لك الدردشة مع أي مستند تقوم بتحميله"
 
 #: components/AppSidebar.tsx:179
 msgid "Knowledge Base"
@@ -828,27 +828,27 @@ msgstr "دمج آخر"
 
 #: components/FreeLanding/ToolsFaq.tsx:90
 msgid "Need help? Look through our FAQs for quick answers!"
-msgstr ""
+msgstr "هل تحتاج إلى مساعدة؟ تصفح الأسئلة الشائعة للحصول على إجابات سريعة!"
 
 #: utils/faqData.tsx:102
 msgid "No, documents cannot be edited within AskYourPDF. But this will be possible in the future."
-msgstr ""
+msgstr "لا، لا يمكن تحرير المستندات داخل AskYourPDF. ولكن هذا سيكون ممكنا في المستقبل."
 
 #: utils/faqData.tsx:118
 msgid "No, only one document can be uploaded at a time. But this will be possible in the future."
-msgstr ""
+msgstr "لا، لا يمكن تحميل سوى مستند واحد في كل مرة. ولكن هذا سيكون ممكنا في المستقبل."
 
-#: utils/faqData.tsx:124
 msgid "No, password-protected documents cannot be uploaded to AskYourPDF."
-msgstr ""
+msgstr "لا يمكن تحميل المستندات المحمية بكلمة مرور إلى AskYourPDF."
 
 #: utils/faqData.tsx:60
 msgid "No, the chat interface is solely for interacting with the content of the document."
-msgstr ""
+msgstr "لا، واجهة الدردشة مخصصة فقط للتفاعل مع محتوى المستند."
 
 #: utils/faqData.tsx:40
 msgid "No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."
-msgstr ""
+msgstr "لا، لا تحتاج إلى إنشاء حساب لاستخدام التطبيق. ولكن هناك بعض القيود. لاستكشاف قدرات AskYourPDF الواسعة، ستحتاج إلى خطة محدثة."
+
 
 #: components/source-tools/source-result/index.tsx:540
 msgid "Not satisfied with your results?"
@@ -1050,7 +1050,8 @@ msgstr " نبسط كتابتك. يصاغ مولد الفقرة بالذكاء ا
 
 #: utils/faqData.tsx:75
 msgid "Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."
-msgstr ""
+msgstr "يمكن للمشتركين إلغاء اشتراكهم في أي وقت. ومع ذلك، لن يتم توفير أي استرداد لأي جزء غير مستخدم من فترة الاشتراك."
+
 
 #: components/AppSidebar.tsx:252
 msgid "Summarisation"
@@ -1082,11 +1083,12 @@ msgstr "مولد النص"
 
 #: utils/faqData.tsx:19
 msgid "The application uses artificial intelligence to analyze the content of the document and provide a chat interface for users to ask questions get answers."
-msgstr ""
+msgstr "تستخدم التطبيق الذكاء الاصطناعي لتحليل محتوى المستند وتوفير واجهة دردشة للمستخدمين لطرح الأسئلة والحصول على الإجابات."
 
 #: utils/faqData.tsx:140
 msgid "The summarisation service, GPT4 and Claude 2, operate on a credit-based system; while initial credits are provided complimentary as part of your subscription, additional credits may need to be purchased once these are exhausted. All credit purchases are final, non-refundable, and must be used exclusively for the Summarization Service, GPT4, or Claude 2."
-msgstr ""
+msgstr "يعتمد خدمة التلخيص و GPT4 و Claude 2 على نظام يعتمد على الائتمان. في حين يتم توفير الرصيد الأولي كميزة ترحيبية كجزء من اشتراكك، قد تحتاج إلى شراء رصيد إضافي مرة واحدة يتم استنفاده. جميع عمليات شراء الرصيد نهائية ولا يمكن استردادها، ويجب استخدامها حصرياً لخدمة التلخيص أو GPT4 أو Claude 2."
+
 
 #: pages/book-title-generator/generate.tsx:85
 #: pages/instagram-caption/generate.tsx:84
@@ -1180,23 +1182,24 @@ msgstr "نجعل واجهة برمجة تطبيقات AskYourPDF مفتوحة ل
 
 #: utils/faqData.tsx:24
 msgid "We support multiple document formats: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", and \".rtf\"."
-msgstr ""
+msgstr "نحن ندعم عدة تنسيقات للمستندات: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", و \".rtf\"."
 
 #: utils/faqData.tsx:139
 msgid "What does \"additional credits may be required\" mean in the pricing section?"
-msgstr ""
+msgstr "ماذا يعني \"قد يكون هناك حاجة إلى رصيد إضافي\" في قسم التسعير؟"
 
 #: utils/faqData.tsx:134
 msgid "What if I have a question or a problem while using AskYourPDF?"
-msgstr ""
+msgstr "ماذا لو كان لدي سؤال أو مشكلة أثناء استخدام AskYourPDF؟"
 
 #: utils/faqData.tsx:91
 msgid "What if I have a question that the AI can't answer?"
-msgstr ""
+msgstr "ماذا لو كان لدي سؤال لا يستطيع الذكاء الاصطناعي الإجابة عليه؟"
 
 #: utils/faqData.tsx:13
 msgid "What is AskYourPDF?"
-msgstr ""
+msgstr "ما هو AskYourPDF؟"
+
 
 #: components/tools/MergePage.tsx:675
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
@@ -1208,31 +1211,32 @@ msgstr "مع الدمج الذكي والآلي، يتم دمج ملفات PDF �
 
 #: utils/faqData.tsx:108
 msgid "Yes, AskYourPDF is accessible from any device with standard browsers and an internet connection."
-msgstr ""
+msgstr "نعم، يمكن الوصول إلى AskYourPDF من أي جهاز يحتوي على متصفحات قياسية واتصال بالإنترنت."
 
 #: utils/faqData.tsx:82
 msgid "Yes, AskYourPDF is multilingual and supports chatting in any language of your choice."
-msgstr ""
+msgstr "نعم، AskYourPDF متعدد اللغات ويدعم الدردشة بأي لغة تختارها."
 
 #: utils/faqData.tsx:87
 msgid "Yes, chat history can be downloaded."
-msgstr ""
+msgstr "نعم، يمكن تحميل تاريخ الدردشة."
 
 #: utils/faqData.tsx:47
 msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at <0>billing@askyourpdf.com</0> with details of your educational institution and enrolment."
-msgstr ""
+msgstr "نعم، ومع ذلك، ليس هناك حاليًا عملية طلب آلية. سنقدم لك قسيمة خصم إذا اتصلت بنا على <0>billing@askyourpdf.com</0> مع تفاصيل مؤسستك التعليمية وتسجيلك."
 
 #: utils/faqData.tsx:45
 msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at billing@askyourpdf.com with details of your educational institution and enrolment."
-msgstr ""
+msgstr "نعم، ومع ذلك، ليس هناك حاليًا عملية طلب آلية. سنقدم لك قسيمة خصم إذا اتصلت بنا على billing@askyourpdf.com مع تفاصيل مؤسستك التعليمية وتسجيلك."
 
 #: utils/faqData.tsx:70
 msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF. Documents uploaded by Free users remain in our database for a maximum of 90 days before removal."
-msgstr ""
+msgstr "نعم، التطبيق مجاني للاستخدام، ولكن مع بعض القيود. يتطلب خطة مرقَّعة لاستكشاف إمكانيات AskYourPDF الهائلة. تظل المستندات التي يقوم بتحميلها المستخدمون المجانيون في قاعدة بياناتنا لمدة تصل إلى 90 يومًا قبل الإزالة."
 
 #: utils/faqData.tsx:113
 msgid "Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."
-msgstr ""
+msgstr "نعم، الحد الأقصى لحجم الملف لتحميل المستندات هو 15 ميجابايت للمستخدمين المجانين. ومع ذلك، يمكن للمستخدمين البريميوم والبرو تحميل ملفات تصل إلى 30 ميجابايت و 90 ميجابايت على التوالي. بالنسبة لحجم الملفات الأكبر، يجب على المستخدمين الاتصال بنا للحصول على خطة الشركة."
+
 
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"

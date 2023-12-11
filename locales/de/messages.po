@@ -153,11 +153,11 @@ msgstr "API"
 
 #: utils/faqData.tsx:31
 msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See <0>here</0> for details]."
-msgstr "SkYourPDF bietet drei Pläne: Premium, Pro und Enterprise. [Siehe <0>hier</0> für Details]."
+msgstr "AskYourPDF bietet drei Pläne: Premium, Pro und Enterprise. [Siehe <0>hier</0> für Details]."
 
 #: utils/faqData.tsx:29
 msgid "AskYourPDF offers three plans: Premium, Pro and Enterprise. [See here (https://askyourpdf.com/settings) for details]."
-msgstr ""
+msgstr "AskYourPDF bietet drei Pläne: Premium, Pro und Enterprise. [Siehe <0>hier</0> für Details]."
 
 #: components/source-tools/source-result/index.tsx:473
 msgid "Authors:"
@@ -199,35 +199,35 @@ msgstr "Buchtitel-Generator"
 
 #: utils/faqData.tsx:81
 msgid "Can I chat in any language?"
-msgstr ""
+msgstr "Kann ich in jeder Sprache chatten?"
 
 #: utils/faqData.tsx:59
 msgid "Can I chat with other users of the application?"
-msgstr ""
+msgstr "Kann ich mit anderen Benutzern der Anwendung chatten?"
 
 #: utils/faqData.tsx:86
 msgid "Can I download the chat history?"
-msgstr ""
+msgstr "Kann ich den Chatverlauf herunterladen?"
 
 #: utils/faqData.tsx:101
 msgid "Can I edit the document while using AskYourPDF?"
-msgstr ""
+msgstr "Kann ich das Dokument während der Verwendung von AskYourPDF bearbeiten?"
 
 #: utils/faqData.tsx:23
 msgid "Can I upload any document?"
-msgstr ""
+msgstr "Kann ich ein beliebiges Dokument hochladen?"
 
 #: utils/faqData.tsx:117
 msgid "Can I upload multiple documents at once?"
-msgstr ""
+msgstr "Kann ich mehrere Dokumente gleichzeitig hochladen?"
 
 #: utils/faqData.tsx:123
 msgid "Can I upload password-protected documents to AskYourPDF?"
-msgstr ""
+msgstr "Kann ich passwortgeschützte Dokumente zu AskYourPDF hochladen?"
 
 #: utils/faqData.tsx:107
 msgid "Can I use AskYourPDF on any device?"
-msgstr ""
+msgstr "Kann ich AskYourPDF auf jedem Gerät verwenden?"
 
 #: components/source-tools/source-result/index.tsx:510
 msgid "Cancel"
@@ -239,7 +239,7 @@ msgstr "Chat"
 
 #: utils/faqData.tsx:130
 msgid "Chat sessions remain available as long as the browser tab is open."
-msgstr ""
+msgstr "Chat-Sitzungen bleiben verfügbar, solange der Browser-Tab geöffnet ist."
 
 #: components/Footer.tsx:274
 msgid "Chrome Extension"
@@ -503,11 +503,11 @@ msgstr "Quellen finden"
 
 #: utils/faqData.tsx:65
 msgid "Free users can upload one document per day. Premium and Pro users can upload 50 and 150 documents per day respectively. For higher number of uploads, users need to contact us for the enterprise plan."
-msgstr ""
+msgstr "Kostenlose Benutzer können ein Dokument pro Tag hochladen. Premium- und Pro-Benutzer können 50 bzw. 150 Dokumente pro Tag hochladen. Für eine höhere Anzahl von Uploads müssen sich Benutzer für den Enterprise-Plan an uns wenden."
 
 #: components/FreeLanding/ToolsFaq.tsx:85
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Häufig gestellte Fragen"
 
 #: components/literature-review/LiteratureUpload.tsx:499
 msgid "From Your Documents"
@@ -621,27 +621,27 @@ msgstr "Startseite"
 
 #: utils/faqData.tsx:28
 msgid "How does billing work?"
-msgstr ""
+msgstr "Wie funktioniert die Abrechnung?"
 
 #: utils/faqData.tsx:18
 msgid "How does it work?"
-msgstr ""
+msgstr "Wie funktioniert es?"
 
 #: utils/faqData.tsx:129
 msgid "How long are the chat sessions saved on AskYourPDF?"
-msgstr ""
+msgstr "Wie lange werden die Chat-Sitzungen auf AskYourPDF gespeichert?"
 
 #: utils/faqData.tsx:74
 msgid "If I cancel my subscription, will I get a refund?"
-msgstr ""
+msgstr "Erhalte ich eine Rückerstattung, wenn ich mein Abonnement kündige?"
 
 #: utils/faqData.tsx:92
 msgid "If the answer is in the uploaded document, there's a high likelihood the AI will provide it. The AI is constantly learning, so if it doesn't have an answer, you can always rephrase or ask a different question."
-msgstr ""
+msgstr "Wenn die Antwort in dem hochgeladenen Dokument enthalten ist, ist die Wahrscheinlichkeit hoch, dass die KI sie liefert. Die KI lernt ständig, also können Sie Ihre Anfrage jederzeit umformulieren oder eine andere Frage stellen, wenn sie keine Antwort hat."
 
 #: utils/faqData.tsx:135
 msgid "If you encounter any issues or have questions while using AskYourPDF, please contact our support team: support@askyourpdf.com. They're here to help!"
-msgstr ""
+msgstr "Wenn Sie während der Verwendung von AskYourPDF auf Probleme stoßen oder Fragen haben, kontaktieren Sie bitte unser Support-Team unter: support@askyourpdf.com. Sie sind hier, um zu helfen!"
 
 #: pages/story-generator/generate.tsx:84
 msgid "Input Character Names and a brief description of the main characters"
@@ -748,31 +748,31 @@ msgstr "iOS-App"
 
 #: utils/faqData.tsx:39
 msgid "Is it necessary to create an account to use the application?"
-msgstr ""
+msgstr "Ist es notwendig, ein Konto zu erstellen, um die Anwendung zu nutzen?"
 
 #: utils/faqData.tsx:96
 msgid "Is my data secure?"
-msgstr ""
+msgstr "Sind meine Daten sicher?"
 
 #: utils/faqData.tsx:69
 msgid "Is the application free to use?"
-msgstr ""
+msgstr "Ist die Anwendung kostenlos?"
 
 #: utils/faqData.tsx:44
 msgid "Is there a discount for students?"
-msgstr ""
+msgstr "Gibt es einen Rabatt für Studenten?"
 
 #: utils/faqData.tsx:64
 msgid "Is there a limit to the number of documents I can upload?"
-msgstr ""
+msgstr "Gibt es eine Begrenzung für die Anzahl der Dokumente, die ich hochladen kann?"
 
 #: utils/faqData.tsx:112
 msgid "Is there a limit to the size of the document that can be uploaded?"
-msgstr ""
+msgstr "Gibt es eine Begrenzung für die Größe des Dokuments, das hochgeladen werden kann?"
 
 #: utils/faqData.tsx:14
 msgid "It's an application that lets you chat with any document you upload"
-msgstr ""
+msgstr "Dies ist eine Anwendung, mit der Sie mit jedem Dokument chatten können, das Sie hochladen"
 
 #: components/AppSidebar.tsx:179
 msgid "Knowledge Base"
@@ -828,27 +828,28 @@ msgstr "Andere zusammenführen"
 
 #: components/FreeLanding/ToolsFaq.tsx:90
 msgid "Need help? Look through our FAQs for quick answers!"
-msgstr ""
+msgstr "Benötigen Sie Hilfe? Sehen Sie sich unsere FAQs für schnelle Antworten an!"
 
 #: utils/faqData.tsx:102
 msgid "No, documents cannot be edited within AskYourPDF. But this will be possible in the future."
-msgstr ""
+msgstr "Nein, Dokumente können in AskYourPDF nicht bearbeitet werden. Dies wird jedoch in Zukunft möglich sein."
 
 #: utils/faqData.tsx:118
 msgid "No, only one document can be uploaded at a time. But this will be possible in the future."
-msgstr ""
+msgstr "Nein, es kann nur ein Dokument gleichzeitig hochgeladen werden. Dies wird jedoch in Zukunft möglich sein."
 
 #: utils/faqData.tsx:124
 msgid "No, password-protected documents cannot be uploaded to AskYourPDF."
-msgstr ""
+msgstr "Nein, passwortgeschützte Dokumente können nicht in AskYourPDF hochgeladen werden."
 
 #: utils/faqData.tsx:60
 msgid "No, the chat interface is solely for interacting with the content of the document."
-msgstr ""
+msgstr "Nein, die Chat-Schnittstelle dient ausschließlich zur Interaktion mit dem Inhalt des Dokuments."
 
 #: utils/faqData.tsx:40
 msgid "No, you don't need to create an account to use the application. However, there are some restrictions. To explore the vast capabilities of AskYourPDF, you'll need an upgraded plan."
-msgstr ""
+msgstr "Nein, Sie müssen kein Konto erstellen, um die Anwendung zu verwenden. Es gibt jedoch einige Einschränkungen. Um die umfangreichen Funktionen von AskYourPDF zu erkunden, benötigen Sie einen kostenpflichtigen Plan."
+
 
 #: components/source-tools/source-result/index.tsx:540
 msgid "Not satisfied with your results?"
@@ -1050,7 +1051,8 @@ msgstr "Optimiere deine Schreibweise. Unser KI-Absatzgenerator erstellt prägnan
 
 #: utils/faqData.tsx:75
 msgid "Subscribers can cancel their subscription at any time. However, no refunds will be provided for any unused portion of the subscription period."
-msgstr ""
+msgstr "Abonnenten können ihr Abonnement jederzeit kündigen. Es werden jedoch keine Rückerstattungen für ungenutzte Teile des Abonnementzeitraums gewährt."
+
 
 #: components/AppSidebar.tsx:252
 msgid "Summarisation"
@@ -1082,11 +1084,12 @@ msgstr "Text Generator"
 
 #: utils/faqData.tsx:19
 msgid "The application uses artificial intelligence to analyze the content of the document and provide a chat interface for users to ask questions get answers."
-msgstr ""
+msgstr "Die Anwendung verwendet künstliche Intelligenz, um den Inhalt des Dokuments zu analysieren und eine Chat-Schnittstelle bereitzustellen, damit Benutzer Fragen stellen und Antworten erhalten können."
 
 #: utils/faqData.tsx:140
 msgid "The summarisation service, GPT4 and Claude 2, operate on a credit-based system; while initial credits are provided complimentary as part of your subscription, additional credits may need to be purchased once these are exhausted. All credit purchases are final, non-refundable, and must be used exclusively for the Summarization Service, GPT4, or Claude 2."
-msgstr ""
+msgstr "Der Zusammenfassungsdienst, GPT4 und Claude 2, arbeiten mit einem auf Credits basierenden System. Während anfängliche Credits als Teil Ihres Abonnements kostenlos bereitgestellt werden, müssen möglicherweise zusätzliche Credits erworben werden, sobald diese aufgebraucht sind. Alle Credit-Käufe sind endgültig, nicht erstattungsfähig und dürfen ausschließlich für den Zusammenfassungsdienst, GPT4 oder Claude 2 verwendet werden."
+
 
 #: pages/book-title-generator/generate.tsx:85
 #: pages/instagram-caption/generate.tsx:84
@@ -1180,23 +1183,24 @@ msgstr "Wir öffnen die AskYourPDF API für Entwickler, um Anwendungen und Diens
 
 #: utils/faqData.tsx:24
 msgid "We support multiple document formats: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", and \".rtf\"."
-msgstr ""
+msgstr "Wir unterstützen mehrere Dokumentenformate: \".pdf\", \".txt\", \".ppt\", \".pptx\", \".csv\", \".epub\", und \".rtf\"."
 
 #: utils/faqData.tsx:139
 msgid "What does \"additional credits may be required\" mean in the pricing section?"
-msgstr ""
+msgstr "Was bedeutet \"zusätzliche Guthaben können erforderlich sein\" im Preisabschnitt?"
 
 #: utils/faqData.tsx:134
 msgid "What if I have a question or a problem while using AskYourPDF?"
-msgstr ""
+msgstr "Was ist, wenn ich eine Frage oder ein Problem beim Verwenden von AskYourPDF habe?"
 
 #: utils/faqData.tsx:91
 msgid "What if I have a question that the AI can't answer?"
-msgstr ""
+msgstr "Was ist, wenn ich eine Frage habe, die die KI nicht beantworten kann?"
 
 #: utils/faqData.tsx:13
 msgid "What is AskYourPDF?"
-msgstr ""
+msgstr "Was ist AskYourPDF?"
+
 
 #: components/tools/MergePage.tsx:675
 msgid "With our smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting."
@@ -1208,31 +1212,32 @@ msgstr "Durch intelligentes, automatisiertes Zusammenführen werden Ihre PDFs na
 
 #: utils/faqData.tsx:108
 msgid "Yes, AskYourPDF is accessible from any device with standard browsers and an internet connection."
-msgstr ""
+msgstr "Ja, AskYourPDF ist von jedem Gerät mit Standard-Browsern und Internetverbindung zugänglich."
 
 #: utils/faqData.tsx:82
 msgid "Yes, AskYourPDF is multilingual and supports chatting in any language of your choice."
-msgstr ""
+msgstr "Ja, AskYourPDF ist mehrsprachig und unterstützt das Chatten in jeder von Ihnen gewählten Sprache."
 
 #: utils/faqData.tsx:87
 msgid "Yes, chat history can be downloaded."
-msgstr ""
+msgstr "Ja, der Chat-Verlauf kann heruntergeladen werden."
 
 #: utils/faqData.tsx:47
 msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at <0>billing@askyourpdf.com</0> with details of your educational institution and enrolment."
-msgstr ""
+msgstr "Ja, es gibt derzeit jedoch keinen automatisierten Bewerbungsprozess. Wir stellen Ihnen einen Rabattcoupon zur Verfügung, wenn Sie uns unter <0>billing@askyourpdf.com</0> mit Angaben zu Ihrer Bildungseinrichtung und Immatrikulation kontaktieren."
 
 #: utils/faqData.tsx:45
 msgid "Yes, however, there isn't currently an automated application process. We will provide you with a discount coupon if you contact us at billing@askyourpdf.com with details of your educational institution and enrolment."
-msgstr ""
+msgstr "Ja, es gibt derzeit jedoch keinen automatisierten Bewerbungsprozess. Wir stellen Ihnen einen Rabattcoupon zur Verfügung, wenn Sie uns unter billing@askyourpdf.com mit Angaben zu Ihrer Bildungseinrichtung und Immatrikulation kontaktieren."
 
 #: utils/faqData.tsx:70
 msgid "Yes, the application is free to use, but with certain restrictions. An upgraded plan is required to explore the vast capabilities of AskYourPDF. Documents uploaded by Free users remain in our database for a maximum of 90 days before removal."
-msgstr ""
+msgstr "Ja, die Anwendung ist kostenlos, jedoch mit bestimmten Einschränkungen. Für das Erkunden der umfangreichen Funktionen von AskYourPDF ist ein Upgrade-Plan erforderlich. Dokumente, die von kostenlosen Benutzern hochgeladen werden, bleiben maximal 90 Tage vor der Entfernung in unserer Datenbank."
 
 #: utils/faqData.tsx:113
 msgid "Yes, the maximum file size for document uploads is 15MB for free users. However, Premium and Pro users can upload as high as 30MB and 90MB respectively. For larger file sizes, users need to contact us for the enterprise plan."
-msgstr ""
+msgstr "Ja, die maximale Dateigröße für das Hochladen von Dokumenten beträgt 15 MB für kostenlose Benutzer. Premium- und Pro-Benutzer können jedoch jeweils bis zu 30 MB bzw. 90 MB hochladen. Für größere Dateigrößen müssen Benutzer uns für den Unternehmensplan kontaktieren."
+
 
 #: components/tools/ToolsWaitlist.tsx:144
 msgid "You can now chat with multiple documents at once using our knowledge base"

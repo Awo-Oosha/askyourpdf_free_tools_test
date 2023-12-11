@@ -1,6 +1,7 @@
 import React from "react";
 import LyricsGen from "@/img/AI-Paragraph-Generator.png";
-import {t, Trans} from "@lingui/macro";
+import { msg } from "@lingui/macro";
+import { useLingui } from "@lingui/react";
 import { GetStaticProps } from "next";
 import {loadCatalog} from "@/utils/i18n";
 import Navbar from "@/components/Navbar";
@@ -26,18 +27,19 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
 
 const BookTitleGenerator = () => {
+    const { _ } = useLingui();
     return (
         <div>
             <Navbar />
             <Hero
                 generator="BOOK_TITLE_GENERATOR"
                 params={GENERATOR_PARAMETERS.book_title_generator}
-                title={t`AI Book Title Generator`}
-                desc={t`Book Title Generator `}
+                title={_(msg`AI Book Title Generator`)}
+                desc={_(msg`Book Title Generator`)}
                 img={LyricsGen}
-                placeholder={t`Input some line here to begin `}
+                placeholder={_(msg`Input some line here to begin`)}
                 routerPath={'book-title-generator/generate'}
-                CtaTitle={t`Generate Book`}
+                CtaTitle={_(msg`Generate Book`)}
             />
             <LandingFAQ />
             <Footer />

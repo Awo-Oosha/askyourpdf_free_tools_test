@@ -364,7 +364,7 @@ export default function Hero(
                     </HeroHeadImage>
                       
                       <h1>
-                        <Trans>{title}</Trans>
+                        {title}
                       </h1>
                       <p>
                         {desc}
