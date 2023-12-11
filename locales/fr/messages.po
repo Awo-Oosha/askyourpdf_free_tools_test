@@ -354,7 +354,7 @@ msgstr "Copié"
 
 #: utils/free_tools.ts:88
 msgid "Craft personalized and enchanting verses effortlessly with our AI Poem Generator. Unleash creativity in just a click."
-msgstr "弊社のAI詩生成器を使用して、簡単に個性的で魅力的な詩を作成してください。クリックひとつで創造力を解き放てます。"
+msgstr "Créez des vers personnalisés et enchanteurs sans effort avec notre générateur de poèmes IA. Libérez votre créativité en un seul clic."
 
 #: components/literature-review/LiteratureSideBar.tsx:383
 msgid "Date Range"
