@@ -32,7 +32,7 @@ const ToolList = styled.div`
     padding-left: 25px;
     padding-right: 25px;
     width: 100%;
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     a {
       text-decoration: none;
       position: relative;
