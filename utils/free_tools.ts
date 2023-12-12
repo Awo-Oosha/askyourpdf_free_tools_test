@@ -40,34 +40,6 @@ export const FreeToolsData : free_tools_data[] = [
     link: path.literatureReview
   },
   {
-    icon: SplitIcon,
-    target: "_blank",
-    title: msg`PDF Splitter`,
-    desc: msg`Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks.`,
-    link: path.split
-  },
-  {
-    icon: MergeIcon,
-    target: "_blank",
-    title: msg`PDF Merger`,
-    desc: msg`With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting.`,
-    link: path.merge
-  },
-  // {
-  //   icon: CompressIcon,
-  //   target: "_blank",
-  //   title: msg`PDF Compressor`,
-  //   desc: msg`Effortlessly shrink PDFs for quicker sharing and storage, while preserving quality, all with the precision of AI.`,
-  //   link: ""
-  // },
-  {
-    icon: ScanIcon,
-    target: "_blank",
-    title: msg`OCR PDF Reader`,
-    desc: msg`Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader.`,
-    link: path.ocr
-  },
-  {
     icon: SourceIcon,
     target: "_blank",
     title: msg`Source Tool`,
@@ -143,5 +115,33 @@ export const FreeToolsData : free_tools_data[] = [
     title: msg`AI Text Generator`,
     desc: msg`Transform ideas into text effortlessly. Our AI Text Generator crafts diverse and engaging content, making creativity and productivity seamless.`,
     link: path.text
-  }
+  },
+  {
+    icon: SplitIcon,
+    target: "_blank",
+    title: msg`PDF Splitter`,
+    desc: msg`Let artificial intelligence do the work as it divides your PDF documents into separate files, saving you time and streamlining your document management tasks.`,
+    link: path.split
+  },
+  {
+    icon: MergeIcon,
+    target: "_blank",
+    title: msg`PDF Merger`,
+    desc: msg`With smart, automated merging, your PDFs are unified seamlessly into a single, cohesive document while maintaining quality and formatting.`,
+    link: path.merge
+  },
+  // {
+  //   icon: CompressIcon,
+  //   target: "_blank",
+  //   title: msg`PDF Compressor`,
+  //   desc: msg`Effortlessly shrink PDFs for quicker sharing and storage, while preserving quality, all with the precision of AI.`,
+  //   link: ""
+  // },
+  {
+    icon: ScanIcon,
+    target: "_blank",
+    title: msg`OCR PDF Reader`,
+    desc: msg`Transform scanned or image-based PDFs into editable and searchable text with our AI powered OCR PDF Reader.`,
+    link: path.ocr
+  },
 ] 
