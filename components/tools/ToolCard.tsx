@@ -69,7 +69,7 @@ const ToolIconContainer = styled.div`
   position: absolute;
   width: 64px;
   height: 64px;
-  top: -35px;
+  top: -30px;
 `;
 
 const ToolDesc = styled.p`

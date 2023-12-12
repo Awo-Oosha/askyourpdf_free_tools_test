@@ -1,10 +1,9 @@
 import type { NextPage, GetStaticProps } from "next";
 import { loadCatalog } from "@/utils/i18n";
-import React, { useRef } from "react";
+import React from "react";
 import { PAGE_DESCRIPTION, PAGE_TITLE, path } from "@/routes";
 import { MAIN_APP_URL } from "@/config/config";
 import dynamic from "next/dynamic";
-import FullLoader from "@/components/tools/FullLoader";
 import ToolsPage from "@/components/tools/MainPage";
 const MainPage = dynamic(() => import('@/components/tools/MainPage'), {
   ssr: false,
