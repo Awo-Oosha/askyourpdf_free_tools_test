@@ -88,7 +88,7 @@ export default function LanguageSelect({lang} : any) {
         }}
       >
           <CTA>
-            {locale} <ArrowDownOutlined style={{ fontSize: '20px'}}/>
+            {locale} <ArrowDownOutlined style={{ fontSize: '15px'}}/>
           </CTA>
       </Dropdown>
     </>
