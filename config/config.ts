@@ -63,7 +63,7 @@ function getURL() {
             MAIN_APP_URL: "http://localhost:3000",
             CURRENT_ENV: "development",
             OG_IMAGE_URL: "https://imagedelivery.net/hYJU-PhERMuLWB8TBRFWpw",
-            TOOLS_GEN_URL: "https://tools.askyourpdf.com"
+            TOOLS_GEN_URL: "http://127.0.0.1:6300"
         },
     };
     const env = process.env.NEXT_PUBLIC_MY_ENV || "production";
