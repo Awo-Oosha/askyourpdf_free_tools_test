@@ -17,9 +17,9 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     return {
         props: {
             translation,
-            description: PAGE_DESCRIPTION[path.sourceTool],
-            canonicalUrl: `${MAIN_APP_URL}${path.sourceTool}`,
-            title: PAGE_TITLE[path.sourceTool],
+            description: PAGE_DESCRIPTION[path.thesis],
+            canonicalUrl: `${MAIN_APP_URL}${path.thesis}`,
+            title: PAGE_TITLE[path.thesis],
             imageUrl: "/6201447e-3545-4eb4-334d-cadf31496100/public"
         },
     };
