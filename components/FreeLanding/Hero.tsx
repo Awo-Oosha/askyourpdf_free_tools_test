@@ -38,7 +38,7 @@ const HeroContainer = styled.section<{ $backgroundImage?: string }>`
   }
 
   @media (min-width: 576px) {
-    padding-block: 100px;
+    padding-block: 150px;
     background-color: #0a0a0a;
   }
 

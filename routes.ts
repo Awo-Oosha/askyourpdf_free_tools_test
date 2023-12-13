@@ -71,16 +71,16 @@ export const PAGE_TITLE = {
     [`${path.merge}`]: "Best Online PDF Merger Tool",
     [`${path.split}`]: "Best PDF Splitter Online",
     [`${path.literatureReview}`]: "AI-Powered Literature Review Generator",
-    [`${path.lyrics}`]: "Lyrics Generator | Songwriting Tool",
-    [`${path.rap}`]: "Rap Generator | Rhyme and Flow",
-    [`${path.instagram}`]: "Caption Generator | Instagram",
-    [`${path.poem}`]: "Poem Generator | Express Emotions",
-    [`${path.thesis}`]: "Thesis Generator | Strong Statements",
-    [`${path.story}`]: "Story Generator | Creative Writing",
-    [`${path.book}`]: "Book Title Generator | Discover",
-    [`${path.essay}`]: "Essay Maker | Effortless Writing",
-    [`${path.text}`]: "Text Generator | AI-Powered",
-    [`${path.paragraph}`]: "Paragraph Generator | Writing Aid"
+    [`${path.lyrics}`]: "AI Lyrics Generator |   AI Songwriting Tool",
+    [`${path.rap}`]: "AI Rap Generator | AI Rhyme and Flow",
+    [`${path.instagram}`]: "AI Caption Generator | AI Instagram",
+    [`${path.poem}`]: "AI Poem Generator | Express Emotions",
+    [`${path.thesis}`]: "AI Thesis Generator | Strong Statements",
+    [`${path.story}`]: "AI Story Generator | Creative Writing",
+    [`${path.book}`]: "AI Book Title Generator | Discover",
+    [`${path.essay}`]: "AI Essay Maker | Effortless Writing",
+    [`${path.text}`]: "AI Text Generator | AI-Powered",
+    [`${path.paragraph}`]: "AI Paragraph Generator | AI Writing Aid"
     
 };
 
