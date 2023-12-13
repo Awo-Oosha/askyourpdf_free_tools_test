@@ -11,28 +11,22 @@ import CopyToClipboard from "react-copy-to-clipboard";
 import { alerts } from "@/utils/alerts";
 import { removeMarkdown } from "@/utils/utils";
 import { Input } from "antd";
-import UploadIcon from "@/img/uploadCloud.svg?url";
-import ConfigIcon from "@/img/SettingsConfig.svg?url";
 import { useMedia } from "react-use";
-import TextArea from "antd/es/input/TextArea";
-import { ChangeEvent, useState } from "react";
-import ToolsExport from "../Modals/ExportSourceTools";
 
 const LiteratureContainer = styled.div`
-width: 70%;
-@media (max-width: 768px) {
-  width: 100%;
-}
-input[type="file"] {
-  display: none;
-}
-.restart{
-  font-family:Satoshi;
-  margin-top:15px;
-  button{
-    margin-top:5px;
+  @media (min-width: 992px) {
+    margin-right: 21px;
+    height: 100%;
   }
-}
+  width: 100%;
+  font-family: var(--font-satoshi);
+  position: relative;
+  margin-bottom: 11px;
+  border-radius: 16px;
+  border: 1px solid rgba(47, 43, 67, 0.1);
+  background: #f9f9fa;
+  display: flex;
+  flex-direction: column;
 `;
 
 const LiteratureReviewContent = styled.div`
@@ -89,37 +83,29 @@ const Text = styled.div`
   }
 `;
 
-const ChatFooter = styled.div`
-display: flex;
-align-items: center;
-flex-direction: column;
-padding: 16px 0px;
-p {
-  color: #344054;
-  font-family: var(--font-satoshi);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-}
-span {
-  color: #475467;
-  font-family: var(--font-satoshi);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-}
+const ChatFooter = styled(Footer)`
+  padding-inline: 1rem;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+
+  @media (min-width: 576px) {
+    padding-inline: 24px;
+  }
+  position: sticky;
+  bottom: 0;
+  margin-top: auto;
 `;
 
 const MessageForm = styled.form`
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 8px;
-  border-radius: 12px;
-  padding-inline: 14px;
-  padding-left: 0;
+  align-items: center;
+  position: relative;
+  /* gap: 8px; */
+  /* border: 1px solid #98a2b3; */
+  /* border-radius: 12px; */
+  /* padding-inline: 14px;
+  padding-left: 0; */
+
   .inputClass {
     width: 100%;
     border: none;
@@ -132,22 +118,51 @@ const MessageForm = styled.form`
     font-weight: 400;
     line-height: 24px;
   }
+
+  button {
+    position: absolute;
+    right: 14px;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    img {
+      display: block;
+    }
+  }
+
+  .ant-input {
+    border-radius: 8px !important;
+    border: 1px solid #e4e7ec !important;
+    background: #fff !important;
+    color: #667085 !important;
+    font-family: var(--font-satoshi) !important;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .ant-input-affix-wrapper {
+    border-color: transparent !important;
+    border-inline-end-width: 2px !important;
+    box-shadow: none;
+
+    &:hover {
+      border-color: transparent !important;
+      border-inline-end-width: 2px !important;
+    }
+  }
 `;
 
 const MessageInputContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 4px;
-  width: 100%;
 
   ${MessageForm} {
     width: 100%;
   }
-  textarea.ant-input {
-    height: 150px !important;
-    padding: 12px 14px !important;
-    border-radius: 8px !important;
-  }
+
   .input__count {
     align-self: flex-end;
     margin-right: 4px;
@@ -156,48 +171,23 @@ const MessageInputContainer = styled.div`
     font-weight: 400;
     font-family: var(--font-satoshi);
   }
-`;
-
-const MessageInput = styled(TextArea)`
-  padding-inline: 11px;
-  color: #000000;
-  font-size: 16px !important;
-  font-family: var(--font-satoshi);
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal !important;
-  letter-spacing: -0.32px;
-  padding-block: 10px;
-  border-radius: 8px;
-  border: 1px solid #d0d5dd;
-  background: #fff;
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-
-  &::placeholder {
-    font-size: 16px;
-    color: #667085;
+  textarea.ant-input {
+    border: none !important;
   }
 `;
 
 const ContentHeader = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 0px 0px;
+  border-bottom: 0.5px solid #e4e7ec;
+  padding: 15px 30px;
 
   .copyAndExport {
-    width:100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
-    .resTitle{
-      font-family: Satoshi;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-      width:calc(100% - 150px);
-    }
     button {
       background: none;
       border: 0;
@@ -206,9 +196,6 @@ font-weight: 700;
     .copy {
       cursor: pointer;
       margin-right: 10px;
-      border-radius: 6px;
-      border: 1px solid #616d7f;
-      padding: 5px 14px;
     }
     .export {
       cursor: pointer;
@@ -237,262 +224,142 @@ const SpinnerContainer = styled.div`
   align-items: center;
 `;
 
-
-const ConfigurationSection = styled.div`
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 16px;
-`;
-
-export const SourceSubmitButton = styled.button`
+const MessageInput = styled(Input)`
+  border: none;
   border-radius: 12px;
-  border: 1px solid #101828;
-  background: #101828;
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-  display: flex;
-  padding: 12px 20px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  color: #fff;
+  padding: 10px 14px 10px 11px;
+  color: #000000;
+  font-size: 16px !important;
   font-family: var(--font-satoshi);
-  font-size: 16px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  cursor: pointer;
-  &:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
+  font-weight: 500;
+  line-height: normal !important;
+  letter-spacing: -0.32px;
+  height: 44px;
+  &::placeholder {
+    font-size: 14px;
+    color: #8a91a8;
   }
-`;
-const ConfigurationButton = styled.div`
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  p {
-    color: #a87d12;
-    font-family: var(--font-satoshi);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    padding-left: 8px;
-  }
-`;
-const SourceUploadButton = styled.label`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  border: 1px solid #f7db96;
-  background: #fdf7e8;
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-  padding: 10px 18px;
-  width: max-content;
-  cursor: pointer;
-  p {
-    color: #a87d12;
-    font-family: var(--font-satoshi);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    padding-left: 8px;
-  }
+
+  /* 
+  &:hover {
+    border-color: #e8ecef !important;
+    border-inline-end-width: 2px !important;
+  } */
 `;
 
 const ConversationMarkdown = dynamic(
     () => import("@/components/ConversationMarkdown"),
     {
-      loading: () => (
-          <SpinnerContainer>
-            <Spinner style={{ width: "64px" }} />
-          </SpinnerContainer>
-      ),
+        loading: () => (
+            <SpinnerContainer>
+                <Spinner style={{ width: "64px" }} />
+            </SpinnerContainer>
+        ),
     }
 );
-const TEXT_MAX_LENGTH = 10000;
+
 type props = {
-  literatureText: string;
-  literatureInput: string;
-  setLiteratureInput: any;
-  isTyping: boolean;
-  setShowConfigurationModal:any
-  exportPDF: () => void;
-  handleLiteratureText: (
-      literature_text: string,
-      fromYear?: number,
-      toYear?: number
-  ) => void;
+    literatureText: string;
+    literatureInput: string;
+    setLiteratureInput: any;
+    isTyping: boolean;
+    exportPDF: () => void;
+    handleLiteratureText: (
+        literature_text: string,
+        fromYear?: number,
+        toYear?: number
+    ) => void;
 };
 
 const LiteratureMainBar = ({
-                             literatureText,
-                             literatureInput,
-                             setLiteratureInput,
-                             isTyping,
-                             setShowConfigurationModal,
-                             exportPDF,
-                             handleLiteratureText,
+                               literatureText,
+                               literatureInput,
+                               setLiteratureInput,
+                               isTyping,
+                               exportPDF,
+                               handleLiteratureText,
                            }: props) => {
-  const [isProcessing,setProcessing] =  useState(false);
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
 
-    handleLiteratureText(literatureInput);
-    setProcessing(true);
-  };
-
-  const handleFileUpload = (e: ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.onload = (e) => {
-        const content = e.target?.result as string;
-        setLiteratureInput(content.substring(0, TEXT_MAX_LENGTH));
-      };
-
-      reader.readAsText(file);
-    }
-  };
-  return (
-      <LiteratureContainer>
-       {isProcessing===false?(<> <SourceUploadButton htmlFor="file-upload">
-        <Image src={UploadIcon} alt="Upload" />
-        <p>
-          <Trans>Upload text file</Trans>
-        </p>
-      </SourceUploadButton>
-      <input
-        id="file-upload"
-        accept=".txt"
-        onChange={handleFileUpload}
-        type="file"
-      />
-        <ChatFooter>
-            <MessageInputContainer>
-              <MessageForm onSubmit={handleSubmit}>
-              <p>
-              <Trans>Description</Trans>
-            </p>
-                <MessageInput
-                    placeholder="Enter research topic here"
-                    value={literatureInput}
-                    onChange={(e) => {
-                      setLiteratureInput(e.target.value);
-                    }}
-                    onKeyDown={(e) => {
-                      if ((e.ctrlKey || e.metaKey) && e.key === "Enter") {
-                        e.preventDefault();
-                        handleSubmit(e);
-                      }
-                    }}
-                />
-                   <div className="buttom-button">
-              <span>
-                <Trans>Maximum of 10000 characters</Trans>
-              </span>
-            </div>
-            <ConfigurationSection>
-              <ConfigurationButton
-                onClick={() => {
-                  setShowConfigurationModal(true);
-                }}
-              >
-                <Image src={ConfigIcon} alt="" />
-                <p>
-                  <Trans>Advanced settings</Trans>
-                </p>
-              </ConfigurationButton>
-              <SourceSubmitButton
-                type="submit"
-                disabled={isTyping || literatureInput.length === 0}
-              >
-                <Trans>Review my work</Trans>
-              </SourceSubmitButton>
-            </ConfigurationSection>
-              </MessageForm>
-            </MessageInputContainer>
-          </ChatFooter></>):(
-            
-            <>
-            <ContentHeader>
-            {literatureText.length < 1 && (
-                <div className="title">
-                  <Trans>Output</Trans>
-                </div>
-            )}
-            {literatureText.length > 0 && (
-              
-                <div className="copyAndExport">
-                  <div className="resTitle">Content</div>
-                  <CopyToClipboard
-                      text={removeMarkdown(literatureText)}
-                      onCopy={() => {
-                        alerts.success(t`Copied`, t`Literature Review copied`);
-                      }}
-                  >
-                    <button className="copy">
-                      <Image src={CopyIcon} alt="" />
-                    </button>
-                  </CopyToClipboard>
-                  <button
-                      className="export"
-                      onClick={() => {
-                        exportPDF();
-                      }}
-                  >
-                    PDF <Image src={Export} alt="" />
-                  </button>
-                </div>
-            )}
-          </ContentHeader>
+        handleLiteratureText(literatureInput);
+    };
+    return (
+        <LiteratureContainer>
             <LiteratureReviewContent>
-        
-          <div className="body">
-            <Text>
-              {literatureText ? (
-                  <ConversationMarkdown answer={literatureText} />
-              ) : isTyping ? (
-                  <SpinnerContainer style={{ gap: "8px" }}>
-                    <p>
-                      <Trans>Your Review is being generated</Trans>
-                    </p>
-                    <Spinner style={{ width: "42px" }} />
-                  </SpinnerContainer>
-              ) : (
-                  <p className="review__placeholder">
-                    <Trans>Review will be displayed here</Trans>
-                  </p>
-              )}
-            </Text>
-            
-          </div>
-      
-      
-        </LiteratureReviewContent>
-        <div className="restart">
-        <h4>
-        <Trans>Start another review</Trans>
-      </h4>
-      <SourceSubmitButton
-        disabled={false}
-        onClick={() => {
-          setProcessing(false)
-        }}
-      >
-        <Trans>Begin new review</Trans>
-      </SourceSubmitButton>
-      </div>
-        </>
-        )}
-       
-      </LiteratureContainer>
-      
-  );
+                <ContentHeader>
+                    {literatureText.length < 1 && (
+                        <div className="title">
+                            <Trans>Output</Trans>
+                        </div>
+                    )}
+                    {literatureText.length > 0 && (
+                        <div className="copyAndExport">
+                            <CopyToClipboard
+                                text={removeMarkdown(literatureText)}
+                                onCopy={() => {
+                                    alerts.success(t`Copied`, t`Literature Review copied`);
+                                }}
+                            >
+                                <button className="copy">
+                                    <Image src={CopyIcon} alt="" />
+                                </button>
+                            </CopyToClipboard>
+                            <button
+                                className="export"
+                                onClick={() => {
+                                    exportPDF();
+                                }}
+                            >
+                                PDF <Image src={Export} alt="" />
+                            </button>
+                        </div>
+                    )}
+                </ContentHeader>
+                <div className="body">
+                    <Text>
+                        {literatureText ? (
+                            <ConversationMarkdown answer={literatureText} />
+                        ) : isTyping ? (
+                            <SpinnerContainer style={{ gap: "8px" }}>
+                                <p>
+                                    <Trans>Your Review is being generated</Trans>
+                                </p>
+                                <Spinner style={{ width: "42px" }} />
+                            </SpinnerContainer>
+                        ) : (
+                            <p className="review__placeholder">
+                                <Trans>Review will be displayed here</Trans>
+                            </p>
+                        )}
+                    </Text>
+                </div>
+                <ChatFooter>
+                    <MessageInputContainer>
+                        <MessageForm onSubmit={handleSubmit}>
+                            <MessageInput
+                                placeholder="Enter research topic here"
+                                value={literatureInput}
+                                onChange={(e) => {
+                                    setLiteratureInput(e.target.value);
+                                }}
+                                onKeyDown={(e) => {
+                                    if ((e.ctrlKey || e.metaKey) && e.key === "Enter") {
+                                        e.preventDefault();
+                                        handleSubmit(e);
+                                    }
+                                }}
+                            />
+                            <button type="submit">
+                                <Image src={Send} alt="" />
+                            </button>
+                        </MessageForm>
+                    </MessageInputContainer>
+                </ChatFooter>
+            </LiteratureReviewContent>
+        </LiteratureContainer>
+    );
 };
 
 export default LiteratureMainBar;
