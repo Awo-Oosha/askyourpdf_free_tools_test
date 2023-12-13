@@ -47,7 +47,7 @@ const Index: React.FC<IndexProps> = () => {
   } = useGenerateInput();
 
   useLayoutEffect(() => {
-    setGenerateAction("POEW_WRITER")
+    setGenerateAction("POEM_WRITER")
   }, [setGenerateAction])
 
   const { _ } = useLingui()

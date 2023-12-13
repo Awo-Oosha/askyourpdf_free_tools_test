@@ -195,7 +195,7 @@ const GeneratorMainBar = ({ generateResult, pdfTitle, isLoading, mainBarDesc }: 
 
   const [instance, updateInstance] = usePDF({
     document: ToolsPDFExport(
-      covertToItalics(removeMarkdown(generateResult)),
+      covertToItalics(removeMarkdown(apiData)),
       `${title}`
     ),
   });
@@ -203,11 +203,11 @@ const GeneratorMainBar = ({ generateResult, pdfTitle, isLoading, mainBarDesc }: 
   useEffect(() => {
     updateInstance(
       ToolsPDFExport(
-        covertToItalics(removeMarkdown(generateResult)),
+        covertToItalics(removeMarkdown(apiData)),
         `${title}`
       )
     );
-  }, [generateResult, title, updateInstance]);
+  }, [apiData, generateResult, title, updateInstance]);
 
   const exportPDF = () => {
     if (!instance.url) {
@@ -234,7 +234,7 @@ const GeneratorMainBar = ({ generateResult, pdfTitle, isLoading, mainBarDesc }: 
         <GenerateActions>
           <div className="copyAndExport">
             <CopyToClipboard
-              text={removeMarkdown(generateResult)}
+              text={removeMarkdown(apiData)}
               onCopy={() => {
                 alerts.success(t`Copied`, t`Copied`);
               }}

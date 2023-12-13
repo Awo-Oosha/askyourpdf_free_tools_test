@@ -440,6 +440,10 @@ export function toSentenceCase(text: string) {
 }
 
 export function removeMarkdown(input: string): string {
+
+  if (input === undefined || input === null) {
+    return ""; // Or handle the case as appropriate
+  }
   // Remove inline code blocks (backticks)
   const withoutCodeBlocks = input.replace(/`[^`]+`/g, "");
 
