@@ -28,7 +28,7 @@ import dynamic from "next/dynamic";
 
 const BottomNavigation = dynamic(() => import('@/components/tools/ToolCommon'), {
   ssr: false,
-});
+}); 
 
 const MyLayout = styled(Layout)`
   background: #f6f6f8 !important;
@@ -44,7 +44,7 @@ const MyLayout = styled(Layout)`
   }
 `;
 const LiteratureHeader = styled(Layout)`
-  background: #f6f6f8 !important;
+  background: #F6F6F8 !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,32 +121,33 @@ const BackToTools = styled(Link)`
 `;
 
 const LiteratureLayout = styled(Layout)`
-  border-radius: 18px;
-  border: 1px solid rgba(47, 43, 67, 0.1);
-  background: #fff;
-  padding: 62px 30px;
-  margin: 0px 45px;
-  z-index: 1;
+border-radius: 18px;
+border: 1px solid rgba(47, 43, 67, 0.1);
+background: #fff;
+padding: 62px 30px;
+margin: 0px 45px;
+z-index: 3;
 
-  @media (max-width: 768px) {
-    padding: 0px;
-    margin: 0px 20px;
-    background-color: transparent;
-    border: none;
-  }
+@media (max-width: 768px) {
+  padding: 0px;
+  margin: 0px 16px;
+  background-color: transparent;
+  border: none;
+}
+
+.ant-layout-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
   .ant-layout-content {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
   }
-
-  @media (min-width: 992px) {
-    .ant-layout-content {
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-    }
-  }
+}
 `;
 
 const ResultContainer = styled.div`
@@ -188,19 +189,21 @@ const Literature = () => {
 
   const [literatureInput, setLiteratureInput] = useState("");
   const [literatureText, setLiteratureText] = useState("");
+  const [showProgressModal, setShowProgressModal] = useState(false);
   const [docID, setDocID] = useState("");
   const [isTyping, setIsTyping] = useState(false);
+  const [isOpen,setOpen] = useState(false);
   const [literatureYearFrom, setLiteratureYearFrom] = useState<
-      number | undefined
+    number | undefined
   >();
   const [literatureYearTo, setLiteratureYearTo] = useState<
-      number | undefined
+    number | undefined
   >();
 
   const [instance, updateInstance] = usePDF({
     document: ToolsPDFExport(
-        covertToItalics(removeMarkdown(literatureText)),
-        "Literature Review"
+      covertToItalics(removeMarkdown(literatureText)),
+      "Literature Review"
     ),
   });
 
@@ -208,78 +211,83 @@ const Literature = () => {
 
   useEffect(() => {
     updateInstance(
-        ToolsPDFExport(
-            covertToItalics(removeMarkdown(literatureText)),
-            "Literature Review"
-        )
+      ToolsPDFExport(
+        covertToItalics(removeMarkdown(literatureText)),
+        "Literature Review"
+      )
     );
   }, [literatureText]);
 
   function handleLiteratureText(
-      literature_text: string,
-      fromYear?: number,
-      toYear?: number
+    literature_text: string,
+    fromYear?: number,
+    toYear?: number
   ) {
     if (literature_text.length < 1) {
       alerts.error(
-          t`Warning`,
-          "Please enter Research Topic you want to review",
-          2000
+        t`Warning`,
+        "Please enter Research Topic you want to review",
+        2000
       );
       return;
     }
     setLiteratureText("");
     setIsTyping(true);
-
+    setShowProgressModal(true);
     try {
       timeoutPromise(
-          literatureReviewText(
-              literature_text,
-              textSignal,
-              literatureYearFrom,
-              literatureYearTo
-          ),
-          60000,
-          timeoutError
+        literatureReviewText(
+          literature_text,
+          textSignal,
+          literatureYearFrom,
+          literatureYearTo
+        ),
+        60000,
+        timeoutError
       )
-          .then((response) => {
-            const reader = response.body?.getReader();
-            const decoder = new TextDecoder("utf-8");
+        .then((response) => {
+          const reader = response.body?.getReader();
+          const decoder = new TextDecoder("utf-8");
 
-            let message: string = "";
+          let message: string = "";
 
-            function processText({ done, value }: any) {
-              if (done) {
-                setIsTyping(false);
-                return;
-              }
-
-              const chunk = decoder.decode(value);
-              message += chunk;
-              setLiteratureText(message);
-
-              reader?.read().then(processText);
+          function processText({ done, value }: any) {
+            if (done) {
+              setIsTyping(false);
+              setShowProgressModal(false);
+              return;
             }
 
-            reader
-                ?.read()
-                .then(processText)
-                .catch((err: any) => {
-                  let errorMessage = "Request timed out. Please try again";
-                  textAbortController.abort();
-                  alerts.error(t`Review Failed`, errorMessage, 8000);
-                  setIsTyping(false);
-                });
-          })
-          .catch((err: any) => {
-            let errorMessage = t`Failed to review text. Please try again`;
-            if (err === timeoutError) {
+            const chunk = decoder.decode(value);
+            message += chunk;
+            setLiteratureText(message);
+
+            reader?.read().then(processText);
+          }
+
+          reader
+            ?.read()
+            .then(processText)
+            .catch((err: any) => {
+              let errorMessage = "Request timed out. Please try again";
               textAbortController.abort();
-              errorMessage = t`Request timed out. Please try again`;
-            }
-            alerts.error(t`Review Failed`, errorMessage, 8000);
-            setIsTyping(false);
-          });
+              alerts.error(t`Review Failed`, errorMessage, 8000);
+              setIsTyping(false);
+              setShowProgressModal(false);
+
+            });
+        })
+        .catch((err: any) => {
+          let errorMessage = t`Failed to review text. Please try again`;
+          if (err === timeoutError) {
+            textAbortController.abort();
+            errorMessage = t`Request timed out. Please try again`;
+          }
+          alerts.error(t`Review Failed`, errorMessage, 8000);
+          setIsTyping(false);
+          setShowProgressModal(false);
+
+        });
     } catch (err) {
       setIsTyping(false);
     }
@@ -296,16 +304,16 @@ const Literature = () => {
 
     if (docID && documents) {
       const documentsList = documents?.pages?.flatMap(
-          (document: any) => document?.documents
+        (document: any) => document?.documents
       );
       const currentDocument = documentsList.find(
-          (document: any) => document.doc_id === docID
+        (document: any) => document.doc_id === docID
       );
 
       if (currentDocument) {
         filename = `${currentDocument.name.replace(
-            /\s+/g,
-            "_"
+          /\s+/g,
+          "_"
         )}_literature_${currentTimestamp}.pdf`;
       }
     }
@@ -327,65 +335,69 @@ const Literature = () => {
   }, [literatureInput]);
   const isSmallScreen = useMedia("(min-width: 576px)", false);
   return (
-      <MyLayout>
-        <Navbar />
-        <LiteratureHeader>
-          <div className="heroImage">
-            {isSmallScreen && (
-                <Image src={HeroImage} alt="Hero" priority={true} sizes="100vw" />
-            )}
-          </div>
-          <BackToTools href="./">
-            <Image src={ArrowLeft} alt="" />
-            <p>
-              <Trans>Back to tools</Trans>
-            </p>
-          </BackToTools>
-          <h1>
-            <Trans>AI Literature Review Writer Tool</Trans>
-          </h1>
-          <p>
-            <Trans>
-              Save Time and Effort with an AI-Powered Literature Review Writer.
-              Streamline research, generate structured summaries, and create
-              cohesive and comprehensive reviews that elevate your academic work. Powered by AI.
-            </Trans>
-          </p>
-        </LiteratureHeader>
-        <LiteratureLayout>
-          {literatureText.length > 0 && (
-              <ResultContainer>
-                <ResultBox>
-                  <p>
-                    <Trans>Results for</Trans> "{literatureInput}"
-                  </p>
-                </ResultBox>
-              </ResultContainer>
+    <MyLayout>
+      <Navbar />
+      <LiteratureHeader>
+        <div className="heroImage">
+          {isSmallScreen && (
+            <Image src={HeroImage} alt="Hero" priority={true} sizes="100vw" />
           )}
-          <Content>
-            <LiteratureMainBar
-                literatureText={literatureText}
-                literatureInput={literatureInput}
-                setLiteratureInput={setLiteratureInput}
-                isTyping={isTyping}
-                exportPDF={exportPDF}
-                handleLiteratureText={handleLiteratureText}
-            />
-            <LiteratureSideBar
-                isTyping={isTyping}
-                docID={docID}
-                setDocID={setDocID}
-                literatureYearTo={literatureYearTo}
-                setLiteratureYearTo={setLiteratureYearTo}
-                literatureYearFrom={literatureYearFrom}
-                setLiteratureYearFrom={setLiteratureYearFrom}
-            />
-          </Content>
-        </LiteratureLayout>
-        <BottomNavigation/>
-        <Footer />
-      </MyLayout>
+        </div>
+        <BackToTools href="./">
+          <Image src={ArrowLeft} alt="" />
+          <p>
+            <Trans>Back to tools</Trans>
+          </p>
+        </BackToTools>
+        <h1>
+          <Trans>AI Literature Review Writer Tool</Trans>
+        </h1>
+        <p>
+          <Trans>
+            Save Time and Effort with an AI-Powered Literature Review Writer.
+            Streamline research, generate structured summaries, and create
+            cohesive and comprehensive reviews that elevate your academic work. Powered by AI.
+          </Trans>
+        </p>
+      </LiteratureHeader>
+      <LiteratureLayout>
+        {literatureText.length > 0 && (
+          <ResultContainer>
+            <ResultBox>
+              <p>
+                <Trans>Results for</Trans> "{literatureInput}"
+              </p>
+            </ResultBox>
+          </ResultContainer>
+        )}
+        <Content>
+          <LiteratureMainBar
+            literatureText={literatureText}
+            literatureInput={literatureInput}
+            setLiteratureInput={setLiteratureInput}
+            isTyping={isTyping}
+            exportPDF={exportPDF}
+            handleLiteratureText={handleLiteratureText}
+            setShowConfigurationModal={setOpen}
+          />
+          {isOpen==true?(<LiteratureSideBar
+            isTyping={isTyping}
+            setOpen={setOpen}
+            open={isOpen}
+            docID={docID}
+            setDocID={setDocID}
+            literatureYearTo={literatureYearTo}
+            setLiteratureYearTo={setLiteratureYearTo}
+            literatureYearFrom={literatureYearFrom}
+            setLiteratureYearFrom={setLiteratureYearFrom}
+          />):(<></>)}
+        </Content>
+      </LiteratureLayout>
+      <BottomNavigation/>
+      <Footer />
+    </MyLayout>
   );
 };
 
 export default Literature;
+
